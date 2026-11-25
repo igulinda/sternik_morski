@@ -75,7 +75,7 @@
 
   /* ---------- pomocnicze ---------- */
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
   const shuffle = (a) => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
 
   function theoryBlock(b) {
@@ -175,6 +175,7 @@
       <div class="progress-line" style="margin-top:8px"><span>Ukończone ${s.done} / ${s.total}</span><span>${c.lessonTitle && c.lessonTitle !== s.title ? esc(c.lessonTitle) : ''}</span></div>
       <div class="bar" style="margin-bottom:12px"><span style="width:${Math.round(100 * s.done / s.total)}%"></span></div>
       <div class="card-box flash">
+        ${c.isTask ? '<div class="task-badge">🧮 Zadanie – policz na kartce, potem sprawdź</div>' : ''}
         <div class="q">${md(c.q)}</div>
         ${!back && c.qVisual ? V.render(c.qVisual) : ''}
         ${back ? `${aVis ? V.render(aVis) : ''}
@@ -223,7 +224,14 @@
         <button class="btn primary" id="again">Powtórz jeszcze raz</button></div>`;
     document.getElementById('again').onclick = () => startSession(shuffle(s.original), s.title, s.backHref, s.meta);
   }
-  function lessonCards(ls) { return ls.cards.map((c) => ({ ...c, lessonTitle: ls.title })); }
+  // fiszki-zadania (gen) dostają przy każdej sesji nowe, losowe dane
+  function lessonCards(ls) {
+    return ls.cards.map((c) => {
+      const base = { ...c, lessonTitle: ls.title };
+      if (c.gen && window.Generators) Object.assign(base, window.Generators.make(c.gen), { isTask: true });
+      return base;
+    });
+  }
 
   function viewCards(id) {
     const ls = findLesson(id);

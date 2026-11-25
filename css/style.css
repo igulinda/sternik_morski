@@ -172,3 +172,5 @@ form .btn { margin-top: 16px; }
 .hist-score { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .hist-score small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
 .g-ok { color: var(--ok); } .g-mid { color: var(--mid); } .g-bad { color: var(--bad); }
+.task-badge { display: inline-block; font-size: .8rem; font-weight: 700; color: var(--primary); background: var(--surface-2); border-radius: 999px; padding: 3px 10px; margin: 0 auto 10px; width: auto !important; }
+.flash .explain { font-variant-numeric: tabular-nums; }

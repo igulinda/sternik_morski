@@ -1,0 +1,786 @@
+{
+ "level": 4,
+ "title": "Nawigacja i locja",
+ "lessons": [
+  {
+   "id": "L4-mapa",
+   "title": "Ziemia, współrzędne i mapa morska",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Pozycję na Ziemi opisują **współrzędne geograficzne**: **szerokość φ** (0–90° N lub S od równika) i **długość λ** (0–180° E lub W od południka Greenwich). Zapis: stopnie, minuty i dziesiąte części minuty, np. 54°32,4′N 018°33,7′E."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Mila morska** = 1 minuta łuku południka = 1852 m. Odległości mierzysz cyrklem na **bocznej ramce mapy** (skala szerokości), na wysokości mierzonego odcinka.",
+      "**Loksodroma** – linia przecinająca wszystkie południki pod tym samym kątem; na mapie Merkatora jest **linią prostą** – po niej wykreślamy kursy.",
+      "**Ortodroma** – najkrótsza droga po kuli ziemskiej (łuk koła wielkiego); na mapie Merkatora jest krzywą. Na krótkich jachtowych dystansach różnica jest pomijalna.",
+      "**Mapa Merkatora** – odwzorowanie walcowe wiernokątne: kąty i kierunki są prawdziwe, a skala rośnie z szerokością geograficzną.",
+      "**Skala mapy**: mapy generalne (mała skala, duży obszar), żeglugowe, podejściowe, plany portów (duża skala, najwięcej szczegółów). Do nawigacji przy brzegu i w porcie używaj map w **największej dostępnej skali**.",
+      "**Głębokości** na mapie podane są względem **poziomu odniesienia** (na morzach pływowych zwykle LAT – najniższa przewidywana woda; na Bałtyku – średni poziom morza). **Wysokości** obiektów i świateł – względem innego poziomu (zwykle wysokiej wody).",
+      "**Układ odniesienia** mapy (datum) musi zgadzać się z ustawieniem GPS – dziś standardem jest **WGS-84**."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Mile zawsze z ramki BOCZNEJ (szerokość), nigdy z górnej/dolnej (długość) – minuta długości maleje w stronę biegunów."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-m-01",
+     "q": "Co oznacza szerokość geograficzna i w jakim zakresie się ją podaje?",
+     "a": "Kąt (łuk południka) od równika do danego miejsca: 0–90° N lub S.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-m-02",
+     "q": "Co oznacza długość geograficzna i w jakim zakresie się ją podaje?",
+     "a": "Kąt (łuk równika) między południkiem zerowym (Greenwich) a południkiem danego miejsca: 0–180° E lub W.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-m-03",
+     "q": "Na której ramce mapy Merkatora mierzysz odległość w milach?",
+     "a": "Na bocznej (pionowej) ramce – skali szerokości, na wysokości mierzonego odcinka.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-m-04",
+     "q": "Czym jest loksodroma i jak wygląda na mapie Merkatora?",
+     "a": "Linią przecinającą wszystkie południki pod stałym kątem (stały kurs). Na mapie Merkatora jest linią prostą.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-m-05",
+     "q": "Czym jest ortodroma?",
+     "a": "Najkrótszą drogą między dwoma punktami na kuli ziemskiej (łuk koła wielkiego). Na mapie Merkatora jest krzywą.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-m-06",
+     "q": "Jaką cechę ma odwzorowanie Merkatora, ważną dla nawigacji?",
+     "a": "Jest wiernokątne – kąty i kierunki są zachowane, więc kurs i namiar wykreśla się prostą linią.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-m-07",
+     "q": "Do czego odnoszą się głębokości na mapie morskiej?",
+     "a": "Do poziomu odniesienia mapy (zero mapy) – na morzach pływowych zwykle LAT (najniższa przewidywana woda), na Bałtyku średni poziom morza.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-m-08",
+     "q": "Jakiej mapy używasz przy wejściu do portu?",
+     "a": "Mapy w największej dostępnej skali – planu portu / mapy podejściowej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-m-09",
+     "q": "Dlaczego trzeba sprawdzić datum (układ odniesienia) mapy przed naniesieniem pozycji z GPS?",
+     "a": "Bo pozycja GPS jest w układzie WGS-84; jeśli mapa ma inny datum, pozycja może być przesunięta (podaje się wtedy poprawkę w tytule mapy).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-m-10",
+     "q": "Ile mil morskich ma 1° szerokości, a ile 1′?",
+     "a": "1° = 60 Mm, 1′ = 1 Mm.",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L4-kompas",
+   "title": "Kompas, deklinacja i dewiacja",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Kompas magnetyczny nie wskazuje północy geograficznej. Między kursem z kompasu a kursem na mapie są **dwie poprawki**:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Deklinacja (d)** – kąt między północą rzeczywistą (geograficzną) a magnetyczną. Zależy od **miejsca i roku**. Odczytujesz ją z **róży kompasowej na mapie** i aktualizujesz o zmianę roczną.",
+      "**Dewiacja (δ)** – kąt między północą magnetyczną a kompasową, wywołany żelazem i elektryką **na jachcie**. Zależy od **kursu jachtu**. Odczytujesz ją z **tabeli dewiacji** danego kompasu.",
+      "**Poprawka całkowita Δ = δ + d.**"
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Kurs",
+      "Skrót",
+      "Wzór"
+     ],
+     "rows": [
+      [
+       "kompasowy",
+       "KK",
+       "odczyt z kompasu"
+      ],
+      [
+       "magnetyczny",
+       "KM",
+       "KM = KK + δ"
+      ],
+      [
+       "rzeczywisty",
+       "KR",
+       "KR = KM + d = KK + Δ"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Znaki**: poprawka wschodnia (**E**) = **„+”**, zachodnia (**W**) = **„−”**. Od kompasu do mapy (KK → KR) **dodajesz** poprawki ze znakiem; od mapy do kompasu (KR → KK) **odejmujesz** je. Tak samo przelicza się **namiary**: NR = NK + Δ."
+    },
+    {
+     "t": "tip",
+     "text": "„Kompas → Mapa: dodaj” (K→M, jak w alfabecie). Mapa → Kompas: odejmij. E = plus, W = minus."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dewiację sprawdza się, płynąc **nabieżnikiem** (dwa znaki w jednej linii) o znanym kierunku rzeczywistym, lub namierzając odległy obiekt.",
+      "Na mapie róża podaje np. „4°15′E 2015 (8′E)” = deklinacja 4°15′E w 2015 r., rośnie co rok o 8′ na wschód.",
+      "Ręczny **kompas namiarowy** używany z dala od metalu ma pomijalną dewiację – ale dewiacja kompasu sterowego zależy od kursu jachtu, nie od kierunku namiaru."
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-k-01",
+     "q": "Co to jest deklinacja magnetyczna i od czego zależy?",
+     "a": "Kąt między północą rzeczywistą a magnetyczną. Zależy od miejsca na Ziemi i od czasu (zmienia się co roku).",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-k-02",
+     "q": "Co to jest dewiacja i od czego zależy?",
+     "a": "Kąt między północą magnetyczną a kompasową, wywołany polem magnetycznym jachtu. Zależy od kursu jachtu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-k-03",
+     "q": "Skąd odczytasz deklinację, a skąd dewiację?",
+     "a": "Deklinację – z róży kompasowej na mapie (z aktualizacją o zmianę roczną). Dewiację – z tabeli lub wykresu dewiacji kompasu jachtu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-k-04",
+     "q": "Jakie znaki mają poprawki E i W?",
+     "a": "Wschodnia (E) = „+”, zachodnia (W) = „−”.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-k-05",
+     "q": "Napisz wzory łączące KK, KM i KR.",
+     "a": "KM = KK + δ; KR = KM + d; KR = KK + Δ, gdzie Δ = δ + d.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-k-06",
+     "q": "Jak najprościej sprawdzić dewiację kompasu na wodzie?",
+     "a": "Płynąc nabieżnikiem o znanym kierunku rzeczywistym i porównując go z odczytem kompasu (po uwzględnieniu deklinacji).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-k-07",
+     "q": "Od czego zależy dewiacja przy namiarze wziętym kompasem sterowym?",
+     "a": "Od kursu jachtu w chwili namiaru – nie od kierunku na namierzany obiekt.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-kompas-kr-1",
+     "gen": "kompas-kr",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-kompas-kr-2",
+     "gen": "kompas-kr",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-kompas-kk-1",
+     "gen": "kompas-kk",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-kompas-kk-2",
+     "gen": "kompas-kk",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-namiar-1",
+     "gen": "namiar",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-namiar-2",
+     "gen": "namiar",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-poprawka-1",
+     "gen": "poprawka",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-poprawka-2",
+     "gen": "poprawka",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-deklinacja-1",
+     "gen": "deklinacja",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-deklinacja-2",
+     "gen": "deklinacja",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L4-zliczenie",
+   "title": "Prędkość, dryf, prąd i nawigacja zliczeniowa",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Nawigacja zliczeniowa** to wyznaczanie pozycji na podstawie ostatniej pewnej pozycji, kursu, prędkości i czasu. Pozycja zliczona (**ZL**) jest tym mniej pewna, im dłużej płyniemy bez obserwacji."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Droga = prędkość × czas** (Mm = w × h). Zamieniaj minuty na godziny: 45 min = 0,75 h.",
+      "**Log** mierzy prędkość **po wodzie**; GPS podaje prędkość i kurs **nad dnem** (SOG, COG).",
+      "**Dryf (α)** – znoszenie jachtu przez wiatr. **Kąt drogi po wodzie KDw = KR + α**. Wiatr z lewej burty → dryf w prawo → α **„+”**; wiatr z prawej → α **„−”**.",
+      "**Znos (β)** – przesunięcie jachtu przez **prąd**. Kąt drogi nad dnem **KDd** wyznacza się graficznie (trójkąt prędkości: wektor jachtu + wektor prądu).",
+      "**Kierunek prądu** podaje się **dokąd płynie** („prąd 090°” płynie na wschód), a **kierunek wiatru – skąd wieje** („wiatr 090°” wieje ze wschodu).",
+      "Pozycje: **zliczona** (z kursu i prędkości), **obserwowana** (z obserwacji obiektów/GPS), **prawdopodobna** (zliczona z uwzględnieniem dryfu i prądu)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Prąd – DOKĄD płynie, wiatr – SKĄD wieje. To częsta pułapka na egzaminie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-z-01",
+     "q": "Co to jest pozycja zliczona?",
+     "a": "Pozycja wyznaczona z ostatniej pewnej pozycji, kursu, prędkości i upływu czasu – bez obserwacji.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-z-02",
+     "q": "Czym różni się prędkość z logu od prędkości z GPS?",
+     "a": "Log mierzy prędkość po wodzie, GPS – prędkość nad dnem (SOG). Różnica wynika z prądu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-z-03",
+     "q": "Prąd ma kierunek 090°. W którą stronę płynie woda?",
+     "a": "Na wschód – kierunek prądu podaje się DOKĄD płynie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-z-04",
+     "q": "Wiatr ma kierunek 090°. Skąd wieje?",
+     "a": "Ze wschodu – kierunek wiatru podaje się SKĄD wieje.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-z-05",
+     "q": "Co to jest dryf, a co znos?",
+     "a": "Dryf – znoszenie jachtu przez wiatr (kąt α). Znos – przesunięcie przez prąd (kąt β).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-z-06",
+     "q": "Jaki znak ma kąt dryfu przy wietrze z lewej burty?",
+     "a": "„+” – jacht jest znoszony w prawo, KDw = KR + α.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-z-07",
+     "q": "Co to jest pozycja prawdopodobna?",
+     "a": "Pozycja zliczona z uwzględnieniem dryfu i prądu (znosu).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-z-08",
+     "q": "Jak wyznacza się kąt drogi nad dnem przy znanym prądzie?",
+     "a": "Graficznie – trójkąt prędkości: od pozycji odkładasz wektor drogi jachtu po wodzie (KDw, prędkość × czas) i z jego końca wektor prądu (kierunek, prędkość × czas); wynik to droga nad dnem (KDd).",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-g-zliczenie-1",
+     "gen": "zliczenie",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-zliczenie-2",
+     "gen": "zliczenie",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-zliczenie-3",
+     "gen": "zliczenie",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-dryf-1",
+     "gen": "dryf",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-dryf-2",
+     "gen": "dryf",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-dryf-3",
+     "gen": "dryf",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L4-pozycja",
+   "title": "Pozycja obserwowana i linie pozycyjne",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Linia pozycyjna** to linia, na której na pewno leży jacht. Przecięcie dwóch lub więcej linii daje **pozycję obserwowaną**."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Namiar** – linia od obiektu w kierunku NR ± 180° (na mapie kreślisz namiar rzeczywisty).",
+      "**Nabieżnik** – dwa obiekty w jednej linii: najdokładniejsza linia pozycyjna, nie wymaga kompasu.",
+      "**Odległość** (z radaru, kąta pionowego) – okrąg wokół obiektu.",
+      "**Kąt poziomy** między dwoma obiektami – okrąg przechodzący przez oba obiekty.",
+      "**Izobata** z sondy – przybliżona linia pozycyjna."
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Dobór obiektów: najlepiej **dwa obiekty pod kątem ok. 90°** do siebie lub **trzy co ok. 60–120°**; bliższe obiekty dają mniejszy błąd.",
+      "Kolejność namiarów: najpierw obiekty bliżej dziobu/rufy (namiar zmienia się wolno), na końcu obiekt na trawersie (namiar zmienia się najszybciej).",
+      "Trzy namiary zwykle tworzą **trójkąt błędów**; duży trójkąt = błąd (zła identyfikacja obiektu, zła poprawka).",
+      "**Namiary nierównoczesne**: gdy widać jeden obiekt – bierzesz dwa namiary w odstępie czasu i **przesuwasz pierwszą linię** o drogę przebytą między namiarami.",
+      "**Bezpieczny namiar / linia** – namiar graniczny na obiekt, który wyznacza, po której stronie niebezpieczeństwa jesteś („nie mniej niż 045°”)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Nabieżnik > namiar > izobata. Z GPS pozycję też nanosisz na mapę co ustalony czas i porównujesz z obserwacją."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-p-01",
+     "q": "Co to jest linia pozycyjna?",
+     "a": "Linia (prosta lub okrąg), na której w chwili obserwacji znajduje się jacht.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-p-02",
+     "q": "Która linia pozycyjna jest najdokładniejsza i nie wymaga kompasu?",
+     "a": "Nabieżnik – dwa obiekty widziane w jednej linii.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-p-03",
+     "q": "Pod jakim kątem powinny przecinać się linie pozycyjne z dwóch namiarów?",
+     "a": "Możliwie bliskim 90°. Przy trzech namiarach – co ok. 60–120°.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p-04",
+     "q": "Który obiekt namierzasz jako ostatni przy kilku namiarach?",
+     "a": "Obiekt najbliżej trawersu – jego namiar zmienia się najszybciej.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p-05",
+     "q": "Jaką linią pozycyjną jest zmierzona odległość od obiektu?",
+     "a": "Okręgiem o środku w obiekcie i promieniu równym odległości.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-p-06",
+     "q": "Co oznacza duży trójkąt błędów przy trzech namiarach?",
+     "a": "Błąd: najczęściej zła identyfikacja obiektu, źle przyjęta poprawka kompasu lub nierównoczesne namiary przy dużej prędkości.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p-07",
+     "q": "Na czym polega pozycja z namiarów nierównoczesnych?",
+     "a": "Bierzesz dwa namiary na jeden obiekt w odstępie czasu; pierwszą linię pozycyjną przesuwasz równolegle o drogę (kurs i odległość) przebytą między namiarami. Przecięcie z drugim namiarem daje pozycję.",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-p-08",
+     "q": "Do czego służy bezpieczny namiar?",
+     "a": "Wyznacza granicę – utrzymując namiar na obiekt powyżej/poniżej ustalonej wartości, jacht pozostaje po bezpiecznej stronie niebezpieczeństwa.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p-09",
+     "q": "Jaki namiar wykreślasz na mapie?",
+     "a": "Namiar rzeczywisty NR (po poprawieniu namiaru kompasowego o Δ). Linia biegnie od obiektu w kierunku NR ± 180°.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L4-locja",
+   "title": "Locja: publikacje, znaki na mapach, wejście do portu",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Locja** to wiedza o akwenie: oznakowanie, niebezpieczeństwa, porty, przepisy lokalne. Najważniejsze **pomoce nawigacyjne**:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Publikacja",
+      "Co zawiera",
+      "Odpowiednik angielski"
+     ],
+     "rows": [
+      [
+       "Mapy morskie",
+       "linia brzegowa, głębokości, oznakowanie, niebezpieczeństwa",
+       "Admiralty Charts"
+      ],
+      [
+       "Spis świateł i sygnałów nawigacyjnych",
+       "latarnie, stawy, pławy z charakterystykami, sektory, zasięgi",
+       "Admiralty List of Lights"
+      ],
+      [
+       "Locja (opis akwenu)",
+       "opis wybrzeża, portów, podejść, przepisów lokalnych",
+       "Sailing Directions (Pilot)"
+      ],
+      [
+       "Spis radiostacji",
+       "stacje brzegowe, komunikaty meteo, kanały VHF portów",
+       "Admiralty List of Radio Signals"
+      ],
+      [
+       "Tablice pływów",
+       "czasy i wysokości HW/LW w portach",
+       "Admiralty Tide Tables"
+      ],
+      [
+       "Wiadomości Żeglarskie",
+       "bieżące poprawki do map i publikacji",
+       "Notices to Mariners"
+      ],
+      [
+       "Znaki i skróty",
+       "objaśnienia symboli na mapach",
+       "INT 1 / Chart 5011"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Korekta map**: mapy i publikacje poprawia się na podstawie **Wiadomości Żeglarskich** (Notices to Mariners); na mapie zapisuje się numer i rok poprawki.",
+      "Na mapie: **cyfry** w morzu = głębokości; **izobaty** = linie jednakowej głębokości; **wraki, skały, mielizny** – symbole wg INT 1; **obszary zastrzeżone** – linie przerywane z opisem.",
+      "Przy latarni zapis np. **Fl(3) WR 10s 15m 12M**: charakterystyka, kolory sektorów, okres, wysokość, zasięg nominalny."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Przygotowanie nawigacyjne wejścia do portu** (plan przed podejściem):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "mapa w największej skali i opis portu w locji,",
+      "głębokości toru i w porcie, zanurzenie jachtu, stan wody (pływ),",
+      "oznakowanie wejścia: światła, nabieżniki, sektory, główki,",
+      "ograniczenia: sygnały portowe, zakazy wejścia (np. przy silnym wietrze), ruch statków, obszary zakazane,",
+      "kanał VHF portu/kapitanatu, procedura zgłoszenia,",
+      "plan awaryjny i miejsce postoju (keja, kotwicowisko)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Wchodząc do portu nocą, ustal zawczasu kolejność świateł, które zobaczysz, i nabieżnik prowadzący – po zmroku obraz wybrzeża wygląda zupełnie inaczej."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-l-01",
+     "q": "W jakiej publikacji znajdziesz charakterystyki świateł latarni i pław?",
+     "a": "W spisie świateł i sygnałów nawigacyjnych (Admiralty List of Lights) – oraz skrótowo na mapie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-l-02",
+     "q": "Co zawiera locja (Sailing Directions / Pilot)?",
+     "a": "Opis akwenu: wybrzeża, portów i podejść, niebezpieczeństw, przepisów lokalnych, warunków hydrometeorologicznych.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-l-03",
+     "q": "Na podstawie czego poprawia się mapy i publikacje nawigacyjne?",
+     "a": "Na podstawie Wiadomości Żeglarskich (Notices to Mariners).",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-l-04",
+     "q": "Gdzie znajdziesz objaśnienia symboli i skrótów używanych na mapach?",
+     "a": "W publikacji INT 1 (Admiralty Chart 5011) – „Symbole i skróty na mapach morskich”.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-l-05",
+     "q": "Gdzie znajdziesz kanały VHF portów i godziny komunikatów meteo stacji brzegowych?",
+     "a": "W spisie radiostacji (Admiralty List of Radio Signals) oraz w locji.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-l-06",
+     "q": "Co to jest izobata?",
+     "a": "Linia na mapie łącząca punkty o jednakowej głębokości.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-l-07",
+     "q": "Odczytaj zapis przy latarni: Oc(2) R 8s 12m 9M",
+     "a": "Światło przerywane grupowe (2 zaciemnienia), czerwone, okres 8 s, wysokość 12 m, zasięg nominalny 9 Mm.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-l-08",
+     "q": "Wymień elementy przygotowania nawigacyjnego wejścia do portu.",
+     "a": "Mapa w największej skali i locja; głębokości i stan wody vs zanurzenie; oznakowanie i nabieżniki; ograniczenia i sygnały portowe; kanał VHF i zgłoszenie; plan awaryjny i miejsce postoju.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-l-09",
+     "q": "Dlaczego przy wejściu do portu nocą planuje się zawczasu kolejność świateł?",
+     "a": "Bo nocą wybrzeże wygląda inaczej – światła trzeba rozpoznać po charakterystykach i kolejności, a nabieżnik/sektor prowadzący ustalić przed podejściem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-l-10",
+     "q": "Jak oznacza się na mapie poprawkę naniesioną z Wiadomości Żeglarskich?",
+     "a": "Zapisuje się numer i rok wiadomości (zwykle w lewym dolnym marginesie mapy).",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L4-plywy",
+   "title": "Pływy i prądy pływowe",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Pływy** to okresowe podnoszenie i opadanie poziomu morza wywołane przyciąganiem Księżyca i Słońca. Na Bałtyku są znikome, ale na Morzu Północnym, w Kanale La Manche czy na Atlantyku – kluczowe dla bezpieczeństwa."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**HW** (wysoka woda), **LW** (niska woda); **przybór** – od LW do HW, **ubiór** (odpływ) – od HW do LW; zwykle 2 HW i 2 LW na dobę (cykl ok. 12 h 25 min).",
+      "**Rozstęp (zakres) pływu** – różnica wysokości HW i LW.",
+      "**Pływy syzygijne** (spring) – przy nowiu i pełni: największy rozstęp. **Kwadraturowe** (neap) – przy kwadrach Księżyca: najmniejszy.",
+      "**Wysokość pływu** – ponad zero mapy. **Głębokość rzeczywista = głębokość z mapy + wysokość pływu.**",
+      "**Port główny** (standard port) – ma pełne tablice HW/LW. **Port dołączony** (secondary port) – czasy i wysokości liczy się z portu głównego, dodając **poprawki** z tablic.",
+      "**Reguła dwunastek**: w kolejnych godzinach przyboru woda podnosi się o 1/12, 2/12, 3/12, 3/12, 2/12, 1/12 rozstępu.",
+      "**Prądy pływowe**: kierunek i prędkość podają **atlasy prądów pływowych** i **romby (diamenty) na mapie** z tabelką dla godzin przed/po HW w porcie głównym (osobno dla syzygii i kwadratury)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Woda zmienia się najszybciej w środku przyboru (3. i 4. godzina) – wtedy też zwykle najsilniejszy prąd pływowy."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-t-01",
+     "q": "Co to jest rozstęp pływu?",
+     "a": "Różnica wysokości między kolejnymi wysoką (HW) a niską wodą (LW).",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-t-02",
+     "q": "Kiedy występują pływy syzygijne i czym się wyróżniają?",
+     "a": "Przy nowiu i pełni Księżyca; mają największy rozstęp (wysokie HW, niskie LW).",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-t-03",
+     "q": "Kiedy występują pływy kwadraturowe?",
+     "a": "W pierwszej i ostatniej kwadrze Księżyca; mają najmniejszy rozstęp.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-t-04",
+     "q": "Jak obliczyć rzeczywistą głębokość na akwenie pływowym?",
+     "a": "Głębokość z mapy (względem zera mapy) + aktualna wysokość pływu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-t-05",
+     "q": "Czym różni się port główny od portu dołączonego w tablicach pływów?",
+     "a": "Port główny ma pełne prognozy HW/LW; dla portu dołączonego oblicza się je z portu głównego, stosując poprawki czasu i wysokości.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-t-06",
+     "q": "Na czym polega reguła dwunastek?",
+     "a": "W kolejnych 6 godzinach przyboru (lub ubioru) poziom zmienia się o 1/12, 2/12, 3/12, 3/12, 2/12, 1/12 rozstępu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-t-07",
+     "q": "Skąd odczytasz kierunek i prędkość prądu pływowego?",
+     "a": "Z atlasu prądów pływowych lub z tabeli rombów (diamentów) na mapie – dla godziny względem HW w porcie głównym, osobno dla syzygii i kwadratury.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-t-08",
+     "q": "Ile w przybliżeniu trwa jeden cykl pływu (od HW do kolejnej HW)?",
+     "a": "Ok. 12 h 25 min (zwykle 2 wysokie i 2 niskie wody na dobę).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-dwunastki-1",
+     "gen": "dwunastki",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-dwunastki-2",
+     "gen": "dwunastki",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-glebokosc-1",
+     "gen": "glebokosc",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-glebokosc-2",
+     "gen": "glebokosc",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L4-urzadzenia",
+   "title": "Urządzenia nawigacyjne i zasięg widzialności",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Kompas magnetyczny** (sterowy i namiarowy) – podstawowy przyrząd; działa bez prądu.",
+      "**Log** – prędkość po wodzie i przebyta droga; wymaga czyszczenia (porośnięty wirnik zaniża wskazania).",
+      "**Sonda (echosonda)** – głębokość pod przetwornikiem; sprawdź, czy wskazuje głębokość pod przetwornikiem, pod kilem czy od powierzchni (ustawiony offset).",
+      "**GPS / GNSS** – pozycja, COG, SOG, waypointy, XTE (odchylenie od trasy). Pozycję z GPS regularnie nanosi się na mapę papierową i zapisuje w dzienniku.",
+      "**Ploter / mapy elektroniczne** – wygodne, ale nie zwalniają z obserwacji i weryfikacji (dokładność map elektronicznych, skala, aktualność).",
+      "**AIS** – automatyczna identyfikacja statków: nazwa, kurs, prędkość, CPA/TCPA. Statki handlowe – klasa A, jachty zwykle klasa B.",
+      "**Wskaźniki wielofunkcyjne** – wiatr pozorny i rzeczywisty, prędkość, głębokość, dane z NMEA.",
+      "**Radar** – odległości i namiary na obiekty, także we mgle i nocą."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Zasięg geograficzny** (z uwzględnieniem refrakcji): odległość widnokręgu D ≈ **2,08 × √h** (D w Mm, h w metrach). Światło latarni na wysokości H obserwator z okiem na wysokości e zobaczy z odległości **D = 2,08 × (√H + √e)**. Faktyczny zasięg to mniejsza z wartości: zasięgu geograficznego i **nominalnego** (świetlnego, z mapy)."
+    },
+    {
+     "t": "tip",
+     "text": "„Latarnia wyskakuje zza horyzontu” – w momencie pojawienia się światła znasz odległość od latarni (zasięg geograficzny). To dodatkowa linia pozycyjna!"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L4-u-01",
+     "q": "Co mierzy log?",
+     "a": "Prędkość jachtu po wodzie i przebytą drogę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-u-02",
+     "q": "Na co uważać, odczytując głębokość z sondy?",
+     "a": "Czy wskazuje głębokość pod przetwornikiem, pod kilem czy od powierzchni wody (ustawiony offset).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-u-03",
+     "q": "Co oznaczają COG i SOG na GPS?",
+     "a": "COG – kurs nad dnem (Course Over Ground), SOG – prędkość nad dnem (Speed Over Ground).",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-u-04",
+     "q": "Co oznacza XTE na odbiorniku GPS?",
+     "a": "Odchylenie boczne od zaplanowanej trasy (Cross Track Error).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-u-05",
+     "q": "Co to jest AIS i jakie dane podaje?",
+     "a": "System automatycznej identyfikacji statków: nazwa, MMSI, pozycja, kurs, prędkość, a odbiornik liczy CPA/TCPA (najbliższe zbliżenie i czas do niego).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-u-06",
+     "q": "Co oznaczają CPA i TCPA?",
+     "a": "CPA – odległość największego zbliżenia z innym statkiem; TCPA – czas do tego momentu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-u-07",
+     "q": "Czy ploter z mapą elektroniczną zwalnia z prowadzenia nawigacji na mapie papierowej i obserwacji?",
+     "a": "Nie – trzeba regularnie weryfikować pozycję (obserwacje, mapa papierowa, dziennik), bo urządzenie lub mapa elektroniczna mogą zawieść lub być nieaktualne.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-u-08",
+     "q": "Jakim wzorem obliczysz odległość widnokręgu?",
+     "a": "D ≈ 2,08 × √h (D w milach morskich, h – wysokość oka w metrach).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-u-09",
+     "q": "Co to jest zasięg nominalny światła?",
+     "a": "Zasięg świetlny przy widzialności meteorologicznej 10 Mm – podany na mapie i w spisie świateł (np. 12M).",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-u-10",
+     "q": "Co to jest wiatr pozorny?",
+     "a": "Wiatr odczuwany na płynącym jachcie – wypadkowa wiatru rzeczywistego i „wiatru” wynikającego z ruchu jachtu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-g-widnokrag-1",
+     "gen": "widnokrag",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-widnokrag-2",
+     "gen": "widnokrag",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-g-widnokrag-3",
+     "gen": "widnokrag",
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}

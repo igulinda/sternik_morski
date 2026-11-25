@@ -40,3 +40,8 @@ Bloki teorii: `p` (akapit), `ul`/`ol` (lista), `tip` (podpowiedź / mnemotechnik
 ## Dodane w etapie 3
 - `lights.mastV` – liczba świateł masztowych w pionie (holowanie: 2 lub 3)
 - `sound` – sygnał dźwiękowy: `seq` z tokenów `S` (krótki), `L` (długi), `B` (dzwon), `G` (gong), `K` (uderzenie w dzwon); przycisk „Odtwórz sygnał” gra go w przeglądarce
+
+## Dodane w etapie 4 – zadania obliczeniowe
+Fiszka z polem `gen` (np. `{"id":"L4-g-kompas-kr-1","gen":"kompas-kr"}`) przy każdej sesji dostaje nowe, losowe dane i rozwiązanie krok po kroku z `js/generators.js`.
+Dostępne generatory: `kompas-kr` (KK→KR), `kompas-kk` (KR→KK), `namiar` (NK→NR), `poprawka` (Δ z nabieżnika), `deklinacja` (aktualizacja z róży mapy), `zliczenie` (droga/czas/prędkość), `dryf` (KDw), `widnokrag` (zasięg geograficzny), `dwunastki` (reguła dwunastek), `glebokosc` (głębokość i zapas pod kilem).
+Konwencja: KM = KK + δ, KR = KM + d, E = „+”, W = „−”; KDw = KR + α (wiatr z lewej burty = „+”).

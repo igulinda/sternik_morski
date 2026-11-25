@@ -21,7 +21,8 @@
   {
    "level": 4,
    "title": "Nawigacja i locja",
-   "desc": "Mapy, poprawki kompasu, kursy i namiary, zliczenie, pływy, wejście do portu"
+   "desc": "Mapy, poprawki kompasu, kursy i namiary, zliczenie, pływy, wejście do portu",
+   "file": "content/level-4.json"
   },
   {
    "level": 5,
