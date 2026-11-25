@@ -1,0 +1,787 @@
+{
+ "level": 5,
+ "title": "Meteorologia",
+ "lessons": [
+  {
+   "id": "L5-przyrzady",
+   "title": "Przyrządy i podstawowe pojęcia",
+   "theory": [
+    {
+     "t": "table",
+     "head": [
+      "Przyrząd",
+      "Mierzy",
+      "Uwagi"
+     ],
+     "rows": [
+      [
+       "barometr (aneroid)",
+       "ciśnienie atmosferyczne (hPa)",
+       "najważniejsza jest TENDENCJA – zmiana w czasie"
+      ],
+      [
+       "barograf",
+       "zapis ciśnienia w czasie",
+       "pokazuje tendencję na wykresie"
+      ],
+      [
+       "termometr",
+       "temperaturę powietrza / wody",
+       "różnica temp. powietrza i wody → ryzyko mgły"
+      ],
+      [
+       "psychrometr / higrometr",
+       "wilgotność powietrza",
+       "pozwala wyznaczyć punkt rosy"
+      ],
+      [
+       "anemometr (wiatromierz)",
+       "prędkość wiatru",
+       "na płynącym jachcie mierzy wiatr POZORNY"
+      ],
+      [
+       "wiatrowskaz (wskaźnik wiatru)",
+       "kierunek wiatru",
+       "kierunek wiatru = SKĄD wieje"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Ciśnienie normalne** na poziomie morza: **1013,25 hPa**. Wartości wyższe sprzyjają wyżom (ładna, stabilna pogoda), niższe – niżom (wiatr, chmury, opady).",
+      "**Tendencja barometryczna**: spadek ciśnienia o ok. **3 hPa w 3 godziny** lub więcej zapowiada wzmożenie wiatru; spadek **6 hPa / 3 h i więcej** – możliwy sztorm. Szybki wzrost po przejściu frontu zimnego też oznacza silny, porywisty wiatr.",
+      "**Punkt rosy** – temperatura, do której trzeba ochłodzić powietrze, by para wodna zaczęła się skraplać. Gdy temperatura spada do punktu rosy – powstaje **mgła** lub rosa.",
+      "**Widzialność** w komunikatach: dobra > 5 Mm, umiarkowana 2–5 Mm, słaba 1000 m – 2 Mm, mgła < 1000 m.",
+      "Obserwacje (ciśnienie, wiatr, zachmurzenie, widzialność, stan morza) zapisuje się w **dzienniku jachtowym** – zwykle co 4 godziny lub częściej przy zmianach."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "„Szybko spada – szybko minie, wolno spada – długo potrwa”: gwałtowny spadek ciśnienia to zwykle krótki, ale silny wiatr; powolny – dłuższe pogorszenie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-p-01",
+     "q": "Jakim przyrządem mierzy się ciśnienie atmosferyczne i w jakich jednostkach?",
+     "a": "Barometrem (na jachcie zwykle aneroidem); w hektopaskalach (hPa).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-02",
+     "q": "Ile wynosi ciśnienie normalne na poziomie morza?",
+     "a": "1013,25 hPa.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-03",
+     "q": "Co jest ważniejsze dla żeglarza: wartość ciśnienia czy jego tendencja?",
+     "a": "Tendencja – szybkość i kierunek zmian ciśnienia w czasie (np. spadek o 3 hPa w 3 h).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-04",
+     "q": "Ciśnienie spadło o 6 hPa w ciągu 3 godzin. Czego się spodziewać?",
+     "a": "Silnego wiatru, możliwy sztorm – trzeba przygotować jacht i załogę (refowanie, sprawdzenie portu schronienia).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p-05",
+     "q": "Co to jest punkt rosy?",
+     "a": "Temperatura, do której trzeba ochłodzić powietrze (przy stałej wilgotności), by para wodna zaczęła się skraplać – powstaje mgła lub rosa.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p-06",
+     "q": "Czym mierzy się wilgotność powietrza?",
+     "a": "Psychrometrem lub higrometrem.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-07",
+     "q": "Jaki wiatr wskazuje wiatromierz na płynącym jachcie?",
+     "a": "Wiatr pozorny – wypadkową wiatru rzeczywistego i ruchu jachtu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-08",
+     "q": "Jak w komunikatach określa się widzialność „słabą” (poor)?",
+     "a": "Od 1000 m do 2 Mm. (Dobra > 5 Mm, umiarkowana 2–5 Mm, mgła < 1000 m.)",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p-09",
+     "q": "Co oznacza w komunikacie „mgła” (fog)?",
+     "a": "Widzialność poniżej 1000 m.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p-10",
+     "q": "Jakie dane meteorologiczne zapisuje się w dzienniku jachtowym?",
+     "a": "Ciśnienie (i tendencję), kierunek i siłę wiatru, zachmurzenie, opady, widzialność, stan morza, temperaturę.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L5-uklady",
+   "title": "Niże, wyże i wiatr",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Wiatr** wieje z obszaru wyższego ciśnienia do niższego, ale siła Coriolisa odchyla go – na **półkuli północnej w prawo**. Dlatego wokół układów barycznych powietrze krąży:"
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "baric",
+      "type": "low"
+     },
+     "caption": "Niż (N, cyklon): wiatr krąży PRZECIWNIE do ruchu wskazówek zegara i wpływa do środka. Pogoda: chmury, opady, silny wiatr."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "baric",
+      "type": "high"
+     },
+     "caption": "Wyż (W, antycyklon): wiatr krąży ZGODNIE z ruchem wskazówek zegara i wypływa na zewnątrz. Pogoda: zwykle słoneczna, słaby wiatr, możliwe mgły."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Izobary** – linie jednakowego ciśnienia. **Im gęściej izobary, tym silniejszy wiatr.**",
+      "**Prawo Buys-Ballota** (półkula N): stań **plecami do wiatru** – niż masz **po lewej**, nieco z przodu; wyż po prawej.",
+      "**Klin** – wydłużony obszar wyżowy (krótka poprawa pogody); **zatoka** – wydłużony obszar niżowy (pogorszenie); **siodło** – obszar między dwoma niżami i dwoma wyżami (słaby, zmienny wiatr).",
+      "**Tory niżów w Europie**: najczęściej z **zachodu na wschód** – znad Atlantyku przez Morze Północne i Skandynawię lub Bałtyk.",
+      "**Skręt wiatru w prawo** (zgodnie z ruchem wskazówek, np. S → W) to po angielsku *veering*; **w lewo** (np. W → S) – *backing*.",
+      "**Bryza**: w dzień **morska** (od morza na ląd, bo ląd się nagrzewa), w nocy **lądowa** (od lądu na morze). Typowa przy ładnej, wyżowej pogodzie."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Plecami do wiatru – niż po lewej. Działa na półkuli północnej (na południowej odwrotnie)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-u-01",
+     "q": "Jaki to układ baryczny i jak krąży wokół niego wiatr (półkula N)?",
+     "qVisual": {
+      "kind": "baric",
+      "type": "low"
+     },
+     "a": "Niż (cyklon): wiatr krąży przeciwnie do ruchu wskazówek zegara i wpływa do środka.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-02",
+     "q": "Jaki to układ baryczny i jak krąży wokół niego wiatr (półkula N)?",
+     "qVisual": {
+      "kind": "baric",
+      "type": "high"
+     },
+     "a": "Wyż (antycyklon): wiatr krąży zgodnie z ruchem wskazówek zegara i wypływa na zewnątrz.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-03",
+     "q": "Stoisz plecami do wiatru na półkuli północnej. Gdzie jest niż?",
+     "a": "Po lewej stronie (nieco z przodu) – prawo Buys-Ballota.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-04",
+     "q": "Co oznaczają gęsto położone izobary na mapie synoptycznej?",
+     "a": "Duży gradient ciśnienia – silny wiatr.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-05",
+     "q": "Jaka pogoda towarzyszy zwykle wyżowi?",
+     "a": "Mało chmur, słaby wiatr, brak opadów; nocą i rano możliwe mgły (zwłaszcza jesienią i zimą).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-06",
+     "q": "Jaka pogoda towarzyszy zwykle niżowi?",
+     "a": "Zachmurzenie, opady, silny i zmienny wiatr, przechodzące fronty atmosferyczne.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-07",
+     "q": "Co to jest klin, a co zatoka?",
+     "a": "Klin – wydłużony obszar podwyższonego ciśnienia (wyżowy); zatoka – wydłużony obszar obniżonego ciśnienia (niżowy).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-u-08",
+     "q": "Co to jest siodło baryczne?",
+     "a": "Obszar między dwoma niżami i dwoma wyżami położonymi na krzyż – słaby, zmienny wiatr.",
+     "difficulty": 3
+    },
+    {
+     "id": "L5-u-09",
+     "q": "W jakim kierunku przemieszczają się najczęściej niże nad Europą?",
+     "a": "Z zachodu na wschód – znad Atlantyku.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-10",
+     "q": "Co to jest bryza morska i kiedy wieje?",
+     "a": "Wiatr od morza w stronę lądu w ciągu dnia (ląd nagrzewa się szybciej niż woda). Nocą odwrotnie – bryza lądowa.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-u-11",
+     "q": "Wiatr zmienił kierunek z S na SW, potem W. Jak nazywa się taki skręt?",
+     "a": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – ang. veering.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-u-12",
+     "q": "W którą stronę siła Coriolisa odchyla wiatr na półkuli północnej?",
+     "a": "W prawo.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L5-fronty",
+   "title": "Masy powietrza i fronty",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Masa powietrza** to duża objętość powietrza o podobnej temperaturze i wilgotności (np. polarna morska, arktyczna, zwrotnikowa). **Front** to granica między masą ciepłą i chłodną. W niżu zwykle przechodzi najpierw **front ciepły**, potem **wycinek ciepły**, a na końcu **front zimny**."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "front",
+      "type": "warm"
+     },
+     "caption": "Front ciepły – czerwona linia z półkolami."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "front",
+      "type": "cold"
+     },
+     "caption": "Front zimny – niebieska linia z trójkątami."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "front",
+      "type": "occluded"
+     },
+     "caption": "Front zokludowany (okluzja) – fioletowa linia z trójkątami i półkolami na przemian."
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Front ciepły",
+      "Front zimny"
+     ],
+     "rows": [
+      [
+       "zapowiedź",
+       "Cirrus („końskie ogony”), potem Cirrostratus (halo), Altostratus",
+       "wał chmur Cumulonimbus"
+      ],
+      [
+       "ciśnienie",
+       "długo, stopniowo spada",
+       "spada przed frontem, po przejściu szybko rośnie"
+      ],
+      [
+       "opady",
+       "długotrwałe, ciągłe, przed frontem (Nimbostratus)",
+       "krótkie, intensywne, przelotne, burze, grad"
+      ],
+      [
+       "wiatr",
+       "tężeje; po przejściu skręca w prawo",
+       "szkwały, gwałtowny skręt w prawo po przejściu"
+      ],
+      [
+       "po przejściu",
+       "cieplej, wilgotno, słaba widzialność, mżawka",
+       "chłodniej, przejrzyście, dobra widzialność, porywisty wiatr"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Front zokludowany** – powstaje, gdy front zimny dogoni ciepły; ma cechy obu.",
+      "**Front stacjonarny** – prawie się nie przemieszcza.",
+      "**Szkwał** – nagły, krótkotrwały, silny wzrost wiatru, zwykle przy chmurze Cumulonimbus lub froncie zimnym. Przed nim: refuj zawczasu!"
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "„Ciepły – długo i mokro, zimny – krótko i gwałtownie.” Po przejściu każdego frontu wiatr skręca w prawo (półkula N)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-f-01",
+     "q": "Jaki front oznacza ten symbol?",
+     "qVisual": {
+      "kind": "front",
+      "type": "warm"
+     },
+     "a": "Front ciepły.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-02",
+     "q": "Jaki front oznacza ten symbol?",
+     "qVisual": {
+      "kind": "front",
+      "type": "cold"
+     },
+     "a": "Front zimny.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-03",
+     "q": "Jaki front oznacza ten symbol?",
+     "qVisual": {
+      "kind": "front",
+      "type": "occluded"
+     },
+     "a": "Front zokludowany (okluzja).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-f-04",
+     "q": "Jaki front oznacza ten symbol?",
+     "qVisual": {
+      "kind": "front",
+      "type": "stationary"
+     },
+     "a": "Front stacjonarny.",
+     "difficulty": 3
+    },
+    {
+     "id": "L5-f-05",
+     "q": "Jakie chmury zapowiadają nadejście frontu ciepłego?",
+     "a": "Najpierw pierzaste Cirrus („końskie ogony”), potem Cirrostratus (halo wokół Słońca/Księżyca), Altostratus, a w strefie opadów Nimbostratus.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-06",
+     "q": "Jakie opady towarzyszą frontowi ciepłemu?",
+     "a": "Długotrwałe, ciągłe opady (deszcz, mżawka) przed linią frontu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-07",
+     "q": "Jaka pogoda towarzyszy przejściu frontu zimnego?",
+     "a": "Chmury Cumulonimbus, krótkie, intensywne opady, burze, szkwały, gwałtowna zmiana kierunku wiatru (w prawo).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-08",
+     "q": "Jak zmienia się ciśnienie po przejściu frontu zimnego?",
+     "a": "Szybko rośnie.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-f-09",
+     "q": "Jaka jest pogoda po przejściu frontu zimnego?",
+     "a": "Chłodniej, dobra widzialność, chmury kłębiaste, porywisty wiatr z przelotnymi opadami.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-f-10",
+     "q": "W którą stronę skręca wiatr po przejściu frontu na półkuli północnej?",
+     "a": "W prawo (np. z S na W).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-f-11",
+     "q": "Jak powstaje front zokludowany?",
+     "a": "Szybszy front zimny dogania front ciepły i wypiera ciepłe powietrze do góry.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-f-12",
+     "q": "Co to jest szkwał i z czym się zwykle wiąże?",
+     "a": "Nagły, krótkotrwały, silny wzrost prędkości wiatru (często ze zmianą kierunku i opadem) – zwykle przy chmurze Cumulonimbus lub na froncie zimnym.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-f-13",
+     "q": "W jakiej kolejności przechodzą fronty w typowym niżu?",
+     "a": "Front ciepły → wycinek ciepły (cieplej, wilgotno) → front zimny.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L5-chmury-mgly",
+   "title": "Chmury i mgły",
+   "theory": [
+    {
+     "t": "table",
+     "head": [
+      "Piętro",
+      "Rodzaje (łac. skróty)",
+      "Znaczenie dla żeglarza"
+     ],
+     "rows": [
+      [
+       "wysokie (> 6 km)",
+       "Cirrus (Ci), Cirrocumulus (Cc), Cirrostratus (Cs)",
+       "Ci i Cs – zapowiedź frontu ciepłego; halo"
+      ],
+      [
+       "średnie (2–6 km)",
+       "Altocumulus (Ac), Altostratus (As)",
+       "As – zbliżający się front, wkrótce opady"
+      ],
+      [
+       "niskie (< 2 km)",
+       "Stratus (St), Stratocumulus (Sc), Nimbostratus (Ns)",
+       "Ns – ciągły deszcz; St – mżawka, słaba widzialność"
+      ],
+      [
+       "pionowe",
+       "Cumulus (Cu), Cumulonimbus (Cb)",
+       "Cu – pogoda (małe Cu); Cb – burza, szkwał, grad!"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Cumulonimbus (Cb)** – potężna chmura burzowa z „kowadłem” na szczycie: szkwały, ulewy, wyładowania, grad. Najgroźniejsza chmura dla jachtu.",
+      "Rosnące w ciągu dnia Cumulusy, które przechodzą w Cb, zapowiadają burzę po południu."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Mgła** powstaje, gdy powietrze ochładza się do punktu rosy."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Adwekcyjna** (morska) – ciepłe, wilgotne powietrze napływa nad **zimną wodę**. Typowa na Bałtyku wiosną i wczesnym latem; może trwać długo, także przy wietrze.",
+      "**Radiacyjna** – nocą, przy bezchmurnym niebie i słabym wietrze ląd się wychładza; powstaje nad lądem i rzekami, rozwiewa się zwykle przed południem.",
+      "**Z parowania** – zimne powietrze nad **ciepłą wodą** („parujące morze”), jesienią i zimą."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Mgła adwekcyjna: ciepłe powietrze nad zimną wodą. Z parowania: zimne powietrze nad ciepłą wodą. Wiatr nie rozwiewa mgły adwekcyjnej!"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-c-01",
+     "q": "Która chmura jest najgroźniejsza dla jachtu i dlaczego?",
+     "a": "Cumulonimbus (Cb) – chmura burzowa: szkwały, ulewy, wyładowania, grad.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-c-02",
+     "q": "Jak rozpoznać Cumulonimbus?",
+     "a": "Potężna, wysoka chmura kłębiasta z ciemną podstawą i spłaszczonym „kowadłem” na szczycie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-c-03",
+     "q": "Do którego piętra chmur należą Cirrus, Cirrocumulus i Cirrostratus?",
+     "a": "Do piętra wysokiego (powyżej ok. 6 km).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-04",
+     "q": "Z jakiej chmury padają długotrwałe, ciągłe opady?",
+     "a": "Z Nimbostratus (Ns).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-05",
+     "q": "Co może zapowiadać halo wokół Słońca lub Księżyca?",
+     "a": "Chmury Cirrostratus – nadejście frontu ciepłego i pogorszenie pogody w ciągu kilkunastu godzin.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-06",
+     "q": "Jakie chmury należą do piętra średniego?",
+     "a": "Altocumulus (Ac) i Altostratus (As).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-07",
+     "q": "Jak powstaje mgła adwekcyjna?",
+     "a": "Gdy ciepłe, wilgotne powietrze napływa nad zimną wodę i ochładza się do punktu rosy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-c-08",
+     "q": "Jak powstaje mgła radiacyjna i kiedy występuje?",
+     "a": "Nocą, przy bezchmurnym niebie i słabym wietrze, gdy ląd silnie się wychładza; zwykle rano nad lądem i rzekami.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-09",
+     "q": "Jak powstaje mgła z parowania?",
+     "a": "Gdy bardzo zimne powietrze napływa nad cieplejszą wodę – woda „paruje”. Typowa jesienią i zimą.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-10",
+     "q": "Która mgła jest typowa dla Bałtyku wiosną i może utrzymywać się przy wietrze?",
+     "a": "Mgła adwekcyjna (morska).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-c-11",
+     "q": "Rano jest bezchmurnie, a po południu Cumulusy szybko rosną w górę. Czego się spodziewać?",
+     "a": "Rozwoju chmur Cumulonimbus – burzy i szkwałów po południu.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L5-morze",
+   "title": "Fala i stan morza",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Wysokość fali wiatrowej** zależy od: **siły wiatru**, **czasu jego działania**, **rozbiegu** (fetch – długości akwenu, nad którym wieje wiatr) oraz **głębokości** wody.",
+      "**Martwa fala (rozkołys)** – fala, która pozostaje po ustaniu wiatru lub przychodzi z odległego sztormu; długa, łagodna, ale może zapowiadać zmianę pogody.",
+      "Na **płytkiej wodzie** fala staje się krótsza i bardziej **stroma**, aż się łamie (przybój). Niebezpieczne są mielizny i wejścia do portów przy silnym wietrze od morza.",
+      "**Wiatr przeciwny do prądu** (np. pływowego) tworzy krótką, stromą i niebezpieczną falę.",
+      "Bałtyk ma **krótką, stromą falę** – małe głębokości i stosunkowo krótki rozbieg.",
+      "**Stan morza** opisuje skala Douglasa (0 – morze gładkie … 9 – wyjątkowo wysokie, ponad 14 m fali)."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Douglas",
+      "Opis",
+      "Wysokość fali"
+     ],
+     "rows": [
+      [
+       "0",
+       "gładkie (lustrzane)",
+       "0 m"
+      ],
+      [
+       "1",
+       "marszczone",
+       "0–0,1 m"
+      ],
+      [
+       "2",
+       "lekko sfalowane",
+       "0,1–0,5 m"
+      ],
+      [
+       "3",
+       "słabo sfalowane",
+       "0,5–1,25 m"
+      ],
+      [
+       "4",
+       "umiarkowanie sfalowane",
+       "1,25–2,5 m"
+      ],
+      [
+       "5",
+       "wzburzone",
+       "2,5–4 m"
+      ],
+      [
+       "6",
+       "bardzo wzburzone",
+       "4–6 m"
+      ],
+      [
+       "7",
+       "wysokie",
+       "6–9 m"
+      ],
+      [
+       "8",
+       "bardzo wysokie",
+       "9–14 m"
+      ],
+      [
+       "9",
+       "wyjątkowo wysokie",
+       "> 14 m"
+      ]
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Wiatr przeciw prądowi + płycizna = najgorsza fala. Planuj przejścia przez takie miejsca przy prądzie zgodnym z wiatrem."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-m-01",
+     "q": "Od czego zależy wysokość fali wiatrowej?",
+     "a": "Od siły wiatru, czasu jego działania, rozbiegu (długości akwenu, nad którym wieje) i głębokości wody.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-m-02",
+     "q": "Co to jest rozbieg fali (fetch)?",
+     "a": "Odległość, na której wiatr wieje nad wodą w tym samym kierunku i rozbudowuje falę.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-m-03",
+     "q": "Co to jest martwa fala (rozkołys)?",
+     "a": "Fala pozostała po ustaniu wiatru lub nadchodząca z odległego obszaru sztormowego – długa i regularna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-m-04",
+     "q": "Co dzieje się z falą wchodzącą na płytką wodę?",
+     "a": "Skraca się, staje się wyższa i bardziej stroma, a w końcu się łamie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-m-05",
+     "q": "Jaka fala powstaje, gdy wiatr wieje przeciwnie do prądu?",
+     "a": "Krótka, stroma i niebezpieczna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-m-06",
+     "q": "Dlaczego fala na Bałtyku jest krótka i stroma?",
+     "a": "Bo Bałtyk jest płytki i ma stosunkowo krótki rozbieg w porównaniu z oceanem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-m-07",
+     "q": "W jakiej skali określa się stan morza?",
+     "a": "W skali Douglasa (0–9).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-m-08",
+     "q": "Co oznacza stan morza 5 w skali Douglasa?",
+     "a": "Morze wzburzone – fala ok. 2,5–4 m.",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L5-komunikaty",
+   "title": "Prognozy, ostrzeżenia i NAVTEX",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Źródła prognoz**: komunikaty radiowe stacji brzegowych (VHF), **NAVTEX**, internet (modele pogodowe, mapy synoptyczne), kapitanaty i bosmanaty portów.",
+      "**Stacje brzegowe** zapowiadają komunikat na kanale **16** VHF, a nadają go na wskazanym **kanale roboczym**. Pilne ostrzeżenia poprzedza sygnał **SECURITE**. Godziny i kanały – w spisie radiostacji.",
+      "**Ostrzeżenie sztormowe** (gale warning) – wiatr **8°B i więcej**; ostrzeżenie przed silnym wiatrem (strong wind warning) – **6–7°B**.",
+      "Określenia czasu w ostrzeżeniach (brytyjskie): **imminent** – w ciągu 6 h, **soon** – 6–12 h, **later** – po 12 h."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**NAVTEX** – automatyczny odbiornik komunikatów bezpieczeństwa: ostrzeżeń nawigacyjnych i meteorologicznych oraz prognoz. Drukuje lub wyświetla wiadomości tekstowe."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Częstotliwość międzynarodowa **518 kHz** (po angielsku), krajowa **490 kHz** (w języku lokalnym). Zasięg ok. **250–400 Mm**.",
+      "Każda stacja ma **literę identyfikacyjną** (A–Z) i nadaje według harmonogramu co 4 godziny.",
+      "Rodzaj wiadomości oznacza litera: **A** – ostrzeżenia nawigacyjne, **B** – ostrzeżenia meteorologiczne, **D** – informacje SAR / o piractwie, **E** – prognozy pogody (i inne).",
+      "Wiadomości **A, B i D** są obowiązkowe – odbiornik nie pozwala ich wyłączyć.",
+      "Nagłówek wiadomości np. **ZCZC SA14**: S – stacja, A – rodzaj (ostrzeżenie nawigacyjne), 14 – numer kolejny."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "NAVTEX: A – nawigacja, B – „burza” (meteo), D – „danger” (SAR), E – prognoza. 518 kHz po angielsku."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L5-k-01",
+     "q": "Na jakiej częstotliwości nadaje międzynarodowy NAVTEX i w jakim języku?",
+     "a": "518 kHz, po angielsku. (Krajowe komunikaty – 490 kHz w języku lokalnym.)",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-02",
+     "q": "Jaki jest przybliżony zasięg stacji NAVTEX?",
+     "a": "Ok. 250–400 mil morskich.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-k-03",
+     "q": "Co oznacza litera B w nagłówku wiadomości NAVTEX?",
+     "a": "Ostrzeżenie meteorologiczne.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-04",
+     "q": "Co oznacza litera A w nagłówku wiadomości NAVTEX?",
+     "a": "Ostrzeżenie nawigacyjne.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-05",
+     "q": "Które rodzaje wiadomości NAVTEX są obowiązkowe (nie można ich wyłączyć)?",
+     "a": "A (nawigacyjne), B (meteorologiczne) i D (SAR / bezpieczeństwo).",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-k-06",
+     "q": "Odczytaj nagłówek NAVTEX: ZCZC JB07",
+     "a": "J – litera stacji nadającej, B – ostrzeżenie meteorologiczne, 07 – numer kolejny wiadomości.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-k-07",
+     "q": "Od jakiej siły wiatru wydaje się ostrzeżenie sztormowe (gale warning)?",
+     "a": "Od 8°B.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-08",
+     "q": "Co oznacza w ostrzeżeniu słowo „imminent”?",
+     "a": "W ciągu najbliższych 6 godzin. (Soon – 6–12 h, later – po 12 h.)",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-k-09",
+     "q": "Na którym kanale VHF stacje brzegowe zapowiadają komunikaty bezpieczeństwa?",
+     "a": "Na kanale 16 – sam komunikat nadawany jest na kanale roboczym.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-10",
+     "q": "Jakim słowem rozpoczyna się radiowy komunikat bezpieczeństwa (np. ostrzeżenie meteo)?",
+     "a": "SECURITE (wymawiane „sekjuritej”), powtórzone 3 razy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-k-11",
+     "q": "Gdzie sprawdzisz godziny i kanały komunikatów meteo dla danego akwenu?",
+     "a": "W spisie radiostacji (Admiralty List of Radio Signals), w locji, w bosmanacie / kapitanacie portu.",
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}

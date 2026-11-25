@@ -27,7 +27,8 @@
   {
    "level": 5,
    "title": "Meteorologia",
-   "desc": "Przyrządy, układy baryczne, fronty, chmury, komunikaty, NAVTEX, stan morza"
+   "desc": "Przyrządy, układy baryczne, fronty, chmury, komunikaty, NAVTEX, stan morza",
+   "file": "content/level-5.json"
   },
   {
    "level": 6,

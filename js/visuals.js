@@ -417,6 +417,62 @@
   }
 
 
+
+  /* ---------- METEOROLOGIA ---------- */
+  /** spec: { kind:'baric', type:'low'|'high' } – układ baryczny na półkuli N z cyrkulacją wiatru */
+  function baric(spec) {
+    const low = spec.type !== 'high';
+    const id = uid('ba');
+    const col = low ? '#d62b2b' : '#1f5fbf';
+    let s = `<defs><marker id="${id}" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#33475b"/></marker></defs>`;
+    s += `<rect width="220" height="180" fill="#f4f8fb"/>`;
+    const vals = low ? [1000, 996, 992, 988] : [1016, 1020, 1024, 1028];
+    [78, 58, 38, 20].forEach((r, i) => {
+      s += `<ellipse cx="110" cy="90" rx="${r * 1.25}" ry="${r}" fill="none" stroke="#7d8fa3" stroke-width="1.2"/>`;
+      s += `<text x="110" y="${90 - r - 2}" text-anchor="middle" font-size="8" fill="#5a6b7e" paint-order="stroke" stroke="#f4f8fb" stroke-width="3">${vals[i]}</text>`;
+    });
+    s += `<text x="110" y="98" text-anchor="middle" font-size="24" font-weight="700" fill="${col}">${low ? 'N' : 'W'}</text>`;
+    // strzałki wiatru: wokół niżu przeciwnie do ruchu wskazówek zegara i do środka; wokół wyżu zgodnie i na zewnątrz
+    for (let k = 0; k < 8; k++) {
+      const a = k * Math.PI / 4 + Math.PI / 8; // przesunięte, by nie zasłaniać opisów izobar
+      const r = 66;
+      const x = 110 + Math.cos(a) * r * 1.25, y = 90 + Math.sin(a) * r;
+      // kierunek styczny (ekran: y w dół) – niż: przeciwnie do wskazówek zegara
+      let tx = low ? Math.sin(a) : -Math.sin(a), ty = low ? -Math.cos(a) : Math.cos(a);
+      // składowa radialna ok. 25°: niż do środka, wyż na zewnątrz
+      const rx = -Math.cos(a) * (low ? 0.45 : -0.45), ry = -Math.sin(a) * (low ? 0.45 : -0.45);
+      tx += rx; ty += ry; const L = Math.hypot(tx, ty); tx /= L; ty /= L;
+      s += `<line x1="${x - tx * 11}" y1="${y - ty * 11}" x2="${x + tx * 11}" y2="${y + ty * 11}" stroke="#33475b" stroke-width="1.8" marker-end="url(#${id})"/>`;
+    }
+    s += `<text x="6" y="174" font-size="9" fill="#5a6b7e">półkula północna · izobary w hPa</text>`;
+    return svg('0 0 220 180', s, 'day');
+  }
+  /** spec: { kind:'front', type:'cold'|'warm'|'occluded'|'stationary' } – symbol frontu na mapie synoptycznej */
+  function front(spec) {
+    const t = spec.type;
+    let s = `<rect width="220" height="90" fill="#f4f8fb"/>`;
+    const y = 55, x0 = 15, x1 = 205;
+    const blue = '#1f5fbf', red = '#d62b2b', purple = '#7b3fa0';
+    const lineCol = t === 'cold' ? blue : t === 'warm' ? red : t === 'occluded' ? purple : '#555';
+    if (t === 'stationary') {
+      for (let x = x0; x < x1; x += 38) {
+        s += `<line x1="${x}" y1="${y}" x2="${x + 19}" y2="${y}" stroke="${red}" stroke-width="3"/><line x1="${x + 19}" y1="${y}" x2="${x + 38}" y2="${y}" stroke="${blue}" stroke-width="3"/>`;
+        s += `<path d="M${x + 3} ${y} A7 7 0 0 1 ${x + 17} ${y} Z" fill="${red}"/>`;
+        s += `<path d="M${x + 22} ${y} L${x + 29} ${y + 11} L${x + 36} ${y} Z" fill="${blue}"/>`;
+      }
+    } else {
+      s += `<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${lineCol}" stroke-width="3"/>`;
+      let i = 0;
+      for (let x = x0 + 6; x < x1 - 14; x += 24, i++) {
+        const tri = t === 'cold' || (t === 'occluded' && i % 2 === 0);
+        if (tri) s += `<path d="M${x} ${y} L${x + 7} ${y - 13} L${x + 14} ${y} Z" fill="${lineCol}"/>`;
+        else s += `<path d="M${x} ${y} A7 7 0 0 1 ${x + 14} ${y} Z" fill="${lineCol}"/>`;
+      }
+    }
+    s += `<text x="110" y="84" text-anchor="middle" font-size="9" fill="#5a6b7e">front przesuwa się w stronę symboli</text>`;
+    return svg('0 0 220 90', s, 'day');
+  }
+
   /* ---------- SYGNAŁY DŹWIĘKOWE ---------- */
   // seq: tokeny oddzielone spacją: S (krótki ~1 s), L (długi 4–6 s), B (dzwon – szybkie dzwonienie ~5 s),
   //      G (gong), K (pojedyncze wyraźne uderzenie w dzwon), | (przerwa)
@@ -487,6 +543,8 @@
       case 'rhythm': return rhythm(spec);
       case 'situation': return situation(spec);
       case 'sound': return sound(spec);
+      case 'baric': return baric(spec);
+      case 'front': return front(spec);
       default: return '';
     }
   }
