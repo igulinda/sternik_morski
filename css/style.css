@@ -174,3 +174,7 @@ form .btn { margin-top: 16px; }
 .g-ok { color: var(--ok); } .g-mid { color: var(--mid); } .g-bad { color: var(--bad); }
 .task-badge { display: inline-block; font-size: .8rem; font-weight: 700; color: var(--primary); background: var(--surface-2); border-radius: 999px; padding: 3px 10px; margin: 0 auto 10px; width: auto !important; }
 .flash .explain { font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) {
+  table { font-size: .84rem; }
+  th, td { padding: 5px 6px; overflow-wrap: anywhere; hyphens: auto; }
+}
