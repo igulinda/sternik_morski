@@ -35,6 +35,22 @@
     if (g === 'bad') p.box = 0; else if (g === 'mid') p.box = Math.max(1, Math.min(p.box, 1)); else p.box = Math.min(3, Math.max(p.box, 0) + 1);
     progress[id] = p; save();
   }
+  function dist(cards) {
+    const d = { ok: 0, learn: 0, fresh: 0, total: cards.length };
+    cards.forEach((c) => { const b = box(c.id); if (b >= 2) d.ok++; else if (b >= 0) d.learn++; else d.fresh++; });
+    return d;
+  }
+  // pasek postępu: zielone = opanowane, żółte = w trakcie, tło = nowe
+  function progressBar(cards, big) {
+    const d = dist(cards);
+    const pct = (x) => (d.total ? (100 * x / d.total) : 0);
+    return `<div class="prog${big ? ' big' : ''}">
+      <div class="prog-head"><span>Opanowane <b>${d.ok}/${d.total}</b></span><b>${Math.round(pct(d.ok))}%</b></div>
+      <div class="bar seg" role="img" aria-label="Opanowane ${d.ok} z ${d.total}, w trakcie ${d.learn}, nowe ${d.fresh}">
+        <span class="s-ok" style="width:${pct(d.ok)}%"></span><span class="s-learn" style="width:${pct(d.learn)}%"></span></div>
+      <div class="prog-legend"><span><i class="dot ok"></i>opanowane ${d.ok}</span><span><i class="dot learn"></i>w trakcie ${d.learn}</span><span><i class="dot fresh"></i>nowe ${d.fresh}</span></div>
+    </div>`;
+  }
   function mastery(cards) {
     if (!cards.length) return 0;
     return Math.round(100 * cards.filter((c) => box(c.id) >= 2).length / cards.length);
@@ -82,8 +98,8 @@
         html += `<a class="card-box level" href="#poziom-${l.level}">
           <div class="level-head"><div class="level-num">${l.level}</div>
           <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
-          <div class="bar"><span style="width:${m}%"></span></div>
-          <div class="level-desc" style="margin-top:4px">${data.lessons.length} lekcji · ${cards.length} fiszek · ${m}% opanowane</div></a>`;
+          ${progressBar(cards)}
+          <div class="level-desc" style="margin-top:4px">${data.lessons.length} lekcji · ${cards.length} fiszek</div></a>`;
       } else {
         html += `<div class="card-box level locked"><div class="level-head"><div class="level-num">${l.level}</div>
           <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
@@ -97,14 +113,16 @@
     const data = LEVELS[n];
     const meta = INDEX.levels.find((l) => l.level === n);
     if (!data) { app.innerHTML = `<p>Ten poziom jest w przygotowaniu.</p><a class="btn" href="#start">← Wróć</a>`; return; }
-    let html = `<a href="#start">← Wszystkie poziomy</a><h1>Poziom ${n}: ${esc(meta.title)}</h1><p class="sub">${esc(meta.desc)}</p>`;
+    let html = `<a href="#start">← Wszystkie poziomy</a><h1>Poziom ${n}: ${esc(meta.title)}</h1><p class="sub">${esc(meta.desc)}</p>
+      <div class="card-box">${progressBar(data.lessons.flatMap((x) => x.cards), true)}</div>
+      <h2>Lekcje</h2>`;
     data.lessons.forEach((ls, i) => {
       const m = mastery(ls.cards);
       html += `<div class="card-box"><div class="lesson-row"><div>
           <div class="level-title">${n}.${i + 1} ${esc(ls.title)}</div>
-          <div class="meta">${ls.cards.length} fiszek · ${m}% opanowane</div></div>
-          <span class="pill">${m >= 80 ? '✔ opanowane' : m > 0 ? 'w trakcie' : 'nowa'}</span></div>
-        <div class="bar"><span style="width:${m}%"></span></div>
+          <div class="meta">${ls.cards.length} fiszek</div></div>
+          <span class="pill">${m >= 80 ? '✔ opanowana' : dist(ls.cards).fresh < ls.cards.length ? 'w trakcie' : 'nowa'}</span></div>
+        ${progressBar(ls.cards)}
         <div class="btn-row"><a class="btn" href="#lekcja-${ls.id}">📖 Teoria</a>
           <a class="btn primary" href="#fiszki-${ls.id}">🃏 Fiszki</a></div></div>`;
     });
