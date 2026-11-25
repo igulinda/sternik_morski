@@ -1,0 +1,896 @@
+{
+ "level": 6,
+ "title": "Bezpieczeństwo i ratownictwo",
+ "lessons": [
+  {
+   "id": "L6-srodki",
+   "title": "Środki ratunkowe i bezpieczeństwo na pokładzie",
+   "theory": [
+    {
+     "t": "table",
+     "head": [
+      "Środek",
+      "Do czego",
+      "Ważne"
+     ],
+     "rows": [
+      [
+       "kamizelka ratunkowa",
+       "utrzymuje na wodzie twarzą do góry",
+       "morska: min. 150 N; offshore 275 N; z gwizdkiem, światłem, pasem krokowym"
+      ],
+      [
+       "kamizelka asekuracyjna (50 N)",
+       "pomoc w pływaniu",
+       "NIE jest kamizelką ratunkową – nie odwraca nieprzytomnego"
+      ],
+      [
+       "szelki + lina asekuracyjna",
+       "przypięcie do jachtu",
+       "wpinać się do linii życia (lifeline) lub mocnych punktów"
+      ],
+      [
+       "koło ratunkowe / podkowa",
+       "dla rozbitka",
+       "z pławką świetlną; rzucać tak, by nie trafić rozbitka"
+      ],
+      [
+       "rzutka",
+       "podanie liny rozbitkowi",
+       "rzucać za rozbitka i pod wiatr"
+      ],
+      [
+       "tratwa ratunkowa",
+       "ewakuacja",
+       "zwalniacz hydrostatyczny; aktualny przegląd"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Kamizelka automatyczna** napełnia się sama po zanurzeniu (nabój CO₂ + wkład rozpuszczalny); trzeba regularnie sprawdzać nabój i wkład.",
+      "Na pokładzie w nocy, przy złej pogodzie i podczas pracy na dziobie: **kamizelka + szelki wpięte w linię życia**. Zasada: „jedna ręka dla siebie, druga dla jachtu”.",
+      "**Tratwa ratunkowa**: przed wodowaniem przywiąż jej **fanglinę** do jachtu; szarpnięcie fangliny uruchamia napełnianie. **Zwalniacz hydrostatyczny** uwalnia tratwę automatycznie na głębokości kilku metrów, gdy jacht tonie.",
+      "Jachtu nie opuszcza się zbyt wcześnie: **na tratwę przechodzi się dopiero, gdy jacht naprawdę tonie** („wchodź do tratwy w górę, nie w dół”). Weź torbę ratunkową (grab bag): EPIRB, VHF ręczne, pirotechnika, woda, leki.",
+      "**Karta bezpieczeństwa** i instruktaż załogi przed rejsem: rozmieszczenie środków ratunkowych, gaśnic, zaworów, zasady na wypadek alarmów."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Kamizelka działa tylko, gdy ją masz na sobie. Odpowiednio zapięta, z pasem krokowym – inaczej zsunie się przez głowę."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-s-01",
+     "q": "Jaką minimalną wyporność powinna mieć kamizelka ratunkowa do żeglugi morskiej?",
+     "a": "150 N (na wody oceaniczne i w ciężkim ubraniu – 275 N).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-s-02",
+     "q": "Czym różni się kamizelka asekuracyjna (50 N) od ratunkowej?",
+     "a": "Asekuracyjna tylko pomaga utrzymać się na wodzie; nie obraca nieprzytomnego twarzą do góry. Kamizelka ratunkowa (150 N+) to robi.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-s-03",
+     "q": "Do czego służy pas krokowy w kamizelce?",
+     "a": "Zapobiega zsunięciu się kamizelki przez głowę po wpadnięciu do wody.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-s-04",
+     "q": "Kiedy należy wpinać się szelkami do linii życia?",
+     "a": "Nocą, przy złej pogodzie, przy pracy na pokładzie (zwłaszcza na dziobie), gdy wychodzi się samotnie na pokład – zawsze, gdy kapitan tak zarządzi.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-s-05",
+     "q": "Jak uruchamia się napełnianie tratwy ratunkowej?",
+     "a": "Po wyrzuceniu tratwy za burtę ciągnie się fanglinę (przywiązaną do jachtu) aż do uruchomienia butli z gazem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-s-06",
+     "q": "Do czego służy zwalniacz hydrostatyczny tratwy?",
+     "a": "Automatycznie uwalnia tratwę z kołyski, gdy jacht zatonie na głębokość kilku metrów – tratwa wypływa i sama się napełnia.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-s-07",
+     "q": "Kiedy przechodzi się z jachtu na tratwę ratunkową?",
+     "a": "W ostateczności – gdy jacht tonie lub płonie i nie da się go uratować. Jacht jest lepszym schronieniem niż tratwa.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-s-08",
+     "q": "Co powinna zawierać torba ratunkowa (grab bag)?",
+     "a": "EPIRB/PLB, ręczne radio VHF, pirotechnikę, wodę, leki, latarkę, dokumenty, nóż, folię NRC, telefon w wodoszczelnym etui.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-s-09",
+     "q": "Jak rzucić koło ratunkowe lub rzutkę do rozbitka?",
+     "a": "Tak, by nie trafić rozbitka – koło obok niego, rzutkę za niego (lina przechodzi nad rozbitkiem), uwzględniając wiatr.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-s-10",
+     "q": "Co obejmuje instruktaż bezpieczeństwa przed rejsem?",
+     "a": "Rozmieszczenie i użycie środków ratunkowych, gaśnic, pirotechniki, radia; zawory denne i gazowe; procedury MOB, pożaru, opuszczenia jachtu; zasady wpinania się.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L6-lacznosc",
+   "title": "Łączność VHF i GMDSS – wzywanie pomocy",
+   "theory": [
+    {
+     "t": "table",
+     "head": [
+      "Kanał VHF",
+      "Zastosowanie"
+     ],
+     "rows": [
+      [
+       "16",
+       "wywołania w niebezpieczeństwie, pilności i bezpieczeństwa oraz wywołania ogólne (nasłuch!)"
+      ],
+      [
+       "70",
+       "wyłącznie cyfrowe wywołanie selektywne DSC – bez rozmów głosowych"
+      ],
+      [
+       "13",
+       "łączność mostek–mostek (bezpieczeństwo żeglugi między statkami)"
+      ],
+      [
+       "6",
+       "łączność statek–statek, akcje SAR (współpraca ze śmigłowcem/statkiem)"
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sygnał (3×)",
+      "Znaczenie",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "MAYDAY",
+       "niebezpieczeństwo – bezpośrednie zagrożenie życia lub jachtu",
+       "pożar, tonięcie, człowiek za burtą nieodnaleziony"
+      ],
+      [
+       "PAN PAN",
+       "pilność – sytuacja poważna, ale bez bezpośredniego zagrożenia życia",
+       "awaria steru/silnika przy brzegu, poważna choroba (PAN PAN MEDICO)"
+      ],
+      [
+       "SECURITE",
+       "bezpieczeństwo – ostrzeżenie nawigacyjne lub meteo",
+       "dryfujący kontener, zgaszona latarnia"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Wezwanie MAYDAY** (po alarmie DSC – czerwony przycisk DISTRESS przytrzymany kilka sekund) na kanale 16:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "**MAYDAY MAYDAY MAYDAY**",
+      "**THIS IS** (tu jest) nazwa jachtu ×3, znak wywoławczy, MMSI",
+      "**MAYDAY** nazwa jachtu, znak wywoławczy, MMSI",
+      "**MY POSITION IS** – pozycja (współrzędne lub namiar i odległość od znanego punktu)",
+      "rodzaj niebezpieczeństwa (np. „on fire”, „sinking”)",
+      "rodzaj potrzebnej pomocy",
+      "liczba osób na pokładzie i inne informacje (np. „abandoning to liferaft”)",
+      "**OVER**"
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**MMSI** – 9-cyfrowy numer identyfikacyjny radiostacji (DSC, AIS, EPIRB).",
+      "Do obsługi radiotelefonu VHF wymagane jest **świadectwo operatora (SRC)**, a jacht musi mieć **pozwolenie radiowe**.",
+      "**SEELONCE MAYDAY** – nakaz ciszy radiowej (wydaje stacja kierująca akcją); **SEELONCE FEENEE** – koniec ciszy.",
+      "**MAYDAY RELAY** – przekazanie cudzego wezwania pomocy (gdy zagrożona jednostka nie może nadać sama lub nikt nie odpowiada).",
+      "Gdy usłyszysz MAYDAY – zapisz treść, odczekaj chwilę na odpowiedź stacji brzegowej; jeśli jesteś blisko i nikt nie odpowiada – potwierdź odbiór (RECEIVED MAYDAY) i idź z pomocą."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Kolejność MAYDAY: KTO (nazwa) – GDZIE (pozycja) – CO SIĘ STAŁO – CZEGO POTRZEBUJESZ – ILE OSÓB. Pozycja jest najważniejsza – miej ją zapisaną przy radiu."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-l-01",
+     "q": "Do czego służy kanał 16 VHF?",
+     "a": "Do wywołań w niebezpieczeństwie, pilności, bezpieczeństwa i wywołań ogólnych – obowiązuje na nim stały nasłuch.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-l-02",
+     "q": "Do czego służy kanał 70 VHF?",
+     "a": "Wyłącznie do cyfrowego wywołania selektywnego DSC (alarm DSC) – nie prowadzi się na nim rozmów.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-l-03",
+     "q": "Kiedy nadaje się MAYDAY, a kiedy PAN PAN?",
+     "a": "MAYDAY – przy bezpośrednim zagrożeniu życia lub jednostki (pożar, tonięcie). PAN PAN – sytuacja pilna, poważna, ale bez bezpośredniego zagrożenia życia (awaria, choroba).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-l-04",
+     "q": "Do czego służy komunikat SECURITE?",
+     "a": "Do nadawania ważnych ostrzeżeń nawigacyjnych i meteorologicznych.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-l-05",
+     "q": "Wymień kolejność elementów wezwania MAYDAY.",
+     "a": "MAYDAY ×3; THIS IS nazwa ×3, znak, MMSI; MAYDAY nazwa, znak, MMSI; pozycja; rodzaj niebezpieczeństwa; potrzebna pomoc; liczba osób i inne informacje; OVER.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-06",
+     "q": "Jak nadaje się alarm DSC?",
+     "a": "Podnosi się klapkę i przytrzymuje czerwony przycisk DISTRESS kilka sekund (opcjonalnie wybierając rodzaj zagrożenia); radio wysyła MMSI i pozycję z GPS na kanale 70. Potem nadaje się MAYDAY głosem na kanale 16.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-07",
+     "q": "Co to jest MMSI?",
+     "a": "Dziewięciocyfrowy numer identyfikacyjny morskiej stacji radiowej (używany przez DSC, AIS i EPIRB).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-l-08",
+     "q": "Co oznacza komunikat SEELONCE MAYDAY?",
+     "a": "Nakaz ciszy radiowej na kanale, na którym trwa korespondencja w niebezpieczeństwie. SEELONCE FEENEE – odwołanie ciszy.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-09",
+     "q": "Kiedy nadaje się MAYDAY RELAY?",
+     "a": "Gdy przekazujesz wezwanie pomocy innej jednostki – np. ona nie może nadawać sama albo nikt nie potwierdził jej wezwania.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-10",
+     "q": "Jakie uprawnienie jest potrzebne do obsługi radiotelefonu VHF na jachcie?",
+     "a": "Świadectwo operatora łączności bliskiego zasięgu (SRC); jacht musi też mieć pozwolenie radiowe.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-11",
+     "q": "Jakim sygnałem wzywa się porady medycznej przez radio?",
+     "a": "PAN PAN (PAN PAN MEDICO) – sygnał pilności, kierowany do stacji brzegowej, która łączy z lekarzem (TMAS).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-12",
+     "q": "Słyszysz MAYDAY, na który nikt nie odpowiada, a jesteś w pobliżu. Co robisz?",
+     "a": "Zapisujesz treść (pozycję), potwierdzasz odbiór (RECEIVED MAYDAY), informujesz stację brzegową (MAYDAY RELAY) i płyniesz z pomocą, jeśli możesz zrobić to bezpiecznie.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-l-13",
+     "q": "Do czego służy kanał 13 VHF?",
+     "a": "Do łączności mostek–mostek między statkami w sprawach bezpieczeństwa żeglugi (np. uzgodnienie manewru).",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-l-14",
+     "q": "Co jest najważniejszą informacją w wezwaniu pomocy?",
+     "a": "Pozycja jednostki – bez niej ratownicy nie wiedzą, gdzie płynąć.",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L6-pirotechnika",
+   "title": "Pirotechnika, EPIRB i SART",
+   "theory": [
+    {
+     "t": "table",
+     "head": [
+      "Środek",
+      "Kiedy",
+      "Uwagi"
+     ],
+     "rows": [
+      [
+       "rakieta spadochronowa (czerwona)",
+       "daleki alarm: dzień i noc",
+       "wznosi się ok. 300 m, świeci ok. 40 s; widać ją z daleka"
+      ],
+      [
+       "pochodnia ręczna (czerwona)",
+       "wskazanie pozycji, gdy ratownicy są blisko",
+       "pali się ok. 1 min; trzymać za burtą po zawietrznej"
+      ],
+      [
+       "pławka dymna (pomarańczowa)",
+       "w dzień, dla śmigłowca/samolotu",
+       "dym ok. 3 min, pokazuje też kierunek wiatru"
+      ],
+      [
+       "rakieta / pochodnia biała",
+       "zwrócenie uwagi, ostrzeżenie przed kolizją",
+       "NIE jest sygnałem wzywania pomocy"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Pirotechnikę odpala się **po zawietrznej burcie**, trzymając ją **za burtą**, nie kierując na ludzi, nie patrząc w płomień. Rakietę – **pionowo** (przy niskich chmurach – skośnie).",
+      "Sygnały używa się, gdy jest szansa, że ktoś je zobaczy (np. widać statek lub światła) – zapas jest ograniczony.",
+      "Pirotechnika ma **datę ważności** – przeterminowanej nie wyrzuca się do morza (oddaje do utylizacji)."
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**EPIRB** – radiopława awaryjna, nadaje na **406 MHz** do satelitów systemu **COSPAS-SARSAT**: swój identyfikator (zarejestrowany na jacht) i pozycję GPS. Uruchamiana ręcznie lub automatycznie (z zwalniaczem hydrostatycznym). Ma też sygnał naprowadzający 121,5 MHz.",
+      "**PLB** – osobista radiopława (406 MHz) przypisana do osoby.",
+      "**SART** – transponder radarowy (9 GHz): po wzbudzeniu radarem statku wyświetla na ekranie **linię 12 kropek** prowadzącą do rozbitków. **AIS-SART** – pokazuje pozycję na odbiornikach AIS.",
+      "Po przypadkowym uruchomieniu EPIRB – wyłącz go i **natychmiast powiadom** służbę SAR / stację brzegową."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Daleko – rakieta; blisko – pochodnia; w dzień dla śmigłowca – dym pomarańczowy. Wszystko czerwone lub pomarańczowe = pomoc."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-r-01",
+     "q": "Którego środka pirotechnicznego używa się do alarmowania z dużej odległości?",
+     "a": "Czerwonej rakiety spadochronowej (wznosi się ok. 300 m i świeci ok. 40 s).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-r-02",
+     "q": "Kiedy używa się czerwonej pochodni ręcznej?",
+     "a": "Gdy ratownicy są blisko – do dokładnego wskazania pozycji (dzień i noc).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-r-03",
+     "q": "Do czego służy pomarańczowa pławka dymna?",
+     "a": "W dzień wskazuje pozycję (zwłaszcza dla śmigłowców i samolotów) oraz kierunek wiatru.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-r-04",
+     "q": "Po której burcie odpala się pochodnię ręczną?",
+     "a": "Po zawietrznej, trzymając ją za burtą, z dala od twarzy i żagli.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-r-05",
+     "q": "Czy biała rakieta jest sygnałem wzywania pomocy?",
+     "a": "Nie – białe sygnały służą do zwrócenia uwagi lub ostrzeżenia przed kolizją.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-r-06",
+     "q": "Co zrobić z przeterminowaną pirotechniką?",
+     "a": "Oddać do utylizacji (np. w sklepie żeglarskim, policji, punkcie zbiórki) – nie odpalać „na próbę” i nie wyrzucać do morza.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-r-07",
+     "q": "Na jakiej częstotliwości nadaje EPIRB i do jakiego systemu?",
+     "a": "406 MHz – do satelitów systemu COSPAS-SARSAT (oraz 121,5 MHz jako sygnał naprowadzający).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-r-08",
+     "q": "Jakie informacje wysyła EPIRB?",
+     "a": "Swój unikalny identyfikator (zarejestrowany na jednostkę/armatora) i – w nowoczesnych radiopławach – pozycję z GPS.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-r-09",
+     "q": "Jak SART pokazuje się na ekranie radaru?",
+     "a": "Jako linia 12 kropek, prowadząca od pozycji SART na zewnątrz ekranu (najbliższa kropka = pozycja rozbitków).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-r-10",
+     "q": "Czym różni się PLB od EPIRB?",
+     "a": "PLB to osobista radiopława zarejestrowana na osobę (mniejsza, noszona przy sobie), EPIRB jest zarejestrowany na jednostkę.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-r-11",
+     "q": "Co zrobić po przypadkowym uruchomieniu EPIRB?",
+     "a": "Wyłączyć go i natychmiast zawiadomić służbę SAR (stację brzegową / MRCK), by nie rozpoczynano akcji.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L6-mob",
+   "title": "Człowiek za burtą i hipotermia",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Alarm „Człowiek za burtą!”** – pierwsze sekundy decydują:"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "Głośno zaalarmuj: **„Człowiek za burtą!”** (z której burty).",
+      "Rzuć **koło ratunkowe / podkowę z pławką świetlną** (i inne pływające przedmioty).",
+      "Wyznacz **obserwatora**, który cały czas **wskazuje ręką** rozbitka i nie spuszcza go z oczu.",
+      "Naciśnij **MOB** na GPS / ploterze (zapis pozycji).",
+      "Wykonaj **manewr powrotu** (zwrot, podejście od zawietrznej, kursem bajdewind, z wyluzowanymi żaglami – wytracając prędkość przy rozbitku).",
+      "Na silniku: przy rozbitku **wyłącz bieg** – śruba zagraża życiu.",
+      "Podejmij rozbitka (pętla, talia, drabinka, ponton) – najlepiej **w pozycji poziomej**.",
+      "Gdy nie widać rozbitka lub nie da się go szybko podjąć – **MAYDAY** (lub PAN PAN, zależnie od sytuacji)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Hipotermia** – spadek temperatury głębokiej ciała poniżej **35°C**. W zimnej wodzie organizm traci ciepło ok. 25 razy szybciej niż w powietrzu."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Reguła 1–10–1**: ok. **1 min** szoku zimnowego (kontroluj oddech), ok. **10 min** sprawnych ruchów (by się zabezpieczyć), ok. **1 godziny** do utraty przytomności z wychłodzenia (w wodzie ok. 0–10°C).",
+      "W wodzie: nie płyń bez potrzeby, przyjmij **pozycję HELP** (kolana pod brodę, ręce przyciśnięte), w grupie – **przytulcie się (huddle)**.",
+      "Objawy: dreszcze, zimna blada skóra, spowolnienie, zaburzenia mowy i świadomości; przy głębokiej hipotermii dreszcze ustają.",
+      "Pomoc: wydobyć **poziomo i delikatnie** (ryzyko zatrzymania krążenia po wyjęciu), zdjąć mokre ubranie, okryć (śpiwór, folia NRC), ogrzewać **tułów** stopniowo; ciepłe, słodkie napoje **tylko przytomnemu**.",
+      "**Nie wolno**: podawać alkoholu, masować kończyn, gwałtownie ogrzewać (gorąca kąpiel), pozwalać chodzić. Ciężki przypadek – pomoc medyczna (PAN PAN / MAYDAY)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Obserwator wskazujący ręką to najważniejsza osoba na pokładzie – stracenie rozbitka z oczu na fali to częsty dramat."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-m-01",
+     "q": "Wymień pierwsze czynności po alarmie „Człowiek za burtą”.",
+     "a": "Alarm głosem; rzucić koło/podkowę z pławką; wyznaczyć obserwatora wskazującego rozbitka ręką; nacisnąć MOB na GPS; rozpocząć manewr powrotu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-02",
+     "q": "Jakie zadanie ma obserwator przy alarmie MOB?",
+     "a": "Bez przerwy obserwuje rozbitka i wskazuje go ręką sternikowi – nie robi nic innego.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-03",
+     "q": "Do czego służy przycisk MOB na GPS/ploterze?",
+     "a": "Zapisuje pozycję w chwili wypadnięcia człowieka i pokazuje kurs i odległość do tego punktu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-04",
+     "q": "Z której strony podchodzi się do rozbitka pod żaglami?",
+     "a": "Od zawietrznej, kursem bajdewind, z możliwością wyluzowania żagli i wytracenia prędkości przy rozbitku.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-m-05",
+     "q": "Na co uważać, podchodząc do rozbitka na silniku?",
+     "a": "Na śrubę – przy rozbitku wrzucić luz (wyłączyć bieg), nie cofać w jego stronę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-06",
+     "q": "Jak wydobyć z wody wychłodzonego rozbitka?",
+     "a": "Delikatnie i w pozycji poziomej (np. pętla pod pachy i kolana, talia, siatka) – pionowe wyciąganie grozi zapaścią krążenia.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-m-07",
+     "q": "Od jakiej temperatury ciała mówimy o hipotermii?",
+     "a": "Poniżej 35°C temperatury głębokiej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-08",
+     "q": "Na czym polega reguła 1–10–1?",
+     "a": "1 minuta szoku zimnowego (opanuj oddech), ok. 10 minut sprawnych ruchów (zabezpiecz się), ok. 1 godzina do utraty przytomności z wychłodzenia.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-m-09",
+     "q": "Jaką pozycję przyjąć w wodzie, czekając na pomoc?",
+     "a": "Pozycję HELP – kolana podciągnięte, ręce przyciśnięte do tułowia; w grupie – zbić się razem (huddle). Nie płynąć bez potrzeby.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-10",
+     "q": "Czego NIE robić przy hipotermii?",
+     "a": "Nie podawać alkoholu, nie masować kończyn, nie ogrzewać gwałtownie (gorąca kąpiel), nie pozwalać chodzić.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-m-11",
+     "q": "Jak udzielić pomocy osobie z hipotermią na jachcie?",
+     "a": "Zdjąć mokre ubranie, okryć (śpiwór, folia NRC), osłonić od wiatru, ogrzewać stopniowo tułów; przytomnej podać ciepły, słodki napój; obserwować oddech; w ciężkim stanie wezwać pomoc medyczną.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-m-12",
+     "q": "Ile razy szybciej traci się ciepło w zimnej wodzie niż w powietrzu?",
+     "a": "Około 25 razy szybciej.",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L6-awarie",
+   "title": "Pożar, przeciek, mielizna, awaria takielunku, kolizja",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Pożar** – trójkąt spalania: **paliwo + tlen + temperatura**. Gaszenie = usunięcie jednego z elementów."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Grupa",
+      "Co się pali",
+      "Czym gasić"
+     ],
+     "rows": [
+      [
+       "A",
+       "ciała stałe (drewno, tekstylia)",
+       "woda, gaśnica proszkowa ABC, pianowa"
+      ],
+      [
+       "B",
+       "ciecze (paliwo, oleje)",
+       "gaśnica proszkowa, CO₂, pianowa – NIE woda"
+      ],
+      [
+       "C",
+       "gazy (propan-butan)",
+       "odciąć dopływ gazu, gaśnica proszkowa"
+      ],
+      [
+       "F",
+       "tłuszcze kuchenne",
+       "koc gaśniczy, gaśnica klasy F – NIGDY woda"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Instalacji elektrycznej pod napięciem **nie gasić wodą** – najpierw odłącz prąd; użyj gaśnicy proszkowej lub CO₂.",
+      "Ustaw jacht tak, by ogień był **po zawietrznej** (dym i płomienie od załogi), zamknij luki (ogranicz tlen), wyłącz paliwo i gaz.",
+      "**Gaz propan-butan jest cięższy od powietrza** – gromadzi się w zęzie. Zamykaj zawór przy butli, używaj czujnika gazu, wietrz zęzę.",
+      "**Przeciek**: zlokalizuj źródło (zawory denne, wał, ster, kadłub), uruchom pompy zęzowe, zatkaj otwór (drewniane **czopy** przy zaworach dennych, plaster, poduszki), zamknij zawory denne. Gdy woda przybywa – wezwij pomoc.",
+      "**Mielizna**: sprawdź, czy nie ma przecieku; zmierz głębokości wokół; zejście: przechylenie jachtu (załoga na burcie, ciężar na bomie), **silnik wstecz ostrożnie**, **kedżowanie** (wywiezienie kotwicy pontonem i ściąganie windą); na pływach – poczekaj na przybór.",
+      "**Awaria takielunku** (złamany maszt): zabezpiecz lub odetnij wrak masztu, zanim przebije kadłub (nożyce do want); **nie uruchamiaj silnika**, dopóki wszystkie liny nie są na pokładzie (śruba!).",
+      "**Kolizja**: sprawdź, czy ktoś nie jest ranny i czy nie ma przecieku; udziel pomocy drugiej jednostce; wymień dane; zapisz zdarzenie w dzienniku i zgłoś je."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Woda + tłuszcz = wybuch płomienia. Patelnię gaś kocem gaśniczym. Prąd + woda = porażenie – najpierw wyłącz zasilanie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-a-01",
+     "q": "Jakie trzy elementy są potrzebne do spalania?",
+     "a": "Paliwo, tlen i odpowiednia temperatura (trójkąt spalania).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-a-02",
+     "q": "Czym gasić płonący tłuszcz na patelni?",
+     "a": "Kocem gaśniczym (lub gaśnicą klasy F). Nigdy wodą!",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-a-03",
+     "q": "Czy można gasić wodą pożar instalacji elektrycznej?",
+     "a": "Nie, gdy jest pod napięciem – najpierw odłączyć prąd; gasić gaśnicą proszkową lub CO₂.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-a-04",
+     "q": "Do jakich pożarów nadaje się gaśnica proszkowa ABC?",
+     "a": "Grupy A (ciała stałe), B (ciecze) i C (gazy) – dlatego to podstawowa gaśnica na jachcie.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-05",
+     "q": "Jak ustawić jacht podczas pożaru?",
+     "a": "Tak, by ogień znalazł się po zawietrznej – dym i płomienie od załogi; zamknąć luki, by ograniczyć dopływ powietrza.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-06",
+     "q": "Dlaczego gaz propan-butan jest szczególnie niebezpieczny na jachcie?",
+     "a": "Jest cięższy od powietrza – przy nieszczelności gromadzi się w zęzie i może wybuchnąć. Trzeba zamykać zawór przy butli i wietrzyć zęzę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-a-07",
+     "q": "Co robisz przy wykryciu przecieku?",
+     "a": "Szukasz źródła, uruchamiasz pompy, zamykasz zawory denne, zatykasz otwór (czop, plaster); jeśli woda przybywa – wzywasz pomoc.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-a-08",
+     "q": "Do czego służą drewniane czopy w wyposażeniu jachtu?",
+     "a": "Do zatkania otworu po uszkodzonym zaworze dennym lub przewodzie – powinny być przywiązane przy każdym zaworze.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-09",
+     "q": "Jak zejść z mielizny?",
+     "a": "Sprawdzić przeciek i głębokości; przechylić jacht (zmniejszyć zanurzenie), ostrożnie silnik wstecz, wywieźć kotwicę pontonem i ściągać się (kedżowanie); na akwenie pływowym poczekać na przybór.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-10",
+     "q": "Co to jest kedżowanie?",
+     "a": "Przemieszczanie jachtu (np. zejście z mielizny) przez wywiezienie kotwicy pontonem i ściąganie się do niej liną/kabestanem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-11",
+     "q": "Maszt złamał się i wisi za burtą. Czego nie robić od razu?",
+     "a": "Nie uruchamiać silnika, dopóki wszystkie liny i wanty nie są na pokładzie lub odcięte – mogą się wkręcić w śrubę.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-a-12",
+     "q": "Co należy zrobić po kolizji?",
+     "a": "Sprawdzić rannych i przecieki, udzielić pomocy drugiej jednostce, wymienić dane, zapisać zdarzenie w dzienniku jachtowym i zgłosić je właściwym władzom.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L6-sztorm",
+   "title": "Sztorm i sztrandowanie",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Przygotowanie do sztormu** – zanim się zacznie:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Refuj zawczasu** („pierwsza myśl o refie – to czas na ref”), postaw żagle sztormowe (sztormfok, trajsel).",
+      "Zamknij luki i zejściówkę, zabezpiecz sprzęt na pokładzie i pod pokładem, sprawdź pompy zęzowe.",
+      "Załoga: sztormiaki, kamizelki, szelki wpięte w linie życia; ciepły posiłek i napoje przygotowane wcześniej; podział wacht – odpoczynek.",
+      "Nawigacja: ustal pozycję, **odejdź od brzegu zawietrznego** (lee shore – brzeg, na który wieje wiatr, to największe niebezpieczeństwo), unikaj płycizn i miejsc, gdzie wiatr wieje przeciw prądowi.",
+      "Jeśli to możliwe i bezpieczne – schroń się w porcie zawczasu; nie wchodź do nieznanego portu w sztormie przy wietrze od morza."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Techniki sztormowania**:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Dryfowanie w łopocie / stawanie w dryf (heaving-to)** – fok na kontrę, grot lekko wybrany, ster na nawietrzną: jacht prawie stoi, kołysze się łagodnie, zostawia „gładką wodę” po nawietrznej.",
+      "**Żegluga na żaglach sztormowych** bajdewindem lub półwiatrem – gdy trzeba utrzymać kurs (np. od brzegu).",
+      "**Ucieczka z wiatrem** (running off) – z małą powierzchnią żagla lub na samym takielunku, ewentualnie z holowanymi linami / **dryfkotwą rufową (drogue)** dla zmniejszenia prędkości; ryzyko broachingu (gwałtownego obrotu burtą do fali).",
+      "**Dryfkotwa** z dziobu (sea anchor) – utrzymuje dziób do fali."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Sztrandowanie** – celowe wyrzucenie jachtu na brzeg w ostateczności (jacht tonie, nie da się utrzymać go z dala od skał). Wybierz **płaski, piaszczysty brzeg**, płyń **prostopadle** do brzegu, załoga w kamizelkach, wszystko zabezpieczone; po wyrzuceniu na brzeg – ewakuacja na ląd."
+    },
+    {
+     "t": "tip",
+     "text": "Największym wrogiem w sztormie nie jest wiatr, tylko brzeg po zawietrznej. Miej dużo wody po zawietrznej („sea room”)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-z-01",
+     "q": "Kiedy należy zarefować żagle przed sztormem?",
+     "a": "Zawczasu – zanim wiatr się wzmoże („gdy pierwszy raz pomyślisz o refie”).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-z-02",
+     "q": "Dlaczego brzeg po zawietrznej jest niebezpieczny w sztormie?",
+     "a": "Wiatr i fala spychają jacht na ten brzeg; przy awarii nie ma miejsca na manewr – trzeba trzymać się z dala od niego.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-z-03",
+     "q": "Wymień przygotowania jachtu i załogi do sztormu.",
+     "a": "Refowanie / żagle sztormowe; zamknięcie luków; zabezpieczenie sprzętu; sprawdzenie pomp; sztormiaki, kamizelki, szelki i linie życia; ciepły posiłek; podział wacht; ustalenie pozycji i planu nawigacyjnego.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-z-04",
+     "q": "Na czym polega stawanie w dryf (heaving-to)?",
+     "a": "Fok ustawiony na kontrę, grot lekko wybrany, ster na nawietrzną – jacht prawie stoi, łagodnie dryfuje bokiem, a załoga może odpocząć.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-z-05",
+     "q": "Na czym polega ucieczka z wiatrem (running off) i jakie ma ryzyko?",
+     "a": "Żegluga z wiatrem i falą z małym żaglem lub bez żagli, czasem z holowanymi linami/dryfkotwą rufową; ryzyko zbyt dużej prędkości i broachingu (gwałtownego obrotu burtą do fali).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-z-06",
+     "q": "Do czego służy dryfkotwa?",
+     "a": "Do zmniejszenia prędkości dryfu i utrzymania dziobu (dryfkotwa dziobowa) lub rufy (rufowa – drogue) w kierunku fali.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-z-07",
+     "q": "Co to jest broaching?",
+     "a": "Gwałtowne, niekontrolowane odwrócenie się jachtu burtą do fali i wiatru (najczęściej przy żegludze z wiatrem w dużej fali) – grozi położeniem jachtu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-z-08",
+     "q": "Co to jest sztrandowanie i kiedy się je stosuje?",
+     "a": "Celowe wyrzucenie jachtu na brzeg – w ostateczności, gdy jacht tonie lub grozi mu rozbicie na skałach i nie ma innego ratunku.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-z-09",
+     "q": "Jaki brzeg wybrać do sztrandowania i jak podejść?",
+     "a": "Płaski, piaszczysty, bez skał; podejść prostopadle do brzegu, załoga w kamizelkach, sprzęt zabezpieczony.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-z-10",
+     "q": "Jakie żagle stawia się w sztormie?",
+     "a": "Sztormfok (mały, mocny fok) i trajsel (mały grot sztormowy) lub mocno zarefowany grot.",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L6-sar",
+   "title": "Służby ratownicze, śmigłowiec, pierwsza pomoc",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Morska Służba Poszukiwania i Ratownictwa (Służba SAR)** prowadzi akcje ratownicze na polskich obszarach morskich; koordynuje je **Morskie Ratownicze Centrum Koordynacyjne (MRCK)** w Gdyni.",
+      "Służba SAR ma **stacje ratownicze** na wybrzeżu z łodziami ratowniczymi; wsparcia udzielają śmigłowce i samoloty (np. lotnictwo Marynarki Wojennej).",
+      "Wezwanie: **VHF kanał 16 / DSC kanał 70**, telefon alarmowy **112**, EPIRB/PLB. Ratownicy mogą pomóc w poszukiwaniu, ewakuacji, holowaniu jachtu w niebezpieczeństwie i transporcie medycznym.",
+      "Każdy kapitan ma obowiązek **udzielić pomocy** ludziom w niebezpieczeństwie na morzu, jeśli może to zrobić bez poważnego zagrożenia dla swojej jednostki i załogi.",
+      "**Duży statek** udzielający pomocy jest niebezpieczny dla jachtu: wysoka burta, wiatrowy cień, ssanie przy burcie, śruby. Lepiej poczekać na łódź ratowniczą lub przejść przez wodę/ponton niż podchodzić burtą do burty."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Współpraca ze śmigłowcem**:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ustal łączność VHF (kanał 16 lub wskazany roboczy); wykonuj polecenia załogi śmigłowca.",
+      "Zrzuć żagle, zabezpiecz luźne przedmioty (podmuch od wirnika!), uruchom silnik, utrzymuj kurs wskazany przez pilota.",
+      "Wskaż pozycję i kierunek wiatru (pławka dymna w dzień).",
+      "Linkę (hi-line) lub linę z noszami **przyjmij dopiero po jej dotknięciu wody/pokładu** – rozładowanie elektryczności statycznej.",
+      "**Nigdy nie przywiązuj liny ze śmigłowca do jachtu.** Często ratownicy podejmują ludzi z pontonu lub z wody za rufą jachtu (maszt przeszkadza)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Pierwsza pomoc** – podstawy:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Ocena: bezpieczeństwo, przytomność, oddech. Brak oddechu – **RKO 30 uciśnięć : 2 oddechy**, wezwij pomoc. Nieprzytomny oddychający – **pozycja boczna bezpieczna**.",
+      "**Krwotok** – bezpośredni ucisk rany, opatrunek uciskowy.",
+      "**Oparzenie** – chłodzić czystą, chłodną wodą przez 10–20 min, przykryć jałowym opatrunkiem.",
+      "**Choroba morska** – świeże powietrze, patrzenie na horyzont, zajęcie się sterowaniem, małe posiłki, uzupełnianie płynów; chorego nie zostawiać samego na pokładzie, wpiąć go szelkami.",
+      "**Apteczka jachtowa** – dostosowana do rejsu i załogi; porady medyczne przez radio (PAN PAN MEDICO, TMAS)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Lina ze śmigłowca: najpierw dotyka wody, potem Ty. I nigdy jej nie przywiązujesz."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-p-01",
+     "q": "Jaka instytucja koordynuje akcje ratownicze na polskich obszarach morskich?",
+     "a": "Morskie Ratownicze Centrum Koordynacyjne (MRCK) Morskiej Służby Poszukiwania i Ratownictwa (Służby SAR) w Gdyni.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-02",
+     "q": "Jak można wezwać pomoc ratowniczą na morzu? (wymień sposoby)",
+     "a": "VHF kanał 16 (MAYDAY), alarm DSC (kanał 70), EPIRB/PLB, telefon 112, sygnały wzrokowe i dźwiękowe (pirotechnika, flagi NC itd.).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-03",
+     "q": "Dlaczego pomoc dużego statku może być niebezpieczna dla jachtu?",
+     "a": "Wysoka burta, ssanie przy burcie, wiatrowy cień, ruchy statku na fali i śruby mogą uszkodzić jacht lub zranić ludzi.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p-04",
+     "q": "Kiedy można chwycić linę opuszczaną ze śmigłowca?",
+     "a": "Dopiero gdy dotknie wody lub pokładu – rozładuje się elektryczność statyczna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-05",
+     "q": "Czy można przywiązać linę ze śmigłowca do jachtu?",
+     "a": "Nie – nigdy. Śmigłowiec musi móc w każdej chwili odlecieć.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-06",
+     "q": "Jak przygotować jacht do podjęcia ludzi przez śmigłowiec?",
+     "a": "Łączność VHF; zrzucić żagle, zabezpieczyć luźne przedmioty, płynąć na silniku kursem wskazanym przez pilota; wskazać pozycję i wiatr (dym w dzień); słuchać poleceń ratowników.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p-07",
+     "q": "Dlaczego ludzi z jachtu często podejmuje się z pontonu lub z wody za rufą?",
+     "a": "Bo maszt i olinowanie jachtu uniemożliwiają bezpieczne opuszczenie liny na pokład.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p-08",
+     "q": "Jaki jest stosunek uciśnięć do oddechów w RKO u dorosłego?",
+     "a": "30 uciśnięć : 2 oddechy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-09",
+     "q": "W jakiej pozycji układa się nieprzytomnego, który oddycha?",
+     "a": "W pozycji bocznej bezpiecznej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-10",
+     "q": "Jak udzielić pierwszej pomocy przy oparzeniu?",
+     "a": "Chłodzić miejsce oparzenia czystą, chłodną wodą przez 10–20 minut, potem przykryć jałowym opatrunkiem; nie przekłuwać pęcherzy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-11",
+     "q": "Jak pomóc osobie z chorobą morską?",
+     "a": "Świeże powietrze, patrzenie na horyzont, zajęcie (np. sterowanie), małe posiłki, uzupełnianie płynów; na pokładzie – wpięta szelkami, nie sama.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p-12",
+     "q": "Czy kapitan jachtu ma obowiązek udzielić pomocy ludziom w niebezpieczeństwie?",
+     "a": "Tak – jeśli może to zrobić bez poważnego zagrożenia dla własnej jednostki i załogi.",
+     "difficulty": 1
+    }
+   ]
+  }
+ ]
+}

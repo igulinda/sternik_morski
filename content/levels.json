@@ -33,7 +33,8 @@
   {
    "level": 6,
    "title": "Bezpieczeństwo i ratownictwo",
-   "desc": "Środki ratunkowe, wzywanie pomocy, VHF/GMDSS, pirotechnika, MOB, hipotermia, sztorm"
+   "desc": "Środki ratunkowe, wzywanie pomocy, VHF/GMDSS, pirotechnika, MOB, hipotermia, sztorm",
+   "file": "content/level-6.json"
   },
   {
    "level": 7,

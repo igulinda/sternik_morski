@@ -13,3 +13,4 @@ Aplikacja przeglądarkowa do nauki na egzamin teoretyczny na patent **jachtowego
 - [Etap 3b – konta dla rodziny](docs/03-konta-rodziny.md)
 - Etap 4 – poziom 4: nawigacja i locja + generator zadań obliczeniowych (`js/generators.js`, fiszki z polem `gen`)
 - Etap 5 – poziom 5: meteorologia (grafiki: układy baryczne `baric`, fronty `front`)
+- Etap 6 – poziom 6: bezpieczeństwo i ratownictwo (środki ratunkowe, VHF/GMDSS, pirotechnika, EPIRB/SART, MOB, hipotermia, awarie, sztorm, SAR, pierwsza pomoc)
