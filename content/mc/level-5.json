@@ -1,0 +1,493 @@
+{
+ "level": 5,
+ "items": {
+  "L5-p-01": {
+   "correct": "Barometrem (na jachcie zwykle aneroidem); w hektopaskalach (hPa).",
+   "wrong": [
+    "Higrometrem; w procentach (%).",
+    "Anemometrem; w węzłach (kn).",
+    "Termometrem; w stopniach Celsjusza (°C)."
+   ]
+  },
+  "L5-p-02": {
+   "correct": "1013,25 hPa.",
+   "wrong": [
+    "1000,00 hPa.",
+    "1031,25 hPa.",
+    "993,25 hPa."
+   ]
+  },
+  "L5-p-03": {
+   "correct": "Tendencja – szybkość i kierunek zmian ciśnienia w czasie.",
+   "wrong": [
+    "Wartość bezwzględna – tylko ona określa siłę wiatru.",
+    "Wartość chwilowa porównana z ciśnieniem normalnym 1013 hPa.",
+    "Wartość odczytana raz na dobę – zmiany w czasie są bez znaczenia."
+   ]
+  },
+  "L5-p-04": {
+   "correct": "Silnego wiatru, możliwy sztorm – trzeba przygotować jacht (refowanie).",
+   "wrong": [
+    "Poprawy pogody i słabnięcia wiatru.",
+    "Ciszy i mgły radiacyjnej, bez zmiany wiatru.",
+    "Ustalenia się pogody wyżowej z bezchmurnym niebem."
+   ]
+  },
+  "L5-p-05": {
+   "correct": "Temperatura, do której trzeba ochłodzić powietrze, by para wodna zaczęła się skraplać.",
+   "wrong": [
+    "Temperatura, w której woda morska zaczyna zamarzać.",
+    "Ciśnienie, przy którym z chmur zaczyna padać deszcz.",
+    "Wilgotność względna, przy której zaczynają tworzyć się chmury Cumulus."
+   ]
+  },
+  "L5-p-06": {
+   "correct": "Psychrometrem lub higrometrem.",
+   "wrong": [
+    "Barometrem lub barografem.",
+    "Anemometrem lub wiatromierzem.",
+    "Termometrem lub termografem."
+   ]
+  },
+  "L5-p-07": {
+   "correct": "Wiatr pozorny – wypadkową wiatru rzeczywistego i ruchu jachtu.",
+   "wrong": [
+    "Wiatr rzeczywisty – niezależny od ruchu jachtu.",
+    "Wiatr geostroficzny – wiejący równolegle do izobar.",
+    "Wiatr kursowy – wynikający wyłącznie z ruchu jachtu."
+   ]
+  },
+  "L5-p-08": {
+   "correct": "Od 1000 m do 2 Mm.",
+   "wrong": [
+    "Od 2 do 5 Mm.",
+    "Poniżej 1000 m.",
+    "Powyżej 5 Mm."
+   ]
+  },
+  "L5-p-09": {
+   "correct": "Widzialność poniżej 1000 m.",
+   "wrong": [
+    "Widzialność od 1000 m do 2 Mm.",
+    "Widzialność od 2 do 5 Mm.",
+    "Widzialność poniżej 200 m."
+   ]
+  },
+  "L5-p-10": {
+   "correct": "Ciśnienie i tendencję, wiatr, zachmurzenie, opady, widzialność, stan morza, temperaturę.",
+   "wrong": [
+    "Tylko ciśnienie atmosferyczne, odczytywane raz na dobę.",
+    "Wyłącznie prognozy z NAVTEX, bez własnych obserwacji.",
+    "Tylko temperaturę wody i fazę Księżyca."
+   ]
+  },
+  "L5-u-01": {
+   "correct": "Niż: wiatr krąży przeciwnie do ruchu wskazówek zegara i wpływa do środka.",
+   "wrong": [
+    "Niż: wiatr krąży zgodnie z ruchem wskazówek zegara i wypływa na zewnątrz.",
+    "Wyż: wiatr krąży przeciwnie do ruchu wskazówek zegara i wpływa do środka.",
+    "Niż: wiatr krąży zgodnie z ruchem wskazówek zegara i wpływa do środka."
+   ]
+  },
+  "L5-u-02": {
+   "correct": "Wyż: wiatr krąży zgodnie z ruchem wskazówek zegara i wypływa na zewnątrz.",
+   "wrong": [
+    "Wyż: wiatr krąży przeciwnie do ruchu wskazówek zegara i wpływa do środka.",
+    "Niż: wiatr krąży zgodnie z ruchem wskazówek zegara i wypływa na zewnątrz.",
+    "Wyż: wiatr krąży przeciwnie do ruchu wskazówek zegara i wypływa na zewnątrz."
+   ]
+  },
+  "L5-u-03": {
+   "correct": "Po lewej stronie (nieco z przodu) – prawo Buys-Ballota.",
+   "wrong": [
+    "Po prawej stronie (nieco z tyłu) – prawo Buys-Ballota.",
+    "Dokładnie przed tobą – prawo Buys-Ballota.",
+    "Za twoimi plecami – prawo Buys-Ballota."
+   ]
+  },
+  "L5-u-04": {
+   "correct": "Duży gradient ciśnienia – silny wiatr.",
+   "wrong": [
+    "Mały gradient ciśnienia – słaby wiatr.",
+    "Duży gradient ciśnienia – słaby wiatr.",
+    "Wyrównane ciśnienie – cisza."
+   ]
+  },
+  "L5-u-05": {
+   "correct": "Mało chmur, słaby wiatr, brak opadów; nocą i rano możliwe mgły.",
+   "wrong": [
+    "Duże zachmurzenie, ciągłe opady, silny i zmienny wiatr.",
+    "Chmury Cumulonimbus, burze i szkwały przez całą dobę.",
+    "Przechodzące fronty, porywisty wiatr i przelotne opady."
+   ]
+  },
+  "L5-u-06": {
+   "correct": "Zachmurzenie, opady, silny i zmienny wiatr, przechodzące fronty atmosferyczne.",
+   "wrong": [
+    "Bezchmurne niebo, słaby wiatr, brak opadów.",
+    "Stabilna pogoda, cisza i poranne mgły radiacyjne.",
+    "Słaby wiatr bryzowy i pogodne niebo przez kilka dni."
+   ]
+  },
+  "L5-u-07": {
+   "correct": "Klin – wydłużony obszar podwyższonego ciśnienia; zatoka – obniżonego ciśnienia.",
+   "wrong": [
+    "Klin – wydłużony obszar obniżonego ciśnienia; zatoka – podwyższonego ciśnienia.",
+    "Klin i zatoka – obszary obniżonego ciśnienia różniące się tylko kształtem.",
+    "Klin – strefa frontu zimnego; zatoka – strefa frontu ciepłego."
+   ]
+  },
+  "L5-u-08": {
+   "correct": "Obszar między dwoma niżami i dwoma wyżami położonymi na krzyż – słaby, zmienny wiatr.",
+   "wrong": [
+    "Środek głębokiego niżu – sztormowy wiatr.",
+    "Strefa zbiegu frontu ciepłego i zimnego – szkwały.",
+    "Wydłużony obszar podwyższonego ciśnienia – stały, silny wiatr."
+   ]
+  },
+  "L5-u-09": {
+   "correct": "Z zachodu na wschód – znad Atlantyku.",
+   "wrong": [
+    "Ze wschodu na zachód – znad Rosji.",
+    "Z północy na południe – znad Arktyki.",
+    "Z południa na północ – znad Morza Śródziemnego."
+   ]
+  },
+  "L5-u-10": {
+   "correct": "Wiatr od morza w stronę lądu w ciągu dnia (ląd nagrzewa się szybciej niż woda).",
+   "wrong": [
+    "Wiatr od lądu w stronę morza w ciągu dnia (woda nagrzewa się szybciej niż ląd).",
+    "Wiatr od morza w stronę lądu nocą (ląd stygnie szybciej niż woda).",
+    "Wiatr wiejący wzdłuż brzegu przez całą dobę z tą samą siłą."
+   ]
+  },
+  "L5-u-11": {
+   "correct": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – ang. veering.",
+   "wrong": [
+    "Skręt w lewo (przeciwnie do ruchu wskazówek zegara) – ang. backing.",
+    "Cofanie się wiatru (przeciwnie do ruchu wskazówek zegara).",
+    "Wiatr zmienny bez określonego kierunku – ang. variable."
+   ]
+  },
+  "L5-u-12": {
+   "correct": "W prawo.",
+   "wrong": [
+    "W lewo.",
+    "Nie odchyla wiatru na półkuli północnej.",
+    "W prawo w wyżu, a w lewo w niżu."
+   ]
+  },
+  "L5-f-05": {
+   "correct": "Cirrus, potem Cirrostratus (halo), Altostratus, a w strefie opadów Nimbostratus.",
+   "wrong": [
+    "Cumulus, potem Cumulonimbus z burzą, a w strefie opadów Stratus.",
+    "Stratus, potem Cumulus, a w strefie opadów Cumulonimbus.",
+    "Altocumulus, potem Cirrus, a w strefie opadów Stratocumulus."
+   ]
+  },
+  "L5-f-06": {
+   "correct": "Długotrwałe, ciągłe opady (deszcz, mżawka) przed linią frontu.",
+   "wrong": [
+    "Krótkie, intensywne opady przelotne za linią frontu.",
+    "Burze z gradem w wąskim pasie za linią frontu.",
+    "Brak opadów – front ciepły przynosi przejaśnienia."
+   ]
+  },
+  "L5-f-07": {
+   "correct": "Cumulonimbus, krótkie intensywne opady, burze, szkwały, skręt wiatru w prawo.",
+   "wrong": [
+    "Nimbostratus, długotrwała mżawka, słaby wiatr bez zmiany kierunku.",
+    "Cirrus i halo, poprawa widzialności, cisza.",
+    "Mgła adwekcyjna, ciągłe opady, skręt wiatru w lewo."
+   ]
+  },
+  "L5-f-08": {
+   "correct": "Szybko rośnie.",
+   "wrong": [
+    "Szybko spada.",
+    "Pozostaje bez zmian.",
+    "Powoli spada przez kolejną dobę."
+   ]
+  },
+  "L5-f-09": {
+   "correct": "Chłodniej, dobra widzialność, chmury kłębiaste, porywisty wiatr z przelotnymi opadami.",
+   "wrong": [
+    "Cieplej i wilgotno, słaba widzialność, długotrwała mżawka.",
+    "Ciepło, bezwietrznie, gęsta mgła adwekcyjna.",
+    "Chmury warstwowe, ciągły deszcz i słabnący, stały wiatr."
+   ]
+  },
+  "L5-f-10": {
+   "correct": "W prawo (np. z S na W).",
+   "wrong": [
+    "W lewo (np. z S na E).",
+    "W lewo (np. z W na S).",
+    "Nie zmienia kierunku, zmienia się tylko jego siła."
+   ]
+  },
+  "L5-f-11": {
+   "correct": "Szybszy front zimny dogania front ciepły i wypiera ciepłe powietrze do góry.",
+   "wrong": [
+    "Szybszy front ciepły dogania front zimny i wypiera zimne powietrze do góry.",
+    "Dwa fronty ciepłe zderzają się nad środkiem wyżu.",
+    "Front zimny zatrzymuje się i rozpada nad lądem."
+   ]
+  },
+  "L5-f-12": {
+   "correct": "Nagły, krótkotrwały, silny wzrost wiatru – zwykle przy Cumulonimbus lub froncie zimnym.",
+   "wrong": [
+    "Długotrwały, stały wiatr – zwykle w centrum wyżu.",
+    "Nagły zanik wiatru – zwykle przy mgle adwekcyjnej.",
+    "Powolny, kilkudniowy wzrost wiatru – zwykle przed frontem ciepłym."
+   ]
+  },
+  "L5-f-13": {
+   "correct": "Front ciepły → wycinek ciepły → front zimny.",
+   "wrong": [
+    "Front zimny → wycinek ciepły → front ciepły.",
+    "Front ciepły → front zimny → wycinek ciepły.",
+    "Front zokludowany → front ciepły → front zimny."
+   ]
+  },
+  "L5-c-01": {
+   "correct": "Cumulonimbus (Cb) – chmura burzowa: szkwały, ulewy, wyładowania, grad.",
+   "wrong": [
+    "Cirrus (Ci) – chmura wysoka: silne szkwały i grad bezpośrednio z niej.",
+    "Stratus (St) – chmura niska: burze i wyładowania atmosferyczne.",
+    "Altocumulus (Ac) – chmura średnia: ulewy, szkwały i grad."
+   ]
+  },
+  "L5-c-02": {
+   "correct": "Potężna, wysoka chmura kłębiasta z ciemną podstawą i spłaszczonym „kowadłem” na szczycie.",
+   "wrong": [
+    "Cienka, biała chmura pierzasta przypominająca „końskie ogony”.",
+    "Jednolita szara warstwa zakrywająca całe niebo, bez wyraźnych kształtów.",
+    "Drobne białe kłębki ułożone w rzędy wysoko na niebie („baranki”)."
+   ]
+  },
+  "L5-c-03": {
+   "correct": "Do piętra wysokiego (powyżej ok. 6 km).",
+   "wrong": [
+    "Do piętra średniego (ok. 2–6 km).",
+    "Do piętra niskiego (poniżej ok. 2 km).",
+    "Do chmur o budowie pionowej (od ok. 0,5 do 12 km)."
+   ]
+  },
+  "L5-c-04": {
+   "correct": "Z Nimbostratus (Ns).",
+   "wrong": [
+    "Z Cumulus (Cu).",
+    "Z Cirrus (Ci).",
+    "Z Altocumulus (Ac)."
+   ]
+  },
+  "L5-c-05": {
+   "correct": "Chmury Cirrostratus – nadejście frontu ciepłego i pogorszenie pogody.",
+   "wrong": [
+    "Chmury Cumulonimbus – burzę w ciągu najbliższej godziny.",
+    "Silny wyż – stałą, pogodną pogodę na kilka dni.",
+    "Przejście frontu zimnego – szybką poprawę pogody."
+   ]
+  },
+  "L5-c-06": {
+   "correct": "Altocumulus (Ac) i Altostratus (As).",
+   "wrong": [
+    "Cirrocumulus (Cc) i Cirrostratus (Cs).",
+    "Stratocumulus (Sc) i Stratus (St).",
+    "Cumulus (Cu) i Cumulonimbus (Cb)."
+   ]
+  },
+  "L5-c-07": {
+   "correct": "Gdy ciepłe, wilgotne powietrze napływa nad zimną wodę i ochładza się do punktu rosy.",
+   "wrong": [
+    "Gdy bardzo zimne powietrze napływa nad cieplejszą wodę i woda „paruje”.",
+    "Gdy ląd silnie wychładza się nocą przy bezchmurnym niebie i słabym wietrze.",
+    "Gdy ciepła woda nagrzewa się w słońcu w bezwietrzne południe."
+   ]
+  },
+  "L5-c-08": {
+   "correct": "Nocą, przy bezchmurnym niebie i słabym wietrze, gdy ląd silnie się wychładza.",
+   "wrong": [
+    "W dzień, przy pełnym zachmurzeniu i silnym wietrze nad otwartym morzem.",
+    "Gdy ciepłe, wilgotne powietrze napływa nad zimną wodę.",
+    "Gdy bardzo zimne powietrze napływa nad cieplejszą wodę."
+   ]
+  },
+  "L5-c-09": {
+   "correct": "Gdy bardzo zimne powietrze napływa nad cieplejszą wodę; typowa jesienią i zimą.",
+   "wrong": [
+    "Gdy ciepłe, wilgotne powietrze napływa nad zimną wodę; typowa wiosną.",
+    "Gdy ląd wychładza się nocą przy bezchmurnym niebie; typowa nad lądem.",
+    "Gdy woda silnie nagrzewa się w słońcu; typowa w upalne lato w południe."
+   ]
+  },
+  "L5-c-10": {
+   "correct": "Mgła adwekcyjna (morska).",
+   "wrong": [
+    "Mgła radiacyjna.",
+    "Mgła z parowania.",
+    "Mgła orograficzna (zboczowa)."
+   ]
+  },
+  "L5-c-11": {
+   "correct": "Rozwoju chmur Cumulonimbus – burzy i szkwałów po południu.",
+   "wrong": [
+    "Mgły radiacyjnej po południu.",
+    "Nadejścia frontu ciepłego z długotrwałą mżawką.",
+    "Stałej poprawy pogody i zaniku wiatru."
+   ]
+  },
+  "L5-m-01": {
+   "correct": "Od siły wiatru, czasu jego działania, rozbiegu i głębokości wody.",
+   "wrong": [
+    "Tylko od siły wiatru i temperatury wody.",
+    "Od ciśnienia, wilgotności i zachmurzenia.",
+    "Od zasolenia, temperatury wody i fazy Księżyca."
+   ]
+  },
+  "L5-m-02": {
+   "correct": "Odległość, na której wiatr wieje nad wodą w tym samym kierunku i rozbudowuje falę.",
+   "wrong": [
+    "Odległość między dwoma kolejnymi grzbietami fali.",
+    "Czas, w jakim fala przebywa drogę równą swojej długości.",
+    "Prędkość, z jaką grzbiet fali przesuwa się po wodzie."
+   ]
+  },
+  "L5-m-03": {
+   "correct": "Fala pozostała po ustaniu wiatru lub z odległego sztormu – długa i regularna.",
+   "wrong": [
+    "Fala wywołana bieżącym, lokalnym wiatrem – krótka i stroma.",
+    "Fala powstająca przy wietrze przeciwnym do prądu – krótka i stroma.",
+    "Fala odbita od falochronu – nieregularna i krzyżowa."
+   ]
+  },
+  "L5-m-04": {
+   "correct": "Skraca się, staje się wyższa i bardziej stroma, a w końcu się łamie.",
+   "wrong": [
+    "Wydłuża się, obniża i staje się łagodniejsza.",
+    "Nie zmienia się – jej kształt zależy tylko od wiatru.",
+    "Przyspiesza i wydłuża się, zanikając przed brzegiem."
+   ]
+  },
+  "L5-m-05": {
+   "correct": "Krótka, stroma i niebezpieczna.",
+   "wrong": [
+    "Długa, łagodna i regularna.",
+    "Niska i wygładzona przez prąd.",
+    "Długa martwa fala bez grzbietów."
+   ]
+  },
+  "L5-m-06": {
+   "correct": "Bo Bałtyk jest płytki i ma stosunkowo krótki rozbieg.",
+   "wrong": [
+    "Bo Bałtyk jest głęboki i ma bardzo długi rozbieg.",
+    "Bo woda Bałtyku jest bardziej słona niż w oceanie.",
+    "Bo na Bałtyku występują bardzo silne pływy."
+   ]
+  },
+  "L5-m-07": {
+   "correct": "W skali Douglasa (0–9).",
+   "wrong": [
+    "W skali Beauforta (0–12).",
+    "W skali Richtera (0–9).",
+    "W skali Saffira-Simpsona (1–5)."
+   ]
+  },
+  "L5-m-08": {
+   "correct": "Morze wzburzone – fala ok. 2,5–4 m.",
+   "wrong": [
+    "Morze spokojne – fala do 0,5 m.",
+    "Morze bardzo wysokie – fala ok. 9–14 m.",
+    "Morze lekko sfalowane – fala ok. 0,5–1,25 m."
+   ]
+  },
+  "L5-k-01": {
+   "correct": "518 kHz, po angielsku.",
+   "wrong": [
+    "490 kHz, po angielsku.",
+    "518 kHz, w języku lokalnym.",
+    "2182 kHz, po angielsku."
+   ]
+  },
+  "L5-k-02": {
+   "correct": "Ok. 250–400 mil morskich.",
+   "wrong": [
+    "Ok. 20–30 mil morskich.",
+    "Ok. 1000–1500 mil morskich.",
+    "Ok. 50–80 mil morskich."
+   ]
+  },
+  "L5-k-03": {
+   "correct": "Ostrzeżenie meteorologiczne.",
+   "wrong": [
+    "Ostrzeżenie nawigacyjne.",
+    "Informacja SAR / bezpieczeństwa.",
+    "Raport lodowy."
+   ]
+  },
+  "L5-k-04": {
+   "correct": "Ostrzeżenie nawigacyjne.",
+   "wrong": [
+    "Ostrzeżenie meteorologiczne.",
+    "Informacja SAR / bezpieczeństwa.",
+    "Raport lodowy."
+   ]
+  },
+  "L5-k-05": {
+   "correct": "A (nawigacyjne), B (meteorologiczne) i D (SAR / bezpieczeństwo).",
+   "wrong": [
+    "A (nawigacyjne), B (meteorologiczne) i E (prognozy pogody).",
+    "A (nawigacyjne), C (raporty lodowe) i D (SAR / bezpieczeństwo).",
+    "B (meteorologiczne), D (SAR / bezpieczeństwo) i E (prognozy pogody)."
+   ]
+  },
+  "L5-k-06": {
+   "correct": "J – litera stacji nadającej, B – ostrzeżenie meteorologiczne, 07 – numer kolejny.",
+   "wrong": [
+    "J – rodzaj wiadomości, B – litera stacji nadającej, 07 – numer kolejny.",
+    "J – litera stacji nadającej, B – ostrzeżenie nawigacyjne, 07 – numer kolejny.",
+    "J – litera stacji nadającej, B – ostrzeżenie meteorologiczne, 07 – godzina 07:00 UTC."
+   ]
+  },
+  "L5-k-07": {
+   "correct": "Od 8°B.",
+   "wrong": [
+    "Od 6°B.",
+    "Od 10°B.",
+    "Od 12°B."
+   ]
+  },
+  "L5-k-08": {
+   "correct": "W ciągu najbliższych 6 godzin.",
+   "wrong": [
+    "W ciągu 6–12 godzin.",
+    "Po upływie 12 godzin.",
+    "W ciągu najbliższych 24 godzin."
+   ]
+  },
+  "L5-k-09": {
+   "correct": "Na kanale 16 – sam komunikat nadawany jest na kanale roboczym.",
+   "wrong": [
+    "Na kanale 6 – sam komunikat nadawany jest na kanale 16.",
+    "Na kanale 13 – sam komunikat nadawany jest na kanale 16.",
+    "Na kanale 72 – sam komunikat nadawany jest na kanale 16."
+   ]
+  },
+  "L5-k-10": {
+   "correct": "SECURITE (wymawiane „sekjuritej”), powtórzone 3 razy.",
+   "wrong": [
+    "PAN-PAN (wymawiane „pan-pan”), powtórzone 3 razy.",
+    "MAYDAY (wymawiane „mejdej”), powtórzone 3 razy.",
+    "SEELONCE FEENEE (wymawiane „silans finii”), powtórzone 3 razy."
+   ]
+  },
+  "L5-k-11": {
+   "correct": "W spisie radiostacji (ALRS), w locji, w bosmanacie / kapitanacie portu.",
+   "wrong": [
+    "W Międzynarodowym Kodzie Sygnałowym i w tablicach pływów.",
+    "W MPZZ (COLREG) i w dzienniku jachtowym.",
+    "W tablicy dewiacji i w legendzie mapy nawigacyjnej."
+   ]
+  }
+ }
+}
