@@ -1,0 +1,46 @@
+{
+ "levels": [
+  {
+   "level": 1,
+   "title": "Fundamenty",
+   "desc": "Nazewnictwo, jednostki, skala Beauforta, flagi MKS i alfabet fonetyczny",
+   "file": "content/level-1.json"
+  },
+  {
+   "level": 2,
+   "title": "Prawo drogi – podstawy",
+   "desc": "MPZZ, kto ustępuje, światła podstawowe, znaki dzienne, IALA boczne i kardynalne",
+   "file": "content/level-2.json"
+  },
+  {
+   "level": 3,
+   "title": "Światła, znaki i sygnały – pełny zakres",
+   "desc": "Wszystkie jednostki nocą i w dzień, sygnały dźwiękowe i mgłowe, charakterystyki świateł, pozostałe znaki IALA"
+  },
+  {
+   "level": 4,
+   "title": "Nawigacja i locja",
+   "desc": "Mapy, poprawki kompasu, kursy i namiary, zliczenie, pływy, wejście do portu"
+  },
+  {
+   "level": 5,
+   "title": "Meteorologia",
+   "desc": "Przyrządy, układy baryczne, fronty, chmury, komunikaty, NAVTEX, stan morza"
+  },
+  {
+   "level": 6,
+   "title": "Bezpieczeństwo i ratownictwo",
+   "desc": "Środki ratunkowe, wzywanie pomocy, VHF/GMDSS, pirotechnika, MOB, hipotermia, sztorm"
+  },
+  {
+   "level": 7,
+   "title": "Jacht, silnik, planowanie rejsu, przepisy",
+   "desc": "Instalacje, diesel, dokumenty, obowiązki kapitana, planowanie rejsu"
+  },
+  {
+   "level": 8,
+   "title": "Integracja",
+   "desc": "Sytuacje łączone, zadania nawigacyjne, pełne testy egzaminacyjne"
+  }
+ ]
+}

@@ -8,3 +8,4 @@ Aplikacja przeglądarkowa do nauki na egzamin teoretyczny na patent **jachtowego
 
 ## Dokumentacja
 - [Etap 1 – zakres wiedzy na egzamin](docs/01-zakres-egzaminu-JSM.md)
+- [Etap 2 – struktura fiszek](docs/02-struktura-fiszek.md)

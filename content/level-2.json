@@ -1,0 +1,1229 @@
+{
+ "level": 2,
+ "title": "Prawo drogi – podstawy",
+ "lessons": [
+  {
+   "id": "L2-mpzz",
+   "title": "MPZZ – definicje i zasady ogólne",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**MPZZ** (Międzynarodowe Prawidła o Zapobieganiu Zderzeniom na Morzu, ang. COLREG 1972) to podstawowe „prawo drogi” na morzu. Obowiązują na pełnym morzu i na wszystkich połączonych z nim wodach dostępnych dla statków morskich."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Statek o napędzie mechanicznym** – każdy statek poruszany za pomocą maszyny. **Jacht żaglowy płynący na silniku** (nawet z postawionymi żaglami) jest w świetle MPZZ statkiem o napędzie mechanicznym!",
+      "**Żaglowiec** – statek idący pod żaglami, o ile jego silnik (jeśli go ma) nie jest używany.",
+      "**Statek zajęty połowem** – łowiący sieciami, linami, włokami, które ograniczają jego zdolność manewrową (NIE dotyczy łowienia na wędki ciągnione – trolling).",
+      "**W drodze** – statek, który nie stoi na kotwicy, nie jest przycumowany do brzegu i nie siedzi na mieliźnie (także gdy nie ma ruchu po wodzie).",
+      "**Ograniczona widzialność** – mgła, zamglenie, opady śniegu, ulewny deszcz, burze piaskowe itp."
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Prawidło 2 – odpowiedzialność**: przepisy nie zwalniają z obowiązku zachowania ostrożności wymaganej przez dobrą praktykę morską. Można odstąpić od prawideł, by uniknąć bezpośredniego niebezpieczeństwa.",
+      "**Prawidło 5 – obserwacja**: stała obserwacja wzrokowa i słuchowa oraz wszystkimi dostępnymi środkami.",
+      "**Prawidło 6 – bezpieczna prędkość**: taka, by móc skutecznie uniknąć zderzenia i zatrzymać się w odległości odpowiedniej do warunków.",
+      "**Prawidło 7 – ryzyko zderzenia**: istnieje, gdy **namiar kompasowy** na zbliżający się statek **nie zmienia się wyraźnie**. W razie wątpliwości – przyjmij, że ryzyko istnieje.",
+      "**Prawidło 8 – manewr**: wyraźny, wykonany **w porę**, wystarczająco duży, by był łatwo zauważalny (unikaj serii małych zmian kursu).",
+      "**Prawidło 9 – wąskie przejścia**: trzymaj się **prawej strony** toru. Statki < 20 m i żaglowce nie mogą utrudniać przejścia statkom, które mogą bezpiecznie płynąć tylko w obrębie toru.",
+      "**Prawidło 10 – systemy rozgraniczenia ruchu (TSS)**: pas ruchu przecina się kursem możliwie **prostopadłym** do ogólnego kierunku ruchu. Statki < 20 m i żaglowce nie mogą utrudniać ruchu statkom mechanicznym płynącym pasem ruchu."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Najważniejsza zasada praktyczna: stały namiar + malejąca odległość = kolizja. Działaj wcześnie i wyraźnie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-m-01",
+     "q": "Jacht płynie na silniku z postawionymi żaglami. Jakim statkiem jest w świetle MPZZ?",
+     "a": "Statkiem o napędzie mechanicznym.",
+     "explain": "Żaglowcem jest tylko statek idący pod żaglami, gdy silnik nie jest używany.",
+     "source": "MPZZ, prawidło 3",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-02",
+     "q": "Co oznacza w MPZZ określenie „w drodze”?",
+     "a": "Statek nie stoi na kotwicy, nie jest przycumowany do brzegu i nie siedzi na mieliźnie.",
+     "tip": "Statek w drodze może nie mieć ruchu po wodzie – np. dryfuje.",
+     "source": "MPZZ, prawidło 3",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-03",
+     "q": "Czy kuter łowiący na wędki ciągnione (trolling) jest „statkiem zajętym połowem”?",
+     "a": "Nie. Statek zajęty połowem to taki, którego zdolność manewrowa jest ograniczona przez sieci, liny, włoki. Trolling się nie liczy.",
+     "source": "MPZZ, prawidło 3",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-m-04",
+     "q": "Jak ocenić, czy istnieje ryzyko zderzenia?",
+     "a": "Obserwując namiar kompasowy na zbliżający się statek – jeśli wyraźnie się nie zmienia (a odległość maleje), ryzyko zderzenia istnieje.",
+     "source": "MPZZ, prawidło 7",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-05",
+     "q": "Jaki powinien być manewr dla uniknięcia zderzenia?",
+     "a": "Wyraźny, wykonany w porę i wystarczająco duży, by drugi statek łatwo go zauważył; należy unikać serii małych zmian kursu/prędkości.",
+     "source": "MPZZ, prawidło 8",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-06",
+     "q": "Którą stroną wąskiego przejścia (toru wodnego) należy płynąć?",
+     "a": "Możliwie blisko zewnętrznej granicy przejścia po swojej prawej burcie.",
+     "source": "MPZZ, prawidło 9",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-07",
+     "q": "Żaglowiec w wąskim przejściu spotyka duży statek, który może płynąć tylko torem. Kto ma pierwszeństwo?",
+     "a": "Żaglowiec nie może utrudniać przejścia takiemu statkowi (prawidło 9b).",
+     "explain": "Zwykła zasada „mechaniczny ustępuje żaglowcowi” ustępuje tu prawidłu 9.",
+     "source": "MPZZ, prawidło 9",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-m-08",
+     "q": "Pod jakim kątem przecina się pas ruchu w systemie rozgraniczenia ruchu (TSS)?",
+     "a": "Kursem możliwie prostopadłym do ogólnego kierunku ruchu w tym pasie.",
+     "source": "MPZZ, prawidło 10",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-m-09",
+     "q": "Co to jest bezpieczna prędkość?",
+     "a": "Prędkość, przy której statek może podjąć właściwe i skuteczne działanie dla uniknięcia zderzenia oraz zatrzymać się w odległości odpowiedniej do istniejących okoliczności i warunków.",
+     "source": "MPZZ, prawidło 6",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-m-10",
+     "q": "Czy w sytuacji bezpośredniego niebezpieczeństwa wolno odstąpić od prawideł MPZZ?",
+     "a": "Tak – prawidło 2 pozwala odstąpić od prawideł, jeżeli jest to konieczne dla uniknięcia bezpośredniego niebezpieczeństwa.",
+     "source": "MPZZ, prawidło 2",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L2-ustepowanie",
+   "title": "Kto komu ustępuje drogi",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Prawidła 12–18 określają, który statek **ustępuje drogi** (ma obowiązek manewru), a który jest **uprzywilejowany** (utrzymuje kurs i prędkość, ale nadal obserwuje sytuację)."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Żaglowiec – żaglowiec (prawidło 12)**: przy **różnych halsach** ustępuje ten na **lewym halsie**. Przy **tym samym halsie** ustępuje statek **nawietrzny** (bliżej wiatru). Jeśli jesteś na lewym halsie i nie możesz ustalić halsu drugiego – ustępujesz.",
+      "**Wyprzedzanie (prawidło 13)**: wyprzedzający **zawsze** ustępuje – także żaglowiec wyprzedzający statek motorowy. Wyprzedzanie = zbliżanie się z kierunku większego niż 22,5° za trawersem drugiego statku.",
+      "**Kursy przeciwne (prawidło 14)**: dwa statki mechaniczne idące na siebie – **oba zmieniają kurs w prawo**.",
+      "**Kursy przecinające się (prawidło 15)**: ustępuje statek mechaniczny, który ma drugi **po swojej prawej burcie**.",
+      "**Statek uprzywilejowany (prawidło 17)**: utrzymuje kurs i prędkość; może manewrować, gdy ustępujący wyraźnie nie działa; musi działać, gdy zderzenia nie da się uniknąć manewrem samego ustępującego."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Hierarchia (prawidło 18)** – kto komu ustępuje (od najmniej do najbardziej uprzywilejowanego):"
+    },
+    {
+     "t": "ol",
+     "items": [
+      "statek o napędzie mechanicznym (w tym jacht na silniku)",
+      "żaglowiec",
+      "statek zajęty połowem",
+      "statek o ograniczonej zdolności manewrowej oraz statek niezdolny do manewrowania"
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Każdy z wyższej pozycji listy ustępuje tym niżej. Dodatkowo każdy statek (poza niezdolnym i o ograniczonej zdolności manewrowej) powinien unikać utrudniania drogi **statkowi ograniczonemu zanurzeniem**."
+    },
+    {
+     "t": "tip",
+     "text": "Mnemotechnika: „Motor – Żagiel – Ryba – Niezdolny”. Im mniej możesz manewrować, tym większe masz pierwszeństwo. Wyjątki ponad hierarchią: wyprzedzanie (13), wąskie przejścia (9), TSS (10)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "situation",
+      "wind": 0,
+      "boats": [
+       {
+        "x": 55,
+        "y": 150,
+        "h": 45,
+        "type": "sail",
+        "label": "A"
+       },
+       {
+        "x": 145,
+        "y": 150,
+        "h": 315,
+        "type": "sail",
+        "label": "B"
+       }
+      ]
+     },
+     "caption": "Różne halsy: A na lewym halsie (wiatr z lewej burty) ustępuje B na prawym halsie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-u-01",
+     "q": "Dwa jachty pod żaglami, kursy się przecinają. Który ustępuje?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 0,
+      "boats": [
+       {
+        "x": 55,
+        "y": 150,
+        "h": 45,
+        "type": "sail",
+        "label": "A"
+       },
+       {
+        "x": 145,
+        "y": 150,
+        "h": 315,
+        "type": "sail",
+        "label": "B"
+       }
+      ]
+     },
+     "a": "A – płynie lewym halsem (wiatr z lewej burty). Przy różnych halsach ustępuje jacht na lewym halsie.",
+     "source": "MPZZ, prawidło 12",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-02",
+     "q": "Dwa jachty pod żaglami tym samym halsem zbliżają się do siebie. Który ustępuje?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 0,
+      "boats": [
+       {
+        "x": 45,
+        "y": 60,
+        "h": 110,
+        "type": "sail",
+        "label": "A"
+       },
+       {
+        "x": 45,
+        "y": 150,
+        "h": 70,
+        "type": "sail",
+        "label": "B"
+       }
+      ]
+     },
+     "a": "A – jest nawietrzny (bliżej wiatru). Przy tym samym halsie ustępuje statek nawietrzny.",
+     "source": "MPZZ, prawidło 12",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-u-03",
+     "q": "Jacht pod żaglami (A) dogania od rufy i wyprzedza statek motorowy (B). Kto ustępuje?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 270,
+      "boats": [
+       {
+        "x": 100,
+        "y": 70,
+        "h": 0,
+        "type": "power",
+        "label": "B"
+       },
+       {
+        "x": 110,
+        "y": 165,
+        "h": 0,
+        "type": "sail",
+        "label": "A"
+       }
+      ]
+     },
+     "a": "A – statek wyprzedzający zawsze ustępuje, nawet żaglowiec wyprzedzający statek mechaniczny.",
+     "source": "MPZZ, prawidło 13",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-04",
+     "q": "Kiedy statek uznaje się za wyprzedzający?",
+     "a": "Gdy zbliża się do drugiego z kierunku większego niż 22,5° za jego trawersem – w nocy widziałby tylko jego światło rufowe, a nie burtowe.",
+     "source": "MPZZ, prawidło 13",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-u-05",
+     "q": "Dwa statki o napędzie mechanicznym płyną na siebie kursami przeciwnymi. Co robią?",
+     "qVisual": {
+      "kind": "situation",
+      "boats": [
+       {
+        "x": 100,
+        "y": 45,
+        "h": 180,
+        "type": "power",
+        "label": "A"
+       },
+       {
+        "x": 100,
+        "y": 160,
+        "h": 0,
+        "type": "power",
+        "label": "B"
+       }
+      ]
+     },
+     "a": "Oba zmieniają kurs w prawo, tak by minąć się lewymi burtami.",
+     "source": "MPZZ, prawidło 14",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-06",
+     "q": "Twój jacht (A) płynie na silniku. Kursy przecinają się ze statkiem motorowym B. Kto ustępuje?",
+     "qVisual": {
+      "kind": "situation",
+      "boats": [
+       {
+        "x": 50,
+        "y": 100,
+        "h": 90,
+        "type": "power",
+        "label": "A",
+        "me": true
+       },
+       {
+        "x": 135,
+        "y": 175,
+        "h": 0,
+        "type": "power",
+        "label": "B"
+       }
+      ]
+     },
+     "a": "A (Ty) – masz statek B po swojej prawej burcie, więc ustępujesz.",
+     "tip": "Statek z prawej ma pierwszeństwo – jak na skrzyżowaniu równorzędnym.",
+     "source": "MPZZ, prawidło 15",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-07",
+     "q": "Statek motorowy (A) i jacht pod żaglami (B) na przecinających się kursach, na otwartym morzu. Kto ustępuje?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 270,
+      "boats": [
+       {
+        "x": 45,
+        "y": 100,
+        "h": 90,
+        "type": "power",
+        "label": "A"
+       },
+       {
+        "x": 135,
+        "y": 165,
+        "h": 0,
+        "type": "sail",
+        "label": "B"
+       }
+      ]
+     },
+     "a": "A – statek o napędzie mechanicznym ustępuje żaglowcowi.",
+     "source": "MPZZ, prawidło 18",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-08",
+     "q": "Jacht pod żaglami spotyka statek zajęty połowem (trałowanie). Kto ustępuje?",
+     "a": "Jacht pod żaglami – żaglowiec ustępuje statkowi zajętemu połowem.",
+     "source": "MPZZ, prawidło 18",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-09",
+     "q": "Wymień hierarchię ustępowania drogi z prawidła 18 (od statku, który ustępuje wszystkim).",
+     "a": "Statek o napędzie mechanicznym → żaglowiec → statek zajęty połowem → statek o ograniczonej zdolności manewrowej i statek niezdolny do manewrowania.",
+     "tip": "„Motor – Żagiel – Ryba – Niezdolny”.",
+     "source": "MPZZ, prawidło 18",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-u-10",
+     "q": "Jesteś statkiem uprzywilejowanym. Co robisz?",
+     "a": "Utrzymujesz kurs i prędkość. Możesz manewrować, gdy ustępujący wyraźnie nie podejmuje działania; musisz działać, gdy zderzenia nie da się już uniknąć manewrem samego ustępującego.",
+     "source": "MPZZ, prawidło 17",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-u-11",
+     "q": "Płyniesz lewym halsem i nie możesz ustalić, jakim halsem płynie żaglowiec po nawietrznej. Co robisz?",
+     "a": "Ustępujesz mu drogi.",
+     "source": "MPZZ, prawidło 12(a)(iii)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-u-12",
+     "q": "Komu powinny unikać utrudniania drogi wszystkie statki (poza niezdolnymi do manewrowania i o ograniczonej zdolności manewrowej)?",
+     "a": "Statkowi ograniczonemu swoim zanurzeniem, który pokazuje wymagane sygnały.",
+     "source": "MPZZ, prawidło 18(d)",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L2-swiatla",
+   "title": "Światła nawigacyjne – podstawy",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Od zachodu do wschodu słońca oraz w ograniczonej widzialności statki pokazują światła. Po ich układzie rozpoznajesz **rodzaj statku**, **jego stan** i **z której strony go widzisz** – a więc kurs i to, kto ustępuje."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Światło",
+      "Kolor",
+      "Sektor widoczności"
+     ],
+     "rows": [
+      [
+       "masztowe",
+       "białe",
+       "225° – od dziobu do 22,5° za trawers z każdej burty"
+      ],
+      [
+       "burtowe",
+       "zielone (prawa) / czerwone (lewa)",
+       "112,5° każde – od dziobu do 22,5° za trawers"
+      ],
+      [
+       "rufowe",
+       "białe",
+       "135° – od rufy (67,5° na każdą burtę)"
+      ],
+      [
+       "holownicze",
+       "żółte",
+       "135° – jak rufowe"
+      ],
+      [
+       "widoczne dookoła",
+       "różne",
+       "360°"
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Długość statku",
+      "masztowe",
+      "burtowe",
+      "rufowe"
+     ],
+     "rows": [
+      [
+       "≥ 50 m",
+       "6 Mm",
+       "3 Mm",
+       "3 Mm"
+      ],
+      [
+       "12–50 m",
+       "5 Mm (3 Mm gdy < 20 m)",
+       "2 Mm",
+       "2 Mm"
+      ],
+      [
+       "< 12 m",
+       "2 Mm",
+       "1 Mm",
+       "2 Mm"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Statek o napędzie mechanicznym w drodze** (prawidło 23): światło masztowe + burtowe + rufowe. Statek **≥ 50 m** ma **dwa** światła masztowe – tylne wyżej niż przednie (pokazują kurs statku)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "mast2",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "caption": "Statek mechaniczny ≥ 50 m z prawej burty: dwa masztowe (tylne wyżej) i zielone burtowe. Idzie w prawo – w stronę niższego masztowego."
+    },
+    {
+     "t": "p",
+     "text": "**Żaglowiec w drodze** (prawidło 25): tylko burtowe + rufowe, **bez masztowego**. Żaglowiec < 20 m może je połączyć w **latarnię trójkolorową** na topie masztu. Dodatkowo żaglowiec może pokazywać na topie **czerwone nad zielonym** (dookoła) – ale nie razem z latarnią trójkolorową."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "sail",
+      "carries": [
+       "tricolor"
+      ],
+      "silhouette": true
+     },
+     "caption": "Jacht < 20 m z latarnią trójkolorową, widziany z prawej burty – jedno zielone światło wysoko."
+    },
+    {
+     "t": "p",
+     "text": "**Statek na kotwicy** (prawidło 30): białe dookoła na dziobie; statek ≥ 50 m dodatkowo drugie, niższe na rufie. Statek < 50 m może pokazywać jedno białe dookoła."
+    },
+    {
+     "t": "tip",
+     "text": "Jacht żaglowy na silniku zapala światło masztowe – w nocy wygląda jak statek motorowy, bo w świetle MPZZ nim jest! Reguła drogi: widzisz jego ZIELONE (jesteś po jego prawej) – to on ustępuje; widzisz jego CZERWONE – Ty ustępujesz (jeśli obaj jesteście mechaniczni)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-s-01",
+     "q": "Co widzisz w nocy? Jaki to statek i z której strony go obserwujesz?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Statek o napędzie mechanicznym < 50 m widziany od dziobu – płynie prosto na Ciebie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "explain": "Jedno białe masztowe + oba burtowe. Zielone widzisz po lewej stronie obrazu, bo prawa burta statku jest zwrócona do Twojej lewej strony. Jeśli i Ty jesteś mechaniczny – oba zmieniacie kurs w prawo.",
+     "source": "MPZZ, prawidła 23 i 14",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-02",
+     "q": "Co widzisz w nocy?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "mast2",
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Statek o napędzie mechanicznym ≥ 50 m widziany od dziobu – płynie prosto na Ciebie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "mast2",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "explain": "Dwa białe masztowe w linii (tylne wyżej) + oba burtowe.",
+     "source": "MPZZ, prawidło 23",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-03",
+     "q": "Co widzisz w nocy? Kto ustępuje, jeśli płyniesz na silniku i Wasze kursy się przecinają?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "mast2",
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Statek mechaniczny ≥ 50 m widziany z jego prawej burty, płynie w prawo. To on ustępuje – ma Cię po swojej prawej burcie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "mast2",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "tip": "Kierunek ruchu: dziób jest po stronie niższego światła masztowego.",
+     "source": "MPZZ, prawidła 23 i 15",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-04",
+     "q": "Co widzisz w nocy? Kto ustępuje, jeśli płyniesz na silniku i Wasze kursy się przecinają?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Statek mechaniczny < 50 m widziany z jego lewej burty, płynie w lewo. Ty ustępujesz – on jest po Twojej prawej burcie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "tip": "Widzisz czerwone – Ty ustępujesz.",
+     "source": "MPZZ, prawidła 23 i 15",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-05",
+     "q": "Widzisz w nocy jedno białe światło nisko nad wodą. Co to może być?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "stern",
+      "vessel": "power",
+      "carries": [
+       "stern"
+      ]
+     },
+     "a": "(1) światło rufowe statku – widzisz go od rufy (oddala się lub to Ty go doganiasz), (2) statek < 50 m na kotwicy, (3) mała jednostka < 7 m pod żaglami / łódź wiosłowa z białą latarką.",
+     "explain": "Pojedyncze białe światło wymaga obserwacji: czy namiar i odległość się zmieniają.",
+     "source": "MPZZ, prawidła 21, 25, 30",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-06",
+     "q": "Co widzisz w nocy?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "sail",
+      "carries": [
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Żaglowiec w drodze widziany od dziobu – płynie na Ciebie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "sail",
+      "carries": [
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "explain": "Tylko burtowe zielone i czerwone, bez białego masztowego. Brak masztowego = żaglowiec (lub mała jednostka).",
+     "source": "MPZZ, prawidło 25",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-07",
+     "q": "Co widzisz w nocy? (jedno zielone światło wysoko)",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "sail",
+      "carries": [
+       "tricolor"
+      ]
+     },
+     "a": "Żaglowiec < 20 m z latarnią trójkolorową na topie masztu, widziany z prawej burty.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "sail",
+      "carries": [
+       "tricolor"
+      ],
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 25(b)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-08",
+     "q": "Co widzisz w nocy?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "sail",
+      "carries": [
+       "rog",
+       "side",
+       "stern"
+      ]
+     },
+     "a": "Żaglowiec w drodze widziany z lewej burty, z dodatkowymi światłami czerwone nad zielonym na topie masztu.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "sail",
+      "carries": [
+       "rog",
+       "side",
+       "stern"
+      ],
+      "silhouette": true
+     },
+     "tip": "„Czerwone nad zielonym – żeglarz na wodzie” (red over green, sailing machine).",
+     "source": "MPZZ, prawidło 25(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-09",
+     "q": "Co widzisz w nocy? (dwa białe światła, przednie wyżej)",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF",
+       "anchorA"
+      ]
+     },
+     "a": "Statek ≥ 50 m stojący na kotwicy (widziany z prawej burty).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF",
+       "anchorA"
+      ],
+      "silhouette": true
+     },
+     "explain": "Światła kotwiczne: przednie wyżej, tylne niżej – odwrotnie niż masztowe statku w drodze (tam tylne wyżej).",
+     "source": "MPZZ, prawidło 30",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-10",
+     "q": "Jaki sektor widoczności ma światło masztowe?",
+     "a": "225° – od kierunku dziobu do 22,5° za trawers na każdą burtę.",
+     "source": "MPZZ, prawidło 21",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-11",
+     "q": "Jaki sektor widoczności ma światło burtowe?",
+     "a": "112,5° – od kierunku dziobu do 22,5° za trawers danej burty.",
+     "source": "MPZZ, prawidło 21",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-12",
+     "q": "Jaki sektor widoczności ma światło rufowe?",
+     "a": "135° – po 67,5° na każdą burtę od kierunku rufy.",
+     "tip": "225° + 135° = 360° – masztowe i rufowe razem dają pełny okrąg.",
+     "source": "MPZZ, prawidło 21",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-13",
+     "q": "Jakie światła pokazuje statek o napędzie mechanicznym < 50 m w drodze?",
+     "a": "Białe masztowe, burtowe (zielone i czerwone) oraz białe rufowe.",
+     "source": "MPZZ, prawidło 23",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-14",
+     "q": "Czym różnią się światła żaglowca w drodze od świateł statku mechanicznego?",
+     "a": "Żaglowiec NIE pokazuje światła masztowego – tylko burtowe i rufowe (lub latarnię trójkolorową, gdy < 20 m).",
+     "source": "MPZZ, prawidło 25",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-s-15",
+     "q": "Czy żaglowiec może jednocześnie pokazywać latarnię trójkolorową i światła czerwone nad zielonym na topie?",
+     "a": "Nie. Czerwone nad zielonym można pokazywać tylko z oddzielnymi światłami burtowymi i rufowym.",
+     "source": "MPZZ, prawidło 25(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-s-16",
+     "q": "Jaki jest zasięg widzialności światła masztowego statku 12–50 m?",
+     "a": "5 Mm (3 Mm, gdy statek < 20 m).",
+     "source": "MPZZ, prawidło 22",
+     "difficulty": 3
+    },
+    {
+     "id": "L2-s-17",
+     "q": "Jaki jest zasięg świateł burtowych jachtu < 12 m?",
+     "a": "1 Mm.",
+     "source": "MPZZ, prawidło 22",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L2-znaki-dzienne",
+   "title": "Znaki dzienne – podstawowe",
+   "theory": [
+    {
+     "t": "p",
+     "text": "W dzień zamiast świateł statki pokazują **czarne znaki dzienne**: kule, stożki, romby, walce. Dwa znaki dzienne musi znać każdy jachtowy sternik od pierwszego rejsu:"
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball"
+      ],
+      "vessel": "sail"
+     },
+     "caption": "Kula – statek na kotwicy (umieszczona na dziobie, tam gdzie najlepiej widoczna)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cone-down"
+      ],
+      "vessel": "sail"
+     },
+     "caption": "Stożek wierzchołkiem w dół – jacht idący na silniku z postawionymi żaglami."
+    },
+    {
+     "t": "tip",
+     "text": "Stożek wierzchołkiem w dół mówi innym: „mam postawione żagle, ale płynę na silniku – traktuj mnie jak statek motorowy”."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-d-01",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek stoi na kotwicy (jedna czarna kula).",
+     "source": "MPZZ, prawidło 30",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-d-02",
+     "q": "Co oznacza ten znak dzienny na jachcie z postawionymi żaglami?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cone-down"
+      ],
+      "vessel": "sail"
+     },
+     "a": "Jacht idzie pod żaglami i jednocześnie na silniku – jest statkiem o napędzie mechanicznym.",
+     "source": "MPZZ, prawidło 25(e)",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-d-03",
+     "q": "Jaki znak dzienny pokazuje jacht płynący pod żaglami i na silniku?",
+     "a": "Czarny stożek wierzchołkiem w dół, na dziobie, tam gdzie najlepiej widoczny.",
+     "aVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cone-down"
+      ],
+      "vessel": "sail"
+     },
+     "source": "MPZZ, prawidło 25(e)",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-d-04",
+     "q": "Jaki znak dzienny pokazuje statek na kotwicy?",
+     "a": "Czarną kulę w przedniej części statku.",
+     "aVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "source": "MPZZ, prawidło 30",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L2-iala-boczne",
+   "title": "Oznakowanie IALA – znaki boczne",
+   "theory": [
+    {
+     "t": "p",
+     "text": "System oznakowania **IALA** ujednolica wygląd pław i stawów na świecie. Europa, Afryka, Australia i większość Azji to **region A**. Region B (obie Ameryki, Japonia, Korea, Filipiny) ma odwrócone kolory znaków bocznych."
+    },
+    {
+     "t": "p",
+     "text": "**Znaki boczne** wyznaczają granice toru wodnego. Strony określa się względem **umownego kierunku oznakowania** – przy wejściu **od morza do portu** (rzeki, zatoki); w innych miejscach podany jest w locjach i na mapach."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "port"
+     },
+     "caption": "Znak lewej strony (region A): czerwony, kształt walca, znak szczytowy – czerwony walec, światło czerwone. Zostawiasz go po LEWEJ burcie, płynąc od morza."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "stbd"
+     },
+     "caption": "Znak prawej strony: zielony, kształt stożka, znak szczytowy – zielony stożek wierzchołkiem w górę, światło zielone. Zostawiasz go po PRAWEJ burcie."
+    },
+    {
+     "t": "tip",
+     "text": "Kolory jak światła burtowe: czerwony – lewa, zielony – prawa. Wchodząc do portu w regionie A, czerwone pławy masz po lewej, zielone po prawej. (W regionie B odwrotnie: „red right returning”.)"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-ib-01",
+     "q": "Jaki to znak (region A) i jak go minąć, wchodząc od morza do portu?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "port"
+     },
+     "a": "Znak lewej strony toru wodnego – zostawić go po lewej burcie.",
+     "source": "System oznakowania IALA, region A",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ib-02",
+     "q": "Jaki to znak (region A) i jak go minąć, wchodząc od morza do portu?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "stbd"
+     },
+     "a": "Znak prawej strony toru wodnego – zostawić go po prawej burcie.",
+     "source": "System oznakowania IALA, region A",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ib-03",
+     "q": "Wypływasz z portu w morze. Po której burcie zostawiasz czerwone pławy (region A)?",
+     "a": "Po prawej burcie – kierunek umowny oznakowania jest od morza do portu, więc płynąc w morze strony są odwrócone.",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ib-04",
+     "q": "Jaki znak szczytowy ma znak lewej strony w regionie A?",
+     "a": "Jeden czerwony walec (cylinder).",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ib-05",
+     "q": "Jaki znak szczytowy ma znak prawej strony w regionie A?",
+     "a": "Jeden zielony stożek wierzchołkiem w górę.",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ib-06",
+     "q": "Nocą widzisz rytmiczne czerwone światło na pławie. Jaki to najpewniej znak (region A)?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Fl R 4s",
+      "color": "r"
+     },
+     "a": "Znak boczny lewej strony toru (światło czerwone, Fl R 4s – błyskowe co 4 s).",
+     "source": "IALA",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ib-07",
+     "q": "Czym różni się region B systemu IALA od regionu A?",
+     "a": "Odwrotnymi kolorami znaków bocznych: w regionie B znak prawej strony (wchodząc od morza) jest czerwony, a lewej – zielony. Region B: obie Ameryki, Japonia, Korea, Filipiny.",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ib-08",
+     "q": "W którym regionie IALA leży Bałtyk?",
+     "a": "W regionie A.",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L2-iala-kardynalne",
+   "title": "Oznakowanie IALA – znaki kardynalne",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Znaki kardynalne** pokazują, po której stronie niebezpieczeństwa jest bezpieczna woda. Nazwa znaku mówi, **gdzie przejść**: znak północny (N) mijasz od strony **północnej**, wschodni (E) – od wschodniej itd."
+    },
+    {
+     "t": "p",
+     "text": "Wszystkie są **czarno-żółte** i mają znak szczytowy z **dwóch czarnych stożków**. Stożki wskazują, gdzie na pławie są **czarne pasy**."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "card-N"
+     },
+     "caption": "N – stożki w górę (▲▲), czarna góra. Przejdź na północ od znaku."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "card-E"
+     },
+     "caption": "E – stożki podstawami do siebie (▲▼, jak jajko – Egg), czarne pasy u góry i dołu."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "card-S"
+     },
+     "caption": "S – stożki w dół (▼▼), czarny dół."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "card-W"
+     },
+     "caption": "W – stożki wierzchołkami do siebie (▼▲, jak kieliszek – Wineglass), czarny środek."
+    },
+    {
+     "t": "p",
+     "text": "**Światła** znaków kardynalnych są **białe**, szybkobłyskowe (Q) lub bardzo szybkobłyskowe (VQ). Liczba błysków w grupie odpowiada **godzinie na tarczy zegara**:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "Znak",
+      "Światło",
+      "Skojarzenie"
+     ],
+     "rows": [
+      [
+       "N",
+       "Q lub VQ – błyski ciągłe",
+       "12:00 – wskazówki „bez końca”"
+      ],
+      [
+       "E",
+       "Q(3) 10s lub VQ(3) 5s",
+       "3:00 – 3 błyski"
+      ],
+      [
+       "S",
+       "Q(6)+LFl 15s lub VQ(6)+LFl 10s",
+       "6:00 – 6 błysków + długi błysk"
+      ],
+      [
+       "W",
+       "Q(9) 15s lub VQ(9) 10s",
+       "9:00 – 9 błysków"
+      ]
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Długi błysk po 6 błyskach znaku S pozwala odróżnić go w nocy od 3 (E) i 9 (W) – łatwo pomylić liczbę szybkich błysków."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L2-ik-01",
+     "q": "Jaki to znak? Po której stronie go minąć?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "card-N"
+     },
+     "a": "Znak kardynalny północny (N) – przejść na północ od niego.",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ik-02",
+     "q": "Jaki to znak? Po której stronie go minąć?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "card-S"
+     },
+     "a": "Znak kardynalny południowy (S) – przejść na południe od niego.",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ik-03",
+     "q": "Jaki to znak? Po której stronie go minąć?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "card-E"
+     },
+     "a": "Znak kardynalny wschodni (E) – przejść na wschód od niego.",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ik-04",
+     "q": "Jaki to znak? Po której stronie go minąć?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "card-W"
+     },
+     "a": "Znak kardynalny zachodni (W) – przejść na zachód od niego.",
+     "source": "IALA",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ik-05",
+     "q": "Do jakiego znaku kardynalnego należy to światło?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "VQ",
+      "color": "w"
+     },
+     "a": "Północnego (N) – błyski bardzo szybkie, ciągłe (VQ).",
+     "source": "IALA",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-06",
+     "q": "Do jakiego znaku kardynalnego należy to światło?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "VQ(3) 5s",
+      "color": "w"
+     },
+     "a": "Wschodniego (E) – grupa 3 błysków co 5 s: VQ(3) 5s.",
+     "source": "IALA",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-07",
+     "q": "Do jakiego znaku kardynalnego należy to światło?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "VQ(6)+LFl 10s",
+      "color": "w"
+     },
+     "a": "Południowego (S) – 6 szybkich błysków i jeden długi: VQ(6)+LFl 10s.",
+     "source": "IALA",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-08",
+     "q": "Do jakiego znaku kardynalnego należy to światło?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Q(9) 15s",
+      "color": "w"
+     },
+     "a": "Zachodniego (W) – grupa 9 błysków co 15 s: Q(9) 15s.",
+     "source": "IALA",
+     "difficulty": 3
+    },
+    {
+     "id": "L2-ik-09",
+     "q": "Jaki znak szczytowy ma znak kardynalny zachodni?",
+     "a": "Dwa czarne stożki wierzchołkami do siebie (▼▲) – kształt kieliszka.",
+     "aVisual": {
+      "kind": "buoy",
+      "type": "card-W"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-10",
+     "q": "Jaki znak szczytowy ma znak kardynalny wschodni?",
+     "a": "Dwa czarne stożki podstawami do siebie (▲▼) – kształt jajka / rombu.",
+     "aVisual": {
+      "kind": "buoy",
+      "type": "card-E"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-11",
+     "q": "Jak zapamiętać rozmieszczenie czarnych pasów na znakach kardynalnych?",
+     "a": "Stożki znaku szczytowego wskazują czarne pasy: N ▲▲ – czarna góra; S ▼▼ – czarny dół; E ▲▼ – czarna góra i dół; W ▼▲ – czarny środek.",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-12",
+     "q": "Jakiego koloru jest światło znaków kardynalnych?",
+     "a": "Białe.",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-ik-13",
+     "q": "Dlaczego światło znaku S ma dodatkowy długi błysk?",
+     "a": "Aby w nocy odróżnić grupę 6 błysków od grup 3 (E) i 9 (W), które łatwo pomylić przy szybkich błyskach.",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-ik-14",
+     "q": "Płyniesz na północ i widzisz przed dziobem znak kardynalny zachodni. Którą burtą go minąć?",
+     "a": "Znak zostaje po prawej burcie: trzeba przejść na zachód od niego, czyli minąć go po swojej lewej stronie.",
+     "explain": "Niebezpieczeństwo jest na wschód od znaku W.",
+     "difficulty": 3
+    }
+   ]
+  }
+ ]
+}

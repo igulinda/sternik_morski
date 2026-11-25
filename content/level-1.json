@@ -1,0 +1,1034 @@
+{
+ "level": 1,
+ "title": "Fundamenty",
+ "lessons": [
+  {
+   "id": "L1-nazewnictwo",
+   "title": "Jacht – strony, kierunki, kursy względem wiatru",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Zanim nauczysz się prawa drogi i świateł, musisz bezbłędnie posługiwać się podstawowymi pojęciami. Na egzaminie pojawiają się w niemal każdym pytaniu."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Dziób** – przód jachtu, **rufa** – tył.",
+      "**Prawa burta** (sterburta, SB) – oznaczana kolorem **zielonym**.",
+      "**Lewa burta** (bakburta, BB) – oznaczana kolorem **czerwonym**.",
+      "**Trawers** – kierunek prostopadły do osi jachtu (90° od dziobu).",
+      "**Burta nawietrzna** – ta, na którą wieje wiatr; **zawietrzna** – przeciwna (osłonięta).",
+      "**Hals** – określa burtę, z której wieje wiatr: **prawy hals** = wiatr z prawej burty (grot po lewej), **lewy hals** = wiatr z lewej burty (grot po prawej)."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Kolory burt: „Lewe – czerwone, jak czerwone wino, które zostało w porcie (port = lewa po angielsku)”. Ten sam kod kolorów wróci przy światłach burtowych i znakach IALA."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "situation",
+      "wind": 0,
+      "boats": [
+       {
+        "x": 60,
+        "y": 120,
+        "h": 45,
+        "type": "sail",
+        "label": "lewy hals"
+       },
+       {
+        "x": 145,
+        "y": 120,
+        "h": 315,
+        "type": "sail",
+        "label": "prawy"
+       }
+      ]
+     },
+     "caption": "Wiatr z północy. Bom (grot) zawsze po stronie zawietrznej – hals odczytujesz po przeciwnej stronie niż bom."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Kursy względem wiatru**: bajdewind (ostro na wiatr, ok. 45°), półwiatr (wiatr z trawersu, ok. 90°), baksztag (wiatr od rufy skośnie, ok. 135°), fordewind (wiatr prosto w rufę, 180°).",
+      "**Kąt kursowy** – kąt między dziobem jachtu a kierunkiem na obiekt, mierzony od dziobu w prawo lub w lewo (np. 30° prawej burty)."
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-n-01",
+     "q": "Jakim kolorem oznaczana jest prawa burta i jak inaczej się ją nazywa?",
+     "a": "Zielonym. Prawa burta = sterburta (SB, ang. starboard).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-02",
+     "q": "Jakim kolorem oznaczana jest lewa burta i jak inaczej się ją nazywa?",
+     "a": "Czerwonym. Lewa burta = bakburta (BB, ang. port).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-03",
+     "q": "Co to jest trawers?",
+     "a": "Kierunek prostopadły do osi symetrii jachtu – 90° od dziobu na prawą lub lewą burtę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-04",
+     "q": "Która burta jest nawietrzna?",
+     "a": "Ta, na którą wieje wiatr. Przeciwna to burta zawietrzna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-05",
+     "q": "Jacht płynie lewym halsem. Z której burty wieje wiatr i po której stronie jest grot (bom)?",
+     "a": "Wiatr wieje z lewej burty, grot (bom) jest po prawej burcie.",
+     "tip": "Hals = burta, z której wieje wiatr. Bom zawsze po stronie zawietrznej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-06",
+     "q": "Jakim halsem płynie jacht oznaczony literą A?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 0,
+      "boats": [
+       {
+        "x": 90,
+        "y": 120,
+        "h": 60,
+        "type": "sail",
+        "label": "A"
+       }
+      ]
+     },
+     "a": "Lewym halsem – wiatr (z północy) wpada na lewą burtę, bom jest po prawej.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-n-07",
+     "q": "Jakim halsem płynie jacht oznaczony literą A?",
+     "qVisual": {
+      "kind": "situation",
+      "wind": 90,
+      "boats": [
+       {
+        "x": 90,
+        "y": 110,
+        "h": 0,
+        "type": "sail",
+        "label": "A"
+       }
+      ]
+     },
+     "a": "Prawym halsem – wiatr ze wschodu wpada na prawą burtę jachtu płynącego na północ; bom po lewej.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-n-08",
+     "q": "Jak nazywa się kurs, przy którym wiatr wieje prosto w rufę?",
+     "a": "Fordewind.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-09",
+     "q": "Jak nazywa się kurs ostro na wiatr (ok. 45° do wiatru)?",
+     "a": "Bajdewind.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-10",
+     "q": "Jak nazywa się kurs z wiatrem z trawersu?",
+     "a": "Półwiatr.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-11",
+     "q": "Jak nazywa się kurs, przy którym wiatr wieje skośnie od rufy (ok. 135°)?",
+     "a": "Baksztag.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-n-12",
+     "q": "Co to jest kąt kursowy?",
+     "a": "Kąt między dziobem (osią jachtu) a kierunkiem na obserwowany obiekt, liczony od dziobu na prawą lub lewą burtę (0–180°).",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L1-jednostki",
+   "title": "Jednostki i miary w żegludze",
+   "theory": [
+    {
+     "t": "p",
+     "text": "W nawigacji morskiej odległości mierzymy w milach morskich, prędkość w węzłach, a kierunki w stopniach od 000° do 360°, liczonych zgodnie z ruchem wskazówek zegara od północy."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Mila morska (Mm, NM)** = **1852 m** = długość 1 minuty kątowej szerokości geograficznej (1′ łuku południka).",
+      "**1° szerokości = 60 Mm.**",
+      "**Kabel** = 0,1 Mm ≈ 185 m.",
+      "**Węzeł (w, kn)** = 1 Mm na godzinę.",
+      "**Kierunki**: 000° = N, 090° = E, 180° = S, 270° = W. Zapisujemy trzema cyframi."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Droga = prędkość × czas. Przykład: 6 węzłów przez 2,5 h = 15 Mm. Czas = droga / prędkość."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-j-01",
+     "q": "Ile metrów ma mila morska?",
+     "a": "1852 m.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-02",
+     "q": "Czemu odpowiada mila morska na mapie?",
+     "a": "Długości 1 minuty kątowej szerokości geograficznej (1′ łuku południka). Dlatego odległości odmierzamy na bocznej (pionowej) ramce mapy.",
+     "tip": "Nigdy nie mierz mil na ramce górnej/dolnej (długość) – minuta długości maleje w stronę biegunów.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-j-03",
+     "q": "Ile mil morskich ma 1° szerokości geograficznej?",
+     "a": "60 Mm.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-04",
+     "q": "Co to jest węzeł?",
+     "a": "Jednostka prędkości: 1 mila morska na godzinę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-05",
+     "q": "Ile to jest kabel?",
+     "a": "0,1 mili morskiej ≈ 185 m.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-06",
+     "q": "Jacht płynie z prędkością 5 w. Jaką drogę przebędzie w 3 h 30 min?",
+     "a": "17,5 Mm (5 × 3,5).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-07",
+     "q": "Do portu jest 24 Mm, płyniesz 6 w. Ile potrwa rejs?",
+     "a": "4 godziny.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-08",
+     "q": "Jaki kierunek oznacza 270°?",
+     "a": "Zachód (W).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-j-09",
+     "q": "Przez 40 minut jacht przepłynął 4 Mm. Jaka była jego prędkość?",
+     "a": "6 węzłów (4 Mm / 0,667 h).",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L1-beaufort",
+   "title": "Skala Beauforta",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Siłę wiatru określa się w 13-stopniowej skali Beauforta (0–12). Prognozy dla żeglugi podają ją w stopniach B (°B). Warto znać przynajmniej stopnie kluczowe dla bezpieczeństwa jachtu."
+    },
+    {
+     "t": "table",
+     "head": [
+      "°B",
+      "Nazwa",
+      "Prędkość (w)"
+     ],
+     "rows": [
+      [
+       "0",
+       "cisza",
+       "< 1"
+      ],
+      [
+       "1",
+       "powiew",
+       "1–3"
+      ],
+      [
+       "2",
+       "słaby wiatr",
+       "4–6"
+      ],
+      [
+       "3",
+       "łagodny",
+       "7–10"
+      ],
+      [
+       "4",
+       "umiarkowany",
+       "11–16"
+      ],
+      [
+       "5",
+       "dość silny",
+       "17–21"
+      ],
+      [
+       "6",
+       "silny",
+       "22–27"
+      ],
+      [
+       "7",
+       "bardzo silny",
+       "28–33"
+      ],
+      [
+       "8",
+       "sztorm (wicher)",
+       "34–40"
+      ],
+      [
+       "9",
+       "silny sztorm",
+       "41–47"
+      ],
+      [
+       "10",
+       "bardzo silny sztorm",
+       "48–55"
+      ],
+      [
+       "11",
+       "gwałtowny sztorm",
+       "56–63"
+      ],
+      [
+       "12",
+       "huragan",
+       "≥ 64"
+      ]
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Od 6°B (silny wiatr) na jachcie trzeba myśleć o refowaniu, 8°B to już sztorm. Zapamiętaj kotwice: 4°B ≈ 11–16 w, 6°B ≈ 22–27 w, 8°B ≈ 34–40 w."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-b-01",
+     "q": "Ile stopni ma skala Beauforta?",
+     "a": "13 stopni: od 0 (cisza) do 12 (huragan).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-b-02",
+     "q": "Jak nazywa się wiatr 4°B i jaka to prędkość?",
+     "a": "Umiarkowany, 11–16 węzłów.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-b-03",
+     "q": "Jak nazywa się wiatr 6°B i jaka to prędkość?",
+     "a": "Silny, 22–27 węzłów.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-b-04",
+     "q": "Od którego stopnia Beauforta mówimy o sztormie?",
+     "a": "Od 8°B (34–40 węzłów).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-b-05",
+     "q": "Jaką siłę wiatru w skali Beauforta oznacza 64 węzły i więcej?",
+     "a": "12°B – huragan.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-b-06",
+     "q": "Wiatr wieje 30 węzłów. Ile to °B?",
+     "a": "7°B – wiatr bardzo silny (28–33 w).",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L1-flagi-am",
+   "title": "Flagi MKS i alfabet fonetyczny: A–M",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Międzynarodowy Kodeks Sygnałowy (MKS) przypisuje każdej literze flagę i znaczenie, gdy flaga jest podniesiona samodzielnie (sygnał jednoliterowy). Te same nazwy liter (Alfa, Bravo…) to alfabet fonetyczny używany w łączności radiowej VHF."
+    },
+    {
+     "t": "p",
+     "text": "Flagi uczymy się parami: obraz → litera → znaczenie oraz znaczenie → flaga. Najważniejsze na egzaminie: **A, B, C, N, O, Q, V, W** oraz zestaw **NC**."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "flags",
+      "letters": [
+       "A",
+       "B",
+       "C"
+      ],
+      "vertical": false
+     },
+     "caption": "A – nurek, B – materiały niebezpieczne, C – tak"
+    },
+    {
+     "t": "tip",
+     "text": "Flagi E, I, S odpowiadają sygnałom manewrowym: E – w prawo (1 krótki), I – w lewo (2 krótkie), S – pracuję wstecz (3 krótkie)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-flag-A",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "A"
+     },
+     "a": "A – Alfa: Mam opuszczonego nurka; trzymajcie się z dala i idźcie wolno.",
+     "tip": "Na jachtach i małych łodziach nurkowych wywiesza się sztywną replikę flagi A (MPZZ, prawidło 27).",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-A",
+     "q": "Która flaga MKS oznacza: „Mam opuszczonego nurka; trzymajcie się z dala i idźcie wolno.”?",
+     "a": "Flaga A (Alfa).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "A"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-B",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "B"
+     },
+     "a": "B – Bravo: Ładuję, wyładowuję lub przewożę materiały niebezpieczne.",
+     "tip": "Czerwona, „rozcięta” – jak czerwony alarm: niebezpieczny ładunek.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-B",
+     "q": "Która flaga MKS oznacza: „Ładuję, wyładowuję lub przewożę materiały niebezpieczne.”?",
+     "a": "Flaga B (Bravo).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "B"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-C",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "C"
+     },
+     "a": "C – Charlie: Tak (twierdząco).",
+     "tip": "Pasy niebiesko-biało-czerwone. Zapamiętaj parę: C = Tak, N = Nie.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-C",
+     "q": "Która flaga MKS oznacza: „Tak”?",
+     "a": "Flaga C (Charlie).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "C"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-D",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "D"
+     },
+     "a": "D – Delta: Trzymajcie się z dala ode mnie; manewruję z trudnością.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-D",
+     "q": "Która flaga MKS oznacza: „Trzymajcie się z dala ode mnie; manewruję z trudnością.”?",
+     "a": "Flaga D (Delta).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "D"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-E",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "E"
+     },
+     "a": "E – Echo: Zmieniam kurs w prawo.",
+     "tip": "Odpowiada sygnałowi dźwiękowemu 1 krótki.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-E",
+     "q": "Która flaga MKS oznacza: „Zmieniam kurs w prawo.”?",
+     "a": "Flaga E (Echo).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "E"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-F",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "F"
+     },
+     "a": "F – Foxtrot: Jestem niezdolny do manewrowania; nawiążcie łączność ze mną.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-F",
+     "q": "Która flaga MKS oznacza: „Jestem niezdolny do manewrowania; nawiążcie łączność ze mną.”?",
+     "a": "Flaga F (Foxtrot).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "F"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-G",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "G"
+     },
+     "a": "G – Golf: Potrzebuję pilota. (Na łowisku, statek rybacki: wybieram sieci.)",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-G",
+     "q": "Która flaga MKS oznacza: „Potrzebuję pilota.”?",
+     "a": "Flaga G (Golf).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "G"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-H",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "H"
+     },
+     "a": "H – Hotel: Mam pilota na statku.",
+     "tip": "Biało-czerwona – jak barwy pilotówki (w nocy pilotówka: białe nad czerwonym).",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-H",
+     "q": "Która flaga MKS oznacza: „Mam pilota na statku.”?",
+     "a": "Flaga H (Hotel).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "H"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-I",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "I"
+     },
+     "a": "I – India: Zmieniam kurs w lewo.",
+     "tip": "Odpowiada sygnałowi dźwiękowemu 2 krótkie.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-I",
+     "q": "Która flaga MKS oznacza: „Zmieniam kurs w lewo.”?",
+     "a": "Flaga I (India).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "I"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-J",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "J"
+     },
+     "a": "J – Juliett: Mam pożar i niebezpieczny ładunek na statku – trzymajcie się z dala (lub: przeciek niebezpiecznego ładunku).",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-J",
+     "q": "Która flaga MKS oznacza: „Mam pożar i niebezpieczny ładunek na statku – trzymajcie się z dala”?",
+     "a": "Flaga J (Juliett).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "J"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-K",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "K"
+     },
+     "a": "K – Kilo: Chcę nawiązać łączność z wami.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-K",
+     "q": "Która flaga MKS oznacza: „Chcę nawiązać łączność z wami.”?",
+     "a": "Flaga K (Kilo).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "K"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-L",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "L"
+     },
+     "a": "L – Lima: Zatrzymajcie natychmiast swój statek.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-L",
+     "q": "Która flaga MKS oznacza: „Zatrzymajcie natychmiast swój statek.”?",
+     "a": "Flaga L (Lima).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "L"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-M",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "M"
+     },
+     "a": "M – Mike: Mój statek jest zatrzymany i nie ma ruchu po wodzie.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-M",
+     "q": "Która flaga MKS oznacza: „Mój statek jest zatrzymany i nie ma ruchu po wodzie.”?",
+     "a": "Flaga M (Mike).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "M"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L1-flagi-nz",
+   "title": "Flagi MKS i alfabet fonetyczny: N–Z oraz NC",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Druga połowa alfabetu. Szczególnie ważne: **O** (człowiek za burtą), **N** (nie), **Q** (statek zdrowy), **V** (potrzebuję pomocy), **W** (potrzebuję pomocy medycznej)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "flags",
+      "letters": [
+       "N",
+       "C"
+      ],
+      "vertical": true
+     },
+     "caption": "NC – „Jestem w niebezpieczeństwie i potrzebuję natychmiastowej pomocy”. Jeden z sygnałów wzywania pomocy (MPZZ, Załącznik IV)."
+    },
+    {
+     "t": "tip",
+     "text": "V = „potrzebuję pomocy” (ogólnie), W = „potrzebuję pomocy medycznej”, NC = „jestem w niebezpieczeństwie” – to trzy różne sytuacje!"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-flag-N",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "N"
+     },
+     "a": "N – November: Nie (przecząco).",
+     "tip": "Szachownica. N = Nie, C = Tak. Razem N nad C = jestem w niebezpieczeństwie.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-N",
+     "q": "Która flaga MKS oznacza: „Nie”?",
+     "a": "Flaga N (November).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "N"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-O",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "O"
+     },
+     "a": "O – Oscar: Człowiek za burtą!",
+     "tip": "Bardzo ważna na egzaminie. Żółto-czerwona, przekątna – jak kolory koła ratunkowego i pławki.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-O",
+     "q": "Która flaga MKS oznacza: „Człowiek za burtą!”?",
+     "a": "Flaga O (Oscar).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "O"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-P",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "P"
+     },
+     "a": "P – Papa: W porcie: wszyscy na statek, statek wychodzi w morze. (Na morzu, statek rybacki: moje sieci zaczepiły o przeszkodę.)",
+     "tip": "Tzw. „Niebieski Piotr”.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-P",
+     "q": "Która flaga MKS oznacza: „W porcie: wszyscy na statek, statek wychodzi w morze.”?",
+     "a": "Flaga P (Papa).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "P"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-Q",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "Q"
+     },
+     "a": "Q – Quebec: Mój statek jest zdrowy i proszę o wolne praktyki (prawo wejścia do portu).",
+     "tip": "Cała żółta – flaga kwarantanny / zdrowia, używana przy wejściu do portu zagranicznego.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-Q",
+     "q": "Która flaga MKS oznacza: „Mój statek jest zdrowy i proszę o wolne praktyki”?",
+     "a": "Flaga Q (Quebec).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "Q"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-R",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "R"
+     },
+     "a": "R – Romeo: Brak znaczenia jako sygnał jednoliterowy.",
+     "tip": "Czerwona z żółtym krzyżem.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-S",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "S"
+     },
+     "a": "S – Sierra: Pracuję wstecz (moje maszyny pracują wstecz).",
+     "tip": "Odpowiada sygnałowi dźwiękowemu 3 krótkie.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-S",
+     "q": "Która flaga MKS oznacza: „Pracuję wstecz”?",
+     "a": "Flaga S (Sierra).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "S"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-T",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "T"
+     },
+     "a": "T – Tango: Trzymajcie się z dala ode mnie; prowadzę trałowanie parami.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-T",
+     "q": "Która flaga MKS oznacza: „Trzymajcie się z dala ode mnie; prowadzę trałowanie parami.”?",
+     "a": "Flaga T (Tango).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "T"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-U",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "U"
+     },
+     "a": "U – Uniform: Zmierzacie ku niebezpieczeństwu.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-U",
+     "q": "Która flaga MKS oznacza: „Zmierzacie ku niebezpieczeństwu.”?",
+     "a": "Flaga U (Uniform).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "U"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-V",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "V"
+     },
+     "a": "V – Victor: Potrzebuję pomocy.",
+     "tip": "Biała z czerwonym ukośnym krzyżem (pomoc ogólna, NIE wezwanie w niebezpieczeństwie).",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-V",
+     "q": "Która flaga MKS oznacza: „Potrzebuję pomocy.”?",
+     "a": "Flaga V (Victor).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "V"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-W",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "W"
+     },
+     "a": "W – Whiskey: Potrzebuję pomocy medycznej.",
+     "tip": "Niebieska ramka, biel, czerwony środek.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-flagrev-W",
+     "q": "Która flaga MKS oznacza: „Potrzebuję pomocy medycznej.”?",
+     "a": "Flaga W (Whiskey).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "W"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flag-X",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "X"
+     },
+     "a": "X – X-ray: Wstrzymajcie się z wykonaniem zamiarów i obserwujcie moje sygnały.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-X",
+     "q": "Która flaga MKS oznacza: „Wstrzymajcie się z wykonaniem zamiarów i obserwujcie moje sygnały.”?",
+     "a": "Flaga X (X-ray).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "X"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-Y",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "Y"
+     },
+     "a": "Y – Yankee: Wlokę kotwicę.",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-Y",
+     "q": "Która flaga MKS oznacza: „Wlokę kotwicę.”?",
+     "a": "Flaga Y (Yankee).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "Y"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-Z",
+     "q": "Jaka to flaga MKS? Podaj literę, nazwę fonetyczną i znaczenie jako sygnał jednoliterowy.",
+     "qVisual": {
+      "kind": "flag",
+      "letter": "Z"
+     },
+     "a": "Z – Zulu: Potrzebuję holownika. (Na łowisku, statek rybacki: wydaję sieci.)",
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-flagrev-Z",
+     "q": "Która flaga MKS oznacza: „Potrzebuję holownika.”?",
+     "a": "Flaga Z (Zulu).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "Z"
+     },
+     "source": "Międzynarodowy Kodeks Sygnałowy",
+     "difficulty": 3
+    },
+    {
+     "id": "L1-flag-NC",
+     "q": "Co oznacza ten sygnał flagowy?",
+     "qVisual": {
+      "kind": "flags",
+      "letters": [
+       "N",
+       "C"
+      ],
+      "vertical": true
+     },
+     "a": "NC – Jestem w niebezpieczeństwie i potrzebuję natychmiastowej pomocy (sygnał wzywania pomocy).",
+     "source": "MKS; MPZZ Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-fon-01",
+     "q": "Przeliteruj alfabetem fonetycznym: S P 2 A B C (znak wywoławczy).",
+     "a": "Sierra Papa Two Alfa Bravo Charlie.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-fon-02",
+     "q": "Jak brzmią w alfabecie fonetycznym litery J, Q, X, Y?",
+     "a": "Juliett, Quebec, X-ray, Yankee.",
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}
