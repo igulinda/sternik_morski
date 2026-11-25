@@ -1,0 +1,653 @@
+{
+ "level": 6,
+ "items": {
+  "L6-s-01": {
+   "correct": "150 N (na wody oceaniczne i w ciężkim ubraniu – 275 N).",
+   "wrong": [
+    "50 N (na wody oceaniczne i w ciężkim ubraniu – 100 N).",
+    "75 N (na wody oceaniczne i w ciężkim ubraniu – 150 N).",
+    "100 N (na wody oceaniczne i w ciężkim ubraniu – 150 N)."
+   ]
+  },
+  "L6-s-02": {
+   "correct": "Asekuracyjna tylko pomaga utrzymać się na wodzie; ratunkowa obraca nieprzytomnego twarzą do góry.",
+   "wrong": [
+    "Asekuracyjna obraca nieprzytomnego twarzą do góry; ratunkowa tylko pomaga utrzymać się na wodzie.",
+    "Niczym istotnym – obie obracają nieprzytomnego twarzą do góry, różnią się tylko kolorem.",
+    "Asekuracyjna ma większą wyporność i jest przeznaczona na otwarte morze."
+   ]
+  },
+  "L6-s-03": {
+   "correct": "Zapobiega zsunięciu się kamizelki przez głowę po wpadnięciu do wody.",
+   "wrong": [
+    "Służy do wpinania się linką bezpieczeństwa do linii życia.",
+    "Uruchamia automatyczne napełnianie kamizelki po zanurzeniu.",
+    "Utrzymuje światło i gwizdek kamizelki we właściwym miejscu."
+   ]
+  },
+  "L6-s-04": {
+   "correct": "Nocą, przy złej pogodzie, przy pracy na dziobie, samotnie na pokładzie i na polecenie kapitana.",
+   "wrong": [
+    "Tylko w porcie i przy podchodzeniu do kei, gdy jacht wykonuje manewry.",
+    "Wyłącznie w sztormie powyżej 8°B – nocą i przy pracy na dziobie nie jest to potrzebne.",
+    "Tylko w dzień, gdy na pokładzie pracuje cała załoga jednocześnie."
+   ]
+  },
+  "L6-s-05": {
+   "correct": "Po wyrzuceniu za burtę ciągnie się fanglinę (przywiązaną do jachtu) aż uruchomi butlę z gazem.",
+   "wrong": [
+    "Przed wyrzuceniem otwiera się pojemnik na pokładzie i pompuje tratwę ręczną pompką.",
+    "Po wyrzuceniu odcina się fanglinę od jachtu, a tratwa napełnia się, oddalając się od burty.",
+    "Napełnia się ją na pokładzie, odkręcając zawór butli, a potem zrzuca za burtę."
+   ]
+  },
+  "L6-s-06": {
+   "correct": "Automatycznie uwalnia tratwę z kołyski, gdy jacht zatonie na kilka metrów – tratwa wypływa i się napełnia.",
+   "wrong": [
+    "Automatycznie napełnia tratwę na pokładzie, gdy fala zaleje kokpit.",
+    "Uruchamia EPIRB w chwili, gdy tratwa zostanie wyrzucona za burtę.",
+    "Utrzymuje stałe ciśnienie w komorach tratwy podczas dryfu."
+   ]
+  },
+  "L6-s-07": {
+   "correct": "W ostateczności – gdy jacht tonie lub płonie i nie da się go uratować.",
+   "wrong": [
+    "Zawsze przy sile wiatru powyżej 8°B, niezależnie od stanu jachtu.",
+    "Natychmiast po wykryciu jakiegokolwiek przecieku w kadłubie.",
+    "Gdy tylko jacht straci maszt lub napęd silnikowy."
+   ]
+  },
+  "L6-s-08": {
+   "correct": "EPIRB/PLB, ręczne radio VHF, pirotechnikę, wodę, leki, latarkę, dokumenty, nóż, folię NRC.",
+   "wrong": [
+    "Zapasowe żagle, kotwicę, narzędzia do silnika i papierowe mapy całego akwenu.",
+    "Dziennik jachtowy, kanister z paliwem, gaśnicę proszkową i koc gaśniczy.",
+    "Kamizelki asekuracyjne 50 N, sondę ręczną, log i zapasową linę kotwiczną."
+   ]
+  },
+  "L6-s-09": {
+   "correct": "Tak, by nie trafić rozbitka – koło obok niego, rzutkę za niego (lina nad rozbitkiem).",
+   "wrong": [
+    "Prosto w rozbitka, by na pewno mógł je od razu chwycić.",
+    "Koło za rozbitka, rzutkę przed niego – zawsze pod wiatr.",
+    "Koło i rzutkę zawsze po nawietrznej jachtu, niezależnie od położenia rozbitka."
+   ]
+  },
+  "L6-s-10": {
+   "correct": "Środki ratunkowe, gaśnice, pirotechnikę, radio, zawory denne i gazowe, procedury MOB, pożaru i opuszczenia jachtu.",
+   "wrong": [
+    "Wyłącznie zasady wacht i podział obowiązków w kambuzie.",
+    "Tylko obsługę żagli i lin oraz zasady klarowania pokładu.",
+    "Wyłącznie plan trasy, prognozę pogody i godziny posiłków."
+   ]
+  },
+  "L6-l-01": {
+   "correct": "Do wywołań w niebezpieczeństwie, pilności, bezpieczeństwa i ogólnych – obowiązuje stały nasłuch.",
+   "wrong": [
+    "Wyłącznie do cyfrowego wywołania selektywnego DSC – bez rozmów głosowych.",
+    "Do łączności mostek–mostek w sprawach uzgadniania manewrów.",
+    "Do długich rozmów prywatnych i korespondencji z mariną."
+   ]
+  },
+  "L6-l-02": {
+   "correct": "Wyłącznie do cyfrowego wywołania selektywnego DSC (alarm DSC) – nie prowadzi się na nim rozmów.",
+   "wrong": [
+    "Do głosowych wywołań w niebezpieczeństwie – obowiązuje na nim stały nasłuch.",
+    "Do łączności mostek–mostek w sprawach bezpieczeństwa żeglugi.",
+    "Do rozmów jacht–jacht i korespondencji z mariną."
+   ]
+  },
+  "L6-l-03": {
+   "correct": "MAYDAY – bezpośrednie zagrożenie życia lub jednostki; PAN PAN – sytuacja pilna bez takiego zagrożenia.",
+   "wrong": [
+    "PAN PAN – bezpośrednie zagrożenie życia lub jednostki; MAYDAY – sytuacja pilna bez takiego zagrożenia.",
+    "MAYDAY – ostrzeżenie nawigacyjne lub meteo; PAN PAN – bezpośrednie zagrożenie życia.",
+    "MAYDAY – każda drobna awaria silnika; PAN PAN – wyłącznie odwołanie fałszywego alarmu."
+   ]
+  },
+  "L6-l-04": {
+   "correct": "Do nadawania ważnych ostrzeżeń nawigacyjnych i meteorologicznych.",
+   "wrong": [
+    "Do wezwania pomocy przy bezpośrednim zagrożeniu życia.",
+    "Do wezwania porady medycznej dla chorego członka załogi.",
+    "Do nakazania ciszy radiowej na kanale niebezpieczeństwa."
+   ]
+  },
+  "L6-l-05": {
+   "correct": "MAYDAY ×3; THIS IS nazwa ×3, MMSI; MAYDAY nazwa; pozycja; rodzaj zagrożenia; pomoc; liczba osób; OVER.",
+   "wrong": [
+    "Pozycja; MAYDAY ×3; liczba osób; THIS IS nazwa ×1; rodzaj zagrożenia; OUT.",
+    "PAN PAN ×3; THIS IS nazwa ×3, MMSI; pozycja; rodzaj zagrożenia; pomoc; liczba osób; OVER.",
+    "MAYDAY ×1; rodzaj zagrożenia; liczba osób; THIS IS nazwa ×1; pozycja pominięta; OUT."
+   ]
+  },
+  "L6-l-06": {
+   "correct": "Przytrzymuje się czerwony przycisk DISTRESS kilka sekund; radio wysyła MMSI i pozycję na kanale 70.",
+   "wrong": [
+    "Krótko naciska się przycisk DISTRESS; radio nadaje głosem nazwę jachtu na kanale 16.",
+    "Przytrzymuje się przycisk DISTRESS; radio wysyła MMSI i pozycję na kanale 13.",
+    "Na kanale 16 trzykrotnie wypowiada się MAYDAY – nie używa się żadnego przycisku."
+   ]
+  },
+  "L6-l-07": {
+   "correct": "Dziewięciocyfrowy numer identyfikacyjny morskiej stacji radiowej (DSC, AIS, EPIRB).",
+   "wrong": [
+    "Siedmiocyfrowy numer rejestracyjny jachtu nadawany przez PZŻ.",
+    "Literowy znak wywoławczy jachtu używany tylko w rozmowach głosowych.",
+    "Numer seryjny radiotelefonu VHF nadawany przez producenta."
+   ]
+  },
+  "L6-l-08": {
+   "correct": "Nakaz ciszy radiowej na kanale, na którym trwa korespondencja w niebezpieczeństwie.",
+   "wrong": [
+    "Odwołanie ciszy radiowej i wznowienie normalnej korespondencji.",
+    "Przekazanie wezwania pomocy innej jednostki przez twoją stację.",
+    "Potwierdzenie odbioru wezwania MAYDAY przez stację brzegową."
+   ]
+  },
+  "L6-l-09": {
+   "correct": "Gdy przekazujesz wezwanie innej jednostki – np. nie może nadawać sama lub nikt jej nie potwierdził.",
+   "wrong": [
+    "Gdy twoja własna jednostka tonie i nadajesz wezwanie po raz drugi.",
+    "Gdy chcesz odwołać fałszywy alarm nadany przez inną jednostkę.",
+    "Gdy nadajesz ostrzeżenie nawigacyjne o dryfującym kontenerze."
+   ]
+  },
+  "L6-l-10": {
+   "correct": "Świadectwo operatora łączności bliskiego zasięgu (SRC); jacht musi też mieć pozwolenie radiowe.",
+   "wrong": [
+    "Wystarczy świadectwo SRC – jacht nie potrzebuje żadnego pozwolenia radiowego.",
+    "Wystarczy patent jachtowego sternika morskiego – osobne świadectwo nie jest potrzebne.",
+    "Żadne – każdy może swobodnie nadawać, a jacht nie potrzebuje pozwolenia."
+   ]
+  },
+  "L6-l-11": {
+   "correct": "PAN PAN (PAN PAN MEDICO) – sygnał pilności, kierowany do stacji brzegowej (TMAS).",
+   "wrong": [
+    "SECURITE MEDICO – sygnał bezpieczeństwa kierowany do najbliższego statku.",
+    "SEELONCE MAYDAY – nakaz ciszy na czas rozmowy z lekarzem.",
+    "MAYDAY RELAY – przekazanie prośby o poradę przez inną jednostkę."
+   ]
+  },
+  "L6-l-12": {
+   "correct": "Zapisujesz pozycję, potwierdzasz odbiór, nadajesz MAYDAY RELAY i płyniesz z pomocą, jeśli to bezpieczne.",
+   "wrong": [
+    "Nie reagujesz – to zadanie wyłącznie stacji brzegowej i statków handlowych.",
+    "Nadajesz SEELONCE FEENEE i przechodzisz na kanał roboczy.",
+    "Odpowiadasz na kanale 70 głosem i czekasz, aż jednostka sama do ciebie podpłynie."
+   ]
+  },
+  "L6-l-13": {
+   "correct": "Do łączności mostek–mostek między statkami w sprawach bezpieczeństwa żeglugi.",
+   "wrong": [
+    "Wyłącznie do cyfrowego wywołania selektywnego DSC.",
+    "Do wywołań MAYDAY – obowiązuje na nim stały nasłuch wszystkich jednostek.",
+    "Do odbioru automatycznych komunikatów AIS."
+   ]
+  },
+  "L6-l-14": {
+   "correct": "Pozycja jednostki – bez niej ratownicy nie wiedzą, gdzie płynąć.",
+   "wrong": [
+    "Nazwa armatora jachtu i jego port macierzysty.",
+    "Kolor kadłuba i typ ożaglowania jachtu.",
+    "Numer patentu i nazwisko kapitana."
+   ]
+  },
+  "L6-r-01": {
+   "correct": "Czerwonej rakiety spadochronowej (wznosi się ok. 300 m i świeci ok. 40 s).",
+   "wrong": [
+    "Pomarańczowej pławki dymnej (dym widoczny ok. 3 minuty).",
+    "Czerwonej pochodni ręcznej trzymanej za burtą (świeci ok. 60 s).",
+    "Białej rakiety spadochronowej (wznosi się ok. 300 m i świeci ok. 40 s)."
+   ]
+  },
+  "L6-r-02": {
+   "correct": "Gdy ratownicy są blisko – do dokładnego wskazania pozycji (dzień i noc).",
+   "wrong": [
+    "Gdy ratownicy są daleko – do zaalarmowania z odległości kilkudziesięciu mil.",
+    "Wyłącznie w dzień – do wskazania śmigłowcowi kierunku wiatru dymem.",
+    "Do ostrzeżenia innego statku przed kolizją, gdy nie jesteś w niebezpieczeństwie."
+   ]
+  },
+  "L6-r-03": {
+   "correct": "W dzień wskazuje pozycję (zwłaszcza dla śmigłowców i samolotów) oraz kierunek wiatru.",
+   "wrong": [
+    "W nocy wskazuje pozycję statkom z odległości kilkunastu mil.",
+    "Służy do ostrzegania innych jednostek przed kolizją we mgle.",
+    "Odbija fale radaru i pokazuje pozycję jako linię 12 kropek."
+   ]
+  },
+  "L6-r-04": {
+   "correct": "Po zawietrznej, trzymając ją za burtą, z dala od twarzy i żagli.",
+   "wrong": [
+    "Po nawietrznej, trzymając ją za burtą, z dala od twarzy i żagli.",
+    "Po zawietrznej, trzymając ją pionowo nad głową w środku kokpitu.",
+    "Po nawietrznej, kładąc zapaloną pochodnię na pokładzie dziobowym."
+   ]
+  },
+  "L6-r-05": {
+   "correct": "Nie – białe sygnały służą do zwrócenia uwagi lub ostrzeżenia przed kolizją.",
+   "wrong": [
+    "Tak – biała rakieta to międzynarodowy sygnał wzywania pomocy.",
+    "Tak, ale tylko w nocy; w dzień wzywa się pomocy rakietą zieloną.",
+    "Tak – jeśli odpali się trzy białe rakiety w odstępach minuty."
+   ]
+  },
+  "L6-r-06": {
+   "correct": "Oddać do utylizacji (sklep żeglarski, policja, punkt zbiórki) – nie odpalać ani nie wyrzucać do morza.",
+   "wrong": [
+    "Odpalić na próbę na plaży lub w Sylwestra, by sprawdzić jej działanie.",
+    "Wyrzucić do morza z dala od brzegu, gdzie nie stanowi zagrożenia.",
+    "Wyrzucić z odpadami komunalnymi w szczelnym worku."
+   ]
+  },
+  "L6-r-07": {
+   "correct": "406 MHz – do satelitów COSPAS-SARSAT (oraz 121,5 MHz jako sygnał naprowadzający).",
+   "wrong": [
+    "156,8 MHz (kanał 16 VHF) – do stacji brzegowych systemu GMDSS.",
+    "9 GHz – do radarów statków w pobliżu (tak jak SART).",
+    "121,5 MHz – do satelitów Inmarsat (oraz 406 MHz jako sygnał naprowadzający)."
+   ]
+  },
+  "L6-r-08": {
+   "correct": "Swój unikalny identyfikator (zarejestrowany na jednostkę) i – w nowoczesnych – pozycję z GPS.",
+   "wrong": [
+    "Nagraną wiadomość głosową MAYDAY z nazwą jachtu na kanale 16.",
+    "Liczbę osób na pokładzie i rodzaj niebezpieczeństwa, wpisywane ręcznie przed uruchomieniem.",
+    "Wyłącznie sygnał radarowy, widoczny na ekranie jako linia 12 kropek."
+   ]
+  },
+  "L6-r-09": {
+   "correct": "Jako linia 12 kropek od pozycji SART na zewnątrz ekranu (najbliższa kropka = pozycja rozbitków).",
+   "wrong": [
+    "Jako linia 12 kropek, w której najdalsza kropka wskazuje pozycję rozbitków.",
+    "Jako migający czerwony okrąg wokół pozycji rozbitków.",
+    "Jako pojedyncze echo z numerem MMSI wyświetlonym obok."
+   ]
+  },
+  "L6-r-10": {
+   "correct": "PLB to osobista radiopława zarejestrowana na osobę, EPIRB jest zarejestrowany na jednostkę.",
+   "wrong": [
+    "PLB jest zarejestrowana na jednostkę, a EPIRB na konkretną osobę.",
+    "PLB nadaje tylko na kanale 16 VHF, EPIRB na 406 MHz do satelitów.",
+    "PLB działa wyłącznie na lądzie, EPIRB wyłącznie na morzu."
+   ]
+  },
+  "L6-r-11": {
+   "correct": "Wyłączyć go i natychmiast zawiadomić służbę SAR (stację brzegową / MRCK).",
+   "wrong": [
+    "Wyłączyć go i nikogo nie informować – alarm sam się anuluje.",
+    "Zostawić włączony do wyczerpania baterii, by nie uszkodzić urządzenia.",
+    "Wrzucić go do wody, by system rozpoznał fałszywy alarm."
+   ]
+  },
+  "L6-m-01": {
+   "correct": "Alarm głosem, rzucić koło z pławką, wyznaczyć obserwatora, nacisnąć MOB na GPS, rozpocząć powrót.",
+   "wrong": [
+    "Natychmiast skoczyć do wody za rozbitkiem, a potem zaalarmować załogę.",
+    "Najpierw zrzucić wszystkie żagle i wpisać pozycję do dziennika, potem szukać rozbitka.",
+    "Nadać PAN PAN i czekać w dryfie na ratowników, nie zawracając jachtu."
+   ]
+  },
+  "L6-m-02": {
+   "correct": "Bez przerwy obserwuje rozbitka i wskazuje go ręką sternikowi – nie robi nic innego.",
+   "wrong": [
+    "Obsługuje radio i nadaje MAYDAY, zerkając co jakiś czas na rozbitka.",
+    "Przygotowuje koło ratunkowe i pomaga przy pracy z żaglami.",
+    "Steruje jachtem podczas manewru powrotu do rozbitka."
+   ]
+  },
+  "L6-m-03": {
+   "correct": "Zapisuje pozycję w chwili wypadnięcia człowieka i pokazuje kurs i odległość do tego punktu.",
+   "wrong": [
+    "Automatycznie włącza autopilota i zawraca jacht do rozbitka.",
+    "Uruchamia syrenę alarmową i oświetlenie pokładu.",
+    "Wysyła pozycję jachtu do satelitów COSPAS-SARSAT."
+   ]
+  },
+  "L6-m-04": {
+   "correct": "Od zawietrznej, kursem bajdewind, z możliwością wyluzowania żagli i wytracenia prędkości.",
+   "wrong": [
+    "Od nawietrznej, kursem fordewind, z pełnymi, wybranymi żaglami.",
+    "Od nawietrznej, kursem baksztag, by wiatr zepchnął jacht na rozbitka.",
+    "Od zawietrznej, kursem fordewind, bez możliwości wyluzowania żagli."
+   ]
+  },
+  "L6-m-05": {
+   "correct": "Na śrubę – przy rozbitku wrzucić luz (wyłączyć bieg), nie cofać w jego stronę.",
+   "wrong": [
+    "Na zbyt małe obroty – przy rozbitku dodać gazu na biegu naprzód.",
+    "Na spaliny – do rozbitka podchodzić tylko na biegu wstecz.",
+    "Na nic szczególnego – śruba jest pod kadłubem, więc bieg można zostawić."
+   ]
+  },
+  "L6-m-06": {
+   "correct": "Delikatnie i w pozycji poziomej – pionowe wyciąganie grozi zapaścią krążenia.",
+   "wrong": [
+    "Szybko i w pozycji pionowej, za ręce – pozycja pozioma grozi zachłyśnięciem.",
+    "Pionowo za kamizelkę, a potem posadzić i kazać mu chodzić.",
+    "Za nogi, głową w dół, by woda wypłynęła z płuc."
+   ]
+  },
+  "L6-m-07": {
+   "correct": "Poniżej 35°C temperatury głębokiej.",
+   "wrong": [
+    "Poniżej 37°C temperatury głębokiej.",
+    "Poniżej 36,6°C temperatury głębokiej.",
+    "Poniżej 38°C temperatury głębokiej."
+   ]
+  },
+  "L6-m-08": {
+   "correct": "1 min szoku zimnowego, ok. 10 min sprawnych ruchów, ok. 1 h do utraty przytomności z wychłodzenia.",
+   "wrong": [
+    "1 h szoku zimnowego, ok. 10 min sprawnych ruchów, ok. 1 min do utraty przytomności.",
+    "1 min szoku zimnowego, ok. 10 h sprawnych ruchów, ok. 1 doba do utraty przytomności.",
+    "1 rzut koła, 10 m odległości od rozbitka, 1 obserwator – zasada manewru MOB."
+   ]
+  },
+  "L6-m-09": {
+   "correct": "Pozycję HELP – kolana podciągnięte, ręce przy tułowiu; w grupie zbić się razem.",
+   "wrong": [
+    "Płynąć energicznie w stronę brzegu, by rozgrzać się ruchem.",
+    "Leżeć na plecach z szeroko rozłożonymi rękami i nogami (pozycja gwiazdy).",
+    "Zdjąć kamizelkę i ciężkie ubranie, by łatwiej utrzymać się na wodzie."
+   ]
+  },
+  "L6-m-10": {
+   "correct": "Nie podawać alkoholu, nie masować kończyn, nie ogrzewać gwałtownie, nie pozwalać chodzić.",
+   "wrong": [
+    "Nie zdejmować mokrego ubrania, nie okrywać folią NRC, nie osłaniać od wiatru.",
+    "Nie ogrzewać tułowia, nie układać poziomo, nie obserwować oddechu.",
+    "Nie podawać przytomnemu ciepłego słodkiego napoju i nie okrywać śpiworem."
+   ]
+  },
+  "L6-m-11": {
+   "correct": "Zdjąć mokre ubranie, okryć, osłonić od wiatru, stopniowo ogrzewać tułów, przytomnemu dać ciepły napój.",
+   "wrong": [
+    "Podać alkohol na rozgrzewkę i energicznie masować kończyny.",
+    "Wsadzić do gorącej kąpieli i kazać chodzić, by pobudzić krążenie.",
+    "Zostawić w mokrym ubraniu na pokładzie i podać zimną wodę do picia."
+   ]
+  },
+  "L6-m-12": {
+   "correct": "Około 25 razy szybciej.",
+   "wrong": [
+    "Około 2 razy szybciej.",
+    "Około 5 razy szybciej.",
+    "Około 100 razy szybciej."
+   ]
+  },
+  "L6-a-01": {
+   "correct": "Paliwo, tlen i odpowiednia temperatura (trójkąt spalania).",
+   "wrong": [
+    "Paliwo, azot i wilgoć powietrza.",
+    "Tlen, woda i iskra elektryczna.",
+    "Paliwo, dwutlenek węgla i ciśnienie."
+   ]
+  },
+  "L6-a-02": {
+   "correct": "Kocem gaśniczym (lub gaśnicą klasy F) – nigdy wodą.",
+   "wrong": [
+    "Wodą z wiadra – szybko schłodzi płonący tłuszcz.",
+    "Gaśnicą wodną, kierując strumień prosto na patelnię.",
+    "Przenieść płonącą patelnię do kokpitu i wylać tłuszcz za burtę."
+   ]
+  },
+  "L6-a-03": {
+   "correct": "Nie, gdy jest pod napięciem – odłączyć prąd; gasić gaśnicą proszkową lub CO₂.",
+   "wrong": [
+    "Tak – woda morska najlepiej gasi pożar instalacji pod napięciem.",
+    "Tak, ale tylko wodą słodką, bo ona nie przewodzi prądu.",
+    "Nie – gasi się ją wyłącznie kocem, a prądu nie trzeba odłączać."
+   ]
+  },
+  "L6-a-04": {
+   "correct": "Grupy A (ciała stałe), B (ciecze) i C (gazy) – podstawowa gaśnica na jachcie.",
+   "wrong": [
+    "Tylko grupy A (ciała stałe) – nie nadaje się do cieczy ani gazów.",
+    "Grupy A (ciecze), B (gazy) i C (ciała stałe) – podstawowa gaśnica na jachcie.",
+    "Wyłącznie grupy F (tłuszcze kuchenne) – do użytku tylko w kambuzie."
+   ]
+  },
+  "L6-a-05": {
+   "correct": "Tak, by ogień był po zawietrznej; zamknąć luki, by ograniczyć dopływ powietrza.",
+   "wrong": [
+    "Tak, by ogień był po nawietrznej; otworzyć luki, by wywietrzyć dym.",
+    "Tak, by ogień był po zawietrznej; otworzyć wszystkie luki dla wentylacji.",
+    "Tak, by dym i płomienie szły w stronę kokpitu; zamknąć luki."
+   ]
+  },
+  "L6-a-06": {
+   "correct": "Jest cięższy od powietrza – przy nieszczelności gromadzi się w zęzie i może wybuchnąć.",
+   "wrong": [
+    "Jest lżejszy od powietrza – zbiera się pod sufitem kabiny i wybucha od lampy.",
+    "Samoczynnie zapala się w kontakcie z wodą morską w zęzie.",
+    "Przy nieszczelności zamarza w przewodach i rozsadza instalację."
+   ]
+  },
+  "L6-a-07": {
+   "correct": "Szukasz źródła, uruchamiasz pompy, zamykasz zawory denne, zatykasz otwór; gdy woda przybywa – wzywasz pomoc.",
+   "wrong": [
+    "Od razu przechodzisz na tratwę ratunkową, nie szukając źródła przecieku.",
+    "Otwierasz wszystkie zawory denne, by wyrównać poziom wody.",
+    "Czekasz, aż woda sama przestanie napływać, i dopiero wtedy pompujesz."
+   ]
+  },
+  "L6-a-08": {
+   "correct": "Do zatkania otworu po uszkodzonym zaworze dennym lub przewodzie.",
+   "wrong": [
+    "Do zaklinowania steru w położeniu środkowym przy awarii.",
+    "Do uszczelniania luków podczas sztormowej pogody.",
+    "Do zabezpieczania kotwicy w kluzie podczas żeglugi."
+   ]
+  },
+  "L6-a-09": {
+   "correct": "Sprawdzić przeciek, przechylić jacht, ostrożnie wstecz, wywieźć kotwicę (kedżowanie), czekać na przybór.",
+   "wrong": [
+    "Dać pełny gaz naprzód, by przepchnąć jacht przez mieliznę.",
+    "Wyprostować i obciążyć jacht, by zwiększyć zanurzenie, potem pełny gaz naprzód.",
+    "Na akwenie pływowym poczekać na odpływ, by woda uniosła jacht."
+   ]
+  },
+  "L6-a-10": {
+   "correct": "Ściąganie się do kotwicy wywiezionej pontonem (np. przy zejściu z mielizny).",
+   "wrong": [
+    "Holowanie jachtu przez inną jednostkę na krótkim holu.",
+    "Przechylanie jachtu przez obciążenie bomu wyniesionego za burtę.",
+    "Kotwiczenie na dwóch kotwicach rzuconych jednocześnie z dziobu."
+   ]
+  },
+  "L6-a-11": {
+   "correct": "Nie uruchamiać silnika, dopóki liny i wanty nie są na pokładzie lub odcięte.",
+   "wrong": [
+    "Nie wybierać lin na pokład – od razu uruchomić silnik i płynąć do portu.",
+    "Nie zakładać kamizelek – utrudniają pracę przy maszcie.",
+    "Nie odcinać żadnego olinowania, nawet gdy maszt uderza w kadłub."
+   ]
+  },
+  "L6-a-12": {
+   "correct": "Sprawdzić rannych i przecieki, pomóc drugiej jednostce, wymienić dane, wpisać do dziennika, zgłosić.",
+   "wrong": [
+    "Odpłynąć jak najszybciej, nie wymieniając danych z drugą jednostką.",
+    "Tylko sfotografować uszkodzenia – zgłoszenie jest potrzebne wyłącznie przy ofiarach.",
+    "Nie wpisywać zdarzenia do dziennika, jeśli uszkodzenia wydają się niewielkie."
+   ]
+  },
+  "L6-z-01": {
+   "correct": "Zawczasu – zanim wiatr się wzmoże („gdy pierwszy raz pomyślisz o refie”).",
+   "wrong": [
+    "Dopiero gdy wiatr osiągnie siłę sztormu.",
+    "Gdy jacht zacznie się kłaść na wodzie w szkwałach.",
+    "Po przejściu frontu, gdy wiatr zacznie słabnąć."
+   ]
+  },
+  "L6-z-02": {
+   "correct": "Wiatr i fala spychają jacht na ten brzeg; przy awarii nie ma miejsca na manewr.",
+   "wrong": [
+    "Bo brzeg osłania od wiatru i jacht traci sterowność w jego cieniu.",
+    "Bo fala odbita od brzegu wciąga jacht na otwarte morze.",
+    "Bo brzeg zakłóca sygnał GPS i obraz radaru."
+   ]
+  },
+  "L6-z-03": {
+   "correct": "Refowanie/żagle sztormowe, luki, sprzęt, pompy, szelki i linie życia, posiłek, wachty, plan nawigacyjny.",
+   "wrong": [
+    "Postawienie największych żagli, by uciec przed sztormem; otwarcie luków do wentylacji.",
+    "Zdjęcie kamizelek i szelek, by nie krępowały ruchów; rezygnacja z posiłków.",
+    "Wyłączenie pomp zęzowych dla oszczędzania akumulatorów i zejście całej załogi pod pokład."
+   ]
+  },
+  "L6-z-04": {
+   "correct": "Fok na kontrę, grot lekko wybrany, ster na nawietrzną – jacht prawie stoi i łagodnie dryfuje.",
+   "wrong": [
+    "Fok i grot wybrane na płasko, ster na zawietrzną – jacht płynie szybko bajdewindem.",
+    "Grot na kontrę, fok zrzucony, ster w położeniu środkowym – jacht płynie fordewindem.",
+    "Oba żagle wyluzowane do końca, ster zablokowany na zawietrzną – jacht płynie baksztagiem."
+   ]
+  },
+  "L6-z-05": {
+   "correct": "Żegluga z wiatrem i falą z małym żaglem lub bez; ryzyko nadmiernej prędkości i broachingu.",
+   "wrong": [
+    "Żegluga ostro pod wiatr pod pełnymi żaglami; ryzyko utraty prędkości.",
+    "Stanie na kotwicy dziobem do fali; ryzyko zerwania łańcucha.",
+    "Żegluga z wiatrem pod pełnymi żaglami; ryzyko zbyt małej prędkości."
+   ]
+  },
+  "L6-z-06": {
+   "correct": "Zmniejsza prędkość dryfu i utrzymuje dziób lub rufę w kierunku fali.",
+   "wrong": [
+    "Utrzymuje jacht w miejscu, trzymając się dna jak zwykła kotwica.",
+    "Ustawia jacht burtą do fali, by zmniejszyć kołysanie.",
+    "Zwiększa prędkość jachtu przy żegludze z wiatrem."
+   ]
+  },
+  "L6-z-07": {
+   "correct": "Gwałtowne, niekontrolowane odwrócenie się jachtu burtą do fali i wiatru – grozi położeniem.",
+   "wrong": [
+    "Celowe wyrzucenie jachtu na płaski brzeg w ostateczności.",
+    "Kontrolowany zwrot przez rufę wykonany w silnym wietrze.",
+    "Stawanie w dryf z fokiem ustawionym na kontrę."
+   ]
+  },
+  "L6-z-08": {
+   "correct": "Celowe wyrzucenie jachtu na brzeg – w ostateczności, gdy tonie lub grozi mu rozbicie.",
+   "wrong": [
+    "Cumowanie jachtu rufą do plaży na dwóch kotwicach podczas postoju.",
+    "Gwałtowne odwrócenie się jachtu burtą do fali podczas sztormu.",
+    "Ściąganie się z mielizny do kotwicy wywiezionej pontonem."
+   ]
+  },
+  "L6-z-09": {
+   "correct": "Płaski, piaszczysty, bez skał; podejść prostopadle do brzegu, załoga w kamizelkach.",
+   "wrong": [
+    "Skalisty, stromy brzeg; podejść prostopadle, by jacht zaklinował się między skałami.",
+    "Płaski, piaszczysty; podejść burtą do fali, załoga bez kamizelek dla swobody ruchów.",
+    "Wysokie nabrzeże portowe; podejść pod ostrym kątem z pełną prędkością."
+   ]
+  },
+  "L6-z-10": {
+   "correct": "Sztormfok i trajsel (mały grot sztormowy) lub mocno zarefowany grot.",
+   "wrong": [
+    "Genuę i spinaker, by szybko uciec przed sztormem.",
+    "Pełny grot bez refów i mały fok.",
+    "Genaker i grot na pierwszym refie."
+   ]
+  },
+  "L6-p-01": {
+   "correct": "Morskie Ratownicze Centrum Koordynacyjne (MRCK) Służby SAR w Gdyni.",
+   "wrong": [
+    "Polski Związek Żeglarski w Warszawie.",
+    "Urząd Morski w Szczecinie – Kapitanat Portu.",
+    "Dowództwo Marynarki Wojennej w Gdyni."
+   ]
+  },
+  "L6-p-02": {
+   "correct": "VHF kanał 16 (MAYDAY), alarm DSC (kanał 70), EPIRB/PLB, telefon 112, sygnały wzrokowe i dźwiękowe.",
+   "wrong": [
+    "VHF kanał 13 (MAYDAY), alarm DSC (kanał 16), AIS, telefon 997, biała rakieta.",
+    "VHF kanał 70 (MAYDAY głosem), alarm DSC (kanał 16), SART, białe rakiety.",
+    "Wyłącznie VHF kanał 16 – inne sposoby nie są uznawane przez służbę SAR."
+   ]
+  },
+  "L6-p-03": {
+   "correct": "Wysoka burta, ssanie przy burcie, cień wiatrowy, ruchy statku na fali i śruby mogą uszkodzić jacht.",
+   "wrong": [
+    "Statek zawsze podpływa zbyt wolno, przez co jacht odpływa z dryfem.",
+    "Statek nadaje silny sygnał radarowy, który uszkadza elektronikę jachtu.",
+    "Załoga statku nie ma prawa wejść na jacht bez zgody armatora."
+   ]
+  },
+  "L6-p-04": {
+   "correct": "Dopiero gdy dotknie wody lub pokładu – rozładuje się elektryczność statyczna.",
+   "wrong": [
+    "Od razu, gdy jest w zasięgu ręki – im szybciej, tym lepiej.",
+    "Dopiero po przywiązaniu jej do knagi jachtu.",
+    "Zanim dotknie wody, by nie zamokła i nie stała się ciężka."
+   ]
+  },
+  "L6-p-05": {
+   "correct": "Nie – nigdy. Śmigłowiec musi móc w każdej chwili odlecieć.",
+   "wrong": [
+    "Tak – trzeba ją mocno przywiązać do masztu.",
+    "Tak, ale tylko do knagi rufowej.",
+    "Tak, ale tylko przy słabym wietrze i spokojnym morzu."
+   ]
+  },
+  "L6-p-06": {
+   "correct": "Łączność VHF, zrzucić żagle, zabezpieczyć luźne rzeczy, płynąć na silniku kursem wskazanym przez pilota.",
+   "wrong": [
+    "Postawić wszystkie żagle i płynąć jak najszybciej w stronę śmigłowca.",
+    "Przywiązać linę ze śmigłowca do masztu i wyłączyć radio.",
+    "Zebrać całą załogę przy maszcie i odpalić rakietę w stronę śmigłowca."
+   ]
+  },
+  "L6-p-07": {
+   "correct": "Bo maszt i olinowanie jachtu uniemożliwiają bezpieczne opuszczenie liny na pokład.",
+   "wrong": [
+    "Bo przepisy zabraniają śmigłowcom zbliżać się do jachtów żaglowych.",
+    "Bo woda chroni ratowników przed elektrycznością statyczną śmigłowca.",
+    "Bo śmigłowiec ratowniczy może podjąć ludzi tylko po wodowaniu na wodzie."
+   ]
+  },
+  "L6-p-08": {
+   "correct": "30 uciśnięć : 2 oddechy.",
+   "wrong": [
+    "15 uciśnięć : 2 oddechy.",
+    "5 uciśnięć : 1 oddech.",
+    "30 uciśnięć : 5 oddechów."
+   ]
+  },
+  "L6-p-09": {
+   "correct": "W pozycji bocznej bezpiecznej.",
+   "wrong": [
+    "Na plecach z nogami uniesionymi do góry.",
+    "Na brzuchu z głową odchyloną do tyłu.",
+    "W pozycji siedzącej, opartego o burtę."
+   ]
+  },
+  "L6-p-10": {
+   "correct": "Chłodzić czystą, chłodną wodą 10–20 min, przykryć jałowym opatrunkiem; nie przekłuwać pęcherzy.",
+   "wrong": [
+    "Posmarować masłem lub tłustym kremem i przekłuć pęcherze.",
+    "Obłożyć lodem bezpośrednio na skórę przez godzinę.",
+    "Chłodzić przez 30 sekund, potem przekłuć pęcherze i zakleić plastrem."
+   ]
+  },
+  "L6-p-11": {
+   "correct": "Świeże powietrze, patrzenie na horyzont, zajęcie (np. sterowanie), małe posiłki, płyny.",
+   "wrong": [
+    "Położyć w kabinie dziobowej i podać alkohol na uspokojenie żołądka.",
+    "Posadzić samotnie na rufie bez szelek, by mógł swobodnie wymiotować.",
+    "Zabronić jedzenia i picia aż do końca rejsu."
+   ]
+  },
+  "L6-p-12": {
+   "correct": "Tak – jeśli może to zrobić bez poważnego zagrożenia dla własnej jednostki i załogi.",
+   "wrong": [
+    "Nie – to wyłącznie obowiązek służby SAR i statków handlowych.",
+    "Tak – zawsze, nawet z poważnym narażeniem własnej jednostki i załogi.",
+    "Tylko wtedy, gdy w niebezpieczeństwie jest jednostka pod polską banderą."
+   ]
+  }
+ }
+}

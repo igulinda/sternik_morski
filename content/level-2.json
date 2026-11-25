@@ -1219,7 +1219,7 @@
     {
      "id": "L2-ik-14",
      "q": "Płyniesz na północ i widzisz przed dziobem znak kardynalny zachodni. Którą burtą go minąć?",
-     "a": "Znak zostaje po prawej burcie: trzeba przejść na zachód od niego, czyli minąć go po swojej lewej stronie.",
+     "a": "Zostawić go po prawej burcie – jacht ma przejść na zachód od znaku (niebezpieczeństwo jest na wschód od niego).",
      "explain": "Niebezpieczeństwo jest na wschód od znaku W.",
      "difficulty": 3
     }
