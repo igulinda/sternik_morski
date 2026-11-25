@@ -4,48 +4,56 @@
    "level": 1,
    "title": "Fundamenty",
    "desc": "Nazewnictwo, jednostki, skala Beauforta, flagi MKS i alfabet fonetyczny",
-   "file": "content/level-1.json"
+   "file": "content/level-1.json",
+   "mc": "content/mc/level-1.json"
   },
   {
    "level": 2,
    "title": "Prawo drogi – podstawy",
    "desc": "MPZZ, kto ustępuje, światła podstawowe, znaki dzienne, IALA boczne i kardynalne",
-   "file": "content/level-2.json"
+   "file": "content/level-2.json",
+   "mc": "content/mc/level-2.json"
   },
   {
    "level": 3,
    "title": "Światła, znaki i sygnały – pełny zakres",
    "desc": "Wszystkie jednostki nocą i w dzień, sygnały dźwiękowe i mgłowe, charakterystyki świateł, pozostałe znaki IALA",
-   "file": "content/level-3.json"
+   "file": "content/level-3.json",
+   "mc": "content/mc/level-3.json"
   },
   {
    "level": 4,
    "title": "Nawigacja i locja",
    "desc": "Mapy, poprawki kompasu, kursy i namiary, zliczenie, pływy, wejście do portu",
-   "file": "content/level-4.json"
+   "file": "content/level-4.json",
+   "mc": "content/mc/level-4.json"
   },
   {
    "level": 5,
    "title": "Meteorologia",
    "desc": "Przyrządy, układy baryczne, fronty, chmury, komunikaty, NAVTEX, stan morza",
-   "file": "content/level-5.json"
+   "file": "content/level-5.json",
+   "mc": "content/mc/level-5.json"
   },
   {
    "level": 6,
    "title": "Bezpieczeństwo i ratownictwo",
    "desc": "Środki ratunkowe, wzywanie pomocy, VHF/GMDSS, pirotechnika, MOB, hipotermia, sztorm",
-   "file": "content/level-6.json"
+   "file": "content/level-6.json",
+   "mc": "content/mc/level-6.json"
   },
   {
    "level": 7,
    "title": "Jacht, silnik, planowanie rejsu, przepisy",
    "desc": "Instalacje, diesel, dokumenty, obowiązki kapitana, planowanie rejsu",
-   "file": "content/level-7.json"
+   "file": "content/level-7.json",
+   "mc": "content/mc/level-7.json"
   },
   {
    "level": 8,
-   "title": "Integracja",
-   "desc": "Sytuacje łączone, zadania nawigacyjne, pełne testy egzaminacyjne"
+   "title": "Egzaminy próbne",
+   "desc": "Symulacja egzaminu (75 pytań, 120 min), testy z działów, zadanie nawigacyjne",
+   "exam": true
   }
  ]
 }

@@ -9,6 +9,7 @@
   /* ---------- dane ---------- */
   let INDEX = null;            // content/levels.json
   const LEVELS = {};           // numer -> dane poziomu
+  const MC = {};               // numer -> { idFiszki: {correct, wrong[]} } – odpowiedzi do testów
   async function loadJSON(path) {
     if (window.__CONTENT__ && window.__CONTENT__[path]) return window.__CONTENT__[path];
     const r = await fetch(path, { cache: 'no-cache' });
@@ -19,6 +20,7 @@
     INDEX = await loadJSON('content/levels.json');
     await Promise.all(INDEX.levels.filter((l) => l.file).map(async (l) => {
       LEVELS[l.level] = await loadJSON(l.file);
+      if (l.mc) { try { MC[l.level] = (await loadJSON(l.mc)).items || {}; } catch (e) { MC[l.level] = {}; } }
     }));
   }
   const allLessons = () => Object.values(LEVELS).flatMap((lv) => lv.lessons.map((ls) => ({ ...ls, level: lv.level })));
@@ -100,6 +102,7 @@
       <div class="mode-grid">
         <a class="card-box mode" href="#poziom-1"><div class="big">🧭</div><b>Nauka od podstaw</b><div class="level-desc">Poziomy po kolei: teoria + fiszki</div></a>
         <a class="card-box mode" href="#losowy"><div class="big">🎲</div><b>Tryb losowy</b><div class="level-desc">Wymieszane fiszki ze wszystkich działów</div></a>
+        <a class="card-box mode" href="#egzamin"><div class="big">📝</div><b>Egzamin próbny</b><div class="level-desc">75 pytań, 120 min, próg 65 – oraz testy z działów i zadanie nawigacyjne</div></a>
       </div>
       <div class="stats card-box">
         <div class="stat"><b>${allCards.length}</b>fiszek</div>
@@ -117,6 +120,10 @@
           <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
           ${progressBar(cards)}
           <div class="level-desc" style="margin-top:4px">${data.lessons.length} lekcji · ${cards.length} fiszek</div></a>`;
+      } else if (l.exam) {
+        html += `<a class="card-box level" href="#egzamin"><div class="level-head"><div class="level-num">${l.level}</div>
+          <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
+          <div class="level-desc" style="margin-top:6px">Przejdź do egzaminów →</div></a>`;
       } else {
         html += `<div class="card-box level locked"><div class="level-head"><div class="level-num">${l.level}</div>
           <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
@@ -347,7 +354,7 @@
         const pct = n ? Math.round(100 * x.ok / n) : 0;
         const mins = Math.max(1, Math.round((Date.parse(x.finished_at) - Date.parse(x.started_at)) / 60000));
         return `<div class="hist-row"><div class="hist-main"><div class="level-title">${esc(x.title)}</div>
-          <div class="meta">${fmtDate(x.finished_at)} · ${x.mode === 'losowy' ? 'losowo' : 'lekcja'} · ${x.total} fiszek · ${mins} min</div></div>
+          <div class="meta">${fmtDate(x.finished_at)} · ${({ losowy: 'losowo', lekcja: 'lekcja', egzamin: 'egzamin', test: 'test', zadanie: 'zadanie nawigacyjne' })[x.mode] || x.mode} · ${x.total} ${x.mode === 'lekcja' || x.mode === 'losowy' ? 'fiszek' : 'pytań'} · ${mins} min</div></div>
           <div class="hist-score" title="wiem / prawie / nie wiem"><span class="g-ok">${x.ok}</span> <span class="g-mid">${x.mid}</span> <span class="g-bad">${x.bad}</span><small>${pct}% od razu</small></div></div>`;
       }).join('') + `</div>`;
     }
@@ -382,6 +389,234 @@
     };
   }
 
+
+  /* ---------- EGZAMINY: symulacja, testy z działów, zadanie nawigacyjne ---------- */
+  const EXAM_KEY = () => `sm-exam-v1-${Cloud.user ? Cloud.user.id : 'local'}`;
+  const EXAM_PLAN = { 1: 8, 2: 14, 3: 16, 4: 12, 5: 9, 6: 10, 7: 6 }; // 75 pytań – rozkład wg działów
+  const LETTERS = ['A', 'B', 'C', 'D'];
+  let exam = null;
+  let examTimer = null;
+
+  // pula pytań testowych dla poziomu: fiszki z przygotowanymi odpowiedziami, grupy obrazkowe i zadania
+  function questionPool(level) {
+    const data = LEVELS[level];
+    if (!data) return [];
+    const byQ = {};
+    allLessons().forEach((ls) => ls.cards.forEach((c) => { if (!c.gen) (byQ[c.q] = byQ[c.q] || new Set()).add(c.a); }));
+    const out = [];
+    data.lessons.forEach((ls) => ls.cards.forEach((c) => {
+      const base = { id: c.id, level, lessonTitle: ls.title, q: c.q, qVisual: c.qVisual, explain: c.explain, tip: c.tip, source: c.source };
+      if (c.gen) { out.push({ ...base, gen: c.gen }); return; }
+      const m = MC[level] && MC[level][c.id];
+      if (m && m.wrong && m.wrong.length >= 3) { out.push({ ...base, correct: m.correct, wrong: m.wrong.slice(0, 3) }); return; }
+      const group = byQ[c.q] ? [...byQ[c.q]].filter((x) => x !== c.a) : [];
+      if (group.length >= 3) out.push({ ...base, correct: c.a, wrong: shuffle(group).slice(0, 3) });
+    }));
+    return out;
+  }
+  function materialize(q) {
+    let item = q;
+    if (q.gen && window.Generators) {
+      const t = window.Generators.make(q.gen);
+      item = { ...q, q: t.q, correct: t.mc.correct, wrong: t.mc.wrong, explain: t.explain, tip: t.tip, isTask: true };
+    }
+    const options = shuffle([item.correct, ...item.wrong]);
+    return { ...item, options, correctIdx: options.indexOf(item.correct), answer: null };
+  }
+  function buildExam(mode, levels, count) {
+    let picked = [];
+    if (mode === 'egzamin') {
+      const pools = {}; Object.keys(EXAM_PLAN).forEach((l) => { pools[l] = shuffle(questionPool(+l)); });
+      let missing = 0;
+      Object.entries(EXAM_PLAN).forEach(([l, n]) => { const take = pools[l].splice(0, n); picked.push(...take); missing += n - take.length; });
+      const rest = shuffle(Object.values(pools).flat());
+      picked.push(...rest.slice(0, missing));
+    } else {
+      const pool = shuffle(levels.flatMap(questionPool));
+      picked = count ? pool.slice(0, count) : pool;
+    }
+    picked.sort((a, b) => a.level - b.level);
+    return {
+      mode, levels, questions: picked.map(materialize), idx: 0, startedAt: new Date().toISOString(),
+      deadline: mode === 'egzamin' ? Date.now() + 120 * 60000 : null, finished: false, showGrid: false
+    };
+  }
+  function saveExam() { try { if (exam && !exam.finished) localStorage.setItem(EXAM_KEY(), JSON.stringify(exam)); else localStorage.removeItem(EXAM_KEY()); } catch (e) { /* trudno */ } }
+  function loadSavedExam() { try { return JSON.parse(localStorage.getItem(EXAM_KEY()) || 'null'); } catch (e) { return null; } }
+
+  function viewExam(sub) {
+    clearInterval(examTimer);
+    if (sub === 'nawigacja') return viewNavTask();
+    if (sub === 'trwa' && exam && !exam.finished) return renderExamQ();
+    const saved = loadSavedExam();
+    const avail = INDEX.levels.filter((l) => LEVELS[l.level]);
+    const poolSize = avail.reduce((a, l) => a + questionPool(l.level).length, 0);
+    app.innerHTML = `<a href="#start">← Start</a><h1>Egzaminy próbne</h1>
+      <p class="sub">Pytania jednokrotnego wyboru ułożone z całego materiału (${poolSize} pytań w bazie, zadania obliczeniowe za każdym razem z nowymi liczbami).</p>
+      ${saved ? `<div class="card-box resume"><b>Masz niedokończony ${saved.mode === 'egzamin' ? 'egzamin' : 'test'}</b>
+        <div class="meta">${saved.questions.filter((q) => q.answer !== null).length} / ${saved.questions.length} odpowiedzi${saved.deadline ? ` · zostało ${Math.max(0, Math.round((saved.deadline - Date.now()) / 60000))} min` : ''}</div>
+        <div class="btn-row"><button class="btn primary" id="resume">Wznów</button><button class="btn" id="discard">Porzuć</button></div></div>` : ''}
+      <div class="card-box"><h2 style="margin-top:0">📝 Symulacja egzaminu</h2>
+        <p>Jak na prawdziwym egzaminie: <b>75 pytań</b>, <b>120 minut</b>, zdajesz przy <b>65 poprawnych</b> odpowiedziach. Pytania ze wszystkich działów w proporcjach zbliżonych do egzaminu.</p>
+        <button class="btn primary" id="full">Rozpocznij egzamin</button></div>
+      <div class="card-box opts"><h2 style="margin-top:0">🎯 Test z wybranych działów</h2>
+        <div>${avail.map((l) => `<label><input type="checkbox" name="tlv" value="${l.level}" ${l.level <= 3 ? 'checked' : ''}> ${l.level}. ${esc(l.title)}</label>`).join('')}</div>
+        <hr class="divider"><b>Liczba pytań</b><div>${[10, 20, 40].map((n, i) => `<label><input type="radio" name="tn" value="${n}" ${i === 1 ? 'checked' : ''}> ${n}</label>`).join('')}<label><input type="radio" name="tn" value="0"> wszystkie</label></div>
+        <p class="err" id="tErr" hidden>Zaznacz co najmniej jeden dział.</p>
+        <div class="btn-row"><button class="btn primary" id="topic">Rozpocznij test</button></div></div>
+      <div class="card-box"><h2 style="margin-top:0">🧭 Zadanie nawigacyjne</h2>
+        <p>4 obliczenia jak w części nawigacyjnej egzaminu (kurs kompasowy, namiar, zliczenie, dryf). Wpisujesz wyniki, aplikacja je sprawdza i pokazuje rozwiązanie.</p>
+        <a class="btn primary" href="#egzamin-nawigacja">Rozwiąż zadanie</a></div>`;
+    const start = (e) => { exam = e; saveExam(); location.hash = '#egzamin-trwa'; if (location.hash === '#egzamin-trwa') renderExamQ(); };
+    document.getElementById('full').onclick = () => start(buildExam('egzamin'));
+    document.getElementById('topic').onclick = () => {
+      const lv = [...app.querySelectorAll('input[name=tlv]:checked')].map((i) => +i.value);
+      if (!lv.length) { document.getElementById('tErr').hidden = false; return; }
+      start(buildExam('test', lv, +app.querySelector('input[name=tn]:checked').value));
+    };
+    if (saved) {
+      document.getElementById('resume').onclick = () => { exam = saved; start(exam); };
+      document.getElementById('discard').onclick = () => { exam = null; try { localStorage.removeItem(EXAM_KEY()); } catch (e) { /* */ } viewExam(); };
+    }
+  }
+
+  const mmss = (ms) => { const t = Math.max(0, Math.round(ms / 1000)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`; };
+  function tickTimer() {
+    const el = document.getElementById('timer');
+    if (!exam || exam.finished || !exam.deadline) return;
+    const left = exam.deadline - Date.now();
+    if (left <= 0) { finishExam(true); return; }
+    if (el) { el.textContent = '⏱ ' + mmss(left); el.classList.toggle('low', left < 10 * 60000); }
+  }
+  function renderExamQ() {
+    const e = exam; const q = e.questions[e.idx]; const n = e.questions.length;
+    const answered = e.questions.filter((x) => x.answer !== null).length;
+    app.innerHTML = `<div class="exam-top"><span>${e.mode === 'egzamin' ? 'Egzamin próbny' : 'Test'} · pytanie <b>${e.idx + 1}</b> / ${n}</span>
+        ${e.deadline ? `<span id="timer" class="timer"></span>` : ''}</div>
+      <div class="bar" style="margin-bottom:12px"><span style="width:${Math.round(100 * answered / n)}%"></span></div>
+      <div class="card-box exam-q">
+        ${q.isTask ? '<div class="task-badge">🧮 Zadanie obliczeniowe</div>' : ''}
+        <div class="q">${md(q.q)}</div>
+        ${q.qVisual ? V.render(q.qVisual) : ''}
+        <div class="opts-list" role="radiogroup">${q.options.map((o, i) => `<button class="opt${q.answer === i ? ' sel' : ''}" data-i="${i}" role="radio" aria-checked="${q.answer === i}"><span class="ltr">${LETTERS[i]}</span><span>${md(o)}</span></button>`).join('')}</div>
+      </div>
+      <div class="btn-row nav-row"><button class="btn" id="prev" ${e.idx === 0 ? 'disabled' : ''}>← Wstecz</button>
+        <button class="btn" id="grid">☰ ${answered}/${n}</button>
+        ${e.idx < n - 1 ? '<button class="btn primary" id="next">Dalej →</button>' : '<button class="btn primary" id="end">Zakończ</button>'}</div>
+      ${e.showGrid ? `<div class="card-box qgrid">${e.questions.map((x, i) => `<button class="qn${x.answer !== null ? ' done' : ''}${i === e.idx ? ' cur' : ''}" data-q="${i}">${i + 1}</button>`).join('')}</div>` : ''}
+      <div class="btn-row"><button class="btn bad" id="finish">Zakończ i sprawdź wynik</button></div>
+      <p class="err" id="finConfirm" hidden></p>`;
+    app.querySelectorAll('.opt').forEach((b) => { b.onclick = () => { q.answer = +b.dataset.i; saveExam(); renderExamQ(); }; });
+    const go = (i) => { e.idx = i; saveExam(); renderExamQ(); window.scrollTo(0, 0); };
+    document.getElementById('prev').onclick = () => go(e.idx - 1);
+    const nx = document.getElementById('next'); if (nx) nx.onclick = () => go(e.idx + 1);
+    const en = document.getElementById('end'); if (en) en.onclick = () => askFinish();
+    document.getElementById('grid').onclick = () => { e.showGrid = !e.showGrid; renderExamQ(); };
+    app.querySelectorAll('.qn').forEach((b) => { b.onclick = () => go(+b.dataset.q); });
+    document.getElementById('finish').onclick = () => askFinish();
+    clearInterval(examTimer); if (e.deadline) { tickTimer(); examTimer = setInterval(tickTimer, 1000); }
+  }
+  function askFinish() {
+    const left = exam.questions.filter((x) => x.answer === null).length;
+    const p = document.getElementById('finConfirm');
+    if (left && p.hidden) {
+      p.hidden = false;
+      p.innerHTML = `Bez odpowiedzi: ${left}. Kliknij jeszcze raz „Zakończ i sprawdź wynik”, aby zakończyć.`;
+      return;
+    }
+    finishExam(false);
+  }
+  function finishExam(timeUp) {
+    clearInterval(examTimer);
+    const e = exam; e.finished = true; e.timeUp = timeUp; e.finishedAt = new Date().toISOString();
+    const ok = e.questions.filter((q) => q.answer === q.correctIdx).length;
+    const n = e.questions.length;
+    // błędne odpowiedzi wracają do powtórek
+    e.questions.forEach((q) => { if (q.answer !== q.correctIdx && !q.gen) grade(q.id, 'bad'); });
+    if (Cloud.user) {
+      Cloud.queueSession({ mode: e.mode, title: e.mode === 'egzamin' ? `Egzamin próbny – ${ok}/${n} ${ok >= 65 ? '✔ zdany' : '✘ niezdany'}` : `Test (poziomy ${e.levels.join(', ')}) – ${ok}/${n}`,
+        lesson_id: null, started_at: e.startedAt, finished_at: e.finishedAt, total: n, ok, mid: 0, bad: n - ok });
+    }
+    saveExam();
+    renderExamResult();
+  }
+  function renderExamResult() {
+    const e = exam; const n = e.questions.length;
+    const ok = e.questions.filter((q) => q.answer === q.correctIdx).length;
+    const pass = e.mode === 'egzamin' ? ok >= 65 : ok / n >= 65 / 75;
+    const byLevel = {};
+    e.questions.forEach((q) => { const b = byLevel[q.level] = byLevel[q.level] || { ok: 0, n: 0 }; b.n++; if (q.answer === q.correctIdx) b.ok++; });
+    const wrong = e.questions.filter((q) => q.answer !== q.correctIdx);
+    app.innerHTML = `<h1>${pass ? 'Zdany ✔' : 'Niezdany ✘'}</h1>
+      <p class="sub">${e.mode === 'egzamin' ? 'Egzamin próbny' : 'Test'}${e.timeUp ? ' · koniec czasu' : ''} · próg ${e.mode === 'egzamin' ? '65/75' : '87%'}</p>
+      <div class="stats card-box ${pass ? 'pass' : 'fail'}">
+        <div class="stat"><b>${ok}/${n}</b>poprawnych</div>
+        <div class="stat"><b>${Math.round(100 * ok / n)}%</b>wyniku</div>
+        <div class="stat"><b>${mmss(Date.parse(e.finishedAt) - Date.parse(e.startedAt))}</b>czas</div>
+      </div>
+      <h2>Wynik w działach</h2><div class="card-box">${Object.entries(byLevel).map(([l, b]) => {
+        const meta = INDEX.levels.find((x) => x.level === +l);
+        const pct = Math.round(100 * b.ok / b.n);
+        return `<div class="lvl-score"><span>${l}. ${esc(meta ? meta.title : '')}</span><b class="${pct >= 87 ? 'g-ok' : pct >= 60 ? 'g-mid' : 'g-bad'}">${b.ok}/${b.n}</b></div>`;
+      }).join('')}</div>
+      <h2>Błędy do przejrzenia (${wrong.length})</h2>
+      ${wrong.length ? `<p class="sub">Te pytania trafiły do powtórek – w trybie losowym z opcją „tylko nieopanowane” pojawią się w pierwszej kolejności.</p>` : '<div class="card-box">Bez błędów – brawo! ⚓</div>'}
+      ${wrong.map((q) => `<div class="card-box review">
+        <div class="meta">Pytanie ${e.questions.indexOf(q) + 1} · ${esc(q.lessonTitle || '')}</div>
+        <div class="q">${md(q.q)}</div>${q.qVisual ? V.render(q.qVisual) : ''}
+        ${q.answer !== null ? `<p class="your">✘ Twoja odpowiedź: ${md(q.options[q.answer])}</p>` : '<p class="your">✘ Brak odpowiedzi</p>'}
+        <p class="right">✔ Poprawna: ${md(q.options[q.correctIdx])}</p>
+        ${q.explain ? `<p class="explain">${md(q.explain)}</p>` : ''}${q.tip ? `<div class="tip">${md(q.tip)}</div>` : ''}</div>`).join('')}
+      <div class="btn-row"><a class="btn primary" href="#egzamin">Kolejny egzamin / test</a><a class="btn" href="#start">Start</a></div>`;
+    window.scrollTo(0, 0);
+  }
+
+  // zadanie nawigacyjne: 4 obliczenia z polami na wyniki
+  let navTask = null;
+  function viewNavTask() {
+    const pick = (kind) => { let t; do { t = window.Generators.make(kind); } while (!t.num); return { kind, ...t }; };
+    if (!navTask || navTask.checked) navTask = { items: ['kompas-kk', 'namiar', 'zliczenie', 'dryf'].map(pick), checked: false, startedAt: new Date().toISOString() };
+    const parse = (v) => parseFloat(String(v).replace(',', '.').replace(/[^\d.-]/g, ''));
+    const render = () => {
+      app.innerHTML = `<a href="#egzamin">← Egzaminy</a><h1>Zadanie nawigacyjne</h1>
+        <p class="sub">Policz na kartce i wpisz wyniki. Kąty w stopniach (całe), odległości i prędkości z dokładnością do 0,1.</p>
+        <form id="navForm" novalidate>${navTask.items.map((t, i) => `<div class="card-box nav-item">
+          <div class="meta">Obliczenie ${i + 1} z ${navTask.items.length}</div><div class="q">${md(t.q)}</div>
+          ${t.num.map((f, j) => {
+            const res = t.res && t.res[j];
+            return `<label for="n${i}_${j}">${esc(f.label)} [${esc(f.unit)}]</label>
+              <input id="n${i}_${j}" inputmode="decimal" autocomplete="off" value="${t.val && t.val[j] !== undefined ? esc(t.val[j]) : ''}" ${navTask.checked ? 'disabled' : ''} class="${res === true ? 'ok' : res === false ? 'bad' : ''}">
+              ${navTask.checked ? `<p class="${res ? 'okmsg' : 'err'}">${res ? '✔ dobrze' : '✘ poprawnie: ' + (f.circ ? String(Math.round(f.value)).padStart(3, '0') : String(Math.round(f.value * 100) / 100).replace('.', ',')) + ' ' + esc(f.unit)}</p>` : ''}`;
+          }).join('')}
+          ${navTask.checked ? `<details><summary>Rozwiązanie</summary><p class="explain">${md(t.explain)}</p></details>` : ''}</div>`).join('')}
+        <div class="btn-row">${navTask.checked ? '<a class="btn primary" href="#egzamin-nawigacja" id="again">Nowe zadanie</a><a class="btn" href="#egzamin">Egzaminy</a>' : '<button class="btn primary" type="submit">Sprawdź</button>'}</div></form>`;
+      const f = document.getElementById('navForm');
+      f.onsubmit = (ev) => {
+        ev.preventDefault();
+        let ok = 0, total = 0;
+        navTask.items.forEach((t, i) => {
+          t.val = []; t.res = [];
+          t.num.forEach((fld, j) => {
+            const raw = document.getElementById(`n${i}_${j}`).value; t.val[j] = raw; total++;
+            const v = parse(raw);
+            let good = false;
+            if (!isNaN(v)) {
+              if (fld.circ) { const d = Math.abs(((v - fld.value) % 360 + 540) % 360 - 180); good = d <= 1; }
+              else good = Math.abs(v - fld.value) <= Math.max(0.1, fld.value * (fld.tol || 0.05));
+            }
+            t.res[j] = good; if (good) ok++;
+          });
+        });
+        navTask.checked = true;
+        if (Cloud.user) Cloud.queueSession({ mode: 'zadanie', title: `Zadanie nawigacyjne – ${ok}/${total}`, lesson_id: null, started_at: navTask.startedAt, finished_at: new Date().toISOString(), total, ok, mid: 0, bad: total - ok });
+        render(); window.scrollTo(0, 0);
+      };
+      const again = document.getElementById('again');
+      if (again) again.onclick = (ev) => { ev.preventDefault(); navTask = null; viewNavTask(); window.scrollTo(0, 0); };
+    };
+    render();
+  }
+
   /* ---------- routing ---------- */
   function route() {
     const h = location.hash.replace(/^#/, '');
@@ -391,6 +626,7 @@
     renderNav();
     if (Cloud.enabled && !Cloud.user) return viewLogin();
     if (a === 'historia' && Cloud.user) return viewHistory();
+    if (a === 'egzamin') return viewExam(b);
     if (a === 'konto' && Cloud.user) return viewAccount();
     if (a === 'poziom') return viewLevel(+b);
     if (a === 'lekcja') return viewLesson(b);

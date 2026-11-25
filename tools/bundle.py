@@ -8,6 +8,8 @@ content = {'content/levels.json': idx}
 for l in idx['levels']:
     if l.get('file'):
         content[l['file']] = json.loads((root / l['file']).read_text())
+    if l.get('mc') and (root / l['mc']).exists():
+        content[l['mc']] = json.loads((root / l['mc']).read_text())
 html = (root / 'index.html').read_text()
 body = html[html.index('<body>') + 6: html.index('<script src=')]
 css = (root / 'css/style.css').read_text()

@@ -1,0 +1,445 @@
+{
+ "level": 1,
+ "items": {
+  "L1-n-01": {
+   "correct": "Zielonym; prawa burta to sterburta (SB).",
+   "wrong": [
+    "Czerwonym; prawa burta to sterburta (SB).",
+    "Zielonym; prawa burta to bakburta (BB).",
+    "Białym; prawa burta to sterburta (SB)."
+   ]
+  },
+  "L1-n-02": {
+   "correct": "Czerwonym; lewa burta to bakburta (BB).",
+   "wrong": [
+    "Zielonym; lewa burta to bakburta (BB).",
+    "Czerwonym; lewa burta to sterburta (SB).",
+    "Żółtym; lewa burta to bakburta (BB)."
+   ]
+  },
+  "L1-n-03": {
+   "correct": "Kierunek prostopadły do osi jachtu – 90° od dziobu na prawą lub lewą burtę.",
+   "wrong": [
+    "Kierunek wzdłuż osi jachtu – 0° prosto przed dziobem.",
+    "Kierunek 45° od dziobu na prawą lub lewą burtę.",
+    "Kierunek prosto za rufą – 180° od dziobu."
+   ]
+  },
+  "L1-n-04": {
+   "correct": "Ta, na którą wieje wiatr.",
+   "wrong": [
+    "Ta, po której znajduje się bom.",
+    "Ta, która jest osłonięta od wiatru.",
+    "Zawsze prawa burta, niezależnie od wiatru."
+   ]
+  },
+  "L1-n-05": {
+   "correct": "Wiatr wieje z lewej burty, grot (bom) jest po prawej burcie.",
+   "wrong": [
+    "Wiatr wieje z prawej burty, grot (bom) jest po lewej burcie.",
+    "Wiatr wieje z lewej burty, grot (bom) jest po lewej burcie.",
+    "Wiatr wieje z prawej burty, grot (bom) jest po prawej burcie."
+   ]
+  },
+  "L1-n-06": {
+   "correct": "Lewym halsem – wiatr wpada na lewą burtę, bom jest po prawej.",
+   "wrong": [
+    "Prawym halsem – wiatr wpada na prawą burtę, bom jest po lewej.",
+    "Prawym halsem – wiatr wpada na lewą burtę, bom jest po prawej.",
+    "Lewym halsem – wiatr wpada na prawą burtę, bom jest po lewej."
+   ]
+  },
+  "L1-n-07": {
+   "correct": "Prawym halsem – wiatr wpada na prawą burtę, bom jest po lewej.",
+   "wrong": [
+    "Lewym halsem – wiatr wpada na lewą burtę, bom jest po prawej.",
+    "Lewym halsem – wiatr wpada na prawą burtę, bom jest po lewej.",
+    "Prawym halsem – wiatr wpada na lewą burtę, bom jest po prawej."
+   ]
+  },
+  "L1-n-08": {
+   "correct": "Fordewind.",
+   "wrong": [
+    "Baksztag.",
+    "Półwiatr.",
+    "Bajdewind."
+   ]
+  },
+  "L1-n-09": {
+   "correct": "Bajdewind.",
+   "wrong": [
+    "Półwiatr.",
+    "Baksztag.",
+    "Fordewind."
+   ]
+  },
+  "L1-n-10": {
+   "correct": "Półwiatr.",
+   "wrong": [
+    "Bajdewind.",
+    "Baksztag.",
+    "Fordewind."
+   ]
+  },
+  "L1-n-11": {
+   "correct": "Baksztag.",
+   "wrong": [
+    "Bajdewind.",
+    "Półwiatr.",
+    "Fordewind."
+   ]
+  },
+  "L1-n-12": {
+   "correct": "Kąt między dziobem a kierunkiem na obiekt, liczony na prawą lub lewą burtę (0–180°).",
+   "wrong": [
+    "Kąt między północą rzeczywistą a kierunkiem na obiekt, liczony w prawo (0–360°).",
+    "Kąt między północą rzeczywistą a osią jachtu, liczony w prawo (0–360°).",
+    "Kąt między kierunkiem wiatru a osią jachtu, liczony od dziobu (0–180°)."
+   ]
+  },
+  "L1-j-01": {
+   "correct": "1852 m.",
+   "wrong": [
+    "1609 m.",
+    "1000 m.",
+    "1825 m."
+   ]
+  },
+  "L1-j-02": {
+   "correct": "1 minucie kątowej szerokości geograficznej (1′ łuku południka).",
+   "wrong": [
+    "1 minucie kątowej długości geograficznej (1′ łuku równoleżnika).",
+    "1 stopniowi szerokości geograficznej (1° łuku południka).",
+    "1 sekundzie kątowej szerokości geograficznej (1″ łuku południka)."
+   ]
+  },
+  "L1-j-03": {
+   "correct": "60 Mm.",
+   "wrong": [
+    "100 Mm.",
+    "360 Mm.",
+    "111 Mm."
+   ]
+  },
+  "L1-j-04": {
+   "correct": "Jednostka prędkości: 1 mila morska na godzinę.",
+   "wrong": [
+    "Jednostka prędkości: 1 kilometr na godzinę.",
+    "Jednostka odległości: 1 mila morska.",
+    "Jednostka prędkości: 1 mila morska na minutę."
+   ]
+  },
+  "L1-j-05": {
+   "correct": "0,1 mili morskiej ≈ 185 m.",
+   "wrong": [
+    "0,01 mili morskiej ≈ 18,5 m.",
+    "0,5 mili morskiej ≈ 926 m.",
+    "1/60 mili morskiej ≈ 31 m."
+   ]
+  },
+  "L1-j-06": {
+   "correct": "17,5 Mm.",
+   "wrong": [
+    "15,5 Mm.",
+    "16,5 Mm.",
+    "18,5 Mm."
+   ]
+  },
+  "L1-j-07": {
+   "correct": "4 godziny.",
+   "wrong": [
+    "3 godziny.",
+    "4,5 godziny.",
+    "6 godzin."
+   ]
+  },
+  "L1-j-08": {
+   "correct": "Zachód (W).",
+   "wrong": [
+    "Wschód (E).",
+    "Południe (S).",
+    "Północ (N)."
+   ]
+  },
+  "L1-j-09": {
+   "correct": "6 węzłów.",
+   "wrong": [
+    "4 węzły.",
+    "5 węzłów.",
+    "10 węzłów."
+   ]
+  },
+  "L1-b-01": {
+   "correct": "13 stopni: od 0 (cisza) do 12 (huragan).",
+   "wrong": [
+    "12 stopni: od 1 (cisza) do 12 (huragan).",
+    "10 stopni: od 0 (cisza) do 10 (huragan).",
+    "17 stopni: od 0 (cisza) do 16 (huragan)."
+   ]
+  },
+  "L1-b-02": {
+   "correct": "Umiarkowany, 11–16 węzłów.",
+   "wrong": [
+    "Słaby, 7–10 węzłów.",
+    "Dość silny, 17–21 węzłów.",
+    "Silny, 22–27 węzłów."
+   ]
+  },
+  "L1-b-03": {
+   "correct": "Silny, 22–27 węzłów.",
+   "wrong": [
+    "Dość silny, 17–21 węzłów.",
+    "Bardzo silny, 28–33 węzły.",
+    "Umiarkowany, 11–16 węzłów."
+   ]
+  },
+  "L1-b-04": {
+   "correct": "Od 8°B (34–40 węzłów).",
+   "wrong": [
+    "Od 6°B (22–27 węzłów).",
+    "Od 7°B (28–33 węzły).",
+    "Od 10°B (48–55 węzłów)."
+   ]
+  },
+  "L1-b-05": {
+   "correct": "12°B – huragan.",
+   "wrong": [
+    "10°B – bardzo silny sztorm.",
+    "11°B – gwałtowny sztorm.",
+    "9°B – silny sztorm."
+   ]
+  },
+  "L1-b-06": {
+   "correct": "7°B – wiatr bardzo silny (28–33 w).",
+   "wrong": [
+    "6°B – wiatr silny (22–27 w).",
+    "8°B – sztorm (34–40 w).",
+    "5°B – wiatr dość silny (17–21 w)."
+   ]
+  },
+  "L1-flagrev-A": {
+   "correct": "Flaga A (Alfa).",
+   "wrong": [
+    "Flaga D (Delta).",
+    "Flaga B (Bravo).",
+    "Flaga U (Uniform)."
+   ]
+  },
+  "L1-flagrev-B": {
+   "correct": "Flaga B (Bravo).",
+   "wrong": [
+    "Flaga J (Juliett).",
+    "Flaga A (Alfa).",
+    "Flaga Q (Quebec)."
+   ]
+  },
+  "L1-flagrev-C": {
+   "correct": "Flaga C (Charlie).",
+   "wrong": [
+    "Flaga N (November).",
+    "Flaga Y (Yankee).",
+    "Flaga K (Kilo)."
+   ]
+  },
+  "L1-flagrev-D": {
+   "correct": "Flaga D (Delta).",
+   "wrong": [
+    "Flaga F (Foxtrot).",
+    "Flaga T (Tango).",
+    "Flaga A (Alfa)."
+   ]
+  },
+  "L1-flagrev-E": {
+   "correct": "Flaga E (Echo).",
+   "wrong": [
+    "Flaga I (India).",
+    "Flaga S (Sierra).",
+    "Flaga P (Papa)."
+   ]
+  },
+  "L1-flagrev-F": {
+   "correct": "Flaga F (Foxtrot).",
+   "wrong": [
+    "Flaga D (Delta).",
+    "Flaga K (Kilo).",
+    "Flaga M (Mike)."
+   ]
+  },
+  "L1-flagrev-G": {
+   "correct": "Flaga G (Golf).",
+   "wrong": [
+    "Flaga H (Hotel).",
+    "Flaga Z (Zulu).",
+    "Flaga P (Papa)."
+   ]
+  },
+  "L1-flagrev-H": {
+   "correct": "Flaga H (Hotel).",
+   "wrong": [
+    "Flaga G (Golf).",
+    "Flaga Q (Quebec).",
+    "Flaga P (Papa)."
+   ]
+  },
+  "L1-flagrev-I": {
+   "correct": "Flaga I (India).",
+   "wrong": [
+    "Flaga E (Echo).",
+    "Flaga L (Lima).",
+    "Flaga S (Sierra)."
+   ]
+  },
+  "L1-flagrev-J": {
+   "correct": "Flaga J (Juliett).",
+   "wrong": [
+    "Flaga B (Bravo).",
+    "Flaga D (Delta).",
+    "Flaga U (Uniform)."
+   ]
+  },
+  "L1-flagrev-K": {
+   "correct": "Flaga K (Kilo).",
+   "wrong": [
+    "Flaga F (Foxtrot).",
+    "Flaga X (X-ray).",
+    "Flaga C (Charlie)."
+   ]
+  },
+  "L1-flagrev-L": {
+   "correct": "Flaga L (Lima).",
+   "wrong": [
+    "Flaga M (Mike).",
+    "Flaga X (X-ray).",
+    "Flaga S (Sierra)."
+   ]
+  },
+  "L1-flagrev-M": {
+   "correct": "Flaga M (Mike).",
+   "wrong": [
+    "Flaga L (Lima).",
+    "Flaga S (Sierra).",
+    "Flaga F (Foxtrot)."
+   ]
+  },
+  "L1-flagrev-N": {
+   "correct": "Flaga N (November).",
+   "wrong": [
+    "Flaga C (Charlie).",
+    "Flaga X (X-ray).",
+    "Flaga Y (Yankee)."
+   ]
+  },
+  "L1-flagrev-O": {
+   "correct": "Flaga O (Oscar).",
+   "wrong": [
+    "Flaga V (Victor).",
+    "Flaga W (Whiskey).",
+    "Flaga U (Uniform)."
+   ]
+  },
+  "L1-flagrev-P": {
+   "correct": "Flaga P (Papa).",
+   "wrong": [
+    "Flaga Q (Quebec).",
+    "Flaga G (Golf).",
+    "Flaga H (Hotel)."
+   ]
+  },
+  "L1-flagrev-Q": {
+   "correct": "Flaga Q (Quebec).",
+   "wrong": [
+    "Flaga P (Papa).",
+    "Flaga W (Whiskey).",
+    "Flaga H (Hotel)."
+   ]
+  },
+  "L1-flagrev-S": {
+   "correct": "Flaga S (Sierra).",
+   "wrong": [
+    "Flaga M (Mike).",
+    "Flaga L (Lima).",
+    "Flaga E (Echo)."
+   ]
+  },
+  "L1-flagrev-T": {
+   "correct": "Flaga T (Tango).",
+   "wrong": [
+    "Flaga D (Delta).",
+    "Flaga A (Alfa).",
+    "Flaga Z (Zulu)."
+   ]
+  },
+  "L1-flagrev-U": {
+   "correct": "Flaga U (Uniform).",
+   "wrong": [
+    "Flaga X (X-ray).",
+    "Flaga L (Lima).",
+    "Flaga D (Delta)."
+   ]
+  },
+  "L1-flagrev-V": {
+   "correct": "Flaga V (Victor).",
+   "wrong": [
+    "Flaga W (Whiskey).",
+    "Flaga O (Oscar).",
+    "Flaga F (Foxtrot)."
+   ]
+  },
+  "L1-flagrev-W": {
+   "correct": "Flaga W (Whiskey).",
+   "wrong": [
+    "Flaga V (Victor).",
+    "Flaga Q (Quebec).",
+    "Flaga O (Oscar)."
+   ]
+  },
+  "L1-flagrev-X": {
+   "correct": "Flaga X (X-ray).",
+   "wrong": [
+    "Flaga U (Uniform).",
+    "Flaga L (Lima).",
+    "Flaga K (Kilo)."
+   ]
+  },
+  "L1-flagrev-Y": {
+   "correct": "Flaga Y (Yankee).",
+   "wrong": [
+    "Flaga M (Mike).",
+    "Flaga D (Delta).",
+    "Flaga Z (Zulu)."
+   ]
+  },
+  "L1-flagrev-Z": {
+   "correct": "Flaga Z (Zulu).",
+   "wrong": [
+    "Flaga G (Golf).",
+    "Flaga V (Victor).",
+    "Flaga T (Tango)."
+   ]
+  },
+  "L1-flag-NC": {
+   "correct": "NC – Jestem w niebezpieczeństwie i potrzebuję natychmiastowej pomocy.",
+   "wrong": [
+    "NC – Nie; odmawiam przyjęcia pilota na pokład.",
+    "NC – Mam pilota na statku i manewruję z trudnością.",
+    "NC – Zatrzymajcie natychmiast swój statek."
+   ]
+  },
+  "L1-fon-01": {
+   "correct": "Sierra Papa Two Alfa Bravo Charlie.",
+   "wrong": [
+    "Sierra Peter Two Alfa Bravo Charlie.",
+    "Sugar Papa Two Alfa Bravo Charlie.",
+    "Sierra Papa Two Alfa Beta Charlie."
+   ]
+  },
+  "L1-fon-02": {
+   "correct": "Juliett, Quebec, X-ray, Yankee.",
+   "wrong": [
+    "Juliett, Quebec, Xenon, Yankee.",
+    "Juliet, Queen, X-ray, Yellow.",
+    "Jupiter, Quebec, X-ray, Yankee."
+   ]
+  }
+ }
+}

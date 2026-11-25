@@ -1,0 +1,453 @@
+{
+ "level": 2,
+ "items": {
+  "L2-m-01": {
+   "correct": "Statkiem o napędzie mechanicznym.",
+   "wrong": [
+    "Żaglowcem, bo ma postawione żagle.",
+    "Statkiem o ograniczonej zdolności manewrowej.",
+    "Statkiem niezdolnym do manewrowania."
+   ]
+  },
+  "L2-m-02": {
+   "correct": "Statek nie stoi na kotwicy, nie jest przycumowany do brzegu i nie siedzi na mieliźnie.",
+   "wrong": [
+    "Statek porusza się względem wody z prędkością co najmniej 1 węzła.",
+    "Statek ma włączony silnik lub postawione żagle i utrzymuje stały kurs.",
+    "Statek płynie wyznaczonym torem wodnym lub pasem ruchu TSS."
+   ]
+  },
+  "L2-m-03": {
+   "correct": "Nie – trolling nie ogranicza zdolności manewrowej, więc nie jest to statek zajęty połowem.",
+   "wrong": [
+    "Tak – każdy statek łowiący ryby jest statkiem zajętym połowem.",
+    "Tak, ale tylko wtedy, gdy holuje więcej niż dwie wędki.",
+    "Tak, jeśli pokazuje dwa czarne stożki wierzchołkami do siebie."
+   ]
+  },
+  "L2-m-04": {
+   "correct": "Obserwując namiar kompasowy – jeśli wyraźnie się nie zmienia, a odległość maleje, ryzyko istnieje.",
+   "wrong": [
+    "Obserwując kurs drugiego statku – ryzyko istnieje, gdy jest równoległy do naszego.",
+    "Tylko na podstawie odległości – ryzyko istnieje, gdy statek jest bliżej niż 1 Mm.",
+    "Obserwując namiar – ryzyko istnieje tylko wtedy, gdy namiar szybko rośnie."
+   ]
+  },
+  "L2-m-05": {
+   "correct": "Wyraźny, wykonany w porę i wystarczająco duży; unikać serii małych zmian kursu/prędkości.",
+   "wrong": [
+    "Seria drobnych zmian kursu, żeby nie zaskoczyć drugiego statku.",
+    "Wykonany jak najpóźniej, gdy odległość spadnie poniżej 2 kabli.",
+    "Polegający wyłącznie na zmniejszeniu prędkości, bez zmiany kursu."
+   ]
+  },
+  "L2-m-06": {
+   "correct": "Możliwie blisko zewnętrznej granicy przejścia po swojej prawej burcie.",
+   "wrong": [
+    "Możliwie blisko zewnętrznej granicy przejścia po swojej lewej burcie.",
+    "Środkiem przejścia, by mieć zapas wody po obu burtach.",
+    "Dowolną stroną, byle nie utrudniać statkom wyprzedzającym."
+   ]
+  },
+  "L2-m-07": {
+   "correct": "Żaglowiec nie może utrudniać przejścia statkowi, który może płynąć tylko torem.",
+   "wrong": [
+    "Żaglowiec – statek mechaniczny zawsze ustępuje żaglowcowi.",
+    "Ustępuje ten statek, który ma drugi po swojej prawej burcie.",
+    "Żaglowiec ma pierwszeństwo, jeśli płynie prawym halsem."
+   ]
+  },
+  "L2-m-08": {
+   "correct": "Kursem możliwie prostopadłym do ogólnego kierunku ruchu w tym pasie.",
+   "wrong": [
+    "Pod kątem 45° do ogólnego kierunku ruchu w tym pasie.",
+    "Kursem równoległym do strefy rozdziału, zgodnie z kierunkiem ruchu.",
+    "Pod dowolnym kątem, byle najkrótszą drogą w czasie."
+   ]
+  },
+  "L2-m-09": {
+   "correct": "Taka, by móc skutecznie uniknąć zderzenia i zatrzymać się na odległość odpowiednią do warunków.",
+   "wrong": [
+    "Prędkość nieprzekraczająca 5 węzłów w ograniczonej widzialności.",
+    "Największa prędkość, przy której statek zachowuje sterowność.",
+    "Prędkość równa prędkości innych statków na danym akwenie."
+   ]
+  },
+  "L2-m-10": {
+   "correct": "Tak – prawidło 2 pozwala na to, gdy jest to konieczne dla uniknięcia bezpośredniego niebezpieczeństwa.",
+   "wrong": [
+    "Nie – od prawideł MPZZ nie wolno odstąpić w żadnej sytuacji.",
+    "Tak, ale tylko za zgodą kapitanatu portu uzyskaną przez VHF.",
+    "Tak, ale wyłącznie statkom o napędzie mechanicznym."
+   ]
+  },
+  "L2-u-01": {
+   "correct": "A – płynie lewym halsem; przy różnych halsach ustępuje jacht na lewym halsie.",
+   "wrong": [
+    "B – płynie prawym halsem; przy różnych halsach ustępuje jacht na prawym halsie.",
+    "B – ma jacht A po swojej prawej burcie, więc ustępuje.",
+    "Oba jachty zmieniają kurs w prawo i mijają się lewymi burtami."
+   ]
+  },
+  "L2-u-02": {
+   "correct": "A – jest nawietrzny; przy tym samym halsie ustępuje statek nawietrzny.",
+   "wrong": [
+    "B – jest zawietrzny; przy tym samym halsie ustępuje statek zawietrzny.",
+    "B – ma drugi jacht po swojej prawej burcie, więc ustępuje.",
+    "Oba jachty zmieniają kurs w prawo i mijają się lewymi burtami."
+   ]
+  },
+  "L2-u-03": {
+   "correct": "A – statek wyprzedzający zawsze ustępuje, nawet żaglowiec wyprzedzający motorowy.",
+   "wrong": [
+    "B – statek motorowy zawsze ustępuje żaglowcowi.",
+    "B – statek wyprzedzany musi zejść z drogi wyprzedzającemu.",
+    "Ustępuje ten, który ma drugi statek po swojej prawej burcie."
+   ]
+  },
+  "L2-u-04": {
+   "correct": "Gdy zbliża się z kierunku większego niż 22,5° za trawersem drugiego statku.",
+   "wrong": [
+    "Gdy zbliża się z kierunku większego niż 45° za trawersem drugiego statku.",
+    "Gdy zbliża się z kierunku większego niż 22,5° przed trawersem drugiego statku.",
+    "Gdy widzi w nocy jego światło masztowe i oba światła burtowe."
+   ]
+  },
+  "L2-u-05": {
+   "correct": "Oba zmieniają kurs w prawo, by minąć się lewymi burtami.",
+   "wrong": [
+    "Oba zmieniają kurs w lewo, by minąć się prawymi burtami.",
+    "Ustępuje mniejszy statek, większy utrzymuje kurs i prędkość.",
+    "Oba zmieniają kurs w prawo, by minąć się prawymi burtami."
+   ]
+  },
+  "L2-u-06": {
+   "correct": "A (Ty) – masz statek B po swojej prawej burcie, więc ustępujesz.",
+   "wrong": [
+    "B – ma Cię po swojej lewej burcie, więc ustępuje.",
+    "B – statek motorowy zawsze ustępuje jachtowi, nawet płynącemu na silniku.",
+    "Oba zmieniają kurs w lewo i mijają się prawymi burtami."
+   ]
+  },
+  "L2-u-07": {
+   "correct": "A – statek o napędzie mechanicznym ustępuje żaglowcowi.",
+   "wrong": [
+    "B – żaglowiec ustępuje statkowi o napędzie mechanicznym.",
+    "B – mniejszy i zwrotniejszy jacht zawsze ustępuje.",
+    "Oba zmieniają kurs w prawo i mijają się lewymi burtami."
+   ]
+  },
+  "L2-u-08": {
+   "correct": "Jacht pod żaglami – żaglowiec ustępuje statkowi zajętemu połowem.",
+   "wrong": [
+    "Statek zajęty połowem – zawsze ustępuje żaglowcowi.",
+    "Statek zajęty połowem, jeśli jacht płynie prawym halsem.",
+    "Ustępuje ten, który ma drugi statek po swojej prawej burcie."
+   ]
+  },
+  "L2-u-09": {
+   "correct": "Mechaniczny → żaglowiec → zajęty połowem → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
+   "wrong": [
+    "Żaglowiec → mechaniczny → zajęty połowem → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
+    "Mechaniczny → zajęty połowem → żaglowiec → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
+    "Mechaniczny → żaglowiec → o ograniczonej zdolności manewrowej i niezdolny do manewrowania → zajęty połowem."
+   ]
+  },
+  "L2-u-10": {
+   "correct": "Utrzymujesz kurs i prędkość; manewrujesz, gdy ustępujący wyraźnie nie działa lub zderzenie jest bliskie.",
+   "wrong": [
+    "Od razu zmieniasz kurs w lewo, by ułatwić ustępującemu manewr.",
+    "Zmniejszasz prędkość i zatrzymujesz się do czasu minięcia się statków.",
+    "Utrzymujesz kurs i prędkość bez względu na okoliczności, nawet do zderzenia."
+   ]
+  },
+  "L2-u-11": {
+   "correct": "Ustępujesz mu drogi.",
+   "wrong": [
+    "Utrzymujesz kurs i prędkość – to on ustępuje.",
+    "Ustępuje on, bo jest nawietrzny.",
+    "Oba jachty zmieniają kurs w prawo."
+   ]
+  },
+  "L2-u-12": {
+   "correct": "Statkowi ograniczonemu swoim zanurzeniem, który pokazuje wymagane sygnały.",
+   "wrong": [
+    "Żaglowcowi o długości ponad 20 m, który pokazuje latarnię trójkolorową.",
+    "Statkowi na kotwicy, który pokazuje czarną kulę.",
+    "Jachtowi płynącemu jednocześnie pod żaglami i na silniku."
+   ]
+  },
+  "L2-s-01": {
+   "correct": "Statek o napędzie mechanicznym < 50 m widziany od dziobu – płynie prosto na Ciebie.",
+   "wrong": [
+    "Statek o napędzie mechanicznym ≥ 50 m widziany od rufy – oddala się od Ciebie.",
+    "Żaglowiec w drodze widziany od dziobu – płynie prosto na Ciebie.",
+    "Statek o napędzie mechanicznym < 50 m widziany z prawej burty – płynie w prawo."
+   ]
+  },
+  "L2-s-02": {
+   "correct": "Statek o napędzie mechanicznym ≥ 50 m widziany od dziobu – płynie prosto na Ciebie.",
+   "wrong": [
+    "Statek o napędzie mechanicznym ≥ 50 m widziany od rufy – oddala się od Ciebie.",
+    "Statek ≥ 50 m stojący na kotwicy, widziany od dziobu.",
+    "Żaglowiec ≥ 20 m z czerwonym nad zielonym na topie, widziany od dziobu."
+   ]
+  },
+  "L2-s-03": {
+   "correct": "Statek ≥ 50 m widziany z jego prawej burty; ustępuje on – ma Cię po swojej prawej burcie.",
+   "wrong": [
+    "Statek ≥ 50 m widziany z jego lewej burty; ustępujesz Ty – masz go po swojej prawej burcie.",
+    "Statek ≥ 50 m widziany z jego prawej burty; ustępujesz Ty – masz go po swojej prawej burcie.",
+    "Żaglowiec widziany z jego prawej burty; ustępujesz Ty – mechaniczny ustępuje żaglowcowi."
+   ]
+  },
+  "L2-s-04": {
+   "correct": "Statek < 50 m widziany z jego lewej burty; ustępujesz Ty – on jest po Twojej prawej burcie.",
+   "wrong": [
+    "Statek < 50 m widziany z jego prawej burty; ustępuje on – ma Cię po swojej prawej burcie.",
+    "Statek < 50 m widziany z jego lewej burty; ustępuje on – Ty jesteś po jego lewej burcie.",
+    "Żaglowiec widziany z jego lewej burty; ustępujesz Ty – mechaniczny ustępuje żaglowcowi."
+   ]
+  },
+  "L2-s-05": {
+   "correct": "Światło rufowe statku, statek < 50 m na kotwicy lub mała jednostka z białą latarką.",
+   "wrong": [
+    "Wyłącznie statek < 50 m stojący na kotwicy – nic innego.",
+    "Statek o napędzie mechanicznym < 50 m widziany od dziobu.",
+    "Żaglowiec w drodze widziany od dziobu lub z trawersu."
+   ]
+  },
+  "L2-s-06": {
+   "correct": "Żaglowiec w drodze widziany od dziobu – płynie na Ciebie.",
+   "wrong": [
+    "Żaglowiec w drodze widziany od rufy – oddala się od Ciebie.",
+    "Statek o napędzie mechanicznym < 50 m widziany od dziobu.",
+    "Statek na kotwicy widziany od dziobu."
+   ]
+  },
+  "L2-s-07": {
+   "correct": "Żaglowiec < 20 m z latarnią trójkolorową na topie masztu, widziany z prawej burty.",
+   "wrong": [
+    "Żaglowiec < 20 m z latarnią trójkolorową na topie masztu, widziany z lewej burty.",
+    "Statek o napędzie mechanicznym < 50 m widziany z prawej burty.",
+    "Żaglowiec ≥ 50 m z latarnią trójkolorową na topie masztu, widziany od rufy."
+   ]
+  },
+  "L2-s-08": {
+   "correct": "Żaglowiec w drodze widziany z lewej burty, z czerwonym nad zielonym na topie masztu.",
+   "wrong": [
+    "Żaglowiec w drodze widziany z prawej burty, z czerwonym nad zielonym na topie masztu.",
+    "Statek zajęty trałowaniem widziany z lewej burty.",
+    "Pilotówka na służbie widziana z lewej burty."
+   ]
+  },
+  "L2-s-09": {
+   "correct": "Statek ≥ 50 m stojący na kotwicy (widziany z prawej burty).",
+   "wrong": [
+    "Statek ≥ 50 m stojący na kotwicy (widziany z lewej burty).",
+    "Statek o napędzie mechanicznym ≥ 50 m w drodze, widziany od rufy.",
+    "Statek niezdolny do manewrowania (widziany z prawej burty)."
+   ]
+  },
+  "L2-s-10": {
+   "correct": "225° – od kierunku dziobu do 22,5° za trawers na każdą burtę.",
+   "wrong": [
+    "112,5° – od kierunku dziobu do 22,5° za trawers jednej burty.",
+    "135° – po 67,5° na każdą burtę od kierunku dziobu.",
+    "360° – światło widoczne dookoła widnokręgu."
+   ]
+  },
+  "L2-s-11": {
+   "correct": "112,5° – od kierunku dziobu do 22,5° za trawers danej burty.",
+   "wrong": [
+    "225° – od kierunku dziobu do 22,5° za trawers na każdą burtę.",
+    "135° – od kierunku dziobu do 45° za trawers danej burty.",
+    "90° – od kierunku dziobu do trawersu danej burty."
+   ]
+  },
+  "L2-s-12": {
+   "correct": "135° – po 67,5° na każdą burtę od kierunku rufy.",
+   "wrong": [
+    "112,5° – po 56,25° na każdą burtę od kierunku rufy.",
+    "225° – po 112,5° na każdą burtę od kierunku rufy.",
+    "180° – po 90° na każdą burtę od kierunku rufy."
+   ]
+  },
+  "L2-s-13": {
+   "correct": "Białe masztowe, burtowe (zielone i czerwone) oraz białe rufowe.",
+   "wrong": [
+    "Tylko burtowe (zielone i czerwone) oraz białe rufowe.",
+    "Białe masztowe, burtowe (zielone i czerwone) oraz żółte rufowe.",
+    "Białe masztowe, burtowe (czerwone na prawej, zielone na lewej) i białe rufowe."
+   ]
+  },
+  "L2-s-14": {
+   "correct": "Żaglowiec nie pokazuje światła masztowego – tylko burtowe i rufowe (lub trójkolorową < 20 m).",
+   "wrong": [
+    "Żaglowiec nie pokazuje świateł burtowych – tylko masztowe i rufowe.",
+    "Żaglowiec dodatkowo pokazuje żółte światło nad białym rufowym.",
+    "Żaglowiec pokazuje dwa białe światła masztowe zamiast jednego."
+   ]
+  },
+  "L2-s-15": {
+   "correct": "Nie – czerwone nad zielonym tylko z oddzielnymi światłami burtowymi i rufowym.",
+   "wrong": [
+    "Tak – jest to zalecane na jachtach poniżej 20 m długości.",
+    "Tak, ale tylko w warunkach ograniczonej widzialności.",
+    "Nie – czerwone nad zielonym pokazuje się tylko na kotwicy."
+   ]
+  },
+  "L2-s-16": {
+   "correct": "5 Mm (3 Mm, gdy statek < 20 m).",
+   "wrong": [
+    "3 Mm (2 Mm, gdy statek < 20 m).",
+    "6 Mm (5 Mm, gdy statek < 20 m).",
+    "2 Mm (1 Mm, gdy statek < 20 m)."
+   ]
+  },
+  "L2-s-17": {
+   "correct": "1 Mm.",
+   "wrong": [
+    "2 Mm.",
+    "3 Mm.",
+    "0,5 Mm."
+   ]
+  },
+  "L2-d-02": {
+   "correct": "Jacht idzie pod żaglami i na silniku – jest statkiem o napędzie mechanicznym.",
+   "wrong": [
+    "Jacht idzie pod żaglami i na silniku – nadal jest żaglowcem.",
+    "Jacht stoi na kotwicy, mimo postawionych żagli.",
+    "Jacht jest statkiem o ograniczonej zdolności manewrowej."
+   ]
+  },
+  "L2-d-03": {
+   "correct": "Czarny stożek wierzchołkiem w dół, na dziobie.",
+   "wrong": [
+    "Czarny stożek wierzchołkiem w górę, na dziobie.",
+    "Czarną kulę na dziobie.",
+    "Dwa czarne stożki wierzchołkami do siebie, na rufie."
+   ]
+  },
+  "L2-d-04": {
+   "correct": "Czarną kulę w przedniej części statku.",
+   "wrong": [
+    "Czarny stożek wierzchołkiem w dół w przedniej części statku.",
+    "Dwie czarne kule jedna nad drugą w przedniej części statku.",
+    "Czarny romb na rufie statku."
+   ]
+  },
+  "L2-ib-01": {
+   "correct": "Znak lewej strony toru wodnego – zostawić go po lewej burcie.",
+   "wrong": [
+    "Znak lewej strony toru wodnego – zostawić go po prawej burcie.",
+    "Znak prawej strony toru wodnego – zostawić go po prawej burcie.",
+    "Znak bezpiecznej wody – można go minąć dowolną burtą."
+   ]
+  },
+  "L2-ib-02": {
+   "correct": "Znak prawej strony toru wodnego – zostawić go po prawej burcie.",
+   "wrong": [
+    "Znak prawej strony toru wodnego – zostawić go po lewej burcie.",
+    "Znak lewej strony toru wodnego – zostawić go po lewej burcie.",
+    "Znak bezpiecznej wody – można go minąć dowolną burtą."
+   ]
+  },
+  "L2-ib-03": {
+   "correct": "Po prawej burcie – kierunek umowny jest od morza do portu, więc strony się odwracają.",
+   "wrong": [
+    "Po lewej burcie – czerwone pławy zawsze zostawia się po lewej.",
+    "Po lewej burcie – kierunek umowny oznakowania jest od portu do morza.",
+    "Dowolnie – przy wyjściu z portu oznakowanie boczne nie obowiązuje."
+   ]
+  },
+  "L2-ib-04": {
+   "correct": "Jeden czerwony walec (cylinder).",
+   "wrong": [
+    "Jeden zielony stożek wierzchołkiem w górę.",
+    "Jeden czerwony stożek wierzchołkiem w dół.",
+    "Dwie czerwone kule jedna nad drugą."
+   ]
+  },
+  "L2-ib-05": {
+   "correct": "Jeden zielony stożek wierzchołkiem w górę.",
+   "wrong": [
+    "Jeden czerwony walec (cylinder).",
+    "Jeden zielony stożek wierzchołkiem w dół.",
+    "Jeden zielony walec (cylinder)."
+   ]
+  },
+  "L2-ib-06": {
+   "correct": "Znak boczny lewej strony toru wodnego (np. Fl R 4s).",
+   "wrong": [
+    "Znak boczny prawej strony toru wodnego (np. Fl R 4s).",
+    "Znak kardynalny południowy (Q(6)+LFl).",
+    "Znak odosobnionego niebezpieczeństwa (Fl(2) R)."
+   ]
+  },
+  "L2-ib-07": {
+   "correct": "Odwrotnymi kolorami znaków bocznych – w regionie B prawa strona toru jest czerwona, lewa zielona.",
+   "wrong": [
+    "Odwrotnymi kolorami znaków kardynalnych – czarne i żółte pasy są zamienione.",
+    "Odwrotnym kierunkiem umownym – w regionie B liczy się go od portu do morza.",
+    "Kolorem świateł – w regionie B znaki boczne świecą światłem białym."
+   ]
+  },
+  "L2-ib-08": {
+   "correct": "W regionie A.",
+   "wrong": [
+    "W regionie B.",
+    "W regionie C.",
+    "Częściowo w regionie A, częściowo w B."
+   ]
+  },
+  "L2-ik-09": {
+   "correct": "Dwa czarne stożki wierzchołkami do siebie (▼▲).",
+   "wrong": [
+    "Dwa czarne stożki podstawami do siebie (▲▼).",
+    "Dwa czarne stożki wierzchołkami w górę (▲▲).",
+    "Dwa czarne stożki wierzchołkami w dół (▼▼)."
+   ]
+  },
+  "L2-ik-10": {
+   "correct": "Dwa czarne stożki podstawami do siebie (▲▼).",
+   "wrong": [
+    "Dwa czarne stożki wierzchołkami do siebie (▼▲).",
+    "Dwa czarne stożki wierzchołkami w górę (▲▲).",
+    "Dwa czarne stożki wierzchołkami w dół (▼▼)."
+   ]
+  },
+  "L2-ik-11": {
+   "correct": "Stożki wskazują czarne pasy: N – góra, S – dół, E – góra i dół, W – środek.",
+   "wrong": [
+    "Stożki wskazują czarne pasy: N – dół, S – góra, E – środek, W – góra i dół.",
+    "Stożki wskazują czarne pasy: N – góra, S – dół, E – środek, W – góra i dół.",
+    "Stożki wskazują czarne pasy: N – góra i dół, S – środek, E – góra, W – dół."
+   ]
+  },
+  "L2-ik-12": {
+   "correct": "Białe.",
+   "wrong": [
+    "Żółte.",
+    "Zielone.",
+    "Czerwone."
+   ]
+  },
+  "L2-ik-13": {
+   "correct": "Aby w nocy odróżnić grupę 6 błysków od grup 3 (E) i 9 (W).",
+   "wrong": [
+    "Aby odróżnić znak S od znaku bezpiecznej wody.",
+    "Aby zasygnalizować, że niebezpieczeństwo leży na południe od znaku.",
+    "Aby oznaczyć, że znaku nie ma jeszcze na mapach."
+   ]
+  },
+  "L2-ik-14": {
+   "correct": "Zostawić go po prawej burcie – przejść na zachód od znaku.",
+   "wrong": [
+    "Zostawić go po lewej burcie – przejść na wschód od znaku.",
+    "Zostawić go po lewej burcie – przejść na zachód od znaku.",
+    "Dowolną burtą – znak kardynalny można minąć z każdej strony."
+   ]
+  }
+ }
+}

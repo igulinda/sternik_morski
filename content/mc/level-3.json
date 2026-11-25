@@ -1,0 +1,437 @@
+{
+ "level": 3,
+ "items": {
+  "L3-l-15": {
+   "correct": "Burtowe i rufowe (bez masztowych); przy holu > 200 m w dzień romb.",
+   "wrong": [
+    "Masztowe, burtowe i rufowe; przy holu > 200 m w dzień dwa stożki.",
+    "Tylko jedno białe światło dookoła; przy holu > 200 m w dzień kula.",
+    "Dwa masztowe w pionie i rufowe; przy holu > 200 m w dzień walec."
+   ]
+  },
+  "L3-l-16": {
+   "correct": "Jedno białe światło widoczne dookoła zamiast masztowego i rufowego oraz burtowe.",
+   "wrong": [
+    "Jedno czerwone światło widoczne dookoła zamiast masztowego i rufowego oraz burtowe.",
+    "Dwa białe światła masztowe w pionie, bez świateł burtowych i rufowego.",
+    "Tylko światło rufowe i trójkolorowa latarnia na topie masztu."
+   ]
+  },
+  "L3-l-17": {
+   "correct": "Ma pod ręką latarkę lub latarnię z białym światłem i pokazuje ją w porę, by uniknąć zderzenia.",
+   "wrong": [
+    "Musi stale pokazywać czerwone światło dookoła widoczne z 2 Mm.",
+    "Ma pod ręką latarkę z zielonym światłem i pokazuje ją tylko po zmroku na kotwicy.",
+    "Nie musi mieć żadnego światła – wystarczy sygnał dźwiękowy co 2 min."
+   ]
+  },
+  "L3-l-18": {
+   "correct": "Tylko gdy ma ruch po wodzie.",
+   "wrong": [
+    "Zawsze, niezależnie od tego, czy ma ruch po wodzie.",
+    "Tylko gdy stoi na kotwicy.",
+    "Nigdy – rybak zajęty połowem nie pokazuje świateł burtowych."
+   ]
+  },
+  "L3-l-19": {
+   "correct": "2 czerwone w pionie po stronie przeszkody i 2 zielone w pionie po stronie bezpiecznej.",
+   "wrong": [
+    "2 zielone w pionie po stronie przeszkody i 2 czerwone w pionie po stronie bezpiecznej.",
+    "2 białe w pionie po stronie przeszkody i 2 zielone w pionie po stronie bezpiecznej.",
+    "1 czerwone po stronie przeszkody i 1 białe po stronie bezpiecznej."
+   ]
+  },
+  "L3-l-20": {
+   "correct": "Białym światłem dookoła (nocą) lub stożkiem wierzchołkiem w górę (w dzień) w stronę sieci.",
+   "wrong": [
+    "Czerwonym światłem dookoła (nocą) lub stożkiem wierzchołkiem w dół (w dzień) w stronę sieci.",
+    "Zielonym światłem dookoła (nocą) lub kulą (w dzień) w stronę sieci.",
+    "Białym światłem dookoła (nocą) lub walcem (w dzień) po stronie przeciwnej do sieci."
+   ]
+  },
+  "L3-d-07": {
+   "correct": "Statek zajęty połowem – kosz zastępuje dwa stożki na statku < 20 m.",
+   "wrong": [
+    "Statek na kotwicy – kosz zastępuje kulę na statku < 20 m.",
+    "Statek niezdolny do manewrowania – kosz zastępuje dwie kule.",
+    "Statek ograniczony zanurzeniem – kosz zastępuje walec."
+   ]
+  },
+  "L3-d-08": {
+   "correct": "Dwa czarne stożki wierzchołkami do siebie, jeden nad drugim.",
+   "wrong": [
+    "Dwa czarne stożki podstawami do siebie, jeden nad drugim.",
+    "Dwie czarne kule, jedna nad drugą.",
+    "Czarny stożek wierzchołkiem w dół."
+   ]
+  },
+  "L3-d-09": {
+   "correct": "Czarny walec (cylinder).",
+   "wrong": [
+    "Czarny romb.",
+    "Dwie czarne kule w pionie.",
+    "Czarny stożek wierzchołkiem w górę."
+   ]
+  },
+  "L3-d-10": {
+   "correct": "Kula – romb – kula w pionie.",
+   "wrong": [
+    "Romb – kula – romb w pionie.",
+    "Trzy kule w pionie.",
+    "Kula – walec – kula w pionie."
+   ]
+  },
+  "L3-d-11": {
+   "correct": "Sztywną repliką flagi A MKS (wysokość co najmniej 1 m).",
+   "wrong": [
+    "Sztywną repliką flagi B MKS (wysokość co najmniej 1 m).",
+    "Sztywną repliką flagi D MKS (wysokość co najmniej 0,5 m).",
+    "Czarną kulą na dziobie i flagą N MKS."
+   ]
+  },
+  "L3-s-01": {
+   "correct": "Zmieniam kurs w prawo.",
+   "wrong": [
+    "Zmieniam kurs w lewo.",
+    "Pracuję wstecz.",
+    "Zamierzam cię wyprzedzić."
+   ]
+  },
+  "L3-s-02": {
+   "correct": "Zmieniam kurs w lewo.",
+   "wrong": [
+    "Zmieniam kurs w prawo.",
+    "Pracuję wstecz.",
+    "Zatrzymuję maszyny."
+   ]
+  },
+  "L3-s-03": {
+   "correct": "Pracuję wstecz (maszyny pracują wstecz).",
+   "wrong": [
+    "Zmieniam kurs w prawo.",
+    "Zmieniam kurs w lewo.",
+    "Zbliżam się do zakrętu toru wodnego."
+   ]
+  },
+  "L3-s-04": {
+   "correct": "Nie rozumiem twoich zamiarów / wątpię, czy podejmujesz wystarczające działania.",
+   "wrong": [
+    "Zmieniam kurs w prawo i proszę o zgodę na wyprzedzanie.",
+    "Zgadzam się na wyprzedzanie mnie.",
+    "Jestem na mieliźnie i potrzebuję pomocy."
+   ]
+  },
+  "L3-s-05": {
+   "correct": "Zamierzam wyprzedzić cię po twojej prawej burcie.",
+   "wrong": [
+    "Zamierzam wyprzedzić cię po twojej lewej burcie.",
+    "Zgadzam się na wyprzedzanie.",
+    "Zmieniam kurs w prawo."
+   ]
+  },
+  "L3-s-06": {
+   "correct": "Zamierzam wyprzedzić cię po twojej lewej burcie.",
+   "wrong": [
+    "Zamierzam wyprzedzić cię po twojej prawej burcie.",
+    "Zmieniam kurs w lewo.",
+    "Nie rozumiem twoich zamiarów."
+   ]
+  },
+  "L3-s-07": {
+   "correct": "Zgoda statku wyprzedzanego na wyprzedzanie.",
+   "wrong": [
+    "Zamiar wyprzedzenia po lewej burcie.",
+    "Sprzeciw wobec wyprzedzania.",
+    "Zamiar wyprzedzenia po prawej burcie."
+   ]
+  },
+  "L3-s-08": {
+   "correct": "Zbliżam się do zakrętu lub miejsca, gdzie inne statki mogą być zasłonięte.",
+   "wrong": [
+    "Zmieniam kurs w prawo.",
+    "Jestem statkiem o napędzie mechanicznym mającym ruch po wodzie we mgle.",
+    "Zgadzam się na wyprzedzanie."
+   ]
+  },
+  "L3-s-09": {
+   "correct": "Statek o napędzie mechanicznym mający ruch po wodzie.",
+   "wrong": [
+    "Statek o napędzie mechanicznym w drodze, bez ruchu po wodzie.",
+    "Żaglowiec w drodze.",
+    "Statek na kotwicy."
+   ]
+  },
+  "L3-s-10": {
+   "correct": "Statek o napędzie mechanicznym w drodze, bez ruchu po wodzie.",
+   "wrong": [
+    "Statek o napędzie mechanicznym mający ruch po wodzie.",
+    "Statek holowany.",
+    "Statek na mieliźnie."
+   ]
+  },
+  "L3-s-11": {
+   "correct": "Żaglowiec, rybak, statek niezdolny do manewrowania, holujący lub pchający.",
+   "wrong": [
+    "Statek o napędzie mechanicznym mający ruch po wodzie.",
+    "Statek na kotwicy lub statek na mieliźnie.",
+    "Statek holowany (ostatni w zestawie, z załogą)."
+   ]
+  },
+  "L3-s-12": {
+   "correct": "Statek holowany (ostatni w zestawie, jeśli ma załogę).",
+   "wrong": [
+    "Statek holujący.",
+    "Pilotówka na służbie.",
+    "Statek na kotwicy."
+   ]
+  },
+  "L3-s-13": {
+   "correct": "Statek na kotwicy (≥ 100 m dodatkowo gong na rufie).",
+   "wrong": [
+    "Statek na mieliźnie (≥ 100 m dodatkowo gong na dziobie).",
+    "Statek niezdolny do manewrowania.",
+    "Statek holowany bez załogi."
+   ]
+  },
+  "L3-s-14": {
+   "correct": "Statek na mieliźnie.",
+   "wrong": [
+    "Statek na kotwicy o długości ≥ 100 m.",
+    "Statek zajęty połowem w dryfie.",
+    "Pilotówka na kotwicy."
+   ]
+  },
+  "L3-s-15": {
+   "correct": "1 długi dźwięk co ≤ 2 min.",
+   "wrong": [
+    "1 długi + 2 krótkie co ≤ 2 min.",
+    "2 długie dźwięki co ≤ 2 min.",
+    "1 krótki dźwięk co ≤ 1 min."
+   ]
+  },
+  "L3-s-16": {
+   "correct": "1 długi + 2 krótkie co ≤ 2 min.",
+   "wrong": [
+    "1 długi dźwięk co ≤ 2 min.",
+    "2 długie dźwięki co ≤ 2 min.",
+    "1 długi + 3 krótkie co ≤ 2 min."
+   ]
+  },
+  "L3-s-17": {
+   "correct": "Krótki – około 1 s, długi – 4 do 6 s.",
+   "wrong": [
+    "Krótki – około 2 s, długi – 8 do 10 s.",
+    "Krótki – około 0,5 s, długi – 2 do 3 s.",
+    "Krótki – około 1 s, długi – 10 do 12 s."
+   ]
+  },
+  "L3-s-18": {
+   "correct": "Zmniejszam prędkość do najmniejszej zachowującej sterowność, w razie potrzeby zatrzymuję się.",
+   "wrong": [
+    "Zwiększam prędkość, by jak najszybciej minąć drugi statek.",
+    "Utrzymuję kurs i prędkość, bo mam pierwszeństwo.",
+    "Zmieniam kurs w lewo, by zejść z drogi statkowi z przodu."
+   ]
+  },
+  "L3-s-19": {
+   "correct": "Nie – w ograniczonej widzialności nie ma podziału na ustępujące i uprzywilejowane.",
+   "wrong": [
+    "Tak – żaglowiec zawsze ma pierwszeństwo przed statkiem mechanicznym.",
+    "Tak, ale tylko gdy żaglowiec płynie lewym halsem.",
+    "Nie – to statek mechaniczny ma wtedy pierwszeństwo przed żaglowcem."
+   ]
+  },
+  "L3-s-20": {
+   "correct": "…sygnał rozpoznawczy: 4 krótkie dźwięki.",
+   "wrong": [
+    "…sygnał rozpoznawczy: 3 krótkie dźwięki.",
+    "…sygnał rozpoznawczy: 5 krótkich dźwięków.",
+    "…sygnał rozpoznawczy: 1 długi i 4 krótkie dźwięki."
+   ]
+  },
+  "L3-p-01": {
+   "correct": "Pomarańczowego.",
+   "wrong": [
+    "Czerwonego.",
+    "Białego.",
+    "Żółtego."
+   ]
+  },
+  "L3-p-02": {
+   "correct": "Czerwonego.",
+   "wrong": [
+    "Białego.",
+    "Zielonego.",
+    "Pomarańczowego."
+   ]
+  },
+  "L3-p-03": {
+   "correct": "Ciągły dźwięk dowolnego sygnalizatora mgłowego.",
+   "wrong": [
+    "5 krótkich dźwięków.",
+    "1 długi + 2 krótkie dźwięki.",
+    "3 krótkie dźwięki powtarzane co minutę."
+   ]
+  },
+  "L3-p-04": {
+   "correct": "Powolnym, wielokrotnym podnoszeniem i opuszczaniem rąk rozpostartych na boki.",
+   "wrong": [
+    "Szybkim machaniem jedną ręką nad głową.",
+    "Skrzyżowaniem rąk nad głową i trzymaniem ich nieruchomo.",
+    "Wskazywaniem obiema rękami kierunku dziobu."
+   ]
+  },
+  "L3-p-05": {
+   "correct": "··· ––– ··· (trzy krótkie, trzy długie, trzy krótkie).",
+   "wrong": [
+    "––– ··· ––– (trzy długie, trzy krótkie, trzy długie).",
+    "·· ––– ·· (dwa krótkie, trzy długie, dwa krótkie).",
+    "··· –– ··· (trzy krótkie, dwa długie, trzy krótkie)."
+   ]
+  },
+  "L3-p-06": {
+   "correct": "MAYDAY (powtórzone 3 razy).",
+   "wrong": [
+    "PAN-PAN (powtórzone 3 razy).",
+    "SECURITE (powtórzone 3 razy).",
+    "SEELONCE (powtórzone 3 razy)."
+   ]
+  },
+  "L3-p-07": {
+   "correct": "Nie – sygnałem niebezpieczeństwa są flagi NC; V to prośba o pomoc.",
+   "wrong": [
+    "Tak – flaga V jest sygnałem niebezpieczeństwa z Załącznika IV.",
+    "Nie – sygnałem niebezpieczeństwa jest flaga O; V to prośba o pomoc.",
+    "Tak, ale tylko gdy jest podniesiona razem z flagą W."
+   ]
+  },
+  "L3-p-08": {
+   "correct": "Kwadratowa flaga, nad którą lub pod którą jest kula albo coś podobnego.",
+   "wrong": [
+    "Trójkątna flaga, nad którą jest stożek wierzchołkiem w dół.",
+    "Dwie kule w pionie pod flagą A.",
+    "Flaga V podniesiona do połowy masztu."
+   ]
+  },
+  "L3-p-09": {
+   "correct": "Na kanale 70; rozmowa w niebezpieczeństwie – na kanale 16.",
+   "wrong": [
+    "Na kanale 16; rozmowa w niebezpieczeństwie – na kanale 70.",
+    "Na kanale 6; rozmowa w niebezpieczeństwie – na kanale 16.",
+    "Na kanale 72; rozmowa w niebezpieczeństwie – na kanale 13."
+   ]
+  },
+  "L3-p-10": {
+   "correct": "Nie – sygnałem pomocy są czerwone rakiety i pochodnie; białe służą np. do oświetlenia.",
+   "wrong": [
+    "Tak – każda rakieta, niezależnie od koloru, jest sygnałem pomocy.",
+    "Tak – biała rakieta jest sygnałem pomocy, a czerwona ostrzega przed kolizją.",
+    "Nie – sygnałem pomocy są tylko zielone rakiety."
+   ]
+  },
+  "L3-c-08": {
+   "correct": "Fl(3), sektory białe i czerwone, okres 10 s, wysokość 15 m, zasięg 12 Mm.",
+   "wrong": [
+    "Fl(3), sektory białe i czerwone, okres 15 s, wysokość 10 m, zasięg 12 Mm.",
+    "Fl(3), sektory białe i czerwone, okres 10 s, wysokość 12 m, zasięg 15 Mm.",
+    "Fl(3), sektory białe i zielone, okres 10 s, wysokość 15 m, zasięg 12 Mm."
+   ]
+  },
+  "L3-c-09": {
+   "correct": "Światło zmienne – zmienia kolor (np. Al.WR – na przemian białe i czerwone).",
+   "wrong": [
+    "Światło stałe – świeci ciągle jednym kolorem.",
+    "Światło przerywane – światło dłuższe niż ciemność.",
+    "Światło szybkobłyskowe – 50–60 błysków na minutę."
+   ]
+  },
+  "L3-c-10": {
+   "correct": "Fl – światło krótsze niż ciemność; Oc – światło dłuższe niż ciemność.",
+   "wrong": [
+    "Fl – światło dłuższe niż ciemność; Oc – światło krótsze niż ciemność.",
+    "Fl – światło równe ciemności; Oc – światło stałe.",
+    "Fl – światło zmienia kolor; Oc – światło równe ciemności."
+   ]
+  },
+  "L3-c-11": {
+   "correct": "Czas trwania pełnego cyklu charakterystyki, po którym rytm się powtarza.",
+   "wrong": [
+    "Czas trwania pojedynczego błysku światła.",
+    "Czas przerwy między dwoma błyskami w grupie.",
+    "Odległość, z której światło jest widoczne w nocy."
+   ]
+  },
+  "L3-c-12": {
+   "correct": "Wycinek horyzontu z określonym kolorem; biały zwykle wskazuje bezpieczny kierunek.",
+   "wrong": [
+    "Wycinek horyzontu z określonym kolorem; biały zwykle wskazuje niebezpieczeństwo.",
+    "Wycinek horyzontu, w którym światła nie widać; biały oznacza mieliznę.",
+    "Czas świecenia jednego koloru; biały zwykle oznacza kanał zamknięty."
+   ]
+  },
+  "L3-i-05": {
+   "correct": "Zmodyfikowany znak lewej strony – kanał preferowany w prawo; Fl(2+1) R.",
+   "wrong": [
+    "Zmodyfikowany znak prawej strony – kanał preferowany w lewo; Fl(2+1) G.",
+    "Zmodyfikowany znak lewej strony – kanał preferowany w lewo; Fl(2+1) G.",
+    "Znak odosobnionego niebezpieczeństwa – omijać z każdej strony; Fl(2) W."
+   ]
+  },
+  "L3-i-06": {
+   "correct": "Zmodyfikowany znak prawej strony – kanał preferowany w lewo; Fl(2+1) G.",
+   "wrong": [
+    "Zmodyfikowany znak lewej strony – kanał preferowany w prawo; Fl(2+1) R.",
+    "Zmodyfikowany znak prawej strony – kanał preferowany w prawo; Fl(2+1) R.",
+    "Znak kardynalny wschodni – bezpieczna woda na wschód; Q(3) W."
+   ]
+  },
+  "L3-i-07": {
+   "correct": "Białe, grupowo-błyskowe Fl(2).",
+   "wrong": [
+    "Białe, grupowo-błyskowe Fl(3).",
+    "Czerwone, grupowo-błyskowe Fl(2).",
+    "Żółte, błyskowe Fl."
+   ]
+  },
+  "L3-i-08": {
+   "correct": "Białe: Iso, Oc, LFl 10s albo Mo(A).",
+   "wrong": [
+    "Białe: Q(3), Q(6)+LFl lub Q(9).",
+    "Czerwone: Iso, Oc, LFl 10s albo Mo(A).",
+    "Białe: Fl(2) lub Fl(2+1)."
+   ]
+  },
+  "L3-i-09": {
+   "correct": "Żółte.",
+   "wrong": [
+    "Białe.",
+    "Niebieskie.",
+    "Zielone."
+   ]
+  },
+  "L3-i-10": {
+   "correct": "Odosobnione niebezpieczeństwo – 2 czarne kule; bezpieczna woda – 1 czerwona kula.",
+   "wrong": [
+    "Odosobnione niebezpieczeństwo – 1 czerwona kula; bezpieczna woda – 2 czarne kule.",
+    "Odosobnione niebezpieczeństwo – 2 czarne stożki; bezpieczna woda – żółty krzyż.",
+    "Odosobnione niebezpieczeństwo – 1 czarna kula; bezpieczna woda – 2 czerwone kule."
+   ]
+  },
+  "L3-i-11": {
+   "correct": "Znak odosobnionego niebezpieczeństwa.",
+   "wrong": [
+    "Znak bezpiecznej wody.",
+    "Znak kardynalny wschodni.",
+    "Znak specjalny."
+   ]
+  },
+  "L3-i-12": {
+   "correct": "Znak nowego niebezpieczeństwa (np. świeży wrak).",
+   "wrong": [
+    "Znak bezpiecznej wody.",
+    "Znak specjalny wyznaczający strefę ćwiczeń.",
+    "Znak odosobnionego niebezpieczeństwa."
+   ]
+  }
+ }
+}

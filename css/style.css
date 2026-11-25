@@ -178,3 +178,31 @@ form .btn { margin-top: 16px; }
   table { font-size: .84rem; }
   th, td { padding: 5px 6px; overflow-wrap: anywhere; hyphens: auto; }
 }
+
+/* egzaminy */
+.exam-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--muted); margin: 4px 0 6px; font-variant-numeric: tabular-nums; }
+.timer { font-weight: 700; color: var(--text); background: var(--surface-2); border-radius: 999px; padding: 3px 10px; }
+.timer.low { color: #fff; background: var(--bad); }
+.exam-q .q { font-size: 1.06rem; font-weight: 600; margin-bottom: 12px; }
+.exam-q .vis { margin-bottom: 12px; }
+.opts-list { display: flex; flex-direction: column; gap: 8px; }
+.opt { display: flex; align-items: flex-start; gap: 10px; width: 100%; text-align: left; min-height: 48px; padding: 10px 12px; border: 2px solid var(--border);
+  border-radius: 12px; background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.opt:hover { border-color: var(--primary); }
+.opt.sel { border-color: var(--primary); background: var(--surface-2); }
+.opt .ltr { flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--surface-2); color: var(--primary); }
+.opt.sel .ltr { background: var(--primary); color: var(--primary-ink); }
+.nav-row .btn { flex: 1 1 0; }
+.qgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); gap: 6px; }
+.qn { min-height: 40px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.qn.done { background: var(--primary); color: var(--primary-ink); border-color: var(--primary); }
+.qn.cur { outline: 3px solid var(--accent); }
+.stats.pass { border-color: var(--ok); } .stats.fail { border-color: var(--bad); }
+.lvl-score { display: flex; justify-content: space-between; gap: 10px; padding: 6px 0; font-variant-numeric: tabular-nums; }
+.lvl-score + .lvl-score { border-top: 1px solid var(--border); }
+.review .q { font-weight: 600; margin: 4px 0 8px; }
+.review .vis { max-width: 300px; margin: 0 0 8px; }
+.review .your { color: var(--bad); margin: 6px 0; } .review .right { color: var(--ok); font-weight: 600; margin: 6px 0; }
+.resume { border-color: var(--accent); }
+.nav-item input.ok { border-color: var(--ok); } .nav-item input.bad { border-color: var(--bad); }
+details summary { cursor: pointer; color: var(--primary); font-weight: 600; margin-top: 10px; }
