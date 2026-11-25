@@ -10,3 +10,4 @@ Aplikacja przeglądarkowa do nauki na egzamin teoretyczny na patent **jachtowego
 - [Etap 1 – zakres wiedzy na egzamin](docs/01-zakres-egzaminu-JSM.md)
 - [Etap 2 – struktura fiszek](docs/02-struktura-fiszek.md)
 - Etap 3 – poziom 3: pełne światła, znaki dzienne, sygnały dźwiękowe (z odtwarzaniem), sygnały wzywania pomocy, charakterystyki świateł, pozostałe znaki IALA
+- [Etap 3b – konta dla rodziny](docs/03-konta-rodziny.md)

@@ -151,3 +151,24 @@ th { background: var(--surface-2); }
 .sound-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .vis.snd { max-width: 420px; }
 .btn.play { min-height: 38px; padding: 6px 14px; font-size: .92rem; }
+
+/* logowanie, konto, historia */
+.login { max-width: 420px; margin: 24px auto; }
+form label { display: block; font-weight: 600; margin: 12px 0 4px; }
+form input { width: 100%; min-height: 44px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; }
+form input:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+form .btn { margin-top: 16px; }
+.err { color: var(--bad); font-weight: 600; margin: 10px 0 0; }
+.okmsg { color: var(--ok); font-weight: 600; margin: 10px 0 0; }
+.topnav { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 4px 14px; }
+.topnav a { margin-left: 0; }
+.topnav .who { color: #ffc43d; white-space: nowrap; }
+@media (max-width: 480px) { .topbar { flex-wrap: wrap; gap: 6px; } .topnav { gap: 4px 12px; font-size: .92rem; } }
+.hist-level + .hist-level { margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--border); }
+.hist-list { padding: 0; }
+.hist-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; }
+.hist-row + .hist-row { border-top: 1px solid var(--border); }
+.hist-main { min-width: 0; }
+.hist-score { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hist-score small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
+.g-ok { color: var(--ok); } .g-mid { color: var(--mid); } .g-bad { color: var(--bad); }
