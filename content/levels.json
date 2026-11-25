@@ -39,7 +39,8 @@
   {
    "level": 7,
    "title": "Jacht, silnik, planowanie rejsu, przepisy",
-   "desc": "Instalacje, diesel, dokumenty, obowiązki kapitana, planowanie rejsu"
+   "desc": "Instalacje, diesel, dokumenty, obowiązki kapitana, planowanie rejsu",
+   "file": "content/level-7.json"
   },
   {
    "level": 8,

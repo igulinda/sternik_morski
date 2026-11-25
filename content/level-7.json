@@ -1,0 +1,648 @@
+{
+ "level": 7,
+ "title": "Jacht, silnik, planowanie rejsu, przepisy",
+ "lessons": [
+  {
+   "id": "L7-jacht",
+   "title": "Budowa jachtu i instalacje",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Typy ożaglowania**: **slup** (1 maszt, grot + fok), **kuter** (1 maszt, 2 żagle przednie), **kecz** (2 maszty, tylny – bezanmaszt – przed osią steru), **jol** (2 maszty, bezanmaszt za osią steru), **szkuner** (2+ maszty, przedni niższy lub równy).",
+      "**Takielunek stały** (olinowanie stałe) podtrzymuje maszt: **wanty** (na boki), **sztag** (do dziobu), **achtersztag** (do rufy). **Takielunek ruchomy** – liny do obsługi żagli: **fały** (podnoszenie), **szoty** (ustawianie), refliny, topenanta, obciągacz bomu.",
+      "**Kil balastowy** obniża środek ciężkości i daje opór boczny; **miecz** – podnoszony płat (jachty mieczowe).",
+      "**Zawory denne** (kingstony) – na każdym otworze w kadłubie poniżej linii wodnej; przy opuszczaniu jachtu i w sztormie – zamknięte (poza niezbędnymi). Przy każdym – przywiązany drewniany czop."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Instalacja",
+      "Najważniejsze zasady"
+     ],
+     "rows": [
+      [
+       "słodkiej wody",
+       "zbiorniki, pompa (elektryczna/nożna); oszczędzaj wodę w rejsie"
+      ],
+      [
+       "zęzowa",
+       "pompa ręczna (działa bez prądu!) i elektryczna; sprawdzaj zęzę co wachtę"
+      ],
+      [
+       "sanitarna (WC)",
+       "zawory denne zamknięte po użyciu; zbiornik fekaliów – opróżnianie w porcie (stacja odbioru) lub daleko od brzegu zgodnie z przepisami"
+      ],
+      [
+       "gazowa",
+       "butla w zamkniętej skrzynce z odpływem za burtę; zawór przy butli zamykany po każdym użyciu; czujnik gazu"
+      ],
+      [
+       "elektryczna 12 V",
+       "akumulator rozruchowy i hotelowy (serwisowy), przełącznik akumulatorów, ładowanie z alternatora / z lądu 230 V (z wyłącznikiem różnicowoprądowym)"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Ocena stanu technicznego przed rejsem** (przejęcie jachtu): kadłub i zawory denne, takielunek (wanty, zawleczki, ściągacze, saling), żagle i liny, ster, silnik (olej, płyn, pasek, impeller, paliwo), instalacja gazowa i elektryczna, pompy, środki ratunkowe i ich atesty, gaśnice, pirotechnika, pomoce nawigacyjne, dokumenty."
+    },
+    {
+     "t": "tip",
+     "text": "Kecz czy jol? Patrz, gdzie stoi tylny maszt: PRZED sterem – kecz, ZA sterem – jol."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-j-01",
+     "q": "Czym jest slup?",
+     "a": "Jachtem jednomasztowym z jednym żaglem przednim (fokiem / genuą) i grotem.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-02",
+     "q": "Czym różni się kecz od jola?",
+     "a": "Oba mają dwa maszty. W keczu tylny maszt (bezanmaszt) stoi przed osią steru, w jolu – za osią steru (i jest mniejszy).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-j-03",
+     "q": "Co to jest kuter (ożaglowanie)?",
+     "a": "Jacht jednomasztowy z dwoma żaglami przednimi (np. kliwer i fok/sztaksel).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-j-04",
+     "q": "Co należy do takielunku stałego?",
+     "a": "Olinowanie podtrzymujące maszt: wanty, sztag, achtersztag (oraz salingi, ściągacze).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-05",
+     "q": "Co należy do takielunku ruchomego?",
+     "a": "Liny do obsługi żagli i omasztowania: fały, szoty, refliny, topenanta, obciągacz bomu itp.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-06",
+     "q": "Do czego służy fał, a do czego szot?",
+     "a": "Fałem podnosi się żagiel, szotem ustawia się go względem wiatru.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-07",
+     "q": "Jaką rolę pełni kil balastowy?",
+     "a": "Obniża środek ciężkości (daje moment prostujący) i stawia opór boczny (zmniejsza dryf).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-08",
+     "q": "Kiedy zamyka się zawory denne?",
+     "a": "Gdy instalacja nie jest używana (np. WC po użyciu), przy opuszczaniu jachtu, w sztormie i przy przecieku – otwarte zostają tylko niezbędne (np. chłodzenie pracującego silnika).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-j-09",
+     "q": "Gdzie powinna być przechowywana butla gazowa na jachcie?",
+     "a": "W zamkniętej skrzynce (szafce) z odpływem za burtę, powyżej linii wodnej – ulatniający się gaz nie dostanie się do wnętrza jachtu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-j-10",
+     "q": "Dlaczego na jachcie są zwykle dwa akumulatory?",
+     "a": "Rozruchowy – tylko do uruchamiania silnika; hotelowy (serwisowy) – do odbiorników. Dzięki temu rozładowanie odbiorników nie uniemożliwi uruchomienia silnika.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-j-11",
+     "q": "Czym ładuje się akumulatory na jachcie?",
+     "a": "Alternatorem silnika, ładowarką z prądu z lądu (230 V), panelami słonecznymi lub generatorem wiatrowym.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-12",
+     "q": "Dlaczego na jachcie musi być ręczna pompa zęzowa?",
+     "a": "Bo działa bez prądu – przy awarii instalacji elektrycznej lub zalaniu akumulatorów.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-j-13",
+     "q": "Co sprawdzasz w takielunku przy przejmowaniu jachtu?",
+     "a": "Wanty i sztagi (pęknięte druty), ściągacze i ich zabezpieczenia (zawleczki), salingi, mocowania do kadłuba, stan masztu i bomu.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-silnik",
+   "title": "Silnik jachtowy – obsługa i usterki",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Na jachtach morskich najczęściej pracuje **silnik wysokoprężny (diesel)** – paliwo zapala się od sprężonego, gorącego powietrza (samozapłon). Na zimno pomagają **świece żarowe**."
+    },
+    {
+     "t": "p",
+     "text": "**Przed uruchomieniem**: poziom oleju (bagnet), płyn chłodzący (obieg zamknięty), paliwo, **otwarty zawór wody zaburtowej**, pasek klinowy, sucha zęza w komorze silnika, bieg na luzie."
+    },
+    {
+     "t": "p",
+     "text": "**Po uruchomieniu**: sprawdź, czy z wydechu **wypływa woda chłodząca**, i czy zgasły kontrolki ciśnienia oleju i ładowania."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Chłodzenie**: obieg otwarty (woda zaburtowa chłodzi silnik) lub zamknięty (płyn chłodzący + wymiennik ciepła chłodzony wodą zaburtową). Wodę zaburtową tłoczy pompa z **gumowym wirnikiem (impellerem)** – nie może pracować na sucho.",
+      "**Przegrzanie / brak wody z wydechu**: zatrzymaj silnik; sprawdź zawór denny, filtr wody zaburtowej (zatkany wodorostami/folią), impeller, pasek, poziom płynu.",
+      "**Układ paliwowy**: zbiornik → **filtr wstępny z odstojnikiem wody** → pompa zasilająca → **filtr dokładny** → pompa wtryskowa → wtryskiwacze. Woda i brud w paliwie to najczęstsza przyczyna awarii.",
+      "**Odpowietrzanie** – gdy do układu dostanie się powietrze (np. po skończeniu paliwa lub wymianie filtra), silnik gaśnie lub nie zapala. Odkręca się kolejno **śruby odpowietrzające od filtra w stronę pompy wtryskowej**, pompując ręczną pompką, aż popłynie paliwo bez pęcherzyków.",
+      "**Kolor spalin**: **czarny** – niepełne spalanie (przeciążenie, zatkany filtr powietrza, owinięta śruba); **niebieski** – spalanie oleju; **biały** – woda lub para (na zimno normalne, stale – problem z chłodzeniem/wodą w paliwie).",
+      "**Silnik przyczepny** (zwykle benzynowy): 2-suw – paliwo z olejem w proporcji producenta; kontrolny strumień wody chłodzącej („siusiak”); **linka zabezpieczająca** (kill cord) gasi silnik; przed uruchomieniem odkręć odpowietrznik zbiornika i otwórz kranik.",
+      "**Benzyna** – jej opary są cięższe od powietrza i wybuchowe: tankuj przy wyłączonym silniku, bez ognia, wietrz komory."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Pierwsze, co robisz po uruchomieniu diesla: patrzysz, czy z wydechu leci woda. Nie leci? Natychmiast stop – impeller pracuje na sucho."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-s-01",
+     "q": "Co sprawdzasz przed uruchomieniem silnika diesla?",
+     "a": "Olej (bagnet), płyn chłodzący, paliwo, otwarty zawór wody zaburtowej, pasek klinowy, zęzę w komorze silnika, bieg na luzie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-02",
+     "q": "Co sprawdzasz zaraz po uruchomieniu silnika?",
+     "a": "Czy z wydechu wypływa woda chłodząca oraz czy zgasły kontrolki ciśnienia oleju i ładowania.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-03",
+     "q": "Z wydechu nie wypływa woda chłodząca. Co robisz?",
+     "a": "Wyłączasz silnik i sprawdzasz: zawór denny wody zaburtowej, filtr wody zaburtowej, impeller pompy, pasek klinowy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-04",
+     "q": "Co to jest impeller i dlaczego nie może pracować na sucho?",
+     "a": "Gumowy wirnik pompy wody zaburtowej. Bez wody szybko się przegrzewa i niszczy (pękają łopatki).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-05",
+     "q": "Na czym polega zapłon w silniku wysokoprężnym?",
+     "a": "Na samozapłonie – paliwo wtryśnięte do sprężonego, gorącego powietrza zapala się samo (bez świecy zapłonowej).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-06",
+     "q": "Do czego służą świece żarowe w dieslu?",
+     "a": "Podgrzewają komorę spalania przed uruchomieniem zimnego silnika.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-07",
+     "q": "Kiedy trzeba odpowietrzyć układ paliwowy diesla?",
+     "a": "Gdy dostało się do niego powietrze – po zużyciu całego paliwa, wymianie filtra, rozszczelnieniu przewodów (silnik gaśnie lub nie zapala).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-08",
+     "q": "Jak odpowietrza się układ paliwowy?",
+     "a": "Kolejno odkręca się śruby odpowietrzające od filtrów w stronę pompy wtryskowej i pompuje ręczną pompką, aż wypływa paliwo bez pęcherzyków powietrza; potem dokręca.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-09",
+     "q": "Do czego służy filtr wstępny z odstojnikiem?",
+     "a": "Zatrzymuje wodę i większe zanieczyszczenia z paliwa; wodę z odstojnika spuszcza się regularnie.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-10",
+     "q": "Co oznacza czarny dym z wydechu diesla?",
+     "a": "Niepełne spalanie – przeciążenie silnika (np. owinięta śruba, porośnięty kadłub), zatkany filtr powietrza, zły wtrysk.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-11",
+     "q": "Co oznacza niebieski dym z wydechu?",
+     "a": "Spalanie oleju silnikowego (zużyte pierścienie, nadmiar oleju).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-12",
+     "q": "Silnik się przegrzewa. Jakie są najczęstsze przyczyny?",
+     "a": "Zatkany filtr wody zaburtowej lub wlot (wodorosty, folia), uszkodzony impeller, zamknięty zawór denny, zerwany pasek, brak płynu w obiegu zamkniętym.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-13",
+     "q": "Do czego służy linka zabezpieczająca (kill cord) silnika przyczepnego?",
+     "a": "Przypięta do sternika gasi silnik, gdy wypadnie on za burtę lub odejdzie od steru.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-14",
+     "q": "Jak sprawdzić, czy silnik przyczepny jest chłodzony?",
+     "a": "Z otworu kontrolnego powinien wypływać strumień wody.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-s-15",
+     "q": "Co trzeba zrobić przed uruchomieniem silnika przyczepnego z osobnym zbiornikiem?",
+     "a": "Odkręcić odpowietrznik w korku zbiornika, podłączyć przewód i napompować paliwo gruszką, otworzyć kranik, ustawić ssanie (na zimno), bieg na luz, przypiąć kill cord.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-s-16",
+     "q": "Dlaczego opary benzyny są szczególnie niebezpieczne na jachcie?",
+     "a": "Są cięższe od powietrza – gromadzą się w zęzie i komorach i mogą wybuchnąć od iskry. Trzeba wietrzyć przed uruchomieniem silnika.",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L7-teoria",
+   "title": "Teoria żeglowania: stateczność, opór, równowaga żaglowa",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Pływalność** – jacht wypiera tyle wody, ile sam waży (prawo Archimedesa). Masa jachtu = **wyporność**.",
+      "**Stateczność** – zdolność powrotu do pozycji pionowej po przechyle. Decyduje o niej położenie **środka ciężkości (G)** i **środka wyporu (B)**, który przy przechyle przesuwa się w stronę zanurzanej burty, tworząc **moment prostujący**.",
+      "**Stateczność ciężaru** – nisko położony balast (jachty balastowe); **stateczność kształtu** – szeroki kadłub (np. katamaran, płaskie łodzie). Ciężary wysoko (na maszcie, na pokładzie) **zmniejszają** stateczność.",
+      "**Opór kadłuba**: tarcia (porośnięty kadłub!), falowy (rośnie gwałtownie przy prędkości granicznej), kształtu.",
+      "**Prędkość graniczna** jachtu wypornościowego ≈ **2,43 × √LWL** (w węzłach, LWL w metrach). Powyżej niej jacht „wpada we własną falę”.",
+      "**Siła aerodynamiczna** na żaglu rozkłada się na **siłę napędową** (do przodu) i **siłę przechylającą / dryfującą** (na bok) – tę drugą równoważy kil.",
+      "**Równowaga żaglowa**: jeśli **środek ożaglowania (CE)** leży za **środkiem oporu bocznego (CLR)**, jacht **ostrzy** (jest nawietrzny); jeśli przed – **odpada** (zawietrzny). Lekka nawietrzność jest pożądana (bezpieczeństwo: puszczony ster – jacht staje w łopocie).",
+      "Korekta: za duża nawietrzność → **zarefuj grot** / wyluzuj grot, przesuń środek ożaglowania do przodu, zmniejsz przechył; zawietrzność → zmniejsz żagiel przedni.",
+      "**Dobór żagli**: przy wzroście wiatru – refuj grot i zmień fok na mniejszy, zanim jacht nadmiernie się przechyli; zbyt duży przechył zwiększa dryf i nawietrzność, a nie prędkość."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Jacht mocno ostrzy i trudno go utrzymać na kursie? Najczęściej za dużo grota i za duży przechył – czas na ref."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-t-01",
+     "q": "Co to jest wyporność jachtu?",
+     "a": "Masa wody wypartej przez kadłub – równa masie całego jachtu (prawo Archimedesa).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-t-02",
+     "q": "Od czego zależy stateczność jachtu?",
+     "a": "Od wzajemnego położenia środka ciężkości i środka wyporu – nisko położony balast i szeroki kadłub zwiększają stateczność, ciężary wysoko ją zmniejszają.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-t-03",
+     "q": "Czym różni się stateczność ciężaru od stateczności kształtu?",
+     "a": "Stateczność ciężaru wynika z nisko położonego balastu (kil), stateczność kształtu – z szerokości kadłuba (np. katamarany, łodzie płaskodenne).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-04",
+     "q": "Jak ciężary umieszczone wysoko wpływają na stateczność?",
+     "a": "Zmniejszają ją – podnoszą środek ciężkości.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-t-05",
+     "q": "Jakie opory działają na kadłub w ruchu?",
+     "a": "Opór tarcia (rośnie przy porośniętym kadłubie), falowy (gwałtownie rośnie przy prędkości granicznej) i kształtu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-06",
+     "q": "Jakim wzorem oblicza się przybliżoną prędkość graniczną jachtu wypornościowego?",
+     "a": "v ≈ 2,43 × √LWL (v w węzłach, LWL – długość linii wodnej w metrach).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-07",
+     "q": "Na jakie składowe rozkłada się siła aerodynamiczna na żaglu?",
+     "a": "Na siłę napędową (do przodu) i siłę przechylającą / dryfującą (na bok).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-t-08",
+     "q": "Kiedy jacht jest nawietrzny (ostrzy)?",
+     "a": "Gdy środek ożaglowania leży za środkiem oporu bocznego.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-09",
+     "q": "Dlaczego lekka nawietrzność jest pożądana?",
+     "a": "Bo puszczony ster powoduje, że jacht sam ostrzy i staje w łopocie (bezpieczniej), a ster daje „czucie”.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-10",
+     "q": "Jacht za mocno ostrzy. Jak to skorygować?",
+     "a": "Zarefować lub wyluzować grot, zmniejszyć przechył, przesunąć środek ożaglowania do przodu (np. większy fok względem grota).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-t-11",
+     "q": "Jacht odpada (jest zawietrzny). Co zmienić?",
+     "a": "Zmniejszyć żagiel przedni lub zwiększyć/wybrać grot – przesunąć środek ożaglowania do tyłu.",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-t-12",
+     "q": "Czy większy przechył zwiększa prędkość jachtu?",
+     "a": "Nie – zbyt duży przechył zwiększa dryf, opór i nawietrzność. Przy wzroście wiatru trzeba zmniejszyć żagle.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-g-predkosc-graniczna-1",
+     "gen": "predkosc-graniczna",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-g-predkosc-graniczna-2",
+     "gen": "predkosc-graniczna",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-planowanie",
+   "title": "Planowanie rejsu",
+   "theory": [
+    {
+     "t": "ol",
+     "items": [
+      "**Trasa**: mapy i locja, porty docelowe i **porty schronienia** po drodze, odległości, punkty zwrotne (waypointy), niebezpieczeństwa (mielizny, TSS, poligony, farmy wiatrowe, obszary zamknięte).",
+      "**Czas**: odległość / realna średnia prędkość (jacht turystyczny ok. 4–6 w) + zapas; **wejście do portu najlepiej za dnia**; godziny pracy portu i mostów, pływy i prądy.",
+      "**Pogoda**: prognozy na cały okres rejsu (i trend), ostrzeżenia; kryteria rezygnacji lub zmiany planu.",
+      "**Ograniczenia portów**: głębokości vs zanurzenie, sygnały portowe, zakaz wejścia przy silnym wietrze od morza, kanał VHF, procedury zgłoszeń, odprawa graniczna (poza strefą Schengen).",
+      "**Jacht**: stan techniczny, paliwo (z zapasem), woda, prowiant, gaz, części zamienne, aktualne mapy i publikacje, sprawne środki ratunkowe.",
+      "**Załoga**: kompetencje, podział wacht i obowiązków, instruktaż bezpieczeństwa, odzież, leki (choroba morska), lista załogi."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Dobry plan ma plan B: gdzie się schronisz, jeśli pogoda się pogorszy lub coś się zepsuje?"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-p-01",
+     "q": "Wymień główne elementy planowania rejsu.",
+     "a": "Trasa i porty schronienia, odległości i czas, prognoza pogody, ograniczenia portów i akwenu, przygotowanie jachtu (paliwo, woda, prowiant, sprawność) i załogi (wachty, instruktaż).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p-02",
+     "q": "Co to jest port schronienia i dlaczego planuje się go zawczasu?",
+     "a": "Port lub osłonięte miejsce po drodze, do którego można wejść przy pogorszeniu pogody lub awarii – jego dostępność (głębokość, wejście przy danym wietrze) trzeba sprawdzić przed rejsem.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p-03",
+     "q": "Dlaczego planuje się wejście do nieznanego portu za dnia?",
+     "a": "Łatwiej rozpoznać oznakowanie, wejście i przeszkody; w nocy ryzyko pomyłki jest znacznie większe.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p-04",
+     "q": "Jakie ograniczenia wyjścia i wejścia do portu sprawdzasz?",
+     "a": "Głębokości vs zanurzenie (i pływ), godziny pracy portu/mostów, sygnały portowe, zakazy wejścia przy silnym wietrze, ruch statków, procedury zgłoszeń (VHF), odprawę graniczną.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p-05",
+     "q": "Jakie zagrożenia nawigacyjne zaznaczasz przy planowaniu trasy?",
+     "a": "Mielizny i wraki, systemy rozgraniczenia ruchu (TSS), poligony i obszary zamknięte, farmy wiatrowe, tory wodne i duży ruch statków, miejsca z silnym prądem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p-06",
+     "q": "Jak planujesz wachty na rejsie wielodniowym?",
+     "a": "Dzielisz załogę na wachty (np. 4-godzinne), tak by każdy mógł odpocząć, a na pokładzie zawsze była osoba odpowiedzialna za nawigację i obserwację; uwzględniasz kompetencje.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p-07",
+     "q": "Jaką średnią prędkość warto przyjąć do planowania rejsu turystycznym jachtem żaglowym?",
+     "a": "Realnie ok. 4–6 węzłów (zależnie od jachtu i wiatru), z zapasem czasu na zmienne warunki.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-g-eta-1",
+     "gen": "eta",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-g-eta-2",
+     "gen": "eta",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-g-eta-3",
+     "gen": "eta",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-przepisy",
+   "title": "Dokumenty, obowiązki kapitana, etykieta",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Patent jachtowego sternika morskiego** uprawnia do prowadzenia jachtów żaglowych po wodach śródlądowych (bez ograniczeń) i po wodach morskich – o długości kadłuba **do 18 m** (oraz jachtów motorowych w zakresie motorowodnego sternika morskiego).",
+      "**Dokumenty na pokładzie** (zwykle): dokument rejestracyjny jachtu, dokumenty uprawnień prowadzącego, pozwolenie radiowe i świadectwo operatora (SRC), polisa ubezpieczeniowa (OC), lista załogi, dokumenty tożsamości, **dziennik jachtowy**.",
+      "**Kapitan (prowadzący)** odpowiada za bezpieczeństwo jachtu i ludzi, przestrzeganie przepisów, prowadzenie dziennika; ma obowiązek **udzielić pomocy** ludziom w niebezpieczeństwie i stosować **dobrą praktykę morską**.",
+      "**Po wypadku lub awarii**: udziel pomocy, zabezpiecz ludzi i jacht, zapisz zdarzenie w dzienniku jachtowym (czas, pozycja, warunki, przebieg), **zgłoś wypadek** właściwym organom (kapitanat portu / administracja morska) i ubezpieczycielowi.",
+      "**Holowanie a ratownictwo**: holowanie to usługa na podstawie umowy (np. awaria silnika przy dobrej pogodzie); **ratownictwo** dotyczy jednostki w niebezpieczeństwie – za skuteczne uratowanie mienia należy się **wynagrodzenie ratownicze** (zasada „no cure – no pay”). Warto ustalić warunki przed przyjęciem liny.",
+      "**Ubezpieczenia**: OC (szkody wyrządzone innym), casco (szkody jachtu), NNW (załoga)."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Etykieta jachtowa (dobra praktyka)**:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Bandera** (flaga państwowa) – na rufie (flagsztok) lub na achtersztagu; w porcie podnoszona rano (zwykle o 08:00), opuszczana o zachodzie słońca.",
+      "**Flaga grzecznościowa** kraju odwiedzanego – pod **prawą salingową**, nie większa niż bandera.",
+      "**Flaga Q** – przy wejściu do portu kraju, gdzie wymagana jest odprawa (np. spoza UE), do czasu odprawy.",
+      "**Salut** – okrętom wojennym oddaje się honor przez opuszczenie bandery do połowy (okręt odpowiada, potem banderę podnosi się z powrotem).",
+      "W marinie: przez cudzy jacht przechodzi się **przez pokład dziobowy**, nie przez kokpit; prosi się o zgodę; nie hałasuje nocą."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Bandera na rufie, flaga grzecznościowa pod PRAWĄ salingową – „gość po prawej stronie”."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-r-01",
+     "q": "Jakimi jachtami może dowodzić jachtowy sternik morski na morzu?",
+     "a": "Jachtami żaglowymi o długości kadłuba do 18 m (po wodach śródlądowych – bez ograniczeń); jachtami motorowymi w zakresie motorowodnego sternika morskiego.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-02",
+     "q": "Jakie warunki trzeba spełnić, aby uzyskać patent JSM?",
+     "a": "Ukończone 18 lat, co najmniej 2 rejsy po wodach morskich w łącznym czasie min. 200 godzin żeglugi oraz zdany egzamin.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-03",
+     "q": "Jakie dokumenty powinny być na pokładzie jachtu w rejsie morskim?",
+     "a": "Dokument rejestracyjny jachtu, uprawnienia prowadzącego, pozwolenie radiowe i świadectwa SRC, ubezpieczenie (OC), lista załogi, dokumenty tożsamości, dziennik jachtowy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-04",
+     "q": "Co zapisuje się w dzienniku jachtowym?",
+     "a": "Czas, pozycję, kurs i prędkość, warunki pogodowe, zdarzenia (manewry, zmiany żagli, wachty, awarie, wypadki), wejścia i wyjścia z portów.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-05",
+     "q": "Jakie są podstawowe obowiązki kapitana jachtu?",
+     "a": "Odpowiedzialność za bezpieczeństwo jachtu i załogi, przestrzeganie przepisów, prowadzenie dziennika, udzielanie pomocy w niebezpieczeństwie, stosowanie dobrej praktyki morskiej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-06",
+     "q": "Co robisz po wypadku morskim (np. kolizji)?",
+     "a": "Udzielam pomocy, zabezpieczam ludzi i jacht, zapisuję zdarzenie w dzienniku, zgłaszam wypadek właściwym organom (kapitanat / administracja morska) i ubezpieczycielowi.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-r-07",
+     "q": "Czym różni się holowanie od ratownictwa morskiego?",
+     "a": "Holowanie to usługa na podstawie umowy (jednostka nie jest w niebezpieczeństwie). Ratownictwo dotyczy jednostki w niebezpieczeństwie – ratującemu należy się wynagrodzenie ratownicze, zwykle wg zasady „no cure – no pay”.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-r-08",
+     "q": "Co oznacza zasada „no cure – no pay”?",
+     "a": "Wynagrodzenie ratownicze należy się tylko za skuteczne uratowanie (mienia).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-r-09",
+     "q": "Czym różni się ubezpieczenie OC od casco?",
+     "a": "OC pokrywa szkody wyrządzone innym, casco – szkody własnego jachtu.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-10",
+     "q": "Gdzie podnosi się flagę grzecznościową kraju odwiedzanego?",
+     "a": "Pod prawą salingową (prawym salingiem).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-11",
+     "q": "Gdzie podnosi się banderę na jachcie?",
+     "a": "Na rufie – na flagsztoku (lub na achtersztagu).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-r-12",
+     "q": "Jak jacht oddaje honor okrętowi wojennemu?",
+     "a": "Opuszcza banderę do połowy, czeka na odpowiedź okrętu i podnosi ją z powrotem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-r-13",
+     "q": "Jak przechodzi się przez cudzy jacht w marinie?",
+     "a": "Za zgodą załogi, przez pokład dziobowy – nie przez kokpit.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-srodladowe",
+   "title": "Prawo drogi na śródlądowych drogach wodnych",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Na wodach śródlądowych obowiązują **krajowe przepisy żeglugowe** (wzorowane na europejskim kodeksie CEVNI) oraz przepisy lokalne. Najważniejsze różnice wobec MPZZ:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Małe jednostki** (zwykle < 20 m, w tym jachty) **ustępują drogi statkom niebędącym małymi** (barkom, statkom pasażerskim) i nie mogą utrudniać im żeglugi.",
+      "Między małymi jednostkami: **mała jednostka z napędem mechanicznym ustępuje** wszystkim innym małym jednostkom; jednostka o napędzie siłą mięśni ustępuje **żaglowej**.",
+      "Między jachtami żaglowymi – jak na morzu: przy różnych halsach ustępuje jacht na **lewym halsie**, przy tym samym – **nawietrzny**; wyprzedzający ustępuje.",
+      "Na szlakach żeglownych obowiązuje **ruch prawostronny**; nie wolno cumować do znaków nawigacyjnych, mostów i śluz (poza miejscami do tego przeznaczonymi); obowiązują lokalne ograniczenia prędkości.",
+      "**Znaki żeglugowe**: **zakazu** – biała tablica z czerwoną obwódką i czerwonym ukośnym pasem; **nakazu** – biała z czerwoną obwódką (bez ukośnego pasa); **ograniczenia** – biała z czerwoną obwódką i czarnym symbolem/liczbą; **zaleceń** – zielone kwadraty lub żółte światła; **informacyjne** – niebieskie tablice z białym symbolem.",
+      "Przy **śluzach i mostach** stosuj się do sygnalizacji świetlnej i poleceń obsługi; wpływaj w kolejności wskazanej przez obsługę."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Na rzece i kanale jacht to „mała jednostka” – duży statek ma pierwszeństwo, nawet gdy płyniesz pod żaglami."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-w-01",
+     "q": "Na rzece jacht pod żaglami spotyka barkę towarową. Kto ustępuje?",
+     "a": "Jacht – małe jednostki ustępują statkom niebędącym małymi i nie mogą utrudniać im żeglugi.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-w-02",
+     "q": "Na wodach śródlądowych mała łódź motorowa spotyka mały jacht żaglowy. Kto ustępuje?",
+     "a": "Łódź motorowa – mała jednostka o napędzie mechanicznym ustępuje innym małym jednostkom.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-w-03",
+     "q": "Kajak (napęd mięśniowy) spotyka małą żaglówkę na jeziorze. Kto ustępuje?",
+     "a": "Kajak – jednostka o napędzie siłą mięśni ustępuje jednostce żaglowej.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-w-04",
+     "q": "Jak wyglądają znaki zakazu na śródlądowych drogach wodnych?",
+     "a": "Biała tablica z czerwoną obwódką i czerwonym ukośnym pasem (oraz symbolem zakazu).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-w-05",
+     "q": "Jak wyglądają znaki informacyjne na śródlądowych drogach wodnych?",
+     "a": "Niebieska tablica z białym symbolem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-w-06",
+     "q": "Czy na wodach śródlądowych wolno cumować do znaków nawigacyjnych?",
+     "a": "Nie – nie wolno cumować do znaków nawigacyjnych (ani do mostów, śluz poza wyznaczonymi miejscami).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-w-07",
+     "q": "Którą stroną szlaku żeglownego się płynie?",
+     "a": "Prawą – obowiązuje ruch prawostronny (o ile znaki nie stanowią inaczej).",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-w-08",
+     "q": "Dwa jachty żaglowe na jeziorze, różne halsy. Kto ustępuje?",
+     "a": "Jacht płynący lewym halsem – tak samo jak na morzu.",
+     "difficulty": 1
+    }
+   ]
+  }
+ ]
+}

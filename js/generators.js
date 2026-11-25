@@ -133,6 +133,30 @@
         tip: 'Najszybciej woda przybywa w 3. i 4. godzinie (po 3/12 rozstępu).'
       };
     },
+    // prędkość graniczna kadłuba wypornościowego
+    'predkosc-graniczna'() {
+      const lwl = rnd(12, 30) / 2; // 6–15 m
+      const v = 2.43 * Math.sqrt(lwl);
+      return {
+        q: `Jacht ma długość linii wodnej LWL = ${fmt(lwl)} m. Jaka jest jego przybliżona prędkość graniczna (kadłub wypornościowy)?`,
+        a: `≈ ${fmt(v, 1)} w`,
+        explain: `v ≈ 2,43 × √LWL = 2,43 × √${fmt(lwl)} = 2,43 × ${fmt(Math.sqrt(lwl), 2)} ≈ ${fmt(v, 1)} w`,
+        tip: 'Dłuższa linia wodna = wyższa prędkość graniczna. Powyżej niej opór fali rośnie gwałtownie.'
+      };
+    },
+    // planowanie: godzina przybycia
+    'eta'() {
+      const depH = rnd(5, 14), depM = pick([0, 15, 30, 45]);
+      const dist = rnd(12, 60), v = rnd(8, 12) / 2;
+      const t = dist / v; const arr = depH * 60 + depM + Math.round(t * 60);
+      const hm = (m) => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+      return {
+        q: `Wyjście z portu o ${hm(depH * 60 + depM)}, do celu ${dist} Mm, planowana średnia prędkość ${fmt(v)} w. O której przewidujesz przybycie (ETA)?`,
+        a: `ok. ${hm(arr)}${arr >= 1440 ? ' (następnego dnia)' : ''}`,
+        explain: `t = ${dist} / ${fmt(v)} = ${fmt(t, 2)} h = ${hhmm(t)}\nETA = ${hm(depH * 60 + depM)} + ${hhmm(t)} = ${hm(arr)}`,
+        tip: 'Planując rejs, dolicz zapas czasu (wiatr, prąd, manewry) i sprawdź, czy wejście do portu wypada za dnia i przy odpowiednim stanie wody.'
+      };
+    },
     // głębokość rzeczywista
     'glebokosc'() {
       const chart = rnd(5, 40) / 10, tide = rnd(5, 45) / 10, draft = pick([1.4, 1.6, 1.8, 2.0]);
