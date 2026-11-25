@@ -1,0 +1,557 @@
+{
+ "level": 7,
+ "items": {
+  "L7-j-01": {
+   "correct": "Jacht jednomasztowy z jednym żaglem przednim (fokiem/genuą) i grotem.",
+   "wrong": [
+    "Jacht dwumasztowy z bezanem ustawionym za osią steru.",
+    "Jacht jednomasztowy z dwoma żaglami przednimi i grotem.",
+    "Jacht dwumasztowy z wyższym masztem tylnym niż przednim."
+   ]
+  },
+  "L7-j-02": {
+   "correct": "Oba dwumasztowe; w keczu bezan stoi przed osią steru, w jolu – za nią.",
+   "wrong": [
+    "Oba dwumasztowe; w keczu bezan stoi za osią steru, w jolu – przed nią.",
+    "Kecz jest jednomasztowy, a jol ma dwa maszty jednakowej wysokości.",
+    "Oba dwumasztowe; w keczu tylny maszt jest wyższy od przedniego."
+   ]
+  },
+  "L7-j-03": {
+   "correct": "Jacht jednomasztowy z dwoma żaglami przednimi (np. kliwer i sztaksel).",
+   "wrong": [
+    "Jacht jednomasztowy z jednym żaglem przednim i grotem.",
+    "Jacht dwumasztowy z bezanem za osią steru.",
+    "Jacht jednomasztowy bez żagla przedniego, tylko z grotem."
+   ]
+  },
+  "L7-j-04": {
+   "correct": "Olinowanie podtrzymujące maszt: wanty, sztag, achtersztag (i ściągacze).",
+   "wrong": [
+    "Liny do obsługi żagli: fały, szoty i refliny.",
+    "Szoty, topenanta i obciągacz bomu.",
+    "Cumy, szpringi i liny kotwiczne."
+   ]
+  },
+  "L7-j-05": {
+   "correct": "Liny do obsługi żagli i omasztowania: fały, szoty, refliny, topenanta.",
+   "wrong": [
+    "Olinowanie podtrzymujące maszt: wanty, sztag i achtersztag.",
+    "Wanty, salingi i ściągacze want.",
+    "Sztag, achtersztag i baksztagi stałe."
+   ]
+  },
+  "L7-j-06": {
+   "correct": "Fałem podnosi się żagiel, szotem ustawia się go względem wiatru.",
+   "wrong": [
+    "Szotem podnosi się żagiel, fałem ustawia się go względem wiatru.",
+    "Fałem refuje się żagiel, szotem napina się sztag.",
+    "Fałem podnosi się bom, szotem opuszcza się maszt."
+   ]
+  },
+  "L7-j-07": {
+   "correct": "Obniża środek ciężkości (moment prostujący) i stawia opór boczny.",
+   "wrong": [
+    "Podnosi środek ciężkości i zwiększa prędkość jachtu.",
+    "Służy wyłącznie do sterowania i nie wpływa na stateczność.",
+    "Zmniejsza zanurzenie i ułatwia wchodzenie na płyciznę."
+   ]
+  },
+  "L7-j-08": {
+   "correct": "Gdy instalacja nie jest używana, przy opuszczaniu jachtu, w sztormie i przy przecieku.",
+   "wrong": [
+    "Tylko przed zimowaniem jachtu – w sezonie są zawsze otwarte.",
+    "Wyłącznie podczas pracy silnika, aby nie zalać jego komory.",
+    "Nigdy – zamknięcie zaworów dennych grozi zatonięciem jachtu."
+   ]
+  },
+  "L7-j-09": {
+   "correct": "W zamkniętej skrzynce z odpływem za burtę, powyżej linii wodnej.",
+   "wrong": [
+    "W zęzie, jak najniżej, aby obniżyć środek ciężkości.",
+    "W kabinie obok kuchenki, aby skrócić przewód gazowy.",
+    "W szczelnie zamkniętym bakiście bez odpływu, poniżej linii wodnej."
+   ]
+  },
+  "L7-j-10": {
+   "correct": "Rozruchowy do silnika, hotelowy do odbiorników – rozładowanie nie uniemożliwi rozruchu.",
+   "wrong": [
+    "Drugi akumulator jest wymagany tylko do zasilania świateł nawigacyjnych.",
+    "Oba pracują razem jako jeden, aby podwoić napięcie do 24 V.",
+    "Drugi akumulator służy wyłącznie do zasilania radia VHF."
+   ]
+  },
+  "L7-j-11": {
+   "correct": "Alternatorem silnika, ładowarką z lądu, panelami słonecznymi lub wiatrakiem.",
+   "wrong": [
+    "Wyłącznie ładowarką z lądu – alternator silnika nie ładuje akumulatorów.",
+    "Tylko panelami słonecznymi – inne źródła uszkadzają akumulatory.",
+    "Rozrusznikiem silnika podczas jego uruchamiania."
+   ]
+  },
+  "L7-j-12": {
+   "correct": "Bo działa bez prądu – przy awarii instalacji lub zalaniu akumulatorów.",
+   "wrong": [
+    "Bo ma większą wydajność niż każda pompa elektryczna.",
+    "Bo pompy elektryczne są na jachtach morskich zabronione.",
+    "Bo służy też do pompowania paliwa do silnika."
+   ]
+  },
+  "L7-j-13": {
+   "correct": "Wanty i sztagi, ściągacze z zawleczkami, salingi, mocowania, stan masztu i bomu.",
+   "wrong": [
+    "Tylko stan żagli i szotów – takielunek stały sprawdza stocznia.",
+    "Wyłącznie poziom oleju i paliwa w silniku.",
+    "Tylko długość cum i liczbę odbijaczy."
+   ]
+  },
+  "L7-s-01": {
+   "correct": "Olej, płyn chłodzący, paliwo, otwarty zawór wody zaburtowej, pasek, zęzę, luz.",
+   "wrong": [
+    "Olej, paliwo i zamknięty zawór wody zaburtowej, bieg do przodu.",
+    "Tylko poziom paliwa – reszta jest kontrolowana automatycznie.",
+    "Świece zapłonowe, gaźnik i mieszankę paliwa z olejem."
+   ]
+  },
+  "L7-s-02": {
+   "correct": "Czy z wydechu wypływa woda i czy zgasły kontrolki oleju i ładowania.",
+   "wrong": [
+    "Czy z wydechu wydobywa się niebieski dym i czy świeci kontrolka oleju.",
+    "Czy silnik osiąga maksymalne obroty na biegu jałowym.",
+    "Czy kontrolki ciśnienia oleju i ładowania świecą stale."
+   ]
+  },
+  "L7-s-03": {
+   "correct": "Wyłączasz silnik i sprawdzasz zawór denny, filtr wody, impeller i pasek.",
+   "wrong": [
+    "Zwiększasz obroty, aż woda zacznie wypływać z wydechu.",
+    "Płyniesz dalej – to normalne przez pierwszą godzinę pracy.",
+    "Dolewasz oleju silnikowego i kontynuujesz pracę silnika."
+   ]
+  },
+  "L7-s-04": {
+   "correct": "Gumowy wirnik pompy wody zaburtowej; bez wody przegrzewa się i niszczy.",
+   "wrong": [
+    "Metalowy wirnik pompy paliwa; bez paliwa traci uszczelnienie.",
+    "Gumowy wirnik pompy zęzowej; na sucho rozładowuje akumulator.",
+    "Element alternatora; bez chłodzenia przestaje ładować akumulator."
+   ]
+  },
+  "L7-s-05": {
+   "correct": "Na samozapłonie paliwa wtryśniętego do sprężonego, gorącego powietrza.",
+   "wrong": [
+    "Na zapłonie mieszanki od iskry świecy zapłonowej.",
+    "Na zapłonie od świec żarowych pracujących przez cały czas pracy.",
+    "Na zapłonie mieszanki benzyny z olejem od iskrownika."
+   ]
+  },
+  "L7-s-06": {
+   "correct": "Podgrzewają komorę spalania przed uruchomieniem zimnego silnika.",
+   "wrong": [
+    "Wytwarzają iskrę zapalającą paliwo w każdym cyklu pracy.",
+    "Podgrzewają olej silnikowy podczas pracy na wysokich obrotach.",
+    "Podgrzewają paliwo w zbiorniku, by nie zamarzło."
+   ]
+  },
+  "L7-s-07": {
+   "correct": "Gdy dostało się powietrze – po wyczerpaniu paliwa, wymianie filtra, rozszczelnieniu.",
+   "wrong": [
+    "Po każdym uruchomieniu silnika, niezależnie od okoliczności.",
+    "Tylko przy wymianie oleju silnikowego.",
+    "Gdy z wydechu wypływa woda chłodząca."
+   ]
+  },
+  "L7-s-08": {
+   "correct": "Kolejno od filtrów ku pompie wtryskowej, pompując ręcznie aż paliwo bez pęcherzyków.",
+   "wrong": [
+    "Od pompy wtryskowej ku zbiornikowi, aż wypłynie olej silnikowy.",
+    "Przez uruchamianie rozrusznika aż do skutku, bez odkręcania śrub.",
+    "Odkręcając korek wlewu paliwa i przedmuchując przewody sprężarką."
+   ]
+  },
+  "L7-s-09": {
+   "correct": "Zatrzymuje wodę i większe zanieczyszczenia z paliwa; wodę regularnie się spuszcza.",
+   "wrong": [
+    "Zatrzymuje zanieczyszczenia z oleju silnikowego.",
+    "Oddziela wodę zaburtową od płynu chłodzącego.",
+    "Filtruje powietrze zasysane do komory spalania."
+   ]
+  },
+  "L7-s-10": {
+   "correct": "Niepełne spalanie – przeciążenie silnika, zatkany filtr powietrza, zły wtrysk.",
+   "wrong": [
+    "Spalanie oleju silnikowego przez zużyte pierścienie.",
+    "Obecność wody w paliwie lub uszczelce głowicy.",
+    "Prawidłowa praca silnika pod pełnym obciążeniem."
+   ]
+  },
+  "L7-s-11": {
+   "correct": "Spalanie oleju silnikowego (zużyte pierścienie, nadmiar oleju).",
+   "wrong": [
+    "Przeciążenie silnika, np. owinięta śruba.",
+    "Zatkany filtr powietrza.",
+    "Prawidłowa praca zimnego silnika."
+   ]
+  },
+  "L7-s-12": {
+   "correct": "Zatkany filtr lub wlot wody, uszkodzony impeller, zamknięty zawór denny, zerwany pasek.",
+   "wrong": [
+    "Zbyt mała ilość paliwa w zbiorniku.",
+    "Rozładowany akumulator rozruchowy.",
+    "Za niskie obroty silnika na biegu jałowym."
+   ]
+  },
+  "L7-s-13": {
+   "correct": "Przypięta do sternika gasi silnik, gdy wypadnie on za burtę lub odejdzie od steru.",
+   "wrong": [
+    "Zabezpiecza silnik przed kradzieżą w porcie.",
+    "Służy do ręcznego uruchamiania silnika szarpnięciem.",
+    "Przytrzymuje silnik na pawęży, gdy poluzują się śruby."
+   ]
+  },
+  "L7-s-14": {
+   "correct": "Z otworu kontrolnego powinien wypływać strumień wody.",
+   "wrong": [
+    "Z wydechu powinien wydobywać się niebieski dym.",
+    "Obudowa silnika po kilku minutach powinna być gorąca.",
+    "Powinna zaświecić się kontrolka ładowania."
+   ]
+  },
+  "L7-s-15": {
+   "correct": "Odkręcić odpowietrznik, podłączyć przewód, napompować gruszką, ssanie, luz, kill cord.",
+   "wrong": [
+    "Zakręcić odpowietrznik zbiornika, włączyć bieg do przodu i odpiąć kill cord.",
+    "Odpowietrzyć układ jak w dieslu i włączyć świece żarowe.",
+    "Wlać olej do zbiornika, włączyć bieg wsteczny i pełny gaz."
+   ]
+  },
+  "L7-s-16": {
+   "correct": "Są cięższe od powietrza – gromadzą się w zęzie i mogą wybuchnąć od iskry.",
+   "wrong": [
+    "Są lżejsze od powietrza – gromadzą się pod pokładem kabiny.",
+    "Są nieszkodliwe, bo szybko rozpuszczają się w wodzie zęzowej.",
+    "Są niebezpieczne tylko w temperaturze poniżej zera."
+   ]
+  },
+  "L7-t-01": {
+   "correct": "Masa wody wypartej przez kadłub – równa masie całego jachtu.",
+   "wrong": [
+    "Objętość kadłuba poniżej pokładu.",
+    "Maksymalna ładowność jachtu bez załogi.",
+    "Masa samego balastu kilowego."
+   ]
+  },
+  "L7-t-02": {
+   "correct": "Od położenia środka ciężkości względem środka wyporu (balast, szerokość kadłuba).",
+   "wrong": [
+    "Wyłącznie od wysokości masztu i powierzchni żagli.",
+    "Tylko od długości linii wodnej jachtu.",
+    "Od mocy silnika i pojemności zbiornika paliwa."
+   ]
+  },
+  "L7-t-03": {
+   "correct": "Stateczność ciężaru wynika z nisko położonego balastu, kształtu – z szerokości kadłuba.",
+   "wrong": [
+    "Stateczność ciężaru wynika z szerokości kadłuba, kształtu – z balastu.",
+    "Stateczność ciężaru zależy od masy załogi, kształtu – od wysokości masztu.",
+    "Obie wynikają wyłącznie z długości linii wodnej."
+   ]
+  },
+  "L7-t-04": {
+   "correct": "Zmniejszają ją – podnoszą środek ciężkości.",
+   "wrong": [
+    "Zwiększają ją – obniżają środek wyporu.",
+    "Zwiększają ją – podnoszą środek wyporu.",
+    "Nie mają wpływu na stateczność jachtu."
+   ]
+  },
+  "L7-t-05": {
+   "correct": "Opór tarcia, opór falowy i opór kształtu.",
+   "wrong": [
+    "Opór tarcia, opór aerodynamiczny żagli i opór balastu.",
+    "Tylko opór falowy, niezależny od prędkości.",
+    "Opór wyporu, opór kilu i opór masztu."
+   ]
+  },
+  "L7-t-06": {
+   "correct": "v ≈ 2,43 × √LWL (v w węzłach, LWL w metrach).",
+   "wrong": [
+    "v ≈ 2,43 × LWL (v w węzłach, LWL w metrach).",
+    "v ≈ 4,5 × √LWL (v w węzłach, LWL w metrach).",
+    "v ≈ LWL / 2,43 (v w węzłach, LWL w metrach)."
+   ]
+  },
+  "L7-t-07": {
+   "correct": "Na siłę napędową (do przodu) i siłę przechylającą/dryfującą (na bok).",
+   "wrong": [
+    "Na siłę wyporu i siłę ciężkości.",
+    "Na siłę napędową i siłę wyporu kadłuba.",
+    "Na siłę nośną kilu i opór tarcia kadłuba."
+   ]
+  },
+  "L7-t-08": {
+   "correct": "Gdy środek ożaglowania leży za środkiem oporu bocznego.",
+   "wrong": [
+    "Gdy środek ożaglowania leży przed środkiem oporu bocznego.",
+    "Gdy środek ciężkości leży powyżej środka wyporu.",
+    "Gdy środek ożaglowania pokrywa się ze środkiem wyporu."
+   ]
+  },
+  "L7-t-09": {
+   "correct": "Puszczony ster – jacht sam ostrzy i staje w łopocie; ster daje „czucie”.",
+   "wrong": [
+    "Puszczony ster – jacht sam odpada i przyspiesza z wiatrem.",
+    "Pozwala płynąć bez steru na kursie fordewind.",
+    "Zmniejsza dryf do zera na każdym kursie."
+   ]
+  },
+  "L7-t-10": {
+   "correct": "Zarefować/wyluzować grot, zmniejszyć przechył, przesunąć środek ożaglowania do przodu.",
+   "wrong": [
+    "Wybrać mocniej grot i zwiększyć przechył.",
+    "Zmniejszyć fok, by przesunąć środek ożaglowania do tyłu.",
+    "Przenieść załogę na zawietrzną burtę."
+   ]
+  },
+  "L7-t-11": {
+   "correct": "Zmniejszyć żagiel przedni lub zwiększyć grot – środek ożaglowania do tyłu.",
+   "wrong": [
+    "Zwiększyć żagiel przedni i zarefować grot – środek ożaglowania do przodu.",
+    "Zarefować grot, by przesunąć środek ożaglowania do tyłu.",
+    "Zwiększyć przechył, przenosząc załogę na zawietrzną."
+   ]
+  },
+  "L7-t-12": {
+   "correct": "Nie – zbyt duży przechył zwiększa dryf, opór i nawietrzność.",
+   "wrong": [
+    "Tak – im większy przechył, tym większa prędkość jachtu.",
+    "Tak – przechył zawsze zmniejsza opór kadłuba.",
+    "Nie – przechył zmniejsza nawietrzność, ale nie wpływa na prędkość."
+   ]
+  },
+  "L7-p-01": {
+   "correct": "Trasa i porty schronienia, czas, prognoza, ograniczenia akwenu, przygotowanie jachtu i załogi.",
+   "wrong": [
+    "Tylko wyznaczenie trasy na mapie – pogodę sprawdza się po wyjściu.",
+    "Wyłącznie zakup prowiantu i paliwa na cały rejs.",
+    "Trasa i prowiant – porty schronienia wybiera się dopiero w sztormie."
+   ]
+  },
+  "L7-p-02": {
+   "correct": "Osłonięte miejsce po drodze na wypadek pogody lub awarii – sprawdza się je przed rejsem.",
+   "wrong": [
+    "Port docelowy rejsu, wybierany dopiero po wyjściu w morze.",
+    "Port macierzysty jachtu, w którym jest zarejestrowany.",
+    "Port, w którym obowiązkowo odbywa się odprawę graniczną."
+   ]
+  },
+  "L7-p-03": {
+   "correct": "Łatwiej rozpoznać oznakowanie, wejście i przeszkody niż w nocy.",
+   "wrong": [
+    "W nocy porty są zamknięte dla jachtów.",
+    "Za dnia światła nawigacyjne są lepiej widoczne.",
+    "Przepisy zabraniają jachtom wchodzenia do portów w nocy."
+   ]
+  },
+  "L7-p-04": {
+   "correct": "Głębokości vs zanurzenie, godziny portu/mostów, sygnały portowe, zakazy wejścia, VHF.",
+   "wrong": [
+    "Tylko cenę postoju w marinie.",
+    "Wyłącznie odległość portu od trasy rejsu.",
+    "Tylko liczbę wolnych miejsc w marinie."
+   ]
+  },
+  "L7-p-05": {
+   "correct": "Mielizny i wraki, TSS, poligony, farmy wiatrowe, tory wodne, silne prądy.",
+   "wrong": [
+    "Tylko latarnie morskie i nabrzeża portowe.",
+    "Wyłącznie mielizny – TSS i poligony nie dotyczą jachtów.",
+    "Tylko porty schronienia i stacje paliw."
+   ]
+  },
+  "L7-p-06": {
+   "correct": "Dzielisz załogę na wachty (np. 4 h), by każdy odpoczął, a ktoś zawsze prowadził nawigację.",
+   "wrong": [
+    "Cała załoga czuwa jednocześnie przez cały rejs.",
+    "Kapitan sam pełni wszystkie wachty, załoga tylko odpoczywa.",
+    "Wacht nie planuje się – każdy śpi, gdy jest zmęczony."
+   ]
+  },
+  "L7-p-07": {
+   "correct": "Realnie ok. 4–6 węzłów, z zapasem czasu.",
+   "wrong": [
+    "Realnie ok. 10–12 węzłów, bez zapasu czasu.",
+    "Realnie ok. 1–2 węzłów, niezależnie od wiatru.",
+    "Prędkość graniczną kadłuba przez cały rejs."
+   ]
+  },
+  "L7-r-01": {
+   "correct": "Jachtami żaglowymi o długości kadłuba do 18 m.",
+   "wrong": [
+    "Jachtami żaglowymi o długości kadłuba do 12 m.",
+    "Jachtami żaglowymi o długości kadłuba do 24 m.",
+    "Jachtami żaglowymi bez ograniczenia długości."
+   ]
+  },
+  "L7-r-02": {
+   "correct": "Ukończone 18 lat, min. 2 rejsy morskie, łącznie 200 godzin żeglugi, zdany egzamin.",
+   "wrong": [
+    "Ukończone 16 lat, 1 rejs morski min. 100 godzin, zdany egzamin.",
+    "Ukończone 21 lat, min. 5 rejsów morskich, łącznie 500 godzin, zdany egzamin.",
+    "Ukończone 18 lat i patent żeglarza jachtowego – bez stażu i egzaminu."
+   ]
+  },
+  "L7-r-03": {
+   "correct": "Dokument rejestracyjny, uprawnienia, pozwolenie radiowe i SRC, OC, lista załogi, dziennik.",
+   "wrong": [
+    "Tylko dowody osobiste załogi.",
+    "Wyłącznie paragon za paliwo i umowę czarteru.",
+    "Tylko mapa akwenu i locja."
+   ]
+  },
+  "L7-r-04": {
+   "correct": "Czas, pozycję, kurs i prędkość, pogodę, zdarzenia, wejścia i wyjścia z portów.",
+   "wrong": [
+    "Tylko nazwiska załogi i koszty rejsu.",
+    "Wyłącznie zużycie prowiantu i wody.",
+    "Tylko godziny pracy silnika."
+   ]
+  },
+  "L7-r-05": {
+   "correct": "Bezpieczeństwo jachtu i załogi, przepisy, dziennik, pomoc w niebezpieczeństwie.",
+   "wrong": [
+    "Tylko prowadzenie dziennika – za bezpieczeństwo odpowiada armator.",
+    "Wyłącznie sterowanie jachtem podczas manewrów portowych.",
+    "Tylko rozliczanie kosztów rejsu z załogą."
+   ]
+  },
+  "L7-r-06": {
+   "correct": "Udzielam pomocy, zabezpieczam ludzi i jacht, wpis do dziennika, zgłoszenie organom.",
+   "wrong": [
+    "Odpływam jak najszybciej, aby uniknąć odpowiedzialności.",
+    "Zgłaszam zdarzenie tylko armatorowi, bez wpisu do dziennika.",
+    "Czekam na przybycie policji, nie udzielając pomocy."
+   ]
+  },
+  "L7-r-07": {
+   "correct": "Holowanie to usługa z umowy; ratownictwo dotyczy jednostki w niebezpieczeństwie.",
+   "wrong": [
+    "Holowanie dotyczy jednostki w niebezpieczeństwie, ratownictwo – usługa z umowy.",
+    "Nie ma różnicy – oba pojęcia oznaczają to samo.",
+    "Ratownictwo jest zawsze bezpłatne, holowanie zawsze płatne z góry."
+   ]
+  },
+  "L7-r-08": {
+   "correct": "Wynagrodzenie ratownicze należy się tylko za skuteczne uratowanie mienia.",
+   "wrong": [
+    "Wynagrodzenie należy się za samą próbę ratowania, nawet nieudaną.",
+    "Ratownik płaci karę, jeśli akcja się nie powiedzie.",
+    "Ratowanie mienia na morzu jest zawsze bezpłatne."
+   ]
+  },
+  "L7-r-09": {
+   "correct": "OC pokrywa szkody wyrządzone innym, casco – szkody własnego jachtu.",
+   "wrong": [
+    "OC pokrywa szkody własnego jachtu, casco – szkody wyrządzone innym.",
+    "OC dotyczy tylko załogi, casco – tylko silnika.",
+    "Oba pokrywają wyłącznie koszty leczenia załogi."
+   ]
+  },
+  "L7-r-10": {
+   "correct": "Pod prawym salingiem.",
+   "wrong": [
+    "Pod lewym salingiem.",
+    "Na rufie, na flagsztoku.",
+    "Na topie masztu."
+   ]
+  },
+  "L7-r-11": {
+   "correct": "Na rufie – na flagsztoku (lub na achtersztagu).",
+   "wrong": [
+    "Pod prawym salingiem.",
+    "Pod lewym salingiem.",
+    "Na dziobie, na sztagu."
+   ]
+  },
+  "L7-r-12": {
+   "correct": "Opuszcza banderę do połowy, czeka na odpowiedź okrętu i podnosi ją z powrotem.",
+   "wrong": [
+    "Podnosi flagę grzecznościową pod lewym salingiem.",
+    "Daje jeden długi sygnał dźwiękowy i zmienia kurs w prawo.",
+    "Całkowicie zdejmuje banderę do czasu minięcia okrętu."
+   ]
+  },
+  "L7-r-13": {
+   "correct": "Za zgodą załogi, przez pokład dziobowy – nie przez kokpit.",
+   "wrong": [
+    "Bez pytania, najkrótszą drogą przez kokpit.",
+    "Za zgodą załogi, zawsze przez kokpit.",
+    "Przez pokład rufowy, bez pytania o zgodę."
+   ]
+  },
+  "L7-w-01": {
+   "correct": "Jacht – mała jednostka ustępuje statkowi niebędącemu małym.",
+   "wrong": [
+    "Barka – statek o napędzie mechanicznym ustępuje żaglowemu.",
+    "Ten, kto ma drugiego po prawej burcie.",
+    "Barka – zawsze ustępuje jednostka większa."
+   ]
+  },
+  "L7-w-02": {
+   "correct": "Łódź motorowa – ustępuje innym małym jednostkom.",
+   "wrong": [
+    "Jacht żaglowy – ustępuje jednostce o napędzie mechanicznym.",
+    "Ten, kto płynie lewym halsem lub ma drugiego z prawej.",
+    "Szybsza jednostka ma pierwszeństwo przed wolniejszą."
+   ]
+  },
+  "L7-w-03": {
+   "correct": "Kajak – jednostka o napędzie mięśniowym ustępuje żaglowej.",
+   "wrong": [
+    "Żaglówka – jednostka żaglowa ustępuje napędzanej siłą mięśni.",
+    "Ten, kto ma drugiego po lewej burcie.",
+    "Żaglówka – zawsze ustępuje jednostka większa."
+   ]
+  },
+  "L7-w-04": {
+   "correct": "Biała tablica z czerwoną obwódką i czerwonym ukośnym pasem.",
+   "wrong": [
+    "Niebieska tablica z białym symbolem.",
+    "Żółta tablica z czarnym symbolem.",
+    "Zielona tablica z białą obwódką i białym pasem."
+   ]
+  },
+  "L7-w-05": {
+   "correct": "Niebieska tablica z białym symbolem.",
+   "wrong": [
+    "Biała tablica z czerwoną obwódką i czerwonym pasem.",
+    "Czerwona tablica z białym poziomym pasem.",
+    "Żółta tablica z czarną obwódką."
+   ]
+  },
+  "L7-w-06": {
+   "correct": "Nie – nie wolno cumować do znaków nawigacyjnych.",
+   "wrong": [
+    "Tak – w każdej chwili, jeśli znak jest stabilny.",
+    "Tak – ale tylko w nocy i przy słabym wietrze.",
+    "Tak – wyłącznie do znaków bocznych na szlaku."
+   ]
+  },
+  "L7-w-07": {
+   "correct": "Prawą – obowiązuje ruch prawostronny.",
+   "wrong": [
+    "Lewą – obowiązuje ruch lewostronny.",
+    "Środkiem szlaku, niezależnie od ruchu.",
+    "Dowolną – stronę wybiera prowadzący jednostkę."
+   ]
+  },
+  "L7-w-08": {
+   "correct": "Jacht płynący lewym halsem – tak samo jak na morzu.",
+   "wrong": [
+    "Jacht płynący prawym halsem.",
+    "Jacht znajdujący się na nawietrznej, niezależnie od halsu.",
+    "Mniejszy z jachtów, niezależnie od halsu."
+   ]
+  }
+ }
+}
