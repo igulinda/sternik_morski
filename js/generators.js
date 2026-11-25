@@ -1,9 +1,9 @@
 /* Sternik Morski – generator zadań obliczeniowych (nawigacja).
  * Każde wywołanie tworzy nowe zadanie z losowymi danymi i rozwiązaniem krok po kroku.
  * Konwencja znaków (jak w polskich podręcznikach):
- *   KM = KK + δ (dewiacja),  KR = KM + d (deklinacja),  Δ = δ + d,  KR = KK + Δ
+ *   KM = KK + δ (dewiacja),  KR = KM + d (deklinacja),  cp = δ + d,  KR = KK + cp
  *   E (wschodnia) = „+”,  W (zachodnia) = „−”
- *   KDw = KR + α (dryf: wiatr z lewej burty → α „+”, z prawej → „−”)
+ *   KDw = KR + pw (dryf: wiatr z lewej burty → pw „+”, z prawej → „−”)
  */
 (function () {
   'use strict';
@@ -35,7 +35,7 @@
       return {
         q: `Kurs kompasowy KK = ${deg(kk)}, dewiacja δ = ${ew(dv)}, deklinacja d = ${ew(dc)}. Oblicz kurs magnetyczny KM i rzeczywisty KR.`,
         a: `KM = ${deg(km)}, KR = ${deg(kr)}`,
-        explain: `KM = KK + δ = ${deg(kk)} ${sgn(dv)} = ${deg(km)}\nKR = KM + d = ${deg(km)} ${sgn(dc)} = ${deg(kr)}\n(Δ = δ + d = ${sgn(dv + dc)})`,
+        explain: `KM = KK + δ = ${deg(kk)} ${sgn(dv)} = ${deg(km)}\nKR = KM + d = ${deg(km)} ${sgn(dc)} = ${deg(kr)}\n(cp = δ + d = ${sgn(dv + dc)})`,
         tip: 'Od kompasu do mapy dodajesz poprawki ze znakiem: E = +, W = −.',
         mc: degMc('KR', kr, [kk - dv - dc, kk - dv + dc, kk + dv - dc]),
         num: [{ label: 'KR', value: kr, unit: '°', tol: 0.5, circ: true }]
@@ -61,7 +61,7 @@
       return {
         q: `Namiar kompasowy na latarnię NK = ${deg(nk)} (kompas sterowy, δ dla bieżącego kursu = ${ew(dv)}), deklinacja d = ${ew(dc)}. Jaki namiar rzeczywisty NR wykreślisz na mapie?`,
         a: `NR = ${deg(nr)}`,
-        explain: `Δ = δ + d = ${sgn(dv)} ${sgn(dc)} = ${sgn(dv + dc)}\nNR = NK + Δ = ${deg(nk)} ${sgn(dv + dc)} = ${deg(nr)}`,
+        explain: `cp = δ + d = ${sgn(dv)} ${sgn(dc)} = ${sgn(dv + dc)}\nNR = NK + cp = ${deg(nk)} ${sgn(dv + dc)} = ${deg(nr)}`,
         tip: 'Dewiacja zależy od KURSU jachtu, a nie od kierunku namiaru.',
         mc: degMc('NR', nr, [nk - dv - dc, nk + dv - dc, nk - dv + dc]),
         num: [{ label: 'NR', value: nr, unit: '°', tol: 0.5, circ: true }]
@@ -71,11 +71,11 @@
     'poprawka'() {
       const kk = rnd(0, 359), delta = nonzero(-9, 9), kr = norm(kk + delta);
       return {
-        q: `Płynąc nabieżnikiem o kierunku rzeczywistym ${deg(kr)}, odczytujesz na kompasie ${deg(kk)}. Ile wynosi poprawka całkowita kompasu Δ?`,
-        a: `Δ = ${sgn(delta)}`,
-        explain: `Δ = KR − KK = ${deg(kr)} − ${deg(kk)} = ${sgn(delta)}`,
+        q: `Płynąc nabieżnikiem o kierunku rzeczywistym ${deg(kr)}, odczytujesz na kompasie ${deg(kk)}. Ile wynosi poprawka całkowita kompasu cp?`,
+        a: `cp = ${sgn(delta)}`,
+        explain: `cp = KR − KK = ${deg(kr)} − ${deg(kk)} = ${sgn(delta)}`,
         tip: 'Nabieżnik (dwa znaki w jednej linii) to najlepszy sposób sprawdzenia kompasu.',
-        mc: mc(`Δ = ${sgn(delta)}`, [`Δ = ${sgn(-delta)}`, `Δ = ${sgn(delta + 2)}`, `Δ = ${sgn(delta - 2)}`], (k) => `Δ = ${sgn(delta + k + 2)}`)
+        mc: mc(`cp = ${sgn(delta)}`, [`cp = ${sgn(-delta)}`, `cp = ${sgn(delta + 2)}`, `cp = ${sgn(delta - 2)}`], (k) => `cp = ${sgn(delta + k + 2)}`)
       };
     },
     // aktualizacja deklinacji z mapy
@@ -129,7 +129,7 @@
       return {
         q: `Jacht idzie kursem rzeczywistym KR = ${deg(kr)}, wiatr wieje z ${side} burty, kąt dryfu ${a}°. Oblicz kąt drogi po wodzie KDw.`,
         a: `KDw = ${deg(kdw)}`,
-        explain: `Wiatr z ${side} burty → jacht znoszony na ${side === 'lewej' ? 'prawo' : 'lewo'} → α = ${sgn(alpha)}\nKDw = KR + α = ${deg(kr)} ${sgn(alpha)} = ${deg(kdw)}`,
+        explain: `Wiatr z ${side} burty → jacht znoszony na ${side === 'lewej' ? 'prawo' : 'lewo'} → pw = ${sgn(alpha)}\nKDw = KR + pw = ${deg(kr)} ${sgn(alpha)} = ${deg(kdw)}`,
         tip: 'Wiatr z lewej burty = dryf „+”, z prawej = „−”.',
         mc: degMc('KDw', kdw, [kr - alpha, kr, kr + 2 * alpha]),
         num: [{ label: 'KDw', value: kdw, unit: '°', tol: 0.5, circ: true }]

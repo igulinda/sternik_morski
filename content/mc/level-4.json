@@ -1,0 +1,501 @@
+{
+ "level": 4,
+ "items": {
+  "L4-m-01": {
+   "correct": "Kąt (łuk południka) od równika do danego miejsca: 0–90° N lub S.",
+   "wrong": [
+    "Kąt (łuk równika) od Greenwich do danego miejsca: 0–180° E lub W.",
+    "Kąt (łuk południka) od bieguna do danego miejsca: 0–180° N lub S.",
+    "Kąt (łuk południka) od równika do danego miejsca: 0–360° N lub S."
+   ]
+  },
+  "L4-m-02": {
+   "correct": "Kąt (łuk równika) między południkiem zerowym (Greenwich) a południkiem miejsca: 0–180° E lub W.",
+   "wrong": [
+    "Kąt (łuk południka) między równikiem a równoleżnikiem miejsca: 0–90° N lub S.",
+    "Kąt (łuk równika) między południkiem zerowym (Greenwich) a południkiem miejsca: 0–90° E lub W.",
+    "Kąt (łuk równika) między południkiem zerowym (Greenwich) a południkiem miejsca: 0–360° N lub S."
+   ]
+  },
+  "L4-m-03": {
+   "correct": "Na bocznej (pionowej) ramce – skali szerokości, na wysokości mierzonego odcinka.",
+   "wrong": [
+    "Na górnej lub dolnej (poziomej) ramce – skali długości, na wysokości odcinka.",
+    "Na bocznej (pionowej) ramce – zawsze przy dolnej krawędzi mapy, niezależnie od odcinka.",
+    "Na dowolnej ramce – skala w milach jest na mapie Merkatora jednakowa w każdym miejscu."
+   ]
+  },
+  "L4-m-04": {
+   "correct": "Linią przecinającą wszystkie południki pod stałym kątem; na mapie Merkatora jest linią prostą.",
+   "wrong": [
+    "Najkrótszą drogą po kole wielkim; na mapie Merkatora jest linią prostą.",
+    "Linią przecinającą wszystkie południki pod stałym kątem; na mapie Merkatora jest krzywą.",
+    "Linią łączącą punkty o jednakowej głębokości; na mapie Merkatora jest krzywą."
+   ]
+  },
+  "L4-m-05": {
+   "correct": "Najkrótszą drogą między punktami na kuli ziemskiej (łuk koła wielkiego); na Merkatorze to krzywa.",
+   "wrong": [
+    "Linią przecinającą południki pod stałym kątem; na Merkatorze to linia prosta.",
+    "Najkrótszą drogą między punktami na kuli ziemskiej (łuk koła wielkiego); na Merkatorze to prosta.",
+    "Linią stałego kursu kompasowego, prowadzącą po równoleżniku; na Merkatorze to krzywa."
+   ]
+  },
+  "L4-m-06": {
+   "correct": "Jest wiernokątne – kąty i kierunki są zachowane, więc kurs i namiar wykreśla się prostą.",
+   "wrong": [
+    "Jest wiernopowierzchniowe – pola powierzchni są zachowane w całej mapie.",
+    "Jest wiernoodległościowe – skala odległości jest jednakowa na całej mapie.",
+    "Ortodroma jest na nim linią prostą, więc najkrótszą drogę wykreśla się prostą."
+   ]
+  },
+  "L4-m-07": {
+   "correct": "Do poziomu odniesienia mapy (zero mapy) – na morzach pływowych zwykle LAT, na Bałtyku średni poziom.",
+   "wrong": [
+    "Do poziomu najwyższej wody pływowej (HAT) – na wszystkich akwenach jednakowo.",
+    "Do aktualnego poziomu wody w chwili korzystania z mapy.",
+    "Do średniego poziomu wysokiej wody (MHWS) – na wszystkich akwenach jednakowo."
+   ]
+  },
+  "L4-m-08": {
+   "correct": "Mapy w największej dostępnej skali – planu portu / mapy podejściowej.",
+   "wrong": [
+    "Mapy w najmniejszej dostępnej skali – mapy generalnej akwenu.",
+    "Mapy przeglądowej obejmującej całą trasę rejsu.",
+    "Dowolnej mapy, byle w odwzorowaniu Merkatora – skala nie ma znaczenia."
+   ]
+  },
+  "L4-m-09": {
+   "correct": "Bo GPS podaje pozycję w WGS-84; przy innym datum mapy pozycja może być przesunięta.",
+   "wrong": [
+    "Bo GPS podaje pozycję magnetyczną, którą trzeba poprawić o deklinację z mapy.",
+    "Bo datum określa zero głębokości mapy, a GPS podaje wysokość nad poziomem morza.",
+    "Bo GPS podaje pozycję w strefie czasu UTC, a datum mapy – w czasie lokalnym."
+   ]
+  },
+  "L4-m-10": {
+   "correct": "1° = 60 Mm, 1′ = 1 Mm.",
+   "wrong": [
+    "1° = 100 Mm, 1′ = 1 Mm.",
+    "1° = 60 Mm, 1′ = 1 km.",
+    "1° = 360 Mm, 1′ = 6 Mm."
+   ]
+  },
+  "L4-k-01": {
+   "correct": "Kąt między północą rzeczywistą a magnetyczną; zależy od miejsca na Ziemi i od czasu.",
+   "wrong": [
+    "Kąt między północą magnetyczną a kompasową; zależy od kursu jachtu.",
+    "Kąt między północą rzeczywistą a magnetyczną; zależy od kursu jachtu.",
+    "Kąt między północą rzeczywistą a kompasową; jest stały dla danego jachtu."
+   ]
+  },
+  "L4-k-02": {
+   "correct": "Kąt między północą magnetyczną a kompasową, wywołany polem jachtu; zależy od kursu jachtu.",
+   "wrong": [
+    "Kąt między północą rzeczywistą a magnetyczną; zależy od miejsca i czasu.",
+    "Kąt między północą magnetyczną a kompasową; zależy tylko od miejsca na Ziemi.",
+    "Kąt między kursem a drogą nad dnem, wywołany prądem; zależy od siły prądu."
+   ]
+  },
+  "L4-k-03": {
+   "correct": "Deklinację – z róży kompasowej na mapie; dewiację – z tabeli lub wykresu dewiacji jachtu.",
+   "wrong": [
+    "Deklinację – z tabeli dewiacji jachtu; dewiację – z róży kompasowej na mapie.",
+    "Obie – z róży kompasowej na mapie, z aktualizacją o zmianę roczną.",
+    "Deklinację – z locji; dewiację – z róży kompasowej na mapie."
+   ]
+  },
+  "L4-k-04": {
+   "correct": "Wschodnia (E) = „+”, zachodnia (W) = „−”.",
+   "wrong": [
+    "Wschodnia (E) = „−”, zachodnia (W) = „+”.",
+    "Obie są zawsze „+”, różnią się tylko kierunkiem odkładania.",
+    "Wschodnia (E) = „+” tylko dla deklinacji, dla dewiacji odwrotnie."
+   ]
+  },
+  "L4-k-05": {
+   "correct": "KM = KK + δ; KR = KM + d; KR = KK + Δ, gdzie Δ = δ + d.",
+   "wrong": [
+    "KM = KK + d; KR = KM + δ; KR = KK + Δ, gdzie Δ = δ + d.",
+    "KM = KK − δ; KR = KM − d; KR = KK − Δ, gdzie Δ = δ + d.",
+    "KM = KR + δ; KK = KM + d; KK = KR + Δ, gdzie Δ = δ + d."
+   ]
+  },
+  "L4-k-06": {
+   "correct": "Płynąc nabieżnikiem o znanym kierunku rzeczywistym i porównując go z odczytem kompasu.",
+   "wrong": [
+    "Porównując odczyt kompasu z COG z GPS przy dowolnym kursie, bez poprawek.",
+    "Odczytując kierunek na Gwiazdę Polarną kompasem w dowolnym miejscu akwenu.",
+    "Porównując wskazania kompasu sterowego z kompasem w telefonie trzymanym przy kompasie."
+   ]
+  },
+  "L4-k-07": {
+   "correct": "Od kursu jachtu w chwili namiaru – nie od kierunku na namierzany obiekt.",
+   "wrong": [
+    "Od kierunku na namierzany obiekt – nie od kursu jachtu.",
+    "Od odległości do namierzanego obiektu.",
+    "Od deklinacji w danym miejscu – nie od kursu jachtu."
+   ]
+  },
+  "L4-z-01": {
+   "correct": "Pozycja wyznaczona z ostatniej pewnej pozycji, kursu, prędkości i czasu – bez obserwacji.",
+   "wrong": [
+    "Pozycja wyznaczona z przecięcia co najmniej dwóch namiarów na obiekty brzegowe.",
+    "Pozycja odczytana z odbiornika GPS i naniesiona na mapę.",
+    "Pozycja zliczona z uwzględnieniem dryfu i znosu prądem."
+   ]
+  },
+  "L4-z-02": {
+   "correct": "Log mierzy prędkość po wodzie, GPS – prędkość nad dnem (SOG); różnica wynika z prądu.",
+   "wrong": [
+    "Log mierzy prędkość nad dnem, GPS – prędkość po wodzie; różnica wynika z prądu.",
+    "Log mierzy prędkość względem wiatru, GPS – po wodzie; różnica wynika z dryfu.",
+    "Oba mierzą prędkość nad dnem; różnica wynika tylko z błędu kalibracji logu."
+   ]
+  },
+  "L4-z-03": {
+   "correct": "Na wschód – kierunek prądu podaje się DOKĄD płynie.",
+   "wrong": [
+    "Na zachód – kierunek prądu podaje się SKĄD płynie.",
+    "Na północ – kierunek prądu podaje się względem dziobu.",
+    "Na południe – kierunek prądu podaje się prostopadle do wiatru."
+   ]
+  },
+  "L4-z-04": {
+   "correct": "Ze wschodu – kierunek wiatru podaje się SKĄD wieje.",
+   "wrong": [
+    "Z zachodu – kierunek wiatru podaje się DOKĄD wieje.",
+    "Z północy – kierunek wiatru podaje się względem dziobu.",
+    "Z południa – kierunek wiatru podaje się prostopadle do prądu."
+   ]
+  },
+  "L4-z-05": {
+   "correct": "Dryf – znoszenie przez wiatr (kąt α); znos – przesunięcie przez prąd (kąt β).",
+   "wrong": [
+    "Dryf – przesunięcie przez prąd (kąt β); znos – znoszenie przez wiatr (kąt α).",
+    "Dryf i znos to to samo – znoszenie przez wiatr, różnie nazywane.",
+    "Dryf – błąd kompasu (dewiacja); znos – przesunięcie przez prąd."
+   ]
+  },
+  "L4-z-06": {
+   "correct": "„+” – jacht jest znoszony w prawo, KDw = KR + α.",
+   "wrong": [
+    "„−” – jacht jest znoszony w lewo, KDw = KR − α.",
+    "„−” – jacht jest znoszony w prawo, KDw = KR − α.",
+    "„+” – jacht jest znoszony w lewo, KDw = KR + α."
+   ]
+  },
+  "L4-z-07": {
+   "correct": "Pozycja zliczona z uwzględnieniem dryfu i prądu (znosu).",
+   "wrong": [
+    "Pozycja wyznaczona z dwóch namiarów nierównoczesnych.",
+    "Pozycja zliczona bez uwzględniania dryfu i prądu.",
+    "Pozycja odczytana z GPS z uwzględnieniem datum mapy."
+   ]
+  },
+  "L4-z-08": {
+   "correct": "Graficznie: trójkąt prędkości – wektor drogi po wodzie (KDw) plus wektor prądu daje KDd.",
+   "wrong": [
+    "Graficznie: od wektora drogi po wodzie (KDw) odejmuje się wektor wiatru i otrzymuje KDd.",
+    "Rachunkowo: KDd = KK + deklinacja + dewiacja, prąd się pomija.",
+    "Graficznie: wektor prądu odkłada się przeciwnie do jego kierunku od pozycji startowej."
+   ]
+  },
+  "L4-p-01": {
+   "correct": "Linia (prosta lub okrąg), na której w chwili obserwacji znajduje się jacht.",
+   "wrong": [
+    "Linia zaplanowanej trasy, wykreślona przed rejsem na mapie.",
+    "Linia łącząca kolejne pozycje zliczone jachtu.",
+    "Linia kursu rzeczywistego wykreślona od ostatniej pozycji obserwowanej."
+   ]
+  },
+  "L4-p-02": {
+   "correct": "Nabieżnik – dwa obiekty widziane w jednej linii.",
+   "wrong": [
+    "Namiar kompasowy na pojedynczą latarnię.",
+    "Odległość zmierzona radarem od brzegu.",
+    "Izobata odczytana z sondy."
+   ]
+  },
+  "L4-p-03": {
+   "correct": "Możliwie bliskim 90°; przy trzech namiarach – co ok. 60–120°.",
+   "wrong": [
+    "Możliwie małym, poniżej 30°; przy trzech namiarach – co ok. 10–20°.",
+    "Możliwie bliskim 180°; przy trzech namiarach – co ok. 150°.",
+    "Kąt nie ma znaczenia dla dokładności pozycji."
+   ]
+  },
+  "L4-p-04": {
+   "correct": "Obiekt najbliżej trawersu – jego namiar zmienia się najszybciej.",
+   "wrong": [
+    "Obiekt najbliżej dziobu – jego namiar zmienia się najszybciej.",
+    "Obiekt najdalej od jachtu – jego namiar zmienia się najszybciej.",
+    "Obiekt najbliżej rufy – jego namiar zmienia się najwolniej."
+   ]
+  },
+  "L4-p-05": {
+   "correct": "Okręgiem o środku w obiekcie i promieniu równym odległości.",
+   "wrong": [
+    "Prostą przechodzącą przez obiekt, prostopadłą do kursu jachtu.",
+    "Okręgiem o środku w jachcie i promieniu równym odległości.",
+    "Prostą od obiektu w kierunku namiaru rzeczywistego."
+   ]
+  },
+  "L4-p-06": {
+   "correct": "Błąd – najczęściej zła identyfikacja obiektu, zła poprawka kompasu lub nierównoczesne namiary.",
+   "wrong": [
+    "Że pozycja jest bardzo dokładna, bo objęła duży obszar.",
+    "Że jacht znajduje się w pobliżu niebezpieczeństwa nawigacyjnego.",
+    "Że namiary wzięto zbyt dokładnie – trójkąt zawsze rośnie przy dobrym kompasie."
+   ]
+  },
+  "L4-p-07": {
+   "correct": "Dwa namiary na jeden obiekt w odstępie czasu; pierwszą linię przesuwasz o drogę przebytą między nimi.",
+   "wrong": [
+    "Dwa namiary na dwa obiekty w tej samej chwili; pozycja jest w przecięciu linii.",
+    "Dwa namiary na jeden obiekt w odstępie czasu; pozycja jest w przecięciu linii bez przesuwania.",
+    "Dwa namiary na jeden obiekt w odstępie czasu; drugą linię przesuwasz o prąd w przeciwną stronę."
+   ]
+  },
+  "L4-p-08": {
+   "correct": "Wyznacza granicę – utrzymując namiar powyżej/poniżej ustalonej wartości, jacht omija niebezpieczeństwo.",
+   "wrong": [
+    "Wyznacza dokładną pozycję jachtu bez potrzeby innych obserwacji.",
+    "Służy do sprawdzenia dewiacji kompasu na danym kursie.",
+    "Wyznacza kierunek do najbliższego portu schronienia."
+   ]
+  },
+  "L4-p-09": {
+   "correct": "Namiar rzeczywisty NR; linia biegnie od obiektu w kierunku NR ± 180°.",
+   "wrong": [
+    "Namiar kompasowy NK; linia biegnie od jachtu w kierunku NK.",
+    "Namiar magnetyczny NM; linia biegnie od obiektu w kierunku NM.",
+    "Namiar rzeczywisty NR; linia biegnie od obiektu w kierunku NR."
+   ]
+  },
+  "L4-l-01": {
+   "correct": "W spisie świateł i sygnałów nawigacyjnych (Admiralty List of Lights) oraz skrótowo na mapie.",
+   "wrong": [
+    "W tablicach pływów (Admiralty Tide Tables).",
+    "W spisie radiostacji (Admiralty List of Radio Signals).",
+    "W publikacji INT 1 – „Symbole i skróty na mapach morskich”."
+   ]
+  },
+  "L4-l-02": {
+   "correct": "Opis akwenu: wybrzeża, portów i podejść, niebezpieczeństw, przepisów lokalnych, warunków hydrometeo.",
+   "wrong": [
+    "Wyłącznie charakterystyki świateł latarni i pław danego akwenu.",
+    "Tabele wysokości i godzin pływów dla portów głównych.",
+    "Objaśnienia symboli i skrótów stosowanych na mapach morskich."
+   ]
+  },
+  "L4-l-03": {
+   "correct": "Na podstawie Wiadomości Żeglarskich (Notices to Mariners).",
+   "wrong": [
+    "Na podstawie komunikatów NAVTEX z prognozą pogody.",
+    "Na podstawie corocznych tablic pływów.",
+    "Na podstawie wpisów w dzienniku jachtowym."
+   ]
+  },
+  "L4-l-04": {
+   "correct": "W publikacji INT 1 (Admiralty Chart 5011) – „Symbole i skróty na mapach morskich”.",
+   "wrong": [
+    "W spisie świateł i sygnałów nawigacyjnych (Admiralty List of Lights).",
+    "W Wiadomościach Żeglarskich (Notices to Mariners).",
+    "W spisie radiostacji (Admiralty List of Radio Signals)."
+   ]
+  },
+  "L4-l-05": {
+   "correct": "W spisie radiostacji (Admiralty List of Radio Signals) oraz w locji.",
+   "wrong": [
+    "W publikacji INT 1 (Admiralty Chart 5011).",
+    "W tablicach pływów (Admiralty Tide Tables).",
+    "W spisie świateł (Admiralty List of Lights) – wyłącznie."
+   ]
+  },
+  "L4-l-06": {
+   "correct": "Linia na mapie łącząca punkty o jednakowej głębokości.",
+   "wrong": [
+    "Linia na mapie łącząca punkty o jednakowym ciśnieniu.",
+    "Linia na mapie łącząca punkty o jednakowej deklinacji.",
+    "Linia na mapie łącząca punkty o jednakowej wysokości terenu."
+   ]
+  },
+  "L4-l-07": {
+   "correct": "Światło przerywane grupowe (2 zaciemnienia), czerwone, okres 8 s, wys. 12 m, zasięg 9 Mm.",
+   "wrong": [
+    "Światło błyskowe grupowe (2 błyski), czerwone, okres 8 s, wys. 12 m, zasięg 9 Mm.",
+    "Światło przerywane grupowe (2 zaciemnienia), czerwone, okres 12 s, wys. 8 m, zasięg 9 Mm.",
+    "Światło przerywane grupowe (2 zaciemnienia), czerwone, okres 8 s, wys. 9 m, zasięg 12 Mm."
+   ]
+  },
+  "L4-l-08": {
+   "correct": "Mapa w największej skali i locja; głębokości vs zanurzenie; oznakowanie; sygnały portowe; VHF; plan awaryjny.",
+   "wrong": [
+    "Mapa w najmniejszej skali i locja; głębokości vs zanurzenie; oznakowanie; sygnały portowe; VHF; plan awaryjny.",
+    "Mapa w największej skali i locja; głębokości vs wysokość masztu; oznakowanie; sygnały portowe; VHF; plan awaryjny.",
+    "Mapa w największej skali i locja; głębokości vs zanurzenie; oznakowanie; sygnały portowe; VHF; bez planu awaryjnego."
+   ]
+  },
+  "L4-l-09": {
+   "correct": "Bo nocą wybrzeże wygląda inaczej – światła rozpoznaje się po charakterystykach i kolejności.",
+   "wrong": [
+    "Bo nocą latarnie są wyłączane, a zapalają się w ustalonej kolejności.",
+    "Bo nocą wszystkie światła mają tę samą charakterystykę i rozróżnia się je tylko po kolorze.",
+    "Bo przepisy portowe nakazują zgłosić kolejność świateł kapitanatowi przez VHF."
+   ]
+  },
+  "L4-l-10": {
+   "correct": "Zapisuje się numer i rok wiadomości (zwykle w lewym dolnym marginesie mapy).",
+   "wrong": [
+    "Zapisuje się datę i godzinę naniesienia w prawym górnym rogu mapy.",
+    "Zapisuje się nazwisko osoby nanoszącej poprawkę w tytule mapy.",
+    "Nie zapisuje się niczego – wystarczy narysować poprawkę ołówkiem."
+   ]
+  },
+  "L4-t-01": {
+   "correct": "Różnica wysokości między kolejnymi wysoką (HW) a niską wodą (LW).",
+   "wrong": [
+    "Czas między kolejnymi wysoką (HW) a niską wodą (LW).",
+    "Wysokość wysokiej wody (HW) ponad zero mapy.",
+    "Różnica wysokości między dwiema kolejnymi wysokimi wodami (HW)."
+   ]
+  },
+  "L4-t-02": {
+   "correct": "Przy nowiu i pełni Księżyca; mają największy rozstęp.",
+   "wrong": [
+    "W pierwszej i ostatniej kwadrze Księżyca; mają największy rozstęp.",
+    "Przy nowiu i pełni Księżyca; mają najmniejszy rozstęp.",
+    "W okresie przesileń Słońca; mają najmniejszy rozstęp."
+   ]
+  },
+  "L4-t-03": {
+   "correct": "W pierwszej i ostatniej kwadrze Księżyca; mają najmniejszy rozstęp.",
+   "wrong": [
+    "Przy nowiu i pełni Księżyca; mają najmniejszy rozstęp.",
+    "W pierwszej i ostatniej kwadrze Księżyca; mają największy rozstęp.",
+    "W okresie równonocy; mają największy rozstęp."
+   ]
+  },
+  "L4-t-04": {
+   "correct": "Głębokość z mapy (względem zera mapy) + aktualna wysokość pływu.",
+   "wrong": [
+    "Głębokość z mapy − aktualna wysokość pływu.",
+    "Głębokość z mapy + rozstęp pływu.",
+    "Głębokość z mapy − rozstęp pływu."
+   ]
+  },
+  "L4-t-05": {
+   "correct": "Port główny ma pełne prognozy HW/LW; dla dołączonego liczy się je poprawkami czasu i wysokości.",
+   "wrong": [
+    "Port dołączony ma pełne prognozy HW/LW; dla głównego liczy się je poprawkami czasu i wysokości.",
+    "Port główny ma pływy syzygijne, a port dołączony – tylko kwadraturowe.",
+    "Port główny podaje tylko godziny HW, a port dołączony – tylko wysokości LW."
+   ]
+  },
+  "L4-t-06": {
+   "correct": "W kolejnych 6 h przyboru/ubioru poziom zmienia się o 1/12, 2/12, 3/12, 3/12, 2/12, 1/12 rozstępu.",
+   "wrong": [
+    "W kolejnych 6 h przyboru/ubioru poziom zmienia się równo o 2/12 rozstępu co godzinę.",
+    "W kolejnych 6 h przyboru/ubioru poziom zmienia się o 3/12, 2/12, 1/12, 1/12, 2/12, 3/12 rozstępu.",
+    "W kolejnych 12 h przyboru poziom zmienia się o 1/12 rozstępu co godzinę."
+   ]
+  },
+  "L4-t-07": {
+   "correct": "Z atlasu prądów pływowych lub z tabeli rombów na mapie – dla godziny względem HW w porcie głównym.",
+   "wrong": [
+    "Z tablic pływów – dla godziny względem LW w porcie dołączonym.",
+    "Z róży kompasowej na mapie, z aktualizacją o zmianę roczną.",
+    "Ze spisu świateł – dla godziny względem wschodu Słońca."
+   ]
+  },
+  "L4-t-08": {
+   "correct": "Ok. 12 h 25 min (zwykle 2 wysokie i 2 niskie wody na dobę).",
+   "wrong": [
+    "Ok. 6 h 12 min (zwykle 4 wysokie i 4 niskie wody na dobę).",
+    "Ok. 24 h 50 min (zwykle 1 wysoka i 1 niska woda na dobę we wszystkich portach).",
+    "Dokładnie 12 h 00 min (2 wysokie i 2 niskie wody o stałych godzinach)."
+   ]
+  },
+  "L4-u-01": {
+   "correct": "Prędkość jachtu po wodzie i przebytą drogę.",
+   "wrong": [
+    "Prędkość jachtu nad dnem i kurs nad dnem.",
+    "Głębokość wody pod kilem.",
+    "Prędkość i kierunek wiatru pozornego."
+   ]
+  },
+  "L4-u-02": {
+   "correct": "Czy wskazuje głębokość pod przetwornikiem, pod kilem czy od powierzchni wody (offset).",
+   "wrong": [
+    "Czy wskazuje głębokość w metrach, czy w milach morskich.",
+    "Czy wskazanie uwzględnia już aktualną wysokość pływu względem zera mapy.",
+    "Czy jest ustawiona na stopnie rzeczywiste, czy magnetyczne."
+   ]
+  },
+  "L4-u-03": {
+   "correct": "COG – kurs nad dnem (Course Over Ground), SOG – prędkość nad dnem (Speed Over Ground).",
+   "wrong": [
+    "COG – kurs kompasowy (Compass Over Ground), SOG – prędkość po wodzie (Speed On Ground).",
+    "COG – kurs po wodzie (Course Of Going), SOG – prędkość wiatru (Speed Of Gust).",
+    "COG – odchylenie od trasy (Cross Over Ground), SOG – odległość do celu (Span Of Ground)."
+   ]
+  },
+  "L4-u-04": {
+   "correct": "Odchylenie boczne od zaplanowanej trasy (Cross Track Error).",
+   "wrong": [
+    "Szacowany czas dotarcia do punktu drogi (Expected Time En route).",
+    "Błąd wskazania kompasu względem GPS (Compass Track Error).",
+    "Odległość do następnego punktu trasy (Cross To End)."
+   ]
+  },
+  "L4-u-05": {
+   "correct": "System automatycznej identyfikacji statków: nazwa, MMSI, pozycja, kurs, prędkość; liczy CPA/TCPA.",
+   "wrong": [
+    "System radarowy wykrywający wszystkie jednostki, także bez nadajnika: tylko echo i odległość.",
+    "System łączności alarmowej DSC: wysyła tylko pozycję w razie wezwania pomocy.",
+    "System prognoz pogody NAVTEX: podaje ostrzeżenia nawigacyjne i meteo."
+   ]
+  },
+  "L4-u-06": {
+   "correct": "CPA – odległość największego zbliżenia z innym statkiem; TCPA – czas do tego momentu.",
+   "wrong": [
+    "CPA – czas do największego zbliżenia; TCPA – odległość największego zbliżenia.",
+    "CPA – kurs drugiego statku; TCPA – jego prędkość nad dnem.",
+    "CPA – odległość do następnego punktu trasy; TCPA – czas dotarcia do niego."
+   ]
+  },
+  "L4-u-07": {
+   "correct": "Nie – trzeba regularnie weryfikować pozycję (obserwacje, mapa papierowa, dziennik).",
+   "wrong": [
+    "Tak – ploter z aktualną mapą elektroniczną całkowicie zastępuje mapę i obserwacje.",
+    "Tak – wystarczy raz dziennie wpisać pozycję z plotera do dziennika.",
+    "Nie – ale tylko w porze nocnej; w dzień ploter wystarcza."
+   ]
+  },
+  "L4-u-08": {
+   "correct": "D ≈ 2,08 × √h (D w Mm, h – wysokość oka w metrach).",
+   "wrong": [
+    "D ≈ 2,08 × h (D w Mm, h – wysokość oka w metrach).",
+    "D ≈ 20,8 × √h (D w Mm, h – wysokość oka w metrach).",
+    "D ≈ 2,08 × √h (D w km, h – wysokość oka w stopach)."
+   ]
+  },
+  "L4-u-09": {
+   "correct": "Zasięg świetlny przy widzialności meteorologicznej 10 Mm – podany na mapie i w spisie świateł.",
+   "wrong": [
+    "Zasięg geograficzny wynikający z krzywizny Ziemi i wysokości oka obserwatora.",
+    "Zasięg świetlny przy aktualnej widzialności meteorologicznej w danej chwili.",
+    "Zasięg świetlny przy widzialności meteorologicznej 1 Mm (we mgle)."
+   ]
+  },
+  "L4-u-10": {
+   "correct": "Wiatr odczuwany na płynącym jachcie – wypadkowa wiatru rzeczywistego i wiatru od ruchu jachtu.",
+   "wrong": [
+    "Wiatr rzeczywisty mierzony na stojącym jachcie lub na lądzie.",
+    "Wiatr podawany w prognozie pogody dla danego akwenu.",
+    "Różnica między prędkością wiatru w porywach a średnią prędkością wiatru."
+   ]
+  }
+ }
+}

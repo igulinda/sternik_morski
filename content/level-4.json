@@ -103,7 +103,7 @@
      "items": [
       "**Deklinacja (d)** – kąt między północą rzeczywistą (geograficzną) a magnetyczną. Zależy od **miejsca i roku**. Odczytujesz ją z **róży kompasowej na mapie** i aktualizujesz o zmianę roczną.",
       "**Dewiacja (δ)** – kąt między północą magnetyczną a kompasową, wywołany żelazem i elektryką **na jachcie**. Zależy od **kursu jachtu**. Odczytujesz ją z **tabeli dewiacji** danego kompasu.",
-      "**Poprawka całkowita Δ = δ + d.**"
+      "**Poprawka całkowita cp = δ + d.**"
      ]
     },
     {
@@ -127,13 +127,13 @@
       [
        "rzeczywisty",
        "KR",
-       "KR = KM + d = KK + Δ"
+       "KR = KM + d = KK + cp"
       ]
      ]
     },
     {
      "t": "p",
-     "text": "**Znaki**: poprawka wschodnia (**E**) = **„+”**, zachodnia (**W**) = **„−”**. Od kompasu do mapy (KK → KR) **dodajesz** poprawki ze znakiem; od mapy do kompasu (KR → KK) **odejmujesz** je. Tak samo przelicza się **namiary**: NR = NK + Δ."
+     "text": "**Znaki**: poprawka wschodnia (**E**) = **„+”**, zachodnia (**W**) = **„−”**. Od kompasu do mapy (KK → KR) **dodajesz** poprawki ze znakiem; od mapy do kompasu (KR → KK) **odejmujesz** je. Tak samo przelicza się **namiary**: NR = NK + cp."
     },
     {
      "t": "tip",
@@ -176,7 +176,7 @@
     {
      "id": "L4-k-05",
      "q": "Napisz wzory łączące KK, KM i KR.",
-     "a": "KM = KK + δ; KR = KM + d; KR = KK + Δ, gdzie Δ = δ + d.",
+     "a": "KM = KK + δ; KR = KM + d; KR = KK + cp, gdzie cp = δ + d.",
      "difficulty": 1
     },
     {
@@ -249,15 +249,15 @@
    "theory": [
     {
      "t": "p",
-     "text": "**Nawigacja zliczeniowa** to wyznaczanie pozycji na podstawie ostatniej pewnej pozycji, kursu, prędkości i czasu. Pozycja zliczona (**ZL**) jest tym mniej pewna, im dłużej płyniemy bez obserwacji."
+     "text": "**Nawigacja zliczeniowa** to wyznaczanie pozycji na podstawie ostatniej pewnej pozycji, kursu, prędkości i czasu. Pozycja zliczona (**PZ**) jest tym mniej pewna, im dłużej płyniemy bez obserwacji."
     },
     {
      "t": "ul",
      "items": [
       "**Droga = prędkość × czas** (Mm = w × h). Zamieniaj minuty na godziny: 45 min = 0,75 h.",
       "**Log** mierzy prędkość **po wodzie**; GPS podaje prędkość i kurs **nad dnem** (SOG, COG).",
-      "**Dryf (α)** – znoszenie jachtu przez wiatr. **Kąt drogi po wodzie KDw = KR + α**. Wiatr z lewej burty → dryf w prawo → α **„+”**; wiatr z prawej → α **„−”**.",
-      "**Znos (β)** – przesunięcie jachtu przez **prąd**. Kąt drogi nad dnem **KDd** wyznacza się graficznie (trójkąt prędkości: wektor jachtu + wektor prądu).",
+      "**Dryf (pw)** – znoszenie jachtu przez wiatr. **Kąt drogi po wodzie KDw = KR + pw**. Wiatr z lewej burty → dryf w prawo → pw **„+”**; wiatr z prawej → pw **„−”**.",
+      "**Znos (pp)** – przesunięcie jachtu przez **prąd**. Kąt drogi nad dnem **KDd** wyznacza się graficznie (trójkąt prędkości: wektor jachtu + wektor prądu).",
       "**Kierunek prądu** podaje się **dokąd płynie** („prąd 090°” płynie na wschód), a **kierunek wiatru – skąd wieje** („wiatr 090°” wieje ze wschodu).",
       "Pozycje: **zliczona** (z kursu i prędkości), **obserwowana** (z obserwacji obiektów/GPS), **prawdopodobna** (zliczona z uwzględnieniem dryfu i prądu)."
      ]
@@ -295,13 +295,13 @@
     {
      "id": "L4-z-05",
      "q": "Co to jest dryf, a co znos?",
-     "a": "Dryf – znoszenie jachtu przez wiatr (kąt α). Znos – przesunięcie przez prąd (kąt β).",
+     "a": "Dryf – znoszenie jachtu przez wiatr (pw). Znos – przesunięcie przez prąd (pp).",
      "difficulty": 2
     },
     {
      "id": "L4-z-06",
      "q": "Jaki znak ma kąt dryfu przy wietrze z lewej burty?",
-     "a": "„+” – jacht jest znoszony w prawo, KDw = KR + α.",
+     "a": "„+” – jacht jest znoszony w prawo, KDw = KR + pw.",
      "difficulty": 2
     },
     {
@@ -433,7 +433,7 @@
     {
      "id": "L4-p-09",
      "q": "Jaki namiar wykreślasz na mapie?",
-     "a": "Namiar rzeczywisty NR (po poprawieniu namiaru kompasowego o Δ). Linia biegnie od obiektu w kierunku NR ± 180°.",
+     "a": "Namiar rzeczywisty NR (po poprawieniu namiaru kompasowego o cp). Linia biegnie od obiektu w kierunku NR ± 180°.",
      "difficulty": 2
     }
    ]
