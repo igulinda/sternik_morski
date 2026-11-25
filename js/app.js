@@ -65,8 +65,8 @@
     let html = `<h1>Jachtowy sternik morski</h1>
       <p class="sub">Nauka do egzaminu teoretycznego: od podstaw do zagadnień złożonych.</p>
       <div class="mode-grid">
-        <a class="card-box mode" href="#/poziom/1"><div class="big">🧭</div><b>Nauka od podstaw</b><div class="level-desc">Poziomy po kolei: teoria + fiszki</div></a>
-        <a class="card-box mode" href="#/losowy"><div class="big">🎲</div><b>Tryb losowy</b><div class="level-desc">Wymieszane fiszki ze wszystkich działów</div></a>
+        <a class="card-box mode" href="#poziom-1"><div class="big">🧭</div><b>Nauka od podstaw</b><div class="level-desc">Poziomy po kolei: teoria + fiszki</div></a>
+        <a class="card-box mode" href="#losowy"><div class="big">🎲</div><b>Tryb losowy</b><div class="level-desc">Wymieszane fiszki ze wszystkich działów</div></a>
       </div>
       <div class="stats card-box">
         <div class="stat"><b>${allCards.length}</b>fiszek</div>
@@ -79,7 +79,7 @@
       if (data) {
         const cards = data.lessons.flatMap((x) => x.cards);
         const m = mastery(cards);
-        html += `<a class="card-box level" href="#/poziom/${l.level}">
+        html += `<a class="card-box level" href="#poziom-${l.level}">
           <div class="level-head"><div class="level-num">${l.level}</div>
           <div><div class="level-title">${esc(l.title)}</div><div class="level-desc">${esc(l.desc)}</div></div></div>
           <div class="bar"><span style="width:${m}%"></span></div>
@@ -96,8 +96,8 @@
   function viewLevel(n) {
     const data = LEVELS[n];
     const meta = INDEX.levels.find((l) => l.level === n);
-    if (!data) { app.innerHTML = `<p>Ten poziom jest w przygotowaniu.</p><a class="btn" href="#/">← Wróć</a>`; return; }
-    let html = `<a href="#/">← Wszystkie poziomy</a><h1>Poziom ${n}: ${esc(meta.title)}</h1><p class="sub">${esc(meta.desc)}</p>`;
+    if (!data) { app.innerHTML = `<p>Ten poziom jest w przygotowaniu.</p><a class="btn" href="#start">← Wróć</a>`; return; }
+    let html = `<a href="#start">← Wszystkie poziomy</a><h1>Poziom ${n}: ${esc(meta.title)}</h1><p class="sub">${esc(meta.desc)}</p>`;
     data.lessons.forEach((ls, i) => {
       const m = mastery(ls.cards);
       html += `<div class="card-box"><div class="lesson-row"><div>
@@ -105,21 +105,21 @@
           <div class="meta">${ls.cards.length} fiszek · ${m}% opanowane</div></div>
           <span class="pill">${m >= 80 ? '✔ opanowane' : m > 0 ? 'w trakcie' : 'nowa'}</span></div>
         <div class="bar"><span style="width:${m}%"></span></div>
-        <div class="btn-row"><a class="btn" href="#/lekcja/${ls.id}">📖 Teoria</a>
-          <a class="btn primary" href="#/fiszki/${ls.id}">🃏 Fiszki</a></div></div>`;
+        <div class="btn-row"><a class="btn" href="#lekcja-${ls.id}">📖 Teoria</a>
+          <a class="btn primary" href="#fiszki-${ls.id}">🃏 Fiszki</a></div></div>`;
     });
     const next = INDEX.levels.find((l) => l.level === n + 1 && LEVELS[l.level]);
-    if (next) html += `<a class="btn" href="#/poziom/${n + 1}">Następny poziom →</a>`;
+    if (next) html += `<a class="btn" href="#poziom-${n + 1}">Następny poziom →</a>`;
     app.innerHTML = html;
   }
 
   function viewLesson(id) {
     const ls = findLesson(id);
-    if (!ls) { location.hash = '#/'; return; }
-    app.innerHTML = `<a href="#/poziom/${ls.level}">← Poziom ${ls.level}</a>
+    if (!ls) { location.hash = '#start'; return; }
+    app.innerHTML = `<a href="#poziom-${ls.level}">← Poziom ${ls.level}</a>
       <h1>${esc(ls.title)}</h1>
       <div class="card-box theory">${ls.theory.map(theoryBlock).join('')}</div>
-      <div class="btn-row"><a class="btn primary" href="#/fiszki/${ls.id}">Przejdź do fiszek (${ls.cards.length}) →</a></div>`;
+      <div class="btn-row"><a class="btn primary" href="#fiszki-${ls.id}">Przejdź do fiszek (${ls.cards.length}) →</a></div>`;
     window.scrollTo(0, 0);
   }
 
@@ -136,7 +136,7 @@
     const back = s.revealed;
     const aVis = c.aVisual || c.qVisual;
     app.innerHTML = `<a href="${s.backHref}">← ${esc(s.title)}</a>
-      <div class="progress-line" style="margin-top:8px"><span>Ukończone ${s.done} / ${s.total}</span><span>${c.lessonTitle ? esc(c.lessonTitle) : ''}</span></div>
+      <div class="progress-line" style="margin-top:8px"><span>Ukończone ${s.done} / ${s.total}</span><span>${c.lessonTitle && c.lessonTitle !== s.title ? esc(c.lessonTitle) : ''}</span></div>
       <div class="bar" style="margin-bottom:12px"><span style="width:${Math.round(100 * s.done / s.total)}%"></span></div>
       <div class="card-box flash">
         <div class="q">${md(c.q)}</div>
@@ -186,14 +186,14 @@
 
   function viewCards(id) {
     const ls = findLesson(id);
-    if (!ls) { location.hash = '#/'; return; }
-    startSession(lessonCards(ls), ls.title, `#/poziom/${ls.level}`);
+    if (!ls) { location.hash = '#start'; return; }
+    startSession(lessonCards(ls), ls.title, `#poziom-${ls.level}`);
   }
 
   /* ---------- tryb losowy ---------- */
   function viewRandomSetup() {
     const avail = INDEX.levels.filter((l) => LEVELS[l.level]);
-    app.innerHTML = `<a href="#/">← Start</a><h1>Tryb losowy</h1>
+    app.innerHTML = `<a href="#start">← Start</a><h1>Tryb losowy</h1>
       <p class="sub">Fiszki wymieszane ze wszystkich wybranych poziomów. Częściej pojawiają się te, których jeszcze nie umiesz.</p>
       <div class="card-box opts">
         <b>Poziomy</b><div>${avail.map((l) => `<label><input type="checkbox" name="lv" value="${l.level}" checked> ${l.level}. ${esc(l.title)}</label>`).join('')}</div>
@@ -214,14 +214,16 @@
       const weighted = shuffle(pool).map((c) => ({ c, w: Math.random() * (4 - Math.max(box(c.id), 0)) }))
         .sort((a, b) => b.w - a.w).map((x) => x.c);
       const pick = shuffle(n ? weighted.slice(0, n) : weighted);
-      startSession(pick, 'Tryb losowy', '#/losowy');
+      startSession(pick, 'Tryb losowy', '#losowy');
     };
   }
 
   /* ---------- routing ---------- */
   function route() {
-    const h = location.hash.replace(/^#\/?/, '');
-    const [a, b] = h.split('/');
+    const h = location.hash.replace(/^#/, '');
+    const i = h.indexOf('-');
+    const a = i < 0 ? h : h.slice(0, i);
+    const b = i < 0 ? '' : h.slice(i + 1);
     if (a === 'poziom') return viewLevel(+b);
     if (a === 'lekcja') return viewLesson(b);
     if (a === 'fiszki') return viewCards(b);
