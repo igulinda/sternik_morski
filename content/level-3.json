@@ -1,0 +1,1668 @@
+{
+ "level": 3,
+ "title": "Światła, znaki i sygnały – pełny zakres",
+ "lessons": [
+  {
+   "id": "L3-swiatla",
+   "title": "Światła wszystkich jednostek",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Na poziomie 2 poznałaś światła podstawowe. Teraz jednostki „specjalne” – rozpoznaje się je po **światłach widocznych dookoła** ustawionych w pionie na maszcie. Zasada: najpierw odczytaj światła w pionie (kim jest statek), potem burtowe/rufowe (czy ma ruch i z której strony go widzisz)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Światła w pionie (od góry)",
+      "Statek",
+      "Mnemotechnika"
+     ],
+     "rows": [
+      [
+       "zielone nad białym",
+       "rybak trałujący",
+       "„zielone nad białym – trałuje nocą”"
+      ],
+      [
+       "czerwone nad białym",
+       "rybak nietrałujący (sieci, liny)",
+       "„czerwone nad białym – rybak łowi”"
+      ],
+      [
+       "białe nad czerwonym",
+       "pilotówka na służbie",
+       "„białe nad czerwonym – pilot na pokładzie”"
+      ],
+      [
+       "czerwone, czerwone",
+       "niezdolny do manewrowania",
+       "„czerwone nad czerwonym – kapitan nie panuje”"
+      ],
+      [
+       "czerwone, białe, czerwone",
+       "ograniczona zdolność manewrowa",
+       "jak znak dzienny kula–romb–kula"
+      ],
+      [
+       "3 × czerwone",
+       "ograniczony zanurzeniem",
+       "„3 czerwone – głęboko zanurzony”"
+      ],
+      [
+       "3 × zielone (trójkąt)",
+       "trałowiec – usuwanie min",
+       "nie zbliżaj się na 1000 m"
+      ],
+      [
+       "2 × czerwone + kotwiczne",
+       "statek na mieliźnie",
+       "niezdolny + kotwica"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Holowanie (prawidło 24)**: holownik pokazuje **2 masztowe w pionie** (**3**, gdy długość holu od rufy holownika do końca zestawu > 200 m), burtowe, rufowe i **żółte holownicze nad rufowym**. Zestaw holowany: burtowe i rufowe.",
+      "**Pchanie**: pchacz pokazuje 2 masztowe w pionie, burtowe i rufowe (bez żółtego). Zestaw sztywno połączony traktuje się jak jeden statek mechaniczny.",
+      "**Rybak w ruchu** dodaje burtowe i rufowe; **bez ruchu po wodzie** – tylko światła w pionie. Trałowiec ≥ 50 m ma też masztowe – za i wyżej niż zielone.",
+      "**Niezdolny do manewrowania** – burtowe i rufowe tylko, gdy ma ruch po wodzie; **nigdy masztowego**.",
+      "**Ograniczona zdolność manewrowa** – w ruchu dodaje masztowe, burtowe, rufowe; na kotwicy – światła kotwiczne.",
+      "**Mała jednostka mechaniczna < 12 m**: zamiast masztowego i rufowego może pokazywać jedno białe dookoła + burtowe. Jednostka < 7 m o prędkości ≤ 7 w – białe dookoła.",
+      "**Żaglowiec < 7 m / łódź wiosłowa**: jeśli nie może mieć świateł żaglowca, ma pod ręką białą latarkę, którą pokazuje dla uniknięcia zderzenia."
+     ]
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "silhouette": true,
+      "ar": [
+       "g",
+       "w"
+      ]
+     },
+     "caption": "Rybak trałujący z ruchem, z prawej burty: zielone nad białym, masztowe, zielone burtowe."
+    },
+    {
+     "t": "tip",
+     "text": "Kolejność czytania: czerwone/zielone/białe W PIONIE mówią KIM statek jest. Burtowe mówią, czy MA RUCH i kto ustępuje. Brak burtowych = nie ma ruchu po wodzie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-l-01",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "g",
+       "w"
+      ]
+     },
+     "a": "Rybak trałujący w ruchu, widziany od dziobu (zielone nad białym + burtowe).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "g",
+       "w"
+      ],
+      "silhouette": true
+     },
+     "tip": "„Zielone nad białym – trałuje nocą.”",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-02",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "w"
+      ]
+     },
+     "a": "Rybak nietrałujący (sieci, liny) w ruchu, widziany z prawej burty.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "w"
+      ],
+      "silhouette": true
+     },
+     "tip": "„Czerwone nad białym – rybak łowi.”",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-03",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [],
+      "ar": [
+       "g",
+       "w"
+      ]
+     },
+     "a": "Rybak trałujący bez ruchu po wodzie (brak burtowych).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [],
+      "ar": [
+       "g",
+       "w"
+      ],
+      "silhouette": true
+     },
+     "explain": "Statek zajęty połowem zapala burtowe i rufowe tylko wtedy, gdy ma ruch po wodzie.",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-l-04",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "power",
+      "carries": [
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "r"
+      ]
+     },
+     "a": "Statek niezdolny do manewrowania, mający ruch po wodzie (widziany z lewej burty).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "port",
+      "vessel": "power",
+      "carries": [
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "explain": "Dwa czerwone dookoła w pionie + burtowe/rufowe tylko gdy ma ruch. Nigdy nie pokazuje masztowego.",
+     "tip": "„Czerwone nad czerwonym – kapitan nie panuje.”",
+     "source": "MPZZ, prawidło 27(a)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-05",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [],
+      "ar": [
+       "r",
+       "r"
+      ]
+     },
+     "a": "Statek niezdolny do manewrowania, bez ruchu po wodzie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [],
+      "ar": [
+       "r",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 27(a)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-06",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "w",
+       "r"
+      ]
+     },
+     "a": "Statek o ograniczonej zdolności manewrowej w drodze, z ruchem – widziany od dziobu.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "w",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "explain": "Czerwone–białe–czerwone w pionie + masztowe i burtowe. Np. statek kładący kabel, prowadzący prace podwodne, pogłębiarka.",
+     "source": "MPZZ, prawidło 27(b)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-07",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "r",
+       "r"
+      ]
+     },
+     "a": "Statek ograniczony swoim zanurzeniem (3 czerwone w pionie), z prawej burty.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "r",
+       "r",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "explain": "Pokazuje światła statku mechanicznego + 3 czerwone dookoła. Inne statki powinny unikać utrudniania mu drogi.",
+     "source": "MPZZ, prawidło 28",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-08",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "w",
+       "r"
+      ]
+     },
+     "a": "Pilotówka na służbie, w drodze (białe nad czerwonym), widziana od dziobu.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "w",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "tip": "„Białe nad czerwonym – pilot na pokładzie.” Kolory jak flaga H (mam pilota).",
+     "source": "MPZZ, prawidło 29",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-09",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "stern",
+      "vessel": "power",
+      "carries": [
+       "stern",
+       "tow"
+      ]
+     },
+     "a": "Statek holujący widziany od rufy: żółte holownicze nad białym rufowym.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "stern",
+      "vessel": "power",
+      "carries": [
+       "stern",
+       "tow"
+      ],
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 24",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-10",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side"
+      ],
+      "mastV": 2
+     },
+     "a": "Statek holujący (hol ≤ 200 m), widziany od dziobu: 2 masztowe w pionie + burtowe.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side"
+      ],
+      "mastV": 2,
+      "silhouette": true
+     },
+     "explain": "Długość holu > 200 m – 3 masztowe w pionie.",
+     "source": "MPZZ, prawidło 24",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-11",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "mastV": 3
+     },
+     "a": "Statek holujący, długość holu powyżej 200 m – widziany z prawej burty (3 masztowe w pionie).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "mastV": 3,
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 24",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-l-12",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF",
+       "anchorA"
+      ],
+      "ar": [
+       "r",
+       "r"
+      ]
+     },
+     "a": "Statek na mieliźnie (≥ 50 m): światła kotwiczne + 2 czerwone w pionie.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF",
+       "anchorA"
+      ],
+      "ar": [
+       "r",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 30(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-13",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "g",
+       "g",
+       "g"
+      ]
+     },
+     "a": "Trałowiec wykonujący trałowanie min (3 zielone) – nie zbliżać się na odległość mniejszą niż 1000 m.",
+     "aVisual": {
+      "kind": "lights",
+      "view": "bow",
+      "vessel": "power",
+      "carries": [
+       "mast",
+       "side",
+       "stern"
+      ],
+      "ar": [
+       "g",
+       "g",
+       "g"
+      ],
+      "silhouette": true
+     },
+     "explain": "W rzeczywistości zielone są na topie przedniego masztu i na obu nokach rei – tworzą trójkąt.",
+     "source": "MPZZ, prawidło 27(f)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-l-14",
+     "q": "Co widzisz w nocy? Jaki to statek i co robi?",
+     "qVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF"
+      ],
+      "ar": [
+       "w",
+       "r"
+      ]
+     },
+     "a": "Pilotówka na służbie na kotwicy (białe nad czerwonym + światło kotwiczne).",
+     "aVisual": {
+      "kind": "lights",
+      "view": "starboard",
+      "vessel": "power",
+      "carries": [
+       "anchorF"
+      ],
+      "ar": [
+       "w",
+       "r"
+      ],
+      "silhouette": true
+     },
+     "source": "MPZZ, prawidło 29",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-l-15",
+     "q": "Jakie światła pokazuje statek holowany?",
+     "a": "Burtowe i rufowe (bez masztowych). Gdy hol > 200 m – w dzień romb.",
+     "source": "MPZZ, prawidło 24(e)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-16",
+     "q": "Jakie światła może pokazywać jednostka mechaniczna < 12 m?",
+     "a": "Zamiast masztowego i rufowego – jedno białe światło widoczne dookoła, oraz burtowe (mogą być w jednej latarni).",
+     "source": "MPZZ, prawidło 23(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-17",
+     "q": "Jak oświetla się łódź wiosłowa lub żaglowiec < 7 m, który nie ma świateł nawigacyjnych?",
+     "a": "Ma pod ręką latarkę lub zapaloną latarnię dającą białe światło i pokazuje ją w porę, by zapobiec zderzeniu.",
+     "source": "MPZZ, prawidło 25(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-18",
+     "q": "Kiedy rybak (zajęty połowem) zapala światła burtowe i rufowe?",
+     "a": "Tylko gdy ma ruch po wodzie.",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-l-19",
+     "q": "Pogłębiarka (ograniczona zdolność manewrowa) ma przeszkodę po jednej burcie. Jak to oznacza nocą?",
+     "a": "Oprócz czerwone–białe–czerwone: 2 czerwone w pionie po stronie przeszkody i 2 zielone w pionie po stronie, którą można bezpiecznie przejść.",
+     "tip": "W dzień: 2 kule po stronie przeszkody, 2 romby po stronie bezpiecznej.",
+     "source": "MPZZ, prawidło 27(d)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-l-20",
+     "q": "Rybak nietrałujący ma sieć wystającą poziomo ponad 150 m od burty. Jak to oznacza?",
+     "a": "Dodatkowym białym światłem dookoła (nocą) lub stożkiem wierzchołkiem w górę (w dzień) w kierunku narzędzi połowowych.",
+     "source": "MPZZ, prawidło 26(c)",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L3-znaki-dzienne",
+   "title": "Znaki dzienne – wszystkie",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Znaki dzienne są czarne i odpowiadają światłom nocnym. Wiele z nich łatwo skojarzyć: dwie kule = dwa czerwone, kula–romb–kula = czerwone–białe–czerwone."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Znak",
+      "Statek",
+      "Odpowiednik nocny"
+     ],
+     "rows": [
+      [
+       "kula",
+       "na kotwicy",
+       "białe kotwiczne"
+      ],
+      [
+       "stożek wierzchołkiem w dół",
+       "żaglowiec idący także na silniku",
+       "światła mechanicznego"
+      ],
+      [
+       "2 stożki wierzchołkami do siebie",
+       "zajęty połowem (< 20 m może: kosz)",
+       "zielone/czerwone nad białym"
+      ],
+      [
+       "2 kule",
+       "niezdolny do manewrowania",
+       "2 czerwone"
+      ],
+      [
+       "kula – romb – kula",
+       "ograniczona zdolność manewrowa",
+       "czerwone – białe – czerwone"
+      ],
+      [
+       "walec (cylinder)",
+       "ograniczony zanurzeniem",
+       "3 czerwone"
+      ],
+      [
+       "3 kule (trójkąt)",
+       "trałowanie min",
+       "3 zielone"
+      ],
+      [
+       "3 kule w pionie",
+       "na mieliźnie",
+       "kotwiczne + 2 czerwone"
+      ],
+      [
+       "romb",
+       "holujący i holowany, hol > 200 m",
+       "3 masztowe (holownik)"
+      ],
+      [
+       "sztywna replika flagi A",
+       "małe jednostki z nurkami",
+       "—"
+      ]
+     ]
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball",
+       "diamond",
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "caption": "Kula–romb–kula: statek o ograniczonej zdolności manewrowej."
+    },
+    {
+     "t": "tip",
+     "text": "Dwa stożki wierzchołkami do siebie wyglądają jak klepsydra albo sieć ściśnięta w środku – rybak."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-d-01",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cone-down",
+       "cone-up"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek zajęty połowem (dwa stożki wierzchołkami do siebie).",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-d-02",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball",
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek niezdolny do manewrowania.",
+     "source": "MPZZ, prawidło 27(a)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-d-03",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball",
+       "diamond",
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek o ograniczonej zdolności manewrowej.",
+     "source": "MPZZ, prawidło 27(b)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-d-04",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cylinder"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek ograniczony swoim zanurzeniem.",
+     "source": "MPZZ, prawidło 28",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-d-05",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball",
+       "ball",
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek na mieliźnie (3 kule w pionie).",
+     "tip": "Nie myl z trałowcem: jego 3 kule tworzą trójkąt (top masztu + noki rei).",
+     "source": "MPZZ, prawidło 30(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-d-06",
+     "q": "Co oznacza ten znak dzienny?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "diamond"
+      ],
+      "vessel": "power"
+     },
+     "a": "Holowanie z długością holu powyżej 200 m (romb na holowniku i na holowanym).",
+     "source": "MPZZ, prawidło 24",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-d-07",
+     "q": "Co oznacza ten znak dzienny na małym statku rybackim (< 20 m)?",
+     "qVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "basket"
+      ],
+      "vessel": "power"
+     },
+     "a": "Statek zajęty połowem – kosz może zastąpić dwa stożki na statku < 20 m.",
+     "source": "MPZZ, prawidło 26",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-d-08",
+     "q": "Jaki znak dzienny pokazuje statek zajęty połowem?",
+     "a": "Dwa czarne stożki wierzchołkami do siebie, jeden nad drugim.",
+     "aVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cone-down",
+       "cone-up"
+      ],
+      "vessel": "power"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L3-d-09",
+     "q": "Jaki znak dzienny pokazuje statek ograniczony zanurzeniem?",
+     "a": "Czarny walec (cylinder).",
+     "aVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "cylinder"
+      ],
+      "vessel": "power"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L3-d-10",
+     "q": "Jaki znak dzienny pokazuje statek o ograniczonej zdolności manewrowej?",
+     "a": "Kula – romb – kula w pionie.",
+     "aVisual": {
+      "kind": "dayshapes",
+      "shapes": [
+       "ball",
+       "diamond",
+       "ball"
+      ],
+      "vessel": "power"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L3-d-11",
+     "q": "Jak oznacza się w dzień mały jacht/łódź, z której prowadzone są prace nurkowe?",
+     "a": "Sztywną repliką flagi A MKS (wysokość co najmniej 1 m).",
+     "aVisual": {
+      "kind": "flag",
+      "letter": "A"
+     },
+     "source": "MPZZ, prawidło 27(e)",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L3-sygnaly",
+   "title": "Sygnały dźwiękowe – manewrowe i mgłowe",
+   "theory": [
+    {
+     "t": "p",
+     "text": "**Krótki dźwięk** trwa około 1 s, **długi** 4–6 s. Sygnałów manewrowych używają statki w zasięgu wzroku; sygnałów mgłowych – w ograniczonej widzialności. Naciśnij „Odtwórz”, by usłyszeć sygnał."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sygnał",
+      "Znaczenie (statki w zasięgu wzroku)"
+     ],
+     "rows": [
+      [
+       "1 krótki",
+       "zmieniam kurs w prawo"
+      ],
+      [
+       "2 krótkie",
+       "zmieniam kurs w lewo"
+      ],
+      [
+       "3 krótkie",
+       "pracuję wstecz"
+      ],
+      [
+       "co najmniej 5 krótkich",
+       "nie rozumiem twoich zamiarów / wątpię, czy działasz wystarczająco"
+      ],
+      [
+       "2 długie + 1 krótki",
+       "(wąskie przejście) zamierzam wyprzedzić cię po twojej prawej burcie"
+      ],
+      [
+       "2 długie + 2 krótkie",
+       "(wąskie przejście) zamierzam wyprzedzić cię po twojej lewej burcie"
+      ],
+      [
+       "długi–krótki–długi–krótki",
+       "zgoda wyprzedzanego"
+      ],
+      [
+       "1 długi",
+       "zbliżam się do zakrętu / miejsca z ograniczoną widocznością"
+      ]
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Ograniczona widzialność (co ≤ 2 min)",
+      "Statek"
+     ],
+     "rows": [
+      [
+       "1 długi",
+       "mechaniczny z ruchem po wodzie"
+      ],
+      [
+       "2 długie (odstęp ~2 s)",
+       "mechaniczny w drodze bez ruchu"
+      ],
+      [
+       "1 długi + 2 krótkie",
+       "żaglowiec, rybak, niezdolny, ograniczona zdolność manewrowa, ograniczony zanurzeniem, holujący, pchający"
+      ],
+      [
+       "1 długi + 3 krótkie",
+       "statek holowany (z załogą) – zaraz po sygnale holownika"
+      ],
+      [
+       "szybkie dzwonienie ~5 s co ≤ 1 min",
+       "na kotwicy (≥ 100 m – także gong na rufie)"
+      ],
+      [
+       "3 uderzenia + dzwonienie + 3 uderzenia",
+       "na mieliźnie"
+      ],
+      [
+       "4 krótkie (dodatkowo)",
+       "pilotówka na służbie"
+      ]
+     ]
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "sound",
+      "seq": "L S S"
+     },
+     "caption": "Długi + 2 krótkie: sygnał mgłowy jachtu pod żaglami."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Prawidło 19 – ograniczona widzialność**: nie ma podziału na ustępującego i uprzywilejowanego. Płyń bezpieczną prędkością, silnik gotowy do manewru.",
+      "Usłyszysz sygnał mgłowy z kierunku przed trawersem – zmniejsz prędkość do najmniejszej, przy której utrzymasz sterowność; w razie potrzeby zatrzymaj statek.",
+      "Statek wykryty tylko radarem przed trawersem – unikaj zmiany kursu w lewo (chyba że go wyprzedzasz); statek na trawersie lub za nim – unikaj zmiany kursu w jego kierunku.",
+      "Jednostka < 12 m nie musi dawać tych sygnałów, ale musi dawać inny skuteczny sygnał dźwiękowy co ≤ 2 min."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Żaglowiec we mgle = „długi i dwa krótkie” – ten sam sygnał co wszystkie statki „uprzywilejowane”. Statek mechaniczny: 1 długi (płynie) lub 2 długie (stoi)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-s-01",
+     "q": "Statek w zasięgu wzroku daje ten sygnał. Co oznacza?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "S"
+     },
+     "a": "Zmieniam kurs w prawo.",
+     "source": "MPZZ, prawidło 34",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-02",
+     "q": "Statek w zasięgu wzroku daje ten sygnał. Co oznacza?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "S S"
+     },
+     "a": "Zmieniam kurs w lewo.",
+     "source": "MPZZ, prawidło 34",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-03",
+     "q": "Statek w zasięgu wzroku daje ten sygnał. Co oznacza?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "S S S"
+     },
+     "a": "Pracuję wstecz (maszyny pracują wstecz).",
+     "source": "MPZZ, prawidło 34",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-04",
+     "q": "Co oznacza ten sygnał?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "S S S S S"
+     },
+     "a": "Nie rozumiem twoich zamiarów / wątpię, czy podejmujesz wystarczające działania dla uniknięcia zderzenia.",
+     "source": "MPZZ, prawidło 34(d)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-05",
+     "q": "W wąskim przejściu słyszysz ten sygnał od statku za rufą. Co oznacza?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L L S"
+     },
+     "a": "Zamierzam wyprzedzić cię po twojej prawej burcie.",
+     "source": "MPZZ, prawidło 34(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-06",
+     "q": "W wąskim przejściu słyszysz ten sygnał od statku za rufą. Co oznacza?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L L S S"
+     },
+     "a": "Zamierzam wyprzedzić cię po twojej lewej burcie.",
+     "source": "MPZZ, prawidło 34(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-07",
+     "q": "Co oznacza ten sygnał w wąskim przejściu?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L S L S"
+     },
+     "a": "Zgoda statku wyprzedzanego na wyprzedzanie.",
+     "source": "MPZZ, prawidło 34(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-08",
+     "q": "Co oznacza jeden długi dźwięk przy dobrej widzialności?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L"
+     },
+     "a": "Zbliżam się do zakrętu lub miejsca, gdzie inne statki mogą być zasłonięte przez przeszkodę.",
+     "explain": "Statek za zakrętem odpowiada również jednym długim. We mgle ten sam sygnał (co ≤ 2 min) oznacza statek mechaniczny z ruchem.",
+     "source": "MPZZ, prawidło 34(e)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-09",
+     "q": "We mgle słyszysz ten sygnał powtarzany co ≤ 2 min. Kto go daje?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L"
+     },
+     "a": "Statek o napędzie mechanicznym mający ruch po wodzie.",
+     "source": "MPZZ, prawidło 35(a)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-10",
+     "q": "We mgle słyszysz ten sygnał co ≤ 2 min. Kto go daje?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L L"
+     },
+     "a": "Statek o napędzie mechanicznym w drodze, bez ruchu po wodzie.",
+     "source": "MPZZ, prawidło 35(b)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-11",
+     "q": "We mgle słyszysz ten sygnał co ≤ 2 min. Kto może go dawać?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L S S"
+     },
+     "a": "Żaglowiec, statek zajęty połowem, niezdolny do manewrowania, o ograniczonej zdolności manewrowej, ograniczony zanurzeniem, holujący lub pchający.",
+     "source": "MPZZ, prawidło 35(c)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-12",
+     "q": "We mgle słyszysz ten sygnał tuż po sygnale „długi + 2 krótkie”. Kto go daje?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "L S S S"
+     },
+     "a": "Statek holowany (ostatni w zestawie, jeśli ma załogę).",
+     "source": "MPZZ, prawidło 35(e)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-13",
+     "q": "We mgle słyszysz szybkie dzwonienie przez ok. 5 s co minutę. Co to za statek?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "B"
+     },
+     "a": "Statek na kotwicy (≥ 100 m dodatkowo gong na rufie).",
+     "source": "MPZZ, prawidło 35(g)",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-14",
+     "q": "We mgle słyszysz ten sygnał. Co to za statek?",
+     "qVisual": {
+      "kind": "sound",
+      "seq": "K K K B K K K"
+     },
+     "a": "Statek na mieliźnie: 3 wyraźne uderzenia w dzwon, szybkie dzwonienie, 3 wyraźne uderzenia.",
+     "source": "MPZZ, prawidło 35(h)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-15",
+     "q": "Jaki sygnał mgłowy daje jacht płynący na silniku (z ruchem)?",
+     "a": "1 długi dźwięk co ≤ 2 min – jest statkiem o napędzie mechanicznym.",
+     "aVisual": {
+      "kind": "sound",
+      "seq": "L"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-16",
+     "q": "Jaki sygnał mgłowy daje jacht pod żaglami?",
+     "a": "1 długi + 2 krótkie co ≤ 2 min.",
+     "aVisual": {
+      "kind": "sound",
+      "seq": "L S S"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-17",
+     "q": "Ile trwa krótki, a ile długi dźwięk?",
+     "a": "Krótki – około 1 s, długi – 4 do 6 s.",
+     "source": "MPZZ, prawidło 32",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-s-18",
+     "q": "We mgle słyszysz sygnał mgłowy innego statku z kierunku przed trawersem. Co robisz?",
+     "a": "Zmniejszam prędkość do najmniejszej, przy której zachowam sterowność; w razie potrzeby zatrzymuję statek i płynę z najwyższą ostrożnością, aż minie niebezpieczeństwo zderzenia.",
+     "source": "MPZZ, prawidło 19(e)",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-19",
+     "q": "Czy w ograniczonej widzialności (statki nie widzą się wzrokowo) żaglowiec ma pierwszeństwo przed statkiem mechanicznym?",
+     "a": "Nie – prawidło 19 nie dzieli statków na ustępujące i uprzywilejowane. Każdy działa samodzielnie i ostrożnie.",
+     "source": "MPZZ, prawidło 19",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-s-20",
+     "q": "Pilotówka na służbie we mgle może dodać do sygnału mgłowego…",
+     "a": "…sygnał rozpoznawczy: 4 krótkie dźwięki.",
+     "aVisual": {
+      "kind": "sound",
+      "seq": "S S S S"
+     },
+     "source": "MPZZ, prawidło 35(k)",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L3-pomoc",
+   "title": "Sygnały wzywania pomocy",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Załącznik IV do MPZZ wymienia sygnały oznaczające, że statek jest **w niebezpieczeństwie i potrzebuje pomocy**. Używa się ich razem lub osobno. Użycie ich bez potrzeby jest zabronione."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "strzał armatni lub inny wybuch co ok. 1 minutę",
+      "**ciągły dźwięk** sygnalizatora mgłowego",
+      "rakiety lub granaty wyrzucające **czerwone gwiazdy**, pojedynczo w krótkich odstępach",
+      "**SOS** (··· ––– ···) nadawany dowolnym sposobem",
+      "słowo **MAYDAY** wypowiadane przez radiotelefon",
+      "flagi **NC** Międzynarodowego Kodeksu Sygnałowego",
+      "**kwadratowa flaga** i nad nią lub pod nią **kula** (lub coś podobnego)",
+      "płomienie na statku (np. płonąca beczka smoły lub oleju)",
+      "**rakieta spadochronowa** lub **pochodnia ręczna** dająca czerwone światło",
+      "sygnał dymny dający **pomarańczowy dym**",
+      "**powolne, powtarzane podnoszenie i opuszczanie rąk** rozpostartych na boki",
+      "alarm **DSC** (VHF kanał 70, MF/HF), sygnały **EPIRB** i **SART**, alarm przez Inmarsat"
+     ]
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "flags",
+      "letters": [
+       "N",
+       "C"
+      ],
+      "vertical": true
+     },
+     "caption": "NC – „Jestem w niebezpieczeństwie”."
+    },
+    {
+     "t": "tip",
+     "text": "Uwaga na pułapki: pomarańczowy dym i czerwone światło = pomoc. Biała rakieta, zielona pochodnia, flaga V czy W – NIE są sygnałami niebezpieczeństwa z Załącznika IV."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-p-01",
+     "q": "Jakiego koloru dym jest sygnałem wzywania pomocy?",
+     "a": "Pomarańczowego.",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-02",
+     "q": "Jakiego koloru światło pochodni ręcznej / rakiety spadochronowej oznacza wzywanie pomocy?",
+     "a": "Czerwonego.",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-03",
+     "q": "Jaki sygnał dźwiękowy jest sygnałem niebezpieczeństwa?",
+     "a": "Ciągły dźwięk dowolnego sygnalizatora mgłowego (oraz strzał lub wybuch co ok. 1 minutę).",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-04",
+     "q": "Jak wzywa się pomocy ruchem rąk?",
+     "a": "Powolnym, wielokrotnym podnoszeniem i opuszczaniem rąk rozpostartych na boki.",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-05",
+     "q": "Jak wygląda sygnał SOS alfabetem Morse'a?",
+     "a": "··· ––– ··· (trzy krótkie, trzy długie, trzy krótkie).",
+     "aVisual": {
+      "kind": "sound",
+      "seq": "S S S L L L S S S"
+     },
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-06",
+     "q": "Jakie słowo wypowiadane przez radiotelefon oznacza niebezpieczeństwo?",
+     "a": "MAYDAY (powtórzone 3 razy).",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-p-07",
+     "q": "Czy flaga V (potrzebuję pomocy) jest sygnałem niebezpieczeństwa z Załącznika IV MPZZ?",
+     "a": "Nie. Sygnałem niebezpieczeństwa są flagi NC. Flaga V to prośba o pomoc bez bezpośredniego zagrożenia.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p-08",
+     "q": "Który sygnał flagowy (inny niż NC) oznacza niebezpieczeństwo?",
+     "a": "Kwadratowa flaga, nad którą lub pod którą jest kula albo coś podobnego do kuli.",
+     "source": "MPZZ, Załącznik IV",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p-09",
+     "q": "Na jakim kanale VHF nadaje się alarm DSC?",
+     "a": "Na kanale 70 (cyfrowe wywołanie selektywne). Rozmowa w niebezpieczeństwie – na kanale 16.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p-10",
+     "q": "Czy biała rakieta jest sygnałem wzywania pomocy?",
+     "a": "Nie – sygnałem pomocy są czerwone gwiazdy/rakiety i czerwone pochodnie. Białe rakiety służą np. do oświetlenia lub zwrócenia uwagi.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L3-charakterystyki",
+   "title": "Charakterystyki świateł",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Latarnie, stawy i pławy świecą w określonym **rytmie**. Rytm, kolor i okres zapisuje się skrótem na mapie i w spisie świateł. Rytm pozwala rozpoznać znak w nocy – obserwuj go z zegarkiem."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Skrót",
+      "Nazwa",
+      "Opis"
+     ],
+     "rows": [
+      [
+       "F",
+       "stałe",
+       "świeci bez przerwy"
+      ],
+      [
+       "Fl",
+       "błyskowe",
+       "światło krótsze niż ciemność"
+      ],
+      [
+       "LFl",
+       "długobłyskowe",
+       "błysk trwający co najmniej 2 s"
+      ],
+      [
+       "Q",
+       "szybkobłyskowe",
+       "50–60 błysków na minutę"
+      ],
+      [
+       "VQ",
+       "bardzo szybkobłyskowe",
+       "100–120 błysków na minutę"
+      ],
+      [
+       "Iso",
+       "izofazowe",
+       "światło i ciemność równej długości"
+      ],
+      [
+       "Oc",
+       "przerywane",
+       "światło dłuższe niż ciemność (krótkie zaciemnienia)"
+      ],
+      [
+       "Al",
+       "zmienne",
+       "zmienia kolor, np. Al.WR"
+      ],
+      [
+       "Mo(A)",
+       "Morse'a",
+       "litera alfabetu Morse'a, np. A = · –"
+      ],
+      [
+       "Fl(3)",
+       "grupowo-błyskowe",
+       "grupa 3 błysków powtarzana w okresie"
+      ],
+      [
+       "Fl(2+1)",
+       "złożone grupowo-błyskowe",
+       "grupa 2 błysków, przerwa, 1 błysk"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Okres** – czas pełnego cyklu (np. 10s). Przykład opisu latarni na mapie: **Fl(3) WR 10s 15m 12M** = 3 błyski w grupie, sektory białe i czerwone, okres 10 s, wysokość światła 15 m, zasięg nominalny 12 Mm."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "rhythm",
+      "code": "Fl(3) 10s",
+      "color": "w",
+      "showCode": false
+     },
+     "caption": "Fl(3) 10s – grupa trzech błysków co 10 sekund."
+    },
+    {
+     "t": "tip",
+     "text": "Oc i Fl to przeciwieństwa: przy Fl dominuje ciemność, przy Oc – światło. Iso: „pół na pół”."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-c-01",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Fl 4s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Fl – błyskowe (światło krótsze niż ciemność), tu Fl 4s.",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-c-02",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Oc 5s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Oc – przerywane (światło dłuższe niż ciemność), tu Oc 5s.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-03",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Iso 4s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Iso – izofazowe (światło i ciemność po równo), tu Iso 4s.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-04",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Q",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Q – szybkobłyskowe (50–60 błysków/min).",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-05",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "LFl 10s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "LFl – długobłyskowe (błysk ≥ 2 s), tu LFl 10s.",
+     "tip": "LFl 10s to jedna z charakterystyk znaku bezpiecznej wody.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-06",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Mo(A) 6s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Mo(A) – światło w rytmie litery A alfabetu Morse'a (krótki, długi).",
+     "tip": "Mo(A) – typowe dla znaku bezpiecznej wody.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-07",
+     "q": "Jak się nazywa ta charakterystyka światła?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Fl(2+1) 10s",
+      "color": "r",
+      "showCode": false
+     },
+     "a": "Fl(2+1) – złożone grupowo-błyskowe (2 błyski + 1 błysk). Czerwone – zmodyfikowany znak lewej strony: kanał preferowany w prawo.",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-c-08",
+     "q": "Odczytaj opis latarni z mapy: Fl(3) WR 10s 15m 12M",
+     "a": "Grupowo-błyskowe, 3 błyski w grupie, sektory białe i czerwone, okres 10 s, wysokość 15 m nad poziomem odniesienia, zasięg nominalny 12 mil morskich.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-09",
+     "q": "Co oznacza skrót „Al” w charakterystyce światła?",
+     "a": "Światło zmienne – zmienia kolor (np. Al.WR – na przemian białe i czerwone).",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-c-10",
+     "q": "Czym różni się światło Fl od Oc?",
+     "a": "Fl (błyskowe) – światło krótsze niż ciemność. Oc (przerywane) – światło dłuższe niż ciemność.",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-c-11",
+     "q": "Co to jest okres światła?",
+     "a": "Czas trwania pełnego cyklu charakterystyki (np. 10 s), po którym rytm się powtarza.",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-c-12",
+     "q": "Co to jest sektor światła i co zwykle oznacza sektor biały?",
+     "a": "Wycinek horyzontu, w którym światło ma określony kolor. Sektor biały zwykle wskazuje bezpieczny kierunek podejścia; czerwony i zielony – jego granice / niebezpieczeństwa.",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L3-iala-pozostale",
+   "title": "IALA – pozostałe znaki",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Oprócz znaków bocznych i kardynalnych system IALA ma znaki: odosobnionego niebezpieczeństwa, bezpiecznej wody, specjalne, nowego niebezpieczeństwa (wraku) oraz zmodyfikowane znaki boczne (kanał preferowany)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "isolated"
+     },
+     "caption": "Odosobnione niebezpieczeństwo: czarny z czerwonym pasem, 2 czarne kule, światło białe Fl(2). Stoi NA niebezpieczeństwie – wokół jest woda żeglowna."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "safe"
+     },
+     "caption": "Bezpieczna woda: pionowe pasy czerwono-białe, 1 czerwona kula, światło białe Iso, Oc, LFl 10s lub Mo(A). Oś toru, podejście do portu."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "special"
+     },
+     "caption": "Znak specjalny: żółty, żółty krzyż „X”, światło żółte. Oznacza obszary specjalne (kable, poligony, kąpieliska, zrzut urobku)."
+    },
+    {
+     "t": "visual",
+     "visual": {
+      "kind": "buoy",
+      "type": "wreck"
+     },
+     "caption": "Nowe niebezpieczeństwo / wrak: pionowe pasy niebiesko-żółte, żółty krzyż prosty, światło na zmianę niebieskie i żółte."
+    },
+    {
+     "t": "p",
+     "text": "**Zmodyfikowane znaki boczne** (rozwidlenie toru, region A): czerwony z szerokim zielonym pasem = **kanał preferowany w prawo** (znak traktujesz jak lewy); zielony z czerwonym pasem = **kanał preferowany w lewo**. Światło Fl(2+1) w kolorze dominującym."
+    },
+    {
+     "t": "tip",
+     "text": "Dwie kule = odosobnione niebezpieczeństwo (2 błyski: Fl(2)). Jedna kula = bezpieczna woda. Liczba kul pasuje do liczby błysków!"
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-i-01",
+     "q": "Jaki to znak i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "isolated"
+     },
+     "a": "Znak odosobnionego niebezpieczeństwa – ustawiony na niebezpieczeństwie o niewielkim zasięgu, dookoła jest woda żeglowna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-i-02",
+     "q": "Jaki to znak i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "safe"
+     },
+     "a": "Znak bezpiecznej wody – woda żeglowna dookoła znaku (oś toru, podejście do portu).",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-i-03",
+     "q": "Jaki to znak i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "special"
+     },
+     "a": "Znak specjalny – oznacza obszar lub obiekt specjalny (np. kable, poligon, kąpielisko, rurociąg), opisany na mapie i w locji.",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-i-04",
+     "q": "Jaki to znak i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "wreck"
+     },
+     "a": "Znak nowego niebezpieczeństwa (awaryjne oznakowanie wraku) – niebezpieczeństwo jeszcze nieopisane w publikacjach nautycznych.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-05",
+     "q": "Jaki to znak (region A) i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "pref-stbd"
+     },
+     "a": "Zmodyfikowany znak lewej strony – rozwidlenie toru, kanał preferowany (główny) w prawo. Światło Fl(2+1) R.",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-i-06",
+     "q": "Jaki to znak (region A) i co oznacza?",
+     "qVisual": {
+      "kind": "buoy",
+      "type": "pref-port"
+     },
+     "a": "Zmodyfikowany znak prawej strony – rozwidlenie toru, kanał preferowany (główny) w lewo. Światło Fl(2+1) G.",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-i-07",
+     "q": "Jakie światło ma znak odosobnionego niebezpieczeństwa?",
+     "a": "Białe, grupowo-błyskowe Fl(2).",
+     "aVisual": {
+      "kind": "rhythm",
+      "code": "Fl(2) 5s",
+      "color": "w",
+      "showCode": false
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-08",
+     "q": "Jakie charakterystyki światła może mieć znak bezpiecznej wody?",
+     "a": "Białe: izofazowe (Iso), przerywane (Oc), długobłyskowe LFl 10s albo Mo(A).",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-09",
+     "q": "Jakiego koloru światło ma znak specjalny?",
+     "a": "Żółte (w rytmie innym niż używane dla świateł białych znaków).",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-10",
+     "q": "Jaki znak szczytowy ma znak odosobnionego niebezpieczeństwa, a jaki znak bezpiecznej wody?",
+     "a": "Odosobnione niebezpieczeństwo – 2 czarne kule; bezpieczna woda – 1 czerwona kula.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-11",
+     "q": "Nocą widzisz białe światło w rytmie Fl(2). Jaki to znak?",
+     "qVisual": {
+      "kind": "rhythm",
+      "code": "Fl(2) 5s",
+      "color": "w",
+      "showCode": false
+     },
+     "a": "Znak odosobnionego niebezpieczeństwa.",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-i-12",
+     "q": "Nocą widzisz na przemian niebieskie i żółte światło. Co to oznacza?",
+     "a": "Znak nowego niebezpieczeństwa (np. świeży wrak) – omijać zgodnie ze znakami, zachować szczególną ostrożność.",
+     "difficulty": 2
+    }
+   ]
+  }
+ ]
+}

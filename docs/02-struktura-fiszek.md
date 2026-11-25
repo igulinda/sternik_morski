@@ -36,3 +36,7 @@ Bloki teorii: `p` (akapit), `ul`/`ol` (lista), `tip` (podpowiedź / mnemotechnik
 - Tryb losowy: wybór poziomów, liczba fiszek, opcja „tylko nieopanowane”; słabe fiszki losowane częściej
 - Ocena: Nie wiem (wraca za 3 karty), Prawie (wraca na koniec), Wiem (+1 poziom opanowania, max 3; opanowana od 2)
 - Postęp zapisywany w przeglądarce (localStorage)
+
+## Dodane w etapie 3
+- `lights.mastV` – liczba świateł masztowych w pionie (holowanie: 2 lub 3)
+- `sound` – sygnał dźwiękowy: `seq` z tokenów `S` (krótki), `L` (długi), `B` (dzwon), `G` (gong), `K` (uderzenie w dzwon); przycisk „Odtwórz sygnał” gra go w przeglądarce

@@ -100,6 +100,7 @@
         if (spec.ar && spec.vessel !== 'sail') hull += `<line x1="${X(100)}" y1="100" x2="${X(100)}" y2="18" stroke="#9fb3c8" stroke-width="1.4" opacity=".55"/>`;
       }
       if (carries.has('mast')) out.push(lamp(X(SIDE.mast[0]), SIDE.mast[1], 'w', g));
+      for (let i = 1; i < (spec.mastV || 0); i++) out.push(lamp(X(SIDE.mast[0]), SIDE.mast[1] - 12 * i, 'w', g));
       if (carries.has('mast2')) out.push(lamp(X(SIDE.mast2[0]), SIDE.mast2[1], 'w', g));
       if (carries.has('side')) {
         const p = spec.vessel === 'sail' ? [150, 95] : SIDE.side;
@@ -113,6 +114,7 @@
     } else if (view === 'bow') {
       if (spec.silhouette) hull = hullBow(spec.vessel);
       if (carries.has('mast')) out.push(lamp(...BOW.mast, 'w', g));
+      for (let i = 1; i < (spec.mastV || 0); i++) out.push(lamp(BOW.mast[0], BOW.mast[1] - 12 * i, 'w', g));
       if (carries.has('mast2')) out.push(lamp(...BOW.mast2, 'w', g));
       if (carries.has('side')) { out.push(lamp(...BOW.sideG, 'g', g)); out.push(lamp(...BOW.sideR, 'r', g)); }
       if (carries.has('anchorF')) out.push(lamp(...BOW.anchorF, 'w', g));
@@ -414,6 +416,65 @@
     return svg('0 0 200 200', s, 'sit');
   }
 
+
+  /* ---------- SYGNAŁY DŹWIĘKOWE ---------- */
+  // seq: tokeny oddzielone spacją: S (krótki ~1 s), L (długi 4–6 s), B (dzwon – szybkie dzwonienie ~5 s),
+  //      G (gong), K (pojedyncze wyraźne uderzenie w dzwon), | (przerwa)
+  function sound(spec) {
+    const toks = String(spec.seq).trim().split(/\s+/);
+    const unit = { S: 14, L: 52, B: 46, G: 40, K: 8, '|': 14 };
+    let x = 10; let s = '';
+    const W = Math.max(200, toks.reduce((a, t) => a + (unit[t] || 14) + 8, 20));
+    toks.forEach((t) => {
+      const w = unit[t] || 14;
+      if (t === 'S' || t === 'L') s += `<rect x="${x}" y="26" width="${w}" height="18" rx="4" fill="#ffd21f"/>`;
+      else if (t === 'K') s += `<circle cx="${x + 4}" cy="35" r="5" fill="#9fd3ff"/>`;
+      else if (t === 'B') {
+        s += `<path d="M${x + 8} 44 Q${x + 8} 24 ${x + 18} 22 Q${x + 28} 24 ${x + 28} 44 Z" fill="#9fd3ff"/>`;
+        s += `<path d="M${x + 32} 28 q4 7 0 14 M${x + 38} 25 q6 10 0 20" stroke="#9fd3ff" fill="none" stroke-width="2"/>`;
+      } else if (t === 'G') {
+        s += `<circle cx="${x + 16}" cy="35" r="12" fill="none" stroke="#ffb27a" stroke-width="4"/><circle cx="${x + 16}" cy="35" r="3" fill="#ffb27a"/>`;
+      }
+      x += w + 8;
+    });
+    const legend = `<text x="10" y="66" font-size="10" fill="#9fb3c8">krótki ≈ 1 s · długi 4–6 s</text>`;
+    const svgs = svg(`0 0 ${W} 74`, `<rect width="${W}" height="74" rx="8" fill="#0a1730"/>${s}${legend}`, 'snd');
+    return `<div class="sound-wrap">${svgs}<button type="button" class="btn play" data-sound="${toks.join(' ')}">▶ Odtwórz sygnał</button></div>`;
+  }
+  let audioCtx = null;
+  function playSeq(seq, btn) {
+    try { audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { return; }
+    const ctx = audioCtx; let t = ctx.currentTime + 0.1;
+    const horn = (dur) => {
+      const o = ctx.createOscillator(); const o2 = ctx.createOscillator(); const gn = ctx.createGain();
+      o.type = 'sawtooth'; o.frequency.value = 150; o2.type = 'square'; o2.frequency.value = 151.5;
+      gn.gain.setValueAtTime(0, t); gn.gain.linearRampToValueAtTime(0.12, t + 0.06);
+      gn.gain.setValueAtTime(0.12, t + dur - 0.08); gn.gain.linearRampToValueAtTime(0, t + dur);
+      o.connect(gn); o2.connect(gn); gn.connect(ctx.destination); o.start(t); o2.start(t); o.stop(t + dur); o2.stop(t + dur);
+      t += dur + 1;
+    };
+    const ping = (freq, len, vol) => {
+      const o = ctx.createOscillator(); const gn = ctx.createGain(); o.type = 'sine'; o.frequency.value = freq;
+      gn.gain.setValueAtTime(vol, t); gn.gain.exponentialRampToValueAtTime(0.001, t + len);
+      o.connect(gn); gn.connect(ctx.destination); o.start(t); o.stop(t + len);
+    };
+    String(seq).split(' ').forEach((k) => {
+      if (k === 'S') horn(1);
+      else if (k === 'L') horn(4.5);
+      else if (k === 'B') { for (let i = 0; i < 25; i++) { ping(1250, 0.35, 0.18); t += 0.2; } t += 0.8; }
+      else if (k === 'G') { for (let i = 0; i < 6; i++) { ping(220, 1.2, 0.3); t += 0.8; } t += 0.6; }
+      else if (k === 'K') { ping(1250, 0.9, 0.25); t += 0.9; }
+      else t += 1;
+    });
+    if (btn) { btn.disabled = true; setTimeout(() => { btn.disabled = false; }, (t - ctx.currentTime) * 1000); }
+  }
+  if (typeof document !== 'undefined') {
+    document.addEventListener('click', (e) => {
+      const b = e.target.closest && e.target.closest('[data-sound]');
+      if (b) { e.stopPropagation(); playSeq(b.getAttribute('data-sound'), b); }
+    });
+  }
+
   /* ---------- API ---------- */
   function render(spec) {
     if (!spec) return '';
@@ -425,6 +486,7 @@
       case 'flags': return flags(spec);
       case 'rhythm': return rhythm(spec);
       case 'situation': return situation(spec);
+      case 'sound': return sound(spec);
       default: return '';
     }
   }

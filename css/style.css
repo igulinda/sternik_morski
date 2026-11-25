@@ -148,3 +148,6 @@ th { background: var(--surface-2); }
 .dot.ok { background: var(--ok); } .dot.learn { background: var(--learn); } .dot.fresh { background: var(--track); }
 @media (prefers-reduced-motion: reduce) { .bar.seg > span { transition: none; } }
 .card-box > .prog:first-child { margin-top: 0; }
+.sound-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.vis.snd { max-width: 420px; }
+.btn.play { min-height: 38px; padding: 6px 14px; font-size: .92rem; }
