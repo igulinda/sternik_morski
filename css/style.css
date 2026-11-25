@@ -123,3 +123,8 @@ th { background: var(--surface-2); }
 .foot { max-width: 760px; margin: 24px auto; padding: 0 16px 24px; color: var(--muted); font-size: .8rem; text-align: center; }
 .theory .vis { max-width: 260px; }
 .theory .vis.flag { max-width: 180px; }
+.flash { text-align: center; align-items: center; }
+.flash > * { width: 100%; }
+.flash .q, .flash .a { text-wrap: balance; }
+.flash .explain { max-width: 34em; margin-inline: auto; }
+.flash .tip { text-align: center; border-left: 0; border-top: 3px solid var(--accent); }
