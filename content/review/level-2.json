@@ -1,0 +1,391 @@
+{
+ "level": 2,
+ "fixes": [
+  {
+   "id": "L2-mpzz",
+   "where": "theory",
+   "old": "**MPZZ** (Międzynarodowe Prawidła o Zapobieganiu Zderzeniom na Morzu, ang. COLREG 1972)",
+   "new": "**MPZZ** (Międzynarodowe przepisy o zapobieganiu zderzeniom na morzu, w podręczniku skrót **MPZZM**; ang. COLREG 1972)",
+   "page": 434,
+   "reason": "Oficjalna polska nazwa to „Międzynarodowe przepisy o zapobieganiu zderzeniom na morzu” (MPZZM) – „prawidła” to nazwa poszczególnych punktów, nie całego aktu."
+  },
+  {
+   "id": "L2-mpzz",
+   "where": "theory",
+   "old": "**Żaglowiec** – statek idący pod żaglami",
+   "new": "**Statek żaglowy** (żaglowiec) – statek idący pod żaglami",
+   "page": 435,
+   "reason": "Termin definicyjny w MPZZM i w podręczniku to „statek żaglowy”; warto go podać w definicji."
+  },
+  {
+   "id": "L2-mpzz",
+   "where": "theory",
+   "old": "pas ruchu przecina się kursem możliwie **prostopadłym**",
+   "new": "**tor kierunkowy** przecina się kursem możliwie **prostopadłym**",
+   "page": 437,
+   "reason": "W polskim tekście MPZZM i w podręczniku pas ruchu TSS (traffic lane) to „tor kierunkowy”."
+  },
+  {
+   "id": "L2-mpzz",
+   "where": "theory",
+   "old": "statkom mechanicznym płynącym pasem ruchu",
+   "new": "statkom o napędzie mechanicznym idącym torem kierunkowym",
+   "page": 437,
+   "reason": "Terminologia MPZZM: „tor kierunkowy”."
+  },
+  {
+   "id": "L2-m-08",
+   "where": "q",
+   "old": "Pod jakim kątem przecina się pas ruchu w systemie rozgraniczenia ruchu (TSS)?",
+   "new": "Pod jakim kątem przecina się tor kierunkowy w systemie rozgraniczenia ruchu (TSS)?",
+   "page": 437,
+   "reason": "Terminologia MPZZM: „tor kierunkowy” zamiast „pas ruchu”."
+  },
+  {
+   "id": "L2-m-08",
+   "where": "a",
+   "old": "do ogólnego kierunku ruchu w tym pasie",
+   "new": "do ogólnego kierunku ruchu na tym torze kierunkowym",
+   "page": 437,
+   "reason": "Terminologia MPZZM: „tor kierunkowy”."
+  },
+  {
+   "id": "L2-ustepowanie",
+   "where": "theory",
+   "old": "statek o ograniczonej zdolności manewrowej oraz statek niezdolny do manewrowania",
+   "new": "statek o ograniczonej zdolności manewrowej oraz statek nieodpowiadający za swoje ruchy",
+   "page": 439,
+   "reason": "Termin MPZZM i podręcznika dla „vessel not under command” to „statek nieodpowiadający za swoje ruchy” – tego określenia oczekuje egzaminator."
+  },
+  {
+   "id": "L2-ustepowanie",
+   "where": "theory",
+   "old": "(poza niezdolnym i o ograniczonej zdolności manewrowej)",
+   "new": "(poza nieodpowiadającym za swoje ruchy i o ograniczonej zdolności manewrowej)",
+   "page": 439,
+   "reason": "Terminologia MPZZM: „statek nieodpowiadający za swoje ruchy”."
+  },
+  {
+   "id": "L2-u-09",
+   "where": "a",
+   "old": "statek o ograniczonej zdolności manewrowej i statek niezdolny do manewrowania.",
+   "new": "statek o ograniczonej zdolności manewrowej i statek nieodpowiadający za swoje ruchy.",
+   "page": 439,
+   "reason": "Terminologia MPZZM: „statek nieodpowiadający za swoje ruchy”.",
+   "mc_correct": "Mechaniczny → żaglowy → zajęty połowem → o ograniczonej zdolności manewrowej i nieodpowiadający za swoje ruchy"
+  },
+  {
+   "id": "L2-u-12",
+   "where": "q",
+   "old": "(poza niezdolnymi do manewrowania i o ograniczonej zdolności manewrowej)",
+   "new": "(poza statkami nieodpowiadającymi za swoje ruchy i o ograniczonej zdolności manewrowej)",
+   "page": 439,
+   "reason": "Terminologia MPZZM: „statek nieodpowiadający za swoje ruchy”."
+  },
+  {
+   "id": "L2-swiatla",
+   "where": "theory",
+   "old": "w **latarnię trójkolorową** na topie masztu",
+   "new": "w **latarnię trójkolorową** (w podręczniku: „latarnia kombinowana”) na topie masztu",
+   "page": 447,
+   "reason": "Podręcznik nazywa to światło „latarnią kombinowaną”; warto znać oba określenia."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-01",
+    "q": "Przepisy portowe danego akwenu różnią się od MPZZ. Których przestrzegasz?",
+    "a": "Przepisów miejscowych (lokalnych) – na swoim obszarze mają pierwszeństwo przed MPZZ, które mają tylko uzupełniać i z którymi powinny być możliwie zgodne.",
+    "source": "MPZZ, prawidło 1(b)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Przepisów miejscowych – na swoim akwenie mają pierwszeństwo",
+     "wrong": [
+      "Zawsze MPZZ – przepisy lokalne są tylko zaleceniem",
+      "Tych, które są korzystniejsze dla Twojego jachtu",
+      "MPZZ w dzień, przepisów miejscowych w nocy"
+     ]
+    }
+   },
+   "page": 435
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-02",
+    "q": "Co to jest „statek nieodpowiadający za swoje ruchy”?",
+    "a": "Statek, który z powodu wyjątkowych okoliczności (np. awarii steru lub maszyny) nie może manewrować zgodnie z prawidłami i dlatego nie jest w stanie ustąpić z drogi.",
+    "tip": "Ang. NUC – not under command. Przyczyna leży w samym statku (awaria), a nie w pracy, którą wykonuje.",
+    "source": "MPZZ, prawidło 3(f)",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Statek, który z wyjątkowych przyczyn (np. awaria) nie może manewrować wg prawideł",
+     "wrong": [
+      "Statek stojący na kotwicy lub przycumowany",
+      "Statek, którego manewrowość ogranicza rodzaj wykonywanej pracy",
+      "Statek, którego kapitan nie ma uprawnień do jego prowadzenia"
+     ]
+    }
+   },
+   "page": 435
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-03",
+    "q": "Co to jest „statek o ograniczonej zdolności manewrowej”? Podaj przykłady.",
+    "a": "Statek, któremu rodzaj wykonywanej pracy ogranicza możliwość manewrowania i ustąpienia z drogi – np. kładący kable lub rurociągi, pogłębiarka, statek prowadzący prace podwodne, trałujący miny, przekazujący zaopatrzenie w ruchu.",
+    "explain": "Różnica: przy statku o ograniczonej zdolności manewrowej przyczyną jest praca, przy nieodpowiadającym za swoje ruchy – awaria lub wyjątkowe okoliczności. Statek zajęty połowem to osobna kategoria.",
+    "source": "MPZZ, prawidło 3(g)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Statek, któremu wykonywana praca ogranicza manewrowanie, np. kablowiec, pogłębiarka",
+     "wrong": [
+      "Statek z awarią steru lub silnika",
+      "Statek łowiący sieciami lub włokiem",
+      "Każdy statek o długości powyżej 200 m"
+     ]
+    }
+   },
+   "page": 435
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-04",
+    "q": "Co to jest „statek ograniczony swym zanurzeniem”?",
+    "a": "Statek o napędzie mechanicznym, który z powodu swojego zanurzenia w stosunku do dostępnej głębokości i szerokości akwenu ma poważnie ograniczoną możliwość odchodzenia od kursu.",
+    "source": "MPZZ, prawidło 3(h)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Statek mechaniczny, który przez zanurzenie wobec głębokości akwenu nie może zejść z kursu",
+     "wrong": [
+      "Każdy statek na torze wodnym o głębokości poniżej 10 m",
+      "Jacht balastowy płynący po płyciźnie",
+      "Statek siedzący częściowo na mieliźnie"
+     ]
+    }
+   },
+   "page": 435
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-05",
+    "q": "Kiedy w rozumieniu MPZZ statki są „wzajemnie widoczne”?",
+    "a": "Tylko wtedy, gdy jeden statek może być obserwowany wzrokowo z drugiego. Wykrycie wyłącznie radarem lub przez AIS się nie liczy.",
+    "explain": "Od tego zależy, czy stosujesz prawidła 11–18 (statki wzajemnie widoczne), czy prawidło 19 (ograniczona widzialność).",
+    "source": "MPZZ, prawidło 3(k)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Gdy jeden może być obserwowany wzrokowo z drugiego",
+     "wrong": [
+      "Gdy widzą się nawzajem na radarze lub w AIS",
+      "Gdy są w zasięgu łączności VHF",
+      "Gdy odległość między nimi jest mniejsza niż 3 Mm"
+     ]
+    }
+   },
+   "page": 435
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-06",
+    "q": "Namiar na zbliżający się duży statek wyraźnie się zmienia. Czy na pewno nie ma ryzyka zderzenia?",
+    "a": "Nie. Ryzyko może istnieć mimo zmiany namiaru – zwłaszcza przy zbliżaniu się do bardzo dużego statku, zestawu holowniczego lub do statku z bliskiej odległości.",
+    "tip": "Duży statek ma dziób i rufę daleko od siebie – namiar na mostek może się zmieniać, a namiar na dziób nie.",
+    "source": "MPZZ, prawidło 7(d)(ii)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie – przy dużym statku, holu lub na małej odległości ryzyko może istnieć",
+     "wrong": [
+      "Tak – zmieniający się namiar zawsze wyklucza ryzyko",
+      "Tak, jeśli zmiana namiaru przekracza 1° na minutę",
+      "Nie, ale tylko w ograniczonej widzialności"
+     ]
+    }
+   },
+   "page": 436
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-07",
+    "q": "Czy wolno przeciąć wąskie przejście (tor wodny) przed statkiem, który może płynąć tylko w jego granicach?",
+    "a": "Nie, jeżeli takie przecięcie przeszkadza temu statkowi. Tor przecina się tylko wtedy, gdy nie utrudnia się przejścia statkom związanym z torem.",
+    "source": "MPZZ, prawidło 9(d)",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Nie, jeśli przecięcie przeszkadza statkowi związanemu z torem",
+     "wrong": [
+      "Tak – jacht żaglowy zawsze ma pierwszeństwo",
+      "Tak, jeśli przetnie się tor pod kątem prostym",
+      "Tak, po nadaniu jednego długiego sygnału"
+     ]
+    }
+   },
+   "page": 436
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-08",
+    "q": "W jakich miejscach MPZZ każą unikać kotwiczenia, jeśli to tylko możliwe?",
+    "a": "W wąskim przejściu (torze wodnym) oraz w systemie rozgraniczenia ruchu i w rejonach przy jego końcach.",
+    "source": "MPZZ, prawidła 9(g) i 10(g)",
+    "difficulty": 1,
+    "mc": {
+     "correct": "W wąskim przejściu oraz w TSS i w pobliżu jego końców",
+     "wrong": [
+      "Tylko na kotwicowiskach oznaczonych na mapie",
+      "W strefie ruchu przybrzeżnego",
+      "W odległości mniejszej niż 1 Mm od brzegu"
+     ]
+    }
+   },
+   "page": 437
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-09",
+    "q": "Jak wchodzić na tor kierunkowy systemu rozgraniczenia ruchu i z niego schodzić?",
+    "a": "Zwykle na końcach toru; jeśli z boku – pod możliwie małym kątem do ogólnego kierunku ruchu.",
+    "tip": "Wejście/wyjście – mały kąt (włączasz się do ruchu). Przecinanie toru – kąt możliwie prosty.",
+    "source": "MPZZ, prawidło 10(b)(iii)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Zwykle na końcach toru, z boku – pod możliwie małym kątem",
+     "wrong": [
+      "Zawsze pod kątem prostym do kierunku ruchu",
+      "W dowolnym miejscu, po nadaniu sygnału dźwiękowego",
+      "Tylko przez strefę rozgraniczającą"
+     ]
+    }
+   },
+   "page": 437
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-10",
+    "q": "Które statki mogą zawsze korzystać ze strefy ruchu przybrzeżnego obok systemu rozgraniczenia ruchu?",
+    "a": "Statki o długości mniejszej niż 20 m, statki żaglowe i statki zajęte połowem.",
+    "explain": "Statki w ruchu tranzytowym, które mogą bezpiecznie korzystać z toru kierunkowego, nie powinny normalnie używać strefy ruchu przybrzeżnego.",
+    "source": "MPZZ, prawidło 10(d)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Statki < 20 m, statki żaglowe i statki zajęte połowem",
+     "wrong": [
+      "Tylko statki o napędzie mechanicznym idące do portu",
+      "Tylko statki ograniczone swym zanurzeniem",
+      "Wszystkie statki w ruchu tranzytowym"
+     ]
+    }
+   },
+   "page": 437
+  },
+  {
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-x-11",
+    "q": "Kiedy wolno wejść w strefę rozgraniczającą (lub przeciąć linię rozgraniczającą) systemu TSS?",
+    "a": "Zasadniczo tylko przy przecinaniu systemu, wchodzeniu na tor lub schodzeniu z niego, w nagłym wypadku dla uniknięcia bezpośredniego niebezpieczeństwa oraz przy połowie w obrębie tej strefy.",
+    "source": "MPZZ, prawidło 10(e)",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Przy przecinaniu/wejściu/wyjściu, w nagłym wypadku lub przy połowie w tej strefie",
+     "wrong": [
+      "W każdej chwili – to strefa dla małych jednostek",
+      "Nigdy, nawet w nagłym wypadku",
+      "Tylko za zgodą stacji VTS przez radio"
+     ]
+    }
+   },
+   "page": 437
+  },
+  {
+   "lesson": "L2-ustepowanie",
+   "card": {
+    "id": "L2-x-12",
+    "q": "Płyniesz na silniku jako statek uprzywilejowany; statek mechaniczny ustępujący jest po Twojej lewej burcie i nie reaguje. Jakiego manewru unikać?",
+    "a": "Zmiany kursu w lewo – w stronę tego statku. Jeśli manewrujesz sam, nie zmieniaj kursu w lewo, o ile okoliczności na to pozwalają.",
+    "explain": "Ustępujący najpewniej skręci w prawo (za Twoją rufę) – Twój zwrot w lewo zniósłby jego manewr.",
+    "source": "MPZZ, prawidło 17(c)",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Zmiany kursu w lewo, w stronę ustępującego statku",
+     "wrong": [
+      "Zmiany kursu w prawo",
+      "Zmniejszenia prędkości",
+      "Nadania pięciu krótkich sygnałów"
+     ]
+    }
+   },
+   "page": 439
+  },
+  {
+   "lesson": "L2-ustepowanie",
+   "card": {
+    "id": "L2-x-13",
+    "q": "Jak MPZZ określają burtę nawietrzną żaglowca (prawidło 12)?",
+    "a": "Za nawietrzną uznaje się burtę przeciwną do tej, po której niesiony jest grot (na statku z ożaglowaniem rejowym – największy żagiel skośny).",
+    "tip": "Przy wietrze z rufy (fordewind) o halsie decyduje strona grota, a nie kierunek wiatru wskazywany przez wiatrowskaz.",
+    "source": "MPZZ, prawidło 12(b)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Burta przeciwna do tej, po której niesiony jest grot",
+     "wrong": [
+      "Burta, po której niesiony jest grot",
+      "Zawsze prawa burta jachtu",
+      "Burta, z której widać chorągiewkę na topie"
+     ]
+    }
+   },
+   "page": 439
+  },
+  {
+   "lesson": "L2-swiatla",
+   "card": {
+    "id": "L2-x-14",
+    "q": "Czy w nocy, poza światłami nawigacyjnymi, wolno pokazywać inne światła?",
+    "a": "Tylko takie, których nie można pomylić ze światłami z MPZZ, które nie osłabiają ich widoczności ani charakteru i nie przeszkadzają w prowadzeniu obserwacji.",
+    "source": "MPZZ, prawidło 20(b)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tylko takie, których nie da się pomylić ze światłami MPZZ i nie utrudniają obserwacji",
+     "wrong": [
+      "Żadnych – wszystkie inne światła są zakazane",
+      "Dowolne, byle nie czerwone ani zielone",
+      "Dowolne, jeśli statek ma mniej niż 12 m"
+     ]
+    }
+   },
+   "page": 441
+  },
+  {
+   "lesson": "L2-znaki-dzienne",
+   "card": {
+    "id": "L2-x-15",
+    "q": "Czy jacht < 7 m na kotwicy musi pokazywać kulę w dzień i białe światło w nocy?",
+    "a": "Nie – o ile kotwiczy poza wąskim przejściem, torem wodnym, kotwicowiskiem i miejscami, gdzie zwykle pływają inne statki.",
+    "source": "MPZZ, prawidło 30(e)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie, jeśli kotwiczy z dala od torów, kotwicowisk i miejsc ruchu statków",
+     "wrong": [
+      "Tak, zawsze i wszędzie",
+      "Nie, jacht < 7 m nigdy nie pokazuje świateł",
+      "Tylko kulę w dzień, w nocy nic"
+     ]
+    }
+   },
+   "page": 455
+  }
+ ],
+ "newLessons": [],
+ "notes": "Sprawdzono wszystkie karty nie-gen i bloki teorii poziomu 2 z MPZZM (PDF s. 434–447, 455) oraz IALA (PDF s. 129–134). Treść merytorycznie zgodna; nie znaleziono błędów rzeczowych (L2-ik-14 – wcześniej sprzeczna odpowiedź – jest już poprawiona w pliku). Pozostałe poprawki to terminologia z MPZZM/podręcznika: „statek nieodpowiadający za swoje ruchy” (zamiast „niezdolny do manewrowania” – to samo występuje w level-1 i level-3, warto poprawić także tam, a mnemonik „Niezdolny” w tipach zostawiono), „tor kierunkowy” (zamiast „pas ruchu”), „statek żaglowy”, pełna nazwa MPZZM, „latarnia kombinowana”. Podręcznik vs aktualne przepisy: tekst MPZZM w książce wg stanu z 2004 r.; książka zawęża łączenie świateł burtowych w jednej latarni do statków żaglowych/wiosłowych < 20 m, a prawidło 21(b) dopuszcza to dla każdego statku < 20 m; „widzialność ograniczona ≤ 3 Mm” i „mijanie w odległości ≥ 3 Mm” to praktyka, nie przepis – nie dodawano. Opis pławy wrakowej w książce omyłkowo zaczyna się od „znaki specjalne” (dotyczy level 3; tam też L3-i-04 utożsamia „nowe niebezpieczeństwo” z pławą wrakową – w książce to dwa różne znaki). Tabela zasięgów świateł (prawidło 22) nie występuje w książce – sprawdzona z COLREG, poprawna. Karta L2-x-12 (prawidło 17(c)) i L2-x-13 (12(b)) nie mają bezpośredniego odpowiednika w wyciągu podręcznika – oparte na COLREG. OCR stron 435 i 437 (definicje, TSS) mocno zaszumiony; numer strony PDF = strona drukowana − ok. 5. Nie dodano nowej lekcji – nowe karty o prawidłach 9/10 pasują do L2-mpzz; sygnały, światła < 12 m/< 7 m i prawidło 19 są już na poziomie 3."
+}

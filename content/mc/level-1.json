@@ -90,7 +90,7 @@
    ]
   },
   "L1-n-12": {
-   "correct": "Kąt między dziobem a kierunkiem na obiekt, liczony na prawą lub lewą burtę (0–180°).",
+   "correct": "Kąt od dziobu do kierunku na obiekt, liczony w prawo od 000° do 360°",
    "wrong": [
     "Kąt między północą rzeczywistą a kierunkiem na obiekt, liczony w prawo (0–360°).",
     "Kąt między północą rzeczywistą a osią jachtu, liczony w prawo (0–360°).",
@@ -426,7 +426,7 @@
    ]
   },
   "L1-fon-01": {
-   "correct": "Sierra Papa Two Alfa Bravo Charlie.",
+   "correct": "Sierra Papa Bissotwo Alfa Bravo Charlie",
    "wrong": [
     "Sierra Peter Two Alfa Bravo Charlie.",
     "Sugar Papa Two Alfa Bravo Charlie.",
@@ -439,6 +439,126 @@
     "Juliett, Quebec, Xenon, Yankee.",
     "Juliet, Queen, X-ray, Yellow.",
     "Jupiter, Quebec, X-ray, Yankee."
+   ]
+  },
+  "L1-x-n-01": {
+   "correct": "Wypadkowa wiatru rzeczywistego i własnego; pokazuje go wimpel",
+   "wrong": [
+    "Wiatr rzeczywisty mierzony na lądzie; pokazuje go rękaw lotniskowy",
+    "Wiatr wywołany wyłącznie ruchem jachtu; pokazuje go log",
+    "Różnica wiatru przy wodzie i na topie masztu; pokazuje ją barometr"
+   ]
+  },
+  "L1-x-n-02": {
+   "correct": "Ostre: bajdewind, półwiatr (pozorny silniejszy); pełne: baksztag, fordewind (słabszy)",
+   "wrong": [
+    "Ostre: baksztag, fordewind (pozorny silniejszy); pełne: bajdewind, półwiatr",
+    "Ostre: bajdewind, półwiatr (pozorny słabszy); pełne: baksztag, fordewind (silniejszy)",
+    "Ostry jest tylko bajdewind; na wszystkich kursach wiatr pozorny równa się rzeczywistemu"
+   ]
+  },
+  "L1-x-n-03": {
+   "correct": "Odpadanie – dziobem od wiatru (ku fordewindowi); ostrzenie – dziobem do wiatru",
+   "wrong": [
+    "Odpadanie – dziobem do wiatru (ku bajdewindowi); ostrzenie – dziobem od wiatru",
+    "Odpadanie – zmiana halsu przez rufę; ostrzenie – zmiana halsu przez dziób",
+    "Odpadanie – luzowanie szotów bez zmiany kursu; ostrzenie – ich wybieranie"
+   ]
+  },
+  "L1-x-n-04": {
+   "correct": "Sektor wokół kierunku wiatru, między bajdewindami obu halsów – nie da się w nim płynąć",
+   "wrong": [
+    "Sektor za rufą, w którym żagle zasłaniają widok sternikowi",
+    "Kąt między wiatrem rzeczywistym a pozornym na fordewindzie",
+    "Kąt wychylenia steru, przy którym jacht przestaje reagować"
+   ]
+  },
+  "L1-x-n-05": {
+   "correct": "Nawietrzna jest burta przeciwna do wychylonego grota; po niej określa się hals",
+   "wrong": [
+    "Nawietrzna jest burta, po której stronie wychylony jest grot",
+    "Na fordewindzie obie burty są zawietrzne, a hals się nie określa",
+    "Nawietrzna jest zawsze prawa burta, bo fordewind to zawsze prawy hals"
+   ]
+  },
+  "L1-x-b-01": {
+   "correct": "Beaufort – siła wiatru (0–12); Douglas – stan morza/wysokość fal (0–9)",
+   "wrong": [
+    "Beaufort – stan morza (0–9); Douglas – siła wiatru (0–12)",
+    "Beaufort – siła wiatru na morzu; Douglas – siła wiatru na lądzie",
+    "Beaufort – wysokość fali w metrach; Douglas – prędkość wiatru w węzłach"
+   ]
+  },
+  "L1-x-b-02": {
+   "correct": "Z północnego wschodu – kierunek wiatru to kierunek, skąd wieje",
+   "wrong": [
+    "Na północny wschód – kierunek wiatru to kierunek, dokąd wieje",
+    "Z południowego zachodu – NE oznacza stronę zawietrzną",
+    "Z północy, z odchyleniem 45° w lewo"
+   ]
+  },
+  "L1-x-b-03": {
+   "correct": "Zachodzi – skręca w prawo (zgodnie ze wskazówkami zegara); odchodzi – w lewo",
+   "wrong": [
+    "Zachodzi – skręca w lewo; odchodzi – skręca w prawo",
+    "Zachodzi – słabnie wieczorem; odchodzi – zanika całkowicie",
+    "Zachodzi – wieje z zachodu; odchodzi – wieje od lądu"
+   ]
+  },
+  "L1-x-f-01": {
+   "correct": "Zastępcze powtarzają użytą już flagę; flaga kodu = sygnał wg MKS / potwierdzenie odbioru",
+   "wrong": [
+    "Zastępcze zastępują banderę w porcie; flaga kodu oznacza „człowiek za burtą”",
+    "Zastępcze nadaje się nocą zamiast świateł; flaga kodu wzywa pilota",
+    "Zastępcze oznaczają cyfry 1–3; flaga kodu wzywa pomocy medycznej"
+   ]
+  },
+  "L1-x-c-01": {
+   "correct": "Forpik – dziobowy, achterpik – rufowy, kambuz – kuchnia",
+   "wrong": [
+    "Achterpik – dziobowy, forpik – rufowy, kingston – kuchnia",
+    "Forpik – dziobowy, kokpit – rufowy, mesa – kuchnia",
+    "Fordek – dziobowy, achterdek – rufowy, kambuz – toaleta"
+   ]
+  },
+  "L1-x-c-02": {
+   "correct": "Najniższa przestrzeń kadłuba pod podłogą, gdzie zbiera się woda",
+   "wrong": [
+    "Schowek pod kojami na rzeczy osobiste załogi",
+    "Wgłębienie w pokładzie dla sternika",
+    "Rowek wzdłuż burty odprowadzający wodę z pokładu"
+   ]
+  },
+  "L1-x-c-03": {
+   "correct": "Cuma dziobowa – z dziobu do przodu; szpring dziobowy – z dziobu ku rufie",
+   "wrong": [
+    "Cuma dziobowa – z dziobu ku rufie; szpring dziobowy – z dziobu do przodu",
+    "Szpring dziobowy biegnie z rufy do dziobu, cuma dziobowa – prostopadle do kei",
+    "Nie różnią się – to dwie nazwy tej samej liny"
+   ]
+  },
+  "L1-x-c-04": {
+   "correct": "Lina od nabrzeża do obciążnika na dnie – do cumowania prostopadle do kei",
+   "wrong": [
+    "Lina z ciężarkiem do rzucania na ląd",
+    "Sprężyna zakładana na cumę, by tłumić szarpanie",
+    "Lina biegnąca z rufy jachtu w kierunku dziobu"
+   ]
+  },
+  "L1-x-c-05": {
+   "correct": "Rogi: fałowy, halsowy, szotowy; liki: przedni, dolny, wolny",
+   "wrong": [
+    "Rogi: dziobowy, rufowy, masztowy; liki: górny, dolny, boczny",
+    "Rogi: fałowy, szotowy, pikowy; liki: nawietrzny, zawietrzny, dolny",
+    "Rogi: halsowy, refowy, bomowy; liki: przedni, tylny, środkowy"
+   ]
+  },
+  "L1-x-c-06": {
+   "correct": "KLW – linia wodna dzieląca kadłub na część pod- i nadwodną; wolna burta – burta nad wodą",
+   "wrong": [
+    "KLW – długość kadłuba z bukszprytem; wolna burta – burta zawietrzna",
+    "KLW – linia kil–top masztu; wolna burta – burta bez relingu",
+    "KLW – maksymalne zanurzenie z mieczem; wolna burta – burta nawietrzna"
    ]
   }
  }

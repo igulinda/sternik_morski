@@ -10,7 +10,7 @@
    ]
   },
   "L7-j-02": {
-   "correct": "Oba dwumasztowe; w keczu bezan stoi przed osią steru, w jolu – za nią.",
+   "correct": "Kecz – bezanmaszt przed tylnym końcem linii wodnej; jol – na lub za nim, z małym bezanem",
    "wrong": [
     "Oba dwumasztowe; w keczu bezan stoi za osią steru, w jolu – przed nią.",
     "Kecz jest jednomasztowy, a jol ma dwa maszty jednakowej wysokości.",
@@ -18,7 +18,7 @@
    ]
   },
   "L7-j-03": {
-   "correct": "Jacht jednomasztowy z dwoma żaglami przednimi (np. kliwer i sztaksel).",
+   "correct": "Jednomasztowiec z masztem bliżej środka kadłuba i 2–3 żaglami przednimi",
    "wrong": [
     "Jacht jednomasztowy z jednym żaglem przednim i grotem.",
     "Jacht dwumasztowy z bezanem za osią steru.",
@@ -282,7 +282,7 @@
    ]
   },
   "L7-t-07": {
-   "correct": "Na siłę napędową (do przodu) i siłę przechylającą/dryfującą (na bok).",
+   "correct": "Na siłę ciągu (do przodu) i siłę przechylającą (na bok)",
    "wrong": [
     "Na siłę wyporu i siłę ciężkości.",
     "Na siłę napędową i siłę wyporu kadłuba.",
@@ -551,6 +551,126 @@
     "Jacht płynący prawym halsem.",
     "Jacht znajdujący się na nawietrznej, niezależnie od halsu.",
     "Mniejszy z jachtów, niezależnie od halsu."
+   ]
+  },
+  "L7-x-01": {
+   "correct": "Częściowo zrównoważony – oś między krawędzią natarcia a środkiem naporu",
+   "wrong": [
+    "Niezrównoważony – oś na tylnej krawędzi płetwy, daje najlepsze czucie",
+    "Zrównoważony – oś za środkiem naporu, ster sam wraca do zera",
+    "Wspornikowy – bez osi obrotu, płetwa wygina się sprężyście"
+   ]
+  },
+  "L7-x-02": {
+   "correct": "Najpierw zamykam zawór butli, a gdy płomień zgaśnie – zawór palnika",
+   "wrong": [
+    "Najpierw zamykam zawór palnika, potem zawór butli",
+    "Zamykam tylko zawór palnika, butla zostaje otwarta do końca rejsu",
+    "Zamykam reduktor, a zawory butli i palnika zostawiam otwarte"
+   ]
+  },
+  "L7-x-03": {
+   "correct": "Odczekać min. ok. 20 s przed kolejnym włączeniem rozrusznika",
+   "wrong": [
+    "Od razu kręcić rozrusznikiem bez przerwy aż do skutku",
+    "Wyłączyć świece żarowe i kręcić na biegu naprzód",
+    "Dolać benzyny do filtra powietrza i spróbować ponownie"
+   ]
+  },
+  "L7-x-04": {
+   "correct": "Mieczowy: maks. ok. 40°, zero ok. 70°; balastowy: maks. ok. 75°, zero ok. 120°",
+   "wrong": [
+    "Mieczowy: maks. ok. 75°, zero ok. 120°; balastowy: maks. ok. 40°, zero ok. 70°",
+    "Oba typy: maks. ok. 90°, zero ok. 180°",
+    "Mieczowy: maks. ok. 10°, zero ok. 30°; balastowy: maks. ok. 20°, zero ok. 45°"
+   ]
+  },
+  "L7-x-05": {
+   "correct": "Płynąć na samym foku lub zamienić fordewind na dwa kursy baksztag",
+   "wrong": [
+    "Płynąć na samym grocie wybranym do diametralnej",
+    "Postawić grot i fok na motyla i trzymać ostry fordewind",
+    "Wyluzować grot do wanty i wybrać fok na przeciwną burtę"
+   ]
+  },
+  "L7-x-06": {
+   "correct": "Statkiem o napędzie mechanicznym",
+   "wrong": [
+    "Statkiem żaglowym, bo ma postawione żagle",
+    "Statkiem o ograniczonej zdolności manewrowej",
+    "Statkiem żaglowym, jeśli silnik ma moc poniżej 10 kW"
+   ]
+  },
+  "L7-x-07": {
+   "correct": "Z lewej burty wyprzedzanego; żaglowy żaglowego – po nawietrznej",
+   "wrong": [
+    "Z prawej burty wyprzedzanego; żaglowy żaglowego – po zawietrznej",
+    "Wyłącznie z prawej burty i zawsze po stronie brzegu",
+    "Z dowolnej strony; wyprzedzany musi się zatrzymać"
+   ]
+  },
+  "L7-x-08": {
+   "correct": "Po statkach niebędących małymi, za zgodą obsługi; bez wyprzedzania",
+   "wrong": [
+    "Przed barkami, bo są zwrotniejsze i szybciej się cumują",
+    "Zawsze osobno, jacht może żądać oddzielnego śluzowania",
+    "W dowolnej kolejności, kto pierwszy wpłynie do komory"
+   ]
+  },
+  "L7-x-09": {
+   "correct": "Dwa czerwone pionowo – śluza nie pracuje; zielone – wejście dozwolone",
+   "wrong": [
+    "Dwa czerwone pionowo – przygotuj się do wejścia; zielone – czekaj",
+    "Dwa czerwone pionowo – wejście tylko dla małych statków",
+    "Dwa czerwone pionowo – śluza pracuje w jednym kierunku; zielone – wyjście"
+   ]
+  },
+  "L7-x-10": {
+   "correct": "12 Mm od linii podstawowej",
+   "wrong": [
+    "3 Mm od linii brzegu",
+    "24 Mm od granicy wód portowych",
+    "200 Mm od linii podstawowej"
+   ]
+  },
+  "L7-x-11": {
+   "correct": "2 – do 20 Mm od brzegu, 3 – do 200 Mm, 4 – bez ograniczeń",
+   "wrong": [
+    "2 – do 12 Mm od brzegu, 3 – do 50 Mm, 4 – do 500 Mm",
+    "2 – do 6 Mm od brzegu, 3 – do 20 Mm, 4 – do 200 Mm",
+    "2 – do 50 Mm od brzegu, 3 – do 100 Mm, 4 – do 1000 Mm"
+   ]
+  },
+  "L7-x-12": {
+   "correct": "W dzień flagą „L”, w nocy dwiema zielonymi rakietami",
+   "wrong": [
+    "W dzień flagą „Q”, w nocy dwiema czerwonymi rakietami",
+    "W dzień flagą „K”, w nocy jedną białą rakietą",
+    "W dzień flagą „N”, w nocy trzema zielonymi światłami"
+   ]
+  },
+  "L7-x-13": {
+   "correct": "„Człowiek za burtą” w ciągu 24 h, pozostałe w ciągu 7 dni",
+   "wrong": [
+    "„Człowiek za burtą” w ciągu 7 dni, pozostałe w ciągu 24 h",
+    "Wszystkie alarmy przed wyjściem z portu, a potem raz w miesiącu",
+    "Tylko na żądanie kapitanatu portu, po zgłoszeniu wyjścia"
+   ]
+  },
+  "L7-x-14": {
+   "correct": "Oświadczenie kapitana o wypadku – w ciągu 24 h od przybycia do portu",
+   "wrong": [
+    "Zażalenie na kapitanat – w ciągu 7 dni od powrotu do kraju",
+    "Zgłoszenie szkody do ubezpieczyciela – w ciągu 30 dni od wypadku",
+    "Wpis do dziennika jachtowego – najpóźniej po zakończeniu rejsu"
+   ]
+  },
+  "L7-x-15": {
+   "correct": "Pismo obciążające drugą stronę zderzenia odpowiedzialnością za szkodę",
+   "wrong": [
+    "Prośba do kapitana portu o miejsce postoju po awarii",
+    "Raport o wypadku przesyłany do armatora po rejsie",
+    "Zgłoszenie przybycia jachtu do bosmanatu portu"
    ]
   }
  }

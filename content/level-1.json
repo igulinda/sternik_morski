@@ -52,8 +52,8 @@
     {
      "t": "ul",
      "items": [
-      "**Kursy względem wiatru**: bajdewind (ostro na wiatr, ok. 45°), półwiatr (wiatr z trawersu, ok. 90°), baksztag (wiatr od rufy skośnie, ok. 135°), fordewind (wiatr prosto w rufę, 180°).",
-      "**Kąt kursowy** – kąt między dziobem jachtu a kierunkiem na obiekt, mierzony od dziobu w prawo lub w lewo (np. 30° prawej burty)."
+      "**Kursy względem wiatru**: bajdewind (wiatr skośnie od dziobu – między kątem granicznym a trawersem; najostrzej ok. 45°), półwiatr (wiatr z trawersu, ok. 90°), baksztag (wiatr skośnie od rufy – między trawersem a rufą, np. ok. 135°), fordewind (wiatr prosto w rufę, 180°).",
+      "**Kąt kursowy (∠K)** – kąt między dziobową częścią osi (diametralnej) jachtu a kierunkiem na obiekt, liczony od dziobu **w prawo** od 000° do 360° (NK = KK + ∠K). Kąt liczony od dziobu w prawo lub w lewo (0–180°, np. 30° prawej burty) to **namiar burtowy** (NBP / NBL); NBP = NBL = 90° to trawersy."
      ]
     }
    ],
@@ -154,7 +154,41 @@
     {
      "id": "L1-n-12",
      "q": "Co to jest kąt kursowy?",
-     "a": "Kąt między dziobem (osią jachtu) a kierunkiem na obserwowany obiekt, liczony od dziobu na prawą lub lewą burtę (0–180°).",
+     "a": "Kąt między dziobową częścią osi jachtu a kierunkiem na obserwowany obiekt, liczony od dziobu w prawo (zgodnie z ruchem wskazówek zegara) od 000° do 360°. Pomiar 0–180° na prawą lub lewą burtę to namiar burtowy (NBP/NBL).",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-n-01",
+     "q": "Co to jest wiatr pozorny i co go wskazuje na jachcie?",
+     "a": "Wypadkowa wiatru rzeczywistego i wiatru własnego (wywołanego ruchem jachtu). To on działa na żagle i jest odczuwany na pokładzie; wskazuje go wimpel (lub wiatromierz na topie masztu).",
+     "explain": "Wiatr własny jest równy prędkości jachtu i skierowany przeciwnie do jego ruchu. Kursy względem wiatru określa się względem wiatru pozornego.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-n-02",
+     "q": "Które kursy względem wiatru nazywamy ostrymi, a które pełnymi? Jak na nich zmienia się siła wiatru pozornego?",
+     "a": "Ostre: bajdewind i półwiatr – wiatr pozorny jest silniejszy od rzeczywistego. Pełne: baksztag i fordewind – wiatr pozorny jest słabszy od rzeczywistego.",
+     "tip": "Na kursie ostrym „płyniesz pod wiatr”, więc go dokładasz; z wiatrem – odejmujesz. Dlatego po odpadnięciu z bajdewindu wiatr wydaje się słabszy.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-n-03",
+     "q": "Czym jest odpadanie, a czym ostrzenie?",
+     "a": "Odpadanie – zmiana kursu w stronę kursów pełniejszych (od bajdewindu ku fordewindowi, dziobem od wiatru). Ostrzenie – zmiana kursu w stronę kursów ostrzejszych (dziobem do wiatru, ku bajdewindowi).",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-x-n-04",
+     "q": "Co to jest kąt martwy?",
+     "a": "Kąt między osiami jachtu płynącego najostrzejszym bajdewindem lewego i prawego halsu. W tym sektorze (wokół kierunku, z którego wieje wiatr) jacht nie może płynąć pod żaglami – do celu na wietrze trzeba halsować.",
+     "explain": "Połowa kąta martwego to kąt graniczny – najmniejszy kąt do wiatru, przy którym wybrane żagle jeszcze pracują (zwykle ok. 30–60° zależnie od ożaglowania).",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-n-05",
+     "q": "Jacht płynie fordewindem. Jak ustalić, która burta jest nawietrzna i jakim halsem płynie?",
+     "a": "Na fordewindzie burta nawietrzna to ta przeciwna do burty, na którą wychylony jest grot (bom). Grot na lewej burcie → nawietrzna jest prawa → prawy hals.",
+     "tip": "Ta sama zasada co zawsze: hals odczytujesz po stronie przeciwnej do bomu.",
      "difficulty": 2
     }
    ]
@@ -283,7 +317,7 @@
       ],
       [
        "5",
-       "dość silny",
+       "świeży",
        "17–21"
       ],
       [
@@ -363,6 +397,25 @@
      "id": "L1-b-06",
      "q": "Wiatr wieje 30 węzłów. Ile to °B?",
      "a": "7°B – wiatr bardzo silny (28–33 w).",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-b-01",
+     "q": "Czym różni się skala Beauforta od skali Douglasa?",
+     "a": "Skala Beauforta (0–12) opisuje siłę wiatru, a skala Douglasa (0–9) – stan morza, oceniany głównie po wysokości fal. Obie są ze sobą powiązane: silniejszy wiatr daje wyższy stopień stanu morza.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-b-02",
+     "q": "Prognoza podaje „wiatr NE”. Skąd wieje wiatr?",
+     "a": "Z północnego wschodu (wieje w kierunku SW). Kierunek wiatru zawsze podaje się jako kierunek, z którego wiatr wieje – w rumbach (N, NNE, NE…) lub w stopniach (NE = 045°).",
+     "tip": "Odwrotnie niż przy prądzie morskim – tam podaje się kierunek, w którym woda płynie.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-x-b-03",
+     "q": "Co znaczy, że wiatr „zachodzi”, a co, że „odchodzi”?",
+     "a": "Wiatr zachodzi – zmienia kierunek w prawo, zgodnie z ruchem wskazówek zegara (np. z S na SW i W). Wiatr odchodzi – zmienia kierunek w lewo, przeciwnie do ruchu wskazówek zegara (np. z S na SE i E).",
      "difficulty": 2
     }
    ]
@@ -1019,13 +1072,99 @@
     {
      "id": "L1-fon-01",
      "q": "Przeliteruj alfabetem fonetycznym: S P 2 A B C (znak wywoławczy).",
-     "a": "Sierra Papa Two Alfa Bravo Charlie.",
+     "a": "Sierra Papa Bissotwo (w praktyce często „two”) Alfa Bravo Charlie.",
      "difficulty": 2
     },
     {
      "id": "L1-fon-02",
      "q": "Jak brzmią w alfabecie fonetycznym litery J, Q, X, Y?",
      "a": "Juliett, Quebec, X-ray, Yankee.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-f-01",
+     "q": "Do czego służą flagi zastępcze i flaga kodu (odpowiedzi) w MKS?",
+     "a": "Trzy flagi zastępcze (pierwsza, druga, trzecia) pozwalają powtórzyć w tym samym sygnale flagę już użytą wyżej (np. drugą literę A), gdy jest tylko jeden komplet flag. Flaga kodu i odpowiedzi oznacza, że sygnał nadawany jest wg MKS, a podniesiona przez odbiorcę – potwierdza odebranie sygnału.",
+     "tip": "Po wymianie sygnałów flagi należy od razu opuścić, by nie wprowadzać innych w błąd.",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L1-x-czesci",
+   "title": "Części jachtu, liny cumownicze i żagiel",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Na egzaminie i na pokładzie komendy padają w żeglarskim języku. Warto znać nazwy części kadłuba, pomieszczeń, lin cumowniczych i elementów żagla."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Dziób – śródokręcie – rufa**; część dziobu nad wodą to nawis dziobowy, rufy – nawis rufowy.",
+      "**Pokład** dzieli się na pokład dziobowy (**fordek**) i rufowy (**achterdek**); **kokpit** to wgłębienie w pokładzie dla sternika i załogi.",
+      "**Pomieszczenia**: **forpik** (przedział dziobowy), **mesa** (część mieszkalna), **kambuz** (kuchnia), **kingston** (toaleta), **achterpik** (przedział rufowy).",
+      "**Zęza** – najniższa część wnętrza kadłuba, pod podłogą (gretingiem); zbiera się w niej woda.",
+      "**KLW** (konstrukcyjna linia wodna) dzieli kadłub na część podwodną i nadwodną; **wolna burta** to wysokość burty nad wodą."
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Cuma dziobowa** biegnie z dziobu do przodu, **cuma rufowa** – z rufy do tyłu.",
+      "**Szpring dziobowy** biegnie z dziobu ku rufie, **szpring rufowy** – z rufy ku dziobowi; szpringi ograniczają ruch wzdłuż nabrzeża.",
+      "**Muring** – lina od nabrzeża do obciążnika na dnie; pozwala stać prostopadle do kei."
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Krawędzie żagla to **liki**: przedni (przy maszcie lub sztagu), dolny (przy bomie), wolny (tylny), a w żaglu gaflowym także górny.",
+      "Rogi żagla trójkątnego: **fałowy** (górny, do fału), **halsowy** (dolny przedni), **szotowy** (dolny tylny, do szotów).",
+      "**Refbanta** z **remizkami** i **refsejzingami** służy do refowania, czyli zmniejszania powierzchni żagla."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Szpring nazywasz od miejsca, z którego wychodzi z jachtu: szpring dziobowy wychodzi z dziobu i biegnie do tyłu."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L1-x-c-01",
+     "q": "Jak nazywają się przedziały kadłuba: dziobowy i rufowy, oraz pomieszczenie kuchenne na jachcie?",
+     "a": "Forpik – przedział dziobowy, achterpik – przedział rufowy, kambuz – kuchnia jachtowa.",
+     "explain": "Toaleta to kingston, a środkowe pomieszczenie mieszkalne – mesa.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-x-c-02",
+     "q": "Co to jest zęza?",
+     "a": "Najniższa część wnętrza kadłuba, między podłogą (gretingiem) a poszyciem dna. Zbiera się w niej woda, którą usuwa się pompą zęzową.",
+     "difficulty": 1
+    },
+    {
+     "id": "L1-x-c-03",
+     "q": "Czym różni się cuma dziobowa od szpringu dziobowego?",
+     "a": "Cuma dziobowa biegnie z dziobu do przodu (na nabrzeże przed jachtem), a szpring dziobowy – z dziobu skośnie do tyłu, w stronę rufy. Szpringi ograniczają przesuwanie się jachtu wzdłuż nabrzeża.",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-c-04",
+     "q": "Co to jest muring?",
+     "a": "Lina, której jeden koniec jest przymocowany do nabrzeża, a drugi do obciążnika zatopionego na dnie. Służy do cumowania jachtu prostopadle do nabrzeża (rufą lub dziobem do kei).",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-c-05",
+     "q": "Jak nazywają się rogi i liki trójkątnego żagla (grota)?",
+     "a": "Rogi: fałowy (górny), halsowy (dolny przedni, przy maszcie) i szotowy (dolny tylny). Liki: przedni (przy maszcie), dolny (przy bomie) i wolny (tylny).",
+     "difficulty": 2
+    },
+    {
+     "id": "L1-x-c-06",
+     "q": "Co to jest KLW i wolna burta?",
+     "a": "KLW – konstrukcyjna linia wodna, do której kadłub zanurza się przy normalnym obciążeniu; dzieli go na część podwodną i nadwodną. Wolna burta – wysokość burty od linii wodnej do pokładu.",
      "difficulty": 2
     }
    ]

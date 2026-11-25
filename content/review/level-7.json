@@ -1,0 +1,424 @@
+{
+ "level": 7,
+ "fixes": [
+  {
+   "id": "L7-jacht",
+   "where": "theory",
+   "old": "**kecz** (2 maszty, tylny – bezanmaszt – przed osią steru), **jol** (2 maszty, bezanmaszt za osią steru)",
+   "new": "**kecz** (2 maszty, bezanmaszt stoi przed tylnym końcem konstrukcyjnej linii wodnej – KLW, bezan stosunkowo duży), **jol** (2 maszty, znacznie mniejszy bezanmaszt na lub za tylnym końcem KLW – w praktyce zwykle za osią steru)",
+   "page": 46,
+   "reason": "Podręcznik definiuje kecz i jol położeniem bezanmasztu względem tylnego skraju konstrukcyjnej linii wodnej, a nie osi steru (oś steru to tylko praktyczna reguła)."
+  },
+  {
+   "id": "L7-jacht",
+   "where": "theory",
+   "old": "**kuter** (1 maszt, 2 żagle przednie)",
+   "new": "**kuter** (1 maszt przesunięty bliżej środka kadłuba, 2–3 żagle przednie, np. fok, kliwer, latacz)",
+   "page": 45,
+   "reason": "Wg podręcznika kuter ma maszt ustawiony blisko środka kadłuba i 2–3 sztaksle; „2 żagle” to zawężenie."
+  },
+  {
+   "id": "L7-jacht",
+   "where": "theory",
+   "old": "**szkuner** (2+ maszty, przedni niższy lub równy)",
+   "new": "**szkuner** (2+ maszty, przedni – fokmaszt – nieco niższy od następnego)",
+   "page": 49,
+   "reason": "Podręcznik: w szkunerze maszt przedni jest nieco niższy od drugiego (nazwa: fokmaszt)."
+  },
+  {
+   "id": "L7-jacht",
+   "where": "theory",
+   "old": "Kecz czy jol? Patrz, gdzie stoi tylny maszt: PRZED sterem – kecz, ZA sterem – jol.",
+   "new": "Kecz czy jol? Patrz, gdzie stoi bezanmaszt względem tylnego końca linii wodnej: PRZED nim – kecz, NA LUB ZA nim (w praktyce zwykle za sterem) – jol.",
+   "page": 46,
+   "reason": "Dostosowanie wskazówki do definicji podręcznikowej (KLW)."
+  },
+  {
+   "id": "L7-j-02",
+   "where": "a",
+   "old": "W keczu tylny maszt (bezanmaszt) stoi przed osią steru, w jolu – za osią steru (i jest mniejszy).",
+   "new": "W keczu tylny maszt (bezanmaszt) stoi przed tylnym końcem konstrukcyjnej linii wodnej (KLW), w jolu – na lub za tylnym końcem KLW i jest znacznie mniejszy (praktyczna reguła: kecz – przed osią steru, jol – za nią).",
+   "page": 46,
+   "reason": "Egzaminator oczekuje definicji z podręcznika (położenie bezanmasztu względem KLW); oś steru tylko jako reguła praktyczna.",
+   "mc_correct": "Kecz – bezanmaszt przed tylnym końcem linii wodnej; jol – na lub za nim, z małym bezanem"
+  },
+  {
+   "id": "L7-j-03",
+   "where": "a",
+   "old": "Jacht jednomasztowy z dwoma żaglami przednimi (np. kliwer i fok/sztaksel).",
+   "new": "Jacht jednomasztowy z masztem przesuniętym bliżej środka kadłuba, niosący 2–3 żagle przednie (np. fok, kliwer, latacz).",
+   "page": 45,
+   "reason": "Podręcznik: maszt blisko środka kadłuba, 2–3 sztaksle (fok, kliwer, latacz).",
+   "mc_correct": "Jednomasztowiec z masztem bliżej środka kadłuba i 2–3 żaglami przednimi"
+  },
+  {
+   "id": "L7-teoria",
+   "where": "theory",
+   "old": "**środka ciężkości (G)** i **środka wyporu (B)**",
+   "new": "**środka ciężkości (SC)** i **środka wyporu (SW)**",
+   "page": 83,
+   "reason": "Podręcznik używa oznaczeń SC i SW (nie angielskich G i B)."
+  },
+  {
+   "id": "L7-teoria",
+   "where": "theory",
+   "old": "**siłę napędową** (do przodu)",
+   "new": "**siłę ciągu** (napędową, do przodu)",
+   "page": 74,
+   "reason": "Termin podręcznikowy to „siła ciągu” (obok siły przechylającej)."
+  },
+  {
+   "id": "L7-teoria",
+   "where": "theory",
+   "old": "jeśli **środek ożaglowania (CE)** leży za **środkiem oporu bocznego (CLR)**",
+   "new": "jeśli **środek ożaglowania (SOŻ)** leży za **środkiem bocznego oporu (SBO)**",
+   "page": 81,
+   "reason": "Podręcznik: środek ożaglowania SOŻ i środek bocznego oporu SBO – takich skrótów oczekuje egzaminator."
+  },
+  {
+   "id": "L7-t-07",
+   "where": "a",
+   "old": "Na siłę napędową (do przodu)",
+   "new": "Na siłę ciągu (napędową – do przodu)",
+   "page": 74,
+   "reason": "Termin podręcznikowy: siła ciągu.",
+   "mc_correct": "Na siłę ciągu (do przodu) i siłę przechylającą (na bok)"
+  },
+  {
+   "id": "L7-t-08",
+   "where": "a",
+   "old": "Gdy środek ożaglowania leży za środkiem oporu bocznego.",
+   "new": "Gdy środek ożaglowania (SOŻ) leży za środkiem bocznego oporu (SBO).",
+   "page": 81,
+   "reason": "Nazewnictwo i skróty z podręcznika (SOŻ, SBO)."
+  },
+  {
+   "id": "L7-r-11",
+   "where": "a",
+   "old": "Na rufie – na flagsztoku (lub na achtersztagu).",
+   "new": "Na rufie – na flagsztoku (w praktyce też na achtersztagu); pod ożaglowaniem gaflowym – pod pikiem gafla (tylnego masztu), a na jachcie wielomasztowym bermudzkim pod żaglami – na topie tylnego masztu.",
+   "page": 379,
+   "reason": "Podręcznik podaje też miejsca bandery pod żaglami (pik gafla, top tylnego masztu) – możliwe pytanie egzaminacyjne; achtersztagu podręcznik nie wymienia."
+  },
+  {
+   "id": "L7-srodladowe",
+   "where": "theory",
+   "old": "**zaleceń** – zielone kwadraty lub żółte światła",
+   "new": "**zalecenia** – żółte romby lub żółte światła stałe (także romby zielono-białe / zielone światła oraz niebieskie tablice ze wskazaniem)",
+   "page": 98,
+   "reason": "Znaki zalecenia to wg podręcznika żółte romby i żółte światła (oraz romby zielono-białe, zielone światła); „zielone kwadraty” nie występują."
+  },
+  {
+   "id": "L7-srodladowe",
+   "where": "theory",
+   "old": "**informacyjne** – niebieskie tablice z białym symbolem.",
+   "new": "**informacyjne** – niebieskie tablice z białym symbolem (oraz zielona tablica z białym pionowym pasem / zielone światło – przejście dozwolone). Ogólny **zakaz przejścia**: czerwona tablica z białym poziomym pasem lub czerwone światło.",
+   "page": 98,
+   "reason": "Uzupełnienie brakujących, często pytanych znaków: zezwolenie przejścia (zielona z białym pionowym pasem) i ogólny zakaz przejścia."
+  },
+  {
+   "id": "L7-srodladowe",
+   "where": "theory",
+   "old": "jednostka o napędzie siłą mięśni ustępuje **żaglowej**.",
+   "new": "jednostka o napędzie siłą mięśni ustępuje **żaglowej**. Wyjątek: mała jednostka płynąca przy prawej krawędzi szlaku (blisko prawego brzegu) zachowuje kurs. Jacht płynący na żaglach i silniku jednocześnie jest jednostką **o napędzie mechanicznym**.",
+   "page": 416,
+   "reason": "Przepisy (§6.03 bis ust. 3) przewidują wyjątek dla jednostki przy prawej krawędzi szlaku; brakowało też definicji z §1.01 (żagle + silnik = napęd mechaniczny)."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L7-jacht",
+   "page": 61,
+   "card": {
+    "id": "L7-x-01",
+    "q": "Czym różni się ster niezrównoważony, częściowo zrównoważony i zrównoważony? Który jest najkorzystniejszy?",
+    "a": "Położeniem osi obrotu płetwy: w niezrównoważonym oś biegnie wzdłuż przedniej krawędzi (duża siła na rumplu), w zrównoważonym – w punkcie przyłożenia siły hydrodynamicznej (prawie bez siły), w częściowo zrównoważonym – pomiędzy nimi. Najkorzystniejszy jest częściowo zrównoważony.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 3. Budowa i obsługa jachtu",
+    "explain": "Częściowo zrównoważony ster pozwala „czuć” jacht, a sterowanie nie męczy sternika.",
+    "mc": {
+     "correct": "Częściowo zrównoważony – oś między krawędzią natarcia a środkiem naporu",
+     "wrong": [
+      "Niezrównoważony – oś na tylnej krawędzi płetwy, daje najlepsze czucie",
+      "Zrównoważony – oś za środkiem naporu, ster sam wraca do zera",
+      "Wspornikowy – bez osi obrotu, płetwa wygina się sprężyście"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-jacht",
+   "page": 66,
+   "card": {
+    "id": "L7-x-02",
+    "q": "W jakiej kolejności otwierasz i zamykasz zawory instalacji gazowej przy kuchence?",
+    "a": "Otwieranie: najpierw zawór butli (najwyżej ok. 2 obroty), potem zapalasz zapałkę i dopiero odkręcasz zawór palnika. Zamykanie: najpierw zawór butli (gaz w przewodzie się dopala), potem zawory palników.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 3.5. Instalacje jachtowe",
+    "tip": "Gaz zostaje w przewodzie tylko wtedy, gdy zamkniesz najpierw palnik – dlatego butla idzie pierwsza.",
+    "mc": {
+     "correct": "Najpierw zamykam zawór butli, a gdy płomień zgaśnie – zawór palnika",
+     "wrong": [
+      "Najpierw zamykam zawór palnika, potem zawór butli",
+      "Zamykam tylko zawór palnika, butla zostaje otwarta do końca rejsu",
+      "Zamykam reduktor, a zawory butli i palnika zostawiam otwarte"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-silnik",
+   "page": 71,
+   "card": {
+    "id": "L7-x-03",
+    "q": "Jak uruchamia się zimny silnik wysokoprężny i co robisz, gdy nie zapali za pierwszym razem?",
+    "a": "Otwierasz zawory wody chłodzącej, wydechu i paliwa, dźwignia biegów na luz, włączasz świece żarowe na ok. 5–10 s, potem rozrusznik. Jeśli silnik nie zapali – przed kolejną próbą odczekaj co najmniej ok. 20 s (akumulator i rozrusznik muszą „odpocząć”). Po zapaleniu silnik grzeje się na luzie, zanim go obciążysz.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 3.6.2. Silniki stacjonarne",
+    "mc": {
+     "correct": "Odczekać min. ok. 20 s przed kolejnym włączeniem rozrusznika",
+     "wrong": [
+      "Od razu kręcić rozrusznikiem bez przerwy aż do skutku",
+      "Wyłączyć świece żarowe i kręcić na biegu naprzód",
+      "Dolać benzyny do filtra powietrza i spróbować ponownie"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-teoria",
+   "page": 83,
+   "card": {
+    "id": "L7-x-04",
+    "q": "Przy jakich kątach przechyłu jacht mieczowy, a przy jakich balastowy osiąga największy moment prostujący i traci stateczność?",
+    "a": "Typowo: jacht mieczowy (stateczność kształtu) – maks. moment prostujący ok. 40°, kąt krytyczny (moment = 0) ok. 70°; jacht balastowy (stateczność ciężaru) – maks. ok. 75°, kąt krytyczny ok. 120°. Powyżej kąta krytycznego stateczność jest ujemna – jacht się przewraca.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 4.5.2. Stateczność jachtu",
+    "explain": "Wartości są orientacyjne (teoretyczne krzywe stateczności) – pokazują, że jacht mieczowy ma znacznie mniejszy zakres stateczności dodatniej.",
+    "mc": {
+     "correct": "Mieczowy: maks. ok. 40°, zero ok. 70°; balastowy: maks. ok. 75°, zero ok. 120°",
+     "wrong": [
+      "Mieczowy: maks. ok. 75°, zero ok. 120°; balastowy: maks. ok. 40°, zero ok. 70°",
+      "Oba typy: maks. ok. 90°, zero ok. 180°",
+      "Mieczowy: maks. ok. 10°, zero ok. 30°; balastowy: maks. ok. 20°, zero ok. 45°"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-teoria",
+   "page": 88,
+   "card": {
+    "id": "L7-x-05",
+    "q": "Płyniesz z wiatrem (fordewind) przy silnym i porywistym wietrze. Jak ułatwić sobie sterowanie?",
+    "a": "Lepiej płynąć na samym foku niż na samym grocie (SOŻ daleko przed SBO – jacht jest „ciągnięty” i łatwo trzyma kurs) albo zamiast fordewindu żeglować dwoma halsami baksztagu – droga nieco dłuższa, ale szybciej, stabilniej i bez ryzyka niekontrolowanego zwrotu przez rufę.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 4.7. Żegluga w trudnych warunkach",
+    "mc": {
+     "correct": "Płynąć na samym foku lub zamienić fordewind na dwa kursy baksztag",
+     "wrong": [
+      "Płynąć na samym grocie wybranym do diametralnej",
+      "Postawić grot i fok na motyla i trzymać ostry fordewind",
+      "Wyluzować grot do wanty i wybrać fok na przeciwną burtę"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-srodladowe",
+   "page": 391,
+   "card": {
+    "id": "L7-x-06",
+    "q": "Jacht na wodach śródlądowych płynie jednocześnie na żaglach i na silniku. Jaką jest jednostką w świetle przepisów?",
+    "a": "Jednostką (statkiem) o napędzie mechanicznym – i tak musi ustępować drogi oraz się oznakować. Statek żaglowy to tylko taki, który porusza się wyłącznie za pomocą żagli.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 12.8. Przepisy ogólne",
+    "mc": {
+     "correct": "Statkiem o napędzie mechanicznym",
+     "wrong": [
+      "Statkiem żaglowym, bo ma postawione żagle",
+      "Statkiem o ograniczonej zdolności manewrowej",
+      "Statkiem żaglowym, jeśli silnik ma moc poniżej 10 kW"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-srodladowe",
+   "page": 419,
+   "card": {
+    "id": "L7-x-07",
+    "q": "Z której strony wyprzedza się na śródlądowym szlaku żeglownym? Jak wyprzedza jeden statek żaglowy drugi?",
+    "a": "Zasadniczo z lewej burty wyprzedzanego (przy dostatecznie szerokim szlaku – dopuszczalnie z prawej). Statek żaglowy wyprzedza inny żaglowy z zasady po jego stronie nawietrznej; wyprzedzany powinien to ułatwić.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 12.13.2. Wyprzedzanie",
+    "mc": {
+     "correct": "Z lewej burty wyprzedzanego; żaglowy żaglowego – po nawietrznej",
+     "wrong": [
+      "Z prawej burty wyprzedzanego; żaglowy żaglowego – po zawietrznej",
+      "Wyłącznie z prawej burty i zawsze po stronie brzegu",
+      "Z dowolnej strony; wyprzedzany musi się zatrzymać"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-srodladowe",
+   "page": 422,
+   "card": {
+    "id": "L7-x-08",
+    "q": "W jakiej kolejności jachty (małe statki) wchodzą do śluzy i jakie obowiązują tam zasady?",
+    "a": "Statki wchodzą w kolejności przybycia, ale małe statki nie mogą żądać osobnego śluzowania i wchodzą za zgodą obsługi – po wejściu statków niebędących małymi. W rejonie śluzy nie wolno wyprzedzać; w komorze trzeba być przycumowanym, używać odbijaczy i nie korzystać z napędu do czasu zezwolenia na wyjście.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 12.13.4. Przejścia przez śluzy",
+    "mc": {
+     "correct": "Po statkach niebędących małymi, za zgodą obsługi; bez wyprzedzania",
+     "wrong": [
+      "Przed barkami, bo są zwrotniejsze i szybciej się cumują",
+      "Zawsze osobno, jacht może żądać oddzielnego śluzowania",
+      "W dowolnej kolejności, kto pierwszy wpłynie do komory"
+     ]
+    }
+   }
+  },
+  {
+   "lesson": "L7-srodladowe",
+   "page": 423,
+   "card": {
+    "id": "L7-x-09",
+    "q": "Co oznaczają światła przy wejściu do śluzy: dwa czerwone jedno nad drugim, jedno czerwone, czerwone + zielone, zielone?",
+    "a": "Dwa czerwone jedno nad drugim – śluza nie pracuje; jedno czerwone (lub dwa obok siebie) – wejście zabronione, śluza zamknięta; czerwone i zielone (albo zgaszenie jednego z dwóch czerwonych) – śluza przygotowuje się do otwarcia, wejście jeszcze zabronione; zielone – wejście dozwolone.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 12.13.4. Przejścia przez śluzy",
+    "mc": {
+     "correct": "Dwa czerwone pionowo – śluza nie pracuje; zielone – wejście dozwolone",
+     "wrong": [
+      "Dwa czerwone pionowo – przygotuj się do wejścia; zielone – czekaj",
+      "Dwa czerwone pionowo – wejście tylko dla małych statków",
+      "Dwa czerwone pionowo – śluza pracuje w jednym kierunku; zielone – wyjście"
+     ]
+    }
+   }
+  }
+ ],
+ "newLessons": [
+  {
+   "lesson": {
+    "id": "L7-x-morskie",
+    "title": "Obszary morskie, służba na jachcie i wypadek morski",
+    "theory": [
+     {
+      "t": "ul",
+      "items": [
+       "**Obszary morskie RP**: morskie wody wewnętrzne (m.in. Zalew Szczeciński i Wiślany, część Zatoki Gdańskiej, wody portów) i **morze terytorialne** – pas **12 Mm** od linii podstawowej. Dalej – wyłączna strefa ekonomiczna i morze pełne.",
+       "Nadzór sprawuje administracja morska: **urzędy morskie** (z kapitanatami i bosmanatami portów). Statki zatrzymuje też **Straż Graniczna** – w dzień flagą **L** MKS, w nocy dwiema zielonymi rakietami.",
+       "**Rejony żeglugi jachtów morskich**: T – akweny treningowe, 1 – żegluga osłonięta (zatoki, zalewy, do 6 Mm od brzegu), 2 – przybrzeżna (do 20 Mm), 3 – pełnomorska (do 200 Mm), 4 – oceaniczna (bez ograniczeń).",
+       "**Służba na jachcie**: kapitan ustala rozkład wacht i funkcji (wpis do dziennika) i opracowuje **rozkład alarmowy**; przed wyjściem szkoli załogę ze środków ratunkowych. Zwyczajowo (dawny regulamin PZŻ) alarm ćwiczebny „człowiek za burtą” – w ciągu 24 h od wyjścia, pozostałe – w ciągu 7 dni.",
+       "**Po wypadku morskim** kapitan: zawiadamia kapitanat (bosmanat) pierwszego polskiego portu, sporządza raport, zbiera oświadczenia świadków, szkic i opis uszkodzeń; przy znacznej szkodzie składa **protest morski**; po zderzeniu wręcza drugiej stronie **list do kapitana**."
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Rejony 2 i 3 zapamiętaj liczbami: 20 Mm – przybrzeżna, 200 Mm – pełnomorska."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L7-x-10",
+      "q": "Jaką szerokość ma polskie morze terytorialne i od czego się ją liczy?",
+      "a": "12 mil morskich (ok. 22,2 km), liczonych od linii podstawowej (linii najniższego stanu wody wzdłuż brzegu lub zewnętrznej granicy morskich wód wewnętrznych).",
+      "difficulty": 1,
+      "source": "Kolaszewski, Świdwiński – 13.1. Administracja morska",
+      "mc": {
+       "correct": "12 Mm od linii podstawowej",
+       "wrong": [
+        "3 Mm od linii brzegu",
+        "24 Mm od granicy wód portowych",
+        "200 Mm od linii podstawowej"
+       ]
+      }
+     },
+     {
+      "id": "L7-x-11",
+      "q": "Jakie są rejony żeglugi jachtów morskich i jakie odległości od brzegu im odpowiadają?",
+      "a": "T – akweny treningowe (porty, wyznaczone akweny), 1 – żegluga osłonięta (zalewy, zatoki, do 6 Mm od brzegu), 2 – przybrzeżna (do 20 Mm), 3 – pełnomorska (do 200 Mm), 4 – oceaniczna (bez ograniczeń).",
+      "difficulty": 2,
+      "source": "Kolaszewski, Świdwiński – 13.1. Administracja morska",
+      "explain": "Rejon żeglugi decyduje m.in. o wymaganym wyposażeniu jachtu (środki ratunkowe, sygnałowe, łączność).",
+      "mc": {
+       "correct": "2 – do 20 Mm od brzegu, 3 – do 200 Mm, 4 – bez ograniczeń",
+       "wrong": [
+        "2 – do 12 Mm od brzegu, 3 – do 50 Mm, 4 – do 500 Mm",
+        "2 – do 6 Mm od brzegu, 3 – do 20 Mm, 4 – do 200 Mm",
+        "2 – do 50 Mm od brzegu, 3 – do 100 Mm, 4 – do 1000 Mm"
+       ]
+      }
+     },
+     {
+      "id": "L7-x-12",
+      "q": "Jak jednostka Straży Granicznej wzywa jacht do zatrzymania się?",
+      "a": "W dzień podnosi flagę „L” MKS (Zatrzymajcie natychmiast swój statek), w nocy wystrzeliwuje dwie zielone rakiety. Jacht musi się zatrzymać i umożliwić kontrolę.",
+      "difficulty": 2,
+      "source": "Kolaszewski, Świdwiński – 13.4. Postępowanie w portach i na granicy",
+      "mc": {
+       "correct": "W dzień flagą „L”, w nocy dwiema zielonymi rakietami",
+       "wrong": [
+        "W dzień flagą „Q”, w nocy dwiema czerwonymi rakietami",
+        "W dzień flagą „K”, w nocy jedną białą rakietą",
+        "W dzień flagą „N”, w nocy trzema zielonymi światłami"
+       ]
+      }
+     },
+     {
+      "id": "L7-x-13",
+      "q": "Kiedy zwyczajowo przeprowadza się na jachcie alarmy ćwiczebne?",
+      "a": "Alarm „człowiek za burtą” – w ciągu 24 godzin od wyjścia z portu, pozostałe alarmy (np. pożarowy, wodny, opuszczenia jachtu) – w ciągu 7 dni. Rozkład alarmowy wywiesza się w widocznym miejscu.",
+      "difficulty": 2,
+      "source": "Kolaszewski, Świdwiński – 13.5. Zwyczajowe zasady służby morskiej",
+      "explain": "To zasada z dawnego Regulaminu Służby Morskiej PZŻ – obecnie dobra praktyka, nie przepis.",
+      "mc": {
+       "correct": "„Człowiek za burtą” w ciągu 24 h, pozostałe w ciągu 7 dni",
+       "wrong": [
+        "„Człowiek za burtą” w ciągu 7 dni, pozostałe w ciągu 24 h",
+        "Wszystkie alarmy przed wyjściem z portu, a potem raz w miesiącu",
+        "Tylko na żądanie kapitanatu portu, po zgłoszeniu wyjścia"
+       ]
+      }
+     },
+     {
+      "id": "L7-x-14",
+      "q": "Co to jest protest morski i w jakim terminie się go składa?",
+      "a": "Pisemne oświadczenie kapitana o wypadku, który spowodował (lub mógł spowodować) znaczną szkodę – zabezpiecza dowody i roszczenia. Składa się go w ciągu 24 godzin od przybycia do pierwszego portu (w kraju – w izbie morskiej lub sądzie rejonowym, za granicą – w polskim konsulacie), z listą załogi i wypisem z dziennika jachtowego.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – 13.6. Postępowanie w razie wypadku morskiego",
+      "mc": {
+       "correct": "Oświadczenie kapitana o wypadku – w ciągu 24 h od przybycia do portu",
+       "wrong": [
+        "Zażalenie na kapitanat – w ciągu 7 dni od powrotu do kraju",
+        "Zgłoszenie szkody do ubezpieczyciela – w ciągu 30 dni od wypadku",
+        "Wpis do dziennika jachtowego – najpóźniej po zakończeniu rejsu"
+       ]
+      }
+     },
+     {
+      "id": "L7-x-15",
+      "q": "Co to jest „list do kapitana” po zderzeniu?",
+      "a": "Pismo wręczane (za pokwitowaniem) kapitanowi drugiej jednostki tuż po zderzeniu, obarczające ją odpowiedzialnością za szkodę. Kapitan, który go otrzymał, powinien od razu odpowiedzieć i zaprzeczyć odpowiedzialności, jeśli okoliczności to uzasadniają.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – 13.6. Postępowanie w razie wypadku morskiego",
+      "mc": {
+       "correct": "Pismo obciążające drugą stronę zderzenia odpowiedzialnością za szkodę",
+       "wrong": [
+        "Prośba do kapitana portu o miejsce postoju po awarii",
+        "Raport o wypadku przesyłany do armatora po rejsie",
+        "Zgłoszenie przybycia jachtu do bosmanatu portu"
+       ]
+      }
+     }
+    ]
+   },
+   "pages": "427-428, 433-434, 467-471"
+  }
+ ],
+ "notes": "Sprawdzono wszystkie karty nie-gen i bloki teorii L7 z rozdz. 3 (budowa, instalacje, silniki; s. 45-71), 4 (teoria żeglowania; s. 71-90), 5.3 (planowanie; s. 141), 12 (przepisy śródlądowe; s. 373-426, znaki s. 97-99) i 13 (przepisy morskie; s. 427-472). Główne poprawki: definicja kecza/jola wg KLW (nie osi steru), terminologia SOŻ/SBO, SC/SW, siła ciągu; JSM nie obejmuje jachtów motorowych; znaki zalecenia (żółte romby, nie zielone kwadraty); miejsce bandery pod żaglami; wyjątek dla jednostki przy prawej krawędzi szlaku. Planowanie rejsu i kolory spalin/odpowietrzanie – zgodne lub poza podręcznikiem, bez sprzeczności. Wzór 2,43·√LWL nie występuje w podręczniku, ale jest poprawny. UWAGI: podręcznik jest częściowo nieaktualny w sprawach administracyjnych – rejestracja jachtów w PZŻ i numery rejestracyjne (wg mojej wiedzy obecnie rejestr jachtów prowadzą starostowie na podstawie ustawy z 2018 r. – do potwierdzenia), karty bezpieczeństwa, trzy urzędy morskie (Słupsk włączony do UM Gdynia w 2020 r.), rola izb morskich (badaniem wypadków zajmuje się obecnie PKBWM – do potwierdzenia) – dlatego nie tworzono kart o rejestracji i dokumentach bezpieczeństwa, a karta o proteście morskim wymienia izbę morską/sąd tak jak podręcznik (warto zweryfikować). Podręcznik niespójnie podaje termin protestu dla wypadku w porcie (24 h na s. 471, 48 h na s. 472 – wg mojej wiedzy Kodeks morski podaje 48 h – do potwierdzenia); w karcie podano tylko pewny termin 24 h od przybycia do portu. Rejony żeglugi T/1-4 wg rozporządzenia z 2012 r. cytowanego w podręczniku. Alarmy 24 h / 7 dni – zwyczaj z dawnego regulaminu PZŻ (zaznaczono w explain). OCR stron 457-460 i części tabel sygnałów śródlądowych (s. 413) mocno zniekształcony – nie weryfikowano na nich szczegółów. Numery stron = numer N z markera „===== Strona N =====” poprzedzającego tekst."
+}

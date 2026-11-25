@@ -53,7 +53,7 @@
       "**Tendencja barometryczna**: spadek ciśnienia o ok. **3 hPa w 3 godziny** lub więcej zapowiada wzmożenie wiatru; spadek **6 hPa / 3 h i więcej** – możliwy sztorm. Szybki wzrost po przejściu frontu zimnego też oznacza silny, porywisty wiatr.",
       "**Punkt rosy** – temperatura, do której trzeba ochłodzić powietrze, by para wodna zaczęła się skraplać. Gdy temperatura spada do punktu rosy – powstaje **mgła** lub rosa.",
       "**Widzialność** w komunikatach: dobra > 5 Mm, umiarkowana 2–5 Mm, słaba 1000 m – 2 Mm, mgła < 1000 m.",
-      "Obserwacje (ciśnienie, wiatr, zachmurzenie, widzialność, stan morza) zapisuje się w **dzienniku jachtowym** – zwykle co 4 godziny lub częściej przy zmianach."
+      "Obserwacje (ciśnienie, wiatr, zachmurzenie, widzialność, stan morza) zapisuje się w **dzienniku jachtowym** – podczas żeglugi co godzinę, a w porcie lub na kotwicowisku co 4 godziny."
      ]
     },
     {
@@ -121,6 +121,14 @@
      "q": "Jakie dane meteorologiczne zapisuje się w dzienniku jachtowym?",
      "a": "Ciśnienie (i tendencję), kierunek i siłę wiatru, zachmurzenie, opady, widzialność, stan morza, temperaturę.",
      "difficulty": 2
+    },
+    {
+     "id": "L5-x-11",
+     "q": "Co to jest wilgotność względna i czym się ją mierzy?",
+     "a": "Stosunek ilości pary wodnej w powietrzu do ilości, która by je nasyciła w tej samej temperaturze; podawana w %, mierzona higrometrem.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Gdy powietrze się ochładza, wilgotność względna rośnie; przy 100% osiąga punkt rosy i zaczyna się kondensacja."
     }
    ]
   },
@@ -155,7 +163,7 @@
       "**Prawo Buys-Ballota** (półkula N): stań **plecami do wiatru** – niż masz **po lewej**, nieco z przodu; wyż po prawej.",
       "**Klin** – wydłużony obszar wyżowy (krótka poprawa pogody); **zatoka** – wydłużony obszar niżowy (pogorszenie); **siodło** – obszar między dwoma niżami i dwoma wyżami (słaby, zmienny wiatr).",
       "**Tory niżów w Europie**: najczęściej z **zachodu na wschód** – znad Atlantyku przez Morze Północne i Skandynawię lub Bałtyk.",
-      "**Skręt wiatru w prawo** (zgodnie z ruchem wskazówek, np. S → W) to po angielsku *veering*; **w lewo** (np. W → S) – *backing*.",
+      "**Skręt wiatru w prawo** (zgodnie z ruchem wskazówek, np. S → W) to po polsku „wiatr **zachodzi**” (ang. *veering*); **w lewo** (np. W → S) – „wiatr **odchodzi**” (ang. *backing*).",
       "**Bryza**: w dzień **morska** (od morza na ląd, bo ląd się nagrzewa), w nocy **lądowa** (od lądu na morze). Typowa przy ładnej, wyżowej pogodzie."
      ]
     },
@@ -236,7 +244,7 @@
     {
      "id": "L5-u-11",
      "q": "Wiatr zmienił kierunek z S na SW, potem W. Jak nazywa się taki skręt?",
-     "a": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – ang. veering.",
+     "a": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – „wiatr zachodzi” (ang. veering).",
      "difficulty": 2
     },
     {
@@ -244,6 +252,22 @@
      "q": "W którą stronę siła Coriolisa odchyla wiatr na półkuli północnej?",
      "a": "W prawo.",
      "difficulty": 2
+    },
+    {
+     "id": "L5-x-09",
+     "q": "Gdzie najczęściej tworzą się niże wędrujące nad Bałtyk i jak szybko się przemieszczają?",
+     "a": "W rejonie Islandii (północny Atlantyk); przesuwają się na wschód / północny wschód – młody niż ok. 20–30 w, rozwinięty zwalnia do ok. 10 w.",
+     "difficulty": 3,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
+    },
+    {
+     "id": "L5-x-10",
+     "q": "Co oznacza określenie „wiatr odchodzi”?",
+     "a": "Wiatr skręca w lewo, przeciwnie do ruchu wskazówek zegara (np. z W na SW) – ang. backing. Skręt w prawo to „wiatr zachodzi”.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
     }
    ]
   },
@@ -269,7 +293,7 @@
       "kind": "front",
       "type": "cold"
      },
-     "caption": "Front zimny – niebieska linia z trójkątami."
+     "caption": "Front chłodny (potocznie: zimny) – niebieska linia z trójkątami."
     },
     {
      "t": "visual",
@@ -345,7 +369,7 @@
       "kind": "front",
       "type": "cold"
      },
-     "a": "Front zimny.",
+     "a": "Front chłodny (potocznie: zimny).",
      "difficulty": 1
     },
     {
@@ -421,6 +445,47 @@
      "q": "W jakiej kolejności przechodzą fronty w typowym niżu?",
      "a": "Front ciepły → wycinek ciepły (cieplej, wilgotno) → front zimny.",
      "difficulty": 2
+    },
+    {
+     "id": "L5-x-04",
+     "q": "Co to jest trąba powietrzna i z jaką chmurą się wiąże?",
+     "a": "Wir powietrza o pionowej osi, w kształcie leja lub kolumny, sięgający od podstawy chmury Cumulonimbus do powierzchni wody; bardzo silny wiatr i gwałtowne zasysanie wody.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "W Polsce występuje głównie od maja do sierpnia, po południu i wieczorem. Ciśnienie w jej środku jest dużo niższe niż w otoczeniu."
+    },
+    {
+     "id": "L5-x-05",
+     "q": "Widzisz chmurę Cumulonimbus nadciągającą pod wiatr. Co robisz?",
+     "a": "Spodziewam się szkwału: zawczasu refuję lub zrzucam żagle, zabezpieczam jacht i załogę (kamizelki, szelki), w razie możliwości szukam osłony przy brzegu lub w porcie.",
+     "difficulty": 1,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Szkwał przychodzi nagle, z różnych kierunków, często z ulewą i gradem; zwykle mija po kilku–kilkunastu minutach.",
+     "tip": "Cb idzie pod wiatr = szkwał tuż-tuż."
+    },
+    {
+     "id": "L5-x-06",
+     "q": "Dlaczego front chłodny dogania front ciepły (okluzja)?",
+     "a": "Bo porusza się szybciej – front chłodny ok. 20–30 w, ciepły ok. 10–20 w.",
+     "difficulty": 3,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
+    },
+    {
+     "id": "L5-x-07",
+     "q": "Jaka masa powietrza najczęściej napływa nad Polskę i jaką pogodę przynosi?",
+     "a": "Powietrze polarne morskie (PPm) – znad Atlantyku, z kierunków W–NW; wilgotne: latem ochłodzenie i przelotne opady, zimą ocieplenie, mgły i chmury.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Pojawia się nad Polską przez ok. 2/3 dni w roku."
+    },
+    {
+     "id": "L5-x-08",
+     "q": "Czy przejściu frontu ciepłego towarzyszą zwykle silne, sztormowe wiatry?",
+     "a": "Zwykle nie – front ciepły daje głównie długotrwałe, ciągłe opady i słabą widzialność; szkwały i gwałtowne zmiany wiatru są cechą frontu chłodnego.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
     }
    ]
   },
@@ -548,6 +613,30 @@
      "q": "Rano jest bezchmurnie, a po południu Cumulusy szybko rosną w górę. Czego się spodziewać?",
      "a": "Rozwoju chmur Cumulonimbus – burzy i szkwałów po południu.",
      "difficulty": 2
+    },
+    {
+     "id": "L5-x-01",
+     "q": "Jak powstaje mgła frontowa?",
+     "a": "Na froncie ciepłym: ciepłe, wilgotne powietrze wsuwa się nad klin chłodnego powietrza, ochładza się i para wodna skrapla się przy powierzchni.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Mgła frontowa towarzyszy zwykle strefie opadów frontu ciepłego i może znacznie ograniczać widzialność na dużym obszarze."
+    },
+    {
+     "id": "L5-x-02",
+     "q": "Czym różni się zamglenie od mgły?",
+     "a": "Mgła ogranicza widzialność poniżej 1 km; przy widzialności od 1 do 10 km mówimy o zamgleniu.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Granica 1 km jest wspólna dla klasyfikacji meteorologicznej i dla komunikatów żeglugowych (fog < 1000 m)."
+    },
+    {
+     "id": "L5-x-03",
+     "q": "Czym różnią się opady ciągłe od przelotnych i z jakich chmur zwykle padają?",
+     "a": "Ciągłe – trwają kilka–kilkanaście godzin, umiarkowane, na dużym obszarze (Ns, front ciepły). Przelotne – krótkie (do kilkudziesięciu minut), gwałtowne, zaczynają się i kończą nagle (Cb, Cu, front chłodny).",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
     }
    ]
   },
@@ -677,8 +766,24 @@
     {
      "id": "L5-m-08",
      "q": "Co oznacza stan morza 5 w skali Douglasa?",
-     "a": "Morze wzburzone – fala ok. 2,5–4 m.",
+     "a": "Morze wzburzone (ang. rough; w niektórych podręcznikach: „morze lekko wzburzone”) – fala ok. 2,5–4 m.",
      "difficulty": 3
+    },
+    {
+     "id": "L5-x-12",
+     "q": "Co to jest stromość fali?",
+     "a": "Stosunek wysokości fali do jej długości. Im fala bardziej stroma, tym groźniejsza – łatwiej się łamie.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Na płyciźnie fala zwalnia i skraca się, a wysokość prawie się nie zmienia – dlatego stromość rośnie."
+    },
+    {
+     "id": "L5-x-13",
+     "q": "Co żeglarze nazywają „dziadkiem” (falą przewyższającą)?",
+     "a": "Falę wyraźnie wyższą od pozostałych, powstałą z nałożenia się kilku fal; może pojawić się nagle także przy umiarkowanym stanie morza.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": null
     }
    ]
   },
@@ -705,7 +810,7 @@
       "Częstotliwość międzynarodowa **518 kHz** (po angielsku), krajowa **490 kHz** (w języku lokalnym). Zasięg ok. **250–400 Mm**.",
       "Każda stacja ma **literę identyfikacyjną** (A–Z) i nadaje według harmonogramu co 4 godziny.",
       "Rodzaj wiadomości oznacza litera: **A** – ostrzeżenia nawigacyjne, **B** – ostrzeżenia meteorologiczne, **D** – informacje SAR / o piractwie, **E** – prognozy pogody (i inne).",
-      "Wiadomości **A, B i D** są obowiązkowe – odbiornik nie pozwala ich wyłączyć.",
+      "Wiadomości **A, B, D** (oraz **L** – dodatkowe ostrzeżenia nawigacyjne) są obowiązkowe – odbiornik nie pozwala ich wyłączyć.",
       "Nagłówek wiadomości np. **ZCZC SA14**: S – stacja, A – rodzaj (ostrzeżenie nawigacyjne), 14 – numer kolejny."
      ]
     },
@@ -742,7 +847,7 @@
     {
      "id": "L5-k-05",
      "q": "Które rodzaje wiadomości NAVTEX są obowiązkowe (nie można ich wyłączyć)?",
-     "a": "A (nawigacyjne), B (meteorologiczne) i D (SAR / bezpieczeństwo).",
+     "a": "A (nawigacyjne), B (meteorologiczne), D (SAR / bezpieczeństwo) oraz L (dodatkowe ostrzeżenia nawigacyjne, uzupełnienie A).",
      "difficulty": 2
     },
     {
@@ -780,6 +885,22 @@
      "q": "Gdzie sprawdzisz godziny i kanały komunikatów meteo dla danego akwenu?",
      "a": "W spisie radiostacji (Admiralty List of Radio Signals), w locji, w bosmanacie / kapitanacie portu.",
      "difficulty": 2
+    },
+    {
+     "id": "L5-x-14",
+     "q": "Z jakich części składa się typowy radiowy komunikat meteorologiczny dla żeglugi?",
+     "a": "Sytuacja synoptyczna (baryczna), prognoza na 12 h z orientacyjną prognozą na następne 12 h, ostrzeżenia, raporty pogodowe z wybranych stacji.",
+     "difficulty": 2,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Komunikat warto odbierać kilka razy na dobę i zapisywać; zestawienie stacji i godzin – w „Spisie radiostacji nautycznych” BHMW."
+    },
+    {
+     "id": "L5-x-15",
+     "q": "Wymień kilka oznak zapowiadających pogorszenie pogody, które żeglarz może zaobserwować sam.",
+     "a": "Systematyczny spadek ciśnienia, halo wokół Słońca/Księżyca, nadciągające od zachodu chmury warstwowe, krwistoczerwony wschód Słońca, dym ścielący się nad wodą, nagła zmiana kierunku wiatru.",
+     "difficulty": 1,
+     "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+     "explain": "Oznaki ładnej pogody to m.in.: obfita rosa rano i wieczorem, mgła opadająca nad ranem, dym unoszący się pionowo, stałe lub rosnące ciśnienie, czerwony zachód Słońca."
     }
    ]
   }

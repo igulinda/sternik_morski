@@ -1,0 +1,389 @@
+{
+ "level": 6,
+ "fixes": [
+  {
+   "id": "L6-m-09",
+   "where": "a",
+   "old": "w grupie – zbić się razem (huddle)",
+   "new": "w grupie – pozycja CLINCH (objąć się ramionami, spleść nogi; ang. huddle)",
+   "page": 259,
+   "reason": "Podręcznik nazywa grupową pozycję ochronną w wodzie „pozycją CLINCH” – egzaminator może oczekiwać tej nazwy."
+  },
+  {
+   "id": "L6-mob",
+   "where": "theory",
+   "old": "w grupie – **przytulcie się (huddle)**",
+   "new": "w grupie – **pozycja CLINCH** (objęcie się ramionami, splecione nogi; ang. huddle)",
+   "page": 259,
+   "reason": "Nazwa z podręcznika: pozycja CLINCH (obok HELP)."
+  },
+  {
+   "id": "L6-s-05",
+   "where": "a",
+   "old": "ciągnie się fanglinę (przywiązaną do jachtu)",
+   "new": "ciągnie się fanglinę – w podręczniku „linkę operacyjną” (przywiązaną do jachtu)",
+   "page": 283,
+   "reason": "Podręcznik używa terminu „linka operacyjna” tratwy; warto podać oba określenia."
+  },
+  {
+   "id": "L6-srodki",
+   "where": "theory",
+   "old": "przywiąż jej **fanglinę** do jachtu",
+   "new": "przywiąż jej **fanglinę (linkę operacyjną)** do jachtu",
+   "page": 283,
+   "reason": "Termin podręcznikowy: linka operacyjna."
+  },
+  {
+   "id": "L6-srodki",
+   "where": "theory",
+   "old": "wpinać się do linii życia (lifeline) lub mocnych punktów",
+   "new": "wpinać się do liny bezpieczeństwa – lajfliny (sztormliny, ang. lifeline) lub mocnych punktów",
+   "page": 254,
+   "reason": "Podręcznik nazywa ją „lina bezpieczeństwa (lajflina, sztormlina)”; „linia życia” to kalka, której w książce nie ma."
+  },
+  {
+   "id": "L6-pirotechnika",
+   "where": "theory",
+   "old": "dym ok. 3 min, pokazuje też kierunek wiatru",
+   "new": "dym 3–4 min (podręcznik: ok. 4 min), pokazuje też kierunek wiatru; wrzucać po zawietrznej",
+   "page": 231,
+   "reason": "Podręcznik podaje czas dymienia pławki 4 minuty (SOLAS wymaga min. 3 min) i wrzucanie od strony zawietrznej."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-x-01",
+    "q": "Jaka jest maksymalna moc nadajnika morskiego radiotelefonu VHF i kiedy redukuje się ją do 1 W?",
+    "a": "Maks. 25 W. Moc obniża się do 1 W przy łączności na małe odległości i tam, gdzie jest duży ruch radiowy (port, reda), by nie zakłócać innych.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 8.5.4 Obsługa radiotelefonu VHF",
+    "mc": {
+     "correct": "25 W; redukcja do 1 W w porcie, na redzie i na bliskie odległości",
+     "wrong": [
+      "5 W; redukcja do 0,5 W tylko w niebezpieczeństwie",
+      "50 W; redukcja do 10 W na pełnym morzu",
+      "25 W; redukcja do 1 W przy nadawaniu MAYDAY"
+     ]
+    }
+   },
+   "page": 246
+  },
+  {
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-x-02",
+    "q": "Jak ustawić radiotelefon VHF przed potwierdzeniem odbioru MAYDAY lub przy łączności w niebezpieczeństwie?",
+    "a": "Wyłączyć blokadę szumów (squelch), by nie przegapić słabych sygnałów, i ustawić pełną moc nadajnika (25 W).",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 8.5.2 Łączność niebezpieczeństwa",
+    "mc": {
+     "correct": "Wyłączyć blokadę szumów (squelch) i ustawić pełną moc nadajnika",
+     "wrong": [
+      "Włączyć blokadę szumów na maksimum i moc 1 W",
+      "Włączyć skanowanie wszystkich kanałów i moc 1 W",
+      "Włączyć podwójny nasłuch i zredukować moc"
+     ]
+    }
+   },
+   "page": 241
+  },
+  {
+   "lesson": "L6-pirotechnika",
+   "card": {
+    "id": "L6-x-03",
+    "q": "Jak zmienia się obraz SART na ekranie radaru, gdy statek zbliża się do transpondera?",
+    "a": "Z daleka: linia 12 kropek; z ok. 1 Mm kropki przechodzą w łuki; z bardzo bliska (poniżej ok. 0,1 Mm) – w koncentryczne koła. SART montuje się min. 1 m nad wodą (wykrycie ze statku ok. 5 Mm, z samolotu na 1000 m – ok. 40 Mm).",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 8.4.2 Transponder radarowy (SART)",
+    "mc": {
+     "correct": "Kropki zamieniają się w łuki (ok. 1 Mm), a z bliska w koła",
+     "wrong": [
+      "Kropki zamieniają się w jedną dużą plamę echa",
+      "Linia kropek znika całkowicie poniżej 5 Mm",
+      "Kropki zmieniają kolor na czerwony"
+     ]
+    }
+   },
+   "page": 237
+  },
+  {
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-x-04",
+    "q": "Co to jest tyka ratunkowa (bezpieczeństwa) i do czego służy?",
+    "a": "Tyczka ok. 3 m na pływaku, obciążona tak, by stała pionowo, z chorągiewką i światłem; wyrzucana przy MOB oznacza miejsce wypadku i dryfuje podobnie jak człowiek w wodzie.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 9.2.3 Środki zabezpieczające",
+    "mc": {
+     "correct": "Pionowa tyczka z flagą i światłem oznaczająca miejsce wypadnięcia człowieka",
+     "wrong": [
+      "Drąg do odpychania jachtu od nabrzeża przy cumowaniu",
+      "Maszt awaryjny stawiany po złamaniu masztu",
+      "Bosak do wyciągania rozbitka z wody"
+     ]
+    }
+   },
+   "page": 254
+  },
+  {
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-x-05",
+    "q": "W jaki sposób przechodzi się z jachtu do tratwy ratunkowej?",
+    "a": "Przy niskiej burcie i bliskiej tratwie – przejść bezpośrednio (na sucho). Jeśli się nie da – skakać pojedynczo do wnętrza, nie na środek podłogi. W ostateczności skoczyć do wody i wejść po drabince, korzystając z linki wokół tratwy; osoby w środku pomagają pozostałym.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 9.6.2 Opuszczanie jachtu morskiego",
+    "mc": {
+     "correct": "Najlepiej wprost z pokładu; skok pojedynczo, nie na środek; z wody po drabince",
+     "wrong": [
+      "Najpierw zawsze skok do wody, potem wejście po drabince",
+      "Skakać wszyscy razem na środek dna tratwy",
+      "Wchodzić dopiero po odcięciu linki operacyjnej od jachtu"
+     ]
+    }
+   },
+   "page": 284
+  },
+  {
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-x-06",
+    "q": "Co robi załoga po zajęciu miejsc w tratwie ratunkowej?",
+    "a": "Odcina linkę operacyjną i oddala się od jachtu, zamyka wejście, zbiera z wody przydatne przedmioty, wyrzuca dryfkotwę, organizuje obserwację, chroni się przed zimnem i wilgocią, racjonuje wodę; pirotechnikę zużywa tylko, gdy ktoś może ją zobaczyć.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 9.6.2 Opuszczanie jachtu morskiego",
+    "mc": {
+     "correct": "Odcina linkę, odpływa, wyrzuca dryfkotwę, wystawia obserwatora, racjonuje wodę",
+     "wrong": [
+      "Pozostaje przywiązana do jachtu aż do jego zatonięcia",
+      "Od razu odpala całą pirotechnikę, by zwrócić uwagę",
+      "Wiosłuje w stronę najbliższego lądu pod wiatr"
+     ]
+    }
+   },
+   "page": 286
+  },
+  {
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-x-07",
+    "q": "Jaki kurs względem wiatru przyjąć przy pożarze na jachcie zależnie od miejsca ognia?",
+    "a": "Ogień na dziobie – kurs pełny (z wiatrem); na śródokręciu – półwiatr; na rufie – kurs ostry. Chodzi o to, by wiatr odpychał ogień od reszty jachtu. Gaśnicę kieruje się od strony nawietrznej.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 9.5 Pożar na jachcie",
+    "mc": {
+     "correct": "Dziób – kurs pełny, śródokręcie – półwiatr, rufa – kurs ostry",
+     "wrong": [
+      "Dziób – kurs ostry, śródokręcie – półwiatr, rufa – kurs pełny",
+      "Zawsze kurs ostry, niezależnie od miejsca pożaru",
+      "Dziób – półwiatr, śródokręcie – fordewind, rufa – baksztag"
+     ]
+    }
+   },
+   "page": 275
+  },
+  {
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-x-08",
+    "q": "Jak powinien leżeć jacht po sztrandowaniu, aby fala najmniej mu szkodziła?",
+    "a": "Masztem w stronę lądu – fala uderza wtedy w dno i burtę, a nie zalewa kokpitu i nadbudówki.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – Żegluga w niebezpiecznych warunkach – sztrandowanie",
+    "mc": {
+     "correct": "Masztem w stronę lądu, dnem do nadchodzącej fali",
+     "wrong": [
+      "Masztem w stronę morza, pokładem do fali",
+      "Rufą do brzegu, dziobem do fali",
+      "Dziobem na brzeg, z postawionymi żaglami"
+     ]
+    }
+   },
+   "page": 363
+  },
+  {
+   "lesson": "L6-mob",
+   "card": {
+    "id": "L6-x-09",
+    "q": "Które okolice ciała najszybciej tracą ciepło w wodzie i jak je chronić?",
+    "a": "Kark, klatka piersiowa, boki tułowia i pachwiny. Chroni je pozycja HELP (uda złączone, kolana do brzucha, łokcie przy bokach, ramiona przyciśnięte do piersi), kolejne warstwy ubrania i ograniczenie ruchów.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 9.3.2 Ratowanie tonących",
+    "mc": {
+     "correct": "Kark, piersi, boki i pachwiny – chroni je pozycja HELP",
+     "wrong": [
+      "Dłonie i stopy – chroni je energiczne pływanie",
+      "Głowa i ramiona – chroni je zdjęcie ubrania",
+      "Plecy i łydki – chroni je leżenie na plecach z rozłożonymi rękami"
+     ]
+    }
+   },
+   "page": 259
+  },
+  {
+   "lesson": "L6-sar",
+   "card": {
+    "id": "L6-x-10",
+    "q": "Jak prawidłowo uciskać klatkę piersiową w RKO u dorosłego?",
+    "a": "Nadgarstek na środku klatki (dolna połowa mostka), ręce proste, palce splecione; głębokość ok. 5–6 cm, tempo 100–120/min, pełne odprężenie po każdym uciśnięciu; 30 uciśnięć : 2 oddechy, ratownicy zmieniają się co 1–2 min.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 9.4.1.1 Podstawowe zabiegi resuscytacyjne",
+    "mc": {
+     "correct": "Środek mostka, głębokość 5–6 cm, tempo 100–120/min",
+     "wrong": [
+      "Lewa strona klatki, głębokość 1–2 cm, 60/min",
+      "Nadbrzusze, głębokość 8–10 cm, 150/min",
+      "Środek mostka, głębokość 2–3 cm, 30/min"
+     ]
+    },
+    "explain": "Podręcznik podaje starsze wartości (co najmniej 5 cm, 100/min); aktualne wytyczne ERC 2021: 5–6 cm, 100–120/min."
+   },
+   "page": 263
+  }
+ ],
+ "newLessons": [
+  {
+   "lesson": {
+    "id": "L6-x-akcja",
+    "title": "Akcja ratownicza – sygnały i poszukiwanie",
+    "theory": [
+     {
+      "t": "ul",
+      "items": [
+       "**Pomoc** (ratowanie ludzi) jest bezpłatna; **ratownictwo** (ratowanie jachtu i mienia, np. holowanie) jest płatne i opiera się na umowie.",
+       "Po nadaniu alarmu z pozycją: ogranicz dryf (trzymaj się podanej pozycji), prowadź obserwację, utrzymuj łączność z koordynatorem. Koordynuje MRCK; na miejscu kierownictwo może przejąć kapitan jednostki SAR.",
+       "Ratownicy odpowiadają: **„widzimy was”** – w dzień pomarańczowy dym, w nocy trzy białe rakiety co ok. 1 min.",
+       "Brzegowa stacja: **tak** = ruchy pionowe / zielona rakieta; **nie** = ruchy poziome / czerwona rakieta.",
+       "Samolot: przelot przed dziobem i odlot = **płyń za mną**; przelot za rufą = **pomoc niepotrzebna**."
+      ]
+     },
+     {
+      "t": "table",
+      "head": [
+       "Metoda poszukiwania",
+       "Jak",
+       "Kiedy"
+      ],
+      "rows": [
+       [
+        "powiększające się kwadraty",
+        "zwroty o 90°, coraz dłuższe odcinki",
+        "duży obszar; jacht oddala się od punktu odniesienia"
+       ],
+       [
+        "koniczyna",
+        "zwroty o 120°, powroty przez punkt odniesienia",
+        "rozbitek najpewniej w pobliżu punktu"
+       ],
+       [
+        "halsowanie w strefie (półwiatr)",
+        "przeszukiwanie pasa ok. 1–2 Mm",
+        "szybko po alarmie, przy dobrej nawigacji"
+       ]
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Dym pomarańczowy od ratowników = „widzimy was”. Zielone / pionowo = tak, czerwone / poziomo = nie."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L6-x-11",
+      "q": "Czym różni się pomoc morska od ratownictwa morskiego?",
+      "a": "Pomoc dotyczy ratowania życia ludzi i jest bezpłatna. Ratownictwo to ratowanie statku/jachtu lub mienia (np. holowanie, ściąganie z mielizny) – jest płatne i wymaga umowy o ratownictwo.",
+      "difficulty": 2,
+      "source": "Kolaszewski, Świdwiński – 9.6.1 Akcja ratownicza na morzu",
+      "mc": {
+       "correct": "Ratowanie życia jest bezpłatne; ratowanie jachtu i mienia – płatne, na umowę",
+       "wrong": [
+        "Ratowanie życia jest płatne; holowanie jachtu – bezpłatne",
+        "Obie są zawsze bezpłatne, jeśli nadano MAYDAY",
+        "Obie są płatne, a koszty pokrywa armator"
+       ]
+      }
+     },
+     {
+      "id": "L6-x-12",
+      "q": "Jak stacja ratownicza lub jednostka SAR odpowiada na twoje sygnały wzywania pomocy („Widzimy was – pomoc nadejdzie”)?",
+      "a": "W dzień – pomarańczowym sygnałem dymnym; w nocy – trzema białymi rakietami jednogwiazdkowymi (lub sygnałami świetlno-dźwiękowymi) w odstępach ok. 1 minuty.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – 9.6.1, tab. 9.3",
+      "mc": {
+       "correct": "Dzień: pomarańczowy dym; noc: trzy białe rakiety co ok. 1 minutę",
+       "wrong": [
+        "Dzień: czerwona flaga; noc: trzy czerwone rakiety naraz",
+        "Dzień: zielony dym; noc: jedna zielona rakieta",
+        "Dzień: flagi NC; noc: czerwona pochodnia ręczna"
+       ]
+      }
+     },
+     {
+      "id": "L6-x-13",
+      "q": "Samolot ratowniczy okrąża jacht, przelatuje nisko tuż przed dziobem zmieniając dźwięk silników, a potem odlatuje w pewnym kierunku. Co to znaczy?",
+      "a": "Samolot naprowadza – płyń w kierunku, w którym leci, do jednostki lub osoby potrzebującej pomocy.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – tab. 9.3 – sygnały samolotu",
+      "mc": {
+       "correct": "Płyń za mną – w kierunku lotu, do potrzebujących pomocy",
+       "wrong": [
+        "Twoja pomoc nie jest już potrzebna",
+        "Zatrzymaj się i czekaj na śmigłowiec",
+        "Zawróć do najbliższego portu"
+       ]
+      }
+     },
+     {
+      "id": "L6-x-14",
+      "q": "Co oznacza samolot przelatujący nisko tuż za rufą jachtu (przez jego ślad), zmieniający dźwięk silników?",
+      "a": "Pomoc twojej jednostki nie jest już potrzebna.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – tab. 9.3 – sygnały samolotu",
+      "mc": {
+       "correct": "Pomoc tej jednostki nie jest już potrzebna",
+       "wrong": [
+        "Płyń w kierunku lotu samolotu",
+        "Zrzucamy wam tratwę ratunkową",
+        "Przygotuj się do ewakuacji śmigłowcem"
+       ]
+      }
+     },
+     {
+      "id": "L6-x-15",
+      "q": "Jak brzegowa stacja ratownicza pokazuje „tak / potwierdzam” i „nie / przerwać”?",
+      "a": "TAK: pionowe ruchy rękami lub białą flagą (nocą białym światłem) albo zielona rakieta jednogwiazdkowa. NIE: ruchy poziome albo czerwona rakieta jednogwiazdkowa.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – tab. 9.3",
+      "mc": {
+       "correct": "Tak: ruchy pionowe / zielona rakieta; nie: ruchy poziome / czerwona rakieta",
+       "wrong": [
+        "Tak: ruchy poziome / czerwona rakieta; nie: ruchy pionowe / zielona rakieta",
+        "Tak: trzy białe rakiety; nie: pomarańczowy dym",
+        "Tak: flaga N; nie: flaga C"
+       ]
+      }
+     },
+     {
+      "id": "L6-x-16",
+      "q": "Czym różni się poszukiwanie metodą powiększających się kwadratów od metody koniczyny?",
+      "a": "Kwadraty: od punktu odniesienia zmienia się kurs o 90° po coraz dłuższych odcinkach – jacht stale oddala się od punktu. Koniczyna: zwroty o 120° w tę samą stronę, z powrotami przez punkt odniesienia – lepsza, gdy rozbitek jest najpewniej blisko.",
+      "difficulty": 3,
+      "source": "Kolaszewski, Świdwiński – 9.6.1 – poszukiwanie człowieka za burtą",
+      "mc": {
+       "correct": "Kwadraty: zwroty o 90° i oddalanie się; koniczyna: zwroty o 120° z powrotem do punktu",
+       "wrong": [
+        "Kwadraty: zwroty o 120°; koniczyna: zwroty o 90°",
+        "Obie metody polegają na dryfowaniu bez zmiany kursu",
+        "Kwadraty: krążenie po okręgu; koniczyna: halsowanie pod wiatr"
+       ]
+      }
+     }
+    ]
+   },
+   "pages": "277-283"
+  }
+ ],
+ "notes": "Sprawdzono wszystkie karty (bez gen) i bloki teorii L6 z podręcznikiem, s. PDF 229–290 i 360–368. Treść poprawna merytorycznie; poprawki dotyczą głównie terminologii podręcznika (pozycja CLINCH, linka operacyjna tratwy, lajflina) i czasu dymienia pławki (książka: 4 min). Uwagi: (1) OCR s. 231 podaje dla rakiety spadochronowej czas świecenia „nie krócej niż 20 s” – fragment zniekształcony; zostawiono ok. 40 s (wymóg SOLAS/LSA: min. 40 s, wysokość min. 300 m). (2) Podręcznik podaje stare zasady: okresy ciszy radiowej (minuty 0002/0003) i schemat MAYDAY bez MMSI – nieaktualne, nasze karty mają format zgodny z GMDSS. (3) RKO w książce: min. 5 cm i 100/min – starsze wytyczne; w nowej karcie podano aktualne ERC (5–6 cm, 100–120/min). (4) Podręcznik zalicza wypadnięcie człowieka za burtę do łączności pilności (PAN PAN); u nas MAYDAY przy nieodnalezionym rozbitku, PAN PAN zależnie od sytuacji – zgodne z praktyką. (5) W ucieczce z wiatrem książka zaleca szybką żeglugę 140–170° do wiatru, my wspominamy też dryfkotwę rufową – to różne, uznane techniki, nie błąd. (6) Zwalniak hydrostatyczny tratwy w książce działa przed 4 m – zgodne z „kilka metrów”. Nowe tematy: moc VHF i squelch, obraz SART z bliska, tyka ratunkowa, wejście do tratwy i postępowanie w tratwie, kurs przy pożarze, ułożenie jachtu po sztrandowaniu, ochrona przed utratą ciepła, technika RKO oraz nowa lekcja o sygnałach i poszukiwaniu w akcji ratowniczej (tab. 9.3). Nie dodano: flag MKS (temat sygnalizacji, możliwe w innym poziomie), kanałów 15/17, testu EPIRB/SART, petardy, zakresu apteczki i urazów szczegółowych."
+}

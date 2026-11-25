@@ -162,7 +162,7 @@
    ]
   },
   "L5-u-11": {
-   "correct": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – ang. veering.",
+   "correct": "Wiatr zachodzi – skręca w prawo (veering)",
    "wrong": [
     "Skręt w lewo (przeciwnie do ruchu wskazówek zegara) – ang. backing.",
     "Cofanie się wiatru (przeciwnie do ruchu wskazówek zegara).",
@@ -434,7 +434,7 @@
    ]
   },
   "L5-k-05": {
-   "correct": "A (nawigacyjne), B (meteorologiczne) i D (SAR / bezpieczeństwo).",
+   "correct": "A, B, D (oraz L – uzupełnienie ostrzeżeń nawigacyjnych)",
    "wrong": [
     "A (nawigacyjne), B (meteorologiczne) i E (prognozy pogody).",
     "A (nawigacyjne), C (raporty lodowe) i D (SAR / bezpieczeństwo).",
@@ -487,6 +487,126 @@
     "W Międzynarodowym Kodzie Sygnałowym i w tablicach pływów.",
     "W MPZZ (COLREG) i w dzienniku jachtowym.",
     "W tablicy dewiacji i w legendzie mapy nawigacyjnej."
+   ]
+  },
+  "L5-x-01": {
+   "correct": "Na froncie ciepłym – ciepłe wilgotne powietrze ochładza się nad klinem chłodnego",
+   "wrong": [
+    "Za frontem chłodnym – suche zimne powietrze nagrzewa się nad lądem",
+    "W centrum wyżu – przy silnym wietrze i bezchmurnym niebie w dzień",
+    "Nad ciepłą wodą, gdy wieje gorące i suche powietrze z lądu"
+   ]
+  },
+  "L5-x-02": {
+   "correct": "Mgła – widzialność < 1 km; zamglenie – od 1 do 10 km",
+   "wrong": [
+    "Mgła – widzialność < 100 m; zamglenie – od 100 m do 1 km",
+    "Mgła – widzialność < 5 km; zamglenie – powyżej 5 km",
+    "Mgła występuje tylko nad lądem, zamglenie tylko nad morzem"
+   ]
+  },
+  "L5-x-03": {
+   "correct": "Ciągłe – długie, umiarkowane (Ns); przelotne – krótkie, gwałtowne (Cb)",
+   "wrong": [
+    "Ciągłe – krótkie, gwałtowne (Cb); przelotne – długie, umiarkowane (Ns)",
+    "Ciągłe padają tylko zimą, przelotne tylko latem",
+    "Ciągłe – z chmur wysokich (Ci); przelotne – z mgły"
+   ]
+  },
+  "L5-x-04": {
+   "correct": "Wir o pionowej osi zwisający z chmury Cumulonimbus",
+   "wrong": [
+    "Wir o poziomej osi na czole frontu ciepłego",
+    "Lokalny wiatr od lądu wiejący nocą przy brzegu",
+    "Długa fala pozostała po przejściu sztormu"
+   ]
+  },
+  "L5-x-05": {
+   "correct": "Szykuję się na szkwał – refuję/zrzucam żagle zawczasu",
+   "wrong": [
+    "Stawiam więcej żagli, by szybciej uciec przed chmurą",
+    "Nic – Cumulonimbus zapowiada ładną pogodę",
+    "Czekam na pierwsze uderzenie wiatru i dopiero wtedy refuję"
+   ]
+  },
+  "L5-x-06": {
+   "correct": "Front chłodny jest szybszy (ok. 20–30 w) niż ciepły (ok. 10–20 w)",
+   "wrong": [
+    "Front ciepły jest szybszy (ok. 30 w) niż chłodny (ok. 10 w)",
+    "Oba fronty stoją, a przesuwa się tylko centrum wyżu",
+    "Front ciepły zawraca pod wpływem siły Coriolisa"
+   ]
+  },
+  "L5-x-07": {
+   "correct": "Polarne morskie (PPm) – z W/NW, wilgotne, latem chłodzi, zimą ociepla",
+   "wrong": [
+    "Zwrotnikowe kontynentalne (PZk) – z S, suche i gorące",
+    "Arktyczne kontynentalne (PAk) – z NE, mroźne i suche",
+    "Równikowe morskie – z SE, upalne i burzowe"
+   ]
+  },
+  "L5-x-08": {
+   "correct": "Zwykle nie – daje głównie ciągłe opady i słabą widzialność",
+   "wrong": [
+    "Tak – zawsze towarzyszą mu szkwały i grad",
+    "Tak – wiatr skręca o 180° i rośnie do 10°B",
+    "Nie, bo przy froncie ciepłym zawsze panuje cisza i bezchmurne niebo"
+   ]
+  },
+  "L5-x-09": {
+   "correct": "Nad rejonem Islandii; młody niż ok. 20–30 w, rozwinięty ok. 10 w",
+   "wrong": [
+    "Nad Saharą; ok. 50 w niezależnie od wieku",
+    "Nad Morzem Czarnym; poruszają się na zachód ok. 5 w",
+    "Nad Skandynawią; stoją w miejscu przez kilka tygodni"
+   ]
+  },
+  "L5-x-10": {
+   "correct": "Skręca w lewo, przeciwnie do wskazówek zegara (backing)",
+   "wrong": [
+    "Skręca w prawo, zgodnie z ruchem wskazówek zegara (veering)",
+    "Wiatr słabnie do ciszy",
+    "Wiatr zmienia się z pozornego na rzeczywisty"
+   ]
+  },
+  "L5-x-11": {
+   "correct": "Stosunek obecnej pary wodnej do ilości nasycającej; w %, higrometrem",
+   "wrong": [
+    "Masa pary wodnej w 1 m³ powietrza; w hPa, barometrem",
+    "Ilość opadu na godzinę; w mm, deszczomierzem",
+    "Różnica temperatury wody i powietrza; w °C, termometrem"
+   ]
+  },
+  "L5-x-12": {
+   "correct": "Stosunek wysokości fali do jej długości",
+   "wrong": [
+    "Stosunek długości fali do jej okresu",
+    "Odległość między dwoma grzbietami",
+    "Czas między przejściem dwóch kolejnych grzbietów"
+   ]
+  },
+  "L5-x-13": {
+   "correct": "Falę wyższą od innych, powstałą z nałożenia się fal",
+   "wrong": [
+    "Falę martwą pozostałą po ustaniu wiatru",
+    "Przybój na płyciźnie przy brzegu",
+    "Falę pływową przy wejściu do portu"
+   ]
+  },
+  "L5-x-14": {
+   "correct": "Sytuacja baryczna, prognoza 12 h + kolejne 12 h, ostrzeżenia, raporty stacji",
+   "wrong": [
+    "Tylko prognoza na 7 dni i temperatura wody",
+    "Wykaz statków w porcie i prognoza pływów",
+    "Ostrzeżenia nawigacyjne NAVTEX i godziny otwarcia bosmanatu"
+   ]
+  },
+  "L5-x-15": {
+   "correct": "Spadek ciśnienia, halo, chmury warstwowe od zachodu, krwisty wschód Słońca",
+   "wrong": [
+    "Obfita rosa, dym unoszący się pionowo, rosnące ciśnienie",
+    "Czerwony zachód Słońca i zanikanie Cumulusów wieczorem",
+    "Mgła opadająca nad ranem i słabnący wieczorem wiatr"
    ]
   }
  }

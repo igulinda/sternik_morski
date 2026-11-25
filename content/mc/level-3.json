@@ -338,7 +338,7 @@
    ]
   },
   "L3-c-09": {
-   "correct": "Światło zmienne – zmienia kolor (np. Al.WR – na przemian białe i czerwone).",
+   "correct": "Światło zmiennobarwne – na przemian zmienia kolor",
    "wrong": [
     "Światło stałe – świeci ciągle jednym kolorem.",
     "Światło przerywane – światło dłuższe niż ciemność.",
@@ -426,11 +426,131 @@
    ]
   },
   "L3-i-12": {
-   "correct": "Znak nowego niebezpieczeństwa (np. świeży wrak).",
+   "correct": "Tymczasowa pława wrakowa – nowy wrak",
    "wrong": [
     "Znak bezpiecznej wody.",
     "Znak specjalny wyznaczający strefę ćwiczeń.",
     "Znak odosobnionego niebezpieczeństwa."
+   ]
+  },
+  "L3-x-01": {
+   "correct": "Żółte światło błyskowe widoczne dookoła widnokręgu",
+   "wrong": [
+    "Niebieskie światło błyskowe widoczne dookoła widnokręgu",
+    "Dwa żółte światła stałe w linii pionowej",
+    "Białe światło migające nad rufowym"
+   ]
+  },
+  "L3-x-02": {
+   "correct": "Czerwone nad zielonym dookoła; nie razem z latarnią trójkolorową",
+   "wrong": [
+    "Zielone nad czerwonym dookoła; razem z latarnią trójkolorową",
+    "Dwa białe dookoła w linii pionowej",
+    "Czerwone nad białym dookoła, tylko na kotwicy"
+   ]
+  },
+  "L3-x-03": {
+   "correct": "Krótki – długi – krótki gwizdkiem",
+   "wrong": [
+    "Pięć krótkich dźwięków dzwonem",
+    "Długi – krótki – długi gwizdkiem",
+    "Trzy uderzenia w gong i dzwonienie"
+   ]
+  },
+  "L3-x-04": {
+   "correct": "Białe błyski ok. 1 s; 1 – w prawo, 2 – w lewo, 3 – wstecz",
+   "wrong": [
+    "Czerwone błyski ok. 1 s; 1 – w lewo, 2 – w prawo, 3 – stop",
+    "Zielone błyski ok. 4 s; 1 – w prawo, 2 – w lewo, 3 – wstecz",
+    "Żółte błyski; 1 – wyprzedzam, 2 – zgoda, 3 – wstecz"
+   ]
+  },
+  "L3-x-05": {
+   "correct": "1 długi + 2 krótkie co ≤ 2 min, zamiast dzwonienia",
+   "wrong": [
+    "Szybkie dzwonienie przez ok. 5 s co minutę",
+    "1 długi + 3 krótkie co ≤ 2 min",
+    "2 długie co ≤ 2 min"
+   ]
+  },
+  "L3-x-06": {
+   "correct": "≥ 12 m: gwizdek i dzwon; ≥ 100 m: dodatkowo gong",
+   "wrong": [
+    "≥ 12 m: tylko gwizdek; ≥ 50 m: dodatkowo dzwon",
+    "≥ 12 m: gwizdek i gong; ≥ 100 m: dodatkowo dzwon",
+    "≥ 20 m: dzwon; ≥ 100 m: dodatkowo syrena"
+   ]
+  },
+  "L3-x-07": {
+   "correct": "Pomarańczowe płótno z czarnym kwadratem i kołem, barwnik na wodzie",
+   "wrong": [
+    "Biała płachta z czerwonym krzyżem, biała rakieta",
+    "Żółta flaga Q i zielona pochodnia",
+    "Niebieskie płótno z żółtym trójkątem, biały dym"
+   ]
+  },
+  "L3-x-08": {
+   "correct": "Zdublowanym, identycznym znakiem kardynalnym lub bocznym",
+   "wrong": [
+    "Jedną żółtą pławą z krzyżem leżącym",
+    "Pławą czarno-czerwoną z dwiema kulami",
+    "Pławą z czerwonym światłem Mo(A)"
+   ]
+  },
+  "L3-x-09": {
+   "correct": "Namiarami od strony morza w kierunku światła",
+   "wrong": [
+    "Namiarami od światła w kierunku morza",
+    "Kątami kursowymi względem osi toru",
+    "Kierunkami wiatru, z którego są widoczne"
+   ]
+  },
+  "L3-x-pir-01": {
+   "correct": "Rakiety, rakiety spadochronowe, pochodnie ręczne, pławki dymne",
+   "wrong": [
+    "Rakiety białe, zielone pochodnie, pławki z niebieskim dymem",
+    "Flary oświetleniowe, race sygnałowe żółte, petardy hukowe",
+    "Pławki dymne białe, rakiety zielone, pochodnie żółte"
+   ]
+  },
+  "L3-x-pir-02": {
+   "correct": "Czerwonym płomieniem, co najmniej 60 s",
+   "wrong": [
+    "Białym płomieniem, co najmniej 10 s",
+    "Pomarańczowym dymem, około 4 minut",
+    "Czerwonym płomieniem, najwyżej 15 s"
+   ]
+  },
+  "L3-x-pir-03": {
+   "correct": "W dzień; wrzucić do wody od strony zawietrznej",
+   "wrong": [
+    "W nocy; trzymać w ręku od strony nawietrznej",
+    "W dzień; rzucić na pokład dziobowy",
+    "W nocy; wystrzelić pionowo w górę"
+   ]
+  },
+  "L3-x-pir-04": {
+   "correct": "Pierwsza zwraca uwagę, druga pozwala określić miejsce",
+   "wrong": [
+    "Pierwsza oświetla jacht, druga odstrasza inne statki",
+    "Dwie rakiety to wymóg – jedna nie jest sygnałem",
+    "Pierwsza jest próbna, druga dopiero właściwa"
+   ]
+  },
+  "L3-x-pir-05": {
+   "correct": "Do ok. 300 m – czerwona gwiazda na spadochronie",
+   "wrong": [
+    "Do ok. 30 m – biała gwiazda bez spadochronu",
+    "Do ok. 3000 m – zielona gwiazda na spadochronie",
+    "Do ok. 50 m – pomarańczowy dym na spadochronie"
+   ]
+  },
+  "L3-x-pir-06": {
+   "correct": "Wybuchy w odstępach ok. 1 minuty",
+   "wrong": [
+    "Wybuchy w odstępach ok. 10 minut",
+    "Jeden wybuch – drugi tylko po odpowiedzi",
+    "Trzy wybuchy jednocześnie co godzinę"
    ]
   }
  }

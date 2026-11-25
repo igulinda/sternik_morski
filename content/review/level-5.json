@@ -1,0 +1,377 @@
+{
+ "level": 5,
+ "fixes": [
+  {
+   "id": "L5-przyrzady",
+   "where": "theory",
+   "old": "zwykle co 4 godziny lub częściej przy zmianach",
+   "new": "podczas żeglugi co godzinę, a w porcie lub na kotwicowisku co 4 godziny",
+   "page": 221,
+   "reason": "Podręcznik podaje obserwacje meteo co godzinę w czasie żeglugi i co 4 h w porcie/na kotwicy – nasze „co 4 h” dotyczy tylko postoju."
+  },
+  {
+   "id": "L5-fronty",
+   "where": "theory",
+   "old": "Front zimny – niebieska linia z trójkątami.",
+   "new": "Front chłodny (potocznie: zimny) – niebieska linia z trójkątami.",
+   "page": 215,
+   "reason": "Podręcznik (i polskie mapy synoptyczne) konsekwentnie używa nazwy „front chłodny”; warto ją podać jako główną."
+  },
+  {
+   "id": "L5-f-02",
+   "where": "a",
+   "old": "Front zimny.",
+   "new": "Front chłodny (potocznie: zimny).",
+   "page": 215,
+   "reason": "Termin podręcznikowy to „front chłodny”.",
+   "mc_correct": "Front chłodny (zimny)"
+  },
+  {
+   "id": "L5-uklady",
+   "where": "theory",
+   "old": "to po angielsku *veering*; **w lewo** (np. W → S) – *backing*.",
+   "new": "to po polsku „wiatr **zachodzi**” (ang. *veering*); **w lewo** (np. W → S) – „wiatr **odchodzi**” (ang. *backing*).",
+   "page": 200,
+   "reason": "Podręcznik używa polskich określeń „wiatr zachodzi” (w prawo) i „wiatr odchodzi” (w lewo) – egzaminator może ich oczekiwać."
+  },
+  {
+   "id": "L5-u-11",
+   "where": "a",
+   "old": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – ang. veering.",
+   "new": "Skręt w prawo (zgodnie z ruchem wskazówek zegara) – „wiatr zachodzi” (ang. veering).",
+   "page": 200,
+   "reason": "Brak polskiego terminu z podręcznika: „wiatr zachodzi”.",
+   "mc_correct": "Wiatr zachodzi – skręca w prawo (veering)"
+  },
+  {
+   "id": "L5-m-08",
+   "where": "a",
+   "old": "Morze wzburzone – fala ok. 2,5–4 m.",
+   "new": "Morze wzburzone (ang. rough; w niektórych podręcznikach: „morze lekko wzburzone”) – fala ok. 2,5–4 m.",
+   "page": 199,
+   "reason": "Tabela Douglasa w podręczniku nazywa stopień 5 „morze lekko wzburzone” (6 – wzburzone, 7 – bardzo wzburzone, 8 – rozszalałe, 9 – nadzwyczaj rozszalałe); wysokości fal zgodne z naszymi."
+  },
+  {
+   "id": "L5-k-05",
+   "where": "a",
+   "old": "A (nawigacyjne), B (meteorologiczne) i D (SAR / bezpieczeństwo).",
+   "new": "A (nawigacyjne), B (meteorologiczne), D (SAR / bezpieczeństwo) oraz L (dodatkowe ostrzeżenia nawigacyjne, uzupełnienie A).",
+   "page": 220,
+   "reason": "Podręcznik tego nie omawia; wg aktualnego NAVTEX Manual IMO nieodrzucalne są A, B, D i L (L dodano jako kontynuację A).",
+   "mc_correct": "A, B, D (oraz L – uzupełnienie ostrzeżeń nawigacyjnych)"
+  },
+  {
+   "id": "L5-komunikaty",
+   "where": "theory",
+   "old": "Wiadomości **A, B i D** są obowiązkowe – odbiornik nie pozwala ich wyłączyć.",
+   "new": "Wiadomości **A, B, D** (oraz **L** – dodatkowe ostrzeżenia nawigacyjne) są obowiązkowe – odbiornik nie pozwala ich wyłączyć.",
+   "page": 220,
+   "reason": "Zgodnie z aktualnym NAVTEX Manual IMO także kategoria L jest nieodrzucalna (podręcznik nie omawia kategorii)."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L5-chmury-mgly",
+   "card": {
+    "id": "L5-x-01",
+    "q": "Jak powstaje mgła frontowa?",
+    "a": "Na froncie ciepłym: ciepłe, wilgotne powietrze wsuwa się nad klin chłodnego powietrza, ochładza się i para wodna skrapla się przy powierzchni.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Mgła frontowa towarzyszy zwykle strefie opadów frontu ciepłego i może znacznie ograniczać widzialność na dużym obszarze.",
+    "mc": {
+     "correct": "Na froncie ciepłym – ciepłe wilgotne powietrze ochładza się nad klinem chłodnego",
+     "wrong": [
+      "Za frontem chłodnym – suche zimne powietrze nagrzewa się nad lądem",
+      "W centrum wyżu – przy silnym wietrze i bezchmurnym niebie w dzień",
+      "Nad ciepłą wodą, gdy wieje gorące i suche powietrze z lądu"
+     ]
+    }
+   },
+   "page": 204
+  },
+  {
+   "lesson": "L5-chmury-mgly",
+   "card": {
+    "id": "L5-x-02",
+    "q": "Czym różni się zamglenie od mgły?",
+    "a": "Mgła ogranicza widzialność poniżej 1 km; przy widzialności od 1 do 10 km mówimy o zamgleniu.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Granica 1 km jest wspólna dla klasyfikacji meteorologicznej i dla komunikatów żeglugowych (fog < 1000 m).",
+    "mc": {
+     "correct": "Mgła – widzialność < 1 km; zamglenie – od 1 do 10 km",
+     "wrong": [
+      "Mgła – widzialność < 100 m; zamglenie – od 100 m do 1 km",
+      "Mgła – widzialność < 5 km; zamglenie – powyżej 5 km",
+      "Mgła występuje tylko nad lądem, zamglenie tylko nad morzem"
+     ]
+    }
+   },
+   "page": 204
+  },
+  {
+   "lesson": "L5-chmury-mgly",
+   "card": {
+    "id": "L5-x-03",
+    "q": "Czym różnią się opady ciągłe od przelotnych i z jakich chmur zwykle padają?",
+    "a": "Ciągłe – trwają kilka–kilkanaście godzin, umiarkowane, na dużym obszarze (Ns, front ciepły). Przelotne – krótkie (do kilkudziesięciu minut), gwałtowne, zaczynają się i kończą nagle (Cb, Cu, front chłodny).",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Ciągłe – długie, umiarkowane (Ns); przelotne – krótkie, gwałtowne (Cb)",
+     "wrong": [
+      "Ciągłe – krótkie, gwałtowne (Cb); przelotne – długie, umiarkowane (Ns)",
+      "Ciągłe padają tylko zimą, przelotne tylko latem",
+      "Ciągłe – z chmur wysokich (Ci); przelotne – z mgły"
+     ]
+    }
+   },
+   "page": 208
+  },
+  {
+   "lesson": "L5-fronty",
+   "card": {
+    "id": "L5-x-04",
+    "q": "Co to jest trąba powietrzna i z jaką chmurą się wiąże?",
+    "a": "Wir powietrza o pionowej osi, w kształcie leja lub kolumny, sięgający od podstawy chmury Cumulonimbus do powierzchni wody; bardzo silny wiatr i gwałtowne zasysanie wody.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "W Polsce występuje głównie od maja do sierpnia, po południu i wieczorem. Ciśnienie w jej środku jest dużo niższe niż w otoczeniu.",
+    "mc": {
+     "correct": "Wir o pionowej osi zwisający z chmury Cumulonimbus",
+     "wrong": [
+      "Wir o poziomej osi na czole frontu ciepłego",
+      "Lokalny wiatr od lądu wiejący nocą przy brzegu",
+      "Długa fala pozostała po przejściu sztormu"
+     ]
+    }
+   },
+   "page": 202
+  },
+  {
+   "lesson": "L5-fronty",
+   "card": {
+    "id": "L5-x-05",
+    "q": "Widzisz chmurę Cumulonimbus nadciągającą pod wiatr. Co robisz?",
+    "a": "Spodziewam się szkwału: zawczasu refuję lub zrzucam żagle, zabezpieczam jacht i załogę (kamizelki, szelki), w razie możliwości szukam osłony przy brzegu lub w porcie.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Szkwał przychodzi nagle, z różnych kierunków, często z ulewą i gradem; zwykle mija po kilku–kilkunastu minutach.",
+    "mc": {
+     "correct": "Szykuję się na szkwał – refuję/zrzucam żagle zawczasu",
+     "wrong": [
+      "Stawiam więcej żagli, by szybciej uciec przed chmurą",
+      "Nic – Cumulonimbus zapowiada ładną pogodę",
+      "Czekam na pierwsze uderzenie wiatru i dopiero wtedy refuję"
+     ]
+    },
+    "tip": "Cb idzie pod wiatr = szkwał tuż-tuż."
+   },
+   "page": 202
+  },
+  {
+   "lesson": "L5-fronty",
+   "card": {
+    "id": "L5-x-06",
+    "q": "Dlaczego front chłodny dogania front ciepły (okluzja)?",
+    "a": "Bo porusza się szybciej – front chłodny ok. 20–30 w, ciepły ok. 10–20 w.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Front chłodny jest szybszy (ok. 20–30 w) niż ciepły (ok. 10–20 w)",
+     "wrong": [
+      "Front ciepły jest szybszy (ok. 30 w) niż chłodny (ok. 10 w)",
+      "Oba fronty stoją, a przesuwa się tylko centrum wyżu",
+      "Front ciepły zawraca pod wpływem siły Coriolisa"
+     ]
+    }
+   },
+   "page": 215
+  },
+  {
+   "lesson": "L5-fronty",
+   "card": {
+    "id": "L5-x-07",
+    "q": "Jaka masa powietrza najczęściej napływa nad Polskę i jaką pogodę przynosi?",
+    "a": "Powietrze polarne morskie (PPm) – znad Atlantyku, z kierunków W–NW; wilgotne: latem ochłodzenie i przelotne opady, zimą ocieplenie, mgły i chmury.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Pojawia się nad Polską przez ok. 2/3 dni w roku.",
+    "mc": {
+     "correct": "Polarne morskie (PPm) – z W/NW, wilgotne, latem chłodzi, zimą ociepla",
+     "wrong": [
+      "Zwrotnikowe kontynentalne (PZk) – z S, suche i gorące",
+      "Arktyczne kontynentalne (PAk) – z NE, mroźne i suche",
+      "Równikowe morskie – z SE, upalne i burzowe"
+     ]
+    }
+   },
+   "page": 212
+  },
+  {
+   "lesson": "L5-fronty",
+   "card": {
+    "id": "L5-x-08",
+    "q": "Czy przejściu frontu ciepłego towarzyszą zwykle silne, sztormowe wiatry?",
+    "a": "Zwykle nie – front ciepły daje głównie długotrwałe, ciągłe opady i słabą widzialność; szkwały i gwałtowne zmiany wiatru są cechą frontu chłodnego.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Zwykle nie – daje głównie ciągłe opady i słabą widzialność",
+     "wrong": [
+      "Tak – zawsze towarzyszą mu szkwały i grad",
+      "Tak – wiatr skręca o 180° i rośnie do 10°B",
+      "Nie, bo przy froncie ciepłym zawsze panuje cisza i bezchmurne niebo"
+     ]
+    }
+   },
+   "page": 215
+  },
+  {
+   "lesson": "L5-uklady",
+   "card": {
+    "id": "L5-x-09",
+    "q": "Gdzie najczęściej tworzą się niże wędrujące nad Bałtyk i jak szybko się przemieszczają?",
+    "a": "W rejonie Islandii (północny Atlantyk); przesuwają się na wschód / północny wschód – młody niż ok. 20–30 w, rozwinięty zwalnia do ok. 10 w.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Nad rejonem Islandii; młody niż ok. 20–30 w, rozwinięty ok. 10 w",
+     "wrong": [
+      "Nad Saharą; ok. 50 w niezależnie od wieku",
+      "Nad Morzem Czarnym; poruszają się na zachód ok. 5 w",
+      "Nad Skandynawią; stoją w miejscu przez kilka tygodni"
+     ]
+    }
+   },
+   "page": 213
+  },
+  {
+   "lesson": "L5-uklady",
+   "card": {
+    "id": "L5-x-10",
+    "q": "Co oznacza określenie „wiatr odchodzi”?",
+    "a": "Wiatr skręca w lewo, przeciwnie do ruchu wskazówek zegara (np. z W na SW) – ang. backing. Skręt w prawo to „wiatr zachodzi”.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Skręca w lewo, przeciwnie do wskazówek zegara (backing)",
+     "wrong": [
+      "Skręca w prawo, zgodnie z ruchem wskazówek zegara (veering)",
+      "Wiatr słabnie do ciszy",
+      "Wiatr zmienia się z pozornego na rzeczywisty"
+     ]
+    }
+   },
+   "page": 200
+  },
+  {
+   "lesson": "L5-przyrzady",
+   "card": {
+    "id": "L5-x-11",
+    "q": "Co to jest wilgotność względna i czym się ją mierzy?",
+    "a": "Stosunek ilości pary wodnej w powietrzu do ilości, która by je nasyciła w tej samej temperaturze; podawana w %, mierzona higrometrem.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Gdy powietrze się ochładza, wilgotność względna rośnie; przy 100% osiąga punkt rosy i zaczyna się kondensacja.",
+    "mc": {
+     "correct": "Stosunek obecnej pary wodnej do ilości nasycającej; w %, higrometrem",
+     "wrong": [
+      "Masa pary wodnej w 1 m³ powietrza; w hPa, barometrem",
+      "Ilość opadu na godzinę; w mm, deszczomierzem",
+      "Różnica temperatury wody i powietrza; w °C, termometrem"
+     ]
+    }
+   },
+   "page": 203
+  },
+  {
+   "lesson": "L5-morze",
+   "card": {
+    "id": "L5-x-12",
+    "q": "Co to jest stromość fali?",
+    "a": "Stosunek wysokości fali do jej długości. Im fala bardziej stroma, tym groźniejsza – łatwiej się łamie.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Na płyciźnie fala zwalnia i skraca się, a wysokość prawie się nie zmienia – dlatego stromość rośnie.",
+    "mc": {
+     "correct": "Stosunek wysokości fali do jej długości",
+     "wrong": [
+      "Stosunek długości fali do jej okresu",
+      "Odległość między dwoma grzbietami",
+      "Czas między przejściem dwóch kolejnych grzbietów"
+     ]
+    }
+   },
+   "page": 226
+  },
+  {
+   "lesson": "L5-morze",
+   "card": {
+    "id": "L5-x-13",
+    "q": "Co żeglarze nazywają „dziadkiem” (falą przewyższającą)?",
+    "a": "Falę wyraźnie wyższą od pozostałych, powstałą z nałożenia się kilku fal; może pojawić się nagle także przy umiarkowanym stanie morza.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": null,
+    "mc": {
+     "correct": "Falę wyższą od innych, powstałą z nałożenia się fal",
+     "wrong": [
+      "Falę martwą pozostałą po ustaniu wiatru",
+      "Przybój na płyciźnie przy brzegu",
+      "Falę pływową przy wejściu do portu"
+     ]
+    }
+   },
+   "page": 226
+  },
+  {
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-x-14",
+    "q": "Z jakich części składa się typowy radiowy komunikat meteorologiczny dla żeglugi?",
+    "a": "Sytuacja synoptyczna (baryczna), prognoza na 12 h z orientacyjną prognozą na następne 12 h, ostrzeżenia, raporty pogodowe z wybranych stacji.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Komunikat warto odbierać kilka razy na dobę i zapisywać; zestawienie stacji i godzin – w „Spisie radiostacji nautycznych” BHMW.",
+    "mc": {
+     "correct": "Sytuacja baryczna, prognoza 12 h + kolejne 12 h, ostrzeżenia, raporty stacji",
+     "wrong": [
+      "Tylko prognoza na 7 dni i temperatura wody",
+      "Wykaz statków w porcie i prognoza pływów",
+      "Ostrzeżenia nawigacyjne NAVTEX i godziny otwarcia bosmanatu"
+     ]
+    }
+   },
+   "page": 221
+  },
+  {
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-x-15",
+    "q": "Wymień kilka oznak zapowiadających pogorszenie pogody, które żeglarz może zaobserwować sam.",
+    "a": "Systematyczny spadek ciśnienia, halo wokół Słońca/Księżyca, nadciągające od zachodu chmury warstwowe, krwistoczerwony wschód Słońca, dym ścielący się nad wodą, nagła zmiana kierunku wiatru.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
+    "explain": "Oznaki ładnej pogody to m.in.: obfita rosa rano i wieczorem, mgła opadająca nad ranem, dym unoszący się pionowo, stałe lub rosnące ciśnienie, czerwony zachód Słońca.",
+    "mc": {
+     "correct": "Spadek ciśnienia, halo, chmury warstwowe od zachodu, krwisty wschód Słońca",
+     "wrong": [
+      "Obfita rosa, dym unoszący się pionowo, rosnące ciśnienie",
+      "Czerwony zachód Słońca i zanikanie Cumulusów wieczorem",
+      "Mgła opadająca nad ranem i słabnący wieczorem wiatr"
+     ]
+    }
+   },
+   "page": 221
+  }
+ ],
+ "newLessons": [],
+ "notes": "Sprawdzono wszystkie karty (bez gen) i bloki teorii L5 z rozdz. 7 Meteorologia (PDF s. 192–226). Główne zgodności: ciśnienie normalne (podręcznik 1013 hPa – nasze 1013,25 poprawne), Buys-Ballot, cyrkulacja w niżu/wyżu, klin/zatoka/siodło, bryzy, fronty, mgły, piętra chmur, wysokości fal w skali Douglasa. Uwagi: (1) podręcznik używa „front chłodny” – poza poprawionymi miejscami nasze teksty (tabela frontów, karty f-07/f-08/f-09/f-11/f-12/f-13, tip) mówią „zimny”; można rozważyć globalną zmianę. (2) Nazwy stopni w tabeli Douglasa w podręczniku są inne (0 zupełnie spokojne, 1 spokojne, 2 prawie spokojne, 3 trochę ruchliwe, 4 ruchliwe, 5 lekko wzburzone, 6 wzburzone, 7 bardzo wzburzone, 8 rozszalałe, 9 nadzwyczaj rozszalałe) – nie da się ich podmienić mechanicznie w tabeli teorii L5-morze; nasze nazwy to tłumaczenie skali WMO, wysokości zgodne. (3) Skala widzialności w podręczniku (tab. 7.3: słaba 1–2 Mm, bardzo słaba 0,5–1 Mm) różni się od definicji z prognoz żeglugowych (poor 1000 m – 2 Mm) użytej w L5-p-08 – nasza wersja jest poprawna dla komunikatów, nie zmieniano. (4) Podręcznik nie omawia kategorii NAVTEX, 518/490 kHz, imminent/soon/later ani progów ostrzeżeń – sprawdzono wg wiedzy ogólnej (IMO/Met Office); jedyna poprawka to kategoria L (nieodrzucalna wg NAVTEX Manual IMO) – warto ją potwierdzić. (5) Mgła z parowania nie występuje w podręczniku (opisuje adwekcyjną, radiacyjną, frontową, orograficzną) – nasza treść jest poprawna. OCR rozdziału dość czytelny poza tabelami (Beaufort, Douglas, tab. 7.6) i mapą synoptyczną (s. 217) – tabele odczytywano z kontekstu kolumn. Nowe karty: 15, wszystkie do istniejących lekcji; brak spójnej luki ≥5 kart na nową lekcję."
+}

@@ -1,0 +1,411 @@
+{
+ "level": 4,
+ "fixes": [
+  {
+   "id": "L4-mapa",
+   "where": "theory",
+   "old": "mapy generalne (mała skala, duży obszar), żeglugowe, podejściowe, plany portów (duża skala, najwięcej szczegółów)",
+   "new": "mapy generalne (1:500 000 i mniejsze – duży obszar), brzegowe (ok. 1:500 000–1:100 000), podejściowe (ok. 1:100 000–1:25 000) i portowe, czyli plany (1:25 000 i większe – najwięcej szczegółów)",
+   "page": 114,
+   "reason": "Podręcznik (i podział BHMW) nazywa drugą grupę mapami brzegowymi (ang. coastal charts), nie „żeglugowymi”, i podaje przedziały skal – egzaminator oczekuje tego podziału."
+  },
+  {
+   "id": "L4-mapa",
+   "where": "theory",
+   "old": "**Wysokości** obiektów i świateł – względem innego poziomu (zwykle wysokiej wody).",
+   "new": "**Wysokości** obiektów i świateł na mapach akwenów pływowych (np. brytyjskich) podaje się zwykle względem wysokiej wody; na polskich mapach BHMW zarówno głębokości, jak i wysokości odnosi się do średniego poziomu morza.",
+   "page": 115,
+   "reason": "Na polskiej mapie BHMW w tytule podano, że wysokości i głębokości odniesione są do średniego poziomu morza – obecny tekst sugeruje, że wysokości zawsze liczy się od innego poziomu."
+  },
+  {
+   "id": "L4-zliczenie",
+   "where": "theory",
+   "old": "**prawdopodobna** (zliczona z uwzględnieniem dryfu i prądu)",
+   "new": "**prawdopodobna** (z przecięcia tylko jednej linii pozycyjnej, np. pojedynczego namiaru, z linią drogi nad dnem KDd)",
+   "page": 161,
+   "reason": "Wg podręcznika pozycja prawdopodobna (PP) to przecięcie jednej linii pozycyjnej z linią KDd. Dryf i prąd uwzględnia się już w pozycji zliczonej (odkładanej na KDd)."
+  },
+  {
+   "id": "L4-z-07",
+   "where": "a",
+   "old": "Pozycja zliczona z uwzględnieniem dryfu i prądu (znosu).",
+   "new": "Pozycja uzyskana z przecięcia jednej linii pozycyjnej (np. pojedynczego namiaru) z linią kąta drogi nad dnem (KDd).",
+   "page": 161,
+   "reason": "Definicja z podręcznika: PP = jedna linia pozycyjna × linia KDd. Dryf i znos są uwzględniane już w pozycji zliczonej.",
+   "mc_correct": "Przecięcie jednej linii pozycyjnej z linią drogi nad dnem (KDd)"
+  },
+  {
+   "id": "L4-z-05",
+   "where": "a",
+   "old": "Dryf – znoszenie jachtu przez wiatr (pw). Znos – przesunięcie przez prąd (pp).",
+   "new": "Dryf (poprawka na wiatr, pw) – kąt, o który wiatr (i fala) spycha jacht z kursu rzeczywistego. Znos (poprawka na prąd, pp) – kąt, o który prąd odchyla drogę jachtu od kąta drogi po wodzie.",
+   "page": 157,
+   "reason": "W podręczniku dryf i znos są zdefiniowane jako kąty (poprawki pw i pp), a nie jako samo „przesunięcie” – tak liczy się je w zadaniach (KDw = KR + pw, KDd = KDw + pp)."
+  },
+  {
+   "id": "L4-zliczenie",
+   "where": "theory",
+   "old": "**Znos (pp)** – przesunięcie jachtu przez **prąd**.",
+   "new": "**Znos (pp)** – kąt, o który **prąd** odchyla drogę jachtu od kąta drogi po wodzie (KDd różni się od KDw o znos).",
+   "page": 157,
+   "reason": "Podręcznik definiuje znos jako kąt (poprawkę na prąd), analogicznie do dryfu."
+  },
+  {
+   "id": "L4-plywy",
+   "where": "theory",
+   "old": "**przybór** – od LW do HW, **ubiór** (odpływ) – od HW do LW",
+   "new": "**przypływ** (przybór, ang. flood) – od LW do HW, **odpływ** (ubiór, ang. ebb) – od HW do LW",
+   "page": 175,
+   "reason": "Podręcznik używa terminów „przypływ” i „odpływ” (flood/ebb); warto je podać jako główne, z „przybór/ubiór” jako synonimami."
+  },
+  {
+   "id": "L4-plywy",
+   "where": "theory",
+   "old": "**Rozstęp (zakres) pływu** – różnica wysokości HW i LW.",
+   "new": "**Skok pływu** (rozstęp, ang. range) – różnica wysokości HW i LW.",
+   "page": 175,
+   "reason": "Termin podręcznikowy to „skok pływu” (skok pływu syzygijnego/kwadraturowego, ang. spring/neap range)."
+  },
+  {
+   "id": "L4-t-01",
+   "where": "q",
+   "old": "Co to jest rozstęp pływu?",
+   "new": "Co to jest skok (rozstęp) pływu?",
+   "page": 175,
+   "reason": "Podręcznik nazywa tę wielkość „skokiem pływu” – egzaminator może użyć tego terminu."
+  },
+  {
+   "id": "L4-locja",
+   "where": "theory",
+   "old": "Spis radiostacji",
+   "new": "Spis radiostacji nautycznych (BHMW nr 531–532)",
+   "page": 122,
+   "reason": "Polska nazwa publikacji BHMW to „Spis radiostacji nautycznych”."
+  },
+  {
+   "id": "L4-locja",
+   "where": "theory",
+   "old": "Znaki i skróty",
+   "new": "Znaki, skróty i terminologia stosowane na mapach BHMW (nr 551)",
+   "page": 116,
+   "reason": "Polski odpowiednik INT 1 to publikacja BHMW nr 551 „Znaki, skróty i terminologia…” – warto podać polską nazwę."
+  },
+  {
+   "id": "L4-locja",
+   "where": "theory",
+   "old": "na mapie zapisuje się numer i rok poprawki.",
+   "new": "poprawki nanosi się **czerwonym tuszem** lub wklejką, a na mapie zapisuje się numer i rok poprawki. BHMW wydaje Wiadomości Żeglarskie co tydzień.",
+   "page": 122,
+   "reason": "Podręcznik podkreśla, że poprawki nanosi się czerwonym tuszem lub w formie wklejek, a WŻ są cotygodniowe – częste pytanie egzaminacyjne."
+  },
+  {
+   "id": "L4-l-04",
+   "where": "a",
+   "old": "W publikacji INT 1 (Admiralty Chart 5011) – „Symbole i skróty na mapach morskich”.",
+   "new": "W polskiej publikacji BHMW nr 551 „Znaki, skróty i terminologia stosowane na mapach” lub w angielskiej INT 1 / Chart 5011 (Symbols and Abbreviations used on Admiralty Charts).",
+   "page": 116,
+   "reason": "Podręcznik podaje jako źródło objaśnień symboli polskie wydawnictwo BHMW nr 551 (odpowiednik angielskiej publikacji); brakowało polskiej nazwy.",
+   "mc_correct": "W publikacji BHMW nr 551 (znaki i skróty) / INT 1 (Chart 5011)"
+  },
+  {
+   "id": "L4-l-05",
+   "where": "a",
+   "old": "W spisie radiostacji (Admiralty List of Radio Signals)",
+   "new": "W Spisie radiostacji nautycznych (BHMW; ang. Admiralty List of Radio Signals)",
+   "page": 122,
+   "reason": "Pełna polska nazwa publikacji: „Spis radiostacji nautycznych”."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-x-01",
+    "q": "Ile wynosi 1 kabel (kbl) i jaka jest jednostka prędkości w nawigacji?",
+    "a": "1 kbl = 0,1 Mm = 185,2 m. Prędkość podaje się w węzłach: 1 w = 1 Mm/h.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 6.2 Podstawy nawigacji terestrycznej",
+    "mc": {
+     "correct": "1 kbl = 0,1 Mm = 185,2 m; 1 węzeł = 1 Mm/h",
+     "wrong": [
+      "1 kbl = 0,01 Mm = 18,5 m; 1 węzeł = 1 km/h",
+      "1 kbl = 1/8 Mm = 231,5 m; 1 węzeł = 1 Mm/min",
+      "1 kbl = 100 m; 1 węzeł = 1,852 Mm/h"
+     ]
+    }
+   },
+   "page": 143
+  },
+  {
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-x-02",
+    "q": "Jak zaznacza się i opisuje na mapie pozycję zliczoną, a jak obserwowaną?",
+    "a": "PZ – krótka kreska poprzeczna do linii drogi, opis ułamkiem: w liczniku czas (4 cyfry, np. 1430), w mianowniku stan logu. Nanosi się ją zwykle co godzinę i przy każdej zmianie kursu. PO – kółko wokół punktu przecięcia linii pozycyjnych, z czasem i stanem logu.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu",
+    "tip": "Czas zawsze czterema cyframi bez kropki; kreska ułamkowa równoległa do równoleżnika.",
+    "mc": {
+     "correct": "PZ: kreska na linii drogi + ułamek czas/log; PO: kółko z czasem i logiem",
+     "wrong": [
+      "PZ: kółko z opisem KK; PO: krzyżyk z prędkością",
+      "PZ: trójkąt z czasem; PO: kwadrat ze stanem logu",
+      "PZ: kółko + ułamek log/czas; PO: kreska na linii drogi"
+     ]
+    }
+   },
+   "page": 161
+  },
+  {
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-x-03",
+    "q": "Jaki błąd przyjmuje się w praktyce dla pozycji zliczonej?",
+    "a": "Ok. 5% drogi przebytej od ostatniej pozycji obserwowanej. Dlatego PZ traktuje się jako obszar, a nie punkt – i im dłużej bez obserwacji, tym większy.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu",
+    "mc": {
+     "correct": "Ok. 5% drogi przebytej od ostatniej pozycji obserwowanej",
+     "wrong": [
+      "Stały błąd ok. 0,5 Mm niezależnie od drogi",
+      "Ok. 1% prędkości jachtu na każdą godzinę",
+      "Ok. 20% drogi przebytej od portu wyjścia"
+     ]
+    }
+   },
+   "page": 161
+  },
+  {
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-x-04",
+    "q": "Pozycja obserwowana i zliczona na tę samą godzinę różnią się. Co robisz na mapie?",
+    "a": "Łączysz PZ z PO falistą linią („wężykiem”) – tzw. przeniesienie pozycji – i dalsze zliczenie prowadzisz od pozycji obserwowanej.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu",
+    "mc": {
+     "correct": "Łączysz PZ z PO „wężykiem” i dalej liczysz od PO",
+     "wrong": [
+      "Przyjmujesz średnią z PZ i PO jako nową pozycję",
+      "Ignorujesz PO i kontynuujesz zliczenie od PZ",
+      "Wycierasz całą dotychczasową drogę i zaczynasz od portu"
+     ]
+    }
+   },
+   "page": 163
+  },
+  {
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-x-05",
+    "q": "Czym różni się bierne od czynnego uwzględnienia prądu (i dryfu)?",
+    "a": "Bierne – znając KR, dryf i prąd, wykreślasz, dokąd faktycznie płynie jacht (KDd i pozycję). Czynne – z góry wyznaczasz KR (z poprawkami na prąd i wiatr) tak, aby droga nad dnem prowadziła po linii od punktu wyjścia do celu.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 6.4 Zliczenie przy prądzie",
+    "mc": {
+     "correct": "Bierne: liczysz, dokąd zniesie jacht; czynne: dobierasz KR, by trzymać linię do celu",
+     "wrong": [
+      "Bierne: dobierasz KR do celu; czynne: liczysz, dokąd zniesie jacht",
+      "Bierne: tylko na silniku; czynne: tylko pod żaglami",
+      "Bierne: uwzględnia tylko wiatr; czynne: tylko prąd pływowy"
+     ]
+    }
+   },
+   "page": 180
+  },
+  {
+   "lesson": "L4-pozycja",
+   "card": {
+    "id": "L4-x-06",
+    "q": "Co to jest kąt kursowy i jak z niego obliczyć namiar rzeczywisty?",
+    "a": "Kąt między dziobową częścią diametralnej jachtu a kierunkiem na obiekt, liczony w prawo (0–360°). NR = KR + kąt kursowy (jeśli wynik > 360°, odejmij 360°).",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.2.3 Kursy i namiary",
+    "tip": "Obiekt na prawym trawersie: kąt kursowy 090°, więc NR = KR + 90°.",
+    "mc": {
+     "correct": "Kąt od dziobu w prawo do obiektu; NR = KR + kąt kursowy",
+     "wrong": [
+      "Kąt od N rzeczywistej do obiektu; NR = KK − kąt kursowy",
+      "Kąt od rufy w lewo do obiektu; NR = KR − kąt kursowy",
+      "Kąt między KR a KK; NR = kąt kursowy + cp"
+     ]
+    }
+   },
+   "page": 158
+  },
+  {
+   "lesson": "L4-pozycja",
+   "card": {
+    "id": "L4-x-07",
+    "q": "Czy do wyznaczenia pozycji obserwowanej można namierzać pławy?",
+    "a": "Nie – oznakowanie pływające może być przesunięte ze swojej pozycji. Wyjątkiem są latarniowce i superpławy. Do PO używa się obiektów stałych o pewnym położeniu.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu",
+    "mc": {
+     "correct": "Nie, poza latarniowcami i superpławami – tylko obiekty stałe",
+     "wrong": [
+      "Tak, każda pława z mapy jest równie dobra jak latarnia",
+      "Tak, ale tylko pławy kardynalne",
+      "Tylko w dzień – w nocy wyłącznie pławy świetlne"
+     ]
+    }
+   },
+   "page": 162
+  },
+  {
+   "lesson": "L4-pozycja",
+   "card": {
+    "id": "L4-x-08",
+    "q": "Jak często należy wyznaczać pozycję obserwowaną?",
+    "a": "Co najmniej raz w ciągu wachty (najlepiej przed jej przekazaniem), przy bliskich niebezpieczeństwach – przy każdej okazji, a zawsze przy zbliżaniu się do lądu od strony morza.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu",
+    "mc": {
+     "correct": "Min. raz na wachtę, blisko niebezpieczeństw – przy każdej okazji",
+     "wrong": [
+      "Raz na dobę, w południe",
+      "Tylko przy wejściu do portu",
+      "Tylko gdy GPS przestanie działać"
+     ]
+    }
+   },
+   "page": 162
+  },
+  {
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-x-09",
+    "q": "Płyniesz w białym sektorze światła prowadzącego. Którą częścią sektora należy iść?",
+    "a": "Środkiem sektora, a nie przy jego granicach – granice sektorów nie są ostre i łatwo z nich wyjść w sektor ostrzegawczy.",
+    "difficulty": 1,
+    "source": "Kolaszewski, Świdwiński – 5.2.5 Przygotowanie nawigacyjne wejścia do portu",
+    "mc": {
+     "correct": "Środkiem sektora, z dala od jego granic",
+     "wrong": [
+      "Przy granicy sektora od strony lądu",
+      "Przy granicy sektora od strony morza",
+      "Dowolnie – sektor ma ostre granice"
+     ]
+    }
+   },
+   "page": 137
+  },
+  {
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-x-10",
+    "q": "Jak podaje się na mapie i w spisie świateł namiary granic sektorów świateł?",
+    "a": "Jako namiary rzeczywiste od strony morza (od obserwatora na latarnię), liczone zgodnie z ruchem wskazówek zegara.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 5.2.1 Pomoce i wydawnictwa nawigacyjne",
+    "mc": {
+     "correct": "Namiary rzeczywiste od strony morza (od obserwatora), zgodnie z zegarem",
+     "wrong": [
+      "Namiary magnetyczne od latarni w stronę morza",
+      "Namiary rzeczywiste od latarni, przeciwnie do zegara",
+      "Kąty kursowe względem osi toru wodnego"
+     ]
+    }
+   },
+   "page": 120
+  },
+  {
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-x-11",
+    "q": "Na co uważać przy wejściu do portów środkowego wybrzeża (Świnoujście–Władysławowo)?",
+    "a": "Na przybrzeżny prąd wschodni lub zachodni płynący w poprzek wejścia (trzeba robić poprawkę). Przy sztormie z kierunków od morza wejście jest niebezpieczne – jeśli to możliwe, lepiej przeczekać na morzu.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 5.2.4 Wybrzeże polskie",
+    "mc": {
+     "correct": "Prąd przybrzeżny w poprzek wejścia; w sztormie od morza – przeczekać na morzu",
+     "wrong": [
+      "Silny prąd pływowy wzdłuż osi toru; wchodzić tylko przy LW",
+      "Brak prądów; w sztormie wchodzić jak najszybciej",
+      "Prąd z rzeki od portu; wchodzić zawsze pod żaglami"
+     ]
+    }
+   },
+   "page": 136
+  },
+  {
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-x-12",
+    "q": "Jakie rodzaje pływów wyróżnia się ze względu na czas trwania?",
+    "a": "Półdobowe – dwie HW i dwie LW na dobę (np. Morze Północne, zachodnia Europa); dobowe – jedna HW i jedna LW; mieszane – nieregularne odstępy i różne wysokości kolejnych wód.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.5 Żegluga na pływach",
+    "mc": {
+     "correct": "Półdobowe, dobowe i mieszane",
+     "wrong": [
+      "Syzygijne, kwadraturowe i równonocne",
+      "Przybrzeżne, oceaniczne i rzeczne",
+      "Wiatrowe, ciśnieniowe i księżycowe"
+     ]
+    }
+   },
+   "page": 172
+  },
+  {
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-x-13",
+    "q": "Jak z tablic pływów rozpoznasz, czy danego dnia jest pływ syzygijny czy kwadraturowy?",
+    "a": "Obliczasz skok pływu (HW − LW) w porcie standardowym i porównujesz go ze średnimi skokami (Mean Ranges: Springs / Neaps) podanymi przy krzywych pływu – bliższa wartość wskazuje rodzaj pływu i krzywą do obliczeń.",
+    "difficulty": 3,
+    "source": "Kolaszewski, Świdwiński – 6.5.3 Określanie wysokości pływów",
+    "mc": {
+     "correct": "Porównujesz skok HW−LW ze średnimi skokami Springs/Neaps przy krzywej pływu",
+     "wrong": [
+      "Sprawdzasz, czy HW wypada przed czy po północy",
+      "Porównujesz wysokość LW z głębokością na mapie",
+      "Odczytujesz literę z rombu prądowego na mapie"
+     ]
+    }
+   },
+   "page": 184
+  },
+  {
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-x-14",
+    "q": "Na co zwrócić uwagę przy odczycie godzin HW/LW z Admiralty Tide Tables?",
+    "a": "Na strefę czasową podaną w nagłówku tablicy (np. UT lub UT+1). Przy czasie letnim (np. BST, polski czas letni) trzeba dodać odpowiednią godzinę, by przejść na czas lokalny.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.5.2 Parametry pływów",
+    "mc": {
+     "correct": "Na strefę czasową w nagłówku i ewentualną poprawkę na czas letni",
+     "wrong": [
+      "Na fazę Księżyca podaną przy każdej godzinie",
+      "Na deklinację magnetyczną portu",
+      "Tablice zawsze podają czas lokalny – nic nie trzeba poprawiać"
+     ]
+    }
+   },
+   "page": 176
+  },
+  {
+   "lesson": "L4-urzadzenia",
+   "card": {
+    "id": "L4-x-15",
+    "q": "Do jakiej północy odnoszą się kierunki (COG, namiar na waypoint) pokazywane przez GPS i jak należy planować waypointy?",
+    "a": "Do północy rzeczywistej (geograficznej) – COG to kąt drogi nad dnem (KDd), namiar do WPT to namiar rzeczywisty (o ile nie przestawiono na Magnetic). Waypointy ustawia się w pewnej odległości od znaków i niebezpieczeństw, a nie na nich, i sprawdza na mapie, czy trasa między nimi nie przecina lądu lub płycizn.",
+    "difficulty": 2,
+    "source": "Kolaszewski, Świdwiński – 6.6 GPS",
+    "tip": "Sprawdź w ustawieniach odbiornika, czy kierunki są w trybie True, a nie Magnetic.",
+    "mc": {
+     "correct": "Do N rzeczywistej (COG = KDd); WPT obok znaków, nie na nich",
+     "wrong": [
+      "Do N magnetycznej (COG = KM); WPT dokładnie na pławach",
+      "Do N kompasowej (COG = KK); WPT na środku główek",
+      "Do N rzeczywistej (COG = KR); WPT zawsze na latarniach"
+     ]
+    }
+   },
+   "page": 186
+  }
+ ],
+ "newLessons": [],
+ "notes": "Sprawdzono wszystkie karty bez 'gen' i bloki teorii L4 względem rozdz. 5.2 (locja, s. PDF 113–123, 136–141) i 6 (nawigacja, pływy, GPS, s. PDF 142–191). Główny realny błąd: definicja pozycji prawdopodobnej (w podręczniku: jedna linia pozycyjna × linia KDd, a nie „zliczona z dryfem i prądem”). Pozostałe poprawki dotyczą terminologii podręcznika: mapy brzegowe, skok pływu, przypływ/odpływ, dryf i znos jako kąty, polskie nazwy publikacji BHMW (531–532, 551), poprawki czerwonym tuszem, odniesienie wysokości na mapach BHMW do średniego poziomu morza. Nie zmieniano: wzoru na widnokrąg – podręcznik upraszcza go do d = 2√h i D = 2(√h + √H), nasze 2,08 jest dokładniejsze i powszechnie stosowane (można dopisać w tipie, że w przybliżeniu wystarcza 2). Podręcznik przypisuje rzutowi Merkatora „stałość skali w granicach mapy”. To nieścisłe, bo skala rośnie z szerokością, więc nasza teoria jest poprawna. Tabela skrótów świateł w podręczniku używa starych polskich oznaczeń (B, P, M…), a nasze karty używają międzynarodowych (Fl, Oc, Q), zgodnych z obecnymi mapami BHMW. To w porządku. Podręcznik podaje, że pływy syzygijne występują ok. 2 dni po nowiu i pełni; nasza wersja „przy nowiu i pełni” to akceptowalne uproszczenie. OCR: tabele i rysunki (tabela prądów, krzywe pływów, tabela 5.4) są mocno zniekształcone, więc wartości z nich nie były używane. Nowa lekcja nie była potrzebna – 15 kart dopisano do istniejących lekcji."
+}

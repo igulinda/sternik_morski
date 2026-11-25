@@ -8,13 +8,13 @@
    "theory": [
     {
      "t": "p",
-     "text": "**MPZZ** (Międzynarodowe Prawidła o Zapobieganiu Zderzeniom na Morzu, ang. COLREG 1972) to podstawowe „prawo drogi” na morzu. Obowiązują na pełnym morzu i na wszystkich połączonych z nim wodach dostępnych dla statków morskich."
+     "text": "**MPZZ** (Międzynarodowe przepisy o zapobieganiu zderzeniom na morzu, w podręczniku skrót **MPZZM**; ang. COLREG 1972) to podstawowe „prawo drogi” na morzu. Obowiązują na pełnym morzu i na wszystkich połączonych z nim wodach dostępnych dla statków morskich."
     },
     {
      "t": "ul",
      "items": [
       "**Statek o napędzie mechanicznym** – każdy statek poruszany za pomocą maszyny. **Jacht żaglowy płynący na silniku** (nawet z postawionymi żaglami) jest w świetle MPZZ statkiem o napędzie mechanicznym!",
-      "**Żaglowiec** – statek idący pod żaglami, o ile jego silnik (jeśli go ma) nie jest używany.",
+      "**Statek żaglowy** (żaglowiec) – statek idący pod żaglami, o ile jego silnik (jeśli go ma) nie jest używany.",
       "**Statek zajęty połowem** – łowiący sieciami, linami, włokami, które ograniczają jego zdolność manewrową (NIE dotyczy łowienia na wędki ciągnione – trolling).",
       "**W drodze** – statek, który nie stoi na kotwicy, nie jest przycumowany do brzegu i nie siedzi na mieliźnie (także gdy nie ma ruchu po wodzie).",
       "**Ograniczona widzialność** – mgła, zamglenie, opady śniegu, ulewny deszcz, burze piaskowe itp."
@@ -29,7 +29,7 @@
       "**Prawidło 7 – ryzyko zderzenia**: istnieje, gdy **namiar kompasowy** na zbliżający się statek **nie zmienia się wyraźnie**. W razie wątpliwości – przyjmij, że ryzyko istnieje.",
       "**Prawidło 8 – manewr**: wyraźny, wykonany **w porę**, wystarczająco duży, by był łatwo zauważalny (unikaj serii małych zmian kursu).",
       "**Prawidło 9 – wąskie przejścia**: trzymaj się **prawej strony** toru. Statki < 20 m i żaglowce nie mogą utrudniać przejścia statkom, które mogą bezpiecznie płynąć tylko w obrębie toru.",
-      "**Prawidło 10 – systemy rozgraniczenia ruchu (TSS)**: pas ruchu przecina się kursem możliwie **prostopadłym** do ogólnego kierunku ruchu. Statki < 20 m i żaglowce nie mogą utrudniać ruchu statkom mechanicznym płynącym pasem ruchu."
+      "**Prawidło 10 – systemy rozgraniczenia ruchu (TSS)**: **tor kierunkowy** przecina się kursem możliwie **prostopadłym** do ogólnego kierunku ruchu. Statki < 20 m i żaglowce nie mogą utrudniać ruchu statkom o napędzie mechanicznym idącym torem kierunkowym."
      ]
     },
     {
@@ -92,8 +92,8 @@
     },
     {
      "id": "L2-m-08",
-     "q": "Pod jakim kątem przecina się pas ruchu w systemie rozgraniczenia ruchu (TSS)?",
-     "a": "Kursem możliwie prostopadłym do ogólnego kierunku ruchu w tym pasie.",
+     "q": "Pod jakim kątem przecina się tor kierunkowy w systemie rozgraniczenia ruchu (TSS)?",
+     "a": "Kursem możliwie prostopadłym do ogólnego kierunku ruchu na tym torze kierunkowym.",
      "source": "MPZZ, prawidło 10",
      "difficulty": 1
     },
@@ -110,6 +110,89 @@
      "a": "Tak – prawidło 2 pozwala odstąpić od prawideł, jeżeli jest to konieczne dla uniknięcia bezpośredniego niebezpieczeństwa.",
      "source": "MPZZ, prawidło 2",
      "difficulty": 2
+    },
+    {
+     "id": "L2-x-01",
+     "q": "Przepisy portowe danego akwenu różnią się od MPZZ. Których przestrzegasz?",
+     "a": "Przepisów miejscowych (lokalnych) – na swoim obszarze mają pierwszeństwo przed MPZZ, które mają tylko uzupełniać i z którymi powinny być możliwie zgodne.",
+     "source": "MPZZ, prawidło 1(b)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-02",
+     "q": "Co to jest „statek nieodpowiadający za swoje ruchy”?",
+     "a": "Statek, który z powodu wyjątkowych okoliczności (np. awarii steru lub maszyny) nie może manewrować zgodnie z prawidłami i dlatego nie jest w stanie ustąpić z drogi.",
+     "tip": "Ang. NUC – not under command. Przyczyna leży w samym statku (awaria), a nie w pracy, którą wykonuje.",
+     "source": "MPZZ, prawidło 3(f)",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-x-03",
+     "q": "Co to jest „statek o ograniczonej zdolności manewrowej”? Podaj przykłady.",
+     "a": "Statek, któremu rodzaj wykonywanej pracy ogranicza możliwość manewrowania i ustąpienia z drogi – np. kładący kable lub rurociągi, pogłębiarka, statek prowadzący prace podwodne, trałujący miny, przekazujący zaopatrzenie w ruchu.",
+     "explain": "Różnica: przy statku o ograniczonej zdolności manewrowej przyczyną jest praca, przy nieodpowiadającym za swoje ruchy – awaria lub wyjątkowe okoliczności. Statek zajęty połowem to osobna kategoria.",
+     "source": "MPZZ, prawidło 3(g)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-04",
+     "q": "Co to jest „statek ograniczony swym zanurzeniem”?",
+     "a": "Statek o napędzie mechanicznym, który z powodu swojego zanurzenia w stosunku do dostępnej głębokości i szerokości akwenu ma poważnie ograniczoną możliwość odchodzenia od kursu.",
+     "source": "MPZZ, prawidło 3(h)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-05",
+     "q": "Kiedy w rozumieniu MPZZ statki są „wzajemnie widoczne”?",
+     "a": "Tylko wtedy, gdy jeden statek może być obserwowany wzrokowo z drugiego. Wykrycie wyłącznie radarem lub przez AIS się nie liczy.",
+     "explain": "Od tego zależy, czy stosujesz prawidła 11–18 (statki wzajemnie widoczne), czy prawidło 19 (ograniczona widzialność).",
+     "source": "MPZZ, prawidło 3(k)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-06",
+     "q": "Namiar na zbliżający się duży statek wyraźnie się zmienia. Czy na pewno nie ma ryzyka zderzenia?",
+     "a": "Nie. Ryzyko może istnieć mimo zmiany namiaru – zwłaszcza przy zbliżaniu się do bardzo dużego statku, zestawu holowniczego lub do statku z bliskiej odległości.",
+     "tip": "Duży statek ma dziób i rufę daleko od siebie – namiar na mostek może się zmieniać, a namiar na dziób nie.",
+     "source": "MPZZ, prawidło 7(d)(ii)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-07",
+     "q": "Czy wolno przeciąć wąskie przejście (tor wodny) przed statkiem, który może płynąć tylko w jego granicach?",
+     "a": "Nie, jeżeli takie przecięcie przeszkadza temu statkowi. Tor przecina się tylko wtedy, gdy nie utrudnia się przejścia statkom związanym z torem.",
+     "source": "MPZZ, prawidło 9(d)",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-x-08",
+     "q": "W jakich miejscach MPZZ każą unikać kotwiczenia, jeśli to tylko możliwe?",
+     "a": "W wąskim przejściu (torze wodnym) oraz w systemie rozgraniczenia ruchu i w rejonach przy jego końcach.",
+     "source": "MPZZ, prawidła 9(g) i 10(g)",
+     "difficulty": 1
+    },
+    {
+     "id": "L2-x-09",
+     "q": "Jak wchodzić na tor kierunkowy systemu rozgraniczenia ruchu i z niego schodzić?",
+     "a": "Zwykle na końcach toru; jeśli z boku – pod możliwie małym kątem do ogólnego kierunku ruchu.",
+     "tip": "Wejście/wyjście – mały kąt (włączasz się do ruchu). Przecinanie toru – kąt możliwie prosty.",
+     "source": "MPZZ, prawidło 10(b)(iii)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-10",
+     "q": "Które statki mogą zawsze korzystać ze strefy ruchu przybrzeżnego obok systemu rozgraniczenia ruchu?",
+     "a": "Statki o długości mniejszej niż 20 m, statki żaglowe i statki zajęte połowem.",
+     "explain": "Statki w ruchu tranzytowym, które mogą bezpiecznie korzystać z toru kierunkowego, nie powinny normalnie używać strefy ruchu przybrzeżnego.",
+     "source": "MPZZ, prawidło 10(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-11",
+     "q": "Kiedy wolno wejść w strefę rozgraniczającą (lub przeciąć linię rozgraniczającą) systemu TSS?",
+     "a": "Zasadniczo tylko przy przecinaniu systemu, wchodzeniu na tor lub schodzeniu z niego, w nagłym wypadku dla uniknięcia bezpośredniego niebezpieczeństwa oraz przy połowie w obrębie tej strefy.",
+     "source": "MPZZ, prawidło 10(e)",
+     "difficulty": 3
     }
    ]
   },
@@ -141,12 +224,12 @@
       "statek o napędzie mechanicznym (w tym jacht na silniku)",
       "żaglowiec",
       "statek zajęty połowem",
-      "statek o ograniczonej zdolności manewrowej oraz statek niezdolny do manewrowania"
+      "statek o ograniczonej zdolności manewrowej oraz statek nieodpowiadający za swoje ruchy"
      ]
     },
     {
      "t": "p",
-     "text": "Każdy z wyższej pozycji listy ustępuje tym niżej. Dodatkowo każdy statek (poza niezdolnym i o ograniczonej zdolności manewrowej) powinien unikać utrudniania drogi **statkowi ograniczonemu zanurzeniem**."
+     "text": "Każdy z wyższej pozycji listy ustępuje tym niżej. Dodatkowo każdy statek (poza nieodpowiadającym za swoje ruchy i o ograniczonej zdolności manewrowej) powinien unikać utrudniania drogi **statkowi ograniczonemu zanurzeniem**."
     },
     {
      "t": "tip",
@@ -357,7 +440,7 @@
     {
      "id": "L2-u-09",
      "q": "Wymień hierarchię ustępowania drogi z prawidła 18 (od statku, który ustępuje wszystkim).",
-     "a": "Statek o napędzie mechanicznym → żaglowiec → statek zajęty połowem → statek o ograniczonej zdolności manewrowej i statek niezdolny do manewrowania.",
+     "a": "Statek o napędzie mechanicznym → żaglowiec → statek zajęty połowem → statek o ograniczonej zdolności manewrowej i statek nieodpowiadający za swoje ruchy.",
      "tip": "„Motor – Żagiel – Ryba – Niezdolny”.",
      "source": "MPZZ, prawidło 18",
      "difficulty": 1
@@ -378,9 +461,25 @@
     },
     {
      "id": "L2-u-12",
-     "q": "Komu powinny unikać utrudniania drogi wszystkie statki (poza niezdolnymi do manewrowania i o ograniczonej zdolności manewrowej)?",
+     "q": "Komu powinny unikać utrudniania drogi wszystkie statki (poza statkami nieodpowiadającymi za swoje ruchy i o ograniczonej zdolności manewrowej)?",
      "a": "Statkowi ograniczonemu swoim zanurzeniem, który pokazuje wymagane sygnały.",
      "source": "MPZZ, prawidło 18(d)",
+     "difficulty": 2
+    },
+    {
+     "id": "L2-x-12",
+     "q": "Płyniesz na silniku jako statek uprzywilejowany; statek mechaniczny ustępujący jest po Twojej lewej burcie i nie reaguje. Jakiego manewru unikać?",
+     "a": "Zmiany kursu w lewo – w stronę tego statku. Jeśli manewrujesz sam, nie zmieniaj kursu w lewo, o ile okoliczności na to pozwalają.",
+     "explain": "Ustępujący najpewniej skręci w prawo (za Twoją rufę) – Twój zwrot w lewo zniósłby jego manewr.",
+     "source": "MPZZ, prawidło 17(c)",
+     "difficulty": 3
+    },
+    {
+     "id": "L2-x-13",
+     "q": "Jak MPZZ określają burtę nawietrzną żaglowca (prawidło 12)?",
+     "a": "Za nawietrzną uznaje się burtę przeciwną do tej, po której niesiony jest grot (na statku z ożaglowaniem rejowym – największy żagiel skośny).",
+     "tip": "Przy wietrze z rufy (fordewind) o halsie decyduje strona grota, a nie kierunek wiatru wskazywany przez wiatrowskaz.",
+     "source": "MPZZ, prawidło 12(b)",
      "difficulty": 2
     }
    ]
@@ -479,7 +578,7 @@
     },
     {
      "t": "p",
-     "text": "**Żaglowiec w drodze** (prawidło 25): tylko burtowe + rufowe, **bez masztowego**. Żaglowiec < 20 m może je połączyć w **latarnię trójkolorową** na topie masztu. Dodatkowo żaglowiec może pokazywać na topie **czerwone nad zielonym** (dookoła) – ale nie razem z latarnią trójkolorową."
+     "text": "**Żaglowiec w drodze** (prawidło 25): tylko burtowe + rufowe, **bez masztowego**. Żaglowiec < 20 m może je połączyć w **latarnię trójkolorową** (w podręczniku: „latarnia kombinowana”) na topie masztu. Dodatkowo żaglowiec może pokazywać na topie **czerwone nad zielonym** (dookoła) – ale nie razem z latarnią trójkolorową."
     },
     {
      "t": "visual",
@@ -803,6 +902,13 @@
      "a": "1 Mm.",
      "source": "MPZZ, prawidło 22",
      "difficulty": 3
+    },
+    {
+     "id": "L2-x-14",
+     "q": "Czy w nocy, poza światłami nawigacyjnymi, wolno pokazywać inne światła?",
+     "a": "Tylko takie, których nie można pomylić ze światłami z MPZZ, które nie osłabiają ich widoczności ani charakteru i nie przeszkadzają w prowadzeniu obserwacji.",
+     "source": "MPZZ, prawidło 20(b)",
+     "difficulty": 2
     }
    ]
   },
@@ -897,6 +1003,13 @@
      },
      "source": "MPZZ, prawidło 30",
      "difficulty": 1
+    },
+    {
+     "id": "L2-x-15",
+     "q": "Czy jacht < 7 m na kotwicy musi pokazywać kulę w dzień i białe światło w nocy?",
+     "a": "Nie – o ile kotwiczy poza wąskim przejściem, torem wodnym, kotwicowiskiem i miejscami, gdzie zwykle pływają inne statki.",
+     "source": "MPZZ, prawidło 30(e)",
+     "difficulty": 2
     }
    ]
   },

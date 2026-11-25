@@ -1,0 +1,358 @@
+{
+ "level": 1,
+ "fixes": [
+  {
+   "id": "L1-nazewnictwo",
+   "where": "theory",
+   "old": "**Kąt kursowy** – kąt między dziobem jachtu a kierunkiem na obiekt, mierzony od dziobu w prawo lub w lewo (np. 30° prawej burty).",
+   "new": "**Kąt kursowy (∠K)** – kąt między dziobową częścią osi (diametralnej) jachtu a kierunkiem na obiekt, liczony od dziobu **w prawo** od 000° do 360° (NK = KK + ∠K). Kąt liczony od dziobu w prawo lub w lewo (0–180°, np. 30° prawej burty) to **namiar burtowy** (NBP / NBL); NBP = NBL = 90° to trawersy.",
+   "page": 158,
+   "reason": "Podręcznik definiuje kąt kursowy jako liczony w prawo od dziobu (0–360°), a pomiar 0–180° na prawą/lewą burtę nazywa namiarem burtowym (NBP/NBL). Egzaminator oczekuje tego rozróżnienia (wzór NK = KK + ∠K)."
+  },
+  {
+   "id": "L1-n-12",
+   "where": "a",
+   "old": "Kąt między dziobem (osią jachtu) a kierunkiem na obserwowany obiekt, liczony od dziobu na prawą lub lewą burtę (0–180°).",
+   "new": "Kąt między dziobową częścią osi jachtu a kierunkiem na obserwowany obiekt, liczony od dziobu w prawo (zgodnie z ruchem wskazówek zegara) od 000° do 360°. Pomiar 0–180° na prawą lub lewą burtę to namiar burtowy (NBP/NBL).",
+   "page": 158,
+   "reason": "Wg podręcznika kąt kursowy liczy się w prawo 0–360°; wersja 0–180° na burty to namiar burtowy.",
+   "mc_correct": "Kąt od dziobu do kierunku na obiekt, liczony w prawo od 000° do 360°"
+  },
+  {
+   "id": "L1-beaufort",
+   "where": "theory",
+   "old": "dość silny",
+   "new": "świeży",
+   "page": 198,
+   "reason": "W tabeli 7.1 podręcznika 5°B to „wiatr świeży” (tak też w polskich prognozach), nie „dość silny”.  Dotyczy komórki tabeli (wiersz 5°B, kolumna „Nazwa”)."
+  },
+  {
+   "id": "L1-fon-01",
+   "where": "a",
+   "old": "Sierra Papa Two Alfa Bravo Charlie.",
+   "new": "Sierra Papa Bissotwo (w praktyce często „two”) Alfa Bravo Charlie.",
+   "page": 239,
+   "reason": "W alfabecie fonetycznym MKS (tab. 8.3) cyfry wymawia się słowami kodowymi: Nadazero, Unaone, Bissotwo, Terrathree, Kartefour, Pantafive, Soxisix, Setteseven, Oktoeight, Novenine. W praktyce VHF często słyszy się zwykłe „Two”, ale na egzaminie oczekiwana jest forma kodowa.",
+   "mc_correct": "Sierra Papa Bissotwo Alfa Bravo Charlie"
+  },
+  {
+   "id": "L1-nazewnictwo",
+   "where": "theory",
+   "old": "bajdewind (ostro na wiatr, ok. 45°)",
+   "new": "bajdewind (wiatr skośnie od dziobu – między kątem granicznym a trawersem; najostrzej ok. 45°)",
+   "page": 73,
+   "reason": "Podręcznik definiuje kursy zakresami: bajdewind = wiatr między kątem granicznym a trawersem, baksztag = wiatr między trawersem a rufą. Same wartości 45°/135° to tylko przykłady."
+  },
+  {
+   "id": "L1-nazewnictwo",
+   "where": "theory",
+   "old": "baksztag (wiatr od rufy skośnie, ok. 135°)",
+   "new": "baksztag (wiatr skośnie od rufy – między trawersem a rufą, np. ok. 135°)",
+   "page": 73,
+   "reason": "Jak wyżej – baksztag obejmuje cały zakres od trawersu do rufy."
+  }
+ ],
+ "newCards": [
+  {
+   "lesson": "L1-nazewnictwo",
+   "card": {
+    "id": "L1-x-n-01",
+    "q": "Co to jest wiatr pozorny i co go wskazuje na jachcie?",
+    "a": "Wypadkowa wiatru rzeczywistego i wiatru własnego (wywołanego ruchem jachtu). To on działa na żagle i jest odczuwany na pokładzie; wskazuje go wimpel (lub wiatromierz na topie masztu).",
+    "explain": "Wiatr własny jest równy prędkości jachtu i skierowany przeciwnie do jego ruchu. Kursy względem wiatru określa się względem wiatru pozornego.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Wypadkowa wiatru rzeczywistego i własnego; pokazuje go wimpel",
+     "wrong": [
+      "Wiatr rzeczywisty mierzony na lądzie; pokazuje go rękaw lotniskowy",
+      "Wiatr wywołany wyłącznie ruchem jachtu; pokazuje go log",
+      "Różnica wiatru przy wodzie i na topie masztu; pokazuje ją barometr"
+     ]
+    }
+   },
+   "page": 72
+  },
+  {
+   "lesson": "L1-nazewnictwo",
+   "card": {
+    "id": "L1-x-n-02",
+    "q": "Które kursy względem wiatru nazywamy ostrymi, a które pełnymi? Jak na nich zmienia się siła wiatru pozornego?",
+    "a": "Ostre: bajdewind i półwiatr – wiatr pozorny jest silniejszy od rzeczywistego. Pełne: baksztag i fordewind – wiatr pozorny jest słabszy od rzeczywistego.",
+    "tip": "Na kursie ostrym „płyniesz pod wiatr”, więc go dokładasz; z wiatrem – odejmujesz. Dlatego po odpadnięciu z bajdewindu wiatr wydaje się słabszy.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ostre: bajdewind, półwiatr (pozorny silniejszy); pełne: baksztag, fordewind (słabszy)",
+     "wrong": [
+      "Ostre: baksztag, fordewind (pozorny silniejszy); pełne: bajdewind, półwiatr",
+      "Ostre: bajdewind, półwiatr (pozorny słabszy); pełne: baksztag, fordewind (silniejszy)",
+      "Ostry jest tylko bajdewind; na wszystkich kursach wiatr pozorny równa się rzeczywistemu"
+     ]
+    }
+   },
+   "page": 73
+  },
+  {
+   "lesson": "L1-nazewnictwo",
+   "card": {
+    "id": "L1-x-n-03",
+    "q": "Czym jest odpadanie, a czym ostrzenie?",
+    "a": "Odpadanie – zmiana kursu w stronę kursów pełniejszych (od bajdewindu ku fordewindowi, dziobem od wiatru). Ostrzenie – zmiana kursu w stronę kursów ostrzejszych (dziobem do wiatru, ku bajdewindowi).",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Odpadanie – dziobem od wiatru (ku fordewindowi); ostrzenie – dziobem do wiatru",
+     "wrong": [
+      "Odpadanie – dziobem do wiatru (ku bajdewindowi); ostrzenie – dziobem od wiatru",
+      "Odpadanie – zmiana halsu przez rufę; ostrzenie – zmiana halsu przez dziób",
+      "Odpadanie – luzowanie szotów bez zmiany kursu; ostrzenie – ich wybieranie"
+     ]
+    }
+   },
+   "page": 74
+  },
+  {
+   "lesson": "L1-nazewnictwo",
+   "card": {
+    "id": "L1-x-n-04",
+    "q": "Co to jest kąt martwy?",
+    "a": "Kąt między osiami jachtu płynącego najostrzejszym bajdewindem lewego i prawego halsu. W tym sektorze (wokół kierunku, z którego wieje wiatr) jacht nie może płynąć pod żaglami – do celu na wietrze trzeba halsować.",
+    "explain": "Połowa kąta martwego to kąt graniczny – najmniejszy kąt do wiatru, przy którym wybrane żagle jeszcze pracują (zwykle ok. 30–60° zależnie od ożaglowania).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Sektor wokół kierunku wiatru, między bajdewindami obu halsów – nie da się w nim płynąć",
+     "wrong": [
+      "Sektor za rufą, w którym żagle zasłaniają widok sternikowi",
+      "Kąt między wiatrem rzeczywistym a pozornym na fordewindzie",
+      "Kąt wychylenia steru, przy którym jacht przestaje reagować"
+     ]
+    }
+   },
+   "page": 72
+  },
+  {
+   "lesson": "L1-nazewnictwo",
+   "card": {
+    "id": "L1-x-n-05",
+    "q": "Jacht płynie fordewindem. Jak ustalić, która burta jest nawietrzna i jakim halsem płynie?",
+    "a": "Na fordewindzie burta nawietrzna to ta przeciwna do burty, na którą wychylony jest grot (bom). Grot na lewej burcie → nawietrzna jest prawa → prawy hals.",
+    "tip": "Ta sama zasada co zawsze: hals odczytujesz po stronie przeciwnej do bomu.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nawietrzna jest burta przeciwna do wychylonego grota; po niej określa się hals",
+     "wrong": [
+      "Nawietrzna jest burta, po której stronie wychylony jest grot",
+      "Na fordewindzie obie burty są zawietrzne, a hals się nie określa",
+      "Nawietrzna jest zawsze prawa burta, bo fordewind to zawsze prawy hals"
+     ]
+    }
+   },
+   "page": 73
+  },
+  {
+   "lesson": "L1-beaufort",
+   "card": {
+    "id": "L1-x-b-01",
+    "q": "Czym różni się skala Beauforta od skali Douglasa?",
+    "a": "Skala Beauforta (0–12) opisuje siłę wiatru, a skala Douglasa (0–9) – stan morza, oceniany głównie po wysokości fal. Obie są ze sobą powiązane: silniejszy wiatr daje wyższy stopień stanu morza.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Beaufort – siła wiatru (0–12); Douglas – stan morza/wysokość fal (0–9)",
+     "wrong": [
+      "Beaufort – stan morza (0–9); Douglas – siła wiatru (0–12)",
+      "Beaufort – siła wiatru na morzu; Douglas – siła wiatru na lądzie",
+      "Beaufort – wysokość fali w metrach; Douglas – prędkość wiatru w węzłach"
+     ]
+    }
+   },
+   "page": 199
+  },
+  {
+   "lesson": "L1-beaufort",
+   "card": {
+    "id": "L1-x-b-02",
+    "q": "Prognoza podaje „wiatr NE”. Skąd wieje wiatr?",
+    "a": "Z północnego wschodu (wieje w kierunku SW). Kierunek wiatru zawsze podaje się jako kierunek, z którego wiatr wieje – w rumbach (N, NNE, NE…) lub w stopniach (NE = 045°).",
+    "tip": "Odwrotnie niż przy prądzie morskim – tam podaje się kierunek, w którym woda płynie.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Z północnego wschodu – kierunek wiatru to kierunek, skąd wieje",
+     "wrong": [
+      "Na północny wschód – kierunek wiatru to kierunek, dokąd wieje",
+      "Z południowego zachodu – NE oznacza stronę zawietrzną",
+      "Z północy, z odchyleniem 45° w lewo"
+     ]
+    }
+   },
+   "page": 199
+  },
+  {
+   "lesson": "L1-beaufort",
+   "card": {
+    "id": "L1-x-b-03",
+    "q": "Co znaczy, że wiatr „zachodzi”, a co, że „odchodzi”?",
+    "a": "Wiatr zachodzi – zmienia kierunek w prawo, zgodnie z ruchem wskazówek zegara (np. z S na SW i W). Wiatr odchodzi – zmienia kierunek w lewo, przeciwnie do ruchu wskazówek zegara (np. z S na SE i E).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Zachodzi – skręca w prawo (zgodnie ze wskazówkami zegara); odchodzi – w lewo",
+     "wrong": [
+      "Zachodzi – skręca w lewo; odchodzi – skręca w prawo",
+      "Zachodzi – słabnie wieczorem; odchodzi – zanika całkowicie",
+      "Zachodzi – wieje z zachodu; odchodzi – wieje od lądu"
+     ]
+    }
+   },
+   "page": 200
+  },
+  {
+   "lesson": "L1-flagi-nz",
+   "card": {
+    "id": "L1-x-f-01",
+    "q": "Do czego służą flagi zastępcze i flaga kodu (odpowiedzi) w MKS?",
+    "a": "Trzy flagi zastępcze (pierwsza, druga, trzecia) pozwalają powtórzyć w tym samym sygnale flagę już użytą wyżej (np. drugą literę A), gdy jest tylko jeden komplet flag. Flaga kodu i odpowiedzi oznacza, że sygnał nadawany jest wg MKS, a podniesiona przez odbiorcę – potwierdza odebranie sygnału.",
+    "tip": "Po wymianie sygnałów flagi należy od razu opuścić, by nie wprowadzać innych w błąd.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Zastępcze powtarzają użytą już flagę; flaga kodu = sygnał wg MKS / potwierdzenie odbioru",
+     "wrong": [
+      "Zastępcze zastępują banderę w porcie; flaga kodu oznacza „człowiek za burtą”",
+      "Zastępcze nadaje się nocą zamiast świateł; flaga kodu wzywa pilota",
+      "Zastępcze oznaczają cyfry 1–3; flaga kodu wzywa pomocy medycznej"
+     ]
+    }
+   },
+   "page": 233
+  }
+ ],
+ "newLessons": [
+  {
+   "lesson": {
+    "id": "L1-x-czesci",
+    "title": "Części jachtu, liny cumownicze i żagiel",
+    "theory": [
+     {
+      "t": "p",
+      "text": "Na egzaminie i na pokładzie komendy padają w żeglarskim języku. Warto znać nazwy części kadłuba, pomieszczeń, lin cumowniczych i elementów żagla."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "**Dziób – śródokręcie – rufa**; część dziobu nad wodą to nawis dziobowy, rufy – nawis rufowy.",
+       "**Pokład** dzieli się na pokład dziobowy (**fordek**) i rufowy (**achterdek**); **kokpit** to wgłębienie w pokładzie dla sternika i załogi.",
+       "**Pomieszczenia**: **forpik** (przedział dziobowy), **mesa** (część mieszkalna), **kambuz** (kuchnia), **kingston** (toaleta), **achterpik** (przedział rufowy).",
+       "**Zęza** – najniższa część wnętrza kadłuba, pod podłogą (gretingiem); zbiera się w niej woda.",
+       "**KLW** (konstrukcyjna linia wodna) dzieli kadłub na część podwodną i nadwodną; **wolna burta** to wysokość burty nad wodą."
+      ]
+     },
+     {
+      "t": "ul",
+      "items": [
+       "**Cuma dziobowa** biegnie z dziobu do przodu, **cuma rufowa** – z rufy do tyłu.",
+       "**Szpring dziobowy** biegnie z dziobu ku rufie, **szpring rufowy** – z rufy ku dziobowi; szpringi ograniczają ruch wzdłuż nabrzeża.",
+       "**Muring** – lina od nabrzeża do obciążnika na dnie; pozwala stać prostopadle do kei."
+      ]
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Krawędzie żagla to **liki**: przedni (przy maszcie lub sztagu), dolny (przy bomie), wolny (tylny), a w żaglu gaflowym także górny.",
+       "Rogi żagla trójkątnego: **fałowy** (górny, do fału), **halsowy** (dolny przedni), **szotowy** (dolny tylny, do szotów).",
+       "**Refbanta** z **remizkami** i **refsejzingami** służy do refowania, czyli zmniejszania powierzchni żagla."
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Szpring nazywasz od miejsca, z którego wychodzi z jachtu: szpring dziobowy wychodzi z dziobu i biegnie do tyłu."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L1-x-c-01",
+      "q": "Jak nazywają się przedziały kadłuba: dziobowy i rufowy, oraz pomieszczenie kuchenne na jachcie?",
+      "a": "Forpik – przedział dziobowy, achterpik – przedział rufowy, kambuz – kuchnia jachtowa.",
+      "explain": "Toaleta to kingston, a środkowe pomieszczenie mieszkalne – mesa.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Forpik – dziobowy, achterpik – rufowy, kambuz – kuchnia",
+       "wrong": [
+        "Achterpik – dziobowy, forpik – rufowy, kingston – kuchnia",
+        "Forpik – dziobowy, kokpit – rufowy, mesa – kuchnia",
+        "Fordek – dziobowy, achterdek – rufowy, kambuz – toaleta"
+       ]
+      }
+     },
+     {
+      "id": "L1-x-c-02",
+      "q": "Co to jest zęza?",
+      "a": "Najniższa część wnętrza kadłuba, między podłogą (gretingiem) a poszyciem dna. Zbiera się w niej woda, którą usuwa się pompą zęzową.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Najniższa przestrzeń kadłuba pod podłogą, gdzie zbiera się woda",
+       "wrong": [
+        "Schowek pod kojami na rzeczy osobiste załogi",
+        "Wgłębienie w pokładzie dla sternika",
+        "Rowek wzdłuż burty odprowadzający wodę z pokładu"
+       ]
+      }
+     },
+     {
+      "id": "L1-x-c-03",
+      "q": "Czym różni się cuma dziobowa od szpringu dziobowego?",
+      "a": "Cuma dziobowa biegnie z dziobu do przodu (na nabrzeże przed jachtem), a szpring dziobowy – z dziobu skośnie do tyłu, w stronę rufy. Szpringi ograniczają przesuwanie się jachtu wzdłuż nabrzeża.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Cuma dziobowa – z dziobu do przodu; szpring dziobowy – z dziobu ku rufie",
+       "wrong": [
+        "Cuma dziobowa – z dziobu ku rufie; szpring dziobowy – z dziobu do przodu",
+        "Szpring dziobowy biegnie z rufy do dziobu, cuma dziobowa – prostopadle do kei",
+        "Nie różnią się – to dwie nazwy tej samej liny"
+       ]
+      }
+     },
+     {
+      "id": "L1-x-c-04",
+      "q": "Co to jest muring?",
+      "a": "Lina, której jeden koniec jest przymocowany do nabrzeża, a drugi do obciążnika zatopionego na dnie. Służy do cumowania jachtu prostopadle do nabrzeża (rufą lub dziobem do kei).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Lina od nabrzeża do obciążnika na dnie – do cumowania prostopadle do kei",
+       "wrong": [
+        "Lina z ciężarkiem do rzucania na ląd",
+        "Sprężyna zakładana na cumę, by tłumić szarpanie",
+        "Lina biegnąca z rufy jachtu w kierunku dziobu"
+       ]
+      }
+     },
+     {
+      "id": "L1-x-c-05",
+      "q": "Jak nazywają się rogi i liki trójkątnego żagla (grota)?",
+      "a": "Rogi: fałowy (górny), halsowy (dolny przedni, przy maszcie) i szotowy (dolny tylny). Liki: przedni (przy maszcie), dolny (przy bomie) i wolny (tylny).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Rogi: fałowy, halsowy, szotowy; liki: przedni, dolny, wolny",
+       "wrong": [
+        "Rogi: dziobowy, rufowy, masztowy; liki: górny, dolny, boczny",
+        "Rogi: fałowy, szotowy, pikowy; liki: nawietrzny, zawietrzny, dolny",
+        "Rogi: halsowy, refowy, bomowy; liki: przedni, tylny, środkowy"
+       ]
+      }
+     },
+     {
+      "id": "L1-x-c-06",
+      "q": "Co to jest KLW i wolna burta?",
+      "a": "KLW – konstrukcyjna linia wodna, do której kadłub zanurza się przy normalnym obciążeniu; dzieli go na część podwodną i nadwodną. Wolna burta – wysokość burty od linii wodnej do pokładu.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "KLW – linia wodna dzieląca kadłub na część pod- i nadwodną; wolna burta – burta nad wodą",
+       "wrong": [
+        "KLW – długość kadłuba z bukszprytem; wolna burta – burta zawietrzna",
+        "KLW – linia kil–top masztu; wolna burta – burta bez relingu",
+        "KLW – maksymalne zanurzenie z mieczem; wolna burta – burta nawietrzna"
+       ]
+      }
+     }
+    ]
+   },
+   "pages": "29–33, 43–46"
+  }
+ ],
+ "notes": "Sprawdzono wszystkie karty bez „gen” i bloki teorii poziomu 1 z podręcznikiem: kursy i halsy (s. 72–74 PDF), kąt kursowy/namiar burtowy/trawers (s. 157–159), jednostki (s. 143: 1 Mm = 1852 m, 1 kbl = 185,2 m), skala Beauforta (tab. 7.1, s. 198) i Douglasa (s. 199), flagi MKS (tab. 8.2, s. 232–234) i alfabet fonetyczny (tab. 8.3, s. 239). Znaczenia flag A–Z, NC, kolory i skojarzenia są zgodne; R bez znaczenia jako sygnał jednoliterowy – zgodnie z uwagą 3. Podręcznik pisze „Międzynarodowy Kod Sygnałowy” – nasze „Kodeks” to równoważna, spotykana nazwa (skrót MKS ten sam), nie zmieniano. Podręcznik pisze „Juliet”, a obowiązująca pisownia ITU/MKS to „Juliett” – nasza karta jest poprawna. W tabeli Beauforta podręcznik podaje dla 12°B 64–71 w (stara rozszerzona skala); nasze „≥ 64” jest zgodne z obecną skalą WMO. Fix Beauforta dotyczy komórki tabeli w theory (wiersz 5°B) – „dość silny” występuje w pliku tylko raz. OCR tabel (flagi s. 233, alfabet s. 239) jest bardzo zaszumiony – znaczenia sprawdzono na podstawie czytelnych fragmentów. Poza zakresem: w level-7 karta L7-j-02 odróżnia kecz od jola położeniem bezanmasztu względem osi steru, a podręcznik (s. 46/49) – względem tylnego skraju KLW; warto sprawdzić przy przeglądzie poziomu 7."
+}

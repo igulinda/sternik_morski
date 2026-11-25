@@ -146,7 +146,7 @@
    ]
   },
   "L2-u-09": {
-   "correct": "Mechaniczny → żaglowiec → zajęty połowem → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
+   "correct": "Mechaniczny → żaglowy → zajęty połowem → o ograniczonej zdolności manewrowej i nieodpowiadający za swoje ruchy",
    "wrong": [
     "Żaglowiec → mechaniczny → zajęty połowem → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
     "Mechaniczny → zajęty połowem → żaglowiec → o ograniczonej zdolności manewrowej i niezdolny do manewrowania.",
@@ -447,6 +447,126 @@
     "Zostawić go po lewej burcie – przejść na wschód od znaku.",
     "Zostawić go po lewej burcie – przejść na zachód od znaku.",
     "Dowolną burtą – znak kardynalny można minąć z każdej strony."
+   ]
+  },
+  "L2-x-01": {
+   "correct": "Przepisów miejscowych – na swoim akwenie mają pierwszeństwo",
+   "wrong": [
+    "Zawsze MPZZ – przepisy lokalne są tylko zaleceniem",
+    "Tych, które są korzystniejsze dla Twojego jachtu",
+    "MPZZ w dzień, przepisów miejscowych w nocy"
+   ]
+  },
+  "L2-x-02": {
+   "correct": "Statek, który z wyjątkowych przyczyn (np. awaria) nie może manewrować wg prawideł",
+   "wrong": [
+    "Statek stojący na kotwicy lub przycumowany",
+    "Statek, którego manewrowość ogranicza rodzaj wykonywanej pracy",
+    "Statek, którego kapitan nie ma uprawnień do jego prowadzenia"
+   ]
+  },
+  "L2-x-03": {
+   "correct": "Statek, któremu wykonywana praca ogranicza manewrowanie, np. kablowiec, pogłębiarka",
+   "wrong": [
+    "Statek z awarią steru lub silnika",
+    "Statek łowiący sieciami lub włokiem",
+    "Każdy statek o długości powyżej 200 m"
+   ]
+  },
+  "L2-x-04": {
+   "correct": "Statek mechaniczny, który przez zanurzenie wobec głębokości akwenu nie może zejść z kursu",
+   "wrong": [
+    "Każdy statek na torze wodnym o głębokości poniżej 10 m",
+    "Jacht balastowy płynący po płyciźnie",
+    "Statek siedzący częściowo na mieliźnie"
+   ]
+  },
+  "L2-x-05": {
+   "correct": "Gdy jeden może być obserwowany wzrokowo z drugiego",
+   "wrong": [
+    "Gdy widzą się nawzajem na radarze lub w AIS",
+    "Gdy są w zasięgu łączności VHF",
+    "Gdy odległość między nimi jest mniejsza niż 3 Mm"
+   ]
+  },
+  "L2-x-06": {
+   "correct": "Nie – przy dużym statku, holu lub na małej odległości ryzyko może istnieć",
+   "wrong": [
+    "Tak – zmieniający się namiar zawsze wyklucza ryzyko",
+    "Tak, jeśli zmiana namiaru przekracza 1° na minutę",
+    "Nie, ale tylko w ograniczonej widzialności"
+   ]
+  },
+  "L2-x-07": {
+   "correct": "Nie, jeśli przecięcie przeszkadza statkowi związanemu z torem",
+   "wrong": [
+    "Tak – jacht żaglowy zawsze ma pierwszeństwo",
+    "Tak, jeśli przetnie się tor pod kątem prostym",
+    "Tak, po nadaniu jednego długiego sygnału"
+   ]
+  },
+  "L2-x-08": {
+   "correct": "W wąskim przejściu oraz w TSS i w pobliżu jego końców",
+   "wrong": [
+    "Tylko na kotwicowiskach oznaczonych na mapie",
+    "W strefie ruchu przybrzeżnego",
+    "W odległości mniejszej niż 1 Mm od brzegu"
+   ]
+  },
+  "L2-x-09": {
+   "correct": "Zwykle na końcach toru, z boku – pod możliwie małym kątem",
+   "wrong": [
+    "Zawsze pod kątem prostym do kierunku ruchu",
+    "W dowolnym miejscu, po nadaniu sygnału dźwiękowego",
+    "Tylko przez strefę rozgraniczającą"
+   ]
+  },
+  "L2-x-10": {
+   "correct": "Statki < 20 m, statki żaglowe i statki zajęte połowem",
+   "wrong": [
+    "Tylko statki o napędzie mechanicznym idące do portu",
+    "Tylko statki ograniczone swym zanurzeniem",
+    "Wszystkie statki w ruchu tranzytowym"
+   ]
+  },
+  "L2-x-11": {
+   "correct": "Przy przecinaniu/wejściu/wyjściu, w nagłym wypadku lub przy połowie w tej strefie",
+   "wrong": [
+    "W każdej chwili – to strefa dla małych jednostek",
+    "Nigdy, nawet w nagłym wypadku",
+    "Tylko za zgodą stacji VTS przez radio"
+   ]
+  },
+  "L2-x-12": {
+   "correct": "Zmiany kursu w lewo, w stronę ustępującego statku",
+   "wrong": [
+    "Zmiany kursu w prawo",
+    "Zmniejszenia prędkości",
+    "Nadania pięciu krótkich sygnałów"
+   ]
+  },
+  "L2-x-13": {
+   "correct": "Burta przeciwna do tej, po której niesiony jest grot",
+   "wrong": [
+    "Burta, po której niesiony jest grot",
+    "Zawsze prawa burta jachtu",
+    "Burta, z której widać chorągiewkę na topie"
+   ]
+  },
+  "L2-x-14": {
+   "correct": "Tylko takie, których nie da się pomylić ze światłami MPZZ i nie utrudniają obserwacji",
+   "wrong": [
+    "Żadnych – wszystkie inne światła są zakazane",
+    "Dowolne, byle nie czerwone ani zielone",
+    "Dowolne, jeśli statek ma mniej niż 12 m"
+   ]
+  },
+  "L2-x-15": {
+   "correct": "Nie, jeśli kotwiczy z dala od torów, kotwicowisk i miejsc ruchu statków",
+   "wrong": [
+    "Tak, zawsze i wszędzie",
+    "Nie, jacht < 7 m nigdy nie pokazuje świateł",
+    "Tylko kulę w dzień, w nocy nic"
    ]
   }
  }

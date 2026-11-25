@@ -114,11 +114,11 @@
    ]
   },
   "L4-k-05": {
-   "correct": "KM = KK + δ; KR = KM + d; KR = KK + Δ, gdzie Δ = δ + d.",
+   "correct": "KM = KK + δ; KR = KM + d; KR = KK + cp, gdzie cp = δ + d.",
    "wrong": [
-    "KM = KK + d; KR = KM + δ; KR = KK + Δ, gdzie Δ = δ + d.",
-    "KM = KK − δ; KR = KM − d; KR = KK − Δ, gdzie Δ = δ + d.",
-    "KM = KR + δ; KK = KM + d; KK = KR + Δ, gdzie Δ = δ + d."
+    "KM = KK + d; KR = KM + δ; KR = KK + cp, gdzie cp = δ + d.",
+    "KM = KK − δ; KR = KM − d; KR = KK − cp, gdzie cp = δ + d.",
+    "KM = KR + δ; KK = KM + d; KK = KR + cp, gdzie cp = δ + d."
    ]
   },
   "L4-k-06": {
@@ -170,23 +170,23 @@
    ]
   },
   "L4-z-05": {
-   "correct": "Dryf – znoszenie przez wiatr (kąt α); znos – przesunięcie przez prąd (kąt β).",
+   "correct": "Dryf – znoszenie przez wiatr (pw); znos – przesunięcie przez prąd (pp).",
    "wrong": [
-    "Dryf – przesunięcie przez prąd (kąt β); znos – znoszenie przez wiatr (kąt α).",
+    "Dryf – przesunięcie przez prąd (pp); znos – znoszenie przez wiatr (pw).",
     "Dryf i znos to to samo – znoszenie przez wiatr, różnie nazywane.",
     "Dryf – błąd kompasu (dewiacja); znos – przesunięcie przez prąd."
    ]
   },
   "L4-z-06": {
-   "correct": "„+” – jacht jest znoszony w prawo, KDw = KR + α.",
+   "correct": "„+” – jacht jest znoszony w prawo, KDw = KR + pw.",
    "wrong": [
-    "„−” – jacht jest znoszony w lewo, KDw = KR − α.",
-    "„−” – jacht jest znoszony w prawo, KDw = KR − α.",
-    "„+” – jacht jest znoszony w lewo, KDw = KR + α."
+    "„−” – jacht jest znoszony w lewo, KDw = KR − pw.",
+    "„−” – jacht jest znoszony w prawo, KDw = KR − pw.",
+    "„+” – jacht jest znoszony w lewo, KDw = KR + pw."
    ]
   },
   "L4-z-07": {
-   "correct": "Pozycja zliczona z uwzględnieniem dryfu i prądu (znosu).",
+   "correct": "Przecięcie jednej linii pozycyjnej z linią drogi nad dnem (KDd)",
    "wrong": [
     "Pozycja wyznaczona z dwóch namiarów nierównoczesnych.",
     "Pozycja zliczona bez uwzględniania dryfu i prądu.",
@@ -298,7 +298,7 @@
    ]
   },
   "L4-l-04": {
-   "correct": "W publikacji INT 1 (Admiralty Chart 5011) – „Symbole i skróty na mapach morskich”.",
+   "correct": "W publikacji BHMW nr 551 (znaki i skróty) / INT 1 (Chart 5011)",
    "wrong": [
     "W spisie świateł i sygnałów nawigacyjnych (Admiralty List of Lights).",
     "W Wiadomościach Żeglarskich (Notices to Mariners).",
@@ -495,6 +495,126 @@
     "Wiatr rzeczywisty mierzony na stojącym jachcie lub na lądzie.",
     "Wiatr podawany w prognozie pogody dla danego akwenu.",
     "Różnica między prędkością wiatru w porywach a średnią prędkością wiatru."
+   ]
+  },
+  "L4-x-01": {
+   "correct": "1 kbl = 0,1 Mm = 185,2 m; 1 węzeł = 1 Mm/h",
+   "wrong": [
+    "1 kbl = 0,01 Mm = 18,5 m; 1 węzeł = 1 km/h",
+    "1 kbl = 1/8 Mm = 231,5 m; 1 węzeł = 1 Mm/min",
+    "1 kbl = 100 m; 1 węzeł = 1,852 Mm/h"
+   ]
+  },
+  "L4-x-02": {
+   "correct": "PZ: kreska na linii drogi + ułamek czas/log; PO: kółko z czasem i logiem",
+   "wrong": [
+    "PZ: kółko z opisem KK; PO: krzyżyk z prędkością",
+    "PZ: trójkąt z czasem; PO: kwadrat ze stanem logu",
+    "PZ: kółko + ułamek log/czas; PO: kreska na linii drogi"
+   ]
+  },
+  "L4-x-03": {
+   "correct": "Ok. 5% drogi przebytej od ostatniej pozycji obserwowanej",
+   "wrong": [
+    "Stały błąd ok. 0,5 Mm niezależnie od drogi",
+    "Ok. 1% prędkości jachtu na każdą godzinę",
+    "Ok. 20% drogi przebytej od portu wyjścia"
+   ]
+  },
+  "L4-x-04": {
+   "correct": "Łączysz PZ z PO „wężykiem” i dalej liczysz od PO",
+   "wrong": [
+    "Przyjmujesz średnią z PZ i PO jako nową pozycję",
+    "Ignorujesz PO i kontynuujesz zliczenie od PZ",
+    "Wycierasz całą dotychczasową drogę i zaczynasz od portu"
+   ]
+  },
+  "L4-x-05": {
+   "correct": "Bierne: liczysz, dokąd zniesie jacht; czynne: dobierasz KR, by trzymać linię do celu",
+   "wrong": [
+    "Bierne: dobierasz KR do celu; czynne: liczysz, dokąd zniesie jacht",
+    "Bierne: tylko na silniku; czynne: tylko pod żaglami",
+    "Bierne: uwzględnia tylko wiatr; czynne: tylko prąd pływowy"
+   ]
+  },
+  "L4-x-06": {
+   "correct": "Kąt od dziobu w prawo do obiektu; NR = KR + kąt kursowy",
+   "wrong": [
+    "Kąt od N rzeczywistej do obiektu; NR = KK − kąt kursowy",
+    "Kąt od rufy w lewo do obiektu; NR = KR − kąt kursowy",
+    "Kąt między KR a KK; NR = kąt kursowy + cp"
+   ]
+  },
+  "L4-x-07": {
+   "correct": "Nie, poza latarniowcami i superpławami – tylko obiekty stałe",
+   "wrong": [
+    "Tak, każda pława z mapy jest równie dobra jak latarnia",
+    "Tak, ale tylko pławy kardynalne",
+    "Tylko w dzień – w nocy wyłącznie pławy świetlne"
+   ]
+  },
+  "L4-x-08": {
+   "correct": "Min. raz na wachtę, blisko niebezpieczeństw – przy każdej okazji",
+   "wrong": [
+    "Raz na dobę, w południe",
+    "Tylko przy wejściu do portu",
+    "Tylko gdy GPS przestanie działać"
+   ]
+  },
+  "L4-x-09": {
+   "correct": "Środkiem sektora, z dala od jego granic",
+   "wrong": [
+    "Przy granicy sektora od strony lądu",
+    "Przy granicy sektora od strony morza",
+    "Dowolnie – sektor ma ostre granice"
+   ]
+  },
+  "L4-x-10": {
+   "correct": "Namiary rzeczywiste od strony morza (od obserwatora), zgodnie z zegarem",
+   "wrong": [
+    "Namiary magnetyczne od latarni w stronę morza",
+    "Namiary rzeczywiste od latarni, przeciwnie do zegara",
+    "Kąty kursowe względem osi toru wodnego"
+   ]
+  },
+  "L4-x-11": {
+   "correct": "Prąd przybrzeżny w poprzek wejścia; w sztormie od morza – przeczekać na morzu",
+   "wrong": [
+    "Silny prąd pływowy wzdłuż osi toru; wchodzić tylko przy LW",
+    "Brak prądów; w sztormie wchodzić jak najszybciej",
+    "Prąd z rzeki od portu; wchodzić zawsze pod żaglami"
+   ]
+  },
+  "L4-x-12": {
+   "correct": "Półdobowe, dobowe i mieszane",
+   "wrong": [
+    "Syzygijne, kwadraturowe i równonocne",
+    "Przybrzeżne, oceaniczne i rzeczne",
+    "Wiatrowe, ciśnieniowe i księżycowe"
+   ]
+  },
+  "L4-x-13": {
+   "correct": "Porównujesz skok HW−LW ze średnimi skokami Springs/Neaps przy krzywej pływu",
+   "wrong": [
+    "Sprawdzasz, czy HW wypada przed czy po północy",
+    "Porównujesz wysokość LW z głębokością na mapie",
+    "Odczytujesz literę z rombu prądowego na mapie"
+   ]
+  },
+  "L4-x-14": {
+   "correct": "Na strefę czasową w nagłówku i ewentualną poprawkę na czas letni",
+   "wrong": [
+    "Na fazę Księżyca podaną przy każdej godzinie",
+    "Na deklinację magnetyczną portu",
+    "Tablice zawsze podają czas lokalny – nic nie trzeba poprawiać"
+   ]
+  },
+  "L4-x-15": {
+   "correct": "Do N rzeczywistej (COG = KDd); WPT obok znaków, nie na nich",
+   "wrong": [
+    "Do N magnetycznej (COG = KM); WPT dokładnie na pławach",
+    "Do N kompasowej (COG = KK); WPT na środku główek",
+    "Do N rzeczywistej (COG = KR); WPT zawsze na latarniach"
    ]
   }
  }

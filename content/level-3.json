@@ -35,7 +35,7 @@
       ],
       [
        "czerwone, czerwone",
-       "niezdolny do manewrowania",
+       "nieodpowiadający za swoje ruchy (niezdolny do manewrowania)",
        "„czerwone nad czerwonym – kapitan nie panuje”"
       ],
       [
@@ -214,7 +214,7 @@
        "r"
       ]
      },
-     "a": "Statek niezdolny do manewrowania, mający ruch po wodzie (widziany z lewej burty).",
+     "a": "Statek nieodpowiadający za swoje ruchy (niezdolny do manewrowania), mający ruch po wodzie (widziany z lewej burty).",
      "aVisual": {
       "kind": "lights",
       "view": "port",
@@ -247,7 +247,7 @@
        "r"
       ]
      },
-     "a": "Statek niezdolny do manewrowania, bez ruchu po wodzie.",
+     "a": "Statek nieodpowiadający za swoje ruchy (niezdolny do manewrowania), bez ruchu po wodzie.",
      "aVisual": {
       "kind": "lights",
       "view": "bow",
@@ -609,6 +609,21 @@
      "a": "Dodatkowym białym światłem dookoła (nocą) lub stożkiem wierzchołkiem w górę (w dzień) w kierunku narzędzi połowowych.",
      "source": "MPZZ, prawidło 26(c)",
      "difficulty": 3
+    },
+    {
+     "id": "L3-x-01",
+     "q": "Jakie dodatkowe światło pokazuje poduszkowiec w stanie bezwypornościowym?",
+     "a": "Oprócz świateł statku mechanicznego w drodze – żółte światło błyskowe widoczne dookoła widnokręgu (≥ 120 błysków/min).",
+     "source": "MPZZ, prawidło 23(b)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-x-02",
+     "q": "Jakie dodatkowe światła może pokazywać na topie masztu żaglowiec w drodze?",
+     "a": "Dwa światła widoczne dookoła widnokręgu w linii pionowej: górne czerwone, dolne zielone. Nie wolno ich łączyć z latarnią trójkolorową (kombinowaną) na topie.",
+     "tip": "„Czerwone nad zielonym – żeglarz na szczycie”.",
+     "source": "MPZZ, prawidło 25(c)",
+     "difficulty": 2
     }
    ]
   },
@@ -645,7 +660,7 @@
       ],
       [
        "2 kule",
-       "niezdolny do manewrowania",
+       "nieodpowiadający za swoje ruchy (niezdolny do manewrowania)",
        "2 czerwone"
       ],
       [
@@ -725,7 +740,7 @@
       ],
       "vessel": "power"
      },
-     "a": "Statek niezdolny do manewrowania.",
+     "a": "Statek nieodpowiadający za swoje ruchy (niezdolny do manewrowania).",
      "source": "MPZZ, prawidło 27(a)",
      "difficulty": 1
     },
@@ -1174,6 +1189,35 @@
      },
      "source": "MPZZ, prawidło 35(k)",
      "difficulty": 3
+    },
+    {
+     "id": "L3-x-03",
+     "q": "Statek na kotwicy we mgle widzi, że zbliża się do niego inny statek. Jaki sygnał może dodatkowo nadać?",
+     "a": "Gwizdkiem: krótki – długi – krótki (· – ·), aby ostrzec o swojej pozycji i możliwości zderzenia.",
+     "tip": "· – · to litera R w alfabecie Morse'a.",
+     "source": "MPZZ, prawidło 35(g)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-x-04",
+     "q": "Jak wyglądają świetlne sygnały manewrowe, którymi statek może uzupełnić sygnały gwizdkiem?",
+     "a": "Białe światło widoczne dookoła: błyski ok. 1 s z przerwami ok. 1 s; 1 błysk – zmieniam kurs w prawo, 2 – w lewo, 3 – pracuję wstecz. Odstęp między kolejnymi sygnałami co najmniej 10 s.",
+     "source": "MPZZ, prawidło 34(b)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-x-05",
+     "q": "Jaki sygnał mgłowy daje statek rybacki zajęty połowem stojący na kotwicy?",
+     "a": "Taki jak w drodze: 1 długi + 2 krótkie co ≤ 2 min (zamiast dzwonienia statku na kotwicy). Tak samo statek o ograniczonej zdolności manewrowej wykonujący pracę na kotwicy.",
+     "source": "MPZZ, prawidło 35(c)",
+     "difficulty": 3
+    },
+    {
+     "id": "L3-x-06",
+     "q": "W jakie przyrządy do sygnałów dźwiękowych musi być wyposażony statek ≥ 12 m, a w jakie ≥ 100 m?",
+     "a": "Statek ≥ 12 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong (o tonie niemylącym się z dzwonem). Jednostka < 12 m musi mieć przynajmniej inny środek do nadawania donośnego sygnału dźwiękowego.",
+     "source": "MPZZ, prawidło 33",
+     "difficulty": 2
     }
    ]
   },
@@ -1290,6 +1334,13 @@
      "q": "Czy biała rakieta jest sygnałem wzywania pomocy?",
      "a": "Nie – sygnałem pomocy są czerwone gwiazdy/rakiety i czerwone pochodnie. Białe rakiety służą np. do oświetlenia lub zwrócenia uwagi.",
      "difficulty": 2
+    },
+    {
+     "id": "L3-x-07",
+     "q": "Jakie sygnały ułatwiają lotnictwu ratowniczemu odnalezienie rozbitków (Załącznik IV MPZZ, uzupełnienie)?",
+     "a": "Pomarańczowe płótno z czarnym kwadratem i kołem (lub innym symbolem) – do identyfikacji z powietrza – oraz barwny znacznik rozlewany na wodzie.",
+     "source": "MPZZ, Załącznik IV, pkt 3",
+     "difficulty": 3
     }
    ]
   },
@@ -1321,18 +1372,18 @@
       ],
       [
        "LFl",
-       "długobłyskowe",
+       "blaskowe (długobłyskowe)",
        "błysk trwający co najmniej 2 s"
       ],
       [
        "Q",
        "szybkobłyskowe",
-       "50–60 błysków na minutę"
+       "„migające”: od 50 do mniej niż 80 błysków/min (zwykle 50 lub 60)"
       ],
       [
        "VQ",
-       "bardzo szybkobłyskowe",
-       "100–120 błysków na minutę"
+       "szybko migające (bardzo szybkobłyskowe)",
+       "co najmniej 80 błysków/min (zwykle 100 lub 120)"
       ],
       [
        "Iso",
@@ -1346,7 +1397,7 @@
       ],
       [
        "Al",
-       "zmienne",
+       "zmiennobarwne (zmienne)",
        "zmienia kolor, np. Al.WR"
       ],
       [
@@ -1431,7 +1482,7 @@
       "color": "w",
       "showCode": false
      },
-     "a": "Q – szybkobłyskowe (50–60 błysków/min).",
+     "a": "Q – migające (szybkobłyskowe): od 50 do mniej niż 80 błysków/min, zwykle 50 lub 60.",
      "difficulty": 2
     },
     {
@@ -1443,7 +1494,7 @@
       "color": "w",
       "showCode": false
      },
-     "a": "LFl – długobłyskowe (błysk ≥ 2 s), tu LFl 10s.",
+     "a": "LFl – blaskowe (długobłyskowe; blask trwa ≥ 2 s), tu LFl 10s.",
      "tip": "LFl 10s to jedna z charakterystyk znaku bezpiecznej wody.",
      "difficulty": 2
     },
@@ -1481,7 +1532,7 @@
     {
      "id": "L3-c-09",
      "q": "Co oznacza skrót „Al” w charakterystyce światła?",
-     "a": "Światło zmienne – zmienia kolor (np. Al.WR – na przemian białe i czerwone).",
+     "a": "Światło zmiennobarwne (zmienne) – zmienia kolor (np. Al.WR – na przemian białe i czerwone).",
      "difficulty": 2
     },
     {
@@ -1501,6 +1552,13 @@
      "q": "Co to jest sektor światła i co zwykle oznacza sektor biały?",
      "a": "Wycinek horyzontu, w którym światło ma określony kolor. Sektor biały zwykle wskazuje bezpieczny kierunek podejścia; czerwony i zielony – jego granice / niebezpieczeństwa.",
      "difficulty": 2
+    },
+    {
+     "id": "L3-x-09",
+     "q": "W jaki sposób podaje się w spisie świateł granice sektorów światła sektorowego?",
+     "a": "W namiarach od strony morza na światło – tak, jak widzi je żeglarz. Nieruchomy obserwator widzi światło sektorowe w jednym kolorze (w odróżnieniu od światła zmiennobarwnego Al).",
+     "source": "Spis świateł",
+     "difficulty": 3
     }
    ]
   },
@@ -1510,7 +1568,7 @@
    "theory": [
     {
      "t": "p",
-     "text": "Oprócz znaków bocznych i kardynalnych system IALA ma znaki: odosobnionego niebezpieczeństwa, bezpiecznej wody, specjalne, nowego niebezpieczeństwa (wraku) oraz zmodyfikowane znaki boczne (kanał preferowany)."
+     "text": "Oprócz znaków bocznych i kardynalnych system IALA ma znaki: odosobnionego niebezpieczeństwa, bezpiecznej wody, specjalne, oznakowanie nowego niebezpieczeństwa oraz tymczasowa pława wrakowa oraz zmodyfikowane znaki boczne (kanał preferowany)."
     },
     {
      "t": "visual",
@@ -1542,7 +1600,7 @@
       "kind": "buoy",
       "type": "wreck"
      },
-     "caption": "Nowe niebezpieczeństwo / wrak: pionowe pasy niebiesko-żółte, żółty krzyż prosty, światło na zmianę niebieskie i żółte."
+     "caption": "Tymczasowa (awaryjna) pława wrakowa: pionowe pasy niebiesko-żółte, żółty krzyż prosty, światło na zmianę niebieskie i żółte."
     },
     {
      "t": "p",
@@ -1591,7 +1649,7 @@
       "kind": "buoy",
       "type": "wreck"
      },
-     "a": "Znak nowego niebezpieczeństwa (awaryjne oznakowanie wraku) – niebezpieczeństwo jeszcze nieopisane w publikacjach nautycznych.",
+     "a": "Tymczasowa (awaryjna) pława wrakowa – oznacza nowy wrak, jeszcze nieopisany w publikacjach nautycznych; stawiana jak najbliżej wraku, pojedynczo lub w grupie.",
      "difficulty": 2
     },
     {
@@ -1659,8 +1717,110 @@
     {
      "id": "L3-i-12",
      "q": "Nocą widzisz na przemian niebieskie i żółte światło. Co to oznacza?",
-     "a": "Znak nowego niebezpieczeństwa (np. świeży wrak) – omijać zgodnie ze znakami, zachować szczególną ostrożność.",
+     "a": "Tymczasowa pława wrakowa (nowy, jeszcze nieopisany wrak) – omijać zgodnie ze znakami, zachować szczególną ostrożność.",
      "difficulty": 2
+    },
+    {
+     "id": "L3-x-08",
+     "q": "Jak według podręcznika oznacza się nowo wykryte niebezpieczeństwo (jeszcze nieogłoszone w „Wiadomościach Żeglarskich”)?",
+     "a": "Zwykłymi znakami (bocznymi lub kardynalnymi), z których co najmniej jeden dubluje się – znak dublujący jest identyczny we wszystkich szczegółach. Po ogłoszeniu informacji dublujący znak można zdjąć.",
+     "explain": "Pławę w niebiesko-żółte pionowe pasy podręcznik opisuje osobno – jako tymczasową pławę wrakową.",
+     "source": "System IALA",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "id": "L3-x-pirotechnika",
+   "title": "Pirotechnika sygnałowa na jachcie",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Środki pirotechniczne to ostatnia, ale bardzo skuteczna metoda wezwania pomocy – używa się ich, gdy radio zawodzi albo trzeba wskazać dokładne miejsce. Muszą być suche, sprawne i ważne (data przydatności!), trzymane w szczelnym, łatwo dostępnym miejscu."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Środek",
+      "Kiedy",
+      "Najważniejsze"
+     ],
+     "rows": [
+      [
+       "rakieta czerwona (1–2 gwiazdy)",
+       "noc/dzień, z daleka",
+       "strzelaj dwie w krótkim odstępie"
+      ],
+      [
+       "rakieta spadochronowa",
+       "noc, duża odległość",
+       "ok. 300 m, gwiazda opada na spadochronie"
+      ],
+      [
+       "pochodnia ręczna",
+       "bliska odległość, naprowadzanie",
+       "czerwony płomień ≥ 60 s, trzymaj od zawietrznej"
+      ],
+      [
+       "pławka dymna pomarańczowa",
+       "dzień, naprowadzanie z powietrza",
+       "wrzuć do wody od zawietrznej"
+      ],
+      [
+       "petarda morska",
+       "sygnał dźwiękowy",
+       "wybuchy co ok. 1 min = niebezpieczeństwo"
+      ]
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Kolory pomocy: czerwony ogień i pomarańczowy dym. Przed rejsem przeczytaj instrukcję na każdym środku – każdy producent ma trochę inny zapalnik."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L3-x-pir-01",
+     "q": "Jakie środki pirotechniczne najczęściej znajdują się na jachcie morskim?",
+     "a": "Rakiety jedno- i dwugwiazdkowe (czerwone), rakiety spadochronowe, pochodnie ręczne (czerwone), pomarańczowe pławki dymne (lub świetlno-dymne) oraz petarda morska.",
+     "source": "Podręcznik, rozdz. 8.2",
+     "difficulty": 1
+    },
+    {
+     "id": "L3-x-pir-02",
+     "q": "Jak długo pali się i jakim płomieniem morska pochodnia ręczna?",
+     "a": "Jaskrawoczerwonym płomieniem, co najmniej 60 s; nie gaśnie po krótkim zanurzeniu w wodzie. Trzyma się ją za burtą od strony zawietrznej, by żużel i dym nie leciały na jacht.",
+     "source": "Podręcznik, rozdz. 8.2",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-x-pir-03",
+     "q": "Kiedy używa się pomarańczowej pławki dymnej i jak ją odpalić?",
+     "a": "W dzień – do zwrócenia uwagi statków i samolotów oraz oznaczenia miejsca akcji. Po uruchomieniu wrzuca się ją do wody od strony zawietrznej; dymi kilka minut (wg podręcznika ok. 4 min).",
+     "source": "Podręcznik, rozdz. 8.2",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-x-pir-04",
+     "q": "Dlaczego rakiety sygnałowe wystrzeliwuje się dwie, w krótkim odstępie czasu?",
+     "a": "Pierwsza zwraca uwagę obserwatora, druga pozwala mu ustalić kierunek i miejsce wystrzelenia. Rakiety używaj tylko w uzasadnionym przypadku.",
+     "source": "Podręcznik, rozdz. 8.2",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-x-pir-05",
+     "q": "Na jaką wysokość wznosi się rakieta spadochronowa i do czego służy?",
+     "a": "Do ok. 300 m; czerwona gwiazda opada powoli na spadochronie, więc jest widoczna z dużej odległości. Służy do wzywania pomocy i zwrócenia uwagi podczas akcji poszukiwawczej; odpala się ją z ręki, korpus jest wyrzutnią.",
+     "tip": "Nie odpalaj rakiet, gdy nad Tobą jest już śmigłowiec – użyj pochodni lub dymu.",
+     "source": "Podręcznik, rozdz. 8.2",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-x-pir-06",
+     "q": "Do czego służy petarda morska i jak ją wykorzystać jako sygnał niebezpieczeństwa?",
+     "a": "To sygnał dźwiękowy (wybuch) – wybuchy powtarzane co ok. 1 minutę oznaczają niebezpieczeństwo (Załącznik IV MPZZ). Detonacja następuje kilka sekund po odpaleniu zapalnika, huk słychać na kilka mil.",
+     "source": "MPZZ, Załącznik IV; podręcznik, rozdz. 8.2",
+     "difficulty": 3
     }
    ]
   }

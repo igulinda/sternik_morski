@@ -648,6 +648,134 @@
     "Tak – zawsze, nawet z poważnym narażeniem własnej jednostki i załogi.",
     "Tylko wtedy, gdy w niebezpieczeństwie jest jednostka pod polską banderą."
    ]
+  },
+  "L6-x-01": {
+   "correct": "25 W; redukcja do 1 W w porcie, na redzie i na bliskie odległości",
+   "wrong": [
+    "5 W; redukcja do 0,5 W tylko w niebezpieczeństwie",
+    "50 W; redukcja do 10 W na pełnym morzu",
+    "25 W; redukcja do 1 W przy nadawaniu MAYDAY"
+   ]
+  },
+  "L6-x-02": {
+   "correct": "Wyłączyć blokadę szumów (squelch) i ustawić pełną moc nadajnika",
+   "wrong": [
+    "Włączyć blokadę szumów na maksimum i moc 1 W",
+    "Włączyć skanowanie wszystkich kanałów i moc 1 W",
+    "Włączyć podwójny nasłuch i zredukować moc"
+   ]
+  },
+  "L6-x-03": {
+   "correct": "Kropki zamieniają się w łuki (ok. 1 Mm), a z bliska w koła",
+   "wrong": [
+    "Kropki zamieniają się w jedną dużą plamę echa",
+    "Linia kropek znika całkowicie poniżej 5 Mm",
+    "Kropki zmieniają kolor na czerwony"
+   ]
+  },
+  "L6-x-04": {
+   "correct": "Pionowa tyczka z flagą i światłem oznaczająca miejsce wypadnięcia człowieka",
+   "wrong": [
+    "Drąg do odpychania jachtu od nabrzeża przy cumowaniu",
+    "Maszt awaryjny stawiany po złamaniu masztu",
+    "Bosak do wyciągania rozbitka z wody"
+   ]
+  },
+  "L6-x-05": {
+   "correct": "Najlepiej wprost z pokładu; skok pojedynczo, nie na środek; z wody po drabince",
+   "wrong": [
+    "Najpierw zawsze skok do wody, potem wejście po drabince",
+    "Skakać wszyscy razem na środek dna tratwy",
+    "Wchodzić dopiero po odcięciu linki operacyjnej od jachtu"
+   ]
+  },
+  "L6-x-06": {
+   "correct": "Odcina linkę, odpływa, wyrzuca dryfkotwę, wystawia obserwatora, racjonuje wodę",
+   "wrong": [
+    "Pozostaje przywiązana do jachtu aż do jego zatonięcia",
+    "Od razu odpala całą pirotechnikę, by zwrócić uwagę",
+    "Wiosłuje w stronę najbliższego lądu pod wiatr"
+   ]
+  },
+  "L6-x-07": {
+   "correct": "Dziób – kurs pełny, śródokręcie – półwiatr, rufa – kurs ostry",
+   "wrong": [
+    "Dziób – kurs ostry, śródokręcie – półwiatr, rufa – kurs pełny",
+    "Zawsze kurs ostry, niezależnie od miejsca pożaru",
+    "Dziób – półwiatr, śródokręcie – fordewind, rufa – baksztag"
+   ]
+  },
+  "L6-x-08": {
+   "correct": "Masztem w stronę lądu, dnem do nadchodzącej fali",
+   "wrong": [
+    "Masztem w stronę morza, pokładem do fali",
+    "Rufą do brzegu, dziobem do fali",
+    "Dziobem na brzeg, z postawionymi żaglami"
+   ]
+  },
+  "L6-x-09": {
+   "correct": "Kark, piersi, boki i pachwiny – chroni je pozycja HELP",
+   "wrong": [
+    "Dłonie i stopy – chroni je energiczne pływanie",
+    "Głowa i ramiona – chroni je zdjęcie ubrania",
+    "Plecy i łydki – chroni je leżenie na plecach z rozłożonymi rękami"
+   ]
+  },
+  "L6-x-10": {
+   "correct": "Środek mostka, głębokość 5–6 cm, tempo 100–120/min",
+   "wrong": [
+    "Lewa strona klatki, głębokość 1–2 cm, 60/min",
+    "Nadbrzusze, głębokość 8–10 cm, 150/min",
+    "Środek mostka, głębokość 2–3 cm, 30/min"
+   ]
+  },
+  "L6-x-11": {
+   "correct": "Ratowanie życia jest bezpłatne; ratowanie jachtu i mienia – płatne, na umowę",
+   "wrong": [
+    "Ratowanie życia jest płatne; holowanie jachtu – bezpłatne",
+    "Obie są zawsze bezpłatne, jeśli nadano MAYDAY",
+    "Obie są płatne, a koszty pokrywa armator"
+   ]
+  },
+  "L6-x-12": {
+   "correct": "Dzień: pomarańczowy dym; noc: trzy białe rakiety co ok. 1 minutę",
+   "wrong": [
+    "Dzień: czerwona flaga; noc: trzy czerwone rakiety naraz",
+    "Dzień: zielony dym; noc: jedna zielona rakieta",
+    "Dzień: flagi NC; noc: czerwona pochodnia ręczna"
+   ]
+  },
+  "L6-x-13": {
+   "correct": "Płyń za mną – w kierunku lotu, do potrzebujących pomocy",
+   "wrong": [
+    "Twoja pomoc nie jest już potrzebna",
+    "Zatrzymaj się i czekaj na śmigłowiec",
+    "Zawróć do najbliższego portu"
+   ]
+  },
+  "L6-x-14": {
+   "correct": "Pomoc tej jednostki nie jest już potrzebna",
+   "wrong": [
+    "Płyń w kierunku lotu samolotu",
+    "Zrzucamy wam tratwę ratunkową",
+    "Przygotuj się do ewakuacji śmigłowcem"
+   ]
+  },
+  "L6-x-15": {
+   "correct": "Tak: ruchy pionowe / zielona rakieta; nie: ruchy poziome / czerwona rakieta",
+   "wrong": [
+    "Tak: ruchy poziome / czerwona rakieta; nie: ruchy pionowe / zielona rakieta",
+    "Tak: trzy białe rakiety; nie: pomarańczowy dym",
+    "Tak: flaga N; nie: flaga C"
+   ]
+  },
+  "L6-x-16": {
+   "correct": "Kwadraty: zwroty o 90° i oddalanie się; koniczyna: zwroty o 120° z powrotem do punktu",
+   "wrong": [
+    "Kwadraty: zwroty o 120°; koniczyna: zwroty o 90°",
+    "Obie metody polegają na dryfowaniu bez zmiany kursu",
+    "Kwadraty: krążenie po okręgu; koniczyna: halsowanie pod wiatr"
+   ]
   }
  }
 }
