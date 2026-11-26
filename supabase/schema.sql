@@ -105,3 +105,14 @@ language sql stable set search_path = '' as $$ select * from private.family_prog
 revoke all on function public.family_progress() from public, anon;
 grant execute on function public.family_progress() to authenticated;
 alter table public.card_progress add column if not exists wrong integer not null default 0; -- licznik błędów (statystyki trudnych pytań)
+
+-- pytania z zewnętrznych baz (np. przykładowe pytania PZŻ) – tylko w bazie, odczyt tylko dla członków rodziny
+create table public.exam_questions (
+  id text primary key, source text not null, section text not null, level smallint not null, num integer,
+  q text not null, options jsonb not null, answer smallint not null check (answer between 0 and 3),
+  explain text, visual jsonb, confidence text, created_at timestamptz not null default now()
+);
+alter table public.exam_questions enable row level security;
+create policy "exam_questions: members read" on public.exam_questions for select to authenticated using ((select private.is_member()));
+grant select on public.exam_questions to authenticated;
+revoke all on public.exam_questions from anon;

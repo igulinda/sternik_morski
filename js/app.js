@@ -10,6 +10,7 @@
   let INDEX = null;            // content/levels.json
   const LEVELS = {};           // numer -> dane poziomu
   const MC = {};               // numer -> { idFiszki: {correct, wrong[]} } – odpowiedzi do testów
+  let EXTQ = [];               // pytania z bazy PZŻ (z Supabase, tylko dla zalogowanych)
   async function loadJSON(path) {
     if (window.__CONTENT__ && window.__CONTENT__[path]) return window.__CONTENT__[path];
     const r = await fetch(path, { cache: 'no-cache' });
@@ -362,6 +363,13 @@
           <div class="level-title hard-q">${md(c.q)}</div><div class="meta">${esc(c.lessonTitle)} · ${b >= 2 ? 'już opanowana' : 'do powtórki'}</div></div>
           <div class="hist-score"><span class="g-bad">${w}× błąd</span><small>na ${n} odpowiedzi</small></div></div>`).join('')}</div>`;
     }
+    const ps = pzzStats();
+    const pzzHard = EXTQ.filter((x) => ps[x.id] && ps[x.id].w > 0).sort((a, b) => ps[b.id].w - ps[a.id].w).slice(0, 30);
+    if (pzzHard.length) {
+      html += `<h2>Pytania PZŻ z błędami</h2><div class="card-box hist-list">${pzzHard.map((x) => `<div class="hist-row"><div class="hist-main">
+        <div class="level-title hard-q">${md(x.q)}</div><div class="meta">PZŻ nr ${x.num} · ${esc(x.section)} · poprawna: ${'ABC'[x.answer]}) ${md(x.options[x.answer])}</div></div>
+        <div class="hist-score"><span class="g-bad">${ps[x.id].w}× błąd</span><small>na ${ps[x.id].n}</small></div></div>`).join('')}</div>`;
+    }
     app.innerHTML = html;
     const d = document.getElementById('drill');
     if (d) d.onclick = () => startSession(shuffle(hard.slice(0, 20).map((x) => x.c)), 'Trudne pytania', '#trudne', { mode: 'losowy' });
@@ -427,6 +435,7 @@
       try {
         await Cloud.signIn(f.login.value, f.pw.value);
         await syncProgress();
+        EXTQ = await Cloud.loadExamQuestions();
         renderNav();
         if (!location.hash || location.hash === '#start') route(); else location.hash = '#start';
       } catch (ex) {
@@ -537,7 +546,23 @@
     }));
     return out;
   }
+  // pytania PZŻ: oryginalna kolejność odpowiedzi A/B/C, jak na egzaminie
+  const PZZ_SECTIONS = () => [...new Set(EXTQ.map((x) => x.section))];
+  function pzzPool(sections) {
+    return EXTQ.filter((x) => !sections || sections.includes(x.section)).map((x) => ({
+      id: x.id, level: x.level, group: x.section, lessonTitle: 'PZŻ · ' + x.section, q: x.q, qVisual: x.visual || undefined,
+      explain: x.explain, source: x.source, pzz: true, options: x.options, correctIdx: x.answer, num: x.num
+    }));
+  }
+  // liczniki błędów w pytaniach PZŻ (lokalnie, na potrzeby statystyk)
+  const PZZ_KEY = () => `sm-pzz-stats-${Cloud.user ? Cloud.user.id : 'local'}`;
+  function pzzStats() { try { return JSON.parse(localStorage.getItem(PZZ_KEY()) || '{}'); } catch (e) { return {}; } }
+  function notePzz(id, ok) {
+    const st = pzzStats(); const r = st[id] = st[id] || { n: 0, w: 0 }; r.n++; if (!ok) r.w++;
+    try { localStorage.setItem(PZZ_KEY(), JSON.stringify(st)); } catch (e) { /* */ }
+  }
   function materialize(q) {
+    if (q.pzz) return { ...q, answer: null };
     let item = q;
     if (q.gen && window.Generators) {
       const t = window.Generators.make(q.gen);
@@ -546,9 +571,23 @@
     const options = shuffle([item.correct, ...item.wrong]);
     return { ...item, options, correctIdx: options.indexOf(item.correct), answer: null };
   }
-  function buildExam(mode, levels, count) {
+  function buildExam(mode, levels, count, src) {
     let picked = [];
-    if (mode === 'egzamin') {
+    if (mode === 'egzamin' && src === 'pzz') {
+      // 75 pytań z bazy PZŻ, proporcjonalnie do liczby pytań w działach
+      const secs = PZZ_SECTIONS(); const all = pzzPool();
+      secs.forEach((sct) => { const pool = shuffle(all.filter((x) => x.group === sct)); picked.push(...pool.slice(0, Math.round(75 * pool.length / all.length))); });
+      const rest = shuffle(all.filter((x) => !picked.includes(x)));
+      while (picked.length < 75 && rest.length) picked.push(rest.pop());
+      picked = picked.slice(0, 75);
+    } else if (mode === 'egzamin' && src === 'mix' && EXTQ.length) {
+      const a = buildExam('egzamin', null, 0, 'pzz').questions.slice(0, 38);
+      const b = buildExam('egzamin', null, 0, 'fiszki').questions.slice(0, 37);
+      return { ...buildExam('egzamin', null, 0, 'fiszki'), questions: shuffle([...a, ...b]).sort((x, y) => x.level - y.level) };
+    } else if (mode === 'pzz') {
+      const pool = shuffle(pzzPool(levels));
+      picked = count ? pool.slice(0, count) : pool;
+    } else if (mode === 'egzamin') {
       const pools = {}; Object.keys(EXAM_PLAN).forEach((l) => { pools[l] = shuffle(questionPool(+l)); });
       let missing = 0;
       Object.entries(EXAM_PLAN).forEach(([l, n]) => { const take = pools[l].splice(0, n); picked.push(...take); missing += n - take.length; });
@@ -558,9 +597,9 @@
       const pool = shuffle(levels.flatMap(questionPool));
       picked = count ? pool.slice(0, count) : pool;
     }
-    picked.sort((a, b) => a.level - b.level);
+    picked.sort((a, b) => (a.level - b.level) || ((a.num || 0) - (b.num || 0)));
     return {
-      mode, levels, questions: picked.map(materialize), idx: 0, startedAt: new Date().toISOString(),
+      mode: mode === 'pzz' ? 'test' : mode, levels: mode === 'pzz' ? ['PZŻ'] : levels, questions: picked.map(materialize), idx: 0, startedAt: new Date().toISOString(),
       deadline: mode === 'egzamin' ? Date.now() + 120 * 60000 : null, finished: false, showGrid: false
     };
   }
@@ -581,7 +620,17 @@
         <div class="btn-row"><button class="btn primary" id="resume">Wznów</button><button class="btn" id="discard">Porzuć</button></div></div>` : ''}
       <div class="card-box"><h2 style="margin-top:0">📝 Symulacja egzaminu</h2>
         <p>Jak na prawdziwym egzaminie: <b>75 pytań</b>, <b>120 minut</b>, zdajesz przy <b>65 poprawnych</b> odpowiedziach. Pytania ze wszystkich działów w proporcjach zbliżonych do egzaminu.</p>
+        ${EXTQ.length ? `<div class="opts"><b>Źródło pytań</b><div>
+          <label><input type="radio" name="src" value="pzz" checked> baza przykładowych pytań PZŻ (${EXTQ.length})</label>
+          <label><input type="radio" name="src" value="mix"> mieszane: PZŻ + fiszki</label>
+          <label><input type="radio" name="src" value="fiszki"> pytania z fiszek aplikacji</label></div></div>` : ''}
         <button class="btn primary" id="full">Rozpocznij egzamin</button></div>
+      ${EXTQ.length ? `<div class="card-box opts"><h2 style="margin-top:0">📘 Pytania PZŻ z wybranych działów</h2>
+        <p class="level-desc">Oryginalne pytania z bazy przykładowych pytań PZŻ (format A/B/C jak na egzaminie), z wyjaśnieniem odpowiedzi.</p>
+        <div>${PZZ_SECTIONS().map((sct) => `<label><input type="checkbox" name="psec" value="${esc(sct)}" checked> ${esc(sct)} (${EXTQ.filter((x) => x.section === sct).length})</label>`).join('')}</div>
+        <hr class="divider"><b>Liczba pytań</b><div>${[10, 20, 40].map((n, i) => `<label><input type="radio" name="pn" value="${n}" ${i === 1 ? 'checked' : ''}> ${n}</label>`).join('')}<label><input type="radio" name="pn" value="0"> wszystkie</label></div>
+        <p class="err" id="pErr" hidden>Zaznacz co najmniej jeden dział.</p>
+        <div class="btn-row"><button class="btn primary" id="pzzGo">Rozpocznij test PZŻ</button></div></div>` : (Cloud.enabled ? '' : '')}
       <div class="card-box opts"><h2 style="margin-top:0">🎯 Test z wybranych działów</h2>
         <div>${avail.map((l) => `<label><input type="checkbox" name="tlv" value="${l.level}" ${l.level <= 3 ? 'checked' : ''}> ${l.level}. ${esc(l.title)}</label>`).join('')}</div>
         <hr class="divider"><b>Liczba pytań</b><div>${[10, 20, 40].map((n, i) => `<label><input type="radio" name="tn" value="${n}" ${i === 1 ? 'checked' : ''}> ${n}</label>`).join('')}<label><input type="radio" name="tn" value="0"> wszystkie</label></div>
@@ -594,7 +643,16 @@
         <p>Interaktywna mapa ćwiczebna: odczyt i nanoszenie pozycji, pozycja z namiarów, zliczenie drogi, kurs i czas przejścia – z linijką nawigacyjną.</p>
         <a class="btn primary" href="#mapa">Otwórz mapę</a></div>`;
     const start = (e) => { exam = e; saveExam(); location.hash = '#egzamin-trwa'; if (location.hash === '#egzamin-trwa') renderExamQ(); };
-    document.getElementById('full').onclick = () => start(buildExam('egzamin'));
+    document.getElementById('full').onclick = () => {
+      const src = app.querySelector('input[name=src]:checked');
+      start(buildExam('egzamin', null, 0, src ? src.value : 'fiszki'));
+    };
+    const pg = document.getElementById('pzzGo');
+    if (pg) pg.onclick = () => {
+      const secs = [...app.querySelectorAll('input[name=psec]:checked')].map((i) => i.value);
+      if (!secs.length) { document.getElementById('pErr').hidden = false; return; }
+      start(buildExam('pzz', secs, +app.querySelector('input[name=pn]:checked').value));
+    };
     document.getElementById('topic').onclick = () => {
       const lv = [...app.querySelectorAll('input[name=tlv]:checked')].map((i) => +i.value);
       if (!lv.length) { document.getElementById('tErr').hidden = false; return; }
@@ -621,7 +679,7 @@
         ${e.deadline ? `<span id="timer" class="timer"></span>` : ''}</div>
       <div class="bar" style="margin-bottom:12px"><span style="width:${Math.round(100 * answered / n)}%"></span></div>
       <div class="card-box exam-q">
-        ${q.isTask ? '<div class="task-badge">🧮 Zadanie obliczeniowe</div>' : ''}
+        ${q.isTask ? '<div class="task-badge">🧮 Zadanie obliczeniowe</div>' : ''}${q.pzz ? `<div class="task-badge">📘 PZŻ nr ${q.num} · ${esc(q.group)}</div>` : ''}
         <div class="q">${md(q.q)}</div>
         ${q.qVisual ? V.render(q.qVisual) : ''}
         <div class="opts-list" role="radiogroup">${q.options.map((o, i) => `<button class="opt${q.answer === i ? ' sel' : ''}" data-i="${i}" role="radio" aria-checked="${q.answer === i}"><span class="ltr">${LETTERS[i]}</span><span>${md(o)}</span></button>`).join('')}</div>
@@ -658,7 +716,10 @@
     const ok = e.questions.filter((q) => q.answer === q.correctIdx).length;
     const n = e.questions.length;
     // błędne odpowiedzi wracają do powtórek
-    e.questions.forEach((q) => { if (q.answer !== q.correctIdx && !q.gen) grade(q.id, 'bad'); });
+    e.questions.forEach((q) => {
+      if (q.pzz) notePzz(q.id, q.answer === q.correctIdx);
+      else if (q.answer !== q.correctIdx && !q.gen) grade(q.id, 'bad');
+    });
     if (Cloud.user) {
       Cloud.queueSession({ mode: e.mode, title: e.mode === 'egzamin' ? `Egzamin próbny – ${ok}/${n} ${ok >= 65 ? '✔ zdany' : '✘ niezdany'}` : `Test (poziomy ${e.levels.join(', ')}) – ${ok}/${n}`,
         lesson_id: null, started_at: e.startedAt, finished_at: e.finishedAt, total: n, ok, mid: 0, bad: n - ok });
@@ -671,7 +732,7 @@
     const ok = e.questions.filter((q) => q.answer === q.correctIdx).length;
     const pass = e.mode === 'egzamin' ? ok >= 65 : ok / n >= 65 / 75;
     const byLevel = {};
-    e.questions.forEach((q) => { const b = byLevel[q.level] = byLevel[q.level] || { ok: 0, n: 0 }; b.n++; if (q.answer === q.correctIdx) b.ok++; });
+    e.questions.forEach((q) => { const k = q.group ? 'PZŻ · ' + q.group : q.level; const b = byLevel[k] = byLevel[k] || { ok: 0, n: 0 }; b.n++; if (q.answer === q.correctIdx) b.ok++; });
     const wrong = e.questions.filter((q) => q.answer !== q.correctIdx);
     app.innerHTML = `<h1>${pass ? 'Zdany ✔' : 'Niezdany ✘'}</h1>
       <p class="sub">${e.mode === 'egzamin' ? 'Egzamin próbny' : 'Test'}${e.timeUp ? ' · koniec czasu' : ''} · próg ${e.mode === 'egzamin' ? '65/75' : '87%'}</p>
@@ -683,7 +744,7 @@
       <h2>Wynik w działach</h2><div class="card-box">${Object.entries(byLevel).map(([l, b]) => {
         const meta = INDEX.levels.find((x) => x.level === +l);
         const pct = Math.round(100 * b.ok / b.n);
-        return `<div class="lvl-score"><span>${l}. ${esc(meta ? meta.title : '')}</span><b class="${pct >= 87 ? 'g-ok' : pct >= 60 ? 'g-mid' : 'g-bad'}">${b.ok}/${b.n}</b></div>`;
+        return `<div class="lvl-score"><span>${meta ? `${l}. ${esc(meta.title)}` : esc(l)}</span><b class="${pct >= 87 ? 'g-ok' : pct >= 60 ? 'g-mid' : 'g-bad'}">${b.ok}/${b.n}</b></div>`;
       }).join('')}</div>
       <h2>Błędy do przejrzenia (${wrong.length})</h2>
       ${wrong.length ? `<p class="sub">Te pytania trafiły do powtórek – w trybie losowym z opcją „tylko nieopanowane” pojawią się w pierwszej kolejności.</p>` : '<div class="card-box">Bez błędów – brawo! ⚓</div>'}
@@ -770,7 +831,7 @@
     await loadAll();
     if (Cloud.enabled) {
       const u = await Cloud.restore();
-      if (u) await syncProgress();
+      if (u) { await syncProgress(); EXTQ = await Cloud.loadExamQuestions(); }
     } else {
       loadLocal();
     }

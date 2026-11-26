@@ -130,6 +130,20 @@
     return data;
   }
 
+  // pytania z zewnętrznych baz (np. przykładowe pytania PZŻ) – tylko dla zalogowanych członków rodziny;
+  // kopia w przeglądarce pozwala ćwiczyć offline
+  async function loadExamQuestions() {
+    const key = `sm-examq-${user && user.id}`;
+    try {
+      const { data, error } = await client.from('exam_questions').select('id,source,section,level,num,q,options,answer,explain,visual,confidence').order('num').range(0, 4999);
+      if (error) throw error;
+      try { localStorage.setItem(key, JSON.stringify(data)); } catch (e) { /* brak miejsca */ }
+      return data;
+    } catch (e) {
+      try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch (x) { return []; }
+    }
+  }
+
   async function loadFamily() {
     const { data, error } = await client.rpc('family_progress');
     if (error) throw error;
@@ -140,7 +154,7 @@
   function setStatus(s) { if (statusCb) statusCb(s); }
 
   window.Cloud = {
-    enabled, restore, signIn, signOut, changePassword, loadProgress, queueCard, queueSession, flush, loadSessions, loadFamily,
+    enabled, restore, signIn, signOut, changePassword, loadProgress, queueCard, queueSession, flush, loadSessions, loadFamily, loadExamQuestions,
     pendingSessions: () => (user ? readPending().sessions : []),
     get user() { return user; },
     onStatus(cb) { statusCb = cb; }
