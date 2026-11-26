@@ -1,6 +1,6 @@
 # Pokrycie bazy przykładowych pytań PZŻ (JSM) przez lekcje aplikacji
 
-Analiza 329 pytań z bazy przykładowych pytań PZŻ na jachtowego sternika morskiego (2026-11-26). Pytania przechowywane są wyłącznie w prywatnej tabeli Supabase (, dostęp tylko dla członków rodziny) – nie w tym repozytorium. Poniżej tylko tematy, bez treści pytań.
+Analiza 329 pytań z bazy przykładowych pytań PZŻ na jachtowego sternika morskiego (2026-11-26). Pytania przechowywane są wyłącznie w prywatnej tabeli Supabase (exam_questions, dostęp tylko dla członków rodziny) – nie w tym repozytorium. Poniżej tylko tematy, bez treści pytań.
 
 | Dział PZŻ | pokryte | niepokryte |
 |---|---|---|
