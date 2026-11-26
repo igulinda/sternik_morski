@@ -206,3 +206,15 @@ form .btn { margin-top: 16px; }
 .resume { border-color: var(--accent); }
 .nav-item input.ok { border-color: var(--ok); } .nav-item input.bad { border-color: var(--bad); }
 details summary { cursor: pointer; color: var(--primary); font-weight: 600; margin-top: 10px; }
+
+/* powtórki i rodzina */
+.due-box { display: flex; align-items: center; gap: 14px; text-decoration: none; color: inherit; }
+.due-box .due-num { flex: none; min-width: 54px; height: 54px; padding: 0 8px; border-radius: 14px; display: grid; place-items: center; font-size: 1.5rem; font-weight: 800;
+  background: var(--surface-2); color: var(--muted); font-variant-numeric: tabular-nums; }
+.due-box.has { border-color: var(--accent); }
+.due-box.has .due-num { background: var(--accent); color: #1b1300; }
+.fam.me { border-color: var(--primary); }
+.fam-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.fam-head .fam-pct { margin-left: auto; font-weight: 800; font-variant-numeric: tabular-nums; }
+.fam-rank { font-size: 1.2rem; }
+.fam-meta { margin-top: 8px; color: var(--muted); font-size: .88rem; }

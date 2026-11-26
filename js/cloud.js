@@ -19,9 +19,16 @@
     return `${base}@${cfg.loginDomain}`;
   }
 
-  async function loadMember(u) {
+  const memberKey = (id) => `sm-member-${id}`;
+  async function loadMember(u, allowCached) {
     const { data, error } = await client.from('members').select('display_name').eq('user_id', u.id).maybeSingle();
-    if (error) throw error;
+    if (error) {
+      // brak internetu: użyj zapamiętanego członka rodziny (tryb offline)
+      let cached = null; try { cached = localStorage.getItem(memberKey(u.id)); } catch (e) { /* */ }
+      if (allowCached && cached) { user = { id: u.id, name: cached, offline: true }; return user; }
+      throw error;
+    }
+    try { if (data) localStorage.setItem(memberKey(u.id), data.display_name); } catch (e) { /* */ }
     if (!data) { await client.auth.signOut(); throw new Error('To konto nie ma dostępu do aplikacji.'); }
     user = { id: u.id, name: data.display_name };
     return user;
@@ -31,7 +38,7 @@
     if (!enabled) return null;
     const { data } = await client.auth.getSession();
     if (!data.session) return null;
-    try { return await loadMember(data.session.user); } catch (e) { return null; }
+    try { return await loadMember(data.session.user, true); } catch (e) { return null; }
   }
 
   async function signIn(login, password) {
@@ -59,10 +66,10 @@
 
   /* ---- postęp fiszek ---- */
   async function loadProgress() {
-    const { data, error } = await client.from('card_progress').select('card_id,box,seen,last_at').range(0, 9999);
+    const { data, error } = await client.from('card_progress').select('card_id,box,seen,last_at,due_at,ivl').range(0, 9999);
     if (error) throw error;
     const out = {};
-    data.forEach((r) => { out[r.card_id] = { box: r.box, seen: r.seen, last: Date.parse(r.last_at) }; });
+    data.forEach((r) => { out[r.card_id] = { box: r.box, seen: r.seen, last: Date.parse(r.last_at), due: r.due_at ? Date.parse(r.due_at) : null, ivl: r.ivl || 0 }; });
     return out;
   }
 
@@ -90,7 +97,8 @@
       const ids = Object.keys(q.cards);
       try {
         if (ids.length) {
-          const rows = ids.map((id) => ({ user_id: user.id, card_id: id, box: q.cards[id].box, seen: q.cards[id].seen, last_at: new Date(q.cards[id].last || Date.now()).toISOString() }));
+          const rows = ids.map((id) => ({ user_id: user.id, card_id: id, box: q.cards[id].box, seen: q.cards[id].seen, last_at: new Date(q.cards[id].last || Date.now()).toISOString(),
+            due_at: q.cards[id].due ? new Date(q.cards[id].due).toISOString() : null, ivl: q.cards[id].ivl || 0 }));
           const { error } = await client.from('card_progress').upsert(rows, { onConflict: 'user_id,card_id' });
           if (error) throw error;
         }
@@ -122,11 +130,17 @@
     return data;
   }
 
+  async function loadFamily() {
+    const { data, error } = await client.rpc('family_progress');
+    if (error) throw error;
+    return data;
+  }
+
   let statusCb = null;
   function setStatus(s) { if (statusCb) statusCb(s); }
 
   window.Cloud = {
-    enabled, restore, signIn, signOut, changePassword, loadProgress, queueCard, queueSession, flush, loadSessions,
+    enabled, restore, signIn, signOut, changePassword, loadProgress, queueCard, queueSession, flush, loadSessions, loadFamily,
     pendingSessions: () => (user ? readPending().sessions : []),
     get user() { return user; },
     onStatus(cb) { statusCb = cb; }

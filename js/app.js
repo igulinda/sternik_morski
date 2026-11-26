@@ -33,10 +33,23 @@
   function loadLocal() { try { progress = JSON.parse(localStorage.getItem(storeKey()) || '{}'); } catch (e) { progress = {}; } }
   function save() { try { localStorage.setItem(storeKey(), JSON.stringify(progress)); } catch (e) { /* brak pamięci – działamy dalej */ } }
   const box = (id) => (progress[id] ? progress[id].box : -1); // -1 = nowa
+  // Powtórki rozłożone w czasie: każda dobra odpowiedź wydłuża przerwę (1 → 3 → 7 → 18 → 45 dni…),
+  // „prawie” – powtórka jutro, „nie wiem” – powtórka jeszcze dziś.
+  const DAY = 864e5;
+  const LEGACY_IVL = [0, 1, 3, 7];
+  function dueOf(p) {
+    if (!p) return null;
+    if (p.due) return p.due;
+    return (p.last || 0) + LEGACY_IVL[Math.max(0, Math.min(3, p.box))] * DAY; // postęp sprzed wprowadzenia powtórek
+  }
   function grade(id, g) {
-    const p = progress[id] || { box: 0, seen: 0 };
+    const p = progress[id] || { box: 0, seen: 0, ivl: 0 };
     p.seen += 1; p.last = Date.now();
     if (g === 'bad') p.box = 0; else if (g === 'mid') p.box = Math.max(1, Math.min(p.box, 1)); else p.box = Math.min(3, Math.max(p.box, 0) + 1);
+    if (g === 'bad') p.ivl = 0;
+    else if (g === 'mid') p.ivl = 1;
+    else p.ivl = Math.min(120, (p.ivl || 0) >= 1 ? Math.round(p.ivl * 2.5) : 1);
+    p.due = p.last + p.ivl * DAY;
     progress[id] = p; save();
     if (Cloud.user) Cloud.queueCard(id, p);
   }
@@ -70,6 +83,16 @@
       <div class="prog-legend"><span><i class="dot ok"></i>opanowane ${d.ok}</span><span><i class="dot learn"></i>w trakcie ${d.learn}</span><span><i class="dot fresh"></i>nowe ${d.fresh}</span></div>
     </div>`;
   }
+  function dueCards() {
+    const now = Date.now();
+    return allLessons().flatMap(lessonCardsRaw).filter((c) => progress[c.id] && dueOf(progress[c.id]) <= now)
+      .sort((a, b) => dueOf(progress[a.id]) - dueOf(progress[b.id]));
+  }
+  function nextDue() {
+    const t = Object.values(progress).map(dueOf).filter((x) => x && x > Date.now());
+    return t.length ? Math.min(...t) : null;
+  }
+  function lessonCardsRaw(ls) { return ls.cards.map((c) => ({ ...c, lessonTitle: ls.title })); }
   function mastery(cards) {
     if (!cards.length) return 0;
     return Math.round(100 * cards.filter((c) => box(c.id) >= 2).length / cards.length);
@@ -78,6 +101,10 @@
   /* ---------- pomocnicze ---------- */
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+  const fmtWhen = (t) => {
+    const d = Math.round((new Date(t).setHours(0, 0, 0, 0) - new Date().setHours(0, 0, 0, 0)) / 864e5);
+    return d <= 0 ? 'jeszcze dziś' : d === 1 ? 'jutro' : `za ${d} dni`;
+  };
   const shuffle = (a) => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
 
   function theoryBlock(b) {
@@ -99,6 +126,13 @@
     const allCards = lessons.flatMap((l) => l.cards);
     let html = `<h1>Jachtowy sternik morski</h1>
       <p class="sub">Nauka do egzaminu teoretycznego: od podstaw do zagadnień złożonych.</p>
+      ${(() => {
+        const due = dueCards().length;
+        const nx = nextDue();
+        return `<a class="card-box due-box${due ? ' has' : ''}" href="#powtorki"><div class="due-num">${due}</div>
+          <div><b>${due ? 'Powtórki na dziś' : 'Brak powtórek na dziś'}</b>
+          <div class="level-desc">${due ? 'Fiszki, które warto teraz odświeżyć, zanim wypadną z pamięci.' : (nx ? 'Następne ' + fmtWhen(nx) + '. Ucz się nowych lekcji!' : 'Zacznij od lekcji – przerobione fiszki będą tu wracać w odpowiednim czasie.')}</div></div></a>`;
+      })()}
       <div class="mode-grid">
         <a class="card-box mode" href="#poziom-1"><div class="big">🧭</div><b>Nauka od podstaw</b><div class="level-desc">Poziomy po kolei: teoria + fiszki</div></a>
         <a class="card-box mode" href="#losowy"><div class="big">🎲</div><b>Tryb losowy</b><div class="level-desc">Wymieszane fiszki ze wszystkich działów</div></a>
@@ -274,13 +308,58 @@
     };
   }
 
+  /* ---------- powtórki na dziś ---------- */
+  function viewReviews() {
+    const due = dueCards();
+    if (!due.length) {
+      const nx = nextDue();
+      const next = allLessons().find((l) => l.cards.some((c) => box(c.id) < 0));
+      app.innerHTML = `<a href="#start">← Start</a><h1>Powtórki na dziś</h1>
+        <div class="card-box"><p><b>Wszystko powtórzone! ⚓</b> ${nx ? 'Kolejne fiszki wrócą ' + fmtWhen(nx) + '.' : ''}</p>
+        <p class="level-desc">Fiszki wracają po coraz dłuższej przerwie: po odpowiedzi „Wiem” – za 1, 3, 7, 18, 45 dni…, po „Prawie” – jutro, po „Nie wiem” – jeszcze dziś.</p>
+        ${next ? `<a class="btn primary" href="#lekcja-${next.id}">Następna lekcja: ${esc(next.title)} →</a>` : ''}</div>`;
+      return;
+    }
+    const n = Math.min(due.length, 50);
+    startSession(due.slice(0, n), `Powtórki na dziś${due.length > n ? ` (${n} z ${due.length})` : ''}`, '#start', { mode: 'powtorki' });
+  }
+
+  /* ---------- postęp rodziny ---------- */
+  async function viewFamily() {
+    app.innerHTML = `<a href="#start">← Start</a><h1>Rodzina na pokładzie</h1><p class="sub">Wczytywanie…</p>`;
+    let rows;
+    try { rows = await Cloud.loadFamily(); } catch (e) {
+      app.innerHTML = `<a href="#start">← Start</a><h1>Rodzina na pokładzie</h1><div class="card-box"><p class="err">Nie udało się wczytać postępów rodziny – sprawdź połączenie z internetem.</p></div>`;
+      return;
+    }
+    const total = allLessons().reduce((a, l) => a + l.cards.length, 0);
+    const ago = (t) => {
+      if (!t) return 'jeszcze bez nauki';
+      const d = Math.floor((Date.now() - Date.parse(t)) / 864e5);
+      return d <= 0 ? 'dziś' : d === 1 ? 'wczoraj' : `${d} dni temu`;
+    };
+    const ranked = rows.slice().sort((a, b) => b.mastered - a.mastered);
+    app.innerHTML = `<a href="#start">← Start</a><h1>Rodzina na pokładzie</h1>
+      <p class="sub">Postępy wszystkich członków załogi (${total} fiszek w aplikacji). Widać tylko podsumowania.</p>
+      ${ranked.map((r, i) => {
+        const pOk = 100 * r.mastered / total, pL = 100 * r.learning / total;
+        const exam = r.exams ? `najlepszy egzamin <b class="${r.best_exam >= 65 ? 'g-ok' : 'g-bad'}">${r.best_exam}/75</b> · ostatni ${r.last_exam}/${r.last_exam_total} · razem ${r.exams}` : 'bez egzaminu próbnego';
+        return `<div class="card-box fam${r.is_me ? ' me' : ''}">
+          <div class="fam-head"><span class="fam-rank">${['🥇', '🥈', '🥉'][i] || '⚓'}</span><b>${esc(r.display_name)}${r.is_me ? ' (Ty)' : ''}</b>
+            <span class="fam-pct">${Math.round(pOk)}%</span></div>
+          <div class="bar seg"><span class="s-ok" style="width:${pOk}%"></span><span class="s-learn" style="width:${pL}%"></span></div>
+          <div class="prog-legend"><span><i class="dot ok"></i>opanowane ${r.mastered}</span><span><i class="dot learn"></i>w trakcie ${r.learning}</span></div>
+          <div class="meta fam-meta">ostatnia nauka: ${ago(r.last_activity)} · sesji w 7 dni: ${r.sessions_7d}<br>${exam}</div></div>`;
+      }).join('')}`;
+  }
+
   /* ---------- konto: logowanie, historia, ustawienia ---------- */
   function renderNav() {
     const nav = document.getElementById('topnav');
     if (!nav) return;
     if (Cloud.enabled && !Cloud.user) { nav.innerHTML = ''; return; }
     nav.innerHTML = `<a href="#start">Nauka</a><a href="#losowy">Losowo</a>`
-      + (Cloud.user ? `<a href="#historia">Historia</a><a href="#konto" class="who" title="Moje konto">👤 ${esc(Cloud.user.name)}</a>` : '');
+      + (Cloud.user ? `<a href="#rodzina">Rodzina</a><a href="#historia">Historia</a><a href="#konto" class="who" title="Moje konto">👤 ${esc(Cloud.user.name)}</a>` : '');
   }
 
   function viewLogin(msg) {
@@ -354,7 +433,7 @@
         const pct = n ? Math.round(100 * x.ok / n) : 0;
         const mins = Math.max(1, Math.round((Date.parse(x.finished_at) - Date.parse(x.started_at)) / 60000));
         return `<div class="hist-row"><div class="hist-main"><div class="level-title">${esc(x.title)}</div>
-          <div class="meta">${fmtDate(x.finished_at)} · ${({ losowy: 'losowo', lekcja: 'lekcja', egzamin: 'egzamin', test: 'test', zadanie: 'zadanie nawigacyjne' })[x.mode] || x.mode} · ${x.total} ${x.mode === 'lekcja' || x.mode === 'losowy' ? 'fiszek' : 'pytań'} · ${mins} min</div></div>
+          <div class="meta">${fmtDate(x.finished_at)} · ${({ losowy: 'losowo', lekcja: 'lekcja', powtorki: 'powtórki', egzamin: 'egzamin', test: 'test', zadanie: 'zadanie nawigacyjne' })[x.mode] || x.mode} · ${x.total} ${['lekcja', 'losowy', 'powtorki'].includes(x.mode) ? 'fiszek' : 'pytań'} · ${mins} min</div></div>
           <div class="hist-score" title="wiem / prawie / nie wiem"><span class="g-ok">${x.ok}</span> <span class="g-mid">${x.mid}</span> <span class="g-bad">${x.bad}</span><small>${pct}% od razu</small></div></div>`;
       }).join('') + `</div>`;
     }
@@ -627,6 +706,8 @@
     if (Cloud.enabled && !Cloud.user) return viewLogin();
     if (a === 'historia' && Cloud.user) return viewHistory();
     if (a === 'egzamin') return viewExam(b);
+    if (a === 'powtorki') return viewReviews();
+    if (a === 'rodzina' && Cloud.user) return viewFamily();
     if (a === 'konto' && Cloud.user) return viewAccount();
     if (a === 'poziom') return viewLevel(+b);
     if (a === 'lekcja') return viewLesson(b);

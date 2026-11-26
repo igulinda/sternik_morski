@@ -66,3 +66,41 @@ grant select on public.members to authenticated;
 grant select, insert, update, delete on public.card_progress to authenticated;
 grant select, insert, delete on public.study_sessions to authenticated;
 revoke all on public.members, public.card_progress, public.study_sessions from anon;
+
+-- ===== Ulepszenia (powtórki, podtrzymanie, rodzina) =====
+alter table public.card_progress
+  add column if not exists due_at timestamptz,
+  add column if not exists ivl real not null default 0;
+
+create or replace function public.ping()
+returns text language sql stable set search_path = ''
+as $$ select 'ok'::text $$;
+grant execute on function public.ping() to anon, authenticated;
+
+-- zestawienie rodziny: tylko podsumowania, tylko dla członków
+create or replace function private.family_progress()
+returns table (display_name text, is_me boolean, mastered integer, learning integer, last_activity timestamptz,
+  sessions_7d integer, exams integer, best_exam integer, last_exam integer, last_exam_total integer)
+language sql stable security definer set search_path = ''
+as $$
+  select m.display_name, m.user_id = (select auth.uid()),
+    (select count(*)::int from public.card_progress p where p.user_id = m.user_id and p.box >= 2),
+    (select count(*)::int from public.card_progress p where p.user_id = m.user_id and p.box < 2),
+    greatest((select max(p.last_at) from public.card_progress p where p.user_id = m.user_id),
+             (select max(s.finished_at) from public.study_sessions s where s.user_id = m.user_id)),
+    (select count(*)::int from public.study_sessions s where s.user_id = m.user_id and s.finished_at > now() - interval '7 days'),
+    (select count(*)::int from public.study_sessions s where s.user_id = m.user_id and s.mode = 'egzamin'),
+    (select max(s.ok) from public.study_sessions s where s.user_id = m.user_id and s.mode = 'egzamin'),
+    (select s.ok from public.study_sessions s where s.user_id = m.user_id and s.mode = 'egzamin' order by s.finished_at desc limit 1),
+    (select s.total from public.study_sessions s where s.user_id = m.user_id and s.mode = 'egzamin' order by s.finished_at desc limit 1)
+  from public.members m where (select private.is_member()) order by m.created_at
+$$;
+revoke all on function private.family_progress() from public, anon;
+grant execute on function private.family_progress() to authenticated;
+
+create function public.family_progress()
+returns table (display_name text, is_me boolean, mastered integer, learning integer, last_activity timestamptz,
+  sessions_7d integer, exams integer, best_exam integer, last_exam integer, last_exam_total integer)
+language sql stable set search_path = '' as $$ select * from private.family_progress() $$;
+revoke all on function public.family_progress() from public, anon;
+grant execute on function public.family_progress() to authenticated;

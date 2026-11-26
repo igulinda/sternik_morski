@@ -17,3 +17,4 @@ Aplikacja przeglądarkowa do nauki na egzamin teoretyczny na patent **jachtowego
 - Etap 7 – poziom 7: jacht i instalacje, silnik, teoria żeglowania, planowanie rejsu, dokumenty i etykieta, prawo drogi śródlądowe (+ generatory `predkosc-graniczna`, `eta`)
 - Etap 8 – egzaminy: symulacja egzaminu (75 pytań, 120 min, próg 65), testy z działów, zadanie nawigacyjne; odpowiedzi testowe w `content/mc/`, weryfikacja z podręcznikiem: `content/review/` + `tools/apply_review.py`
 - [Weryfikacja z podręcznikiem – lista zmian](docs/04-weryfikacja-z-podrecznikiem.md)
+- [Ulepszenia: powtórki, offline, rodzina, automaty](docs/05-ulepszenia.md)
