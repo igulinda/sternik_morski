@@ -1545,9 +1545,9 @@
     {
      "id": "L7-p2-a2-31",
      "q": "Która kotwica według podręcznika ma największy stosunek siły trzymania do masy, szczególnie w piasku?",
-     "a": "Kotwica patentowa Danfortha (płaska, z dwiema ruchomymi łapami).",
-     "explain": "Wadą Danfortha jest słabe wbijanie się w twarde, zarośnięte dno i możliwość wyrwania przy zmianie kierunku ciągu (obrót jachtu). Pługowe CQR/Delta są pewniejsze przy zmianach kierunku.",
-     "source": "Żeglarz i sternik morski, s. 54",
+     "a": "Według podręcznika – kotwica Danfortha (płaska, z dwiema ruchomymi łapami): ma bardzo duży stosunek siły trzymania do masy, zwłaszcza w piasku i mule. Uwaga: współczesne testy (np. Practical Boat Owner 2011) pokazują, że najlepiej ogólnie trzymają kotwice „nowej generacji” (Rocna, Mantus, Spade), a Danforth słabo przestawia się po zmianie kierunku ciągu.",
+     "explain": "Na egzaminie z rysunkiem kotwic zwykle oczekiwana jest odpowiedź zgodna z podręcznikiem (Danforth). CQR i Bruce w testach wypadały najsłabiej.",
+     "source": "Podręcznik Kolaszewski & Świdwiński; testy PBO 2011, West Marine 2006",
      "difficulty": 2
     }
    ]

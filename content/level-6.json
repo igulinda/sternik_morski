@@ -1141,9 +1141,10 @@
     {
      "id": "L6-p3-14",
      "q": "Kto zapewnia łączność radiową w niebezpieczeństwie w polskim rejonie SAR?",
-     "a": "Brzegowa radiostacja ratownicza z siecią nadajników wzdłuż wybrzeża (dawniej „Witowo Radio”, dziś „Polish Rescue Radio” współpracujące z MRCK) – nie kapitanaty portów.",
+     "a": "Stacja brzegowa „Polish Rescue Radio” (znak SPL), która od 1 stycznia 2020 r. zastąpiła „Witowo Radio”. Prowadzą ją operatorzy GMDSS ze służby VTS Urzędu Morskiego w Gdyni; prowadzi całodobowy nasłuch na VHF (kanał 16, DSC kanał 70) i MF (2182 kHz, DSC 2187,5 kHz), nadaje ostrzeżenia i prognozy i współpracuje z MRCK Gdynia.",
      "explain": "Radiostacja brzegowa prowadzi nasłuch kanału 16 i DSC kanału 70, odbiera alarmy i przekazuje je do MRCK. Kapitanaty słuchają kanału 16, ale nie są systemem łączności w niebezpieczeństwie. W pytaniach egzaminacyjnych pada nazwa „Witowo Radio i jej ekspozytury”.",
-     "difficulty": 3
+     "difficulty": 3,
+     "source": "Urząd Morski w Gdyni – Polish Rescue Radio; Wiadomości Żeglarskie BHMW"
     },
     {
      "id": "L6-p3-15",
