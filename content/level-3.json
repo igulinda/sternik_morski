@@ -624,6 +624,14 @@
      "tip": "„Czerwone nad zielonym – żeglarz na szczycie”.",
      "source": "MPZZ, prawidło 25(c)",
      "difficulty": 2
+    },
+    {
+     "id": "L3-p4-02",
+     "q": "Statek rybacki ma dodatkowo dwa żółte światła jedno nad drugim, migające na przemian. Co to oznacza i jak go minąć?",
+     "a": "Statek łowiący okrężnicą, któremu sieć utrudnia manewrowanie (Załącznik II MPZZ). Sieć zatacza duży krąg – mijaj go w dużej odległości (rzędu 1 Mm).",
+     "explain": "Żółte światła migają na przemian co ok. 1 s. Załącznik II dotyczy też trawlerów (np. biały+czerwony = wybieranie sieci) – to sygnały dodatkowe przy łowieniu blisko innych statków.",
+     "source": "MPZZ, Załącznik II",
+     "difficulty": 3
     }
    ]
   },
@@ -1217,6 +1225,29 @@
      "q": "W jakie przyrządy do sygnałów dźwiękowych musi być wyposażony statek ≥ 12 m, ≥ 20 m i ≥ 100 m?",
      "a": "Statek ≥ 12 m – gwizdek; ≥ 20 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong (o tonie niemylącym się z dzwonem). Jednostka < 12 m nie musi ich mieć, ale musi mieć inny skuteczny środek sygnalizacji dźwiękowej.",
      "source": "MPZZ, prawidło 33",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p3-28",
+     "q": "Statek płynący równolegle do jachtu kieruje snop reflektora przed dziób jachtu. Co to oznacza?",
+     "a": "Sygnał zwrócenia uwagi (prawidło 36) – ostrzeżenie: statek wskazuje niebezpieczeństwo, tu: nie zmieniaj kursu w jego stronę.",
+     "source": "MPZZ, prawidło 36",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p3-29",
+     "q": "Co pozwala prawidło 36 MPZZ (sygnały zwrócenia uwagi)?",
+     "a": "Każdy statek może dać sygnał świetlny lub dźwiękowy, którego nie da się pomylić z sygnałami z MPZZ, albo skierować reflektor w stronę niebezpieczeństwa – tak, by nie oślepiać innych statków.",
+     "explain": "Do zwracania uwagi nie wolno używać świateł mogących przypominać światła nawigacyjne lub znaki, ani silnych świateł błyskowych czy obrotowych.",
+     "source": "MPZZ, prawidło 36",
+     "difficulty": 2
+    },
+    {
+     "id": "L3-p4-01",
+     "q": "Jacht zbliża się do wejścia do kanału; wychodzący z niego statek na wprost daje dwa krótkie dźwięki. Co robi jacht?",
+     "a": "Utrzymuje swój kurs i obserwuje – dwa krótkie oznaczają „zmieniam kurs w lewo”, więc statek sam schodzi z kolizyjnego kursu. Zwrot jachtu w prawo zbliżyłby go do statku.",
+     "explain": "Statki idące na wprost mijają się lewymi burtami; statek skręcający w swoją lewo przechodzi na prawą stronę jachtu (patrząc od jachtu). W wąskim przejściu jacht i tak nie może utrudniać przejścia statkowi.",
+     "source": "MPZZ, prawidło 34",
      "difficulty": 2
     }
    ]

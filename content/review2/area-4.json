@@ -1,0 +1,853 @@
+{
+ "area": 4,
+ "newCards": [
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-01",
+    "q": "Jak na mapie morskiej podaje się rodzaj dna?",
+    "a": "Skrótami literowymi przy głębokościach: na mapach w standardzie INT/Admiralicji np. S – piasek, M – muł, G – żwir, St – kamienie, R – skała, Cy – glina, Sh – muszle; na starszych mapach polskich skróty polskie (np. p – piasek, m – muł, kam – kamienie, sk – skała).",
+    "explain": "Objaśnienia wszystkich skrótów znajdziesz w publikacji INT 1 (Symbole i skróty na mapach), sekcja „Rodzaj dna”.",
+    "source": "INT 1, sekcja J – rodzaj dna",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Skrótami literowymi (np. S – piasek, M – muł, R – skała) wpisanymi przy głębokościach",
+     "wrong": [
+      "Kolorem tła akwenu – inny kolor dla każdego rodzaju dna",
+      "Nie podaje się – rodzaj dna jest tylko w locji",
+      "Szrafowaniem jak na mapach geologicznych"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-02",
+    "q": "Przy planowanym kotwicowisku na mapie widnieją skróty oznaczające skałę i kamienie. Czy to dobre miejsce do kotwiczenia?",
+    "a": "Nie. Skała i kamienie słabo trzymają kotwicę (łapy nie mają się w co wbić), a kotwica może się zaklinować. Dobrze trzymają: piasek, muł (gęsty), glina, piasek z mułem.",
+    "explain": "Przy wyborze kotwicowiska sprawdzasz na mapie głębokość, rodzaj dna, osłonę od wiatru i fali oraz brak zakazu kotwiczenia i przeszkód (kabli, rurociągów).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie – skała i kamienie słabo trzymają i grożą zaklinowaniem kotwicy",
+     "wrong": [
+      "Tak – twarde dno trzyma kotwicę najlepiej",
+      "Tak, jeśli wydamy co najmniej 30 m łańcucha",
+      "Tak, ale tylko kotwicą typu Danforth"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-03",
+    "q": "Co oznacza na mapie liczba podkreślona, np. 7₄ (podkreślone) na obszarze odsłanianym przez wodę?",
+    "a": "Osuch (drying height) – wysokość dna, które odsłania się przy niskiej wodzie, podaną NAD zerem mapy; 7₄ podkreślone = 7,4 m ponad zerem mapy.",
+    "explain": "Zwykła liczba to głębokość pod zerem mapy; podkreślenie oznacza wysokość ponad zerem mapy (teren wynurzający się). Rzeczywista głębokość wody nad osuchem = wysokość pływu − osuch.",
+    "source": "INT 1, sekcja I",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Osuch: 7,4 m ponad zerem mapy – miejsce odsłaniane przy niskiej wodzie",
+     "wrong": [
+      "Głębokość 7,4 m przy wysokiej wodzie",
+      "Wysokość wysepki nad średnią wysoką wodą",
+      "Głębokość 74 m zmierzona niepewnie"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-04",
+    "q": "Na polskiej mapie przy sondzie widzisz zapis 2₅ (mała cyfra niżej). Jaka to głębokość?",
+    "a": "2,5 m – głębokości podaje się w metrach, a mała cyfra w indeksie dolnym to decymetry (np. 3₄ = 3,4 m).",
+    "explain": "Tak samo zapisuje się głębokości na metrycznych mapach Admiralicji. Sążnie i stopy występują tylko na starych mapach – zawsze sprawdź jednostki w tytule mapy.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "2,5 m – mała cyfra w indeksie to decymetry",
+     "wrong": [
+      "25 m",
+      "2 sążnie i 5 stóp",
+      "2 m, a 5 to numer poprawki z Wiadomości Żeglarskich"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-05",
+    "q": "Czym jest mapa rastrowa i czy w nawigacji różni się od mapy papierowej?",
+    "a": "Mapa rastrowa (np. RNC) to zeskanowany obraz mapy papierowej – zawiera te same informacje i ma tę samą dokładność; w zastosowaniu nawigacyjnym praktycznie się nie różni.",
+    "explain": "Powiększanie mapy rastrowej nie dodaje szczegółów – tylko rozciąga obraz. Do nawigacji przy brzegu używaj mapy w odpowiedniej skali.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "To skan mapy papierowej – te same treści i dokładność, w nawigacji brak różnicy",
+     "wrong": [
+      "Jest dokładniejsza, bo da się ją dowolnie powiększać",
+      "Jest mniej dokładna, bo skan zniekształca obraz",
+      "Zawiera dodatkowe warstwy, które można wyłączać"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-06",
+    "q": "Czym różni się mapa wektorowa (ENC) od rastrowej?",
+    "a": "Wektorowa składa się z obiektów zapisanych w bazie danych (głębokości, znaki, linie): można wyłączać warstwy, klikać obiekty, ustawiać alarmy głębokości; rastrowa to tylko obraz (skan) mapy papierowej.",
+    "explain": "Uwaga: na mapie wektorowej przy małym powiększeniu część szczegółów jest ukryta, a „przezoomowanie” daje złudzenie dokładności większej niż dane źródłowe.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Wektorowa to baza obiektów z warstwami i alarmami; rastrowa to skan obrazu mapy",
+     "wrong": [
+      "Wektorowa to skan mapy, a rastrowa jest rysowana z bazy danych",
+      "Nie ma różnic – to dwie nazwy tej samej mapy",
+      "Wektorowa działa tylko z radarem"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-mapa",
+   "card": {
+    "id": "L4-p4-07",
+    "q": "Jak na mapach generalnych dużych obszarów podawana jest deklinacja magnetyczna?",
+    "a": "Izogonami – liniami łączącymi miejsca o jednakowej deklinacji – z opisem wartości, roku i zmiany rocznej.",
+    "explain": "Na mapach w większej skali deklinację odczytasz z róży kompasowej (wartość, rok, zmiana roczna). Izogona o deklinacji 0 to agona.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Izogonami (liniami jednakowej deklinacji) z podaną zmianą roczną",
+     "wrong": [
+      "Tylko tabliczką z jedną wartością w nagłówku mapy",
+      "Różami kompasowymi rozmieszczonymi co 1°",
+      "Nie podaje się – deklinację bierze się z locji"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-p4-08",
+    "q": "Jak na mapie odróżnisz symbol zalecanego kierunku ruchu statków od symbolu umownego kierunku oznakowania?",
+    "a": "Zalecany kierunek ruchu – strzałka (konturowa, zwykle o linii przerywanej) wzdłuż toru lub w rejonie systemu ruchu; ustalony kierunek ruchu w TSS – strzałka konturowa o linii ciągłej; umowny kierunek oznakowania IALA – osobny purpurowy symbol strzałki z kółkami.",
+    "explain": "„Zalecany” nie znaczy „nakazany” – to wskazówka. Kierunek oznakowania mówi, od której strony liczyć stronę lewą/prawą znaków bocznych (zwykle od morza do portu).",
+    "source": "INT 1, sekcje M i Q",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Zalecany kierunek ruchu: strzałka konturowa (przerywana); kierunek oznakowania: purpurowa strzałka z kółkami",
+     "wrong": [
+      "Oba oznacza się identycznie czerwoną strzałką",
+      "Zalecany kierunek ruchu oznacza nakaz – płynięcie pod prąd ruchu jest zabronione",
+      "Kierunek oznakowania pokazuje się tylko w locji, nigdy na mapie"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-p4-09",
+    "q": "Płyniesz nabieżnikiem prowadzącym do portu (stawy przed dziobem). Stawa górna (tylna) jest widoczna na prawo od dolnej (przedniej). Jak zmienić kurs?",
+    "a": "W lewo – jesteś na prawo od linii nabieżnika. Zasada: zmieniaj kurs w stronę stawy DOLNEJ (przedniej), czyli przeciwnie do strony, w którą „uciekła” stawa górna.",
+    "explain": "Bliższy obiekt przesuwa się w polu widzenia bardziej niż dalszy. Gdy zejdziesz w prawo od linii, przednia (dolna) stawa „ucieka” w lewo, a tylna (górna) wydaje się na prawo od niej – wracasz w lewo, aż stawy znów będą jedna nad drugą. Dla nabieżnika za rufą zasada jest odwrotna.",
+    "tip": "Goń dolną stawę.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "W lewo – w stronę stawy dolnej (przedniej), przeciwnie do przesunięcia stawy górnej",
+     "wrong": [
+      "W prawo – w stronę, w którą przesunęła się stawa górna",
+      "Nie zmieniać – nabieżnik zawsze wskazuje bezpieczny kurs",
+      "Zatrzymać jacht i poczekać, aż stawy się zgrają"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-locja",
+   "card": {
+    "id": "L4-p4-10",
+    "q": "Jak zamawia się mapy potrzebne na rejs?",
+    "a": "Z katalogu map (np. Admiralicji – Admiralty Catalogue, lub katalogu BHMW czy innego wydawcy) wybiera się numery map pokrywających trasę i zamawia mapy po numerach.",
+    "explain": "Numer jednoznacznie identyfikuje mapę; w katalogu mapy są pokazane jako ramki na mapkach skorowidzowych. Mapy trzeba też mieć poprawione do aktualnych Wiadomości Żeglarskich / Notices to Mariners.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Wybierając z katalogu map numery potrzebnych map i zamawiając je po numerach",
+     "wrong": [
+      "Podając dystrybutorowi tytuły i skale map",
+      "Kupując wszystkie mapy dostępne na dany akwen",
+      "Zamawiając mapy według nazw portów z locji"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-p4-11",
+    "q": "W tablicach pływów dla portu podano „Time Zone −0200”, a HW o 13:20. O której będzie HW według czasu okrętowego UTC+1?",
+    "a": "O 12:20. „Time Zone −0200” znaczy, że czasy w tablicach są w strefie UTC+2 i aby otrzymać UTC, trzeba odjąć 2 h: 13:20 − 2 h = 11:20 UTC; czas okrętowy UTC+1 → 12:20.",
+    "explain": "Znak przy „Time Zone” w Admiralty Tide Tables mówi, co zrobić z podanym czasem, by dostać UTC (−0100 → odejmij 1 h). Sprawdź też, czy tablice uwzględniają czas letni (zwykle trzeba dodać 1 h samodzielnie).",
+    "source": "Admiralty Tide Tables",
+    "difficulty": 3,
+    "mc": {
+     "correct": "12:20 (13:20 − 2 h = 11:20 UTC, + 1 h czasu okrętowego)",
+     "wrong": [
+      "11:20",
+      "13:20",
+      "15:20"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-p4-12",
+    "q": "W atlasie prądów pływowych przy strzałce stoi zapis „13,26”, a strona jest opisana „6 h po HW Dover”. Co z niego odczytasz?",
+    "a": "Sytuację ok. 6 h po wysokiej wodzie w Dover; prąd płynie w kierunku strzałki z prędkością 1,3 w przy pływie kwadraturowym i 2,6 w przy syzygijnym (przecinek oddziela dwie wartości, kropki dziesiętnej się nie pisze).",
+    "explain": "Atlas ma osobną stronę dla każdej godziny od ok. HW−6 do HW+6 w porcie odniesienia. Dla pływu pośredniego interpoluje się prędkość według skoku pływu danego dnia.",
+    "source": "Admiralty Tidal Stream Atlas",
+    "difficulty": 2,
+    "mc": {
+     "correct": "6 h po HW Dover; prąd w kierunku strzałki: 1,3 w przy kwadraturze, 2,6 w przy syzygii",
+     "wrong": [
+      "Prędkość prądu 13,26 m/min",
+      "Prąd 13 w w kwadraturze, 26 w w syzygii",
+      "Kierunek 132,6° i prędkość nieznana"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-plywy",
+   "card": {
+    "id": "L4-p4-13",
+    "q": "Masz tylko atlas prądów pływowych i mapę (bez tablic pływów). Czy ustalisz prąd na konkretną godzinę?",
+    "a": "Nie. Atlas i romby na mapie podają prąd względem godziny HW w porcie odniesienia – bez tablic pływów nie znasz momentu HW ani rodzaju pływu (syzygia/kwadratura).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie – potrzebny jest moment HW (i skok pływu) w porcie odniesienia z tablic pływów",
+     "wrong": [
+      "Tak – atlas podaje kierunek i prędkość prądu",
+      "Tak – romby na mapie wystarczą do odczytania prądu",
+      "Tak, jeśli znasz fazę Księżyca z kalendarza"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-p4-14",
+    "q": "Od czego przede wszystkim zależy wielkość dryfu (poprawki na wiatr) jachtu?",
+    "a": "Głównie od prędkości jachtu oraz siły wiatru i stanu morza (fali); ponadto od kursu względem wiatru (największy na kursach ostrych) i od kształtu kadłuba (wysoka burta, mała powierzchnia boczna podwodzia).",
+    "explain": "Wolny jacht na dużej fali i w silnym wietrze dryfuje najbardziej; szybki jacht przy słabym wietrze – prawie wcale.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Od prędkości jachtu i stanu morza (siły wiatru i fali)",
+     "wrong": [
+      "Od długości linii wodnej i wyporności",
+      "Od typu ożaglowania (slup, kecz, jol)",
+      "Od deklinacji i dewiacji kompasu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-zliczenie",
+   "card": {
+    "id": "L4-p4-15",
+    "q": "Jaki znak ma poprawka na prąd (kąt znosu) w zależności od kierunku prądu względem jachtu?",
+    "a": "Prąd z lewej burty (znosi w prawo) – poprawka „+”; prąd z prawej burty – „−”; prąd dokładnie z dziobu lub z rufy (wzdłuż kursu) – poprawka 0 (zmienia się tylko prędkość nad dnem).",
+    "explain": "Tak samo jak dla dryfu: znoszenie w prawo zwiększa kąt drogi, więc poprawka jest dodatnia.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Z lewej burty „+”, z prawej „−”, a prąd wzdłuż kursu daje poprawkę 0",
+     "wrong": [
+      "Z lewej burty „−”, z prawej „+”",
+      "Zawsze „+”, bo prąd zwiększa drogę",
+      "Z lewej „+”, z prawej „−”, a przy prądzie z rufy też „+”"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-pozycja",
+   "card": {
+    "id": "L4-p4-16",
+    "q": "Kiedy izobata (głębokość z sondy) jest przydatną linią pozycyjną?",
+    "a": "Tylko przy regularnym przebiegu dna – gdy izobaty są wyraźne, gładkie i nieliczne w rejonie; przy nieregularnym dnie (ławice, rynny) jest zawodna. Pomiar trzeba zredukować do zera mapy (pływ, zanurzenie przetwornika).",
+    "explain": "Najlepiej używać jej jako uzupełnienia: kontrola pozycji zliczonej lub „idź wzdłuż izobaty” jako linia bezpieczeństwa.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Gdy przebieg izobat (dna) jest regularny",
+     "wrong": [
+      "Zawsze – sonda mierzy z dokładnością do decymetra",
+      "Nigdy – pomiar głębokości jest zbyt niedokładny",
+      "Tylko w nocy, gdy nie widać latarni"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-pozycja",
+   "card": {
+    "id": "L4-p4-17",
+    "q": "Jak obliczyć odległość od obiektu o znanej wysokości h, mierząc sekstantem kąt pionowy α?",
+    "a": "Z tablic nawigacyjnych albo wzorem przybliżonym D[Mm] ≈ 13/7 · h[m] / α[′] (≈ 1,856 · h/α), gdzie α w minutach kątowych.",
+    "explain": "Przykład: latarnia 52 m, α = 30′ → D ≈ 1,856 · 52/30 ≈ 3,2 Mm. Wysokość z mapy podana jest nad poziom odniesienia (np. MHWS) – dolna krawędź obiektu nie może być za widnokręgiem. Wynik to okrąg pozycyjny.",
+    "tip": "Wzór: 13/7 × wysokość przez kąt (w minutach).",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Z tablic nawigacyjnych lub wzoru D[Mm] ≈ 13/7 · h[m] / α[′]",
+     "wrong": [
+      "Wzorem D = 13/7 · h · α",
+      "Wzorem D = 2,08 · √h",
+      "Tylko radarem – kąt pionowy nie daje odległości"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-urzadzenia",
+   "card": {
+    "id": "L4-p4-18",
+    "q": "Na czym polega „log burtowy”? Jacht ma 12 m, a przedmiot przepłynął wzdłuż burty w 6 s – jaka prędkość?",
+    "a": "Mierzy się czas, w jakim rzucony przy dziobie przedmiot mija całą długość burty: v[m/s] = L/t = 12/6 = 2 m/s, a v[w] ≈ 1,94 · L[m]/t[s] ≈ 3,9 w, czyli ok. 4 w.",
+    "explain": "1 węzeł ≈ 0,514 m/s, więc m/s × 2 ≈ węzły. Metoda awaryjna, gdy log nie działa.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ok. 4 węzły (12 m / 6 s = 2 m/s ≈ 3,9 w)",
+     "wrong": [
+      "Ok. 2 węzły",
+      "Ok. 6 węzłów",
+      "Ok. 12 węzłów"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-urzadzenia",
+   "card": {
+    "id": "L4-p4-19",
+    "q": "Co ma ręczna sonda i jak jest oznakowana w systemie przyjętym w Polsce?",
+    "a": "Linka z ołowianym ciężarkiem (z wgłębieniem na łój do pobrania próbki dna), oznaczona co 1 m, a co 5 m kolorowymi znakami w kolejności: niebieski (5 m), czerwony (10 m), biały (15 m), żółty (20 m) – „niebo, dach, ściana, piach”.",
+    "explain": "Sonda ręczna przydaje się przy awarii echosondy, przy kotwiczeniu i do sprawdzenia rodzaju dna.",
+    "tip": "Niebo – dach – ściana – piach.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Znaki co 1 m, a co 5 m kolorowe: niebieski–czerwony–biały–żółty",
+     "wrong": [
+      "Węzły co 5 m bez kolorów",
+      "Węzły co 1 m, wszystkie jednakowe",
+      "Kolorowe znaki co 10 m: czerwony–zielony–żółty"
+     ]
+    }
+   }
+  },
+  {
+   "level": 4,
+   "lesson": "L4-urzadzenia",
+   "card": {
+    "id": "L4-p4-20",
+    "q": "Po naciśnięciu MOB na ploterze – która informacja jest najbardziej przydatna przy powrocie do rozbitka?",
+    "a": "Namiar (kurs) i odległość do zapisanego punktu wypadnięcia, aktualizowane na bieżąco – prowadzą jacht z powrotem w rejon rozbitka.",
+    "explain": "Pamiętaj, że rozbitek dryfuje z wiatrem i prądem, a punkt MOB stoi w miejscu – w rejonie punktu szukaj wzrokiem, a pozycję MOB podaj w wezwaniu przez radio.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Namiar i odległość do punktu wypadnięcia człowieka",
+     "wrong": [
+      "Współrzędne geograficzne punktu wypadnięcia",
+      "Aktualna pozycja, kurs i prędkość jachtu",
+      "Godzina naciśnięcia przycisku MOB"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-przyrzady",
+   "card": {
+    "id": "L5-p4-01",
+    "q": "Gdzie na jachcie umieścić termometr do pomiaru temperatury powietrza?",
+    "a": "W miejscu zacienionym i przewiewnym, z dala od źródeł ciepła (silnik, kuchenka, nagrzany pokład, kabina).",
+    "difficulty": 1,
+    "mc": {
+     "correct": "W miejscu zacienionym, z dala od źródeł ciepła",
+     "wrong": [
+      "Obojętnie gdzie, byle był zabezpieczony przed uszkodzeniem",
+      "W kabinie przy nawigacji, by łatwo go odczytać",
+      "Na pokładzie w pełnym słońcu, by szybko reagował"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-przyrzady",
+   "card": {
+    "id": "L5-p4-02",
+    "q": "Wiatromierz pokazuje tylko wiatr pozorny. Czy da się ustalić wiatr rzeczywisty?",
+    "a": "Tak, jeśli znasz prędkość (z logu) i kurs jachtu: wiatr rzeczywisty to wektor wiatru pozornego pomniejszony o wektor ruchu jachtu – z trójkąta wektorów lub automatycznie w instrumencie połączonym z logiem.",
+    "explain": "Przy kursie pod wiatr wiatr pozorny jest silniejszy i bardziej z dziobu niż rzeczywisty; z wiatrem (baksztag, fordewind) – słabszy.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tak – mając prędkość jachtu (log) i kurs, z trójkąta wektorów",
+     "wrong": [
+      "Nie – z wiatru pozornego nie da się tego obliczyć",
+      "Tak – wystarczą tablice, bez znajomości prędkości jachtu",
+      "Tak – wiatr rzeczywisty jest zawsze o 2°B silniejszy"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-przyrzady",
+   "card": {
+    "id": "L5-p4-03",
+    "q": "Jak w przybliżeniu przeliczyć prędkość wiatru w węzłach na stopnie Beauforta?",
+    "a": "Wzorem °B ≈ (węzły + 5) / 5, np. 20 w → 5°B, 10 w → 3°B (dobry dla wiatrów do ok. 7–8°B).",
+    "explain": "Druga przydatna reguła: m/s ≈ węzły / 2.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "°B ≈ (węzły + 5) / 5",
+     "wrong": [
+      "°B ≈ węzły / 3",
+      "Nie da się – tylko z tablic",
+      "Przez m/s: każde 3 m/s to 1°B"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-przyrzady",
+   "card": {
+    "id": "L5-p4-04",
+    "q": "W jakich jednostkach podaje się prędkość wiatru w komunikatach meteorologicznych?",
+    "a": "Zależy od kraju i nadawcy – najczęściej w stopniach Beauforta lub w m/s (np. Szwecja, Finlandia podają m/s), czasem w węzłach (pliki GRIB, raporty lotnicze).",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Zależnie od kraju – najczęściej w °B lub w m/s",
+     "wrong": [
+      "Zawsze w stopniach Beauforta",
+      "Zawsze w km/h",
+      "Zawsze w węzłach – to standard morski"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-uklady",
+   "card": {
+    "id": "L5-p4-05",
+    "q": "Jak wieje wiatr przyziemny wokół niżu na półkuli północnej względem izobar?",
+    "a": "Przeciwnie do ruchu wskazówek zegara, ale nie równolegle do izobar – tarcie o powierzchnię odchyla go do środka niżu o ok. 20–40° (mniej nad morzem, więcej nad lądem).",
+    "explain": "Na wysokości (bez tarcia) wiatr wieje prawie wzdłuż izobar – to wiatr geostroficzny. Przy powierzchni jest też słabszy.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Przeciwnie do wskazówek zegara, odchylony od izobar o ok. 20–40° do środka niżu",
+     "wrong": [
+      "Dokładnie wzdłuż izobar, bez odchylenia",
+      "Prostopadle do izobar wprost do środka niżu",
+      "Od środka niżu na zewnątrz"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-uklady",
+   "card": {
+    "id": "L5-p4-06",
+    "q": "W prognozie słyszysz: „niż znad Danii pogłębia się i szybko przemieszcza na wschód”. Czego spodziewać się nad Zatoką Gdańską w najbliższej dobie?",
+    "a": "Wzrostu siły wiatru (niż się pogłębia, gradient rośnie) z kierunków zachodnich – po przejściu niżu wiatr skręca przez SW i W na NW.",
+    "explain": "Pogłębianie = spadek ciśnienia w centrum = silniejszy wiatr. Gdy niż przechodzi na północ od nas lub nad nami na wschód, za nim napływa chłodne powietrze z silnym wiatrem z sektora zachodniego.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Rosnącej siły wiatru z kierunków zachodnich",
+     "wrong": [
+      "Słabnących wiatrów ze wschodu",
+      "Słabych wiatrów północnych i ciszy",
+      "Bez zmian – niż nad Danią nie wpływa na Bałtyk"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-morze",
+   "card": {
+    "id": "L5-p4-07",
+    "q": "Czym jest skala Petersena i jak ma się do skali Beauforta?",
+    "a": "To opis wyglądu powierzchni morza (fale, grzywacze, piana) przypisany kolejnym stopniom Beauforta – obie skale są ściśle powiązane: po wyglądzie morza ocenia się siłę wiatru w °B.",
+    "explain": "Nie myl ze skalą Douglasa, która opisuje stan morza (wysokość fali) niezależnie od siły wiatru.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Opis stanu morza dla kolejnych stopni Beauforta – skale są ściśle powiązane",
+     "wrong": [
+      "To całkowicie odrębna skala, niezwiązana z wiatrem",
+      "To inna nazwa skali Beauforta – mierzą to samo",
+      "To skala zachmurzenia w oktantach"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-p4-08",
+    "q": "Co to są pliki GRIB i co jest potrzebne, by korzystać z nich na jachcie?",
+    "a": "Skompresowane dane z numerycznych modeli pogody (wiatr, ciśnienie, fala, opady) na siatce punktów i na kilka dni naprzód. Potrzebny komputer/tablet z programem do ich wyświetlania i łącze: internet (w porcie, GSM), łączność satelitarna lub radio KF/SSB z modemem (poczta radiowa).",
+    "explain": "GRIB to „surowy” wynik modelu – wygładza fronty, szkwały i porywy, a jego wiarygodność maleje po 3–5 dniach. Traktuj go jako uzupełnienie oficjalnych prognoz i ostrzeżeń.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Dane modelu pogody na kilka dni; potrzebny komputer i łącze (radio KF z modemem, satelita lub internet)",
+     "wrong": [
+      "Specjalny odbiornik GRIB montowany zamiast NAVTEX-u",
+      "Tylko radio VHF – pliki nadają stacje brzegowe na kanale 16",
+      "Nie da się ich odebrać na morzu – tylko przed wyjściem"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-p4-09",
+    "q": "W prognozie NAVTEX czytasz: „SOUTHWEST 5 TO 6, BECOMING WEST 7 LATER”. Co to znaczy?",
+    "a": "Wiatr z SW o sile 5–6°B (TO = zakres „od…do”), później (LATER) zmieniający się (BECOMING) na W 7°B.",
+    "explain": "Inne zwroty: OCCASIONALLY – chwilami, VEERING – skręt w prawo, BACKING – skręt w lewo, IMMINENT – w ciągu 6 h, SOON – 6–12 h, LATER – po ponad 12 h.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Wiatr SW 5–6°B, później zmieniający się na W 7°B",
+     "wrong": [
+      "Wiatr SW 5°B, potem 6°B, stan morza 7",
+      "Wiatr z SW, widzialność 5–6 Mm, później 7 Mm",
+      "Wiatr wiejący w kierunku SW 5–6°B, po 7 godzinach W"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-p4-10",
+    "q": "W jakiej kolejności podawane są elementy w prognozie dla rejonu (np. NAVTEX, Met Office)?",
+    "a": "Nazwa rejonu, wiatr (kierunek i siła w °B, zmiany), stan morza (np. MODERATE, ROUGH), pogoda (RAIN, SHOWERS), widzialność (GOOD, MODERATE, POOR). Nagłówek prognozy podaje okres ważności (np. na 12 lub 24 h).",
+    "explain": "Słowo MODERATE może dotyczyć stanu morza (po wietrze) albo widzialności (na końcu) – rozpoznasz po miejscu w zdaniu. Nazwy rejonów (np. German Bight, Fisher, Southern Baltic) znajdziesz w spisie radiostacji / na mapce rejonów.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Rejon – wiatr – stan morza – pogoda – widzialność",
+     "wrong": [
+      "Widzialność – pogoda – wiatr – rejon",
+      "Ciśnienie – temperatura – wiatr",
+      "Stan morza – rejon – wiatr – zachmurzenie"
+     ]
+    }
+   }
+  },
+  {
+   "level": 5,
+   "lesson": "L5-komunikaty",
+   "card": {
+    "id": "L5-p4-11",
+    "q": "Jak odczytać wiatr z meteogramu ICM (meteo.pl)?",
+    "a": "Oś pozioma to czas (kolejne godziny prognozy); w panelu wiatru wykres pokazuje prędkość (w m/s, często z porywami), a symbole/strzałki dla kolejnych godzin – kierunek. Prędkość przeliczasz na °B.",
+    "explain": "Meteogram pokazuje prognozę dla jednego punktu (miejscowości) – na morzu wiatr bywa silniejszy niż w punkcie lądowym. Zwróć uwagę na strefę czasu (UTC/czas lokalny) podaną na osi.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Oś pozioma – czas; wykres – prędkość wiatru w m/s; symbole – kierunek w kolejnych godzinach",
+     "wrong": [
+      "Oś pozioma – kierunek, oś pionowa – siła w °B",
+      "Meteogram podaje tylko ciśnienie i temperaturę",
+      "Wiatr odczytuje się z koloru tła wykresu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 3,
+   "lesson": "L3-sygnaly",
+   "card": {
+    "id": "L3-p4-01",
+    "q": "Jacht zbliża się do wejścia do kanału; wychodzący z niego statek na wprost daje dwa krótkie dźwięki. Co robi jacht?",
+    "a": "Utrzymuje swój kurs i obserwuje – dwa krótkie oznaczają „zmieniam kurs w lewo”, więc statek sam schodzi z kolizyjnego kursu. Zwrot jachtu w prawo zbliżyłby go do statku.",
+    "explain": "Statki idące na wprost mijają się lewymi burtami; statek skręcający w swoją lewo przechodzi na prawą stronę jachtu (patrząc od jachtu). W wąskim przejściu jacht i tak nie może utrudniać przejścia statkowi.",
+    "source": "MPZZ, prawidło 34",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Utrzymuje kurs – statek zmienia kurs w lewo i schodzi z drogi",
+     "wrong": [
+      "Zmienia kurs w prawo",
+      "Zatrzymuje się i rzuca kotwicę",
+      "Odpowiada dwoma krótkimi i też skręca w lewo"
+     ]
+    }
+   }
+  },
+  {
+   "level": 3,
+   "lesson": "L3-swiatla",
+   "card": {
+    "id": "L3-p4-02",
+    "q": "Statek rybacki ma dodatkowo dwa żółte światła jedno nad drugim, migające na przemian. Co to oznacza i jak go minąć?",
+    "a": "Statek łowiący okrężnicą, któremu sieć utrudnia manewrowanie (Załącznik II MPZZ). Sieć zatacza duży krąg – mijaj go w dużej odległości (rzędu 1 Mm).",
+    "explain": "Żółte światła migają na przemian co ok. 1 s. Załącznik II dotyczy też trawlerów (np. biały+czerwony = wybieranie sieci) – to sygnały dodatkowe przy łowieniu blisko innych statków.",
+    "source": "MPZZ, Załącznik II",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Statek łowiący okrężnicą – mijać w dużej odległości (ok. 1 Mm)",
+     "wrong": [
+      "Statek na mieliźnie – minąć za rufą",
+      "Pilotówka – zatrzymać się i czekać",
+      "Statek holujący – przejść za rufą holu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 2,
+   "lesson": "L2-mpzz",
+   "card": {
+    "id": "L2-p4-01",
+    "q": "Czy jacht może płynąć torem kierunkowym systemu rozgraniczenia ruchu (TSS)?",
+    "a": "Tak, zgodnie z ogólnym kierunkiem ruchu, ale statek o długości < 20 m i statek żaglowy nie mogą utrudniać bezpiecznego przejścia statkom o napędzie mechanicznym płynącym torem kierunkowym.",
+    "explain": "Dla małych jachtów zwykle wygodniejsza i bezpieczniejsza jest strefa ruchu przybrzeżnego.",
+    "source": "MPZZ, prawidło 10(j)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tak, ale jacht < 20 m lub żaglowy nie może utrudniać przejścia statkom mechanicznym na torze",
+     "wrong": [
+      "Nie – jachtom wolno tylko w strefie ruchu przybrzeżnego",
+      "Tak, bez żadnych ograniczeń – jacht żaglowy ma tam pierwszeństwo",
+      "Tylko na silniku i przy widzialności powyżej 2 Mm"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-srodladowe",
+   "card": {
+    "id": "L7-p4-01",
+    "q": "Wody śródlądowe: statek nadaje serię podwójnych krótkich dźwięków. Co to znaczy?",
+    "a": "„Człowiek za burtą”.",
+    "explain": "Na wodach morskich nie ma takiego sygnału dźwiękowego – to specyfika przepisów śródlądowych.",
+    "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – sygnały dźwiękowe",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Człowiek za burtą",
+     "wrong": [
+      "Nie mogę manewrować",
+      "Niebezpieczeństwo zderzenia",
+      "Pracuję śrubą wstecz"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-srodladowe",
+   "card": {
+    "id": "L7-p4-02",
+    "q": "Wymień śródlądowe sygnały dźwiękowe: 1 długi, 4 krótkie, seria bardzo krótkich, powtarzane długie.",
+    "a": "1 długi – „uwaga”; 4 krótkie – „nie mogę manewrować”; seria bardzo krótkich – „niebezpieczeństwo zderzenia”; powtarzane długie (lub uderzenia w dzwon) – wzywanie pomocy. Jak na morzu: 1 krótki – w prawo, 2 krótkie – w lewo, 3 krótkie – pracuję wstecz.",
+    "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – sygnały dźwiękowe",
+    "difficulty": 3,
+    "mc": {
+     "correct": "1 długi – uwaga; 4 krótkie – nie mogę manewrować; bardzo krótkie – niebezpieczeństwo; długie – pomoc",
+     "wrong": [
+      "4 krótkie – człowiek za burtą; seria bardzo krótkich – mgła",
+      "1 długi – zmieniam kurs w prawo; 4 krótkie – kotwiczę",
+      "Seria bardzo krótkich – wyprzedzam; powtarzane długie – wchodzę do śluzy"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-srodladowe",
+   "card": {
+    "id": "L7-p4-03",
+    "q": "Wody śródlądowe: czy statek pasażerski krótszy niż 20 m jest „małym statkiem”?",
+    "a": "Nie (jeśli jest dopuszczony do przewozu więcej niż 12 pasażerów). Mały statek to statek o długości kadłuba < 20 m, ale niezależnie od wymiarów nie są nimi: statki dopuszczone do przewozu > 12 pasażerów, promy oraz statki przystosowane do prowadzenia zestawów holowanych, pchanych lub sprzężonych (holowniki, pchacze).",
+    "explain": "Ma to znaczenie dla prawa drogi: małe statki (np. jachty) ustępują statkom niebędącym małymi.",
+    "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – definicje",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie – statek dopuszczony do przewozu ponad 12 pasażerów nie jest małym statkiem",
+     "wrong": [
+      "Tak – decyduje wyłącznie długość poniżej 20 m",
+      "Tak, ale tylko w dzień",
+      "Jest „statkiem motorowym”, a to kategoria równoważna małemu statkowi"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-srodladowe",
+   "card": {
+    "id": "L7-p4-04",
+    "q": "Wody śródlądowe: stojący statek (przy pracy lub na mieliźnie) ma z jednej burty flagę czerwono-białą, z drugiej czerwoną. Którędy go minąć?",
+    "a": "Od strony flagi (tablicy) czerwono-białej – tam szlak jest wolny; flaga czerwona oznacza stronę zamkniętą dla żeglugi.",
+    "explain": "W nocy (wg podręcznika): po stronie wolnej światła czerwone nad białym, po stronie zamkniętej światło czerwone. Jeśli statek żąda ochrony przed falowaniem – zwolnij, mijając go.",
+    "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – oznakowanie statków przy pracy",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Od strony flagi czerwono-białej (strona wolna)",
+     "wrong": [
+      "Od strony flagi czerwonej",
+      "Nie wolno go mijać – trzeba czekać",
+      "Dowolną stroną, byle wolno"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-05",
+    "q": "Port pływowy z basenem za śluzą (wrotami). Kiedy najkorzystniej zaplanować podejście?",
+    "a": "Ok. 1 godziny przed wysoką wodą – śluzy/wrota takich portów pracują zwykle w okolicy HW, a podejście przed HW daje zapas głębokości i czasu (woda jeszcze przybywa).",
+    "explain": "Godziny otwarcia śluzy (np. „HW −2 h do HW +1 h”) podaje locja/almanach – sprawdź je przy planowaniu.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ok. 1 h przed wysoką wodą w tym porcie",
+     "wrong": [
+      "Ok. 1 h po wysokiej wodzie",
+      "Blisko niskiej wody",
+      "O dowolnej porze – śluza działa całą dobę niezależnie od pływu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-06",
+    "q": "Planujesz przejście pod żaglami Świnoujście–Karlskrona (KD ≈ 030°). Teraz wieje N 6–7, na kolejną dobę prognoza WNW 4–5. Kiedy wyjść?",
+    "a": "Odczekać kilkanaście godzin na zmianę wiatru – N 6–7 to silny wiatr prawie z dziobu (halsówka, fala), a WNW 4–5 da wygodny półwiatr na kursie 030°.",
+    "explain": "Okno pogodowe dobiera się, porównując kierunek wiatru z planowanym kursem i przewidywaną siłą wiatru w całym czasie przejścia.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Odczekać kilkanaście godzin na zapowiadaną zmianę na WNW 4–5",
+     "wrong": [
+      "Wyjść jak najszybciej",
+      "Odczekać co najmniej 48 godzin",
+      "Wyjść od razu, ale na silniku pod wiatr"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-07",
+    "q": "O ile wydłuża się droga przy halsowaniu dokładnie pod wiatr?",
+    "a": "Droga rośnie 1/cos(½ kąta martwego): przy kącie martwym 90° (45° do wiatru) ≈ 1,41 × (+41%), przy 120° (60° do wiatru) = 2 × (+100%).",
+    "explain": "Przykład: cel 20 Mm pod wiatr, jacht turystyczny z kątem martwym ok. 120° – licz ok. 40 Mm drogi po wodzie, a do tego dryf i prądy.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "1/cos połowy kąta martwego: 90° → ok. +40%, 120° → ok. +100%",
+     "wrong": [
+      "Zawsze ok. +20%, niezależnie od jachtu",
+      "Przy kącie martwym 120° – ok. +60%",
+      "Nie wydłuża się – zmienia się tylko czas"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-08",
+    "q": "Jacht, którego kąt martwy wynosi ok. 120°, musi halsować dokładnie pod wiatr. Z jakim wydłużeniem drogi trzeba się liczyć?",
+    "a": "Ok. 100% (droga dwukrotnie dłuższa) – jacht płynie 60° od wiatru, a 1/cos 60° = 2.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ok. 100% (droga ok. 2 razy dłuższa)",
+     "wrong": [
+      "Ok. 40%",
+      "Ok. 60%",
+      "Ok. 20%"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-09",
+    "q": "Planujesz tygodniowy przelot bez możliwości odbioru prognoz na morzu. Jakie dane pogodowe zabrać?",
+    "a": "Pobrane przed wyjściem prognozy na cały przelot: pliki GRIB i prognostyczne mapy pogody na ok. 7 dni (wydrukowane lub zapisane w komputerze); na morzu uzupełnia się je własnymi obserwacjami (barometr, chmury, wiatr).",
+    "explain": "Im dalszy termin prognozy, tym mniejsza jej wiarygodność – po 4–5 dniach traktuj ją jako orientacyjną.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Pliki GRIB i prognostyczne mapy pogody na ok. 7 dni pobrane przed wyjściem",
+     "wrong": [
+      "Tylko bieżącą mapę pogody z portu wyjścia",
+      "Miesięczne mapy klimatyczne akwenu",
+      "Wystarczy obserwacja nieba i barometru"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p4-10",
+    "q": "Co jest najważniejsze przy planowaniu długich (oceanicznych) przelotów?",
+    "a": "Realna prędkość jachtu pod żaglami, prądy stałe na akwenie i długoterminowe (klimatyczne) dane meteorologiczne – np. z map routeingowych (pilot charts) i locji oceanicznych (Ocean Passages for the World).",
+    "explain": "Mapy routeingowe podają dla każdego miesiąca rozkład wiatrów, prądów, częstość sztormów i zasięg lodu – na ich podstawie wybiera się trasę i porę roku.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Prędkość jachtu pod żaglami, prądy stałe i długoterminowe dane meteo",
+     "wrong": [
+      "Prądy pływowe i skok pływu na trasie",
+      "Lista portów z warsztatami",
+      "Aktualna prognoza z dnia wyjścia – wystarcza na cały przelot"
+     ]
+    }
+   }
+  }
+ ],
+ "newLessons": [],
+ "notes": "Do weryfikacji: (1) Polskie skróty rodzaju dna (p, m, kam, sk) – na obecnych mapach BHMW stosuje się głównie skróty INT (S, M, R, St). (2) Pyt. 66 (nabieżnik): w gaps-4 uzasadnienie podaje regułę „płyń w stronę stawy górnej” – geometrycznie poprawna jest reguła odwrotna (płyń w stronę stawy dolnej/przedniej; tylna stawa widoczna z prawej = jesteś na prawo od linii = zmień kurs w lewo). Karta uczy reguły geometrycznej; klucz A zależy od zaginionego rysunku. (3) Symbol umownego kierunku oznakowania (purpurowa strzałka z kółkami, INT 1 Q130) i rozróżnienie strzałek zalecany/ustalony kierunek ruchu (INT 1 M) – sprawdzić z aktualnym INT 1. (4) Sygnały śródlądowe (seria podwójnych krótkich = człowiek za burtą) i oznakowanie statków przy pracy (flaga czerwono-biała / czerwona; nocą czerwone nad białym) wzięto z podręcznika (stare przepisy 2003); obecne przepisy żeglugowe na śródlądowych drogach wodnych (wzorowane na CEVNI) mogą przewidywać po stronie wolnej dwa zielone światła / dwa zielone stożki podwójne – zweryfikować i ewentualnie poprawić explain. (5) Kąt odchylenia wiatru przyziemnego od izobar: przyjęto 20–40° jak w pytaniu egzaminacyjnym (literatura podaje też ok. 10–20° nad morzem). (6) Kolory sondy ręcznej (5 m niebieski, 10 m czerwony, 15 m biały, 20 m żółty) – z klucza PZŻ, w podręczniku brak opisu. (7) Meteogram ICM – opis układu ogólny (oś czasu, prędkość w m/s, symbole kierunku); szczegółowy wygląd panelu wiatru (strzałki vs chorągiewki) nie sprawdzony. (8) Pyt. 82 i 88 wymagają rysunków – karty uczą umiejętności odczytu, nie konkretnej odpowiedzi."
+}

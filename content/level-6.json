@@ -142,6 +142,28 @@
      "a": "Odcina linkę operacyjną i oddala się od jachtu, zamyka wejście, zbiera z wody przydatne przedmioty, wyrzuca dryfkotwę, organizuje obserwację, chroni się przed zimnem i wilgocią, racjonuje wodę; pirotechnikę zużywa tylko, gdy ktoś może ją zobaczyć.",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 9.6.2 Opuszczanie jachtu morskiego"
+    },
+    {
+     "id": "L6-p3-01",
+     "q": "Co – poza szkoleniem alarmowym – jest najważniejsze w zapoznaniu nowej załogi z jachtem przed wyjściem w morze?",
+     "a": "Praktyczna obsługa jachtu: stawianie, zrzucanie i refowanie żagli, obsługa urządzeń kotwicznych i uruchamianie silnika.",
+     "explain": "Od tego zależy, czy załoga w razie potrzeby szybko zmniejszy żagiel, rzuci kotwicę albo uruchomi silnik – np. przy szkwale, awarii czy zbliżaniu się do brzegu. Elektronika i wygody są drugorzędne.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-02",
+     "q": "Którą burtą bezpieczniej przechodzić po pokładzie jachtu w czasie żeglugi?",
+     "a": "Nawietrzną (wyższą) – jest mniej zalewana, a przechył dociska człowieka do jachtu, zamiast zsuwać go za burtę.",
+     "explain": "Po zawietrznej pokład jest nisko, zalewa go fala, a upadek kończy się na relingu albo za burtą. Zasada: poruszać się nisko, „jedna ręka dla siebie, druga dla jachtu”, wpiętym szelkami do lajfliny.",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-03",
+     "q": "Jesteś w wodzie, a kamizelka pneumatyczna się nie napełniła. Co robisz?",
+     "a": "Najpierw szarpnij za uchwyt ręcznego wyzwalania naboju; jeśli to nie pomoże – wyjmij spod pokrowca rurkę z ustnikiem i napełnij kamizelkę ustami.",
+     "explain": "Każda kamizelka pneumatyczna ma rurkę do napełniania ustnego (z zaworem zwrotnym). Służy też do dopompowania kamizelki. Wymiana naboju w wodzie nie wchodzi w grę.",
+     "source": "Instrukcje producentów kamizelek; EN ISO 12402",
+     "difficulty": 1
     }
    ]
   },
@@ -329,6 +351,62 @@
      "a": "Wyłączyć blokadę szumów (squelch), by nie przegapić słabych sygnałów, i ustawić pełną moc nadajnika (25 W).",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 8.5.2 Łączność niebezpieczeństwa"
+    },
+    {
+     "id": "L6-p3-20",
+     "q": "Co oznacza przycisk „DW” na radiotelefonie VHF?",
+     "a": "Dual Watch – podwójny nasłuch: kanału 16 i jednego wybranego kanału roboczego (radio przełącza się między nimi).",
+     "explain": "Podobnie TW (Tri Watch) – nasłuch kanału 16, wybranego kanału roboczego i dodatkowego kanału (np. wywoławczego). Moc przełącza się przyciskiem H/L (1 W / 25 W).",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-21",
+     "q": "Na jaki zasięg radiotelefonu VHF (UKF) można liczyć przy łączności z jachtu?",
+     "a": "Ze stacją brzegową – ok. 30–40 Mm (wysoko położone anteny); jacht–jacht – ok. 10–15 Mm; radio ręczne – kilka mil.",
+     "explain": "Fale UKF rozchodzą się prawie prostoliniowo – zasięg zależy przede wszystkim od wysokości obu anten (horyzont radiowy), a mniej od mocy nadajnika.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-22",
+     "q": "Na jakich częstotliwościach prowadzi się fonią korespondencję w niebezpieczeństwie na falach średnich (MF) i na VHF?",
+     "a": "MF – 2182 kHz; VHF – kanał 16.",
+     "tip": "Na „,5” i na kanale 70 się nie mówi – tam pracuje cyfrowe DSC.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-23",
+     "q": "Do czego służy częstotliwość 2187,5 kHz?",
+     "a": "Do alarmów i wywołań cyfrowych DSC na falach średnich (MF) – odpowiednik kanału 70 na VHF. Fonia w niebezpieczeństwie na MF – 2182 kHz.",
+     "explain": "Para: DSC 2187,5 kHz → fonia 2182 kHz (MF); DSC kanał 70 → fonia kanał 16 (VHF). NAVTEX nadaje na 518 kHz.",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p3-24",
+     "q": "Ile razy radiotelefon nada alarm DSC po wciśnięciu przycisku DISTRESS?",
+     "a": "Będzie go automatycznie powtarzał co kilka minut (ok. 3,5–4,5 min), aż alarm zostanie potwierdzony przez stację brzegową albo przerwany przez operatora.",
+     "explain": "Po wysłaniu alarmu radio przełącza się na kanał 16 – trzeba tam nadać fonią MAYDAY i czekać na odpowiedź.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-25",
+     "q": "Członek załogi przypadkowo wysłał alarm DSC DISTRESS. Co robisz?",
+     "a": "Przerywasz powtarzanie alarmu (funkcja anulowania lub krótkie wyłączenie radia), a potem od razu nadajesz fonią na kanale 16: ALL STATIONS ×3, THIS IS nazwa ×3, znak, MMSI, CANCEL MY DISTRESS ALERT OF data, godzina UTC.",
+     "explain": "Odwołanie kieruje się do wszystkich stacji, bez czekania na wywołanie. Nie wyłącza się radia na dłużej – ratownicy mogą chcieć potwierdzić odwołanie na kanale 16.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-26",
+     "q": "Na kanale 16 ogłoszono SEELONCE MAYDAY. Czy możesz wywołać marinę na jej kanale roboczym (np. 69)?",
+     "a": "Tak – cisza radiowa dotyczy tylko kanału, na którym trwa korespondencja w niebezpieczeństwie (tu kanału 16).",
+     "explain": "Na kanale 16 wolno wtedy nadawać tylko stacjom biorącym udział w akcji. Z mariną łączysz się bezpośrednio na jej kanale, nie wywołując jej na 16.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-27",
+     "q": "Czym różni się wezwanie w niebezpieczeństwie od zawiadomienia w niebezpieczeństwie?",
+     "a": "Wezwanie (distress call) to MAYDAY ×3, THIS IS i identyfikacja jednostki (nazwa ×3, znak, MMSI). Zawiadomienie (distress message) to treść: MAYDAY, identyfikacja, pozycja, rodzaj niebezpieczeństwa, potrzebna pomoc, liczba osób, inne informacje.",
+     "explain": "Wezwanie i zawiadomienie nadaje się kolejno w jednym ciągu. Przekazanie cudzego niebezpieczeństwa to MAYDAY RELAY.",
+     "difficulty": 2
     }
    ]
   },
@@ -461,6 +539,27 @@
      "a": "Z daleka: linia 12 kropek; z ok. 1 Mm kropki przechodzą w łuki; z bardzo bliska (poniżej ok. 0,1 Mm) – w koncentryczne koła. SART montuje się min. 1 m nad wodą (wykrycie ze statku ok. 5 Mm, z samolotu na 1000 m – ok. 40 Mm).",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – 8.4.2 Transponder radarowy (SART)"
+    },
+    {
+     "id": "L6-p3-17",
+     "q": "Czy uruchomienie radiopławy EPIRB daleko od lądu na pewno zaalarmuje ratowników?",
+     "a": "Nie jest to pewne – zależy od typu radiopławy: EPIRB 406 MHz jest odbierany przez satelity na całym świecie, ale radiopława tylko 121,5 MHz nie jest już odbierana przez satelity i działa jedynie z bliska.",
+     "explain": "Satelity COSPAS-SARSAT przestały przetwarzać sygnały 121,5 MHz w 2009 r. Dziś 121,5 MHz służy tylko do naprowadzania ratowników z bliska. Skuteczność zależy też od rejestracji, baterii i poprawnego uruchomienia.",
+     "source": "COSPAS-SARSAT",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-18",
+     "q": "Czym różnią się sygnały 406 MHz i 121,5 MHz w radiopławie EPIRB?",
+     "a": "406 MHz – alarm z identyfikatorem (i pozycją GPS) przez satelity COSPAS-SARSAT; 121,5 MHz – słaby sygnał naprowadzający dla ratowników w pobliżu (namierzanie).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-19",
+     "q": "Co sprawdzić w radiopławie EPIRB przed rejsem?",
+     "a": "Rejestrację na jacht (aktualne dane), datę ważności baterii i zwalniacza hydrostatycznego, poprawne zamocowanie i zabezpieczenie przed przypadkowym uruchomieniem, test funkcją SELF-TEST.",
+     "explain": "Test robi się wyłącznie przyciskiem TEST – nie wysyła on alarmu. Niezarejestrowana radiopława wydłuża identyfikację, a w razie fałszywego alarmu ratownicy nie mają z kim się skontaktować.",
+     "difficulty": 2
     }
    ]
   },
@@ -720,6 +819,42 @@
      "a": "Ogień na dziobie – kurs pełny (z wiatrem); na śródokręciu – półwiatr; na rufie – kurs ostry. Chodzi o to, by wiatr odpychał ogień od reszty jachtu. Gaśnicę kieruje się od strony nawietrznej.",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – 9.5 Pożar na jachcie"
+    },
+    {
+     "id": "L6-p2-a2-07",
+     "q": "Pękło okucie mocujące sztag. Co robisz?",
+     "a": "Odpadasz na pełny baksztag lub fordewind (grot i achtersztag ciągną maszt do tyłu), zrzucasz przednie żagle, zakładasz zastępczy sztag z fałów (do okucia na dziobie) i napinasz go, sprawdzasz, czy da się wpiąć sztag w inne okucie. Potem decydujesz o dalszej żegludze (najbliższy port).",
+     "explain": "Sztag trzyma maszt od przodu. Na kursie z wiatrem obciążenie masztu przenosi się do tyłu (na achtersztag), więc maszt nie poleci do rufy. Na kursie ostrym lub przy zwrocie maszt łatwo złamać.",
+     "source": "Żeglarz i sternik morski – awarie takielunku",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p2-a2-08",
+     "q": "Zauważasz pęknięte druty w wancie po nawietrznej. Co robisz w pierwszej kolejności?",
+     "a": "Natychmiast robisz zwrot, aby uszkodzona wanta znalazła się po zawietrznej (bez obciążenia). Potem zrzucasz żagle, zakładasz prowizoryczną wantę (np. z fału) i po ocenie sytuacji płyniesz na silniku do portu.",
+     "explain": "Nawietrzna wanta przenosi całą siłę żagli – może pęknąć w każdej chwili i maszt spadnie. Po zawietrznej jest luźna. Zasada: uszkodzony element olinowania zawsze odciąża się zmianą kursu lub halsu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p2-a2-09",
+     "q": "Jak zmienić kurs, by odciążyć uszkodzony element olinowania stałego: sztag, achtersztag, wantę?",
+     "a": "Sztag – odpaść z wiatrem (baksztag/fordewind). Achtersztag – wyostrzyć (bajdewind), by fok trzymał maszt do przodu. Wanta nawietrzna – zwrot, by była po zawietrznej.",
+     "explain": "Zawsze ustawia się jacht tak, by żagle i wiatr pchały maszt w stronę przeciwną do uszkodzonego elementu, a następnie zakłada się olinowanie zastępcze z fałów.",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p3-04",
+     "q": "Jak gasi się gaśnicą pożar w zamkniętej komorze silnika?",
+     "a": "Wyłączyć silnik (i odciąć paliwo), tylko lekko uchylić pokrywę lub użyć otworu gaśniczego i od razu podać środek gaśniczy do środka.",
+     "explain": "Szeroko otwarta pokrywa to nagły dopływ tlenu – ogień może buchnąć na ratującego. Zamknięta komora ogranicza tlen, a środek gaśniczy zostaje w środku. Wody nie używa się na palące się paliwo.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-05",
+     "q": "Do czego służy mały otwór (lub zaślepka) w obudowie komory silnika na jachcie?",
+     "a": "To otwór gaśniczy – pozwala podać środek gaśniczy (np. CO₂ lub proszek) do komory bez jej otwierania.",
+     "explain": "Gdzie nie ma otworu gaśniczego ani instalacji automatycznej, pokrywę uchyla się tylko na tyle, by wsunąć wylot gaśnicy.",
+     "difficulty": 2
     }
    ]
   },
@@ -830,6 +965,41 @@
      "a": "Masztem w stronę lądu – fala uderza wtedy w dno i burtę, a nie zalewa kokpitu i nadbudówki.",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – Żegluga w niebezpiecznych warunkach – sztrandowanie"
+    },
+    {
+     "id": "L6-p2-a2-10",
+     "q": "Przy silnym wietrze trzeba zmniejszyć żagiel przedni. Co jest lepsze: mocno zrolowana genua czy mały fok (sztormfok) na sztagu wewnętrznym?",
+     "a": "Mały fok na sztagu wewnętrznym – ma właściwy, płaski kształt, środek ożaglowania niżej i bliżej masztu. Mocno zrolowana genua ma zły, „brzuchaty” profil, jest wysoko i bardziej przechyla jacht.",
+     "explain": "Żagiel rolowany jest skrojony na pełną powierzchnię – po zwinięciu w dużej części traci kształt, a roler i tkanina są w sztormie obciążone. Sztag wewnętrzny (lub sztag sztormowy) pozwala postawić sztormfok bliżej środka jachtu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-06",
+     "q": "Jak sterować, pokonując pojedynczą wysoką falę przy sztormowaniu pod wiatr?",
+     "a": "Przed nadejściem grzbietu ostrzyć (dziób pod falę), a po jego przejściu odpadać – nigdy nie stawać burtą do łamiącego się grzbietu.",
+     "explain": "Ostrzenie ustawia dziób skośnie pod grzbiet, więc jacht przecina go i nie zostaje przewrócony; odpadnięcie na tylnym zboczu przywraca prędkość i sterowność przed następną falą.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-07",
+     "q": "Kiedy w sztormie fala robi się nagle wyższa i bardzo nieregularna (fala krzyżowa)?",
+     "a": "Gdy silny wiatr szybko zmienia kierunek o ok. 45–90° (np. po przejściu frontu) – nowa fala nakłada się na starą, wciąż wysoką.",
+     "explain": "Dwa układy fal z różnych kierunków sumują się: powstają strome piramidy i nieprzewidywalne grzbiety, trudne do pokonania. Ostrzejszą falę daje też wiatr przeciwny prądowi.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-08",
+     "q": "Jaka jest ogólna zasada wyboru taktyki sztormowania w pobliżu lądu?",
+     "a": "Unikać brzegu po zawietrznej, mieć dużo wolnej wody; najlepiej schować się w cieniu lądu (po jego zawietrznej stronie, gdzie fala jest mała) albo wejść do portu schronienia.",
+     "explain": "Przy 9–10°B walka pod wiatr i falę zwykle jest bezskuteczna. Zamiast tego wykorzystuje się wiatr, by dojść za wyspę lub cypel, gdzie fala jest krótka i niska.",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p3-09",
+     "q": "Jacht jest na północ od Bornholmu (rejon Zatoki Hanö), wiatr wzrósł do NE 10°B. Co zrobić?",
+     "a": "Sztormować z wiatrem na sztormfoku, zejść za Bornholm i schować się po jego zachodniej (zawietrznej) stronie, ewentualnie wejść do portu schronienia.",
+     "explain": "Wybrzeże Szwecji jest tu na nawietrznej – nie da się do niego dojść pod 10°B. Wiatr NE zepchnie jacht na SW, a za Bornholmem (od W) jest osłona od fali. Dryf bez żagli przy takim wietrze jest niebezpieczny.",
+     "difficulty": 3
     }
    ]
   },
@@ -960,6 +1130,36 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 9.4.1.1 Podstawowe zabiegi resuscytacyjne",
      "explain": "Podręcznik podaje starsze wartości (co najmniej 5 cm, 100/min); aktualne wytyczne ERC 2021: 5–6 cm, 100–120/min."
+    },
+    {
+     "id": "L6-p3-13",
+     "q": "Jaki obszar obejmuje polski rejon odpowiedzialności SAR?",
+     "a": "Południowy Bałtyk przy polskim wybrzeżu (wody wewnętrzne, morze terytorialne i polską wyłączną strefę ekonomiczną) wraz z wybrzeżem – bez rejonu Bornholmu, który należy do Danii.",
+     "explain": "Granice rejonów SAR (SRR) uzgadniają państwa sąsiednie; rejon Bornholmu obsługuje duński JRCC. Polski rejon koordynuje MRCK w Gdyni (z pomocniczym centrum w Świnoujściu).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-14",
+     "q": "Kto zapewnia łączność radiową w niebezpieczeństwie w polskim rejonie SAR?",
+     "a": "Brzegowa radiostacja ratownicza z siecią nadajników wzdłuż wybrzeża (dawniej „Witowo Radio”, dziś „Polish Rescue Radio” współpracujące z MRCK) – nie kapitanaty portów.",
+     "explain": "Radiostacja brzegowa prowadzi nasłuch kanału 16 i DSC kanału 70, odbiera alarmy i przekazuje je do MRCK. Kapitanaty słuchają kanału 16, ale nie są systemem łączności w niebezpieczeństwie. W pytaniach egzaminacyjnych pada nazwa „Witowo Radio i jej ekspozytury”.",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p3-15",
+     "q": "Czy przy sztrandowaniu na polskim wybrzeżu można liczyć na pomoc bezpośrednio z lądu?",
+     "a": "Tak – Służba SAR ma brzegowe stacje ratownicze (np. Łeba, Ustka, Darłowo, Kołobrzeg, Dziwnów, Władysławowo) ze sprzętem do ratowania z brzegu: aparatem rakietowym, amfibią, pontonami.",
+     "explain": "Stacja wskazuje miejsce lądowania, a gdy pogoda pozwala, ewakuuje załogę z brzegu i organizuje transport do szpitala.",
+     "source": "Podręcznik – Ratownictwo (Brzegowe Stacje Ratownictwa)",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-16",
+     "q": "Jak brzegowa stacja ratownicza ewakuuje załogę jachtu, który osiadł blisko brzegu?",
+     "a": "Z aparatu rakietowego wystrzeliwuje linkę na pokład, po niej podaje linę z blokiem do zamocowania na jachcie; po linach przeciąga ludzi na brzeg (w pontonie lub w spodniach ratowniczych).",
+     "explain": "Linę i blok mocuje się trwale na jachcie tak, by lina biegała swobodnie. Gotowość do transportu sygnalizuje się radiem, zieloną rakietą albo pionowymi ruchami białego światła lub flagi.",
+     "source": "Podręcznik – Ratownictwo (współpraca z brzegowymi stacjami)",
+     "difficulty": 3
     }
    ]
   },
@@ -1049,6 +1249,150 @@
      "a": "Kwadraty: od punktu odniesienia zmienia się kurs o 90° po coraz dłuższych odcinkach – jacht stale oddala się od punktu. Koniczyna: zwroty o 120° w tę samą stronę, z powrotami przez punkt odniesienia – lepsza, gdy rozbitek jest najpewniej blisko.",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – 9.6.1 – poszukiwanie człowieka za burtą"
+    },
+    {
+     "id": "L6-p3-10",
+     "q": "Płyniesz do brzegu, by sztrandować. Z brzegu wystrzelono czerwoną rakietę, a obok niej, na prawo – białą. Co to znaczy?",
+     "a": "Lądowanie tutaj jest niebezpieczne; dogodniejsze miejsce jest w kierunku wskazanym białą rakietą (tu: na prawo).",
+     "explain": "Czerwony sygnał (rakieta, światło, poziome ruchy flagą) = tu nie lądować. Gdy obok pojawia się biały sygnał – wskazuje kierunek lepszego miejsca lądowania.",
+     "source": "SOLAS rozdz. V, Tabela sygnałów ratowniczych (IAMSAR)",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-11",
+     "q": "Jak brzegowa stacja ratownicza wskazuje w dzień, że lądowanie jest możliwe w innym miejscu?",
+     "a": "Ratownik macha poziomo białą flagą, wbija ją w ziemię, a drugą flagę przenosi w kierunku dogodniejszego miejsca (nocą tak samo – białymi światłami).",
+     "explain": "Pionowe ruchy białą flagą (światłem) lub zielona rakieta = „tu najlepsze miejsce do lądowania / tak”. Poziome ruchy lub czerwona rakieta = „lądowanie tu bardzo niebezpieczne / nie”.",
+     "source": "SOLAS rozdz. V, Tabela sygnałów ratowniczych (IAMSAR)",
+     "difficulty": 3
+    },
+    {
+     "id": "L6-p3-12",
+     "q": "Czy od jednostki ratowniczej SAR można żądać, by holowała jacht?",
+     "a": "Nie można tego żądać. SAR ratuje ludzi; jacht holuje tylko wtedy, gdy jest to jedyny lub najbezpieczniejszy sposób uratowania załogi – decyduje jednostka ratownicza.",
+     "explain": "Ratowanie samego jachtu (mienia) to ratownictwo – zwykle płatne holowanie komercyjne. Jeśli ewakuacja ludzi z jachtu byłaby bardzo niebezpieczna, ratownicy mogą zdecydować się wziąć jacht na hol razem z załogą.",
+     "source": "Ustawa o bezpieczeństwie morskim (Służba SAR); Kodeks morski – ratownictwo",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L6-x-pierwsza-pomoc",
+   "title": "Pierwsza pomoc na jachcie – urazy i oparzenia",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Na morzu pomoc lekarska jest daleko, dlatego załoga musi sama zabezpieczyć poszkodowanego i wezwać **poradę radiową (PAN PAN MEDICO)**, a w razie potrzeby ewakuację."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Sytuacja",
+      "Co robić",
+      "Czego nie robić"
+     ],
+     "rows": [
+      [
+       "nieprzytomny",
+       "udrożnij drogi oddechowe (odchylenie głowy, uniesienie żuchwy), sprawdź oddech do 10 s; brak – RKO 30:2",
+       "nie zaczynaj oddechów bez udrożnienia"
+      ],
+      [
+       "złamanie kości",
+       "unieruchom **2 sąsiednie stawy**, lek przeciwbólowy, wezwij pomoc",
+       "nie nastawiaj, nie przenoś bez unieruchomienia"
+      ],
+      [
+       "uraz stawu (skręcenie, zwichnięcie)",
+       "zimny okład 15–30 min, unieruchom, unieś kończynę",
+       "nie nastawiaj, nie rozgrzewaj, nie masuj"
+      ],
+      [
+       "złamanie żeber",
+       "**pozycja półsiedząca**, miejsce najmniej kołyszące, lek przeciwbólowy",
+       "nie kładź płasko, nie zaciskaj mocno klatki"
+      ],
+      [
+       "oparzenie kwasem",
+       "**długie płukanie wodą** (min. 15–20 min), potem jałowy opatrunek",
+       "nie neutralizuj bez płukania; do oka – tylko woda"
+      ]
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Kość złamana → unieruchom stawy obok; staw uszkodzony → unieruchom kości obok."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L6-p3-30",
+     "q": "Co trzeba zrobić u nieprzytomnej osoby przed sprawdzeniem oddechu i rozpoczęciem sztucznego oddychania?",
+     "a": "Udrożnić drogi oddechowe: odchylić głowę do tyłu i unieść żuchwę (dłoń na czole, dwa palce pod brodą), usunąć z ust widoczne ciała obce.",
+     "explain": "U nieprzytomnego język opada i zatyka gardło. Bez udrożnienia oddechy ratownicze nie dotrą do płuc. Ochrona przed wychłodzeniem jest ważna, ale później.",
+     "source": "Wytyczne ERC 2021 – podstawowe zabiegi resuscytacyjne",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-31",
+     "q": "Jak sprawdzić, czy nieprzytomny oddycha?",
+     "a": "Po udrożnieniu dróg oddechowych przez maks. 10 sekund patrzeć na ruchy klatki piersiowej, słuchać i wyczuwać oddech policzkiem. Brak oddechu lub pojedyncze westchnienia – zaczynamy RKO 30:2.",
+     "explain": "Rzadkie, chrapliwe westchnienia (oddech agonalny) nie są prawidłowym oddechem. Jeśli oddycha normalnie – pozycja boczna bezpieczna i stała obserwacja.",
+     "source": "Wytyczne ERC 2021",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-32",
+     "q": "Jak udzielić pierwszej pomocy przy złamaniu kończyny na jachcie?",
+     "a": "Unieruchomić złamaną kość razem z dwoma sąsiednimi stawami, ułożyć chorego wygodnie, podać lek przeciwbólowy i jak najszybciej wezwać pomoc lekarską (porada radiowa, ewakuacja).",
+     "explain": "Unieruchomienie obu stawów (np. przy złamaniu podudzia – kolana i stawu skokowego) zapobiega przemieszczaniu odłamów. Nie nastawia się złamania. Po założeniu szyny sprawdza się krążenie w palcach.",
+     "source": "Podręcznik – Ratownictwo, pierwsza pomoc (złamania)",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-33",
+     "q": "Czym usztywnić złamaną kończynę na jachcie, gdy nie ma szyny?",
+     "a": "Rękę – przybandażować do tułowia lub zawiesić na chuście; nogę – przybandażować do zdrowej nogi albo do sztywnych przedmiotów (listwa, wiosło, zwinięta karimata).",
+     "explain": "Przy złamaniu otwartym najpierw jałowy opatrunek na ranę (nie wpychać odłamów), potem unieruchomienie. Nie przenosi się poszkodowanego przed unieruchomieniem kończyny.",
+     "source": "Podręcznik – Ratownictwo, pierwsza pomoc (złamania)",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-34",
+     "q": "Członek załogi upadł na pokładzie i ma silny ból klatki piersiowej, nasilający się przy wdechu (podejrzenie złamania żeber). Co robisz?",
+     "a": "Sadzasz go w pozycji półsiedzącej w miejscu najmniej narażonym na kołysanie, podajesz lek przeciwbólowy, obserwujesz oddech i wzywasz poradę lekarską.",
+     "explain": "W pozycji półsiedzącej łatwiej się oddycha. Egzamin wymienia też szeroką opaskę okrężną na klatkę – dziś nie zaleca się jej ciasnego zaciskania, bo ogranicza oddech. Narastająca duszność może oznaczać odmę – pilnie wezwij pomoc.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-35",
+     "q": "Członek załogi oparzył się kwasem z akumulatora. Jak postępować?",
+     "a": "Zdjąć zanieczyszczone ubranie, długo (min. 15–20 min) płukać miejsce dużą ilością czystej wody; potem można przemyć roztworem sody oczyszczonej lub mydła i założyć jałowy opatrunek.",
+     "explain": "Najważniejsze jest szybkie i długie płukanie – rozcieńcza i usuwa kwas. Neutralizacja bez płukania jest błędem. Ratownik chroni własne ręce (rękawiczki).",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-36",
+     "q": "Kwas z akumulatora prysnął do oka. Co robisz?",
+     "a": "Natychmiast płuczesz oko dużą ilością czystej wody przez co najmniej 15 minut, strumieniem od nosa ku skroni (by nie zalać drugiego oka), potem jałowy opatrunek i porada lekarska.",
+     "explain": "Do oka niczego nie neutralizuje się chemicznie – tylko woda. Powieki trzeba rozchylić, bo poszkodowany odruchowo je zaciska.",
+     "difficulty": 2
+    },
+    {
+     "id": "L6-p3-37",
+     "q": "Przy schodzeniu z jachtu członek załogi skręcił staw skokowy (ból, obrzęk, siniak). Jak postępować?",
+     "a": "Zimne okłady przez ok. 15–20 (do 30) minut, unieruchomić staw (np. bandażem elastycznym), unieść kończynę, podać lek przeciwbólowy.",
+     "explain": "Zimno zmniejsza obrzęk i ból; lodu nie przykłada się bezpośrednio do skóry. Przez pierwsze doby nie rozgrzewa się urazu. Silny ból, zniekształcenie lub brak możliwości obciążenia – podejrzewaj złamanie.",
+     "source": "Podręcznik – Ratownictwo, pierwsza pomoc (skręcenia, zwichnięcia)",
+     "difficulty": 1
+    },
+    {
+     "id": "L6-p3-38",
+     "q": "Czy zwichnięty staw próbuje się nastawić na jachcie?",
+     "a": "Nie – staw zostawia się w zastanej pozycji, stosuje zimny okład, unieruchamia (z sąsiednimi kośćmi) i transportuje poszkodowanego do lekarza.",
+     "explain": "Nastawianie przez niefachowca może uszkodzić naczynia i nerwy. Przy urazie stawu unieruchamia się dwie sąsiednie kości, przy złamaniu kości – dwa sąsiednie stawy.",
+     "source": "Podręcznik – Ratownictwo, pierwsza pomoc",
+     "difficulty": 2
     }
    ]
   }

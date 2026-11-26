@@ -15,7 +15,13 @@ Analiza 329 pytań z bazy przykładowych pytań PZŻ na jachtowego sternika mors
 
 Wgrano do aplikacji 288 pytań (pominięto 33 wymagające oryginalnego rysunku, 3 bez możliwego klucza, 5 z pustymi odpowiedziami w arkuszu). Klucz odpowiedzi ustalony samodzielnie (PZŻ go nie publikuje): pewność wysoka 188, średnia 100, niska 41 (pytania z niską pewnością mają w wyjaśnieniu dopisek „do weryfikacji”).
 
-## Tematy niepokryte (do uzupełnienia w lekcjach)
+## Uzupełnienie (2026-11-26)
+
+Wszystkie 118 niepokrytych tematów zostało uzupełnione: **152 nowe fiszki i 5 nowych lekcji** (Wyposażenie jachtu morskiego wg przepisów; Publikacje, mapy i czarter w planowaniu dalszych rejsów; Elektryka, sterowanie i napęd; Takielunek, żagle i kotwiczenie; Pierwsza pomoc na jachcie – urazy i oparzenia) oraz uzupełnienia w istniejących lekcjach poziomów 2–7. Źródła robocze: `content/review2/area-*.json`, wprowadzone skryptem `tools/apply_additions.py`.
+
+Rozbieżności klucza PZŻ z aktualnymi przepisami: nr 217 (radar – wymagany od 20 m, odpowiedź zmieniona na C), nr 197 (sekstant – w rejonie 4 tylko zalecany; zostawiono odpowiedź oczekiwaną na egzaminie z adnotacją), nr 304 (dzwon – wg MPZZ od 20 m, egzamin oczekuje 12 m), nr 66 (nabieżnik – reguła: kurs w stronę stawy dolnej; pytanie pominięte, wymaga rysunku).
+
+## Tematy, które były niepokryte (stan przed uzupełnieniem)
 
 ### JACHTY ŻAGLOWE MORSKIE (29)
 - [Sterociągi – luz na kole sterowym] Brak informacji o układzie sterowym ze sterociągami i regulacji ich napięcia ściągaczami.

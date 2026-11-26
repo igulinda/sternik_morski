@@ -193,6 +193,14 @@
      "a": "Zasadniczo tylko przy przecinaniu systemu, wchodzeniu na tor lub schodzeniu z niego, w nagłym wypadku dla uniknięcia bezpośredniego niebezpieczeństwa oraz przy połowie w obrębie tej strefy.",
      "source": "MPZZ, prawidło 10(e)",
      "difficulty": 3
+    },
+    {
+     "id": "L2-p4-01",
+     "q": "Czy jacht może płynąć torem kierunkowym systemu rozgraniczenia ruchu (TSS)?",
+     "a": "Tak, zgodnie z ogólnym kierunkiem ruchu, ale statek o długości < 20 m i statek żaglowy nie mogą utrudniać bezpiecznego przejścia statkom o napędzie mechanicznym płynącym torem kierunkowym.",
+     "explain": "Dla małych jachtów zwykle wygodniejsza i bezpieczniejsza jest strefa ruchu przybrzeżnego.",
+     "source": "MPZZ, prawidło 10(j)",
+     "difficulty": 2
     }
    ]
   },

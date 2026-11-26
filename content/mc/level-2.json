@@ -568,6 +568,14 @@
     "Nie, jacht < 7 m nigdy nie pokazuje świateł",
     "Tylko kulę w dzień, w nocy nic"
    ]
+  },
+  "L2-p4-01": {
+   "correct": "Tak, ale jacht < 20 m lub żaglowy nie może utrudniać przejścia statkom mechanicznym na torze",
+   "wrong": [
+    "Nie – jachtom wolno tylko w strefie ruchu przybrzeżnego",
+    "Tak, bez żadnych ograniczeń – jacht żaglowy ma tam pierwszeństwo",
+    "Tylko na silniku i przy widzialności powyżej 2 Mm"
+   ]
   }
  }
 }

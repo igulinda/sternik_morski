@@ -608,6 +608,94 @@
     "Czerwony zachód Słońca i zanikanie Cumulusów wieczorem",
     "Mgła opadająca nad ranem i słabnący wieczorem wiatr"
    ]
+  },
+  "L5-p4-01": {
+   "correct": "W miejscu zacienionym, z dala od źródeł ciepła",
+   "wrong": [
+    "Obojętnie gdzie, byle był zabezpieczony przed uszkodzeniem",
+    "W kabinie przy nawigacji, by łatwo go odczytać",
+    "Na pokładzie w pełnym słońcu, by szybko reagował"
+   ]
+  },
+  "L5-p4-02": {
+   "correct": "Tak – mając prędkość jachtu (log) i kurs, z trójkąta wektorów",
+   "wrong": [
+    "Nie – z wiatru pozornego nie da się tego obliczyć",
+    "Tak – wystarczą tablice, bez znajomości prędkości jachtu",
+    "Tak – wiatr rzeczywisty jest zawsze o 2°B silniejszy"
+   ]
+  },
+  "L5-p4-03": {
+   "correct": "°B ≈ (węzły + 5) / 5",
+   "wrong": [
+    "°B ≈ węzły / 3",
+    "Nie da się – tylko z tablic",
+    "Przez m/s: każde 3 m/s to 1°B"
+   ]
+  },
+  "L5-p4-04": {
+   "correct": "Zależnie od kraju – najczęściej w °B lub w m/s",
+   "wrong": [
+    "Zawsze w stopniach Beauforta",
+    "Zawsze w km/h",
+    "Zawsze w węzłach – to standard morski"
+   ]
+  },
+  "L5-p4-05": {
+   "correct": "Przeciwnie do wskazówek zegara, odchylony od izobar o ok. 20–40° do środka niżu",
+   "wrong": [
+    "Dokładnie wzdłuż izobar, bez odchylenia",
+    "Prostopadle do izobar wprost do środka niżu",
+    "Od środka niżu na zewnątrz"
+   ]
+  },
+  "L5-p4-06": {
+   "correct": "Rosnącej siły wiatru z kierunków zachodnich",
+   "wrong": [
+    "Słabnących wiatrów ze wschodu",
+    "Słabych wiatrów północnych i ciszy",
+    "Bez zmian – niż nad Danią nie wpływa na Bałtyk"
+   ]
+  },
+  "L5-p4-07": {
+   "correct": "Opis stanu morza dla kolejnych stopni Beauforta – skale są ściśle powiązane",
+   "wrong": [
+    "To całkowicie odrębna skala, niezwiązana z wiatrem",
+    "To inna nazwa skali Beauforta – mierzą to samo",
+    "To skala zachmurzenia w oktantach"
+   ]
+  },
+  "L5-p4-08": {
+   "correct": "Dane modelu pogody na kilka dni; potrzebny komputer i łącze (radio KF z modemem, satelita lub internet)",
+   "wrong": [
+    "Specjalny odbiornik GRIB montowany zamiast NAVTEX-u",
+    "Tylko radio VHF – pliki nadają stacje brzegowe na kanale 16",
+    "Nie da się ich odebrać na morzu – tylko przed wyjściem"
+   ]
+  },
+  "L5-p4-09": {
+   "correct": "Wiatr SW 5–6°B, później zmieniający się na W 7°B",
+   "wrong": [
+    "Wiatr SW 5°B, potem 6°B, stan morza 7",
+    "Wiatr z SW, widzialność 5–6 Mm, później 7 Mm",
+    "Wiatr wiejący w kierunku SW 5–6°B, po 7 godzinach W"
+   ]
+  },
+  "L5-p4-10": {
+   "correct": "Rejon – wiatr – stan morza – pogoda – widzialność",
+   "wrong": [
+    "Widzialność – pogoda – wiatr – rejon",
+    "Ciśnienie – temperatura – wiatr",
+    "Stan morza – rejon – wiatr – zachmurzenie"
+   ]
+  },
+  "L5-p4-11": {
+   "correct": "Oś pozioma – czas; wykres – prędkość wiatru w m/s; symbole – kierunek w kolejnych godzinach",
+   "wrong": [
+    "Oś pozioma – kierunek, oś pionowa – siła w °B",
+    "Meteogram podaje tylko ciśnienie i temperaturę",
+    "Wiatr odczytuje się z koloru tła wykresu"
+   ]
   }
  }
 }

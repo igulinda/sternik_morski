@@ -147,6 +147,13 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 3.5. Instalacje jachtowe",
      "tip": "Gaz zostaje w przewodzie tylko wtedy, gdy zamkniesz najpierw palnik – dlatego butla idzie pierwsza."
+    },
+    {
+     "id": "L7-p2-a2-05",
+     "q": "Czy butle gazowe i ich przyłącza są takie same w różnych krajach?",
+     "a": "Nie. Typy butli, zaworów, gwintów i reduktorów różnią się między krajami – przy rejsie lub czarterze za granicą trzeba mieć przejściówki albo kupić lokalną butlę z pasującym reduktorem.",
+     "explain": "Przed rejsem zagranicznym sprawdź, jaki system gazu ma jacht i gdzie można wymienić butlę. Instalację po zmianie butli sprawdza się na szczelność (np. wodą z płynem), nigdy ogniem.",
+     "difficulty": 1
     }
    ]
   },
@@ -286,6 +293,34 @@
      "a": "Otwierasz zawory wody chłodzącej, wydechu i paliwa, dźwignia biegów na luz, włączasz świece żarowe na ok. 5–10 s, potem rozrusznik. Jeśli silnik nie zapali – przed kolejną próbą odczekaj co najmniej ok. 20 s (akumulator i rozrusznik muszą „odpocząć”). Po zapaleniu silnik grzeje się na luzie, zanim go obciążysz.",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 3.6.2. Silniki stacjonarne"
+    },
+    {
+     "id": "L7-p2-a2-01",
+     "q": "Jak smarowany jest zaburtowy silnik dwusuwowy i jakie paliwo się do niego tankuje?",
+     "a": "Olejem dodanym do benzyny – tankuje się mieszankę benzyny z olejem do silników dwusuwowych (nie czystą benzynę).",
+     "explain": "Dwusuw nie ma miski olejowej – olej z mieszanki smaruje wał i tłok, a potem spala się razem z paliwem. Czysta benzyna szybko zatarłaby silnik. Czterosuw (też benzynowy) ma olej w misce i tankuje się do niego czystą benzynę.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-02",
+     "q": "W jakiej proporcji przygotowuje się mieszankę oleju i benzyny do silnika dwusuwowego?",
+     "a": "Zawsze według instrukcji producenta danego silnika (np. 1:50, 1:100) – nie ma jednej uniwersalnej proporcji.",
+     "explain": "Proporcja zależy od konstrukcji silnika i rodzaju oleju. Za mało oleju – ryzyko zatarcia; za dużo – nagar, zaolejone świece, dym. Mieszankę robi się w osobnym kanistrze i dokładnie miesza przed wlaniem.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-03",
+     "q": "Dlaczego na rejs warto zabrać pompkę do wymiany oleju w silniku jachtowym?",
+     "a": "Silnik stoi nisko, a korka spustowego miski zwykle nie da się użyć – olej wysysa się pompką przez rurkę bagnetu. Chroni to zęzę przed zalaniem olejem.",
+     "explain": "To wyposażenie zalecane, nie obowiązkowe. Olej wysysa się ciepły (po krótkiej pracy silnika), razem z olejem wymienia się filtr; zużyty olej oddaje się w porcie do pojemnika na odpady olejowe.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-04",
+     "q": "Jakie podstawowe materiały eksploatacyjne do diesla zabierasz na ok. miesięczny rejs (silnik sprawny)?",
+     "a": "Olej do wymiany i filtry oleju, filtry paliwa, zapasowe paski klinowe, wirnik (impeller) pompy wody zaburtowej – plus uszczelki i podstawowe narzędzia.",
+     "explain": "Zabiera się to, co zużywa się normalnie podczas eksploatacji i co załoga sama wymieni w morzu. Duże podzespoły (pompa wtryskowa, rozrusznik, alternator) wymienia serwis.",
+     "difficulty": 1
     }
    ]
   },
@@ -488,6 +523,54 @@
     {
      "id": "L7-g-eta-3",
      "gen": "eta",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-06",
+     "q": "Czy wychodząc w rejs morski warto mieć długą, mocną linę holowniczą?",
+     "a": "Tak – wymaga tego dobra praktyka morska, niezależnie od przepisów. Przyda się do holowania własnego jachtu lub innej jednostki, a także jako zapasowa cuma lub lina kotwiczna.",
+     "explain": "Lina powinna być długa (kilkadziesiąt metrów) i rozciągliwa (np. poliamid), by amortyzowała szarpnięcia na fali. Przy holowaniu przez statek ratowniczy zwykle używa się jego liny, ale własna bywa niezbędna np. przy pomocy innemu jachtowi.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p4-05",
+     "q": "Port pływowy z basenem za śluzą (wrotami). Kiedy najkorzystniej zaplanować podejście?",
+     "a": "Ok. 1 godziny przed wysoką wodą – śluzy/wrota takich portów pracują zwykle w okolicy HW, a podejście przed HW daje zapas głębokości i czasu (woda jeszcze przybywa).",
+     "explain": "Godziny otwarcia śluzy (np. „HW −2 h do HW +1 h”) podaje locja/almanach – sprawdź je przy planowaniu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-06",
+     "q": "Planujesz przejście pod żaglami Świnoujście–Karlskrona (KD ≈ 030°). Teraz wieje N 6–7, na kolejną dobę prognoza WNW 4–5. Kiedy wyjść?",
+     "a": "Odczekać kilkanaście godzin na zmianę wiatru – N 6–7 to silny wiatr prawie z dziobu (halsówka, fala), a WNW 4–5 da wygodny półwiatr na kursie 030°.",
+     "explain": "Okno pogodowe dobiera się, porównując kierunek wiatru z planowanym kursem i przewidywaną siłą wiatru w całym czasie przejścia.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-07",
+     "q": "O ile wydłuża się droga przy halsowaniu dokładnie pod wiatr?",
+     "a": "Droga rośnie 1/cos(½ kąta martwego): przy kącie martwym 90° (45° do wiatru) ≈ 1,41 × (+41%), przy 120° (60° do wiatru) = 2 × (+100%).",
+     "explain": "Przykład: cel 20 Mm pod wiatr, jacht turystyczny z kątem martwym ok. 120° – licz ok. 40 Mm drogi po wodzie, a do tego dryf i prądy.",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p4-08",
+     "q": "Jacht, którego kąt martwy wynosi ok. 120°, musi halsować dokładnie pod wiatr. Z jakim wydłużeniem drogi trzeba się liczyć?",
+     "a": "Ok. 100% (droga dwukrotnie dłuższa) – jacht płynie 60° od wiatru, a 1/cos 60° = 2.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-09",
+     "q": "Planujesz tygodniowy przelot bez możliwości odbioru prognoz na morzu. Jakie dane pogodowe zabrać?",
+     "a": "Pobrane przed wyjściem prognozy na cały przelot: pliki GRIB i prognostyczne mapy pogody na ok. 7 dni (wydrukowane lub zapisane w komputerze); na morzu uzupełnia się je własnymi obserwacjami (barometr, chmury, wiatr).",
+     "explain": "Im dalszy termin prognozy, tym mniejsza jej wiarygodność – po 4–5 dniach traktuj ją jako orientacyjną.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-10",
+     "q": "Co jest najważniejsze przy planowaniu długich (oceanicznych) przelotów?",
+     "a": "Realna prędkość jachtu pod żaglami, prądy stałe na akwenie i długoterminowe (klimatyczne) dane meteorologiczne – np. z map routeingowych (pilot charts) i locji oceanicznych (Ocean Passages for the World).",
+     "explain": "Mapy routeingowe podają dla każdego miesiąca rozkład wiatrów, prądów, częstość sztormów i zasięg lodu – na ich podstawie wybiera się trasę i porę roku.",
      "difficulty": 2
     }
    ]
@@ -707,6 +790,37 @@
      "a": "Dwa czerwone jedno nad drugim – śluza nie pracuje; jedno czerwone (lub dwa obok siebie) – wejście zabronione, śluza zamknięta; czerwone i zielone (albo zgaszenie jednego z dwóch czerwonych) – śluza przygotowuje się do otwarcia, wejście jeszcze zabronione; zielone – wejście dozwolone.",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 12.13.4. Przejścia przez śluzy"
+    },
+    {
+     "id": "L7-p4-01",
+     "q": "Wody śródlądowe: statek nadaje serię podwójnych krótkich dźwięków. Co to znaczy?",
+     "a": "„Człowiek za burtą”.",
+     "explain": "Na wodach morskich nie ma takiego sygnału dźwiękowego – to specyfika przepisów śródlądowych.",
+     "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – sygnały dźwiękowe",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-02",
+     "q": "Wymień śródlądowe sygnały dźwiękowe: 1 długi, 4 krótkie, seria bardzo krótkich, powtarzane długie.",
+     "a": "1 długi – „uwaga”; 4 krótkie – „nie mogę manewrować”; seria bardzo krótkich – „niebezpieczeństwo zderzenia”; powtarzane długie (lub uderzenia w dzwon) – wzywanie pomocy. Jak na morzu: 1 krótki – w prawo, 2 krótkie – w lewo, 3 krótkie – pracuję wstecz.",
+     "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – sygnały dźwiękowe",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p4-03",
+     "q": "Wody śródlądowe: czy statek pasażerski krótszy niż 20 m jest „małym statkiem”?",
+     "a": "Nie (jeśli jest dopuszczony do przewozu więcej niż 12 pasażerów). Mały statek to statek o długości kadłuba < 20 m, ale niezależnie od wymiarów nie są nimi: statki dopuszczone do przewozu > 12 pasażerów, promy oraz statki przystosowane do prowadzenia zestawów holowanych, pchanych lub sprzężonych (holowniki, pchacze).",
+     "explain": "Ma to znaczenie dla prawa drogi: małe statki (np. jachty) ustępują statkom niebędącym małymi.",
+     "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – definicje",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p4-04",
+     "q": "Wody śródlądowe: stojący statek (przy pracy lub na mieliźnie) ma z jednej burty flagę czerwono-białą, z drugiej czerwoną. Którędy go minąć?",
+     "a": "Od strony flagi (tablicy) czerwono-białej – tam szlak jest wolny; flaga czerwona oznacza stronę zamkniętą dla żeglugi.",
+     "explain": "W nocy (wg podręcznika): po stronie wolnej światła czerwone nad białym, po stronie zamkniętej światło czerwone. Jeśli statek żąda ochrony przed falowaniem – zwolnij, mijając go.",
+     "source": "Przepisy żeglugowe na śródlądowych drogach wodnych – oznakowanie statków przy pracy",
+     "difficulty": 2
     }
    ]
   },
@@ -773,6 +887,668 @@
      "a": "Pismo wręczane (za pokwitowaniem) kapitanowi drugiej jednostki tuż po zderzeniu, obarczające ją odpowiedzialnością za szkodę. Kapitan, który go otrzymał, powinien od razu odpowiedzieć i zaprzeczyć odpowiedzialności, jeśli okoliczności to uzasadniają.",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – 13.6. Postępowanie w razie wypadku morskiego"
+    }
+   ]
+  },
+  {
+   "id": "L7-x-wyposazenie",
+   "title": "Wyposażenie jachtu morskiego wg przepisów",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Obowiązkowe wyposażenie polskiego jachtu morskiego określa **rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie** (z 28.02.2012 r., obecnie w tekście jednolitym): **załącznik nr 1** dla jachtów do 24 m, **załącznik nr 2** dla dłuższych. Wymagania zależą od **rejonu żeglugi** (T, 1 osłonięta, 2 przybrzeżna, 3 pełnomorska, 4 oceaniczna) – liczy się rejon, w którym faktycznie płyniesz. Konkretny jacht ma je wpisane w **kartę bezpieczeństwa** (rejon, minimalna załoga, wyposażenie)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Wyposażenie",
+      "Rejon 1",
+      "Rejon 2",
+      "Rejon 3",
+      "Rejon 4"
+     ],
+     "rows": [
+      [
+       "rakiety spadochronowe + 1 pławka dymna",
+       "3",
+       "6",
+       "12",
+       "12"
+      ],
+      [
+       "tratwa dla wszystkich",
+       "zalecana",
+       "tak",
+       "tak",
+       "tak"
+      ],
+      [
+       "koła ratunkowe",
+       "2",
+       "2",
+       "2",
+       "2 (od 15 m: 4)"
+      ],
+      [
+       "GPS",
+       "–",
+       "tak",
+       "tak",
+       "tak"
+      ],
+      [
+       "radio",
+       "VHF",
+       "VHF",
+       "VHF DSC + EPIRB",
+       "+ MF/HF lub sat. + SART"
+      ],
+      [
+       "sekstant, chronometr",
+       "–",
+       "–",
+       "–",
+       "zalecane"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Kamizelki ratunkowe i pasy bezpieczeństwa – **dla każdej osoby**; kamizelka z uprzężą zastępuje szelki; kamizelki pneumatyczne + zapas 10% (min. 1).",
+      "Koła: jedno z **pławką świetlną i tyczką z flagą**, drugie z **linką**.",
+      "Gaśnice: kokpit, każdy przedział mieszkalny, każda kuchenka z płomieniem, przy komorze silnika.",
+      "**Atest**: tratwa, zwalniak hydrostatyczny, kompas, reflektor radarowy; kamizelki i szelki – zgodność z normami.",
+      "AIS – tylko zalecany; radar – dopiero od 20 m długości; mapy elektroniczne zamiast papierowych – tylko przy **zdublowanym** systemie.",
+      "Apteczka obowiązkowa, ale jej skład to tylko zalecenia."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Pirotechnika: **12 – 6 – 3** rakiet (rejon 3/4 – 2 – 1), zawsze z jedną pomarańczową pławką dymną."
+    },
+    {
+     "t": "p",
+     "text": "Na tabliczce jachtu z oznaczeniem **CE** jest kategoria projektowa: **A** (ponad 8°B, fala ponad 4 m), **B** (do 8°B, 4 m), **C** (do 6°B, 2 m, wody przybrzeżne), **D** (do 4°B, 0,3 m, wody osłonięte) oraz maksymalna liczba osób i obciążenie."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-p1-01",
+     "q": "Jaki przepis określa obowiązkowe wyposażenie polskiego jachtu morskiego (np. o długości 12 m)?",
+     "a": "Załącznik nr 1 do rozporządzenia ministra (z 28.02.2012 r.) w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie – obecnie w tekście jednolitym. Karta bezpieczeństwa jachtu jedynie przenosi te wymagania na konkretny jacht.",
+     "explain": "Kodeks morski nie wylicza wyposażenia. Karta bezpieczeństwa to dokument konkretnego jachtu, wydany na podstawie wymagań rozporządzenia.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-02",
+     "q": "Czym różnią się załączniki nr 1 i nr 2 do rozporządzenia o bezpiecznym uprawianiu żeglugi przez jachty morskie?",
+     "a": "Załącznik nr 1 – wyposażenie jachtów o długości kadłuba do 24 m; załącznik nr 2 – jachtów o długości co najmniej 24 m. W obu wymagania zależą od rejonu żeglugi (T, 1, 2, 3, 4).",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-03",
+     "q": "Co zawiera karta bezpieczeństwa jachtu i czym kierujesz się, sprawdzając przed rejsem rodzaj i ilość pirotechniki?",
+     "a": "Karta bezpieczeństwa (wydawana po inspekcji jachtu) określa dopuszczalny rejon żeglugi, minimalny skład załogi i wymagane wyposażenie tego jachtu. Przed rejsem sprawdzasz wyposażenie, w tym pirotechnikę, według karty bezpieczeństwa.",
+     "explain": "Świadectwo klasy dotyczy stanu technicznego kadłuba i urządzeń, a nie ilości środków sygnałowych.",
+     "source": "Rozporządzenie o bezpiecznym uprawianiu żeglugi przez jachty morskie, § 7; przepisy o inspekcji jachtów morskich",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-04",
+     "q": "Jacht ma kartę bezpieczeństwa na żeglugę oceaniczną, ale płyniesz tylko po Zalewie Szczecińskim i sąsiednich wodach osłoniętych. Czy musisz mieć na pokładzie pełne wyposażenie oceaniczne?",
+     "a": "Nie. Wymagane wyposażenie zależy od rejonu, w którym jacht faktycznie żegluje – wystarczy komplet przewidziany w załączniku nr 1 dla tego (niższego) rejonu.",
+     "explain": "Karta wskazuje rejon maksymalny, na jaki jacht jest dopuszczony; wymagania wyposażenia stosuje się do rejonu planowanego rejsu.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-05",
+     "q": "Czy przepisy o wyposażeniu z rozporządzenia obejmują każdy polski jacht morski?",
+     "a": "Nie wszystkie. Wyłączone są m.in. jachty regatowe w regatach i treningach pod osłoną ratowniczą oraz jachty rekreacyjne o długości do 15 m, które dobrowolnie nie poddały się inspekcji (ich bezpieczeństwo leży na armatorze i kapitanie). Pytania egzaminacyjne zakładają jacht objęty inspekcją i kartą bezpieczeństwa.",
+     "source": "Rozporządzenie o bezpiecznym uprawianiu żeglugi przez jachty morskie, § 2 ust. 1",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p1-06",
+     "q": "Jak rozmieszcza się gaśnice na jachcie morskim do 24 m według przepisów?",
+     "a": "Po jednej gaśnicy ABC 2 kg: przy stanowisku sterowania/kokpicie, w każdym przedziale mieszkalnym (lub na każde 20 m² obszaru mieszkalnego) i przy każdym urządzeniu z otwartym płomieniem (kuchence); do tego gaśnica przy przestrzeni silnikowej – nie dalej niż 2 m od otworu gaśniczego obudowy silnika.",
+     "explain": "Dokładny wykaz sprzętu ppoż. dla konkretnego jachtu ustala urząd morski (wpisany w dokumentach jachtu).",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. V",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-07",
+     "q": "Jacht ma 3 przedziały mieszkalne; w środkowym jest kambuz z kuchenką i klapa do komory silnika. Ile gaśnic powinno być na pokładzie?",
+     "a": "Sześć: 1 przy kokpicie + 3 (po jednej na każdy przedział mieszkalny) + 1 przy kuchence z otwartym płomieniem + 1 przy komorze silnika.",
+     "explain": "Przy silniku do 120 kW wymagana jest 1 gaśnica 4 kg (zamiennie dwie po 2 kg) – przy dwóch 2-kilogramowych byłoby ich siedem.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. V",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-08",
+     "q": "Ile kół ratunkowych i z jakim wyposażeniem musi mieć jacht morski do 24 m?",
+     "a": "Dwa: jedno z pławką świetlną i tyczką z flagą, drugie z linką ratunkową. Jacht o długości co najmniej 15 m w żegludze oceanicznej – cztery koła.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-09",
+     "q": "Przy przejęciu jachtu na rejs pełnomorski jest tylko jedno koło ratunkowe z pławką świetlną. Czy to zgodne z przepisami?",
+     "a": "Nie. Wymagane są dwa koła ratunkowe – brakuje drugiego, z linką ratunkową (a przy pierwszym powinna być też tyczka z flagą).",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-10",
+     "q": "Ile pasów (kamizelek) ratunkowych i pasów bezpieczeństwa musi być na polskim jachcie morskim?",
+     "a": "Kamizelki ratunkowe – dla każdej osoby na jachcie (także odpowiednie dla dzieci poniżej 32 kg). Pasy bezpieczeństwa (szelki) – w rejonach 1–4 dla wszystkich osób, w rejonie T dla co najmniej połowy.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-11",
+     "q": "Na rejs pełnomorski z 5-osobową załogą jacht ma 6 pneumatycznych kamizelek ratunkowych z wbudowaną uprzężą i lonżami z karabińczykami. Czy to spełnia przepisy?",
+     "a": "Tak. Kamizelka z uprzężą pełni też funkcję pasa bezpieczeństwa (osobne szelki nie są wymagane), a dla kamizelek pneumatycznych wymaga się zapasu 10% liczby osób, ale co najmniej 1 – czyli 5 + 1 = 6.",
+     "explain": "Kamizelki pneumatyczne muszą się napełniać automatycznie po wpadnięciu do wody; zamiast zapasowej kamizelki można mieć zapasowe naboje.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-12",
+     "q": "Jakie dodatkowe wymaganie dotyczy kamizelek ratunkowych na jachcie w żegludze całodobowej (także nocą)?",
+     "a": "Muszą mieć lampki spełniające wymagania Kodeksu LSA (SOLAS). Kamizelki pneumatyczne muszą też uruchamiać się automatycznie po wpadnięciu do wody.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-13",
+     "q": "W jakich rejonach żeglugi tratwa ratunkowa jest obowiązkowa na jachcie do 24 m?",
+     "a": "W rejonie 2 (przybrzeżnym), 3 (pełnomorskim) i 4 (oceanicznym) – tratwa (tratwy) pneumatyczna mieszcząca wszystkie osoby na jachcie. W rejonie T i 1 tratwa jest tylko zalecana.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-14",
+     "q": "Jak należy zamocować pneumatyczną tratwę ratunkową w pojemniku na pokładzie?",
+     "a": "Pasami/linkami z hakiem odrzutnym (do ręcznego, szybkiego zwolnienia i zrzucenia tratwy) oraz ze zwalniakiem hydrostatycznym, który uwolni tratwę samoczynnie, gdy jacht zatonie (przed osiągnięciem ok. 4 m głębokości).",
+     "explain": "Sam zwalniak nie pozwala szybko zwodować tratwy ręcznie, a sam hak nie uwolni jej, gdy nikt nie zdąży. Linka operacyjna tratwy musi być przywiązana do jachtu.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi; Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 9.6",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-15",
+     "q": "Tratwa jest zamocowana z hakiem odrzutnym i zwalniakiem hydrostatycznym. Co z tego musi mieć atest lub aktualną datę ważności?",
+     "a": "Tratwa – certyfikat i aktualny atest (okresowy przegląd w stacji serwisowej); zwalniak hydrostatyczny – aktualny atest/datę ważności. Hak odrzutny nie wymaga atestu.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi 2–3",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-16",
+     "q": "Które elementy wyposażenia jachtu muszą mieć atest, a które tylko spełniać normy?",
+     "a": "Atest (świadectwo z uznanej stacji): tratwa ratunkowa, zwalniak hydrostatyczny, kompas magnetyczny, reflektor radarowy. Pasy/kamizelki ratunkowe i pasy bezpieczeństwa muszą jedynie spełniać normy (kamizelki: EN ISO 12402; szelki i lonże: EN ISO 12401).",
+     "explain": "Pirotechnika nie ma atestu jak tratwa – musi być oryginalna, nieuszkodzona i mieć aktualną datę ważności.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p1-17",
+     "q": "Jaką pirotechnikę musi mieć polski jacht w żegludze pełnomorskiej lub oceanicznej (rejon 3 i 4)?",
+     "a": "12 czerwonych rakiet spadochronowych i 1 pomarańczową pławkę dymną.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 4",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-18",
+     "q": "Ile rakiet spadochronowych wymaga się w żegludze przybrzeżnej (rejon 2), a ile w osłoniętej (rejon 1)?",
+     "a": "Rejon 2: 6 czerwonych rakiet spadochronowych + 1 pomarańczowa pławka dymna. Rejon 1 (oraz rejon T w porze nocnej): 3 rakiety + 1 pławka dymna. Rejon 3 i 4: 12 rakiet + 1 pławka.",
+     "explain": "Jachty uprawiające żeglugę pod nadzorem (za dnia, na akwenie z ciągłą obserwacją i asekuracją) są zwolnione z tej pirotechniki.",
+     "tip": "12 – 6 – 3: każdy niższy rejon to mniej więcej połowa rakiet.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 5–6",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-19",
+     "q": "Na rejs pełnomorski przekazano 8 czerwonych rakiet i jedną pomarańczową pławkę dymną (wszystko ważne). Czy to stan zgodny z przepisami?",
+     "a": "Nie. W rejonie 3 wymaga się 12 rakiet spadochronowych – brakuje 4. Ważna data i dobry stan nie zastąpią brakującej ilości.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 4",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-20",
+     "q": "Czy na jachcie ze wszystkimi aktualnymi mapami papierowymi i pomocami nawigacyjnymi, ale bez GPS, możesz wyjść w rejs zgodnie z przepisami?",
+     "a": "Tylko w żegludze osłoniętej (rejon 1). Odbiornik satelitarnego systemu nawigacyjnego (np. GPS) jest wymagany od żeglugi przybrzeżnej (rejon 2) wzwyż.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-21",
+     "q": "Kiedy elektroniczne mapy wektorowe (ploter) mogą zastąpić mapy papierowe?",
+     "a": "Gdy system jest zdublowany (np. dwa niezależne urządzenia z mapami i odbiornikami GPS) – albo gdy na jachcie są i tak wersje papierowe. Pojedynczy ploter nie wystarcza. Mapy muszą być aktualne i poprawione na całą trasę.",
+     "explain": "Awaria zasilania lub jedynego urządzenia zostawiłaby jacht bez map – dlatego wymaga się drugiego, niezależnego systemu.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III, przypis 2",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-22",
+     "q": "Czy w żegludze pełnomorskiej (rejon 3) wymagany jest sekstant i chronometr?",
+     "a": "Nie. Sekstant, chronometr, rocznik astronomiczny i tablice pojawiają się w wymaganiach dopiero dla żeglugi oceanicznej (rejon 4) – i to jako wyposażenie zalecane.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-23",
+     "q": "Czy jacht może wyjść w rejs z niesprawnym AIS?",
+     "a": "Tak. Na jachtach do 24 m AIS jest w każdym rejonie tylko wyposażeniem zalecanym, nie obowiązkowym (obowiązkowy jest dopiero na dużych jachtach, od 300 GT). Warto go naprawić, ale nie blokuje wyjścia.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-24",
+     "q": "Czy polski jacht w żegludze pełnomorskiej musi mieć radar?",
+     "a": "Jacht krótszy niż 20 m – nie (typowy jacht, którym dowodzi JSM). Według tabeli wyposażenia radar jest wymagany dopiero na jachtach o długości kadłuba co najmniej 20 m w rejonach 2–4 (oraz na jachtach od 24 m). Obowiązkowy dla każdego jachtu jest natomiast reflektor radarowy.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III, przypis 8",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-25",
+     "q": "Jakie podstawowe wyposażenie nawigacyjne musi mieć jacht w każdym rejonie żeglugi?",
+     "a": "Kompas magnetyczny z atestem, lornetkę, zestaw do pracy na mapach, aktualne mapy morskie lub żeglarskie, locję i spis świateł (w rejonie 1 mogą być wyciągi), MPZZ, MKS i przepisy portowe, reflektor radarowy z atestem. Wyżej dochodzą m.in. barometr i GPS (od rejonu 2), sekundomierz i spis radiostacji (od rejonu 3), zapasowy/namiarowy kompas (rejon 4).",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p1-26",
+     "q": "Jakie urządzenia radiowe są wymagane na jachcie do 24 m w zależności od rejonu?",
+     "a": "Rejon 1 i 2: radiotelefon VHF. Rejon 3: stacjonarny VHF z DSC, radiopława EPIRB 406 MHz, odbiornik prognoz i ostrzeżeń. Rejon 4: dodatkowo łączność dalekiego zasięgu (MF/HF z DSC lub satelitarna) i SART albo AIS-SART. EPIRB musi być zarejestrowana.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. IV",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-27",
+     "q": "Jak sprawdzić sprawność radiopławy EPIRB przy przejmowaniu jachtu?",
+     "a": "Sprawdzić datę ważności baterii (etykieta/atest), datę ważności zwalniaka hydrostatycznego (oznaczenie na obudowie lub uchwycie), rejestrację radiopławy, a potem wykonać test (self-test) zgodnie z instrukcją. Sam pozytywny test nie wystarczy.",
+     "explain": "Nigdy nie sprawdza się EPIRB przez nadanie prawdziwego alarmu – służy do tego przycisk testu.",
+     "source": "Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 8 (EPIRB)",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-28",
+     "q": "Czy przepisy określają szczegółową zawartość apteczki jachtowej?",
+     "a": "Nie. Rozporządzenie wymaga apteczki, ale jej skład jest tylko zalecany (stosownie do przeznaczenia jachtu i rejonu żeglugi). Na dłuższy rejs skład najlepiej ustalić z lekarzem, uwzględniając załogę, czas rejsu i akwen.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. VI",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-29",
+     "q": "Jakie kategorie projektowe CE wyróżnia się dla jachtów rekreacyjnych?",
+     "a": "A – oceaniczne: wiatr powyżej 8°B, fala znacząca powyżej 4 m; B – pełnomorskie: do 8°B i fali 4 m; C – wody przybrzeżne, duże zatoki, jeziora: do 6°B i fali 2 m; D – wody osłonięte: do 4°B i fali 0,3 m (sporadycznie 0,5 m).",
+     "explain": "Kategorie wynikają z dyrektywy UE o jachtach rekreacyjnych (RCD) i są podane na tabliczce znamionowej oraz w instrukcji jachtu.",
+     "source": "Dyrektywa 2013/53/UE (RCD); Kolaszewski, rozdz. 14",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-30",
+     "q": "Na tabliczce czarterowanego jachtu (polska bandera) jest: CE, kategoria C, max 8 osób, max obciążenie 1000 kg. Gdzie i przy jakiej pogodzie możesz nim pływać jako JSM?",
+     "a": "Tylko po wodach przybrzeżnych, przy wietrze do 6°B (i fali do ok. 2 m), z załogą nie większą niż 8 osób i jachtem krótszym niż 18 m (limit patentu JSM). Nie „przy każdej pogodzie”.",
+     "source": "Dyrektywa 2013/53/UE (RCD)",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-x-planowanie2",
+   "title": "Publikacje, mapy i czarter w planowaniu dalszych rejsów",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Dłuższy rejs planuje się „od ogółu do szczegółu”: najpierw **mapy generalne** (mała skala) i – na oceanie – **miesięczne mapy warunków (Routeing/Pilot Charts)**, potem mapy brzegowe, podejściowe i plany portów, locje i spisy świateł."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Admiralty List of Radio Signals** – tom 5: GMDSS i ratownictwo na całym świecie.",
+      "Rejsy turystyczne (np. Dania, Szwecja): **przewodniki żeglarskie z planami marin** i **mapy jachtowe**.",
+      "Czarter: dopuszczenie jachtu do planowanej żeglugi, wyposażenie na akwen, **zakres terytorialny ubezpieczenia** i umowy.",
+      "Apteczka na długi rejs – skład ustal z lekarzem."
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-p1-31",
+     "q": "Na co przede wszystkim zwracasz uwagę, czarterując jacht na rejs międzynarodowy (np. z Norwegii do Szkocji i z powrotem)?",
+     "a": "Czy jacht jest dopuszczony do takiej żeglugi (dokumenty bezpieczeństwa, kategoria CE, rejon), czy ma wyposażenie wymagane na ten akwen i jaki obszar obejmuje ubezpieczenie (oraz umowa czarteru).",
+     "explain": "Umowy czarterowe i polisy często ograniczają akwen (np. tylko wody przybrzeżne danego kraju) – wyjście poza niego oznacza brak ochrony ubezpieczeniowej.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-32",
+     "q": "Dlaczego przed rejsem czarterowym sprawdzasz zakres terytorialny ubezpieczenia jachtu?",
+     "a": "Bo polisa (casco i OC) zwykle obejmuje tylko określony akwen lub rejon – szkoda poza nim może nie zostać pokryta, a przekroczenie granic akwenu narusza też umowę czarteru.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-33",
+     "q": "Jak dzieli się mapy morskie według skali i do czego służy każda grupa?",
+     "a": "Generalne (1:500 000 i mniejsze) – ogólne planowanie i żegluga z dala od lądu; brzegowe (ok. 1:500 000–1:100 000) – żegluga wzdłuż wybrzeża; podejściowe (1:100 000–1:25 000) – podchodzenie do lądu i portów; plany portów (1:25 000 i większe) – porty, wąskie przejścia.",
+     "source": "Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 5",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-34",
+     "q": "Czym najprościej posłużyć się do ogólnego zaplanowania długiego rejsu (np. Gdynia – Dublin: trasa, porty, czasy przelotów)?",
+     "a": "Mapami generalnymi (małoskalowymi) – na jednym arkuszu widać cały akwen, łatwo wytyczyć trasę, zmierzyć odległości i rozplanować porty. Szczegóły odcinków opracowuje się potem na mapach w większej skali.",
+     "source": "Kolaszewski, rozdz. 5",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-35",
+     "q": "Jaka pomoc jest najdokładniejsza przy planowaniu przelotów oceanicznych (wybór trasy i miesiąca)?",
+     "a": "Mapy miesięczne warunków (Routeing Charts, ang. też Pilot Charts) – dla każdego miesiąca pokazują przeważające wiatry, częstość sztormów, prądy, zasięg lodów i zalecane trasy. Uzupełnia je publikacja Ocean Passages for the World.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-36",
+     "q": "W jakim wydawnictwie znajdziesz informacje o systemie ratownictwa (GMDSS, ośrodki MRCC, procedury) na wodach całego świata?",
+     "a": "W Admiralty List of Radio Signals, tom 5 (GMDSS) – zawiera ogólnoświatowe dane o łączności w niebezpieczeństwie i służbach poszukiwania i ratownictwa.",
+     "explain": "Inne tomy ALRS to m.in. stacje brzegowe (t. 1), radiowe pomoce nawigacyjne (t. 2), serwisy MSI i meteo (t. 3), serwis pilotowy, VTS i porty (t. 6).",
+     "source": "UKHO, Admiralty List of Radio Signals",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-37",
+     "q": "Jakie wydawnictwa będą najbardziej przydatne w turystycznym rejsie z Polski na wody duńskie?",
+     "a": "Żeglarskie (jachtowe) mapy akwenu i przewodniki dla żeglarzy z planami portów jachtowych i marin – zawierają głębokości, miejsca dla jachtów, usługi i kanały VHF marin. Publikacje Admiralicji są pisane głównie dla statków handlowych.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p1-38",
+     "q": "Czym różnią się żeglarskie przewodniki (cruising guides) od locji Admiralicji?",
+     "a": "Przewodnik żeglarski opisuje akwen z punktu widzenia jachtu: plany małych portów i marin, miejsca postoju, kotwicowiska, głębokości przy kejach, usługi. Locja Admiralicji jest pełniejsza, ale nastawiona na statki handlowe i często pomija małe porty jachtowe.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p1-39",
+     "q": "Jak zaplanować wyposażenie apteczki na około miesięczny rejs?",
+     "a": "Indywidualnie: przepisy nie podają składu, są tylko zalecenia. Najlepiej skonsultować skład z lekarzem, uwzględniając liczbę osób, długość rejsu, odległość od pomocy medycznej, klimat i leki przyjmowane przez członków załogi.",
+     "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. VI",
+     "difficulty": 1
+    }
+   ]
+  },
+  {
+   "id": "L7-x-elektryka",
+   "title": "Elektryka, sterowanie i napęd",
+   "theory": [
+    {
+     "t": "p",
+     "text": "Instalacja jachtu to zwykle **12 V prądu stałego** z co najmniej dwoma akumulatorami (rozruchowy i hotelowy). Stan akumulatora kwasowego ocenia się po **napięciu spoczynkowym** (bez obciążenia, po odstaniu)."
+    },
+    {
+     "t": "table",
+     "head": [
+      "Napięcie spoczynkowe",
+      "Stan akumulatora 12 V"
+     ],
+     "rows": [
+      [
+       "ok. 12,6–12,8 V",
+       "naładowany"
+      ],
+      [
+       "ok. 12,2 V",
+       "ok. połowa"
+      ],
+      [
+       "≤ 11,8 V",
+       "praktycznie rozładowany"
+      ],
+      [
+       "ok. 10,5 V",
+       "całkowicie rozładowany – naładuj przed rozruchem"
+      ],
+      [
+       "13,8–14,4 V",
+       "to napięcie podczas ładowania, nie spoczynkowe"
+      ]
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Ładowanie**: prąd ok. **0,1 C** (10% pojemności) przez ok. 10 h – np. 200 Ah → 20 A. Moc a prąd: **P = U × I** (480 W / 12 V = 40 A).",
+      "**Akumulator obsługowy**: sprawdzaj poziom elektrolitu i dolewaj **wody destylowanej** (nigdy kwasu); czyste, dokręcone klemy; wentylacja – przy ładowaniu wydziela się wodór.",
+      "**Alternator** nie znosi nagłej utraty obciążenia – nie wyłączaj akumulatorów ani nie przełączaj ich z przerwą w obwodzie przy pracującym silniku (giną diody prostownika).",
+      "**Silnik nie kręci się, akumulator ok. 12,8 V** → szukaj złego styku (klemy, przewody rozrusznika, masa, wyłącznik). **Akumulator ok. 10,5 V** → najpierw ładowanie lub drugi akumulator.",
+      "**Sterociągi** (liny/łańcuch od koła do kwadrantu) wyciągają się – luz na kole kasuje się ściągaczami. Ster awaryjny – przy poważnej awarii.",
+      "**Autopilot**, który nie radzi sobie z falą, przełącza się w **STAND BY** i steruje ręcznie.",
+      "**Śruba nastawna** zmienia kąt łopat – może dawać ciąg wstecz bez przekładni nawrotnej."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Dwie liczby do zapamiętania: 12,7 V – pełny, 0,1 C – prąd ładowania."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-p2-a2-11",
+     "q": "Jakie napięcie spoczynkowe ma akumulator kwasowy 12 V naładowany, a jakie rozładowany?",
+     "a": "Naładowany: ok. 12,6–12,8 V. Ok. 12,2 V – w połowie rozładowany. Ok. 11,8 V i niżej – praktycznie rozładowany; 10,5 V – całkowicie rozładowany.",
+     "explain": "Mierzy się bez obciążenia i po odstaniu (kilka godzin po ładowaniu). 14,0–14,4 V widać tylko PODCZAS ładowania – to napięcie ładowania, nie spoczynkowe. Głębokie rozładowanie (poniżej ok. 50%) skraca życie akumulatora kwasowego.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-12",
+     "q": "Rozrusznik nie obraca silnika, a akumulator ma 12,8 V. Co sprawdzasz najpierw?",
+     "a": "Połączenia: czy klemy i przewody od akumulatora do rozrusznika (także masa) nie są obluzowane lub skorodowane, oraz wyłącznik główny.",
+     "explain": "12,8 V = akumulator pełny, więc prąd nie dociera do rozrusznika – najczęściej przez zły styk. Brak paliwa nie przeszkadza w kręceniu wałem – silnik obracałby się, ale nie zapalił.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-13",
+     "q": "Silnik nie startuje, a akumulator ma 10,5 V. Co robisz?",
+     "a": "Akumulator jest rozładowany – trzeba go naładować (do ok. 12,5 V i więcej) albo uruchomić silnik z drugiego, naładowanego akumulatora (przełącznik / spięcie baterii) i dopiero ponowić próbę.",
+     "explain": "Przy 10,5 V rozrusznik nie ma dość prądu – to nie jest jego usterka. Długie kręcenie rozładowuje akumulator do końca i przegrzewa rozrusznik.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-14",
+     "q": "Jakim prądem i jak długo ładuje się rozładowany akumulator kwasowy (np. 200 Ah)?",
+     "a": "Prądem ok. 1/10 pojemności, czyli ok. 20 A, przez ok. 10 godzin (w praktyce nieco dłużej – sprawność ładowania).",
+     "explain": "Reguła 0,1 C: prąd ładowania ≈ 10% pojemności w Ah. 10 A przez 10 h da tylko ok. 100 Ah – połowę. Zbyt duży prąd grzeje akumulator, powoduje gazowanie i skraca jego życie.",
+     "tip": "0,1 C: 200 Ah → 20 A → ok. 10 h.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-15",
+     "q": "Generator ma moc 0,48 kW przy 12 V. Jaki prąd może dać i czy wystarczy do ładowania akumulatora 200 Ah?",
+     "a": "I = P / U = 480 W / 12 V = 40 A. Wystarczy z zapasem – potrzeba ok. 20 A (0,1 C), więc ładowanie zajmie ok. 10 h.",
+     "explain": "Moc P = U × I, więc I = P / U. 0,48 kW = 480 W.",
+     "tip": "P = U × I (wat = wolt × amper).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-16",
+     "q": "Jak obsługuje się akumulatory kwasowe obsługowe (z korkami)?",
+     "a": "Okresowo sprawdza się poziom (i gęstość) elektrolitu i uzupełnia go wodą destylowaną; dba się o czyste, dokręcone i zabezpieczone klemy oraz o doładowywanie.",
+     "explain": "Podczas ładowania odparowuje (rozkłada się) woda, a kwas zostaje w akumulatorze – dlatego dolewa się tylko wodę destylowaną, nigdy kwasu. Przy ładowaniu wydziela się wodór – komora akumulatorów musi być wentylowana.",
+     "source": "Żeglarz i sternik morski (obsługa akumulatorów)",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-17",
+     "q": "Czy można odłączyć akumulator (lub przełączyć ładowanie z przerwą w obwodzie) przy pracującym alternatorze?",
+     "a": "Nie. Alternator nie jest odporny na nagłą utratę obciążenia – powstaje skok napięcia, który niszczy diody prostownika (i regulator). Przełącza się tylko przy wyłączonym silniku lub przełącznikiem, który nie przerywa obwodu.",
+     "explain": "Nigdy nie ustawiaj przełącznika akumulatorów na OFF przy pracującym silniku. Do ładowania kilku baterii stosuje się rozdzielacz diodowy, przekaźnik (VSR) lub ładowarkę DC-DC.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-18",
+     "q": "Na kole sterowym ze sterociągami pojawił się luz. Co robisz najpierw?",
+     "a": "Sprawdzasz sterociągi (liny lub łańcuch od koła do kwadrantu steru) i w razie potrzeby dociągasz je ściągaczami. Ster awaryjny zakłada się dopiero przy awarii, której nie da się usunąć.",
+     "explain": "Sterociągi z czasem się wyciągają. Przy przeglądzie sprawdza się też bloczki, zabezpieczenia ściągaczy i kwadrant. Zbyt mocne napięcie utrudnia sterowanie i niszczy bloczki – luz kasuje się z wyczuciem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-19",
+     "q": "Autopilot przy dużej fali od rufy alarmuje i nie trzyma kursu. Co robisz?",
+     "a": "Przełączasz autopilota w tryb STAND BY (odłączasz go) i przechodzisz na sterowanie ręczne.",
+     "explain": "Szarpanie koła przy włączonym autopilocie może uszkodzić jego napęd, a autopilot walczy wtedy ze sternikiem. Na fali od rufy łatwo o broaching – sternik zareaguje lepiej niż autopilot.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-20",
+     "q": "Jak śruba nastawna (o zmiennym skoku) pozwala płynąć wstecz?",
+     "a": "Zmienia się kąt ustawienia łopat (skok) – po ustawieniu skoku „ujemnego” śruba pcha wstecz, choć wał kręci się ciągle w tę samą stronę. Nie potrzeba przekładni nawrotnej.",
+     "explain": "Śrubą nastawną reguluje się też ciąg przy stałych obrotach silnika. Nie mylić ze śrubą składaną (łopaty składają się pod żaglami, by zmniejszyć opór).",
+     "difficulty": 2
+    }
+   ]
+  },
+  {
+   "id": "L7-x-takielunek",
+   "title": "Takielunek, żagle i kotwiczenie",
+   "theory": [
+    {
+     "t": "ul",
+     "items": [
+      "**Topenanta** – lina podtrzymująca **nok bomu** (gdy grot nie pracuje). **Obciągacz** ściąga bom w dół.",
+      "**Lazy jack** – linki od masztu do bomu po obu stronach grota; zrzucany grot układa się na bomie, a linki działają też jak topenanta. Często z pokrowcem na bomie.",
+      "**Achtersztag** – napina się mocniej przy silnym wietrze i na ostrych kursach, luzuje przy słabym wietrze i **na postoju w porcie**.",
+      "**Sztormfok** najlepiej stawiać na **sztagu wewnętrznym** – ma dobry kształt i niski środek ożaglowania; mocno zrolowana genua ma zły profil."
+     ]
+    },
+    {
+     "t": "table",
+     "head": [
+      "Lina spinakera",
+      "Rola"
+     ],
+     "rows": [
+      [
+       "fał",
+       "podnosi spinaker"
+      ],
+      [
+       "szot",
+       "róg szotowy po zawietrznej"
+      ],
+      [
+       "bras",
+       "róg halsowy przez nok bomu spinakera – ustala kąt bomu"
+      ],
+      [
+       "kontrabras (obciągacz bomu)",
+       "ciągnie bom w dół i do przodu"
+      ],
+      [
+       "topenanta bomu spinakera",
+       "ustala wysokość bomu"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "**Kurs pełniejszy**: wybierz bras, luzuj szot i kontrabras. **Kurs ostrzejszy**: odwrotnie."
+    },
+    {
+     "t": "ul",
+     "items": [
+      "**Kotwice**: Danforth (największa siła trzymania do masy, piasek), pługowe CQR / Delta / Bruce (pewne wbijanie, kotwica dziobowa), admiralicji (ciężka, na zarośnięte dno), drapak (pomocnicza).",
+      "**Łańcuch** wydaje się ok. **3–5 głębokości** (więcej przy linie, silnym wietrze i miękkim dnie). Jacht ok. 15 m powinien mieć co najmniej ok. 50 m łańcucha.",
+      "**Krętlik** i szekla łączące łańcuch z kotwicą: kute, z zabezpieczonym sworzniem, nie słabsze od łańcucha.",
+      "**Lina holownicza** – długa i mocna; zabiera się ją z powodu dobrej praktyki morskiej, a nie przepisu."
+     ]
+    },
+    {
+     "t": "tip",
+     "text": "Łańcuch: głębokość × 4 – i zawsze sprawdź, czy kotwica „wzięła” (silnik wstecz, obserwuj nabieżnik)."
+    }
+   ],
+   "cards": [
+    {
+     "id": "L7-p2-a2-21",
+     "q": "Co to jest lazy jack i do czego służy?",
+     "a": "System linek biegnących od masztu do bomu (po obu stronach żagla). Prowadzi opadający grot na bom, podtrzymuje bom jak topenanta, ułatwia zrzucanie i klarowanie grota; często współpracuje ze stałym pokrowcem na bomie.",
+     "source": "Żeglarz i sternik morski, rys. 3.36",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-22",
+     "q": "Jak nazywa się lina podtrzymująca bom, zwykle zamocowana do jego noku?",
+     "a": "Topenanta – utrzymuje nok bomu w górze, gdy grot nie jest postawiony lub jest zrzucany (bom nie spada na pokład i głowy załogi).",
+     "explain": "Obciągacz działa odwrotnie – ściąga bom w dół. Na jachtach z lazy jackiem lub sztywnym obciągaczem (rod kicker) topenanta bywa zbędna.",
+     "difficulty": 1
+    },
+    {
+     "id": "L7-p2-a2-23",
+     "q": "Jakie liny ustawiają bom spinakera (spinakerbom)?",
+     "a": "Bras (ustala, jak daleko do tyłu/przodu jest bom – kąt do wiatru), kontrabras – obciągacz bomu spinakera (ciągnie bom w dół i do przodu) oraz topenanta bomu spinakera (wysokość).",
+     "explain": "Szot spinakera pracuje po drugiej stronie żagla (przy rogu szotowym), a fał tylko podnosi żagiel – nie ustawiają one bomu.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-24",
+     "q": "Jacht niesie spinaker i odpada na kurs pełniejszy. Jak pracujesz linami?",
+     "a": "Wybierasz bras (bom idzie do tyłu, prostopadle do wiatru), luzujesz szot i luzujesz kontrabras, by bom mógł się przesunąć.",
+     "explain": "Przy ostrzeniu odwrotnie: luzujesz bras (bom do przodu, ale nie na sztag), wybierasz szot i dociągasz kontrabras. Bom spinakera ustawia się mniej więcej prostopadle do wiatru pozornego.",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p2-a2-25",
+     "q": "Jacht ma hydrauliczny (lub śrubowy) napinacz achtersztagu. Co robisz z nim na postoju w porcie?",
+     "a": "Luzujesz achtersztag (zmniejszasz ciśnienie) – nie ma sensu trzymać masztu, olinowania i kadłuba pod dużym naprężeniem, gdy jacht nie żegluje.",
+     "explain": "Napięcie achtersztagu reguluje się w żegludze: mocniej przy silnym wietrze i na kursach ostrych (płaski grot, prosty sztag), luźniej przy słabym wietrze i z wiatrem.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-26",
+     "q": "Ile łańcucha wydaje się przy kotwiczeniu?",
+     "a": "Co najmniej ok. 3–5 głębokości (licząc od pokładu na dziobie). Więcej (5 i więcej) przy linie kotwicznej, silnym wietrze, fali i słabo trzymającym (np. mulistym) dnie.",
+     "explain": "Kotwica trzyma najlepiej, gdy łańcuch przy niej leży poziomo na dnie – ciężar łańcucha amortyzuje szarpnięcia. Przy linie potrzeba więcej (lub odcinka łańcucha przy kotwicy). Pamiętaj o miejscu na zatoczenie jachtu wokół kotwicy.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-27",
+     "q": "Kotwiczysz na głębokości 8 m, dno muliste. Ile łańcucha wydasz: 15 m, 20 m czy 35 m?",
+     "a": "Ok. 35 m – to ponad 4 głębokości. 15–20 m (ok. 2–2,5 głębokości) to za mało, zwłaszcza na słabo trzymającym mulistym dnie.",
+     "explain": "8 m × 3 = 24 m to absolutne minimum w dobrych warunkach; przy mule i na zapas – 4–5 głębokości.",
+     "tip": "Głębokość × 4 ≈ bezpieczna długość łańcucha.",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-28",
+     "q": "Jacht 15 m, wyporność ok. 20 t, ma 25 m łańcucha kotwicznego. Czy to wystarczy?",
+     "a": "Zdecydowanie nie. Przy zasadzie 3–5 głębokości 25 m wystarcza na kotwiczenie najwyżej na kilku metrach wody. Taki jacht powinien mieć co najmniej ok. 50 m łańcucha, a zwykle więcej (60–80 m).",
+     "explain": "Kaliber łańcucha dobiera się do wielkości jachtu, ale nie zastąpi on długości – z za krótkim łańcuchem nie zakotwiczysz na typowych kotwicowiskach (10–15 m głębokości).",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-29",
+     "q": "Jakie cechy ma dobry krętlik do połączenia łańcucha z kotwicą?",
+     "a": "Kuty (nie odlewany), z mocnym, zabezpieczonym sworzniem, ze stali nierdzewnej lub ocynkowanej o wytrzymałości nie mniejszej niż łańcuch; połączony z kotwicą tak, by nie był zginany bocznie (często przez szeklę).",
+     "explain": "Krętlik zapobiega skręcaniu łańcucha, gdy kotwica obraca się przy wybieraniu. To najsłabsze ogniwo zestawu – tani krętlik może pęknąć pod bocznym obciążeniem i jacht straci kotwicę. Szekle zabezpiecza się drutem (myszkowanie).",
+     "difficulty": 3
+    },
+    {
+     "id": "L7-p2-a2-30",
+     "q": "Jakie typy kotwic spotyka się na jachtach i czym się różnią?",
+     "a": "Danforth (płaska, dwie ruchome łapy) – bardzo duża siła trzymania w stosunku do masy, zwłaszcza w piasku i mule. Pługowe: CQR (ruchomy lemiesz), Delta (sztywna) i Bruce (łopatowa) – szybko się wbijają w każdej pozycji, dobre jako kotwice dziobowe; słabo w wodorostach. Admiralicji – dobra na zarośnięte i kamieniste dno, ale ciężka i nieporęczna. Drapak (czterołapowa) – pomocnicza, do mułu i wodorostów.",
+     "explain": "Nowoczesne kotwice nowej generacji (np. Rocna, Spade) też mają kształt lemiesza z dużą powierzchnią i należą do najlepiej trzymających. Siła trzymania zależy też od rodzaju dna i długości wydanego łańcucha.",
+     "source": "Żeglarz i sternik morski, s. 53–55 (rodzaje kotwic)",
+     "difficulty": 2
+    },
+    {
+     "id": "L7-p2-a2-31",
+     "q": "Która kotwica według podręcznika ma największy stosunek siły trzymania do masy, szczególnie w piasku?",
+     "a": "Kotwica patentowa Danfortha (płaska, z dwiema ruchomymi łapami).",
+     "explain": "Wadą Danfortha jest słabe wbijanie się w twarde, zarośnięte dno i możliwość wyrwania przy zmianie kierunku ciągu (obrót jachtu). Pługowe CQR/Delta są pewniejsze przy zmianach kierunku.",
+     "source": "Żeglarz i sternik morski, s. 54",
+     "difficulty": 2
     }
    ]
   }

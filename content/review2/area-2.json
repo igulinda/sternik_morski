@@ -1,0 +1,646 @@
+{
+ "area": 2,
+ "newCards": [
+  {
+   "level": 7,
+   "lesson": "L7-silnik",
+   "card": {
+    "id": "L7-p2-a2-01",
+    "q": "Jak smarowany jest zaburtowy silnik dwusuwowy i jakie paliwo się do niego tankuje?",
+    "a": "Olejem dodanym do benzyny – tankuje się mieszankę benzyny z olejem do silników dwusuwowych (nie czystą benzynę).",
+    "explain": "Dwusuw nie ma miski olejowej – olej z mieszanki smaruje wał i tłok, a potem spala się razem z paliwem. Czysta benzyna szybko zatarłaby silnik. Czterosuw (też benzynowy) ma olej w misce i tankuje się do niego czystą benzynę.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Benzyną z dodatkiem oleju do dwusuwów, w proporcji z instrukcji silnika",
+     "wrong": [
+      "Czystą benzyną – olej jest w misce olejowej jak w czterosuwie",
+      "Wyłącznie czystą benzyną wysokooktanową",
+      "Olejem napędowym z dodatkiem benzyny"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-silnik",
+   "card": {
+    "id": "L7-p2-a2-02",
+    "q": "W jakiej proporcji przygotowuje się mieszankę oleju i benzyny do silnika dwusuwowego?",
+    "a": "Zawsze według instrukcji producenta danego silnika (np. 1:50, 1:100) – nie ma jednej uniwersalnej proporcji.",
+    "explain": "Proporcja zależy od konstrukcji silnika i rodzaju oleju. Za mało oleju – ryzyko zatarcia; za dużo – nagar, zaolejone świece, dym. Mieszankę robi się w osobnym kanistrze i dokładnie miesza przed wlaniem.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Według instrukcji fabrycznej danego silnika",
+     "wrong": [
+      "Zawsze 1:80, niezależnie od silnika",
+      "Zawsze 1:25 – im więcej oleju, tym lepiej",
+      "Silnika dwusuwowego nie zasila się mieszanką"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-silnik",
+   "card": {
+    "id": "L7-p2-a2-03",
+    "q": "Dlaczego na rejs warto zabrać pompkę do wymiany oleju w silniku jachtowym?",
+    "a": "Silnik stoi nisko, a korka spustowego miski zwykle nie da się użyć – olej wysysa się pompką przez rurkę bagnetu. Chroni to zęzę przed zalaniem olejem.",
+    "explain": "To wyposażenie zalecane, nie obowiązkowe. Olej wysysa się ciepły (po krótkiej pracy silnika), razem z olejem wymienia się filtr; zużyty olej oddaje się w porcie do pojemnika na odpady olejowe.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Silnik jest nisko i trudno spuścić olej z miski – pompka zapobiega zabrudzeniu zęzy",
+     "wrong": [
+      "Bo wymaga tego przepis o obowiązkowym wyposażeniu jachtu",
+      "Nie warto – olej wymienia się wyłącznie w autoryzowanym serwisie",
+      "Pompka służy do odpowietrzania układu paliwowego"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-silnik",
+   "card": {
+    "id": "L7-p2-a2-04",
+    "q": "Jakie podstawowe materiały eksploatacyjne do diesla zabierasz na ok. miesięczny rejs (silnik sprawny)?",
+    "a": "Olej do wymiany i filtry oleju, filtry paliwa, zapasowe paski klinowe, wirnik (impeller) pompy wody zaburtowej – plus uszczelki i podstawowe narzędzia.",
+    "explain": "Zabiera się to, co zużywa się normalnie podczas eksploatacji i co załoga sama wymieni w morzu. Duże podzespoły (pompa wtryskowa, rozrusznik, alternator) wymienia serwis.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Olej, filtry oleju i paliwa, paski klinowe, impeller pompy chłodzącej",
+     "wrong": [
+      "Zapasowy alternator, wtryskiwacze i płyn chłodzący",
+      "Zapasową pompę wtryskową i rozrusznik",
+      "Nic – sprawny silnik nie wymaga zapasów na miesiąc"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-jacht",
+   "card": {
+    "id": "L7-p2-a2-05",
+    "q": "Czy butle gazowe i ich przyłącza są takie same w różnych krajach?",
+    "a": "Nie. Typy butli, zaworów, gwintów i reduktorów różnią się między krajami – przy rejsie lub czarterze za granicą trzeba mieć przejściówki albo kupić lokalną butlę z pasującym reduktorem.",
+    "explain": "Przed rejsem zagranicznym sprawdź, jaki system gazu ma jacht i gdzie można wymienić butlę. Instalację po zmianie butli sprawdza się na szczelność (np. wodą z płynem), nigdy ogniem.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Nie – każdy kraj ma inny typ butli i przyłączy",
+     "wrong": [
+      "Tak, w całej Europie są zunifikowane",
+      "Tak, wszystkie butle mają ten sam gwint i reduktor",
+      "Różnią się tylko kolorem, przyłącza są wspólne"
+     ]
+    }
+   }
+  },
+  {
+   "level": 7,
+   "lesson": "L7-planowanie",
+   "card": {
+    "id": "L7-p2-a2-06",
+    "q": "Czy wychodząc w rejs morski warto mieć długą, mocną linę holowniczą?",
+    "a": "Tak – wymaga tego dobra praktyka morska, niezależnie od przepisów. Przyda się do holowania własnego jachtu lub innej jednostki, a także jako zapasowa cuma lub lina kotwiczna.",
+    "explain": "Lina powinna być długa (kilkadziesiąt metrów) i rozciągliwa (np. poliamid), by amortyzowała szarpnięcia na fali. Przy holowaniu przez statek ratowniczy zwykle używa się jego liny, ale własna bywa niezbędna np. przy pomocy innemu jachtowi.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Tak – wymaga tego dobra praktyka morska, niezależnie od przepisów",
+     "wrong": [
+      "Nie, skoro przepisy jej nie wymagają",
+      "Tak, ale tylko dlatego, że jest obowiązkowa w każdym rejsie",
+      "Nie, holowanie zapewnia zawsze lina jednostki ratowniczej"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-p2-a2-07",
+    "q": "Pękło okucie mocujące sztag. Co robisz?",
+    "a": "Odpadasz na pełny baksztag lub fordewind (grot i achtersztag ciągną maszt do tyłu), zrzucasz przednie żagle, zakładasz zastępczy sztag z fałów (do okucia na dziobie) i napinasz go, sprawdzasz, czy da się wpiąć sztag w inne okucie. Potem decydujesz o dalszej żegludze (najbliższy port).",
+    "explain": "Sztag trzyma maszt od przodu. Na kursie z wiatrem obciążenie masztu przenosi się do tyłu (na achtersztag), więc maszt nie poleci do rufy. Na kursie ostrym lub przy zwrocie maszt łatwo złamać.",
+    "source": "Żeglarz i sternik morski – awarie takielunku",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Odpaść na baksztag/fordewind, zrzucić przednie żagle, założyć i napiąć sztag zastępczy z fałów",
+     "wrong": [
+      "Zrzucić wszystkie żagle i dalej płynąć na silniku pod wiatr",
+      "Zrobić zwrot przez sztag i płynąć bajdewindem do portu",
+      "Postawić większy żagiel przedni, by podtrzymał maszt"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-p2-a2-08",
+    "q": "Zauważasz pęknięte druty w wancie po nawietrznej. Co robisz w pierwszej kolejności?",
+    "a": "Natychmiast robisz zwrot, aby uszkodzona wanta znalazła się po zawietrznej (bez obciążenia). Potem zrzucasz żagle, zakładasz prowizoryczną wantę (np. z fału) i po ocenie sytuacji płyniesz na silniku do portu.",
+    "explain": "Nawietrzna wanta przenosi całą siłę żagli – może pęknąć w każdej chwili i maszt spadnie. Po zawietrznej jest luźna. Zasada: uszkodzony element olinowania zawsze odciąża się zmianą kursu lub halsu.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Natychmiast zwrot, by wanta była po zawietrznej, zrzucić żagle, założyć wantę prowizoryczną",
+     "wrong": [
+      "Zrzucić żagle i oglądać wantę – przy <50% pękniętych drutów płynąć dalej",
+      "Płynąć dalej tym samym halsem na zrefowanych żaglach",
+      "Mocniej dokręcić ściągacz uszkodzonej wanty"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-p2-a2-09",
+    "q": "Jak zmienić kurs, by odciążyć uszkodzony element olinowania stałego: sztag, achtersztag, wantę?",
+    "a": "Sztag – odpaść z wiatrem (baksztag/fordewind). Achtersztag – wyostrzyć (bajdewind), by fok trzymał maszt do przodu. Wanta nawietrzna – zwrot, by była po zawietrznej.",
+    "explain": "Zawsze ustawia się jacht tak, by żagle i wiatr pchały maszt w stronę przeciwną do uszkodzonego elementu, a następnie zakłada się olinowanie zastępcze z fałów.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Sztag: z wiatrem; achtersztag: pod wiatr; wanta nawietrzna: zwrot na drugi hals",
+     "wrong": [
+      "Zawsze odpaść na fordewind, niezależnie od elementu",
+      "Zawsze stanąć w łopot i zrzucić wszystkie żagle",
+      "Sztag: pod wiatr; achtersztag: z wiatrem; wanta: bez zmiany kursu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-p2-a2-10",
+    "q": "Przy silnym wietrze trzeba zmniejszyć żagiel przedni. Co jest lepsze: mocno zrolowana genua czy mały fok (sztormfok) na sztagu wewnętrznym?",
+    "a": "Mały fok na sztagu wewnętrznym – ma właściwy, płaski kształt, środek ożaglowania niżej i bliżej masztu. Mocno zrolowana genua ma zły, „brzuchaty” profil, jest wysoko i bardziej przechyla jacht.",
+    "explain": "Żagiel rolowany jest skrojony na pełną powierzchnię – po zwinięciu w dużej części traci kształt, a roler i tkanina są w sztormie obciążone. Sztag wewnętrzny (lub sztag sztormowy) pozwala postawić sztormfok bliżej środka jachtu.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Postawić mały fok (sztormfok) na sztagu wewnętrznym",
+     "wrong": [
+      "Zostawić zrolowaną genuę – roler jest do tego stworzony",
+      "Nie ma znaczenia, liczy się tylko powierzchnia żagla",
+      "Zrzucić grot i płynąć na całej genui"
+     ]
+    }
+   }
+  }
+ ],
+ "newLessons": [
+  {
+   "level": 7,
+   "lesson": {
+    "id": "L7-x-elektryka",
+    "title": "Elektryka, sterowanie i napęd",
+    "theory": [
+     {
+      "t": "p",
+      "text": "Instalacja jachtu to zwykle **12 V prądu stałego** z co najmniej dwoma akumulatorami (rozruchowy i hotelowy). Stan akumulatora kwasowego ocenia się po **napięciu spoczynkowym** (bez obciążenia, po odstaniu)."
+     },
+     {
+      "t": "table",
+      "head": [
+       "Napięcie spoczynkowe",
+       "Stan akumulatora 12 V"
+      ],
+      "rows": [
+       [
+        "ok. 12,6–12,8 V",
+        "naładowany"
+       ],
+       [
+        "ok. 12,2 V",
+        "ok. połowa"
+       ],
+       [
+        "≤ 11,8 V",
+        "praktycznie rozładowany"
+       ],
+       [
+        "ok. 10,5 V",
+        "całkowicie rozładowany – naładuj przed rozruchem"
+       ],
+       [
+        "13,8–14,4 V",
+        "to napięcie podczas ładowania, nie spoczynkowe"
+       ]
+      ]
+     },
+     {
+      "t": "ul",
+      "items": [
+       "**Ładowanie**: prąd ok. **0,1 C** (10% pojemności) przez ok. 10 h – np. 200 Ah → 20 A. Moc a prąd: **P = U × I** (480 W / 12 V = 40 A).",
+       "**Akumulator obsługowy**: sprawdzaj poziom elektrolitu i dolewaj **wody destylowanej** (nigdy kwasu); czyste, dokręcone klemy; wentylacja – przy ładowaniu wydziela się wodór.",
+       "**Alternator** nie znosi nagłej utraty obciążenia – nie wyłączaj akumulatorów ani nie przełączaj ich z przerwą w obwodzie przy pracującym silniku (giną diody prostownika).",
+       "**Silnik nie kręci się, akumulator ok. 12,8 V** → szukaj złego styku (klemy, przewody rozrusznika, masa, wyłącznik). **Akumulator ok. 10,5 V** → najpierw ładowanie lub drugi akumulator.",
+       "**Sterociągi** (liny/łańcuch od koła do kwadrantu) wyciągają się – luz na kole kasuje się ściągaczami. Ster awaryjny – przy poważnej awarii.",
+       "**Autopilot**, który nie radzi sobie z falą, przełącza się w **STAND BY** i steruje ręcznie.",
+       "**Śruba nastawna** zmienia kąt łopat – może dawać ciąg wstecz bez przekładni nawrotnej."
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Dwie liczby do zapamiętania: 12,7 V – pełny, 0,1 C – prąd ładowania."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L7-p2-a2-11",
+      "q": "Jakie napięcie spoczynkowe ma akumulator kwasowy 12 V naładowany, a jakie rozładowany?",
+      "a": "Naładowany: ok. 12,6–12,8 V. Ok. 12,2 V – w połowie rozładowany. Ok. 11,8 V i niżej – praktycznie rozładowany; 10,5 V – całkowicie rozładowany.",
+      "explain": "Mierzy się bez obciążenia i po odstaniu (kilka godzin po ładowaniu). 14,0–14,4 V widać tylko PODCZAS ładowania – to napięcie ładowania, nie spoczynkowe. Głębokie rozładowanie (poniżej ok. 50%) skraca życie akumulatora kwasowego.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Pełny ok. 12,7 V; ok. 12,2 V to połowa; 11,8 V i mniej – rozładowany",
+       "wrong": [
+        "Pełny ok. 14,4 V; 12 V to wciąż ok. 90% pojemności",
+        "Pełny 12,0 V; 10,5 V to ok. połowa pojemności",
+        "Napięcie nie mówi nic o stanie naładowania"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-12",
+      "q": "Rozrusznik nie obraca silnika, a akumulator ma 12,8 V. Co sprawdzasz najpierw?",
+      "a": "Połączenia: czy klemy i przewody od akumulatora do rozrusznika (także masa) nie są obluzowane lub skorodowane, oraz wyłącznik główny.",
+      "explain": "12,8 V = akumulator pełny, więc prąd nie dociera do rozrusznika – najczęściej przez zły styk. Brak paliwa nie przeszkadza w kręceniu wałem – silnik obracałby się, ale nie zapalił.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Czy nie są obluzowane lub skorodowane przewody od akumulatora i rozrusznika",
+       "wrong": [
+        "Poziom paliwa w zbiorniku",
+        "Doładowanie akumulatora do 13 V i ponowną próbę",
+        "Od razu demontaż rozrusznika do serwisu"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-13",
+      "q": "Silnik nie startuje, a akumulator ma 10,5 V. Co robisz?",
+      "a": "Akumulator jest rozładowany – trzeba go naładować (do ok. 12,5 V i więcej) albo uruchomić silnik z drugiego, naładowanego akumulatora (przełącznik / spięcie baterii) i dopiero ponowić próbę.",
+      "explain": "Przy 10,5 V rozrusznik nie ma dość prądu – to nie jest jego usterka. Długie kręcenie rozładowuje akumulator do końca i przegrzewa rozrusznik.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Naładować akumulator do min. ok. 12,5 V (lub użyć drugiego) i ponowić próbę",
+       "wrong": [
+        "Zdemontować rozrusznik i oddać go do przeglądu",
+        "Rozebrać i sprawdzić bendiks rozrusznika",
+        "Kręcić rozrusznikiem tak długo, aż silnik zapali"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-14",
+      "q": "Jakim prądem i jak długo ładuje się rozładowany akumulator kwasowy (np. 200 Ah)?",
+      "a": "Prądem ok. 1/10 pojemności, czyli ok. 20 A, przez ok. 10 godzin (w praktyce nieco dłużej – sprawność ładowania).",
+      "explain": "Reguła 0,1 C: prąd ładowania ≈ 10% pojemności w Ah. 10 A przez 10 h da tylko ok. 100 Ah – połowę. Zbyt duży prąd grzeje akumulator, powoduje gazowanie i skraca jego życie.",
+      "tip": "0,1 C: 200 Ah → 20 A → ok. 10 h.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Ok. 20 A (ok. 10% pojemności) przez ok. 10 godzin",
+       "wrong": [
+        "Ok. 40 A przez ok. 5 godzin – szybciej znaczy lepiej",
+        "Ok. 10 A przez ok. 10 godzin",
+        "Ok. 200 A przez ok. 1 godzinę"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-15",
+      "q": "Generator ma moc 0,48 kW przy 12 V. Jaki prąd może dać i czy wystarczy do ładowania akumulatora 200 Ah?",
+      "a": "I = P / U = 480 W / 12 V = 40 A. Wystarczy z zapasem – potrzeba ok. 20 A (0,1 C), więc ładowanie zajmie ok. 10 h.",
+      "explain": "Moc P = U × I, więc I = P / U. 0,48 kW = 480 W.",
+      "tip": "P = U × I (wat = wolt × amper).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Ok. 40 A (480 W / 12 V) – wystarczy na ładowanie prądem ok. 20 A",
+       "wrong": [
+        "Ok. 4 A – za mało do ładowania",
+        "Ok. 5,76 kA – trzeba ograniczyć moc",
+        "Ok. 400 A – można ładować w pół godziny"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-16",
+      "q": "Jak obsługuje się akumulatory kwasowe obsługowe (z korkami)?",
+      "a": "Okresowo sprawdza się poziom (i gęstość) elektrolitu i uzupełnia go wodą destylowaną; dba się o czyste, dokręcone i zabezpieczone klemy oraz o doładowywanie.",
+      "explain": "Podczas ładowania odparowuje (rozkłada się) woda, a kwas zostaje w akumulatorze – dlatego dolewa się tylko wodę destylowaną, nigdy kwasu. Przy ładowaniu wydziela się wodór – komora akumulatorów musi być wentylowana.",
+      "source": "Żeglarz i sternik morski (obsługa akumulatorów)",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Sprawdzać poziom elektrolitu i dolewać wody destylowanej",
+       "wrong": [
+        "Dolewać 50% roztwór kwasu siarkowego",
+        "Wystarczy sprawdzać, czy klemy nie mają luzów",
+        "Dolewać zwykłej wody z kranu"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-17",
+      "q": "Czy można odłączyć akumulator (lub przełączyć ładowanie z przerwą w obwodzie) przy pracującym alternatorze?",
+      "a": "Nie. Alternator nie jest odporny na nagłą utratę obciążenia – powstaje skok napięcia, który niszczy diody prostownika (i regulator). Przełącza się tylko przy wyłączonym silniku lub przełącznikiem, który nie przerywa obwodu.",
+      "explain": "Nigdy nie ustawiaj przełącznika akumulatorów na OFF przy pracującym silniku. Do ładowania kilku baterii stosuje się rozdzielacz diodowy, przekaźnik (VSR) lub ładowarkę DC-DC.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Nie – alternator nie jest odporny na brak obciążenia, uszkodzi się prostownik",
+       "wrong": [
+        "Tak, alternator jest odporny na brak obciążenia",
+        "Tak, układ prostujący jest odporny na brak obciążenia",
+        "Tak, ale tylko przy wysokich obrotach silnika"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-18",
+      "q": "Na kole sterowym ze sterociągami pojawił się luz. Co robisz najpierw?",
+      "a": "Sprawdzasz sterociągi (liny lub łańcuch od koła do kwadrantu steru) i w razie potrzeby dociągasz je ściągaczami. Ster awaryjny zakłada się dopiero przy awarii, której nie da się usunąć.",
+      "explain": "Sterociągi z czasem się wyciągają. Przy przeglądzie sprawdza się też bloczki, zabezpieczenia ściągaczy i kwadrant. Zbyt mocne napięcie utrudnia sterowanie i niszczy bloczki – luz kasuje się z wyczuciem.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Sprawdzić luzy na sterociągach i dociągnąć ich ściągacze",
+       "wrong": [
+        "Od razu założyć ster awaryjny i nim sterować",
+        "Nic nie da się zrobić – serwis w najbliższym porcie",
+        "Mocniej zablokować koło hamulcem steru"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-19",
+      "q": "Autopilot przy dużej fali od rufy alarmuje i nie trzyma kursu. Co robisz?",
+      "a": "Przełączasz autopilota w tryb STAND BY (odłączasz go) i przechodzisz na sterowanie ręczne.",
+      "explain": "Szarpanie koła przy włączonym autopilocie może uszkodzić jego napęd, a autopilot walczy wtedy ze sternikiem. Na fali od rufy łatwo o broaching – sternik zareaguje lepiej niż autopilot.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Przełączyć autopilota w tryb STAND BY i sterować ręcznie",
+       "wrong": [
+        "Odczekać – autopilot sam wróci na kurs",
+        "Chwycić koło i siłą sterować przy włączonym autopilocie",
+        "Zwiększyć czułość autopilota i płynąć dalej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-20",
+      "q": "Jak śruba nastawna (o zmiennym skoku) pozwala płynąć wstecz?",
+      "a": "Zmienia się kąt ustawienia łopat (skok) – po ustawieniu skoku „ujemnego” śruba pcha wstecz, choć wał kręci się ciągle w tę samą stronę. Nie potrzeba przekładni nawrotnej.",
+      "explain": "Śrubą nastawną reguluje się też ciąg przy stałych obrotach silnika. Nie mylić ze śrubą składaną (łopaty składają się pod żaglami, by zmniejszyć opór).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Zmienia się kąt łopat śruby, więc może pchać wstecz bez przekładni nawrotnej",
+       "wrong": [
+        "Nie pozwala – kręci się zawsze w jedną stronę",
+        "Służy tylko do zwiększenia prędkości bez zmiany obrotów",
+        "Pozwala tylko po odwróceniu obrotów wału"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "level": 7,
+   "lesson": {
+    "id": "L7-x-takielunek",
+    "title": "Takielunek, żagle i kotwiczenie",
+    "theory": [
+     {
+      "t": "ul",
+      "items": [
+       "**Topenanta** – lina podtrzymująca **nok bomu** (gdy grot nie pracuje). **Obciągacz** ściąga bom w dół.",
+       "**Lazy jack** – linki od masztu do bomu po obu stronach grota; zrzucany grot układa się na bomie, a linki działają też jak topenanta. Często z pokrowcem na bomie.",
+       "**Achtersztag** – napina się mocniej przy silnym wietrze i na ostrych kursach, luzuje przy słabym wietrze i **na postoju w porcie**.",
+       "**Sztormfok** najlepiej stawiać na **sztagu wewnętrznym** – ma dobry kształt i niski środek ożaglowania; mocno zrolowana genua ma zły profil."
+      ]
+     },
+     {
+      "t": "table",
+      "head": [
+       "Lina spinakera",
+       "Rola"
+      ],
+      "rows": [
+       [
+        "fał",
+        "podnosi spinaker"
+       ],
+       [
+        "szot",
+        "róg szotowy po zawietrznej"
+       ],
+       [
+        "bras",
+        "róg halsowy przez nok bomu spinakera – ustala kąt bomu"
+       ],
+       [
+        "kontrabras (obciągacz bomu)",
+        "ciągnie bom w dół i do przodu"
+       ],
+       [
+        "topenanta bomu spinakera",
+        "ustala wysokość bomu"
+       ]
+      ]
+     },
+     {
+      "t": "p",
+      "text": "**Kurs pełniejszy**: wybierz bras, luzuj szot i kontrabras. **Kurs ostrzejszy**: odwrotnie."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "**Kotwice**: Danforth (największa siła trzymania do masy, piasek), pługowe CQR / Delta / Bruce (pewne wbijanie, kotwica dziobowa), admiralicji (ciężka, na zarośnięte dno), drapak (pomocnicza).",
+       "**Łańcuch** wydaje się ok. **3–5 głębokości** (więcej przy linie, silnym wietrze i miękkim dnie). Jacht ok. 15 m powinien mieć co najmniej ok. 50 m łańcucha.",
+       "**Krętlik** i szekla łączące łańcuch z kotwicą: kute, z zabezpieczonym sworzniem, nie słabsze od łańcucha.",
+       "**Lina holownicza** – długa i mocna; zabiera się ją z powodu dobrej praktyki morskiej, a nie przepisu."
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Łańcuch: głębokość × 4 – i zawsze sprawdź, czy kotwica „wzięła” (silnik wstecz, obserwuj nabieżnik)."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L7-p2-a2-21",
+      "q": "Co to jest lazy jack i do czego służy?",
+      "a": "System linek biegnących od masztu do bomu (po obu stronach żagla). Prowadzi opadający grot na bom, podtrzymuje bom jak topenanta, ułatwia zrzucanie i klarowanie grota; często współpracuje ze stałym pokrowcem na bomie.",
+      "source": "Żeglarz i sternik morski, rys. 3.36",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Linki maszt–bom, które prowadzą zrzucany grot na bom, działają jak topenanta i ułatwiają klarowanie",
+       "wrong": [
+        "System linek do refowania grota",
+        "Pokrowiec do klarowania grota na bomie",
+        "Linka do obciągania bomu w dół na kursach pełnych"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-22",
+      "q": "Jak nazywa się lina podtrzymująca bom, zwykle zamocowana do jego noku?",
+      "a": "Topenanta – utrzymuje nok bomu w górze, gdy grot nie jest postawiony lub jest zrzucany (bom nie spada na pokład i głowy załogi).",
+      "explain": "Obciągacz działa odwrotnie – ściąga bom w dół. Na jachtach z lazy jackiem lub sztywnym obciągaczem (rod kicker) topenanta bywa zbędna.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Topenanta",
+       "wrong": [
+        "Bras",
+        "Obciągacz bomu",
+        "Kontrabras"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-23",
+      "q": "Jakie liny ustawiają bom spinakera (spinakerbom)?",
+      "a": "Bras (ustala, jak daleko do tyłu/przodu jest bom – kąt do wiatru), kontrabras – obciągacz bomu spinakera (ciągnie bom w dół i do przodu) oraz topenanta bomu spinakera (wysokość).",
+      "explain": "Szot spinakera pracuje po drugiej stronie żagla (przy rogu szotowym), a fał tylko podnosi żagiel – nie ustawiają one bomu.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Bras, kontrabras i topenanta",
+       "wrong": [
+        "Bras, szot spinakera i topenanta",
+        "Bras, kontrabras i fał spinakera",
+        "Szot, fał i obciągacz grota"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-24",
+      "q": "Jacht niesie spinaker i odpada na kurs pełniejszy. Jak pracujesz linami?",
+      "a": "Wybierasz bras (bom idzie do tyłu, prostopadle do wiatru), luzujesz szot i luzujesz kontrabras, by bom mógł się przesunąć.",
+      "explain": "Przy ostrzeniu odwrotnie: luzujesz bras (bom do przodu, ale nie na sztag), wybierasz szot i dociągasz kontrabras. Bom spinakera ustawia się mniej więcej prostopadle do wiatru pozornego.",
+      "difficulty": 3,
+      "mc": {
+       "correct": "Wybierać bras, luzować szot, luzować kontrabras",
+       "wrong": [
+        "Luzować bras, wybierać szot, wybierać kontrabras",
+        "Luzować bras, luzować szot, wybierać kontrabras",
+        "Wybierać szot i fał, bras bez zmian"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-25",
+      "q": "Jacht ma hydrauliczny (lub śrubowy) napinacz achtersztagu. Co robisz z nim na postoju w porcie?",
+      "a": "Luzujesz achtersztag (zmniejszasz ciśnienie) – nie ma sensu trzymać masztu, olinowania i kadłuba pod dużym naprężeniem, gdy jacht nie żegluje.",
+      "explain": "Napięcie achtersztagu reguluje się w żegludze: mocniej przy silnym wietrze i na kursach ostrych (płaski grot, prosty sztag), luźniej przy słabym wietrze i z wiatrem.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Zmniejszyć ciśnienie i nieco zluzować achtersztag",
+       "wrong": [
+        "Zostawić napięcie z żeglugi",
+        "Mocniej napiąć, bo na postoju nie pracuje fok",
+        "Całkiem odpiąć achtersztag"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-26",
+      "q": "Ile łańcucha wydaje się przy kotwiczeniu?",
+      "a": "Co najmniej ok. 3–5 głębokości (licząc od pokładu na dziobie). Więcej (5 i więcej) przy linie kotwicznej, silnym wietrze, fali i słabo trzymającym (np. mulistym) dnie.",
+      "explain": "Kotwica trzyma najlepiej, gdy łańcuch przy niej leży poziomo na dnie – ciężar łańcucha amortyzuje szarpnięcia. Przy linie potrzeba więcej (lub odcinka łańcucha przy kotwicy). Pamiętaj o miejscu na zatoczenie jachtu wokół kotwicy.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Ok. 3–5 głębokości łańcucha, więcej przy linie, silnym wietrze i słabym dnie",
+       "wrong": [
+        "Tyle, ile wynosi głębokość – łańcuch ma tylko sięgnąć dna",
+        "Dokładnie 2 głębokości niezależnie od warunków",
+        "Zawsze cały łańcuch, jaki jest na pokładzie"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-27",
+      "q": "Kotwiczysz na głębokości 8 m, dno muliste. Ile łańcucha wydasz: 15 m, 20 m czy 35 m?",
+      "a": "Ok. 35 m – to ponad 4 głębokości. 15–20 m (ok. 2–2,5 głębokości) to za mało, zwłaszcza na słabo trzymającym mulistym dnie.",
+      "explain": "8 m × 3 = 24 m to absolutne minimum w dobrych warunkach; przy mule i na zapas – 4–5 głębokości.",
+      "tip": "Głębokość × 4 ≈ bezpieczna długość łańcucha.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Ok. 35 m",
+       "wrong": [
+        "Ok. 15 m",
+        "Ok. 20 m",
+        "Ok. 8 m – tyle, ile głębokość"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-28",
+      "q": "Jacht 15 m, wyporność ok. 20 t, ma 25 m łańcucha kotwicznego. Czy to wystarczy?",
+      "a": "Zdecydowanie nie. Przy zasadzie 3–5 głębokości 25 m wystarcza na kotwiczenie najwyżej na kilku metrach wody. Taki jacht powinien mieć co najmniej ok. 50 m łańcucha, a zwykle więcej (60–80 m).",
+      "explain": "Kaliber łańcucha dobiera się do wielkości jachtu, ale nie zastąpi on długości – z za krótkim łańcuchem nie zakotwiczysz na typowych kotwicowiskach (10–15 m głębokości).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Zdecydowanie nie – 25 m to za mało dla takiego jachtu",
+       "wrong": [
+        "Zdecydowanie tak",
+        "Trudno powiedzieć – liczy się tylko kaliber łańcucha",
+        "Tak, jeśli kotwiczy się tylko w portach"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-29",
+      "q": "Jakie cechy ma dobry krętlik do połączenia łańcucha z kotwicą?",
+      "a": "Kuty (nie odlewany), z mocnym, zabezpieczonym sworzniem, ze stali nierdzewnej lub ocynkowanej o wytrzymałości nie mniejszej niż łańcuch; połączony z kotwicą tak, by nie był zginany bocznie (często przez szeklę).",
+      "explain": "Krętlik zapobiega skręcaniu łańcucha, gdy kotwica obraca się przy wybieraniu. To najsłabsze ogniwo zestawu – tani krętlik może pęknąć pod bocznym obciążeniem i jacht straci kotwicę. Szekle zabezpiecza się drutem (myszkowanie).",
+      "difficulty": 3,
+      "mc": {
+       "correct": "Kuty, z zabezpieczonym sworzniem, o wytrzymałości nie mniejszej niż łańcuch",
+       "wrong": [
+        "Najlżejszy i najmniejszy, by łatwo przechodził przez windę",
+        "Odlewany z mosiądzu, bo nie koroduje",
+        "Dowolny – krętlik nie przenosi obciążeń"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-30",
+      "q": "Jakie typy kotwic spotyka się na jachtach i czym się różnią?",
+      "a": "Danforth (płaska, dwie ruchome łapy) – bardzo duża siła trzymania w stosunku do masy, zwłaszcza w piasku i mule. Pługowe: CQR (ruchomy lemiesz), Delta (sztywna) i Bruce (łopatowa) – szybko się wbijają w każdej pozycji, dobre jako kotwice dziobowe; słabo w wodorostach. Admiralicji – dobra na zarośnięte i kamieniste dno, ale ciężka i nieporęczna. Drapak (czterołapowa) – pomocnicza, do mułu i wodorostów.",
+      "explain": "Nowoczesne kotwice nowej generacji (np. Rocna, Spade) też mają kształt lemiesza z dużą powierzchnią i należą do najlepiej trzymających. Siła trzymania zależy też od rodzaju dna i długości wydanego łańcucha.",
+      "source": "Żeglarz i sternik morski, s. 53–55 (rodzaje kotwic)",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Danforth – duża siła trzymania do masy; pługowe (CQR, Delta, Bruce) – szybkie wbijanie; admiralicji – ciężka",
+       "wrong": [
+        "Kotwica admiralicji ma największą siłę trzymania w stosunku do masy",
+        "Drapak jest najlepszą kotwicą główną w piasku",
+        "Wszystkie kotwice tej samej masy trzymają tak samo"
+       ]
+      }
+     },
+     {
+      "id": "L7-p2-a2-31",
+      "q": "Która kotwica według podręcznika ma największy stosunek siły trzymania do masy, szczególnie w piasku?",
+      "a": "Kotwica patentowa Danfortha (płaska, z dwiema ruchomymi łapami).",
+      "explain": "Wadą Danfortha jest słabe wbijanie się w twarde, zarośnięte dno i możliwość wyrwania przy zmianie kierunku ciągu (obrót jachtu). Pługowe CQR/Delta są pewniejsze przy zmianach kierunku.",
+      "source": "Żeglarz i sternik morski, s. 54",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Kotwica Danfortha",
+       "wrong": [
+        "Kotwica admiralicji",
+        "Drapak (kotwica rybacka)",
+        "Każda kotwica tej samej masy trzyma tak samo"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "notes": "Do weryfikacji: (1) wymagana minimalna długość łańcucha dla jachtu 15 m/20 t – podano „co najmniej ok. 50 m, zwykle 60–80 m” jako dobrą praktykę, nie z przepisu; obecne rozporządzenie nie podaje (wg mojej wiedzy) długości łańcucha – sprawdzić. (2) Pyt. 8 (krętliki) i 9 (kotwice) wymagają rysunków – karty opisują cechy dobrego krętlika i typy kotwic ogólnie; który rysunek jest poprawny, nie da się ustalić. Podręcznik przypisuje największy stosunek siły trzymania do masy kotwicy Danfortha, a wyjaśnienie w gaps wskazuje pługowe (CQR/Delta/Rocna) – rozbieżność do sprawdzenia przy obrazku. (3) Progi napięć akumulatora (12,7/12,2/11,8/10,5 V) są przybliżone i dotyczą akumulatorów kwasowych (dla AGM/żelowych i LiFePO4 inne). (4) Pyt. 265 nie ma treści – karta zakłada, że chodzi o wybór żagla przedniego w sztormie. (5) Termin „kontrabras”: w polskiej terminologii kontrabras = obciągacz bomu spinakera (foreguy) – upewnić się, że tak samo w reszcie treści."
+}

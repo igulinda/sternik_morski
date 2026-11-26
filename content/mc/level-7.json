@@ -672,6 +672,614 @@
     "Raport o wypadku przesyłany do armatora po rejsie",
     "Zgłoszenie przybycia jachtu do bosmanatu portu"
    ]
+  },
+  "L7-p1-01": {
+   "correct": "Załącznik nr 1 do rozporządzenia z 28.02.2012 r. o bezpiecznym uprawianiu żeglugi przez jachty morskie",
+   "wrong": [
+    "Kodeks morski – rozdział o jachtach",
+    "Sama karta bezpieczeństwa – nie ma innego przepisu",
+    "Przepisy klasyfikacyjne PRS dla statków handlowych"
+   ]
+  },
+  "L7-p1-02": {
+   "correct": "Zał. 1 – jachty do 24 m, zał. 2 – jachty od 24 m; w obu wymagania zależą od rejonu żeglugi",
+   "wrong": [
+    "Zał. 1 – jachty żaglowe, zał. 2 – jachty motorowe",
+    "Zał. 1 – żegluga krajowa, zał. 2 – żegluga międzynarodowa",
+    "Zał. 1 – jachty rekreacyjne, zał. 2 – jachty regatowe"
+   ]
+  },
+  "L7-p1-03": {
+   "correct": "Kartą bezpieczeństwa jachtu – określa rejon żeglugi, minimalną załogę i wymagane wyposażenie",
+   "wrong": [
+    "Świadectwem klasy jachtu",
+    "Instrukcją producenta pirotechniki",
+    "Listą załogi i dziennikiem jachtowym"
+   ]
+  },
+  "L7-p1-04": {
+   "correct": "Nie – wystarczy wyposażenie wymagane dla rejonu faktycznie uprawianej żeglugi",
+   "wrong": [
+    "Tak – zawsze wyposażenie na maksymalny rejon z karty",
+    "To zależy wyłącznie od przepisów państwa, na którego wodach jesteś",
+    "Tak, chyba że kapitan ma patent kapitana jachtowego"
+   ]
+  },
+  "L7-p1-05": {
+   "correct": "Nie – wyłączone są m.in. jachty rekreacyjne do 15 m, które dobrowolnie nie poddały się inspekcji",
+   "wrong": [
+    "Tak – każdy jacht pod polską banderą bez wyjątku",
+    "Nie – obejmują tylko jachty komercyjne powyżej 24 m",
+    "Nie – obejmują tylko jachty pływające poza Bałtykiem"
+   ]
+  },
+  "L7-p1-06": {
+   "correct": "Kokpit, każdy przedział mieszkalny, każde urządzenie z otwartym płomieniem i przy komorze silnika",
+   "wrong": [
+    "Jedna gaśnica na jacht w zejściówce",
+    "Jedna gaśnica na każde 3 osoby załogi",
+    "Tylko przy silniku i przy kuchence"
+   ]
+  },
+  "L7-p1-07": {
+   "correct": "Sześć: kokpit + 3 przedziały + kuchenka + silnik",
+   "wrong": [
+    "Trzy – po jednej na przedział",
+    "Cztery – kokpit i trzy przedziały",
+    "Dwie – przy kuchence i przy silniku"
+   ]
+  },
+  "L7-p1-08": {
+   "correct": "Dwa: jedno z pławką świetlną i tyczką z flagą, drugie z linką ratunkową",
+   "wrong": [
+    "Jedno koło z pławką świetlną",
+    "Jedno koło na każde 4 osoby załogi",
+    "Dwa koła, oba z linką ratunkową"
+   ]
+  },
+  "L7-p1-09": {
+   "correct": "Nie – wymagane są dwa koła ratunkowe (drugie z linką ratunkową)",
+   "wrong": [
+    "Tak – jedno koło z pławką wystarczy",
+    "Tak, jeżeli koło ma ważny atest",
+    "Tak, jeżeli na jachcie jest rzutka"
+   ]
+  },
+  "L7-p1-10": {
+   "correct": "Kamizelki ratunkowe i pasy bezpieczeństwa dla każdej osoby na jachcie",
+   "wrong": [
+    "Kamizelki dla wszystkich, pasy bezpieczeństwa dla jednej wachty",
+    "Kamizelki dla załogi +1, szelki dla połowy załogi",
+    "Kamizelki tylko dla osób nieumiejących pływać"
+   ]
+  },
+  "L7-p1-11": {
+   "correct": "Tak – uprząż zastępuje pas bezpieczeństwa, a 6. kamizelka to wymagany zapas (10%, min. 1)",
+   "wrong": [
+    "Nie – potrzebne są osobne szelki dla każdego",
+    "Nie – kamizelek musi być dwa razy więcej niż osób",
+    "Nie – na rejs pełnomorski kamizelki pneumatyczne są zabronione"
+   ]
+  },
+  "L7-p1-12": {
+   "correct": "Muszą mieć lampki zgodne z Kodeksem LSA (SOLAS)",
+   "wrong": [
+    "Muszą mieć wyporność co najmniej 500 N",
+    "Muszą być wyłącznie piankowe (niepneumatyczne)",
+    "Nie ma dodatkowych wymagań"
+   ]
+  },
+  "L7-p1-13": {
+   "correct": "W rejonach 2, 3 i 4; w rejonach T i 1 tylko zalecana; musi pomieścić wszystkie osoby",
+   "wrong": [
+    "Tylko w żegludze oceanicznej",
+    "W każdym rejonie, także na akwenach treningowych",
+    "Tylko na jachtach komercyjnych"
+   ]
+  },
+  "L7-p1-14": {
+   "correct": "Pasami z hakiem odrzutnym zwalnianym ręcznie i ze zwalniakiem hydrostatycznym",
+   "wrong": [
+    "Wyłącznie pasami ze zwalniakiem hydrostatycznym",
+    "Wyłącznie pasami z hakiem odrzutnym",
+    "Na stałe śrubami do pokładu, by nie zmyła jej fala"
+   ]
+  },
+  "L7-p1-15": {
+   "correct": "Tratwa – aktualny atest (przegląd), zwalniak hydrostatyczny – aktualna data ważności",
+   "wrong": [
+    "Tylko tratwa – reszta nie podlega kontroli",
+    "Tratwa i hak odrzutny – oba z atestem",
+    "Tylko zwalniak – tratwa jest bezobsługowa"
+   ]
+  },
+  "L7-p1-16": {
+   "correct": "Pasy ratunkowe i pasy bezpieczeństwa – tylko zgodność z normami; tratwa, kompas, reflektor – atest",
+   "wrong": [
+    "Kompas i rakiety – tylko zgodność z normami",
+    "Tratwa i reflektor radarowy – tylko zgodność z normami",
+    "Wszystko na jachcie musi mieć osobny atest"
+   ]
+  },
+  "L7-p1-17": {
+   "correct": "12 czerwonych rakiet spadochronowych i 1 pomarańczową pławkę dymną",
+   "wrong": [
+    "6 rakiet spadochronowych i 1 pławkę dymną",
+    "3 rakiety spadochronowe i 2 pochodnie",
+    "8 rakiet czerwonych i 1 pławkę dymną"
+   ]
+  },
+  "L7-p1-18": {
+   "correct": "Rejon 2: 6 rakiet + pławka dymna; rejon 1: 3 rakiety + pławka dymna",
+   "wrong": [
+    "Rejon 2: 12 rakiet; rejon 1: 6 rakiet",
+    "W obu rejonach po 2 rakiety i 2 pochodnie",
+    "Rejon 2: 3 rakiety; rejon 1: pirotechnika niewymagana"
+   ]
+  },
+  "L7-p1-19": {
+   "correct": "Nie – w żegludze pełnomorskiej wymagane jest 12 rakiet spadochronowych",
+   "wrong": [
+    "Tak – wystarczy, że mają ważną datę",
+    "Tak, jeśli są w dobrym stanie technicznym",
+    "Tak – 8 rakiet to minimum w żegludze pełnomorskiej"
+   ]
+  },
+  "L7-p1-20": {
+   "correct": "Tak, ale tylko w żegludze osłoniętej – GPS wymagany jest od rejonu 2 (przybrzeżnego)",
+   "wrong": [
+    "Tak, w każdym rejonie – mapy wystarczą",
+    "Nie – GPS jest wymagany zawsze, także na akwenach treningowych",
+    "Tylko jeśli na jachcie jest sekstant"
+   ]
+  },
+  "L7-p1-21": {
+   "correct": "Gdy system map elektronicznych jest zdublowany (np. dwa niezależne urządzenia/odbiorniki GPS)",
+   "wrong": [
+    "Zawsze – pojedynczy ploter wystarczy",
+    "Nigdy – mapy papierowe są zawsze obowiązkowe",
+    "Tylko w żegludze oceanicznej"
+   ]
+  },
+  "L7-p1-22": {
+   "correct": "Nie – sekstant i chronometr przewiduje się dopiero w żegludze oceanicznej",
+   "wrong": [
+    "Tak – są obowiązkowe od żeglugi pełnomorskiej",
+    "Tak, ale tylko na jachtach dłuższych niż 15 m",
+    "Tak – zastępują odbiornik GPS"
+   ]
+  },
+  "L7-p1-23": {
+   "correct": "Tak – na jachtach AIS jest wyposażeniem zalecanym, a nie obowiązkowym",
+   "wrong": [
+    "Nie – AIS musi być zawsze sprawny",
+    "Nie – bez AIS nie można prowadzić nawigacji",
+    "Tylko w żegludze osłoniętej"
+   ]
+  },
+  "L7-p1-24": {
+   "correct": "Jacht krótszy niż 20 m nie musi mieć radaru; wymagany jest reflektor radarowy",
+   "wrong": [
+    "Tak – każdy jacht w żegludze pełnomorskiej",
+    "Tak, ale tylko jachty o długości 12–18 m",
+    "Nie – ale wtedy obowiązkowy jest AIS"
+   ]
+  },
+  "L7-p1-25": {
+   "correct": "Kompas, lornetka, zestaw nawigacyjny, aktualne mapy, locja, spis świateł, MPZZ, MKS, reflektor radarowy",
+   "wrong": [
+    "Tylko GPS i ploter z mapami",
+    "Kompas, sekstant i chronometr",
+    "Wyłącznie mapy – reszta zależy od kapitana"
+   ]
+  },
+  "L7-p1-26": {
+   "correct": "R1–2: VHF; R3: VHF DSC, EPIRB 406 MHz, odbiór prognoz; R4: + MF/HF lub satelita i SART",
+   "wrong": [
+    "W każdym rejonie wystarczy telefon komórkowy",
+    "EPIRB wymagana już w rejonie 1",
+    "VHF wymagany dopiero w żegludze pełnomorskiej"
+   ]
+  },
+  "L7-p1-27": {
+   "correct": "Data ważności baterii, data ważności zwalniaka hydrostatycznego, a potem test sprawdzający",
+   "wrong": [
+    "Wystarczy pozytywny test – nic więcej",
+    "Wystarczy świadectwo radiopławy i test",
+    "Krótko włączyć radiopławę w tryb alarmowy i sprawdzić, czy MRCC oddzwoni"
+   ]
+  },
+  "L7-p1-28": {
+   "correct": "Nie – są tylko zalecenia; na długi rejs skład apteczki najlepiej ustalić z lekarzem",
+   "wrong": [
+    "Tak – wystarczy typowa apteczka samochodowa",
+    "Tak – obowiązuje zestaw pierwszej pomocy z normy dla statków handlowych",
+    "Nie – apteczka na jachcie jest nieobowiązkowa"
+   ]
+  },
+  "L7-p1-29": {
+   "correct": "A >8°B, fala >4 m; B do 8°B, 4 m; C do 6°B, 2 m; D do 4°B, 0,3 m",
+   "wrong": [
+    "A do 6°B; B do 8°B; C do 10°B; D bez ograniczeń",
+    "A – śródlądowe, B – przybrzeżne, C – pełnomorskie, D – oceaniczne",
+    "Kategoria zależy tylko od długości: A >18 m, B >12 m, C >8 m, D <8 m"
+   ]
+  },
+  "L7-p1-30": {
+   "correct": "Po wodach przybrzeżnych, przy wietrze do 6°B, max 8 osób; jacht krótszy niż 18 m (limit JSM)",
+   "wrong": [
+    "Przy każdej pogodzie, jeśli załoga nie przekracza 8 osób",
+    "Przy wietrze do 8°B na pełnym morzu",
+    "Bez ograniczeń – kategoria CE nie dotyczy czarteru"
+   ]
+  },
+  "L7-p1-31": {
+   "correct": "Dopuszczenie jachtu do takiej żeglugi, wyposażenie na ten akwen i zakres terytorialny ubezpieczenia",
+   "wrong": [
+    "Moc silnika i pojemność zbiorników paliwa",
+    "Bandera jachtu i wyposażenie radiowe",
+    "Liczba koi i wyposażenie kambuza"
+   ]
+  },
+  "L7-p1-32": {
+   "correct": "Polisa zwykle obejmuje tylko określony akwen – poza nim szkoda może nie być pokryta",
+   "wrong": [
+    "Bo ubezpieczenie jachtu zawsze obejmuje cały świat",
+    "Bo od zakresu polisy zależy wymagana liczba kamizelek",
+    "Bo bez tego nie można podnieść flagi grzecznościowej"
+   ]
+  },
+  "L7-p1-33": {
+   "correct": "Generalne – planowanie; brzegowe – wzdłuż wybrzeża; podejściowe – do portów; plany – w portach",
+   "wrong": [
+    "Wszystkie mapy morskie mają jedną skalę 1:100 000",
+    "Generalne służą do wchodzenia do portu, plany do oceanów",
+    "Dzieli się je tylko na papierowe i elektroniczne"
+   ]
+  },
+  "L7-p1-34": {
+   "correct": "Mapami generalnymi (małoskalowymi) obejmującymi cały akwen",
+   "wrong": [
+    "Kompletem map drogowych i planów portów",
+    "Wyłącznie planami portów",
+    "Mapami podejściowymi w skali 1:50 000"
+   ]
+  },
+  "L7-p1-35": {
+   "correct": "Miesięczne mapy warunków meteorologicznych i prądów (Routeing Charts / Pilot Charts)",
+   "wrong": [
+    "Locje akwenów, na których planujesz żeglugę",
+    "Rozdział o cyrkulacji wiatrów w podręczniku meteorologii",
+    "Spis świateł danego oceanu"
+   ]
+  },
+  "L7-p1-36": {
+   "correct": "Admiralty List of Radio Signals, tom 5 (GMDSS)",
+   "wrong": [
+    "Admiralty Sailing Directions",
+    "Admiralty List of Lights",
+    "Nie ma takiego wydawnictwa – każdy kraj wydaje własne"
+   ]
+  },
+  "L7-p1-37": {
+   "correct": "Przewodniki żeglarskie z planami portów jachtowych i żeglarskie mapy akwenu",
+   "wrong": [
+    "Publikacje Admiralicji: Pilots, List of Lights, Charts",
+    "Wydawnictwa BHMW o polskim wybrzeżu",
+    "Atlas samochodowy Danii i plany miast"
+   ]
+  },
+  "L7-p1-38": {
+   "correct": "Przewodnik pokazuje małe porty i mariny z perspektywy jachtu; locja Admiralicji – głównie dla statków",
+   "wrong": [
+    "Przewodnik zastępuje mapy morskie wymagane przepisami",
+    "Locja Admiralicji ma więcej planów marin niż przewodnik",
+    "Nie różnią się – to ta sama publikacja"
+   ]
+  },
+  "L7-p1-39": {
+   "correct": "Nie ma przepisów w tym zakresie – są zalecenia; najlepiej skonsultować skład z lekarzem",
+   "wrong": [
+    "Kupić typową apteczkę pierwszej pomocy",
+    "Wystarczy typowa apteczka samochodowa",
+    "Skład podaje karta bezpieczeństwa jachtu"
+   ]
+  },
+  "L7-p2-a2-01": {
+   "correct": "Benzyną z dodatkiem oleju do dwusuwów, w proporcji z instrukcji silnika",
+   "wrong": [
+    "Czystą benzyną – olej jest w misce olejowej jak w czterosuwie",
+    "Wyłącznie czystą benzyną wysokooktanową",
+    "Olejem napędowym z dodatkiem benzyny"
+   ]
+  },
+  "L7-p2-a2-02": {
+   "correct": "Według instrukcji fabrycznej danego silnika",
+   "wrong": [
+    "Zawsze 1:80, niezależnie od silnika",
+    "Zawsze 1:25 – im więcej oleju, tym lepiej",
+    "Silnika dwusuwowego nie zasila się mieszanką"
+   ]
+  },
+  "L7-p2-a2-03": {
+   "correct": "Silnik jest nisko i trudno spuścić olej z miski – pompka zapobiega zabrudzeniu zęzy",
+   "wrong": [
+    "Bo wymaga tego przepis o obowiązkowym wyposażeniu jachtu",
+    "Nie warto – olej wymienia się wyłącznie w autoryzowanym serwisie",
+    "Pompka służy do odpowietrzania układu paliwowego"
+   ]
+  },
+  "L7-p2-a2-04": {
+   "correct": "Olej, filtry oleju i paliwa, paski klinowe, impeller pompy chłodzącej",
+   "wrong": [
+    "Zapasowy alternator, wtryskiwacze i płyn chłodzący",
+    "Zapasową pompę wtryskową i rozrusznik",
+    "Nic – sprawny silnik nie wymaga zapasów na miesiąc"
+   ]
+  },
+  "L7-p2-a2-05": {
+   "correct": "Nie – każdy kraj ma inny typ butli i przyłączy",
+   "wrong": [
+    "Tak, w całej Europie są zunifikowane",
+    "Tak, wszystkie butle mają ten sam gwint i reduktor",
+    "Różnią się tylko kolorem, przyłącza są wspólne"
+   ]
+  },
+  "L7-p2-a2-06": {
+   "correct": "Tak – wymaga tego dobra praktyka morska, niezależnie od przepisów",
+   "wrong": [
+    "Nie, skoro przepisy jej nie wymagają",
+    "Tak, ale tylko dlatego, że jest obowiązkowa w każdym rejsie",
+    "Nie, holowanie zapewnia zawsze lina jednostki ratowniczej"
+   ]
+  },
+  "L7-p2-a2-11": {
+   "correct": "Pełny ok. 12,7 V; ok. 12,2 V to połowa; 11,8 V i mniej – rozładowany",
+   "wrong": [
+    "Pełny ok. 14,4 V; 12 V to wciąż ok. 90% pojemności",
+    "Pełny 12,0 V; 10,5 V to ok. połowa pojemności",
+    "Napięcie nie mówi nic o stanie naładowania"
+   ]
+  },
+  "L7-p2-a2-12": {
+   "correct": "Czy nie są obluzowane lub skorodowane przewody od akumulatora i rozrusznika",
+   "wrong": [
+    "Poziom paliwa w zbiorniku",
+    "Doładowanie akumulatora do 13 V i ponowną próbę",
+    "Od razu demontaż rozrusznika do serwisu"
+   ]
+  },
+  "L7-p2-a2-13": {
+   "correct": "Naładować akumulator do min. ok. 12,5 V (lub użyć drugiego) i ponowić próbę",
+   "wrong": [
+    "Zdemontować rozrusznik i oddać go do przeglądu",
+    "Rozebrać i sprawdzić bendiks rozrusznika",
+    "Kręcić rozrusznikiem tak długo, aż silnik zapali"
+   ]
+  },
+  "L7-p2-a2-14": {
+   "correct": "Ok. 20 A (ok. 10% pojemności) przez ok. 10 godzin",
+   "wrong": [
+    "Ok. 40 A przez ok. 5 godzin – szybciej znaczy lepiej",
+    "Ok. 10 A przez ok. 10 godzin",
+    "Ok. 200 A przez ok. 1 godzinę"
+   ]
+  },
+  "L7-p2-a2-15": {
+   "correct": "Ok. 40 A (480 W / 12 V) – wystarczy na ładowanie prądem ok. 20 A",
+   "wrong": [
+    "Ok. 4 A – za mało do ładowania",
+    "Ok. 5,76 kA – trzeba ograniczyć moc",
+    "Ok. 400 A – można ładować w pół godziny"
+   ]
+  },
+  "L7-p2-a2-16": {
+   "correct": "Sprawdzać poziom elektrolitu i dolewać wody destylowanej",
+   "wrong": [
+    "Dolewać 50% roztwór kwasu siarkowego",
+    "Wystarczy sprawdzać, czy klemy nie mają luzów",
+    "Dolewać zwykłej wody z kranu"
+   ]
+  },
+  "L7-p2-a2-17": {
+   "correct": "Nie – alternator nie jest odporny na brak obciążenia, uszkodzi się prostownik",
+   "wrong": [
+    "Tak, alternator jest odporny na brak obciążenia",
+    "Tak, układ prostujący jest odporny na brak obciążenia",
+    "Tak, ale tylko przy wysokich obrotach silnika"
+   ]
+  },
+  "L7-p2-a2-18": {
+   "correct": "Sprawdzić luzy na sterociągach i dociągnąć ich ściągacze",
+   "wrong": [
+    "Od razu założyć ster awaryjny i nim sterować",
+    "Nic nie da się zrobić – serwis w najbliższym porcie",
+    "Mocniej zablokować koło hamulcem steru"
+   ]
+  },
+  "L7-p2-a2-19": {
+   "correct": "Przełączyć autopilota w tryb STAND BY i sterować ręcznie",
+   "wrong": [
+    "Odczekać – autopilot sam wróci na kurs",
+    "Chwycić koło i siłą sterować przy włączonym autopilocie",
+    "Zwiększyć czułość autopilota i płynąć dalej"
+   ]
+  },
+  "L7-p2-a2-20": {
+   "correct": "Zmienia się kąt łopat śruby, więc może pchać wstecz bez przekładni nawrotnej",
+   "wrong": [
+    "Nie pozwala – kręci się zawsze w jedną stronę",
+    "Służy tylko do zwiększenia prędkości bez zmiany obrotów",
+    "Pozwala tylko po odwróceniu obrotów wału"
+   ]
+  },
+  "L7-p2-a2-21": {
+   "correct": "Linki maszt–bom, które prowadzą zrzucany grot na bom, działają jak topenanta i ułatwiają klarowanie",
+   "wrong": [
+    "System linek do refowania grota",
+    "Pokrowiec do klarowania grota na bomie",
+    "Linka do obciągania bomu w dół na kursach pełnych"
+   ]
+  },
+  "L7-p2-a2-22": {
+   "correct": "Topenanta",
+   "wrong": [
+    "Bras",
+    "Obciągacz bomu",
+    "Kontrabras"
+   ]
+  },
+  "L7-p2-a2-23": {
+   "correct": "Bras, kontrabras i topenanta",
+   "wrong": [
+    "Bras, szot spinakera i topenanta",
+    "Bras, kontrabras i fał spinakera",
+    "Szot, fał i obciągacz grota"
+   ]
+  },
+  "L7-p2-a2-24": {
+   "correct": "Wybierać bras, luzować szot, luzować kontrabras",
+   "wrong": [
+    "Luzować bras, wybierać szot, wybierać kontrabras",
+    "Luzować bras, luzować szot, wybierać kontrabras",
+    "Wybierać szot i fał, bras bez zmian"
+   ]
+  },
+  "L7-p2-a2-25": {
+   "correct": "Zmniejszyć ciśnienie i nieco zluzować achtersztag",
+   "wrong": [
+    "Zostawić napięcie z żeglugi",
+    "Mocniej napiąć, bo na postoju nie pracuje fok",
+    "Całkiem odpiąć achtersztag"
+   ]
+  },
+  "L7-p2-a2-26": {
+   "correct": "Ok. 3–5 głębokości łańcucha, więcej przy linie, silnym wietrze i słabym dnie",
+   "wrong": [
+    "Tyle, ile wynosi głębokość – łańcuch ma tylko sięgnąć dna",
+    "Dokładnie 2 głębokości niezależnie od warunków",
+    "Zawsze cały łańcuch, jaki jest na pokładzie"
+   ]
+  },
+  "L7-p2-a2-27": {
+   "correct": "Ok. 35 m",
+   "wrong": [
+    "Ok. 15 m",
+    "Ok. 20 m",
+    "Ok. 8 m – tyle, ile głębokość"
+   ]
+  },
+  "L7-p2-a2-28": {
+   "correct": "Zdecydowanie nie – 25 m to za mało dla takiego jachtu",
+   "wrong": [
+    "Zdecydowanie tak",
+    "Trudno powiedzieć – liczy się tylko kaliber łańcucha",
+    "Tak, jeśli kotwiczy się tylko w portach"
+   ]
+  },
+  "L7-p2-a2-29": {
+   "correct": "Kuty, z zabezpieczonym sworzniem, o wytrzymałości nie mniejszej niż łańcuch",
+   "wrong": [
+    "Najlżejszy i najmniejszy, by łatwo przechodził przez windę",
+    "Odlewany z mosiądzu, bo nie koroduje",
+    "Dowolny – krętlik nie przenosi obciążeń"
+   ]
+  },
+  "L7-p2-a2-30": {
+   "correct": "Danforth – duża siła trzymania do masy; pługowe (CQR, Delta, Bruce) – szybkie wbijanie; admiralicji – ciężka",
+   "wrong": [
+    "Kotwica admiralicji ma największą siłę trzymania w stosunku do masy",
+    "Drapak jest najlepszą kotwicą główną w piasku",
+    "Wszystkie kotwice tej samej masy trzymają tak samo"
+   ]
+  },
+  "L7-p2-a2-31": {
+   "correct": "Kotwica Danfortha",
+   "wrong": [
+    "Kotwica admiralicji",
+    "Drapak (kotwica rybacka)",
+    "Każda kotwica tej samej masy trzyma tak samo"
+   ]
+  },
+  "L7-p4-01": {
+   "correct": "Człowiek za burtą",
+   "wrong": [
+    "Nie mogę manewrować",
+    "Niebezpieczeństwo zderzenia",
+    "Pracuję śrubą wstecz"
+   ]
+  },
+  "L7-p4-02": {
+   "correct": "1 długi – uwaga; 4 krótkie – nie mogę manewrować; bardzo krótkie – niebezpieczeństwo; długie – pomoc",
+   "wrong": [
+    "4 krótkie – człowiek za burtą; seria bardzo krótkich – mgła",
+    "1 długi – zmieniam kurs w prawo; 4 krótkie – kotwiczę",
+    "Seria bardzo krótkich – wyprzedzam; powtarzane długie – wchodzę do śluzy"
+   ]
+  },
+  "L7-p4-03": {
+   "correct": "Nie – statek dopuszczony do przewozu ponad 12 pasażerów nie jest małym statkiem",
+   "wrong": [
+    "Tak – decyduje wyłącznie długość poniżej 20 m",
+    "Tak, ale tylko w dzień",
+    "Jest „statkiem motorowym”, a to kategoria równoważna małemu statkowi"
+   ]
+  },
+  "L7-p4-04": {
+   "correct": "Od strony flagi czerwono-białej (strona wolna)",
+   "wrong": [
+    "Od strony flagi czerwonej",
+    "Nie wolno go mijać – trzeba czekać",
+    "Dowolną stroną, byle wolno"
+   ]
+  },
+  "L7-p4-05": {
+   "correct": "Ok. 1 h przed wysoką wodą w tym porcie",
+   "wrong": [
+    "Ok. 1 h po wysokiej wodzie",
+    "Blisko niskiej wody",
+    "O dowolnej porze – śluza działa całą dobę niezależnie od pływu"
+   ]
+  },
+  "L7-p4-06": {
+   "correct": "Odczekać kilkanaście godzin na zapowiadaną zmianę na WNW 4–5",
+   "wrong": [
+    "Wyjść jak najszybciej",
+    "Odczekać co najmniej 48 godzin",
+    "Wyjść od razu, ale na silniku pod wiatr"
+   ]
+  },
+  "L7-p4-07": {
+   "correct": "1/cos połowy kąta martwego: 90° → ok. +40%, 120° → ok. +100%",
+   "wrong": [
+    "Zawsze ok. +20%, niezależnie od jachtu",
+    "Przy kącie martwym 120° – ok. +60%",
+    "Nie wydłuża się – zmienia się tylko czas"
+   ]
+  },
+  "L7-p4-08": {
+   "correct": "Ok. 100% (droga ok. 2 razy dłuższa)",
+   "wrong": [
+    "Ok. 40%",
+    "Ok. 60%",
+    "Ok. 20%"
+   ]
+  },
+  "L7-p4-09": {
+   "correct": "Pliki GRIB i prognostyczne mapy pogody na ok. 7 dni pobrane przed wyjściem",
+   "wrong": [
+    "Tylko bieżącą mapę pogody z portu wyjścia",
+    "Miesięczne mapy klimatyczne akwenu",
+    "Wystarczy obserwacja nieba i barometru"
+   ]
+  },
+  "L7-p4-10": {
+   "correct": "Prędkość jachtu pod żaglami, prądy stałe i długoterminowe dane meteo",
+   "wrong": [
+    "Prądy pływowe i skok pływu na trasie",
+    "Lista portów z warsztatami",
+    "Aktualna prognoza z dnia wyjścia – wystarcza na cały przelot"
+   ]
   }
  }
 }

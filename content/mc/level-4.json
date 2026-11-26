@@ -616,6 +616,166 @@
     "Do N kompasowej (COG = KK); WPT na środku główek",
     "Do N rzeczywistej (COG = KR); WPT zawsze na latarniach"
    ]
+  },
+  "L4-p4-01": {
+   "correct": "Skrótami literowymi (np. S – piasek, M – muł, R – skała) wpisanymi przy głębokościach",
+   "wrong": [
+    "Kolorem tła akwenu – inny kolor dla każdego rodzaju dna",
+    "Nie podaje się – rodzaj dna jest tylko w locji",
+    "Szrafowaniem jak na mapach geologicznych"
+   ]
+  },
+  "L4-p4-02": {
+   "correct": "Nie – skała i kamienie słabo trzymają i grożą zaklinowaniem kotwicy",
+   "wrong": [
+    "Tak – twarde dno trzyma kotwicę najlepiej",
+    "Tak, jeśli wydamy co najmniej 30 m łańcucha",
+    "Tak, ale tylko kotwicą typu Danforth"
+   ]
+  },
+  "L4-p4-03": {
+   "correct": "Osuch: 7,4 m ponad zerem mapy – miejsce odsłaniane przy niskiej wodzie",
+   "wrong": [
+    "Głębokość 7,4 m przy wysokiej wodzie",
+    "Wysokość wysepki nad średnią wysoką wodą",
+    "Głębokość 74 m zmierzona niepewnie"
+   ]
+  },
+  "L4-p4-04": {
+   "correct": "2,5 m – mała cyfra w indeksie to decymetry",
+   "wrong": [
+    "25 m",
+    "2 sążnie i 5 stóp",
+    "2 m, a 5 to numer poprawki z Wiadomości Żeglarskich"
+   ]
+  },
+  "L4-p4-05": {
+   "correct": "To skan mapy papierowej – te same treści i dokładność, w nawigacji brak różnicy",
+   "wrong": [
+    "Jest dokładniejsza, bo da się ją dowolnie powiększać",
+    "Jest mniej dokładna, bo skan zniekształca obraz",
+    "Zawiera dodatkowe warstwy, które można wyłączać"
+   ]
+  },
+  "L4-p4-06": {
+   "correct": "Wektorowa to baza obiektów z warstwami i alarmami; rastrowa to skan obrazu mapy",
+   "wrong": [
+    "Wektorowa to skan mapy, a rastrowa jest rysowana z bazy danych",
+    "Nie ma różnic – to dwie nazwy tej samej mapy",
+    "Wektorowa działa tylko z radarem"
+   ]
+  },
+  "L4-p4-07": {
+   "correct": "Izogonami (liniami jednakowej deklinacji) z podaną zmianą roczną",
+   "wrong": [
+    "Tylko tabliczką z jedną wartością w nagłówku mapy",
+    "Różami kompasowymi rozmieszczonymi co 1°",
+    "Nie podaje się – deklinację bierze się z locji"
+   ]
+  },
+  "L4-p4-08": {
+   "correct": "Zalecany kierunek ruchu: strzałka konturowa (przerywana); kierunek oznakowania: purpurowa strzałka z kółkami",
+   "wrong": [
+    "Oba oznacza się identycznie czerwoną strzałką",
+    "Zalecany kierunek ruchu oznacza nakaz – płynięcie pod prąd ruchu jest zabronione",
+    "Kierunek oznakowania pokazuje się tylko w locji, nigdy na mapie"
+   ]
+  },
+  "L4-p4-09": {
+   "correct": "W lewo – w stronę stawy dolnej (przedniej), przeciwnie do przesunięcia stawy górnej",
+   "wrong": [
+    "W prawo – w stronę, w którą przesunęła się stawa górna",
+    "Nie zmieniać – nabieżnik zawsze wskazuje bezpieczny kurs",
+    "Zatrzymać jacht i poczekać, aż stawy się zgrają"
+   ]
+  },
+  "L4-p4-10": {
+   "correct": "Wybierając z katalogu map numery potrzebnych map i zamawiając je po numerach",
+   "wrong": [
+    "Podając dystrybutorowi tytuły i skale map",
+    "Kupując wszystkie mapy dostępne na dany akwen",
+    "Zamawiając mapy według nazw portów z locji"
+   ]
+  },
+  "L4-p4-11": {
+   "correct": "12:20 (13:20 − 2 h = 11:20 UTC, + 1 h czasu okrętowego)",
+   "wrong": [
+    "11:20",
+    "13:20",
+    "15:20"
+   ]
+  },
+  "L4-p4-12": {
+   "correct": "6 h po HW Dover; prąd w kierunku strzałki: 1,3 w przy kwadraturze, 2,6 w przy syzygii",
+   "wrong": [
+    "Prędkość prądu 13,26 m/min",
+    "Prąd 13 w w kwadraturze, 26 w w syzygii",
+    "Kierunek 132,6° i prędkość nieznana"
+   ]
+  },
+  "L4-p4-13": {
+   "correct": "Nie – potrzebny jest moment HW (i skok pływu) w porcie odniesienia z tablic pływów",
+   "wrong": [
+    "Tak – atlas podaje kierunek i prędkość prądu",
+    "Tak – romby na mapie wystarczą do odczytania prądu",
+    "Tak, jeśli znasz fazę Księżyca z kalendarza"
+   ]
+  },
+  "L4-p4-14": {
+   "correct": "Od prędkości jachtu i stanu morza (siły wiatru i fali)",
+   "wrong": [
+    "Od długości linii wodnej i wyporności",
+    "Od typu ożaglowania (slup, kecz, jol)",
+    "Od deklinacji i dewiacji kompasu"
+   ]
+  },
+  "L4-p4-15": {
+   "correct": "Z lewej burty „+”, z prawej „−”, a prąd wzdłuż kursu daje poprawkę 0",
+   "wrong": [
+    "Z lewej burty „−”, z prawej „+”",
+    "Zawsze „+”, bo prąd zwiększa drogę",
+    "Z lewej „+”, z prawej „−”, a przy prądzie z rufy też „+”"
+   ]
+  },
+  "L4-p4-16": {
+   "correct": "Gdy przebieg izobat (dna) jest regularny",
+   "wrong": [
+    "Zawsze – sonda mierzy z dokładnością do decymetra",
+    "Nigdy – pomiar głębokości jest zbyt niedokładny",
+    "Tylko w nocy, gdy nie widać latarni"
+   ]
+  },
+  "L4-p4-17": {
+   "correct": "Z tablic nawigacyjnych lub wzoru D[Mm] ≈ 13/7 · h[m] / α[′]",
+   "wrong": [
+    "Wzorem D = 13/7 · h · α",
+    "Wzorem D = 2,08 · √h",
+    "Tylko radarem – kąt pionowy nie daje odległości"
+   ]
+  },
+  "L4-p4-18": {
+   "correct": "Ok. 4 węzły (12 m / 6 s = 2 m/s ≈ 3,9 w)",
+   "wrong": [
+    "Ok. 2 węzły",
+    "Ok. 6 węzłów",
+    "Ok. 12 węzłów"
+   ]
+  },
+  "L4-p4-19": {
+   "correct": "Znaki co 1 m, a co 5 m kolorowe: niebieski–czerwony–biały–żółty",
+   "wrong": [
+    "Węzły co 5 m bez kolorów",
+    "Węzły co 1 m, wszystkie jednakowe",
+    "Kolorowe znaki co 10 m: czerwony–zielony–żółty"
+   ]
+  },
+  "L4-p4-20": {
+   "correct": "Namiar i odległość do punktu wypadnięcia człowieka",
+   "wrong": [
+    "Współrzędne geograficzne punktu wypadnięcia",
+    "Aktualna pozycja, kurs i prędkość jachtu",
+    "Godzina naciśnięcia przycisku MOB"
+   ]
   }
  }
 }

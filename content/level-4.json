@@ -94,6 +94,57 @@
      "a": "1 kbl = 0,1 Mm = 185,2 m. Prędkość podaje się w węzłach: 1 w = 1 Mm/h.",
      "difficulty": 1,
      "source": "Kolaszewski, Świdwiński – 6.2 Podstawy nawigacji terestrycznej"
+    },
+    {
+     "id": "L4-p4-01",
+     "q": "Jak na mapie morskiej podaje się rodzaj dna?",
+     "a": "Skrótami literowymi przy głębokościach: na mapach w standardzie INT/Admiralicji np. S – piasek, M – muł, G – żwir, St – kamienie, R – skała, Cy – glina, Sh – muszle; na starszych mapach polskich skróty polskie (np. p – piasek, m – muł, kam – kamienie, sk – skała).",
+     "explain": "Objaśnienia wszystkich skrótów znajdziesz w publikacji INT 1 (Symbole i skróty na mapach), sekcja „Rodzaj dna”.",
+     "source": "INT 1, sekcja J – rodzaj dna",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-p4-02",
+     "q": "Przy planowanym kotwicowisku na mapie widnieją skróty oznaczające skałę i kamienie. Czy to dobre miejsce do kotwiczenia?",
+     "a": "Nie. Skała i kamienie słabo trzymają kotwicę (łapy nie mają się w co wbić), a kotwica może się zaklinować. Dobrze trzymają: piasek, muł (gęsty), glina, piasek z mułem.",
+     "explain": "Przy wyborze kotwicowiska sprawdzasz na mapie głębokość, rodzaj dna, osłonę od wiatru i fali oraz brak zakazu kotwiczenia i przeszkód (kabli, rurociągów).",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-03",
+     "q": "Co oznacza na mapie liczba podkreślona, np. 7₄ (podkreślone) na obszarze odsłanianym przez wodę?",
+     "a": "Osuch (drying height) – wysokość dna, które odsłania się przy niskiej wodzie, podaną NAD zerem mapy; 7₄ podkreślone = 7,4 m ponad zerem mapy.",
+     "explain": "Zwykła liczba to głębokość pod zerem mapy; podkreślenie oznacza wysokość ponad zerem mapy (teren wynurzający się). Rzeczywista głębokość wody nad osuchem = wysokość pływu − osuch.",
+     "source": "INT 1, sekcja I",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-04",
+     "q": "Na polskiej mapie przy sondzie widzisz zapis 2₅ (mała cyfra niżej). Jaka to głębokość?",
+     "a": "2,5 m – głębokości podaje się w metrach, a mała cyfra w indeksie dolnym to decymetry (np. 3₄ = 3,4 m).",
+     "explain": "Tak samo zapisuje się głębokości na metrycznych mapach Admiralicji. Sążnie i stopy występują tylko na starych mapach – zawsze sprawdź jednostki w tytule mapy.",
+     "difficulty": 1
+    },
+    {
+     "id": "L4-p4-05",
+     "q": "Czym jest mapa rastrowa i czy w nawigacji różni się od mapy papierowej?",
+     "a": "Mapa rastrowa (np. RNC) to zeskanowany obraz mapy papierowej – zawiera te same informacje i ma tę samą dokładność; w zastosowaniu nawigacyjnym praktycznie się nie różni.",
+     "explain": "Powiększanie mapy rastrowej nie dodaje szczegółów – tylko rozciąga obraz. Do nawigacji przy brzegu używaj mapy w odpowiedniej skali.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-06",
+     "q": "Czym różni się mapa wektorowa (ENC) od rastrowej?",
+     "a": "Wektorowa składa się z obiektów zapisanych w bazie danych (głębokości, znaki, linie): można wyłączać warstwy, klikać obiekty, ustawiać alarmy głębokości; rastrowa to tylko obraz (skan) mapy papierowej.",
+     "explain": "Uwaga: na mapie wektorowej przy małym powiększeniu część szczegółów jest ukryta, a „przezoomowanie” daje złudzenie dokładności większej niż dane źródłowe.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-07",
+     "q": "Jak na mapach generalnych dużych obszarów podawana jest deklinacja magnetyczna?",
+     "a": "Izogonami – liniami łączącymi miejsca o jednakowej deklinacji – z opisem wartości, roku i zmiany rocznej.",
+     "explain": "Na mapach w większej skali deklinację odczytasz z róży kompasowej (wartość, rok, zmiana roczna). Izogona o deklinacji 0 to agona.",
+     "difficulty": 2
     }
    ]
   },
@@ -381,6 +432,20 @@
      "a": "Bierne – znając KR, dryf i prąd, wykreślasz, dokąd faktycznie płynie jacht (KDd i pozycję). Czynne – z góry wyznaczasz KR (z poprawkami na prąd i wiatr) tak, aby droga nad dnem prowadziła po linii od punktu wyjścia do celu.",
      "difficulty": 3,
      "source": "Kolaszewski, Świdwiński – 6.4 Zliczenie przy prądzie"
+    },
+    {
+     "id": "L4-p4-14",
+     "q": "Od czego przede wszystkim zależy wielkość dryfu (poprawki na wiatr) jachtu?",
+     "a": "Głównie od prędkości jachtu oraz siły wiatru i stanu morza (fali); ponadto od kursu względem wiatru (największy na kursach ostrych) i od kształtu kadłuba (wysoka burta, mała powierzchnia boczna podwodzia).",
+     "explain": "Wolny jacht na dużej fali i w silnym wietrze dryfuje najbardziej; szybki jacht przy słabym wietrze – prawie wcale.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-15",
+     "q": "Jaki znak ma poprawka na prąd (kąt znosu) w zależności od kierunku prądu względem jachtu?",
+     "a": "Prąd z lewej burty (znosi w prawo) – poprawka „+”; prąd z prawej burty – „−”; prąd dokładnie z dziobu lub z rufy (wzdłuż kursu) – poprawka 0 (zmienia się tylko prędkość nad dnem).",
+     "explain": "Tak samo jak dla dryfu: znoszenie w prawo zwiększa kąt drogi, więc poprawka jest dodatnia.",
+     "difficulty": 2
     }
    ]
   },
@@ -493,6 +558,21 @@
      "a": "Co najmniej raz w ciągu wachty (najlepiej przed jej przekazaniem), przy bliskich niebezpieczeństwach – przy każdej okazji, a zawsze przy zbliżaniu się do lądu od strony morza.",
      "difficulty": 1,
      "source": "Kolaszewski, Świdwiński – 6.2.4 Określanie pozycji jachtu"
+    },
+    {
+     "id": "L4-p4-16",
+     "q": "Kiedy izobata (głębokość z sondy) jest przydatną linią pozycyjną?",
+     "a": "Tylko przy regularnym przebiegu dna – gdy izobaty są wyraźne, gładkie i nieliczne w rejonie; przy nieregularnym dnie (ławice, rynny) jest zawodna. Pomiar trzeba zredukować do zera mapy (pływ, zanurzenie przetwornika).",
+     "explain": "Najlepiej używać jej jako uzupełnienia: kontrola pozycji zliczonej lub „idź wzdłuż izobaty” jako linia bezpieczeństwa.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-17",
+     "q": "Jak obliczyć odległość od obiektu o znanej wysokości h, mierząc sekstantem kąt pionowy α?",
+     "a": "Z tablic nawigacyjnych albo wzorem przybliżonym D[Mm] ≈ 13/7 · h[m] / α[′] (≈ 1,856 · h/α), gdzie α w minutach kątowych.",
+     "explain": "Przykład: latarnia 52 m, α = 30′ → D ≈ 1,856 · 52/30 ≈ 3,2 Mm. Wysokość z mapy podana jest nad poziom odniesienia (np. MHWS) – dolna krawędź obiektu nie może być za widnokręgiem. Wynik to okrąg pozycyjny.",
+     "tip": "Wzór: 13/7 × wysokość przez kąt (w minutach).",
+     "difficulty": 3
     }
    ]
   },
@@ -658,6 +738,29 @@
      "a": "Na przybrzeżny prąd wschodni lub zachodni płynący w poprzek wejścia (trzeba robić poprawkę). Przy sztormie z kierunków od morza wejście jest niebezpieczne – jeśli to możliwe, lepiej przeczekać na morzu.",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 5.2.4 Wybrzeże polskie"
+    },
+    {
+     "id": "L4-p4-08",
+     "q": "Jak na mapie odróżnisz symbol zalecanego kierunku ruchu statków od symbolu umownego kierunku oznakowania?",
+     "a": "Zalecany kierunek ruchu – strzałka (konturowa, zwykle o linii przerywanej) wzdłuż toru lub w rejonie systemu ruchu; ustalony kierunek ruchu w TSS – strzałka konturowa o linii ciągłej; umowny kierunek oznakowania IALA – osobny purpurowy symbol strzałki z kółkami.",
+     "explain": "„Zalecany” nie znaczy „nakazany” – to wskazówka. Kierunek oznakowania mówi, od której strony liczyć stronę lewą/prawą znaków bocznych (zwykle od morza do portu).",
+     "source": "INT 1, sekcje M i Q",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-p4-09",
+     "q": "Płyniesz nabieżnikiem prowadzącym do portu (stawy przed dziobem). Stawa górna (tylna) jest widoczna na prawo od dolnej (przedniej). Jak zmienić kurs?",
+     "a": "W lewo – jesteś na prawo od linii nabieżnika. Zasada: zmieniaj kurs w stronę stawy DOLNEJ (przedniej), czyli przeciwnie do strony, w którą „uciekła” stawa górna.",
+     "explain": "Bliższy obiekt przesuwa się w polu widzenia bardziej niż dalszy. Gdy zejdziesz w prawo od linii, przednia (dolna) stawa „ucieka” w lewo, a tylna (górna) wydaje się na prawo od niej – wracasz w lewo, aż stawy znów będą jedna nad drugą. Dla nabieżnika za rufą zasada jest odwrotna.",
+     "tip": "Goń dolną stawę.",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-p4-10",
+     "q": "Jak zamawia się mapy potrzebne na rejs?",
+     "a": "Z katalogu map (np. Admiralicji – Admiralty Catalogue, lub katalogu BHMW czy innego wydawcy) wybiera się numery map pokrywających trasę i zamawia mapy po numerach.",
+     "explain": "Numer jednoznacznie identyfikuje mapę; w katalogu mapy są pokazane jako ramki na mapkach skorowidzowych. Mapy trzeba też mieć poprawione do aktualnych Wiadomości Żeglarskich / Notices to Mariners.",
+     "difficulty": 1
     }
    ]
   },
@@ -775,6 +878,28 @@
      "a": "Na strefę czasową podaną w nagłówku tablicy (np. UT lub UT+1). Przy czasie letnim (np. BST, polski czas letni) trzeba dodać odpowiednią godzinę, by przejść na czas lokalny.",
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 6.5.2 Parametry pływów"
+    },
+    {
+     "id": "L4-p4-11",
+     "q": "W tablicach pływów dla portu podano „Time Zone −0200”, a HW o 13:20. O której będzie HW według czasu okrętowego UTC+1?",
+     "a": "O 12:20. „Time Zone −0200” znaczy, że czasy w tablicach są w strefie UTC+2 i aby otrzymać UTC, trzeba odjąć 2 h: 13:20 − 2 h = 11:20 UTC; czas okrętowy UTC+1 → 12:20.",
+     "explain": "Znak przy „Time Zone” w Admiralty Tide Tables mówi, co zrobić z podanym czasem, by dostać UTC (−0100 → odejmij 1 h). Sprawdź też, czy tablice uwzględniają czas letni (zwykle trzeba dodać 1 h samodzielnie).",
+     "source": "Admiralty Tide Tables",
+     "difficulty": 3
+    },
+    {
+     "id": "L4-p4-12",
+     "q": "W atlasie prądów pływowych przy strzałce stoi zapis „13,26”, a strona jest opisana „6 h po HW Dover”. Co z niego odczytasz?",
+     "a": "Sytuację ok. 6 h po wysokiej wodzie w Dover; prąd płynie w kierunku strzałki z prędkością 1,3 w przy pływie kwadraturowym i 2,6 w przy syzygijnym (przecinek oddziela dwie wartości, kropki dziesiętnej się nie pisze).",
+     "explain": "Atlas ma osobną stronę dla każdej godziny od ok. HW−6 do HW+6 w porcie odniesienia. Dla pływu pośredniego interpoluje się prędkość według skoku pływu danego dnia.",
+     "source": "Admiralty Tidal Stream Atlas",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-13",
+     "q": "Masz tylko atlas prądów pływowych i mapę (bez tablic pływów). Czy ustalisz prąd na konkretną godzinę?",
+     "a": "Nie. Atlas i romby na mapie podają prąd względem godziny HW w porcie odniesienia – bez tablic pływów nie znasz momentu HW ani rodzaju pływu (syzygia/kwadratura).",
+     "difficulty": 2
     }
    ]
   },
@@ -887,6 +1012,28 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 6.6 GPS",
      "tip": "Sprawdź w ustawieniach odbiornika, czy kierunki są w trybie True, a nie Magnetic."
+    },
+    {
+     "id": "L4-p4-18",
+     "q": "Na czym polega „log burtowy”? Jacht ma 12 m, a przedmiot przepłynął wzdłuż burty w 6 s – jaka prędkość?",
+     "a": "Mierzy się czas, w jakim rzucony przy dziobie przedmiot mija całą długość burty: v[m/s] = L/t = 12/6 = 2 m/s, a v[w] ≈ 1,94 · L[m]/t[s] ≈ 3,9 w, czyli ok. 4 w.",
+     "explain": "1 węzeł ≈ 0,514 m/s, więc m/s × 2 ≈ węzły. Metoda awaryjna, gdy log nie działa.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-19",
+     "q": "Co ma ręczna sonda i jak jest oznakowana w systemie przyjętym w Polsce?",
+     "a": "Linka z ołowianym ciężarkiem (z wgłębieniem na łój do pobrania próbki dna), oznaczona co 1 m, a co 5 m kolorowymi znakami w kolejności: niebieski (5 m), czerwony (10 m), biały (15 m), żółty (20 m) – „niebo, dach, ściana, piach”.",
+     "explain": "Sonda ręczna przydaje się przy awarii echosondy, przy kotwiczeniu i do sprawdzenia rodzaju dna.",
+     "tip": "Niebo – dach – ściana – piach.",
+     "difficulty": 2
+    },
+    {
+     "id": "L4-p4-20",
+     "q": "Po naciśnięciu MOB na ploterze – która informacja jest najbardziej przydatna przy powrocie do rozbitka?",
+     "a": "Namiar (kurs) i odległość do zapisanego punktu wypadnięcia, aktualizowane na bieżąco – prowadzą jacht z powrotem w rejon rozbitka.",
+     "explain": "Pamiętaj, że rozbitek dryfuje z wiatrem i prądem, a punkt MOB stoi w miejscu – w rejonie punktu szukaj wzrokiem, a pozycję MOB podaj w wezwaniu przez radio.",
+     "difficulty": 1
     }
    ]
   }

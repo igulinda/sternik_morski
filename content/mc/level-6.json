@@ -776,6 +776,326 @@
     "Obie metody polegają na dryfowaniu bez zmiany kursu",
     "Kwadraty: krążenie po okręgu; koniczyna: halsowanie pod wiatr"
    ]
+  },
+  "L6-p2-a2-07": {
+   "correct": "Odpaść na baksztag/fordewind, zrzucić przednie żagle, założyć i napiąć sztag zastępczy z fałów",
+   "wrong": [
+    "Zrzucić wszystkie żagle i dalej płynąć na silniku pod wiatr",
+    "Zrobić zwrot przez sztag i płynąć bajdewindem do portu",
+    "Postawić większy żagiel przedni, by podtrzymał maszt"
+   ]
+  },
+  "L6-p2-a2-08": {
+   "correct": "Natychmiast zwrot, by wanta była po zawietrznej, zrzucić żagle, założyć wantę prowizoryczną",
+   "wrong": [
+    "Zrzucić żagle i oglądać wantę – przy <50% pękniętych drutów płynąć dalej",
+    "Płynąć dalej tym samym halsem na zrefowanych żaglach",
+    "Mocniej dokręcić ściągacz uszkodzonej wanty"
+   ]
+  },
+  "L6-p2-a2-09": {
+   "correct": "Sztag: z wiatrem; achtersztag: pod wiatr; wanta nawietrzna: zwrot na drugi hals",
+   "wrong": [
+    "Zawsze odpaść na fordewind, niezależnie od elementu",
+    "Zawsze stanąć w łopot i zrzucić wszystkie żagle",
+    "Sztag: pod wiatr; achtersztag: z wiatrem; wanta: bez zmiany kursu"
+   ]
+  },
+  "L6-p2-a2-10": {
+   "correct": "Postawić mały fok (sztormfok) na sztagu wewnętrznym",
+   "wrong": [
+    "Zostawić zrolowaną genuę – roler jest do tego stworzony",
+    "Nie ma znaczenia, liczy się tylko powierzchnia żagla",
+    "Zrzucić grot i płynąć na całej genui"
+   ]
+  },
+  "L6-p3-01": {
+   "correct": "Stawianie, zrzucanie i refowanie żagli, obsługa kotwicy i uruchamianie silnika",
+   "wrong": [
+    "Obsługa autopilota, radaru i odsalacza wody",
+    "Obsługa plotera, pontonu z silnikiem i różne sposoby cumowania",
+    "Wyłącznie zasady wachty i porządku w kambuzie"
+   ]
+  },
+  "L6-p3-02": {
+   "correct": "Nawietrzną – wyższą i mniej zalewaną; przechył dociska do pokładu",
+   "wrong": [
+    "Zawietrzną – jest bliżej wody, więc łatwiej złapać się relingu",
+    "Bez znaczenia, jeśli ma się kamizelkę",
+    "Zawietrzną, bo tam pracują szoty foka i jest za co chwycić"
+   ]
+  },
+  "L6-p3-03": {
+   "correct": "Uruchomić ręcznie uchwytem, a gdy to zawiedzie – nadmuchać ustami przez rurkę do napełniania",
+   "wrong": [
+    "Nic się nie da zrobić – trzeba zdjąć kamizelkę i trzymać się jej",
+    "Wymienić w wodzie nabój CO₂ na zapasowy",
+    "Rozpiąć kamizelkę, żeby woda dostała się do wkładu automatu"
+   ]
+  },
+  "L6-p3-04": {
+   "correct": "Wyłączyć silnik, lekko uchylić pokrywę/otwór i natychmiast podać środek gaśniczy",
+   "wrong": [
+    "Otworzyć szeroko pokrywę, zobaczyć co się pali, potem gasić",
+    "Otworzyć komorę i lać wodę zaburtową",
+    "Wpuścić świeże powietrze, by rozwiać dym, i dopiero gasić"
+   ]
+  },
+  "L6-p3-05": {
+   "correct": "Do podania środka gaśniczego do komory silnika bez otwierania pokrywy",
+   "wrong": [
+    "Do wentylacji komory podczas ładowania akumulatorów",
+    "Do kontroli poziomu oleju bez zdejmowania obudowy",
+    "Do odprowadzania wody z zęzy pod silnikiem"
+   ]
+  },
+  "L6-p3-06": {
+   "correct": "Ostrzyć przed nadejściem grzbietu fali i odpadać po jego przejściu",
+   "wrong": [
+    "Odpadać przed nadejściem grzbietu i ostrzyć po jego przejściu",
+    "Trzymać stały kąt ok. 70° do każdej fali",
+    "Ustawić się burtą do fali, by jacht łagodnie się na niej kołysał"
+   ]
+  },
+  "L6-p3-07": {
+   "correct": "Gdy silny wiatr szybko skręca o ok. 45–90° względem istniejącej fali",
+   "wrong": [
+    "Gdy jacht wychodzi ze strefy przybrzeżnej na otwarte morze",
+    "Gdy wiatr słabnie, a jego kierunek się nie zmienia",
+    "Gdy jacht zbliża się do brzegu nawietrznego"
+   ]
+  },
+  "L6-p3-08": {
+   "correct": "Szukać osłony za lądem po jego stronie zawietrznej i trzymać się z dala od brzegu zawietrznego",
+   "wrong": [
+    "Zawsze płynąć pod wiatr na silniku do najbliższego brzegu",
+    "Podejść jak najbliżej brzegu, na który wieje wiatr",
+    "Zrzucić żagle i dryfować bez względu na to, co jest po zawietrznej"
+   ]
+  },
+  "L6-p3-09": {
+   "correct": "Z wiatrem na sztormfoku za Bornholm, pod jego zachodni brzeg, ewentualnie do portu schronienia",
+   "wrong": [
+    "Na refach i silniku iść pod wiatr do wybrzeża szwedzkiego",
+    "Zrzucić żagle i dryfować, w razie potrzeby uruchomić silnik",
+    "Halsować pod wiatr, by utrzymać się w Zatoce Hanö"
+   ]
+  },
+  "L6-p3-10": {
+   "correct": "Lądowanie tu niebezpieczne – lądujcie w kierunku wskazanym białą rakietą",
+   "wrong": [
+    "Widzimy was i zaraz udzielimy pomocy",
+    "Podejście jednostki ratowniczej do was jest niemożliwe",
+    "Lądujcie dokładnie w miejscu czerwonej rakiety"
+   ]
+  },
+  "L6-p3-11": {
+   "correct": "Poziome ruchy białą flagą, wbicie jej w ziemię i przeniesienie drugiej flagi w kierunku lądowania",
+   "wrong": [
+    "Pionowe ruchy białą flagą skierowane w stronę jachtu",
+    "Trzy pomarańczowe sygnały dymne w odstępach minuty",
+    "Zielona rakieta wystrzelona w kierunku lądowania"
+   ]
+  },
+  "L6-p3-12": {
+   "correct": "Tylko gdy to jedyny sposób uratowania ludzi – decyduje jednostka ratownicza",
+   "wrong": [
+    "Tak, ratownictwo zawsze obejmuje załogę i jacht",
+    "Tak, jeśli kapitan jachtu o to poprosi przez radio",
+    "Nie, SAR nigdy nie holuje jachtów"
+   ]
+  },
+  "L6-p3-13": {
+   "correct": "Południowy Bałtyk i polskie wybrzeże, bez rejonu Bornholmu",
+   "wrong": [
+    "Całe Morze Bałtyckie",
+    "Tylko polskie morze terytorialne (12 Mm)",
+    "Bałtyk od Sundu po Zatokę Fińską"
+   ]
+  },
+  "L6-p3-14": {
+   "correct": "Brzegowa radiostacja ratownicza z nadajnikami wzdłuż wybrzeża (dawniej Witowo Radio)",
+   "wrong": [
+    "Kapitanaty portów polskich",
+    "Wyłącznie okręty Marynarki Wojennej",
+    "Każda marina na swoim kanale roboczym"
+   ]
+  },
+  "L6-p3-15": {
+   "correct": "Tak – brzegowe stacje ratownicze SAR mają sprzęt do ratowania z brzegu",
+   "wrong": [
+    "Nie, z lądu nie da się pomóc jachtowi",
+    "Tylko śmigłowcem, z lądu – nigdy",
+    "Tylko gdy jacht wejdzie do portu"
+   ]
+  },
+  "L6-p3-16": {
+   "correct": "Rzutką rakietową podaje linę i blok, potem przeciąga ludzi liną na brzeg",
+   "wrong": [
+    "Jacht trzeba samemu przyholować do plaży",
+    "Ratownicy wpływają na brzeg łodzią i holują jacht do portu",
+    "Załoga ma płynąć wpław do brzegu wzdłuż liny kotwicznej"
+   ]
+  },
+  "L6-p3-17": {
+   "correct": "Nie jest pewne – zależy to od typu radiopławy i jej zasięgu",
+   "wrong": [
+    "Tak, każda radiopława ma zasięg globalny",
+    "Nie, radiopława ma zasięg taki jak radiotelefon UKF",
+    "Tak, ale tylko na Bałtyku i Morzu Północnym"
+   ]
+  },
+  "L6-p3-18": {
+   "correct": "406 MHz – alarm przez satelity; 121,5 MHz – naprowadzanie ratowników z bliska",
+   "wrong": [
+    "406 MHz – naprowadzanie, 121,5 MHz – alarm satelitarny",
+    "Oba sygnały dają globalny alarm, różnią się tylko mocą",
+    "121,5 MHz to kanał głosowy do rozmowy z ratownikami"
+   ]
+  },
+  "L6-p3-19": {
+   "correct": "Rejestrację, ważność baterii i zwalniacza hydrostatycznego, mocowanie i wynik autotestu",
+   "wrong": [
+    "Wykonać próbne pełne uruchomienie alarmu na kilka minut",
+    "Tylko czy obudowa jest sucha",
+    "Nic – EPIRB jest bezobsługowy przez cały okres eksploatacji"
+   ]
+  },
+  "L6-p3-20": {
+   "correct": "Podwójny nasłuch – kanał 16 i dowolny wybrany kanał",
+   "wrong": [
+    "Przełączenie mocy nadajnika 1 W / 25 W",
+    "Podwójny nasłuch na dwóch dowolnych kanałach, bez kanału 16",
+    "Włączenie trybu cyfrowego DSC na kanale 70"
+   ]
+  },
+  "L6-p3-21": {
+   "correct": "Ze stacją brzegową ok. 30–40 Mm; jacht–jacht znacznie mniej",
+   "wrong": [
+    "60–70 Mm w każdych warunkach",
+    "70–80 Mm, a przy dobrej pogodzie ponad 100 Mm",
+    "Tylko 1–2 Mm, bez względu na wysokość anten"
+   ]
+  },
+  "L6-p3-22": {
+   "correct": "MF 2182 kHz i VHF kanał 16",
+   "wrong": [
+    "MF 2187,5 kHz i VHF kanał 70",
+    "MF 2187,5 kHz i VHF kanał 6",
+    "MF 2182 kHz i VHF kanał 70"
+   ]
+  },
+  "L6-p3-23": {
+   "correct": "Do cyfrowego wywołania DSC na falach średnich (odpowiednik kanału 70)",
+   "wrong": [
+    "Do rozmów fonią w niebezpieczeństwie na falach średnich",
+    "Do odbioru komunikatów NAVTEX",
+    "Do łączności mostek–mostek jak kanał 13"
+   ]
+  },
+  "L6-p3-24": {
+   "correct": "Powtarza go automatycznie, dopóki nie zostanie potwierdzony lub przerwany",
+   "wrong": [
+    "Tylko jeden raz",
+    "Zawsze dokładnie trzy razy",
+    "Nada go raz na każdym kanale VHF"
+   ]
+  },
+  "L6-p3-25": {
+   "correct": "Przerwać alarm, a potem nadać na kanale 16 do wszystkich stacji: CANCEL MY DISTRESS ALERT…",
+   "wrong": [
+    "Nic nie robić – stacja brzegowa sama rozpozna pomyłkę",
+    "Czekać, aż ktoś nas wywoła, i dopiero wtedy odwołać alarm",
+    "Nadać ponownie alarm DSC, by unieważnić pierwszy"
+   ]
+  },
+  "L6-p3-26": {
+   "correct": "Tak, bo cisza radiowa dotyczy tylko kanału 16",
+   "wrong": [
+    "Nie, cisza radiowa obowiązuje na wszystkich kanałach",
+    "Dopiero gdy na kanale 16 nastąpi przerwa w korespondencji",
+    "Tylko za zgodą stacji kierującej akcją"
+   ]
+  },
+  "L6-p3-27": {
+   "correct": "Wezwanie – tylko MAYDAY i identyfikacja; zawiadomienie – wszystkie informacje o niebezpieczeństwie",
+   "wrong": [
+    "To to samo, tylko inaczej nazwane",
+    "Wezwanie dotyczy naszej jednostki, a zawiadomienie – innej",
+    "Wezwanie nadaje się przez DSC, a zawiadomienie przez EPIRB"
+   ]
+  },
+  "L6-p3-30": {
+   "correct": "Udrożnić drogi oddechowe – odchylić głowę i unieść żuchwę",
+   "wrong": [
+    "Najpierw okryć poszkodowanego, by nie tracił ciepła",
+    "Przenieść go na miękkie podłoże, np. na koję",
+    "Podać do picia ciepły napój"
+   ]
+  },
+  "L6-p3-31": {
+   "correct": "Do 10 s: patrzeć, słuchać i wyczuwać oddech przy udrożnionych drogach oddechowych",
+   "wrong": [
+    "Przez 1 minutę mierzyć tętno na nadgarstku",
+    "Przyłożyć lusterko do ust i czekać, aż zaparuje",
+    "Potrząsać nim, aż sam zacznie oddychać"
+   ]
+  },
+  "L6-p3-32": {
+   "correct": "Unieruchomić 2 sąsiednie stawy, ułożyć wygodnie, podać lek przeciwbólowy, wezwać pomoc lekarską",
+   "wrong": [
+    "Ułożyć w pozycji bocznej bezpiecznej i płynąć do portu",
+    "Nastawić kończynę do pierwotnego kształtu i zabandażować",
+    "Masować i rozgrzewać miejsce urazu"
+   ]
+  },
+  "L6-p3-33": {
+   "correct": "Rękę do tułowia lub na chuście, nogę do zdrowej nogi lub sztywnego przedmiotu",
+   "wrong": [
+    "Wystarczy ciasno owinąć samo miejsce złamania",
+    "Nie usztywniać – unieruchomienie tylko pogarsza krążenie",
+    "Przywiązać kończynę do koi liną cumowniczą"
+   ]
+  },
+  "L6-p3-34": {
+   "correct": "Pozycja półsiedząca w miejscu najmniej narażonym na kołysanie, leki przeciwbólowe",
+   "wrong": [
+    "Ułożyć w pozycji bocznej bezpiecznej na wietrze",
+    "Podawać ciepłe płyny i leki przeciwkaszlowe",
+    "Położyć płasko na plecach i uciskać klatkę piersiową"
+   ]
+  },
+  "L6-p3-35": {
+   "correct": "Długo płukać wodą, potem przemyć roztworem sody lub mydła i założyć jałowy opatrunek",
+   "wrong": [
+    "Od razu założyć suchy opatrunek bez płukania",
+    "Nałożyć bezpośrednio okład z mydła lub sody, bez płukania",
+    "Posmarować oparzenie tłustym kremem"
+   ]
+  },
+  "L6-p3-36": {
+   "correct": "Płukać oko wodą min. 15 minut, od strony nosa na zewnątrz, potem do lekarza",
+   "wrong": [
+    "Zakropić oko roztworem sody, by zobojętnić kwas",
+    "Przetrzeć oko suchą gazą i zamknąć powiekę",
+    "Nic nie robić, aż łzy same wypłuczą kwas"
+   ]
+  },
+  "L6-p3-37": {
+   "correct": "Zimne okłady 15–30 min, unieruchomić staw, podać lek przeciwbólowy",
+   "wrong": [
+    "Ciasny bandaż i trzymanie nogi w cieple",
+    "Unieruchomić całą nogę i natychmiast wzywać śmigłowiec",
+    "Rozmasować staw i rozchodzić ból"
+   ]
+  },
+  "L6-p3-38": {
+   "correct": "Nie – zimny okład, unieruchomienie w zastanej pozycji i transport do lekarza",
+   "wrong": [
+    "Tak, im szybciej, tym lepiej",
+    "Tak, jeśli poszkodowany się zgodzi",
+    "Tak, po podaniu leków przeciwbólowych"
+   ]
   }
  }
 }

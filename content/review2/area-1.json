@@ -1,0 +1,714 @@
+{
+ "area": 1,
+ "newCards": [],
+ "newLessons": [
+  {
+   "level": 7,
+   "lesson": {
+    "id": "L7-x-wyposazenie",
+    "title": "Wyposażenie jachtu morskiego wg przepisów",
+    "theory": [
+     {
+      "t": "p",
+      "text": "Obowiązkowe wyposażenie polskiego jachtu morskiego określa **rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie** (z 28.02.2012 r., obecnie w tekście jednolitym): **załącznik nr 1** dla jachtów do 24 m, **załącznik nr 2** dla dłuższych. Wymagania zależą od **rejonu żeglugi** (T, 1 osłonięta, 2 przybrzeżna, 3 pełnomorska, 4 oceaniczna) – liczy się rejon, w którym faktycznie płyniesz. Konkretny jacht ma je wpisane w **kartę bezpieczeństwa** (rejon, minimalna załoga, wyposażenie)."
+     },
+     {
+      "t": "table",
+      "head": [
+       "Wyposażenie",
+       "Rejon 1",
+       "Rejon 2",
+       "Rejon 3",
+       "Rejon 4"
+      ],
+      "rows": [
+       [
+        "rakiety spadochronowe + 1 pławka dymna",
+        "3",
+        "6",
+        "12",
+        "12"
+       ],
+       [
+        "tratwa dla wszystkich",
+        "zalecana",
+        "tak",
+        "tak",
+        "tak"
+       ],
+       [
+        "koła ratunkowe",
+        "2",
+        "2",
+        "2",
+        "2 (od 15 m: 4)"
+       ],
+       [
+        "GPS",
+        "–",
+        "tak",
+        "tak",
+        "tak"
+       ],
+       [
+        "radio",
+        "VHF",
+        "VHF",
+        "VHF DSC + EPIRB",
+        "+ MF/HF lub sat. + SART"
+       ],
+       [
+        "sekstant, chronometr",
+        "–",
+        "–",
+        "–",
+        "zalecane"
+       ]
+      ]
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Kamizelki ratunkowe i pasy bezpieczeństwa – **dla każdej osoby**; kamizelka z uprzężą zastępuje szelki; kamizelki pneumatyczne + zapas 10% (min. 1).",
+       "Koła: jedno z **pławką świetlną i tyczką z flagą**, drugie z **linką**.",
+       "Gaśnice: kokpit, każdy przedział mieszkalny, każda kuchenka z płomieniem, przy komorze silnika.",
+       "**Atest**: tratwa, zwalniak hydrostatyczny, kompas, reflektor radarowy; kamizelki i szelki – zgodność z normami.",
+       "AIS – tylko zalecany; radar – dopiero od 20 m długości; mapy elektroniczne zamiast papierowych – tylko przy **zdublowanym** systemie.",
+       "Apteczka obowiązkowa, ale jej skład to tylko zalecenia."
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Pirotechnika: **12 – 6 – 3** rakiet (rejon 3/4 – 2 – 1), zawsze z jedną pomarańczową pławką dymną."
+     },
+     {
+      "t": "p",
+      "text": "Na tabliczce jachtu z oznaczeniem **CE** jest kategoria projektowa: **A** (ponad 8°B, fala ponad 4 m), **B** (do 8°B, 4 m), **C** (do 6°B, 2 m, wody przybrzeżne), **D** (do 4°B, 0,3 m, wody osłonięte) oraz maksymalna liczba osób i obciążenie."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L7-p1-01",
+      "q": "Jaki przepis określa obowiązkowe wyposażenie polskiego jachtu morskiego (np. o długości 12 m)?",
+      "a": "Załącznik nr 1 do rozporządzenia ministra (z 28.02.2012 r.) w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie – obecnie w tekście jednolitym. Karta bezpieczeństwa jachtu jedynie przenosi te wymagania na konkretny jacht.",
+      "explain": "Kodeks morski nie wylicza wyposażenia. Karta bezpieczeństwa to dokument konkretnego jachtu, wydany na podstawie wymagań rozporządzenia.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Załącznik nr 1 do rozporządzenia z 28.02.2012 r. o bezpiecznym uprawianiu żeglugi przez jachty morskie",
+       "wrong": [
+        "Kodeks morski – rozdział o jachtach",
+        "Sama karta bezpieczeństwa – nie ma innego przepisu",
+        "Przepisy klasyfikacyjne PRS dla statków handlowych"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-02",
+      "q": "Czym różnią się załączniki nr 1 i nr 2 do rozporządzenia o bezpiecznym uprawianiu żeglugi przez jachty morskie?",
+      "a": "Załącznik nr 1 – wyposażenie jachtów o długości kadłuba do 24 m; załącznik nr 2 – jachtów o długości co najmniej 24 m. W obu wymagania zależą od rejonu żeglugi (T, 1, 2, 3, 4).",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Zał. 1 – jachty do 24 m, zał. 2 – jachty od 24 m; w obu wymagania zależą od rejonu żeglugi",
+       "wrong": [
+        "Zał. 1 – jachty żaglowe, zał. 2 – jachty motorowe",
+        "Zał. 1 – żegluga krajowa, zał. 2 – żegluga międzynarodowa",
+        "Zał. 1 – jachty rekreacyjne, zał. 2 – jachty regatowe"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-03",
+      "q": "Co zawiera karta bezpieczeństwa jachtu i czym kierujesz się, sprawdzając przed rejsem rodzaj i ilość pirotechniki?",
+      "a": "Karta bezpieczeństwa (wydawana po inspekcji jachtu) określa dopuszczalny rejon żeglugi, minimalny skład załogi i wymagane wyposażenie tego jachtu. Przed rejsem sprawdzasz wyposażenie, w tym pirotechnikę, według karty bezpieczeństwa.",
+      "explain": "Świadectwo klasy dotyczy stanu technicznego kadłuba i urządzeń, a nie ilości środków sygnałowych.",
+      "source": "Rozporządzenie o bezpiecznym uprawianiu żeglugi przez jachty morskie, § 7; przepisy o inspekcji jachtów morskich",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Kartą bezpieczeństwa jachtu – określa rejon żeglugi, minimalną załogę i wymagane wyposażenie",
+       "wrong": [
+        "Świadectwem klasy jachtu",
+        "Instrukcją producenta pirotechniki",
+        "Listą załogi i dziennikiem jachtowym"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-04",
+      "q": "Jacht ma kartę bezpieczeństwa na żeglugę oceaniczną, ale płyniesz tylko po Zalewie Szczecińskim i sąsiednich wodach osłoniętych. Czy musisz mieć na pokładzie pełne wyposażenie oceaniczne?",
+      "a": "Nie. Wymagane wyposażenie zależy od rejonu, w którym jacht faktycznie żegluje – wystarczy komplet przewidziany w załączniku nr 1 dla tego (niższego) rejonu.",
+      "explain": "Karta wskazuje rejon maksymalny, na jaki jacht jest dopuszczony; wymagania wyposażenia stosuje się do rejonu planowanego rejsu.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Nie – wystarczy wyposażenie wymagane dla rejonu faktycznie uprawianej żeglugi",
+       "wrong": [
+        "Tak – zawsze wyposażenie na maksymalny rejon z karty",
+        "To zależy wyłącznie od przepisów państwa, na którego wodach jesteś",
+        "Tak, chyba że kapitan ma patent kapitana jachtowego"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-05",
+      "q": "Czy przepisy o wyposażeniu z rozporządzenia obejmują każdy polski jacht morski?",
+      "a": "Nie wszystkie. Wyłączone są m.in. jachty regatowe w regatach i treningach pod osłoną ratowniczą oraz jachty rekreacyjne o długości do 15 m, które dobrowolnie nie poddały się inspekcji (ich bezpieczeństwo leży na armatorze i kapitanie). Pytania egzaminacyjne zakładają jacht objęty inspekcją i kartą bezpieczeństwa.",
+      "source": "Rozporządzenie o bezpiecznym uprawianiu żeglugi przez jachty morskie, § 2 ust. 1",
+      "difficulty": 3,
+      "mc": {
+       "correct": "Nie – wyłączone są m.in. jachty rekreacyjne do 15 m, które dobrowolnie nie poddały się inspekcji",
+       "wrong": [
+        "Tak – każdy jacht pod polską banderą bez wyjątku",
+        "Nie – obejmują tylko jachty komercyjne powyżej 24 m",
+        "Nie – obejmują tylko jachty pływające poza Bałtykiem"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-06",
+      "q": "Jak rozmieszcza się gaśnice na jachcie morskim do 24 m według przepisów?",
+      "a": "Po jednej gaśnicy ABC 2 kg: przy stanowisku sterowania/kokpicie, w każdym przedziale mieszkalnym (lub na każde 20 m² obszaru mieszkalnego) i przy każdym urządzeniu z otwartym płomieniem (kuchence); do tego gaśnica przy przestrzeni silnikowej – nie dalej niż 2 m od otworu gaśniczego obudowy silnika.",
+      "explain": "Dokładny wykaz sprzętu ppoż. dla konkretnego jachtu ustala urząd morski (wpisany w dokumentach jachtu).",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. V",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Kokpit, każdy przedział mieszkalny, każde urządzenie z otwartym płomieniem i przy komorze silnika",
+       "wrong": [
+        "Jedna gaśnica na jacht w zejściówce",
+        "Jedna gaśnica na każde 3 osoby załogi",
+        "Tylko przy silniku i przy kuchence"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-07",
+      "q": "Jacht ma 3 przedziały mieszkalne; w środkowym jest kambuz z kuchenką i klapa do komory silnika. Ile gaśnic powinno być na pokładzie?",
+      "a": "Sześć: 1 przy kokpicie + 3 (po jednej na każdy przedział mieszkalny) + 1 przy kuchence z otwartym płomieniem + 1 przy komorze silnika.",
+      "explain": "Przy silniku do 120 kW wymagana jest 1 gaśnica 4 kg (zamiennie dwie po 2 kg) – przy dwóch 2-kilogramowych byłoby ich siedem.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. V",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Sześć: kokpit + 3 przedziały + kuchenka + silnik",
+       "wrong": [
+        "Trzy – po jednej na przedział",
+        "Cztery – kokpit i trzy przedziały",
+        "Dwie – przy kuchence i przy silniku"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-08",
+      "q": "Ile kół ratunkowych i z jakim wyposażeniem musi mieć jacht morski do 24 m?",
+      "a": "Dwa: jedno z pławką świetlną i tyczką z flagą, drugie z linką ratunkową. Jacht o długości co najmniej 15 m w żegludze oceanicznej – cztery koła.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Dwa: jedno z pławką świetlną i tyczką z flagą, drugie z linką ratunkową",
+       "wrong": [
+        "Jedno koło z pławką świetlną",
+        "Jedno koło na każde 4 osoby załogi",
+        "Dwa koła, oba z linką ratunkową"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-09",
+      "q": "Przy przejęciu jachtu na rejs pełnomorski jest tylko jedno koło ratunkowe z pławką świetlną. Czy to zgodne z przepisami?",
+      "a": "Nie. Wymagane są dwa koła ratunkowe – brakuje drugiego, z linką ratunkową (a przy pierwszym powinna być też tyczka z flagą).",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Nie – wymagane są dwa koła ratunkowe (drugie z linką ratunkową)",
+       "wrong": [
+        "Tak – jedno koło z pławką wystarczy",
+        "Tak, jeżeli koło ma ważny atest",
+        "Tak, jeżeli na jachcie jest rzutka"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-10",
+      "q": "Ile pasów (kamizelek) ratunkowych i pasów bezpieczeństwa musi być na polskim jachcie morskim?",
+      "a": "Kamizelki ratunkowe – dla każdej osoby na jachcie (także odpowiednie dla dzieci poniżej 32 kg). Pasy bezpieczeństwa (szelki) – w rejonach 1–4 dla wszystkich osób, w rejonie T dla co najmniej połowy.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Kamizelki ratunkowe i pasy bezpieczeństwa dla każdej osoby na jachcie",
+       "wrong": [
+        "Kamizelki dla wszystkich, pasy bezpieczeństwa dla jednej wachty",
+        "Kamizelki dla załogi +1, szelki dla połowy załogi",
+        "Kamizelki tylko dla osób nieumiejących pływać"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-11",
+      "q": "Na rejs pełnomorski z 5-osobową załogą jacht ma 6 pneumatycznych kamizelek ratunkowych z wbudowaną uprzężą i lonżami z karabińczykami. Czy to spełnia przepisy?",
+      "a": "Tak. Kamizelka z uprzężą pełni też funkcję pasa bezpieczeństwa (osobne szelki nie są wymagane), a dla kamizelek pneumatycznych wymaga się zapasu 10% liczby osób, ale co najmniej 1 – czyli 5 + 1 = 6.",
+      "explain": "Kamizelki pneumatyczne muszą się napełniać automatycznie po wpadnięciu do wody; zamiast zapasowej kamizelki można mieć zapasowe naboje.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Tak – uprząż zastępuje pas bezpieczeństwa, a 6. kamizelka to wymagany zapas (10%, min. 1)",
+       "wrong": [
+        "Nie – potrzebne są osobne szelki dla każdego",
+        "Nie – kamizelek musi być dwa razy więcej niż osób",
+        "Nie – na rejs pełnomorski kamizelki pneumatyczne są zabronione"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-12",
+      "q": "Jakie dodatkowe wymaganie dotyczy kamizelek ratunkowych na jachcie w żegludze całodobowej (także nocą)?",
+      "a": "Muszą mieć lampki spełniające wymagania Kodeksu LSA (SOLAS). Kamizelki pneumatyczne muszą też uruchamiać się automatycznie po wpadnięciu do wody.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Muszą mieć lampki zgodne z Kodeksem LSA (SOLAS)",
+       "wrong": [
+        "Muszą mieć wyporność co najmniej 500 N",
+        "Muszą być wyłącznie piankowe (niepneumatyczne)",
+        "Nie ma dodatkowych wymagań"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-13",
+      "q": "W jakich rejonach żeglugi tratwa ratunkowa jest obowiązkowa na jachcie do 24 m?",
+      "a": "W rejonie 2 (przybrzeżnym), 3 (pełnomorskim) i 4 (oceanicznym) – tratwa (tratwy) pneumatyczna mieszcząca wszystkie osoby na jachcie. W rejonie T i 1 tratwa jest tylko zalecana.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I",
+      "difficulty": 2,
+      "mc": {
+       "correct": "W rejonach 2, 3 i 4; w rejonach T i 1 tylko zalecana; musi pomieścić wszystkie osoby",
+       "wrong": [
+        "Tylko w żegludze oceanicznej",
+        "W każdym rejonie, także na akwenach treningowych",
+        "Tylko na jachtach komercyjnych"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-14",
+      "q": "Jak należy zamocować pneumatyczną tratwę ratunkową w pojemniku na pokładzie?",
+      "a": "Pasami/linkami z hakiem odrzutnym (do ręcznego, szybkiego zwolnienia i zrzucenia tratwy) oraz ze zwalniakiem hydrostatycznym, który uwolni tratwę samoczynnie, gdy jacht zatonie (przed osiągnięciem ok. 4 m głębokości).",
+      "explain": "Sam zwalniak nie pozwala szybko zwodować tratwy ręcznie, a sam hak nie uwolni jej, gdy nikt nie zdąży. Linka operacyjna tratwy musi być przywiązana do jachtu.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi; Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 9.6",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Pasami z hakiem odrzutnym zwalnianym ręcznie i ze zwalniakiem hydrostatycznym",
+       "wrong": [
+        "Wyłącznie pasami ze zwalniakiem hydrostatycznym",
+        "Wyłącznie pasami z hakiem odrzutnym",
+        "Na stałe śrubami do pokładu, by nie zmyła jej fala"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-15",
+      "q": "Tratwa jest zamocowana z hakiem odrzutnym i zwalniakiem hydrostatycznym. Co z tego musi mieć atest lub aktualną datę ważności?",
+      "a": "Tratwa – certyfikat i aktualny atest (okresowy przegląd w stacji serwisowej); zwalniak hydrostatyczny – aktualny atest/datę ważności. Hak odrzutny nie wymaga atestu.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I, uwagi 2–3",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Tratwa – aktualny atest (przegląd), zwalniak hydrostatyczny – aktualna data ważności",
+       "wrong": [
+        "Tylko tratwa – reszta nie podlega kontroli",
+        "Tratwa i hak odrzutny – oba z atestem",
+        "Tylko zwalniak – tratwa jest bezobsługowa"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-16",
+      "q": "Które elementy wyposażenia jachtu muszą mieć atest, a które tylko spełniać normy?",
+      "a": "Atest (świadectwo z uznanej stacji): tratwa ratunkowa, zwalniak hydrostatyczny, kompas magnetyczny, reflektor radarowy. Pasy/kamizelki ratunkowe i pasy bezpieczeństwa muszą jedynie spełniać normy (kamizelki: EN ISO 12402; szelki i lonże: EN ISO 12401).",
+      "explain": "Pirotechnika nie ma atestu jak tratwa – musi być oryginalna, nieuszkodzona i mieć aktualną datę ważności.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1",
+      "difficulty": 3,
+      "mc": {
+       "correct": "Pasy ratunkowe i pasy bezpieczeństwa – tylko zgodność z normami; tratwa, kompas, reflektor – atest",
+       "wrong": [
+        "Kompas i rakiety – tylko zgodność z normami",
+        "Tratwa i reflektor radarowy – tylko zgodność z normami",
+        "Wszystko na jachcie musi mieć osobny atest"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-17",
+      "q": "Jaką pirotechnikę musi mieć polski jacht w żegludze pełnomorskiej lub oceanicznej (rejon 3 i 4)?",
+      "a": "12 czerwonych rakiet spadochronowych i 1 pomarańczową pławkę dymną.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 4",
+      "difficulty": 1,
+      "mc": {
+       "correct": "12 czerwonych rakiet spadochronowych i 1 pomarańczową pławkę dymną",
+       "wrong": [
+        "6 rakiet spadochronowych i 1 pławkę dymną",
+        "3 rakiety spadochronowe i 2 pochodnie",
+        "8 rakiet czerwonych i 1 pławkę dymną"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-18",
+      "q": "Ile rakiet spadochronowych wymaga się w żegludze przybrzeżnej (rejon 2), a ile w osłoniętej (rejon 1)?",
+      "a": "Rejon 2: 6 czerwonych rakiet spadochronowych + 1 pomarańczowa pławka dymna. Rejon 1 (oraz rejon T w porze nocnej): 3 rakiety + 1 pławka dymna. Rejon 3 i 4: 12 rakiet + 1 pławka.",
+      "explain": "Jachty uprawiające żeglugę pod nadzorem (za dnia, na akwenie z ciągłą obserwacją i asekuracją) są zwolnione z tej pirotechniki.",
+      "tip": "12 – 6 – 3: każdy niższy rejon to mniej więcej połowa rakiet.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 5–6",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Rejon 2: 6 rakiet + pławka dymna; rejon 1: 3 rakiety + pławka dymna",
+       "wrong": [
+        "Rejon 2: 12 rakiet; rejon 1: 6 rakiet",
+        "W obu rejonach po 2 rakiety i 2 pochodnie",
+        "Rejon 2: 3 rakiety; rejon 1: pirotechnika niewymagana"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-19",
+      "q": "Na rejs pełnomorski przekazano 8 czerwonych rakiet i jedną pomarańczową pławkę dymną (wszystko ważne). Czy to stan zgodny z przepisami?",
+      "a": "Nie. W rejonie 3 wymaga się 12 rakiet spadochronowych – brakuje 4. Ważna data i dobry stan nie zastąpią brakującej ilości.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. I pkt 4",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Nie – w żegludze pełnomorskiej wymagane jest 12 rakiet spadochronowych",
+       "wrong": [
+        "Tak – wystarczy, że mają ważną datę",
+        "Tak, jeśli są w dobrym stanie technicznym",
+        "Tak – 8 rakiet to minimum w żegludze pełnomorskiej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-20",
+      "q": "Czy na jachcie ze wszystkimi aktualnymi mapami papierowymi i pomocami nawigacyjnymi, ale bez GPS, możesz wyjść w rejs zgodnie z przepisami?",
+      "a": "Tylko w żegludze osłoniętej (rejon 1). Odbiornik satelitarnego systemu nawigacyjnego (np. GPS) jest wymagany od żeglugi przybrzeżnej (rejon 2) wzwyż.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Tak, ale tylko w żegludze osłoniętej – GPS wymagany jest od rejonu 2 (przybrzeżnego)",
+       "wrong": [
+        "Tak, w każdym rejonie – mapy wystarczą",
+        "Nie – GPS jest wymagany zawsze, także na akwenach treningowych",
+        "Tylko jeśli na jachcie jest sekstant"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-21",
+      "q": "Kiedy elektroniczne mapy wektorowe (ploter) mogą zastąpić mapy papierowe?",
+      "a": "Gdy system jest zdublowany (np. dwa niezależne urządzenia z mapami i odbiornikami GPS) – albo gdy na jachcie są i tak wersje papierowe. Pojedynczy ploter nie wystarcza. Mapy muszą być aktualne i poprawione na całą trasę.",
+      "explain": "Awaria zasilania lub jedynego urządzenia zostawiłaby jacht bez map – dlatego wymaga się drugiego, niezależnego systemu.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III, przypis 2",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Gdy system map elektronicznych jest zdublowany (np. dwa niezależne urządzenia/odbiorniki GPS)",
+       "wrong": [
+        "Zawsze – pojedynczy ploter wystarczy",
+        "Nigdy – mapy papierowe są zawsze obowiązkowe",
+        "Tylko w żegludze oceanicznej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-22",
+      "q": "Czy w żegludze pełnomorskiej (rejon 3) wymagany jest sekstant i chronometr?",
+      "a": "Nie. Sekstant, chronometr, rocznik astronomiczny i tablice pojawiają się w wymaganiach dopiero dla żeglugi oceanicznej (rejon 4) – i to jako wyposażenie zalecane.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Nie – sekstant i chronometr przewiduje się dopiero w żegludze oceanicznej",
+       "wrong": [
+        "Tak – są obowiązkowe od żeglugi pełnomorskiej",
+        "Tak, ale tylko na jachtach dłuższych niż 15 m",
+        "Tak – zastępują odbiornik GPS"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-23",
+      "q": "Czy jacht może wyjść w rejs z niesprawnym AIS?",
+      "a": "Tak. Na jachtach do 24 m AIS jest w każdym rejonie tylko wyposażeniem zalecanym, nie obowiązkowym (obowiązkowy jest dopiero na dużych jachtach, od 300 GT). Warto go naprawić, ale nie blokuje wyjścia.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Tak – na jachtach AIS jest wyposażeniem zalecanym, a nie obowiązkowym",
+       "wrong": [
+        "Nie – AIS musi być zawsze sprawny",
+        "Nie – bez AIS nie można prowadzić nawigacji",
+        "Tylko w żegludze osłoniętej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-24",
+      "q": "Czy polski jacht w żegludze pełnomorskiej musi mieć radar?",
+      "a": "Jacht krótszy niż 20 m – nie (typowy jacht, którym dowodzi JSM). Według tabeli wyposażenia radar jest wymagany dopiero na jachtach o długości kadłuba co najmniej 20 m w rejonach 2–4 (oraz na jachtach od 24 m). Obowiązkowy dla każdego jachtu jest natomiast reflektor radarowy.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III, przypis 8",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Jacht krótszy niż 20 m nie musi mieć radaru; wymagany jest reflektor radarowy",
+       "wrong": [
+        "Tak – każdy jacht w żegludze pełnomorskiej",
+        "Tak, ale tylko jachty o długości 12–18 m",
+        "Nie – ale wtedy obowiązkowy jest AIS"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-25",
+      "q": "Jakie podstawowe wyposażenie nawigacyjne musi mieć jacht w każdym rejonie żeglugi?",
+      "a": "Kompas magnetyczny z atestem, lornetkę, zestaw do pracy na mapach, aktualne mapy morskie lub żeglarskie, locję i spis świateł (w rejonie 1 mogą być wyciągi), MPZZ, MKS i przepisy portowe, reflektor radarowy z atestem. Wyżej dochodzą m.in. barometr i GPS (od rejonu 2), sekundomierz i spis radiostacji (od rejonu 3), zapasowy/namiarowy kompas (rejon 4).",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. III",
+      "difficulty": 3,
+      "mc": {
+       "correct": "Kompas, lornetka, zestaw nawigacyjny, aktualne mapy, locja, spis świateł, MPZZ, MKS, reflektor radarowy",
+       "wrong": [
+        "Tylko GPS i ploter z mapami",
+        "Kompas, sekstant i chronometr",
+        "Wyłącznie mapy – reszta zależy od kapitana"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-26",
+      "q": "Jakie urządzenia radiowe są wymagane na jachcie do 24 m w zależności od rejonu?",
+      "a": "Rejon 1 i 2: radiotelefon VHF. Rejon 3: stacjonarny VHF z DSC, radiopława EPIRB 406 MHz, odbiornik prognoz i ostrzeżeń. Rejon 4: dodatkowo łączność dalekiego zasięgu (MF/HF z DSC lub satelitarna) i SART albo AIS-SART. EPIRB musi być zarejestrowana.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. IV",
+      "difficulty": 2,
+      "mc": {
+       "correct": "R1–2: VHF; R3: VHF DSC, EPIRB 406 MHz, odbiór prognoz; R4: + MF/HF lub satelita i SART",
+       "wrong": [
+        "W każdym rejonie wystarczy telefon komórkowy",
+        "EPIRB wymagana już w rejonie 1",
+        "VHF wymagany dopiero w żegludze pełnomorskiej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-27",
+      "q": "Jak sprawdzić sprawność radiopławy EPIRB przy przejmowaniu jachtu?",
+      "a": "Sprawdzić datę ważności baterii (etykieta/atest), datę ważności zwalniaka hydrostatycznego (oznaczenie na obudowie lub uchwycie), rejestrację radiopławy, a potem wykonać test (self-test) zgodnie z instrukcją. Sam pozytywny test nie wystarczy.",
+      "explain": "Nigdy nie sprawdza się EPIRB przez nadanie prawdziwego alarmu – służy do tego przycisk testu.",
+      "source": "Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 8 (EPIRB)",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Data ważności baterii, data ważności zwalniaka hydrostatycznego, a potem test sprawdzający",
+       "wrong": [
+        "Wystarczy pozytywny test – nic więcej",
+        "Wystarczy świadectwo radiopławy i test",
+        "Krótko włączyć radiopławę w tryb alarmowy i sprawdzić, czy MRCC oddzwoni"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-28",
+      "q": "Czy przepisy określają szczegółową zawartość apteczki jachtowej?",
+      "a": "Nie. Rozporządzenie wymaga apteczki, ale jej skład jest tylko zalecany (stosownie do przeznaczenia jachtu i rejonu żeglugi). Na dłuższy rejs skład najlepiej ustalić z lekarzem, uwzględniając załogę, czas rejsu i akwen.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. VI",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Nie – są tylko zalecenia; na długi rejs skład apteczki najlepiej ustalić z lekarzem",
+       "wrong": [
+        "Tak – wystarczy typowa apteczka samochodowa",
+        "Tak – obowiązuje zestaw pierwszej pomocy z normy dla statków handlowych",
+        "Nie – apteczka na jachcie jest nieobowiązkowa"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-29",
+      "q": "Jakie kategorie projektowe CE wyróżnia się dla jachtów rekreacyjnych?",
+      "a": "A – oceaniczne: wiatr powyżej 8°B, fala znacząca powyżej 4 m; B – pełnomorskie: do 8°B i fali 4 m; C – wody przybrzeżne, duże zatoki, jeziora: do 6°B i fali 2 m; D – wody osłonięte: do 4°B i fali 0,3 m (sporadycznie 0,5 m).",
+      "explain": "Kategorie wynikają z dyrektywy UE o jachtach rekreacyjnych (RCD) i są podane na tabliczce znamionowej oraz w instrukcji jachtu.",
+      "source": "Dyrektywa 2013/53/UE (RCD); Kolaszewski, rozdz. 14",
+      "difficulty": 2,
+      "mc": {
+       "correct": "A >8°B, fala >4 m; B do 8°B, 4 m; C do 6°B, 2 m; D do 4°B, 0,3 m",
+       "wrong": [
+        "A do 6°B; B do 8°B; C do 10°B; D bez ograniczeń",
+        "A – śródlądowe, B – przybrzeżne, C – pełnomorskie, D – oceaniczne",
+        "Kategoria zależy tylko od długości: A >18 m, B >12 m, C >8 m, D <8 m"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-30",
+      "q": "Na tabliczce czarterowanego jachtu (polska bandera) jest: CE, kategoria C, max 8 osób, max obciążenie 1000 kg. Gdzie i przy jakiej pogodzie możesz nim pływać jako JSM?",
+      "a": "Tylko po wodach przybrzeżnych, przy wietrze do 6°B (i fali do ok. 2 m), z załogą nie większą niż 8 osób i jachtem krótszym niż 18 m (limit patentu JSM). Nie „przy każdej pogodzie”.",
+      "source": "Dyrektywa 2013/53/UE (RCD)",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Po wodach przybrzeżnych, przy wietrze do 6°B, max 8 osób; jacht krótszy niż 18 m (limit JSM)",
+       "wrong": [
+        "Przy każdej pogodzie, jeśli załoga nie przekracza 8 osób",
+        "Przy wietrze do 8°B na pełnym morzu",
+        "Bez ograniczeń – kategoria CE nie dotyczy czarteru"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "level": 7,
+   "lesson": {
+    "id": "L7-x-planowanie2",
+    "title": "Publikacje, mapy i czarter w planowaniu dalszych rejsów",
+    "theory": [
+     {
+      "t": "p",
+      "text": "Dłuższy rejs planuje się „od ogółu do szczegółu”: najpierw **mapy generalne** (mała skala) i – na oceanie – **miesięczne mapy warunków (Routeing/Pilot Charts)**, potem mapy brzegowe, podejściowe i plany portów, locje i spisy świateł."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "**Admiralty List of Radio Signals** – tom 5: GMDSS i ratownictwo na całym świecie.",
+       "Rejsy turystyczne (np. Dania, Szwecja): **przewodniki żeglarskie z planami marin** i **mapy jachtowe**.",
+       "Czarter: dopuszczenie jachtu do planowanej żeglugi, wyposażenie na akwen, **zakres terytorialny ubezpieczenia** i umowy.",
+       "Apteczka na długi rejs – skład ustal z lekarzem."
+      ]
+     }
+    ],
+    "cards": [
+     {
+      "id": "L7-p1-31",
+      "q": "Na co przede wszystkim zwracasz uwagę, czarterując jacht na rejs międzynarodowy (np. z Norwegii do Szkocji i z powrotem)?",
+      "a": "Czy jacht jest dopuszczony do takiej żeglugi (dokumenty bezpieczeństwa, kategoria CE, rejon), czy ma wyposażenie wymagane na ten akwen i jaki obszar obejmuje ubezpieczenie (oraz umowa czarteru).",
+      "explain": "Umowy czarterowe i polisy często ograniczają akwen (np. tylko wody przybrzeżne danego kraju) – wyjście poza niego oznacza brak ochrony ubezpieczeniowej.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Dopuszczenie jachtu do takiej żeglugi, wyposażenie na ten akwen i zakres terytorialny ubezpieczenia",
+       "wrong": [
+        "Moc silnika i pojemność zbiorników paliwa",
+        "Bandera jachtu i wyposażenie radiowe",
+        "Liczba koi i wyposażenie kambuza"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-32",
+      "q": "Dlaczego przed rejsem czarterowym sprawdzasz zakres terytorialny ubezpieczenia jachtu?",
+      "a": "Bo polisa (casco i OC) zwykle obejmuje tylko określony akwen lub rejon – szkoda poza nim może nie zostać pokryta, a przekroczenie granic akwenu narusza też umowę czarteru.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Polisa zwykle obejmuje tylko określony akwen – poza nim szkoda może nie być pokryta",
+       "wrong": [
+        "Bo ubezpieczenie jachtu zawsze obejmuje cały świat",
+        "Bo od zakresu polisy zależy wymagana liczba kamizelek",
+        "Bo bez tego nie można podnieść flagi grzecznościowej"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-33",
+      "q": "Jak dzieli się mapy morskie według skali i do czego służy każda grupa?",
+      "a": "Generalne (1:500 000 i mniejsze) – ogólne planowanie i żegluga z dala od lądu; brzegowe (ok. 1:500 000–1:100 000) – żegluga wzdłuż wybrzeża; podejściowe (1:100 000–1:25 000) – podchodzenie do lądu i portów; plany portów (1:25 000 i większe) – porty, wąskie przejścia.",
+      "source": "Kolaszewski, Żeglarz jachtowy i JSM, rozdz. 5",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Generalne – planowanie; brzegowe – wzdłuż wybrzeża; podejściowe – do portów; plany – w portach",
+       "wrong": [
+        "Wszystkie mapy morskie mają jedną skalę 1:100 000",
+        "Generalne służą do wchodzenia do portu, plany do oceanów",
+        "Dzieli się je tylko na papierowe i elektroniczne"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-34",
+      "q": "Czym najprościej posłużyć się do ogólnego zaplanowania długiego rejsu (np. Gdynia – Dublin: trasa, porty, czasy przelotów)?",
+      "a": "Mapami generalnymi (małoskalowymi) – na jednym arkuszu widać cały akwen, łatwo wytyczyć trasę, zmierzyć odległości i rozplanować porty. Szczegóły odcinków opracowuje się potem na mapach w większej skali.",
+      "source": "Kolaszewski, rozdz. 5",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Mapami generalnymi (małoskalowymi) obejmującymi cały akwen",
+       "wrong": [
+        "Kompletem map drogowych i planów portów",
+        "Wyłącznie planami portów",
+        "Mapami podejściowymi w skali 1:50 000"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-35",
+      "q": "Jaka pomoc jest najdokładniejsza przy planowaniu przelotów oceanicznych (wybór trasy i miesiąca)?",
+      "a": "Mapy miesięczne warunków (Routeing Charts, ang. też Pilot Charts) – dla każdego miesiąca pokazują przeważające wiatry, częstość sztormów, prądy, zasięg lodów i zalecane trasy. Uzupełnia je publikacja Ocean Passages for the World.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Miesięczne mapy warunków meteorologicznych i prądów (Routeing Charts / Pilot Charts)",
+       "wrong": [
+        "Locje akwenów, na których planujesz żeglugę",
+        "Rozdział o cyrkulacji wiatrów w podręczniku meteorologii",
+        "Spis świateł danego oceanu"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-36",
+      "q": "W jakim wydawnictwie znajdziesz informacje o systemie ratownictwa (GMDSS, ośrodki MRCC, procedury) na wodach całego świata?",
+      "a": "W Admiralty List of Radio Signals, tom 5 (GMDSS) – zawiera ogólnoświatowe dane o łączności w niebezpieczeństwie i służbach poszukiwania i ratownictwa.",
+      "explain": "Inne tomy ALRS to m.in. stacje brzegowe (t. 1), radiowe pomoce nawigacyjne (t. 2), serwisy MSI i meteo (t. 3), serwis pilotowy, VTS i porty (t. 6).",
+      "source": "UKHO, Admiralty List of Radio Signals",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Admiralty List of Radio Signals, tom 5 (GMDSS)",
+       "wrong": [
+        "Admiralty Sailing Directions",
+        "Admiralty List of Lights",
+        "Nie ma takiego wydawnictwa – każdy kraj wydaje własne"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-37",
+      "q": "Jakie wydawnictwa będą najbardziej przydatne w turystycznym rejsie z Polski na wody duńskie?",
+      "a": "Żeglarskie (jachtowe) mapy akwenu i przewodniki dla żeglarzy z planami portów jachtowych i marin – zawierają głębokości, miejsca dla jachtów, usługi i kanały VHF marin. Publikacje Admiralicji są pisane głównie dla statków handlowych.",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Przewodniki żeglarskie z planami portów jachtowych i żeglarskie mapy akwenu",
+       "wrong": [
+        "Publikacje Admiralicji: Pilots, List of Lights, Charts",
+        "Wydawnictwa BHMW o polskim wybrzeżu",
+        "Atlas samochodowy Danii i plany miast"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-38",
+      "q": "Czym różnią się żeglarskie przewodniki (cruising guides) od locji Admiralicji?",
+      "a": "Przewodnik żeglarski opisuje akwen z punktu widzenia jachtu: plany małych portów i marin, miejsca postoju, kotwicowiska, głębokości przy kejach, usługi. Locja Admiralicji jest pełniejsza, ale nastawiona na statki handlowe i często pomija małe porty jachtowe.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Przewodnik pokazuje małe porty i mariny z perspektywy jachtu; locja Admiralicji – głównie dla statków",
+       "wrong": [
+        "Przewodnik zastępuje mapy morskie wymagane przepisami",
+        "Locja Admiralicji ma więcej planów marin niż przewodnik",
+        "Nie różnią się – to ta sama publikacja"
+       ]
+      }
+     },
+     {
+      "id": "L7-p1-39",
+      "q": "Jak zaplanować wyposażenie apteczki na około miesięczny rejs?",
+      "a": "Indywidualnie: przepisy nie podają składu, są tylko zalecenia. Najlepiej skonsultować skład z lekarzem, uwzględniając liczbę osób, długość rejsu, odległość od pomocy medycznej, klimat i leki przyjmowane przez członków załogi.",
+      "source": "Rozporządzenie w sprawie bezpiecznego uprawiania żeglugi przez jachty morskie (t.j. Dz.U. 2016 poz. 1557), zał. 1, cz. VI",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Nie ma przepisów w tym zakresie – są zalecenia; najlepiej skonsultować skład z lekarzem",
+       "wrong": [
+        "Kupić typową apteczkę pierwszej pomocy",
+        "Wystarczy typowa apteczka samochodowa",
+        "Skład podaje karta bezpieczeństwa jachtu"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "notes": "Do weryfikacji: (1) PZŻ nr 217 (radar) – klucz B („jachty nie muszą mieć radaru”), ale tabela III zał. 1 (t.j. Dz.U. 2016 poz. 1557) wymaga radaru na jachtach o długości ≥20 m w rejonach 2–4 (przypis 8); fiszka L7-p1-24 podaje stan prawny (jacht <20 m nie musi), więc odpowiedź C z bazy PZŻ jest w praktyce bliższa przepisowi – sprawdzić klucz. (2) PZŻ nr 197 – sekstant i chronometr są w zał. 1 tylko ZALECANE (Z) w rejonie 4, a nie obowiązkowe; fiszka mówi „przewiduje się dopiero w żegludze oceanicznej (jako zalecane)”. (3) PZŻ nr 299 – wyjaśnienie w gaps wspomina pochodnie i więcej pławek; zał. 1 wymaga tylko 12 rakiet spadochronowych + 1 pławki dymnej (bez pochodni) – fiszki trzymają się przepisu. (4) PZŻ nr 260 – klucz A, ale uwaga 5 zał. 1 wymaga w żegludze całodobowej lampek LSA przy kamizelkach (opcja C nie jest więc całkiem błędna); dodano osobną fiszkę L7-p1-12. (5) PZŻ nr 196 – Zalew Szczeciński to rejon 1, a odp. C mówi o rejonie 2; fiszka formułuje zasadę ogólnie („rejon faktycznej żeglugi”). (6) PZŻ nr 24 – wynik 6 zakłada jedną gaśnicę 4 kg przy silniku ≤120 kW (dopuszczalne zamiennie 2×2 kg). (7) Kolumny tabeli III zał. 1 w wersji tekstowej PDF były przesunięte – przypisanie GPS/barometru (od rejonu 2), sekundomierza i spisu radiostacji (od rejonu 3), kompasu zapasowego (rejon 4) warto potwierdzić w oryginale PDF. (8) Nie sprawdzano, czy po 2016 r. ukazał się nowszy tekst jednolity lub zmiana rozporządzenia; jachty rekreacyjne do 15 m bez dobrowolnej inspekcji są wyłączone z § 8–15 (§ 2 ust. 1 pkt 3). (9) Tomy ALRS (1,2,3,6) w explain L7-p1-36 – wg wiedzy ogólnej, UKHO bywa reorganizuje."
+}

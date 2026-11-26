@@ -552,6 +552,38 @@
     "Jeden wybuch – drugi tylko po odpowiedzi",
     "Trzy wybuchy jednocześnie co godzinę"
    ]
+  },
+  "L3-p3-28": {
+   "correct": "Ostrzeżenie dla jachtu, by nie zmieniał kursu w stronę statku",
+   "wrong": [
+    "Statek oczekuje pilota i pokazuje mu swoją pozycję",
+    "Statek prosi jacht o pomoc",
+    "Statek oświetla przypadkowy obiekt w wodzie – nie dotyczy to jachtu"
+   ]
+  },
+  "L3-p3-29": {
+   "correct": "Sygnał świetlny lub dźwiękowy nie do pomylenia z innymi albo reflektor w stronę niebezpieczeństwa",
+   "wrong": [
+    "Tylko pięć krótkich dźwięków",
+    "Wyłącznie czerwone rakiety i pochodnie",
+    "Oświetlenie reflektorem mostka drugiego statku, by go obudzić"
+   ]
+  },
+  "L3-p4-01": {
+   "correct": "Utrzymuje kurs – statek zmienia kurs w lewo i schodzi z drogi",
+   "wrong": [
+    "Zmienia kurs w prawo",
+    "Zatrzymuje się i rzuca kotwicę",
+    "Odpowiada dwoma krótkimi i też skręca w lewo"
+   ]
+  },
+  "L3-p4-02": {
+   "correct": "Statek łowiący okrężnicą – mijać w dużej odległości (ok. 1 Mm)",
+   "wrong": [
+    "Statek na mieliźnie – minąć za rufą",
+    "Pilotówka – zatrzymać się i czekać",
+    "Statek holujący – przejść za rufą holu"
+   ]
   }
  }
 }

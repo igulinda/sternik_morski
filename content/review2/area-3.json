@@ -1,0 +1,761 @@
+{
+ "area": 3,
+ "newCards": [
+  {
+   "level": 6,
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-p3-01",
+    "q": "Co – poza szkoleniem alarmowym – jest najważniejsze w zapoznaniu nowej załogi z jachtem przed wyjściem w morze?",
+    "a": "Praktyczna obsługa jachtu: stawianie, zrzucanie i refowanie żagli, obsługa urządzeń kotwicznych i uruchamianie silnika.",
+    "explain": "Od tego zależy, czy załoga w razie potrzeby szybko zmniejszy żagiel, rzuci kotwicę albo uruchomi silnik – np. przy szkwale, awarii czy zbliżaniu się do brzegu. Elektronika i wygody są drugorzędne.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Stawianie, zrzucanie i refowanie żagli, obsługa kotwicy i uruchamianie silnika",
+     "wrong": [
+      "Obsługa autopilota, radaru i odsalacza wody",
+      "Obsługa plotera, pontonu z silnikiem i różne sposoby cumowania",
+      "Wyłącznie zasady wachty i porządku w kambuzie"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-p3-02",
+    "q": "Którą burtą bezpieczniej przechodzić po pokładzie jachtu w czasie żeglugi?",
+    "a": "Nawietrzną (wyższą) – jest mniej zalewana, a przechył dociska człowieka do jachtu, zamiast zsuwać go za burtę.",
+    "explain": "Po zawietrznej pokład jest nisko, zalewa go fala, a upadek kończy się na relingu albo za burtą. Zasada: poruszać się nisko, „jedna ręka dla siebie, druga dla jachtu”, wpiętym szelkami do lajfliny.",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Nawietrzną – wyższą i mniej zalewaną; przechył dociska do pokładu",
+     "wrong": [
+      "Zawietrzną – jest bliżej wody, więc łatwiej złapać się relingu",
+      "Bez znaczenia, jeśli ma się kamizelkę",
+      "Zawietrzną, bo tam pracują szoty foka i jest za co chwycić"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-srodki",
+   "card": {
+    "id": "L6-p3-03",
+    "q": "Jesteś w wodzie, a kamizelka pneumatyczna się nie napełniła. Co robisz?",
+    "a": "Najpierw szarpnij za uchwyt ręcznego wyzwalania naboju; jeśli to nie pomoże – wyjmij spod pokrowca rurkę z ustnikiem i napełnij kamizelkę ustami.",
+    "explain": "Każda kamizelka pneumatyczna ma rurkę do napełniania ustnego (z zaworem zwrotnym). Służy też do dopompowania kamizelki. Wymiana naboju w wodzie nie wchodzi w grę.",
+    "source": "Instrukcje producentów kamizelek; EN ISO 12402",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Uruchomić ręcznie uchwytem, a gdy to zawiedzie – nadmuchać ustami przez rurkę do napełniania",
+     "wrong": [
+      "Nic się nie da zrobić – trzeba zdjąć kamizelkę i trzymać się jej",
+      "Wymienić w wodzie nabój CO₂ na zapasowy",
+      "Rozpiąć kamizelkę, żeby woda dostała się do wkładu automatu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-p3-04",
+    "q": "Jak gasi się gaśnicą pożar w zamkniętej komorze silnika?",
+    "a": "Wyłączyć silnik (i odciąć paliwo), tylko lekko uchylić pokrywę lub użyć otworu gaśniczego i od razu podać środek gaśniczy do środka.",
+    "explain": "Szeroko otwarta pokrywa to nagły dopływ tlenu – ogień może buchnąć na ratującego. Zamknięta komora ogranicza tlen, a środek gaśniczy zostaje w środku. Wody nie używa się na palące się paliwo.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Wyłączyć silnik, lekko uchylić pokrywę/otwór i natychmiast podać środek gaśniczy",
+     "wrong": [
+      "Otworzyć szeroko pokrywę, zobaczyć co się pali, potem gasić",
+      "Otworzyć komorę i lać wodę zaburtową",
+      "Wpuścić świeże powietrze, by rozwiać dym, i dopiero gasić"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-awarie",
+   "card": {
+    "id": "L6-p3-05",
+    "q": "Do czego służy mały otwór (lub zaślepka) w obudowie komory silnika na jachcie?",
+    "a": "To otwór gaśniczy – pozwala podać środek gaśniczy (np. CO₂ lub proszek) do komory bez jej otwierania.",
+    "explain": "Gdzie nie ma otworu gaśniczego ani instalacji automatycznej, pokrywę uchyla się tylko na tyle, by wsunąć wylot gaśnicy.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Do podania środka gaśniczego do komory silnika bez otwierania pokrywy",
+     "wrong": [
+      "Do wentylacji komory podczas ładowania akumulatorów",
+      "Do kontroli poziomu oleju bez zdejmowania obudowy",
+      "Do odprowadzania wody z zęzy pod silnikiem"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-p3-06",
+    "q": "Jak sterować, pokonując pojedynczą wysoką falę przy sztormowaniu pod wiatr?",
+    "a": "Przed nadejściem grzbietu ostrzyć (dziób pod falę), a po jego przejściu odpadać – nigdy nie stawać burtą do łamiącego się grzbietu.",
+    "explain": "Ostrzenie ustawia dziób skośnie pod grzbiet, więc jacht przecina go i nie zostaje przewrócony; odpadnięcie na tylnym zboczu przywraca prędkość i sterowność przed następną falą.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ostrzyć przed nadejściem grzbietu fali i odpadać po jego przejściu",
+     "wrong": [
+      "Odpadać przed nadejściem grzbietu i ostrzyć po jego przejściu",
+      "Trzymać stały kąt ok. 70° do każdej fali",
+      "Ustawić się burtą do fali, by jacht łagodnie się na niej kołysał"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-p3-07",
+    "q": "Kiedy w sztormie fala robi się nagle wyższa i bardzo nieregularna (fala krzyżowa)?",
+    "a": "Gdy silny wiatr szybko zmienia kierunek o ok. 45–90° (np. po przejściu frontu) – nowa fala nakłada się na starą, wciąż wysoką.",
+    "explain": "Dwa układy fal z różnych kierunków sumują się: powstają strome piramidy i nieprzewidywalne grzbiety, trudne do pokonania. Ostrzejszą falę daje też wiatr przeciwny prądowi.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Gdy silny wiatr szybko skręca o ok. 45–90° względem istniejącej fali",
+     "wrong": [
+      "Gdy jacht wychodzi ze strefy przybrzeżnej na otwarte morze",
+      "Gdy wiatr słabnie, a jego kierunek się nie zmienia",
+      "Gdy jacht zbliża się do brzegu nawietrznego"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-p3-08",
+    "q": "Jaka jest ogólna zasada wyboru taktyki sztormowania w pobliżu lądu?",
+    "a": "Unikać brzegu po zawietrznej, mieć dużo wolnej wody; najlepiej schować się w cieniu lądu (po jego zawietrznej stronie, gdzie fala jest mała) albo wejść do portu schronienia.",
+    "explain": "Przy 9–10°B walka pod wiatr i falę zwykle jest bezskuteczna. Zamiast tego wykorzystuje się wiatr, by dojść za wyspę lub cypel, gdzie fala jest krótka i niska.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Szukać osłony za lądem po jego stronie zawietrznej i trzymać się z dala od brzegu zawietrznego",
+     "wrong": [
+      "Zawsze płynąć pod wiatr na silniku do najbliższego brzegu",
+      "Podejść jak najbliżej brzegu, na który wieje wiatr",
+      "Zrzucić żagle i dryfować bez względu na to, co jest po zawietrznej"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sztorm",
+   "card": {
+    "id": "L6-p3-09",
+    "q": "Jacht jest na północ od Bornholmu (rejon Zatoki Hanö), wiatr wzrósł do NE 10°B. Co zrobić?",
+    "a": "Sztormować z wiatrem na sztormfoku, zejść za Bornholm i schować się po jego zachodniej (zawietrznej) stronie, ewentualnie wejść do portu schronienia.",
+    "explain": "Wybrzeże Szwecji jest tu na nawietrznej – nie da się do niego dojść pod 10°B. Wiatr NE zepchnie jacht na SW, a za Bornholmem (od W) jest osłona od fali. Dryf bez żagli przy takim wietrze jest niebezpieczny.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Z wiatrem na sztormfoku za Bornholm, pod jego zachodni brzeg, ewentualnie do portu schronienia",
+     "wrong": [
+      "Na refach i silniku iść pod wiatr do wybrzeża szwedzkiego",
+      "Zrzucić żagle i dryfować, w razie potrzeby uruchomić silnik",
+      "Halsować pod wiatr, by utrzymać się w Zatoce Hanö"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-x-akcja",
+   "card": {
+    "id": "L6-p3-10",
+    "q": "Płyniesz do brzegu, by sztrandować. Z brzegu wystrzelono czerwoną rakietę, a obok niej, na prawo – białą. Co to znaczy?",
+    "a": "Lądowanie tutaj jest niebezpieczne; dogodniejsze miejsce jest w kierunku wskazanym białą rakietą (tu: na prawo).",
+    "explain": "Czerwony sygnał (rakieta, światło, poziome ruchy flagą) = tu nie lądować. Gdy obok pojawia się biały sygnał – wskazuje kierunek lepszego miejsca lądowania.",
+    "source": "SOLAS rozdz. V, Tabela sygnałów ratowniczych (IAMSAR)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Lądowanie tu niebezpieczne – lądujcie w kierunku wskazanym białą rakietą",
+     "wrong": [
+      "Widzimy was i zaraz udzielimy pomocy",
+      "Podejście jednostki ratowniczej do was jest niemożliwe",
+      "Lądujcie dokładnie w miejscu czerwonej rakiety"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-x-akcja",
+   "card": {
+    "id": "L6-p3-11",
+    "q": "Jak brzegowa stacja ratownicza wskazuje w dzień, że lądowanie jest możliwe w innym miejscu?",
+    "a": "Ratownik macha poziomo białą flagą, wbija ją w ziemię, a drugą flagę przenosi w kierunku dogodniejszego miejsca (nocą tak samo – białymi światłami).",
+    "explain": "Pionowe ruchy białą flagą (światłem) lub zielona rakieta = „tu najlepsze miejsce do lądowania / tak”. Poziome ruchy lub czerwona rakieta = „lądowanie tu bardzo niebezpieczne / nie”.",
+    "source": "SOLAS rozdz. V, Tabela sygnałów ratowniczych (IAMSAR)",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Poziome ruchy białą flagą, wbicie jej w ziemię i przeniesienie drugiej flagi w kierunku lądowania",
+     "wrong": [
+      "Pionowe ruchy białą flagą skierowane w stronę jachtu",
+      "Trzy pomarańczowe sygnały dymne w odstępach minuty",
+      "Zielona rakieta wystrzelona w kierunku lądowania"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-x-akcja",
+   "card": {
+    "id": "L6-p3-12",
+    "q": "Czy od jednostki ratowniczej SAR można żądać, by holowała jacht?",
+    "a": "Nie można tego żądać. SAR ratuje ludzi; jacht holuje tylko wtedy, gdy jest to jedyny lub najbezpieczniejszy sposób uratowania załogi – decyduje jednostka ratownicza.",
+    "explain": "Ratowanie samego jachtu (mienia) to ratownictwo – zwykle płatne holowanie komercyjne. Jeśli ewakuacja ludzi z jachtu byłaby bardzo niebezpieczna, ratownicy mogą zdecydować się wziąć jacht na hol razem z załogą.",
+    "source": "Ustawa o bezpieczeństwie morskim (Służba SAR); Kodeks morski – ratownictwo",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tylko gdy to jedyny sposób uratowania ludzi – decyduje jednostka ratownicza",
+     "wrong": [
+      "Tak, ratownictwo zawsze obejmuje załogę i jacht",
+      "Tak, jeśli kapitan jachtu o to poprosi przez radio",
+      "Nie, SAR nigdy nie holuje jachtów"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sar",
+   "card": {
+    "id": "L6-p3-13",
+    "q": "Jaki obszar obejmuje polski rejon odpowiedzialności SAR?",
+    "a": "Południowy Bałtyk przy polskim wybrzeżu (wody wewnętrzne, morze terytorialne i polską wyłączną strefę ekonomiczną) wraz z wybrzeżem – bez rejonu Bornholmu, który należy do Danii.",
+    "explain": "Granice rejonów SAR (SRR) uzgadniają państwa sąsiednie; rejon Bornholmu obsługuje duński JRCC. Polski rejon koordynuje MRCK w Gdyni (z pomocniczym centrum w Świnoujściu).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Południowy Bałtyk i polskie wybrzeże, bez rejonu Bornholmu",
+     "wrong": [
+      "Całe Morze Bałtyckie",
+      "Tylko polskie morze terytorialne (12 Mm)",
+      "Bałtyk od Sundu po Zatokę Fińską"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sar",
+   "card": {
+    "id": "L6-p3-14",
+    "q": "Kto zapewnia łączność radiową w niebezpieczeństwie w polskim rejonie SAR?",
+    "a": "Brzegowa radiostacja ratownicza z siecią nadajników wzdłuż wybrzeża (dawniej „Witowo Radio”, dziś „Polish Rescue Radio” współpracujące z MRCK) – nie kapitanaty portów.",
+    "explain": "Radiostacja brzegowa prowadzi nasłuch kanału 16 i DSC kanału 70, odbiera alarmy i przekazuje je do MRCK. Kapitanaty słuchają kanału 16, ale nie są systemem łączności w niebezpieczeństwie. W pytaniach egzaminacyjnych pada nazwa „Witowo Radio i jej ekspozytury”.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Brzegowa radiostacja ratownicza z nadajnikami wzdłuż wybrzeża (dawniej Witowo Radio)",
+     "wrong": [
+      "Kapitanaty portów polskich",
+      "Wyłącznie okręty Marynarki Wojennej",
+      "Każda marina na swoim kanale roboczym"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sar",
+   "card": {
+    "id": "L6-p3-15",
+    "q": "Czy przy sztrandowaniu na polskim wybrzeżu można liczyć na pomoc bezpośrednio z lądu?",
+    "a": "Tak – Służba SAR ma brzegowe stacje ratownicze (np. Łeba, Ustka, Darłowo, Kołobrzeg, Dziwnów, Władysławowo) ze sprzętem do ratowania z brzegu: aparatem rakietowym, amfibią, pontonami.",
+    "explain": "Stacja wskazuje miejsce lądowania, a gdy pogoda pozwala, ewakuuje załogę z brzegu i organizuje transport do szpitala.",
+    "source": "Podręcznik – Ratownictwo (Brzegowe Stacje Ratownictwa)",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tak – brzegowe stacje ratownicze SAR mają sprzęt do ratowania z brzegu",
+     "wrong": [
+      "Nie, z lądu nie da się pomóc jachtowi",
+      "Tylko śmigłowcem, z lądu – nigdy",
+      "Tylko gdy jacht wejdzie do portu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-sar",
+   "card": {
+    "id": "L6-p3-16",
+    "q": "Jak brzegowa stacja ratownicza ewakuuje załogę jachtu, który osiadł blisko brzegu?",
+    "a": "Z aparatu rakietowego wystrzeliwuje linkę na pokład, po niej podaje linę z blokiem do zamocowania na jachcie; po linach przeciąga ludzi na brzeg (w pontonie lub w spodniach ratowniczych).",
+    "explain": "Linę i blok mocuje się trwale na jachcie tak, by lina biegała swobodnie. Gotowość do transportu sygnalizuje się radiem, zieloną rakietą albo pionowymi ruchami białego światła lub flagi.",
+    "source": "Podręcznik – Ratownictwo (współpraca z brzegowymi stacjami)",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Rzutką rakietową podaje linę i blok, potem przeciąga ludzi liną na brzeg",
+     "wrong": [
+      "Jacht trzeba samemu przyholować do plaży",
+      "Ratownicy wpływają na brzeg łodzią i holują jacht do portu",
+      "Załoga ma płynąć wpław do brzegu wzdłuż liny kotwicznej"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-pirotechnika",
+   "card": {
+    "id": "L6-p3-17",
+    "q": "Czy uruchomienie radiopławy EPIRB daleko od lądu na pewno zaalarmuje ratowników?",
+    "a": "Nie jest to pewne – zależy od typu radiopławy: EPIRB 406 MHz jest odbierany przez satelity na całym świecie, ale radiopława tylko 121,5 MHz nie jest już odbierana przez satelity i działa jedynie z bliska.",
+    "explain": "Satelity COSPAS-SARSAT przestały przetwarzać sygnały 121,5 MHz w 2009 r. Dziś 121,5 MHz służy tylko do naprowadzania ratowników z bliska. Skuteczność zależy też od rejestracji, baterii i poprawnego uruchomienia.",
+    "source": "COSPAS-SARSAT",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Nie jest pewne – zależy to od typu radiopławy i jej zasięgu",
+     "wrong": [
+      "Tak, każda radiopława ma zasięg globalny",
+      "Nie, radiopława ma zasięg taki jak radiotelefon UKF",
+      "Tak, ale tylko na Bałtyku i Morzu Północnym"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-pirotechnika",
+   "card": {
+    "id": "L6-p3-18",
+    "q": "Czym różnią się sygnały 406 MHz i 121,5 MHz w radiopławie EPIRB?",
+    "a": "406 MHz – alarm z identyfikatorem (i pozycją GPS) przez satelity COSPAS-SARSAT; 121,5 MHz – słaby sygnał naprowadzający dla ratowników w pobliżu (namierzanie).",
+    "difficulty": 2,
+    "mc": {
+     "correct": "406 MHz – alarm przez satelity; 121,5 MHz – naprowadzanie ratowników z bliska",
+     "wrong": [
+      "406 MHz – naprowadzanie, 121,5 MHz – alarm satelitarny",
+      "Oba sygnały dają globalny alarm, różnią się tylko mocą",
+      "121,5 MHz to kanał głosowy do rozmowy z ratownikami"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-pirotechnika",
+   "card": {
+    "id": "L6-p3-19",
+    "q": "Co sprawdzić w radiopławie EPIRB przed rejsem?",
+    "a": "Rejestrację na jacht (aktualne dane), datę ważności baterii i zwalniacza hydrostatycznego, poprawne zamocowanie i zabezpieczenie przed przypadkowym uruchomieniem, test funkcją SELF-TEST.",
+    "explain": "Test robi się wyłącznie przyciskiem TEST – nie wysyła on alarmu. Niezarejestrowana radiopława wydłuża identyfikację, a w razie fałszywego alarmu ratownicy nie mają z kim się skontaktować.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Rejestrację, ważność baterii i zwalniacza hydrostatycznego, mocowanie i wynik autotestu",
+     "wrong": [
+      "Wykonać próbne pełne uruchomienie alarmu na kilka minut",
+      "Tylko czy obudowa jest sucha",
+      "Nic – EPIRB jest bezobsługowy przez cały okres eksploatacji"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-20",
+    "q": "Co oznacza przycisk „DW” na radiotelefonie VHF?",
+    "a": "Dual Watch – podwójny nasłuch: kanału 16 i jednego wybranego kanału roboczego (radio przełącza się między nimi).",
+    "explain": "Podobnie TW (Tri Watch) – nasłuch kanału 16, wybranego kanału roboczego i dodatkowego kanału (np. wywoławczego). Moc przełącza się przyciskiem H/L (1 W / 25 W).",
+    "difficulty": 1,
+    "mc": {
+     "correct": "Podwójny nasłuch – kanał 16 i dowolny wybrany kanał",
+     "wrong": [
+      "Przełączenie mocy nadajnika 1 W / 25 W",
+      "Podwójny nasłuch na dwóch dowolnych kanałach, bez kanału 16",
+      "Włączenie trybu cyfrowego DSC na kanale 70"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-21",
+    "q": "Na jaki zasięg radiotelefonu VHF (UKF) można liczyć przy łączności z jachtu?",
+    "a": "Ze stacją brzegową – ok. 30–40 Mm (wysoko położone anteny); jacht–jacht – ok. 10–15 Mm; radio ręczne – kilka mil.",
+    "explain": "Fale UKF rozchodzą się prawie prostoliniowo – zasięg zależy przede wszystkim od wysokości obu anten (horyzont radiowy), a mniej od mocy nadajnika.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ze stacją brzegową ok. 30–40 Mm; jacht–jacht znacznie mniej",
+     "wrong": [
+      "60–70 Mm w każdych warunkach",
+      "70–80 Mm, a przy dobrej pogodzie ponad 100 Mm",
+      "Tylko 1–2 Mm, bez względu na wysokość anten"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-22",
+    "q": "Na jakich częstotliwościach prowadzi się fonią korespondencję w niebezpieczeństwie na falach średnich (MF) i na VHF?",
+    "a": "MF – 2182 kHz; VHF – kanał 16.",
+    "tip": "Na „,5” i na kanale 70 się nie mówi – tam pracuje cyfrowe DSC.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "MF 2182 kHz i VHF kanał 16",
+     "wrong": [
+      "MF 2187,5 kHz i VHF kanał 70",
+      "MF 2187,5 kHz i VHF kanał 6",
+      "MF 2182 kHz i VHF kanał 70"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-23",
+    "q": "Do czego służy częstotliwość 2187,5 kHz?",
+    "a": "Do alarmów i wywołań cyfrowych DSC na falach średnich (MF) – odpowiednik kanału 70 na VHF. Fonia w niebezpieczeństwie na MF – 2182 kHz.",
+    "explain": "Para: DSC 2187,5 kHz → fonia 2182 kHz (MF); DSC kanał 70 → fonia kanał 16 (VHF). NAVTEX nadaje na 518 kHz.",
+    "difficulty": 3,
+    "mc": {
+     "correct": "Do cyfrowego wywołania DSC na falach średnich (odpowiednik kanału 70)",
+     "wrong": [
+      "Do rozmów fonią w niebezpieczeństwie na falach średnich",
+      "Do odbioru komunikatów NAVTEX",
+      "Do łączności mostek–mostek jak kanał 13"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-24",
+    "q": "Ile razy radiotelefon nada alarm DSC po wciśnięciu przycisku DISTRESS?",
+    "a": "Będzie go automatycznie powtarzał co kilka minut (ok. 3,5–4,5 min), aż alarm zostanie potwierdzony przez stację brzegową albo przerwany przez operatora.",
+    "explain": "Po wysłaniu alarmu radio przełącza się na kanał 16 – trzeba tam nadać fonią MAYDAY i czekać na odpowiedź.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Powtarza go automatycznie, dopóki nie zostanie potwierdzony lub przerwany",
+     "wrong": [
+      "Tylko jeden raz",
+      "Zawsze dokładnie trzy razy",
+      "Nada go raz na każdym kanale VHF"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-25",
+    "q": "Członek załogi przypadkowo wysłał alarm DSC DISTRESS. Co robisz?",
+    "a": "Przerywasz powtarzanie alarmu (funkcja anulowania lub krótkie wyłączenie radia), a potem od razu nadajesz fonią na kanale 16: ALL STATIONS ×3, THIS IS nazwa ×3, znak, MMSI, CANCEL MY DISTRESS ALERT OF data, godzina UTC.",
+    "explain": "Odwołanie kieruje się do wszystkich stacji, bez czekania na wywołanie. Nie wyłącza się radia na dłużej – ratownicy mogą chcieć potwierdzić odwołanie na kanale 16.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Przerwać alarm, a potem nadać na kanale 16 do wszystkich stacji: CANCEL MY DISTRESS ALERT…",
+     "wrong": [
+      "Nic nie robić – stacja brzegowa sama rozpozna pomyłkę",
+      "Czekać, aż ktoś nas wywoła, i dopiero wtedy odwołać alarm",
+      "Nadać ponownie alarm DSC, by unieważnić pierwszy"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-26",
+    "q": "Na kanale 16 ogłoszono SEELONCE MAYDAY. Czy możesz wywołać marinę na jej kanale roboczym (np. 69)?",
+    "a": "Tak – cisza radiowa dotyczy tylko kanału, na którym trwa korespondencja w niebezpieczeństwie (tu kanału 16).",
+    "explain": "Na kanale 16 wolno wtedy nadawać tylko stacjom biorącym udział w akcji. Z mariną łączysz się bezpośrednio na jej kanale, nie wywołując jej na 16.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Tak, bo cisza radiowa dotyczy tylko kanału 16",
+     "wrong": [
+      "Nie, cisza radiowa obowiązuje na wszystkich kanałach",
+      "Dopiero gdy na kanale 16 nastąpi przerwa w korespondencji",
+      "Tylko za zgodą stacji kierującej akcją"
+     ]
+    }
+   }
+  },
+  {
+   "level": 6,
+   "lesson": "L6-lacznosc",
+   "card": {
+    "id": "L6-p3-27",
+    "q": "Czym różni się wezwanie w niebezpieczeństwie od zawiadomienia w niebezpieczeństwie?",
+    "a": "Wezwanie (distress call) to MAYDAY ×3, THIS IS i identyfikacja jednostki (nazwa ×3, znak, MMSI). Zawiadomienie (distress message) to treść: MAYDAY, identyfikacja, pozycja, rodzaj niebezpieczeństwa, potrzebna pomoc, liczba osób, inne informacje.",
+    "explain": "Wezwanie i zawiadomienie nadaje się kolejno w jednym ciągu. Przekazanie cudzego niebezpieczeństwa to MAYDAY RELAY.",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Wezwanie – tylko MAYDAY i identyfikacja; zawiadomienie – wszystkie informacje o niebezpieczeństwie",
+     "wrong": [
+      "To to samo, tylko inaczej nazwane",
+      "Wezwanie dotyczy naszej jednostki, a zawiadomienie – innej",
+      "Wezwanie nadaje się przez DSC, a zawiadomienie przez EPIRB"
+     ]
+    }
+   }
+  },
+  {
+   "level": 3,
+   "lesson": "L3-sygnaly",
+   "card": {
+    "id": "L3-p3-28",
+    "q": "Statek płynący równolegle do jachtu kieruje snop reflektora przed dziób jachtu. Co to oznacza?",
+    "a": "Sygnał zwrócenia uwagi (prawidło 36) – ostrzeżenie: statek wskazuje niebezpieczeństwo, tu: nie zmieniaj kursu w jego stronę.",
+    "source": "MPZZ, prawidło 36",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Ostrzeżenie dla jachtu, by nie zmieniał kursu w stronę statku",
+     "wrong": [
+      "Statek oczekuje pilota i pokazuje mu swoją pozycję",
+      "Statek prosi jacht o pomoc",
+      "Statek oświetla przypadkowy obiekt w wodzie – nie dotyczy to jachtu"
+     ]
+    }
+   }
+  },
+  {
+   "level": 3,
+   "lesson": "L3-sygnaly",
+   "card": {
+    "id": "L3-p3-29",
+    "q": "Co pozwala prawidło 36 MPZZ (sygnały zwrócenia uwagi)?",
+    "a": "Każdy statek może dać sygnał świetlny lub dźwiękowy, którego nie da się pomylić z sygnałami z MPZZ, albo skierować reflektor w stronę niebezpieczeństwa – tak, by nie oślepiać innych statków.",
+    "explain": "Do zwracania uwagi nie wolno używać świateł mogących przypominać światła nawigacyjne lub znaki, ani silnych świateł błyskowych czy obrotowych.",
+    "source": "MPZZ, prawidło 36",
+    "difficulty": 2,
+    "mc": {
+     "correct": "Sygnał świetlny lub dźwiękowy nie do pomylenia z innymi albo reflektor w stronę niebezpieczeństwa",
+     "wrong": [
+      "Tylko pięć krótkich dźwięków",
+      "Wyłącznie czerwone rakiety i pochodnie",
+      "Oświetlenie reflektorem mostka drugiego statku, by go obudzić"
+     ]
+    }
+   }
+  }
+ ],
+ "newLessons": [
+  {
+   "level": 6,
+   "lesson": {
+    "id": "L6-x-pierwsza-pomoc",
+    "title": "Pierwsza pomoc na jachcie – urazy i oparzenia",
+    "theory": [
+     {
+      "t": "p",
+      "text": "Na morzu pomoc lekarska jest daleko, dlatego załoga musi sama zabezpieczyć poszkodowanego i wezwać **poradę radiową (PAN PAN MEDICO)**, a w razie potrzeby ewakuację."
+     },
+     {
+      "t": "table",
+      "head": [
+       "Sytuacja",
+       "Co robić",
+       "Czego nie robić"
+      ],
+      "rows": [
+       [
+        "nieprzytomny",
+        "udrożnij drogi oddechowe (odchylenie głowy, uniesienie żuchwy), sprawdź oddech do 10 s; brak – RKO 30:2",
+        "nie zaczynaj oddechów bez udrożnienia"
+       ],
+       [
+        "złamanie kości",
+        "unieruchom **2 sąsiednie stawy**, lek przeciwbólowy, wezwij pomoc",
+        "nie nastawiaj, nie przenoś bez unieruchomienia"
+       ],
+       [
+        "uraz stawu (skręcenie, zwichnięcie)",
+        "zimny okład 15–30 min, unieruchom, unieś kończynę",
+        "nie nastawiaj, nie rozgrzewaj, nie masuj"
+       ],
+       [
+        "złamanie żeber",
+        "**pozycja półsiedząca**, miejsce najmniej kołyszące, lek przeciwbólowy",
+        "nie kładź płasko, nie zaciskaj mocno klatki"
+       ],
+       [
+        "oparzenie kwasem",
+        "**długie płukanie wodą** (min. 15–20 min), potem jałowy opatrunek",
+        "nie neutralizuj bez płukania; do oka – tylko woda"
+       ]
+      ]
+     },
+     {
+      "t": "tip",
+      "text": "Kość złamana → unieruchom stawy obok; staw uszkodzony → unieruchom kości obok."
+     }
+    ],
+    "cards": [
+     {
+      "id": "L6-p3-30",
+      "q": "Co trzeba zrobić u nieprzytomnej osoby przed sprawdzeniem oddechu i rozpoczęciem sztucznego oddychania?",
+      "a": "Udrożnić drogi oddechowe: odchylić głowę do tyłu i unieść żuchwę (dłoń na czole, dwa palce pod brodą), usunąć z ust widoczne ciała obce.",
+      "explain": "U nieprzytomnego język opada i zatyka gardło. Bez udrożnienia oddechy ratownicze nie dotrą do płuc. Ochrona przed wychłodzeniem jest ważna, ale później.",
+      "source": "Wytyczne ERC 2021 – podstawowe zabiegi resuscytacyjne",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Udrożnić drogi oddechowe – odchylić głowę i unieść żuchwę",
+       "wrong": [
+        "Najpierw okryć poszkodowanego, by nie tracił ciepła",
+        "Przenieść go na miękkie podłoże, np. na koję",
+        "Podać do picia ciepły napój"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-31",
+      "q": "Jak sprawdzić, czy nieprzytomny oddycha?",
+      "a": "Po udrożnieniu dróg oddechowych przez maks. 10 sekund patrzeć na ruchy klatki piersiowej, słuchać i wyczuwać oddech policzkiem. Brak oddechu lub pojedyncze westchnienia – zaczynamy RKO 30:2.",
+      "explain": "Rzadkie, chrapliwe westchnienia (oddech agonalny) nie są prawidłowym oddechem. Jeśli oddycha normalnie – pozycja boczna bezpieczna i stała obserwacja.",
+      "source": "Wytyczne ERC 2021",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Do 10 s: patrzeć, słuchać i wyczuwać oddech przy udrożnionych drogach oddechowych",
+       "wrong": [
+        "Przez 1 minutę mierzyć tętno na nadgarstku",
+        "Przyłożyć lusterko do ust i czekać, aż zaparuje",
+        "Potrząsać nim, aż sam zacznie oddychać"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-32",
+      "q": "Jak udzielić pierwszej pomocy przy złamaniu kończyny na jachcie?",
+      "a": "Unieruchomić złamaną kość razem z dwoma sąsiednimi stawami, ułożyć chorego wygodnie, podać lek przeciwbólowy i jak najszybciej wezwać pomoc lekarską (porada radiowa, ewakuacja).",
+      "explain": "Unieruchomienie obu stawów (np. przy złamaniu podudzia – kolana i stawu skokowego) zapobiega przemieszczaniu odłamów. Nie nastawia się złamania. Po założeniu szyny sprawdza się krążenie w palcach.",
+      "source": "Podręcznik – Ratownictwo, pierwsza pomoc (złamania)",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Unieruchomić 2 sąsiednie stawy, ułożyć wygodnie, podać lek przeciwbólowy, wezwać pomoc lekarską",
+       "wrong": [
+        "Ułożyć w pozycji bocznej bezpiecznej i płynąć do portu",
+        "Nastawić kończynę do pierwotnego kształtu i zabandażować",
+        "Masować i rozgrzewać miejsce urazu"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-33",
+      "q": "Czym usztywnić złamaną kończynę na jachcie, gdy nie ma szyny?",
+      "a": "Rękę – przybandażować do tułowia lub zawiesić na chuście; nogę – przybandażować do zdrowej nogi albo do sztywnych przedmiotów (listwa, wiosło, zwinięta karimata).",
+      "explain": "Przy złamaniu otwartym najpierw jałowy opatrunek na ranę (nie wpychać odłamów), potem unieruchomienie. Nie przenosi się poszkodowanego przed unieruchomieniem kończyny.",
+      "source": "Podręcznik – Ratownictwo, pierwsza pomoc (złamania)",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Rękę do tułowia lub na chuście, nogę do zdrowej nogi lub sztywnego przedmiotu",
+       "wrong": [
+        "Wystarczy ciasno owinąć samo miejsce złamania",
+        "Nie usztywniać – unieruchomienie tylko pogarsza krążenie",
+        "Przywiązać kończynę do koi liną cumowniczą"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-34",
+      "q": "Członek załogi upadł na pokładzie i ma silny ból klatki piersiowej, nasilający się przy wdechu (podejrzenie złamania żeber). Co robisz?",
+      "a": "Sadzasz go w pozycji półsiedzącej w miejscu najmniej narażonym na kołysanie, podajesz lek przeciwbólowy, obserwujesz oddech i wzywasz poradę lekarską.",
+      "explain": "W pozycji półsiedzącej łatwiej się oddycha. Egzamin wymienia też szeroką opaskę okrężną na klatkę – dziś nie zaleca się jej ciasnego zaciskania, bo ogranicza oddech. Narastająca duszność może oznaczać odmę – pilnie wezwij pomoc.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Pozycja półsiedząca w miejscu najmniej narażonym na kołysanie, leki przeciwbólowe",
+       "wrong": [
+        "Ułożyć w pozycji bocznej bezpiecznej na wietrze",
+        "Podawać ciepłe płyny i leki przeciwkaszlowe",
+        "Położyć płasko na plecach i uciskać klatkę piersiową"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-35",
+      "q": "Członek załogi oparzył się kwasem z akumulatora. Jak postępować?",
+      "a": "Zdjąć zanieczyszczone ubranie, długo (min. 15–20 min) płukać miejsce dużą ilością czystej wody; potem można przemyć roztworem sody oczyszczonej lub mydła i założyć jałowy opatrunek.",
+      "explain": "Najważniejsze jest szybkie i długie płukanie – rozcieńcza i usuwa kwas. Neutralizacja bez płukania jest błędem. Ratownik chroni własne ręce (rękawiczki).",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Długo płukać wodą, potem przemyć roztworem sody lub mydła i założyć jałowy opatrunek",
+       "wrong": [
+        "Od razu założyć suchy opatrunek bez płukania",
+        "Nałożyć bezpośrednio okład z mydła lub sody, bez płukania",
+        "Posmarować oparzenie tłustym kremem"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-36",
+      "q": "Kwas z akumulatora prysnął do oka. Co robisz?",
+      "a": "Natychmiast płuczesz oko dużą ilością czystej wody przez co najmniej 15 minut, strumieniem od nosa ku skroni (by nie zalać drugiego oka), potem jałowy opatrunek i porada lekarska.",
+      "explain": "Do oka niczego nie neutralizuje się chemicznie – tylko woda. Powieki trzeba rozchylić, bo poszkodowany odruchowo je zaciska.",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Płukać oko wodą min. 15 minut, od strony nosa na zewnątrz, potem do lekarza",
+       "wrong": [
+        "Zakropić oko roztworem sody, by zobojętnić kwas",
+        "Przetrzeć oko suchą gazą i zamknąć powiekę",
+        "Nic nie robić, aż łzy same wypłuczą kwas"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-37",
+      "q": "Przy schodzeniu z jachtu członek załogi skręcił staw skokowy (ból, obrzęk, siniak). Jak postępować?",
+      "a": "Zimne okłady przez ok. 15–20 (do 30) minut, unieruchomić staw (np. bandażem elastycznym), unieść kończynę, podać lek przeciwbólowy.",
+      "explain": "Zimno zmniejsza obrzęk i ból; lodu nie przykłada się bezpośrednio do skóry. Przez pierwsze doby nie rozgrzewa się urazu. Silny ból, zniekształcenie lub brak możliwości obciążenia – podejrzewaj złamanie.",
+      "source": "Podręcznik – Ratownictwo, pierwsza pomoc (skręcenia, zwichnięcia)",
+      "difficulty": 1,
+      "mc": {
+       "correct": "Zimne okłady 15–30 min, unieruchomić staw, podać lek przeciwbólowy",
+       "wrong": [
+        "Ciasny bandaż i trzymanie nogi w cieple",
+        "Unieruchomić całą nogę i natychmiast wzywać śmigłowiec",
+        "Rozmasować staw i rozchodzić ból"
+       ]
+      }
+     },
+     {
+      "id": "L6-p3-38",
+      "q": "Czy zwichnięty staw próbuje się nastawić na jachcie?",
+      "a": "Nie – staw zostawia się w zastanej pozycji, stosuje zimny okład, unieruchamia (z sąsiednimi kośćmi) i transportuje poszkodowanego do lekarza.",
+      "explain": "Nastawianie przez niefachowca może uszkodzić naczynia i nerwy. Przy urazie stawu unieruchamia się dwie sąsiednie kości, przy złamaniu kości – dwa sąsiednie stawy.",
+      "source": "Podręcznik – Ratownictwo, pierwsza pomoc",
+      "difficulty": 2,
+      "mc": {
+       "correct": "Nie – zimny okład, unieruchomienie w zastanej pozycji i transport do lekarza",
+       "wrong": [
+        "Tak, im szybciej, tym lepiej",
+        "Tak, jeśli poszkodowany się zgodzi",
+        "Tak, po podaniu leków przeciwbólowych"
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "notes": "Do weryfikacji: (1) Nazwa i status polskiej radiostacji brzegowej – pytanie PZŻ 251 podaje „Witowo Radio”; karta podaje, że dziś funkcję pełni „Polish Rescue Radio” współpracujące z MRCK – sprawdzić aktualną nazwę i organizację (Służba SAR / Polskie Radio Morskie). (2) Dokładny opis granic polskiego SRR (wody wewnętrzne, morze terytorialne, WSE; Bornholm w duńskim SRR) – uproszczony. (3) Zasięgi VHF (30–40 Mm do stacji brzegowej, 10–15 Mm jacht–jacht) to wartości orientacyjne. (4) Odstęp automatycznego powtarzania alarmu DSC (3,5–4,5 min) wg ITU-R M.493 – zależny od modelu radia. (5) Opis klawisza TW (Tri Watch) – różni producenci przyjmują różne kanały dodatkowe. (6) Pierwsza pomoc: przy żebrach egzamin (279A) wymienia opaskę okrężną – karta zaznacza, że obecnie nie zaleca się ciasnego bandażowania; przy kwasie egzamin (280B) wymienia przemywanie sodą/mydłem po płukaniu – obecne wytyczne kładą nacisk tylko na długie płukanie wodą; czas zimnych okładów 15–30 min wg pytania 281. (7) Pyt. 284: rozwiązanie scenariuszowe (Zatoka Hanö, NE 10°B) przyjęte wg klucza A. (8) Pyt. 311: teoria lekcji L6-sar już mówi o holowaniu warunkowo – nie zmieniano teorii (nowa karta w L6-x-akcja). Kartę z prawidłem 36 umieszczono w L3-sygnaly (poziom 3), bo dotyczy MPZZ."
+}

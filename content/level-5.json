@@ -129,6 +129,32 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
      "explain": "Gdy powietrze się ochładza, wilgotność względna rośnie; przy 100% osiąga punkt rosy i zaczyna się kondensacja."
+    },
+    {
+     "id": "L5-p4-01",
+     "q": "Gdzie na jachcie umieścić termometr do pomiaru temperatury powietrza?",
+     "a": "W miejscu zacienionym i przewiewnym, z dala od źródeł ciepła (silnik, kuchenka, nagrzany pokład, kabina).",
+     "difficulty": 1
+    },
+    {
+     "id": "L5-p4-02",
+     "q": "Wiatromierz pokazuje tylko wiatr pozorny. Czy da się ustalić wiatr rzeczywisty?",
+     "a": "Tak, jeśli znasz prędkość (z logu) i kurs jachtu: wiatr rzeczywisty to wektor wiatru pozornego pomniejszony o wektor ruchu jachtu – z trójkąta wektorów lub automatycznie w instrumencie połączonym z logiem.",
+     "explain": "Przy kursie pod wiatr wiatr pozorny jest silniejszy i bardziej z dziobu niż rzeczywisty; z wiatrem (baksztag, fordewind) – słabszy.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-03",
+     "q": "Jak w przybliżeniu przeliczyć prędkość wiatru w węzłach na stopnie Beauforta?",
+     "a": "Wzorem °B ≈ (węzły + 5) / 5, np. 20 w → 5°B, 10 w → 3°B (dobry dla wiatrów do ok. 7–8°B).",
+     "explain": "Druga przydatna reguła: m/s ≈ węzły / 2.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-04",
+     "q": "W jakich jednostkach podaje się prędkość wiatru w komunikatach meteorologicznych?",
+     "a": "Zależy od kraju i nadawcy – najczęściej w stopniach Beauforta lub w m/s (np. Szwecja, Finlandia podają m/s), czasem w węzłach (pliki GRIB, raporty lotnicze).",
+     "difficulty": 1
     }
    ]
   },
@@ -268,6 +294,20 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
      "explain": null
+    },
+    {
+     "id": "L5-p4-05",
+     "q": "Jak wieje wiatr przyziemny wokół niżu na półkuli północnej względem izobar?",
+     "a": "Przeciwnie do ruchu wskazówek zegara, ale nie równolegle do izobar – tarcie o powierzchnię odchyla go do środka niżu o ok. 20–40° (mniej nad morzem, więcej nad lądem).",
+     "explain": "Na wysokości (bez tarcia) wiatr wieje prawie wzdłuż izobar – to wiatr geostroficzny. Przy powierzchni jest też słabszy.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-06",
+     "q": "W prognozie słyszysz: „niż znad Danii pogłębia się i szybko przemieszcza na wschód”. Czego spodziewać się nad Zatoką Gdańską w najbliższej dobie?",
+     "a": "Wzrostu siły wiatru (niż się pogłębia, gradient rośnie) z kierunków zachodnich – po przejściu niżu wiatr skręca przez SW i W na NW.",
+     "explain": "Pogłębianie = spadek ciśnienia w centrum = silniejszy wiatr. Gdy niż przechodzi na północ od nas lub nad nami na wschód, za nim napływa chłodne powietrze z silnym wiatrem z sektora zachodniego.",
+     "difficulty": 3
     }
    ]
   },
@@ -784,6 +824,13 @@
      "difficulty": 2,
      "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
      "explain": null
+    },
+    {
+     "id": "L5-p4-07",
+     "q": "Czym jest skala Petersena i jak ma się do skali Beauforta?",
+     "a": "To opis wyglądu powierzchni morza (fale, grzywacze, piana) przypisany kolejnym stopniom Beauforta – obie skale są ściśle powiązane: po wyglądzie morza ocenia się siłę wiatru w °B.",
+     "explain": "Nie myl ze skalą Douglasa, która opisuje stan morza (wysokość fali) niezależnie od siły wiatru.",
+     "difficulty": 2
     }
    ]
   },
@@ -901,6 +948,34 @@
      "difficulty": 1,
      "source": "Kolaszewski, Świdwiński – 7. Meteorologia",
      "explain": "Oznaki ładnej pogody to m.in.: obfita rosa rano i wieczorem, mgła opadająca nad ranem, dym unoszący się pionowo, stałe lub rosnące ciśnienie, czerwony zachód Słońca."
+    },
+    {
+     "id": "L5-p4-08",
+     "q": "Co to są pliki GRIB i co jest potrzebne, by korzystać z nich na jachcie?",
+     "a": "Skompresowane dane z numerycznych modeli pogody (wiatr, ciśnienie, fala, opady) na siatce punktów i na kilka dni naprzód. Potrzebny komputer/tablet z programem do ich wyświetlania i łącze: internet (w porcie, GSM), łączność satelitarna lub radio KF/SSB z modemem (poczta radiowa).",
+     "explain": "GRIB to „surowy” wynik modelu – wygładza fronty, szkwały i porywy, a jego wiarygodność maleje po 3–5 dniach. Traktuj go jako uzupełnienie oficjalnych prognoz i ostrzeżeń.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-09",
+     "q": "W prognozie NAVTEX czytasz: „SOUTHWEST 5 TO 6, BECOMING WEST 7 LATER”. Co to znaczy?",
+     "a": "Wiatr z SW o sile 5–6°B (TO = zakres „od…do”), później (LATER) zmieniający się (BECOMING) na W 7°B.",
+     "explain": "Inne zwroty: OCCASIONALLY – chwilami, VEERING – skręt w prawo, BACKING – skręt w lewo, IMMINENT – w ciągu 6 h, SOON – 6–12 h, LATER – po ponad 12 h.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-10",
+     "q": "W jakiej kolejności podawane są elementy w prognozie dla rejonu (np. NAVTEX, Met Office)?",
+     "a": "Nazwa rejonu, wiatr (kierunek i siła w °B, zmiany), stan morza (np. MODERATE, ROUGH), pogoda (RAIN, SHOWERS), widzialność (GOOD, MODERATE, POOR). Nagłówek prognozy podaje okres ważności (np. na 12 lub 24 h).",
+     "explain": "Słowo MODERATE może dotyczyć stanu morza (po wietrze) albo widzialności (na końcu) – rozpoznasz po miejscu w zdaniu. Nazwy rejonów (np. German Bight, Fisher, Southern Baltic) znajdziesz w spisie radiostacji / na mapce rejonów.",
+     "difficulty": 2
+    },
+    {
+     "id": "L5-p4-11",
+     "q": "Jak odczytać wiatr z meteogramu ICM (meteo.pl)?",
+     "a": "Oś pozioma to czas (kolejne godziny prognozy); w panelu wiatru wykres pokazuje prędkość (w m/s, często z porywami), a symbole/strzałki dla kolejnych godzin – kierunek. Prędkość przeliczasz na °B.",
+     "explain": "Meteogram pokazuje prognozę dla jednego punktu (miejscowości) – na morzu wiatr bywa silniejszy niż w punkcie lądowym. Zwróć uwagę na strefę czasu (UTC/czas lokalny) podaną na osi.",
+     "difficulty": 2
     }
    ]
   }
