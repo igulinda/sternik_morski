@@ -66,10 +66,10 @@
 
   /* ---- postęp fiszek ---- */
   async function loadProgress() {
-    const { data, error } = await client.from('card_progress').select('card_id,box,seen,last_at,due_at,ivl').range(0, 9999);
+    const { data, error } = await client.from('card_progress').select('card_id,box,seen,last_at,due_at,ivl,wrong').range(0, 9999);
     if (error) throw error;
     const out = {};
-    data.forEach((r) => { out[r.card_id] = { box: r.box, seen: r.seen, last: Date.parse(r.last_at), due: r.due_at ? Date.parse(r.due_at) : null, ivl: r.ivl || 0 }; });
+    data.forEach((r) => { out[r.card_id] = { box: r.box, seen: r.seen, last: Date.parse(r.last_at), due: r.due_at ? Date.parse(r.due_at) : null, ivl: r.ivl || 0, wrong: r.wrong || 0 }; });
     return out;
   }
 
@@ -98,7 +98,7 @@
       try {
         if (ids.length) {
           const rows = ids.map((id) => ({ user_id: user.id, card_id: id, box: q.cards[id].box, seen: q.cards[id].seen, last_at: new Date(q.cards[id].last || Date.now()).toISOString(),
-            due_at: q.cards[id].due ? new Date(q.cards[id].due).toISOString() : null, ivl: q.cards[id].ivl || 0 }));
+            due_at: q.cards[id].due ? new Date(q.cards[id].due).toISOString() : null, ivl: q.cards[id].ivl || 0, wrong: q.cards[id].wrong || 0 }));
           const { error } = await client.from('card_progress').upsert(rows, { onConflict: 'user_id,card_id' });
           if (error) throw error;
         }

@@ -104,3 +104,4 @@ returns table (display_name text, is_me boolean, mastered integer, learning inte
 language sql stable set search_path = '' as $$ select * from private.family_progress() $$;
 revoke all on function public.family_progress() from public, anon;
 grant execute on function public.family_progress() to authenticated;
+alter table public.card_progress add column if not exists wrong integer not null default 0; -- licznik błędów (statystyki trudnych pytań)

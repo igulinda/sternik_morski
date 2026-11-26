@@ -46,6 +46,7 @@
     const p = progress[id] || { box: 0, seen: 0, ivl: 0 };
     p.seen += 1; p.last = Date.now();
     if (g === 'bad') p.box = 0; else if (g === 'mid') p.box = Math.max(1, Math.min(p.box, 1)); else p.box = Math.min(3, Math.max(p.box, 0) + 1);
+    if (g === 'bad') p.wrong = (p.wrong || 0) + 1;
     if (g === 'bad') p.ivl = 0;
     else if (g === 'mid') p.ivl = 1;
     else p.ivl = Math.min(120, (p.ivl || 0) >= 1 ? Math.round(p.ivl * 2.5) : 1);
@@ -324,6 +325,48 @@
     startSession(due.slice(0, n), `Powtórki na dziś${due.length > n ? ` (${n} z ${due.length})` : ''}`, '#start', { mode: 'powtorki' });
   }
 
+  /* ---------- ćwiczenia na mapie ---------- */
+  function viewMap() {
+    app.innerHTML = `<a href="#egzamin">← Egzaminy</a><h1>Ćwiczenia na mapie</h1>
+      <p class="sub">Mapa ćwiczebna fikcyjnego akwenu w odwzorowaniu Merkatora – jak w zadaniu nawigacyjnym na egzaminie: odczyt i nanoszenie pozycji, namiary, zliczenie, kurs i czas przejścia. Każde zadanie losuje nowe dane.</p>
+      <div id="mapApp"></div>`;
+    const started = new Date().toISOString();
+    window.MapTrainer.mount(document.getElementById('mapApp'), {
+      onResult(title, ok, total) {
+        if (Cloud.user) Cloud.queueSession({ mode: 'mapa', title: `Mapa: ${title} – ${ok}/${total}`, lesson_id: null, started_at: started, finished_at: new Date().toISOString(), total, ok, mid: 0, bad: total - ok });
+      }
+    });
+  }
+
+  /* ---------- trudne pytania ---------- */
+  function viewHard() {
+    const all = allLessons().flatMap((ls) => ls.cards.filter((c) => !c.gen).map((c) => ({ ...c, lessonTitle: ls.title, level: ls.level })));
+    const tried = all.filter((c) => progress[c.id]);
+    const hard = tried.filter((c) => (progress[c.id].wrong || 0) > 0)
+      .map((c) => ({ c, w: progress[c.id].wrong || 0, n: progress[c.id].seen || 0, b: progress[c.id].box }))
+      .sort((x, y) => (y.w - x.w) || (y.w / Math.max(1, y.n) - x.w / Math.max(1, x.n)) || (x.b - y.b));
+    const byLevel = {};
+    tried.forEach((c) => { const L = byLevel[c.level] = byLevel[c.level] || { w: 0, n: 0 }; L.w += progress[c.id].wrong || 0; L.n += progress[c.id].seen || 0; });
+    const top = hard.slice(0, 40);
+    let html = `<a href="#historia">← Historia</a><h1>Trudne pytania</h1>
+      <p class="sub">Fiszki i pytania, na których najczęściej odpowiadasz „Nie wiem” lub mylisz się w egzaminie. Błędy liczą się od wprowadzenia tej funkcji.</p>`;
+    if (!hard.length) {
+      html += `<div class="card-box"><p>Na razie brak zapisanych błędów. 👍 Ucz się dalej – fiszki, z którymi masz kłopot, pojawią się tutaj.</p></div>`;
+    } else {
+      html += `<div class="card-box"><button class="btn primary" id="drill">Ćwicz ${Math.min(20, hard.length)} najtrudniejszych →</button></div>`;
+      html += `<h2>Błędy w działach</h2><div class="card-box">${Object.entries(byLevel).sort((a, b) => a[0] - b[0]).map(([l, v]) => {
+        const meta = INDEX.levels.find((x) => x.level === +l); const pct = v.n ? Math.round(100 * v.w / v.n) : 0;
+        return `<div class="lvl-score"><span>${l}. ${esc(meta ? meta.title : '')}</span><b class="${pct <= 10 ? 'g-ok' : pct <= 25 ? 'g-mid' : 'g-bad'}">${pct}% błędów</b></div>`;
+      }).join('')}</div>`;
+      html += `<h2>Najczęstsze błędy</h2><div class="card-box hist-list">${top.map(({ c, w, n, b }) => `<div class="hist-row"><div class="hist-main">
+          <div class="level-title hard-q">${md(c.q)}</div><div class="meta">${esc(c.lessonTitle)} · ${b >= 2 ? 'już opanowana' : 'do powtórki'}</div></div>
+          <div class="hist-score"><span class="g-bad">${w}× błąd</span><small>na ${n} odpowiedzi</small></div></div>`).join('')}</div>`;
+    }
+    app.innerHTML = html;
+    const d = document.getElementById('drill');
+    if (d) d.onclick = () => startSession(shuffle(hard.slice(0, 20).map((x) => x.c)), 'Trudne pytania', '#trudne', { mode: 'losowy' });
+  }
+
   /* ---------- postęp rodziny ---------- */
   async function viewFamily() {
     app.innerHTML = `<a href="#start">← Start</a><h1>Rodzina na pokładzie</h1><p class="sub">Wczytywanie…</p>`;
@@ -421,6 +464,7 @@
         <div class="stat"><b>${answers ? Math.round(100 * good / answers) : 0}%</b>odpowiedzi „wiem”</div>
       </div>
       <div class="card-box">${progressBar(allCards, true)}</div>
+      <div class="btn-row"><a class="btn" href="#trudne">🎯 Trudne pytania</a></div>
       <h2>Postęp w poziomach</h2><div class="card-box">`;
     INDEX.levels.filter((l) => LEVELS[l.level]).forEach((l) => {
       html += `<div class="hist-level"><b>${l.level}. ${esc(l.title)}</b>${progressBar(LEVELS[l.level].lessons.flatMap((x) => x.cards))}</div>`;
@@ -433,7 +477,7 @@
         const pct = n ? Math.round(100 * x.ok / n) : 0;
         const mins = Math.max(1, Math.round((Date.parse(x.finished_at) - Date.parse(x.started_at)) / 60000));
         return `<div class="hist-row"><div class="hist-main"><div class="level-title">${esc(x.title)}</div>
-          <div class="meta">${fmtDate(x.finished_at)} · ${({ losowy: 'losowo', lekcja: 'lekcja', powtorki: 'powtórki', egzamin: 'egzamin', test: 'test', zadanie: 'zadanie nawigacyjne' })[x.mode] || x.mode} · ${x.total} ${['lekcja', 'losowy', 'powtorki'].includes(x.mode) ? 'fiszek' : 'pytań'} · ${mins} min</div></div>
+          <div class="meta">${fmtDate(x.finished_at)} · ${({ losowy: 'losowo', lekcja: 'lekcja', powtorki: 'powtórki', mapa: 'mapa', egzamin: 'egzamin', test: 'test', zadanie: 'zadanie nawigacyjne' })[x.mode] || x.mode} · ${x.total} ${['lekcja', 'losowy', 'powtorki'].includes(x.mode) ? 'fiszek' : 'pytań'} · ${mins} min</div></div>
           <div class="hist-score" title="wiem / prawie / nie wiem"><span class="g-ok">${x.ok}</span> <span class="g-mid">${x.mid}</span> <span class="g-bad">${x.bad}</span><small>${pct}% od razu</small></div></div>`;
       }).join('') + `</div>`;
     }
@@ -545,7 +589,10 @@
         <div class="btn-row"><button class="btn primary" id="topic">Rozpocznij test</button></div></div>
       <div class="card-box"><h2 style="margin-top:0">🧭 Zadanie nawigacyjne</h2>
         <p>4 obliczenia jak w części nawigacyjnej egzaminu (kurs kompasowy, namiar, zliczenie, dryf). Wpisujesz wyniki, aplikacja je sprawdza i pokazuje rozwiązanie.</p>
-        <a class="btn primary" href="#egzamin-nawigacja">Rozwiąż zadanie</a></div>`;
+        <a class="btn primary" href="#egzamin-nawigacja">Rozwiąż zadanie</a></div>
+      <div class="card-box"><h2 style="margin-top:0">🗺 Ćwiczenia na mapie</h2>
+        <p>Interaktywna mapa ćwiczebna: odczyt i nanoszenie pozycji, pozycja z namiarów, zliczenie drogi, kurs i czas przejścia – z linijką nawigacyjną.</p>
+        <a class="btn primary" href="#mapa">Otwórz mapę</a></div>`;
     const start = (e) => { exam = e; saveExam(); location.hash = '#egzamin-trwa'; if (location.hash === '#egzamin-trwa') renderExamQ(); };
     document.getElementById('full').onclick = () => start(buildExam('egzamin'));
     document.getElementById('topic').onclick = () => {
@@ -707,6 +754,8 @@
     if (a === 'historia' && Cloud.user) return viewHistory();
     if (a === 'egzamin') return viewExam(b);
     if (a === 'powtorki') return viewReviews();
+    if (a === 'trudne') return viewHard();
+    if (a === 'mapa') return viewMap();
     if (a === 'rodzina' && Cloud.user) return viewFamily();
     if (a === 'konto' && Cloud.user) return viewAccount();
     if (a === 'poziom') return viewLevel(+b);

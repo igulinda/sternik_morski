@@ -13,7 +13,7 @@ for l in idx['levels']:
 html = (root / 'index.html').read_text()
 body = html[html.index('<body>') + 6: html.index('<script src=')]
 css = (root / 'css/style.css').read_text()
-js = '\n'.join((root / f).read_text() for f in ['js/visuals.js', 'js/generators.js', 'js/app.js'])
+js = '\n'.join((root / f).read_text() for f in ['js/visuals.js', 'js/generators.js', 'js/mapa.js', 'js/app.js'])
 data = json.dumps(content, ensure_ascii=False).replace('</', '<\\/')
 page = f"""<title>Sternik Morski</title>
 <meta name="description" content="Fiszki do egzaminu na jachtowego sternika morskiego">

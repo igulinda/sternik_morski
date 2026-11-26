@@ -8,3 +8,7 @@
 5. **Postęp rodziny** – ekran „Rodzina” (`#rodzina`): opanowane / w trakcie, ostatnia nauka, sesje w 7 dni, egzaminy próbne. Dane z funkcji `family_progress()` – tylko podsumowania, tylko dla zalogowanych członków rodziny.
 
 Przy dodawaniu nowego pliku treści dopisz go do listy `ASSETS` w `sw.js` (kontrola treści to wychwyci).
+
+## Ćwiczenia na mapie i statystyki trudnych pytań
+6. **Ćwiczenia na mapie** (`#mapa`, `js/mapa.js`) – fikcyjny akwen 54°40′–55°10′N, 017°00′–017°50′E w odwzorowaniu Merkatora: podziałki minut na ramkach, latarnie z charakterystykami, pławy IALA, głębokości, ławica, róża kompasowa (deklinacja 5°E). Przybliżanie (＋/－, szczypta, kółko myszy), przesuwanie palcem, **linijka** (kierunek rzeczywisty i odległość w Mm). Zadania (losowe dane): odczyt pozycji (±0,3′), naniesienie pozycji (±0,4 Mm), pozycja z dwóch namiarów (obliczenie NR, wykreślenie, wskazanie PO), zliczenie drogi (KR, droga, odczyt PZ), kurs i czas przejścia (KR, odległość, KK, czas). Wyniki trafiają do Historii.
+7. **Trudne pytania** (`#trudne`, link w Historii) – licznik błędów każdej fiszki (`wrong`, także błędy z egzaminów), procent błędów w działach, lista najczęstszych błędów i sesja „Ćwicz najtrudniejsze”.

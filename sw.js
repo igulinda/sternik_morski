@@ -2,7 +2,7 @@
  * Pliki aplikacji i treści: najpierw z pamięci podręcznej, w tle aktualizacja z sieci
  * (po zmianach na stronie nowa wersja pojawia się przy kolejnym uruchomieniu).
  * Zapytania do Supabase zawsze idą do sieci (postęp offline czeka w kolejce w aplikacji). */
-const CACHE = 'sternik-v1';
+const CACHE = 'sternik-v2';
 const ASSETS = [
   "./",
   "index.html",
@@ -13,6 +13,7 @@ const ASSETS = [
   "js/cloud.js",
   "js/visuals.js",
   "js/generators.js",
+  "js/mapa.js",
   "js/app.js",
   "content/levels.json",
   "icons/icon-192.png",
