@@ -1214,8 +1214,8 @@
     },
     {
      "id": "L3-x-06",
-     "q": "W jakie przyrządy do sygnałów dźwiękowych musi być wyposażony statek ≥ 12 m, a w jakie ≥ 100 m?",
-     "a": "Statek ≥ 12 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong (o tonie niemylącym się z dzwonem). Jednostka < 12 m musi mieć przynajmniej inny środek do nadawania donośnego sygnału dźwiękowego.",
+     "q": "W jakie przyrządy do sygnałów dźwiękowych musi być wyposażony statek ≥ 12 m, ≥ 20 m i ≥ 100 m?",
+     "a": "Statek ≥ 12 m – gwizdek; ≥ 20 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong (o tonie niemylącym się z dzwonem). Jednostka < 12 m nie musi ich mieć, ale musi mieć inny skuteczny środek sygnalizacji dźwiękowej.",
      "source": "MPZZ, prawidło 33",
      "difficulty": 2
     }

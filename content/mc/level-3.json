@@ -474,11 +474,11 @@
    ]
   },
   "L3-x-06": {
-   "correct": "≥ 12 m: gwizdek i dzwon; ≥ 100 m: dodatkowo gong",
+   "correct": "≥ 12 m – gwizdek; ≥ 20 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong",
    "wrong": [
-    "≥ 12 m: tylko gwizdek; ≥ 50 m: dodatkowo dzwon",
-    "≥ 12 m: gwizdek i gong; ≥ 100 m: dodatkowo dzwon",
-    "≥ 20 m: dzwon; ≥ 100 m: dodatkowo syrena"
+    "≥ 12 m – gwizdek i dzwon; ≥ 100 m – dodatkowo gong",
+    "≥ 20 m – tylko gwizdek; ≥ 50 m – dzwon; ≥ 100 m – gong",
+    "≥ 12 m – dzwon; ≥ 20 m – gwizdek; ≥ 100 m – syrena"
    ]
   },
   "L3-x-07": {
